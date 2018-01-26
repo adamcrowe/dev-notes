@@ -11,73 +11,81 @@
 * Account Holder withdraws cash (assumptions: ATM is working and card is valid)
 * Account Holder withdraws cash with invalid card (assumptions: ATM is working)
 * Account Holder withdraws cash from flaky ATM (assumptions: card is valid)
-* Although this may seem artificial, it allows you to demonstrate progress in business terms and gives you more data points to track with.> The important thing is always to break the story out along business lines by scenarios (and making the assumptions explicit) rather than along technical lines (e.g. doing the database stuff in this iteration and the GUI stuff in the next iteration). This is so the business can see demonstrable progress on their own terms rather than just taking your word for it. -- [Dan North: What's in a Story?](https://dannorth.net/whats-in-a-story/)
+
+> Although this may seem artificial, it allows you to demonstrate progress in business terms and gives you more data points to track with. -- [Dan North: What's in a Story?](https://dannorth.net/whats-in-a-story/)
+
+> The important thing is always to break the story out along business lines by scenarios (and making the assumptions explicit) rather than along technical lines (e.g. doing the database stuff in this iteration and the GUI stuff in the next iteration). This is so the business can see demonstrable progress on their own terms rather than just taking your word for it. -- [Dan North: What's in a Story?](https://dannorth.net/whats-in-a-story/)
 
 ## User Stories
 
-TEMPLATE:
-As a [X: person (or role) who will benefit]
-I want [Y: some feature]
-so that [Z: the benefit or value of the feature]
+### TEMPLATE
+* As a (person or role who will benefit),
+* I want (some feature),
+* so that (the benefit or value of the feature).
 
-EXAMPLE:
-/_ Title: Customer withdraws cash _/
-As a customer,
-I want to withdraw cash from an ATM,
-so that I don't have to wait in line at the bank.
+### EXAMPLES
+
+#### Customer withdraws cash
+* As a customer,
+* I want to withdraw cash from an ATM,
+* so that I don't have to wait in line at the bank.
 
 ## Scenarios/Specifications
 
-TEMPLATE:
-Given some [initial context (the givens)],
-When an [event occurs],
-Then [ensure some outcomes].
+### TEMPLATE
+* Given some (initial context),
+* When an (event occurs),
+* Then (ensure some outcomes).
 
-EXAMPLE:
-/_ Scenario 1: Account is in credit _/
-Given the account is in credit
-And the card is valid
-And the dispenser contains cash
-When the customer requests cash
-Then ensure the account is debited
-And ensure cash is dispensed
-And ensure the card is returned
+### EXAMPLES 
 
-/_ Scenario 2: Account is overdrawn past the overdraft limit _/
-Given the account is overdrawn
-And the card is valid
-When the customer requests cash
-Then ensure a rejection message is displayed
-And ensure cash is not dispensed
-And ensure the card is returned
+#### Scenario 1: Account is in credit
+* Given the account is in credit,
+* And the card is valid,
+* And the dispenser contains cash,
+* When the customer requests cash,
+* Then ensure the account is debited,
+* And ensure cash is dispensed,
+* And ensure the card is returned.
 
-EXAMPLE (STORY + SPEC):
+#### Scenario 2: Account is overdrawn past the overdraft limit
+* Given the account is overdrawn,
+* And the card is valid,
+* When the customer requests cash,
+* Then ensure a rejection message is displayed,
+* And ensure cash is not dispensed,
+* And ensure the card is returned.
 
-/_ Story: Returns go to stock _/
-As a store owner
-In order to keep track of stock
-I want to add items back to stock when they're returned.
+## Story and Scenarios/Specifications
 
-/_ Scenario 1: Refunded items should be returned to stock _/
-Given that a customer previously bought a black sweater from me
-And I have three black sweaters in stock.
-When he returns the black sweater for a refund
-Then I should have four black sweaters in stock.
+### EXAMPLES
 
-/_ Scenario 2: Replaced items should be returned to stock _/
-Given that a customer previously bought a blue garment from me
-And I have two blue garments in stock
-And three black garments in stock.
-When he returns the blue garment for a replacement in black
-Then I should have three blue garments in stock
-And two black garments in stock.
+#### Story: Returns go to stock
+* As a store owner,
+* In order to keep track of stock,
+* I want to add items back to stock when they're returned.
 
-## Testing: Jasmine
+#### Scenario 1: Refunded items should be returned to stock
+* Given that a customer previously bought a black sweater from me,
+* And I have three black sweaters in stock,
+* When he returns the black sweater for a refund,
+* Then I should have four black sweaters in stock.
 
-GIVEN-WHEN-THEN:
+#### Scenario 2: Replaced items should be returned to stock
+* Given that a customer previously bought a blue garment from me,
+* And I have two blue garments in stock,
+* And three black garments in stock,
+* When he returns the blue garment for a replacement in black,
+* Then I should have three blue garments in stock,
+* And two black garments in stock.
+
+## Testing
+
+### GIVEN-WHEN-THEN
+
+> Use the given-when-then format for greater precision about what is being tested.
 
 ```javascript
-// use the given-when-then format for precision about what is being tested 
 
 describe("Given a string containing 'foo'", function() { 
 	var someString; 
@@ -98,9 +106,8 @@ describe("Given a string containing 'foo'", function() {
 ```
 
 ## References
-
 * [Dan North: Introducing BDD](https://dannorth.net/introducing-bdd/)
 * [Dan North: What's in a Story?](https://dannorth.net/whats-in-a-story/)
 * [Wikipedia: Behavior-Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development)
-* [Wikipedia: Jasmine (JavaScript Testing Framework](https://en.wikipedia.org/wiki/Jasmine_(JavaScript_testing_framework)
 * [Jasmine Documentation](https://jasmine.github.io/)
+* [Stack Overflow: Why Jasmine is called a “BDD” testing framework even if no “Given/When/Then” supported?](https://stackoverflow.com/questions/33984182/why-jasmine-is-called-a-bdd-testing-framework-even-if-no-given-when-then-sup)
