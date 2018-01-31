@@ -11,10 +11,10 @@
 <node CREATED="1514246161846" FOLDED="true" ID="ID_1459307230" MODIFIED="1515263261179" TEXT="Includes">
 <node CREATED="1514246166034" ID="ID_1353817231" MODIFIED="1514246167449" TEXT="require(&quot;../src/test.js&quot;);"/>
 </node>
-<node CREATED="1515258841504" FOLDED="true" ID="ID_1952254239" MODIFIED="1516012764396" TEXT="Operators">
+<node CREATED="1515258841504" FOLDED="true" ID="ID_1952254239" MODIFIED="1517320711743" TEXT="Operators">
 <node CREATED="1515766312105" ID="ID_178949811" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators" MODIFIED="1515770543578" TEXT="TODO: Bitwise (MDN)"/>
-<node CREATED="1515765625003" FOLDED="true" ID="ID_1236831658" MODIFIED="1515879913891" TEXT="Assignment">
-<node CREATED="1515765651236" FOLDED="true" ID="ID_460118585" MODIFIED="1515770472158" TEXT="Compound Assignment">
+<node CREATED="1515765625003" FOLDED="true" ID="ID_1236831658" MODIFIED="1517162709516" TEXT="Assignment">
+<node CREATED="1515765651236" ID="ID_460118585" MODIFIED="1517162702960" TEXT="Compound Assignment">
 <node CREATED="1515765708783" FOLDED="true" ID="ID_983206785" MODIFIED="1515769478405">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -140,7 +140,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1515765933215" ID="ID_255533934" MODIFIED="1515770393075" TEXT="Bitwise AND assignment: x &amp;= y meaning x = x &amp; y ">
+<node CREATED="1515765933215" FOLDED="true" ID="ID_255533934" MODIFIED="1517162705404" TEXT="Bitwise AND assignment: x &amp;= y meaning x = x &amp; y ">
 <node CREATED="1515770393075" ID="ID_280142958" MODIFIED="1515770403946" TEXT="a AND b yields 1 only if both a and b are 1"/>
 <node CREATED="1515770005360" ID="ID_1916102840" MODIFIED="1515770006385" TEXT="The bitwise AND assignment operator uses the binary representation of both operands, does a bitwise AND operation on them and assigns the result to the variable."/>
 <node CREATED="1515770008081" ID="ID_770550195" MODIFIED="1515770037520">
@@ -229,7 +229,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1515258845783" FOLDED="true" ID="ID_1595802147" MODIFIED="1515881356159" TEXT="Spread">
+<node CREATED="1515258845783" FOLDED="true" ID="ID_1595802147" MODIFIED="1517315263712" TEXT="Spread">
 <node CREATED="1515259402329" ID="ID_130500699" MODIFIED="1515881335063" TEXT="Rest syntax looks exactly like spread syntax, but is used for destructuring arrays and objects. In a way, rest syntax is the opposite of spread syntax: spread &apos;expands&apos; an array into its elements, while rest collects multiple elements and &apos;condenses&apos; them into a single element."/>
 <node CREATED="1515881194361" ID="ID_124345591" MODIFIED="1515881215973">
 <richcontent TYPE="NODE"><html>
@@ -1037,7 +1037,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1515765631139" FOLDED="true" ID="ID_1640129699" MODIFIED="1515769277353" TEXT="Binary">
+<node CREATED="1515765631139" FOLDED="true" ID="ID_1640129699" MODIFIED="1517162715842" TEXT="Binary">
 <node CREATED="1515765531000" ID="ID_1817255560" MODIFIED="1515765559546" TEXT="Binary operator requires two operand s, one before the operator and one after the operator: x*y"/>
 </node>
 <node CREATED="1515765639044" FOLDED="true" ID="ID_932913387" MODIFIED="1515769429003" TEXT="Unary">
@@ -1071,8 +1071,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1515767556776" FOLDED="true" ID="ID_1301671502" MODIFIED="1515767857886" TEXT="Relational ">
-<node CREATED="1515767566880" FOLDED="true" ID="ID_227407740" MODIFIED="1515767797751" TEXT="`in` returns true if property is in the object">
+<node CREATED="1515767556776" FOLDED="true" ID="ID_1301671502" MODIFIED="1517320397151" TEXT="Relational ">
+<node CREATED="1515767566880" FOLDED="true" ID="ID_227407740" MODIFIED="1517320382315" TEXT="`in` returns true if property is in the object">
 <node CREATED="1515767667043" ID="ID_1675994162" MODIFIED="1515767724414">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1137,6 +1137,20 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1517320332374" FOLDED="true" ID="ID_1594348499" MODIFIED="1517320383227" TEXT="`in` returns true if property is in object prototype chain">
+<node CREATED="1517320354253" ID="ID_692524179" MODIFIED="1517320380444">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">'toString' in {}; // returns true</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 <node CREATED="1515767767918" FOLDED="true" ID="ID_341117451" MODIFIED="1515767829997" TEXT="`instanceof` returns true if the object is of object type">
 <node CREATED="1515767800071" ID="ID_1043693467" MODIFIED="1515767825908">
 <richcontent TYPE="NODE"><html>
@@ -1161,7 +1175,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1515767858990" FOLDED="true" ID="ID_1761301294" MODIFIED="1515880544225" TEXT="Precedence and Grouping">
+<node CREATED="1515767858990" FOLDED="true" ID="ID_1761301294" MODIFIED="1517162699261" TEXT="Precedence and Grouping">
 <node CREATED="1515768031411" ID="ID_496889221" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table" MODIFIED="1515768053751" TEXT="Operator Precedence Table (MDN)"/>
 <node CREATED="1515767883510" ID="ID_417387312" MODIFIED="1515768029816" TEXT="The precedence of operators determines the order they are applied when evaluating an expression. You can override operator precedence by using parentheses."/>
 <node CREATED="1515768722885" ID="ID_1842668253" MODIFIED="1515768741666">
@@ -1219,7 +1233,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1515879318310" FOLDED="true" ID="ID_222635186" MODIFIED="1515879912045" TEXT="Ternary">
+<node CREATED="1515879318310" FOLDED="true" ID="ID_222635186" MODIFIED="1517162824090" TEXT="Ternary">
 <node CREATED="1515879416966" ID="ID_1809541105" MODIFIED="1515879573636">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1366,7 +1380,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1515880545307" FOLDED="true" ID="ID_1985690759" MODIFIED="1515880610600" TEXT="Pipeline">
+<node CREATED="1515880545307" FOLDED="true" ID="ID_1985690759" MODIFIED="1517315256857" TEXT="Pipeline">
 <node CREATED="1515880552483" ID="ID_1792076024" MODIFIED="1515880607038">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1404,7 +1418,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1515766941183" FOLDED="true" ID="ID_14446200" MODIFIED="1516012763268" TEXT="Delete">
+<node CREATED="1515766941183" FOLDED="true" ID="ID_14446200" MODIFIED="1517320211448" TEXT="Delete">
 <node CREATED="1515766945495" ID="ID_504440944" MODIFIED="1515882238907">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1598,8 +1612,8 @@
 <node CREATED="1515767324722" ID="ID_887460743" MODIFIED="1515767865542" TEXT="typeof (See &apos;Types &amp; Comparisons&apos;)"/>
 <node CREATED="1515766044410" ID="ID_755695287" MODIFIED="1515767340611" TEXT="Comparison (See &apos;Types &amp; Comparisons&apos;)"/>
 </node>
-<node CREATED="1514996409905" FOLDED="true" ID="ID_687431479" MODIFIED="1515768387056" TEXT="Types &amp; Comparisons">
-<node CREATED="1514240437675" FOLDED="true" ID="ID_409149473" MODIFIED="1515767229128" TEXT="Primitive Types vs Reference Types">
+<node CREATED="1514996409905" FOLDED="true" ID="ID_687431479" MODIFIED="1517387448735" TEXT="Types &amp; Comparisons">
+<node CREATED="1514240437675" FOLDED="true" ID="ID_409149473" MODIFIED="1517387387437" TEXT="Primitive Types vs Reference Types">
 <node CREATED="1514240457860" FOLDED="true" ID="ID_934398074" MODIFIED="1515001450709">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1798,7 +1812,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1514246678002" FOLDED="true" ID="ID_1285901220" MODIFIED="1515767369266" TEXT="Comparisons">
+<node CREATED="1514246678002" FOLDED="true" ID="ID_1285901220" MODIFIED="1517387375460" TEXT="Comparisons">
 <node CREATED="1515000309888" FOLDED="true" ID="ID_1092982277" MODIFIED="1515767224087" TEXT="== vs. ===">
 <node CREATED="1515000358018" ID="ID_717537230" MODIFIED="1515000481147">
 <richcontent TYPE="NODE"><html>
@@ -1936,7 +1950,7 @@
 <node CREATED="1515766092572" ID="ID_1153763075" MODIFIED="1515766107402" TEXT="Greater than or equal: x &gt;= y"/>
 <node CREATED="1515766118013" ID="ID_134752797" MODIFIED="1515766126341" TEXT="Less than or equal: x &lt;= y"/>
 </node>
-<node CREATED="1514996420409" FOLDED="true" ID="ID_831405027" MODIFIED="1515767368436" TEXT="Type Coercion">
+<node CREATED="1514996420409" FOLDED="true" ID="ID_831405027" MODIFIED="1517387373944" TEXT="Type Coercion">
 <node CREATED="1514246288566" FOLDED="true" ID="ID_414480712" MODIFIED="1515767206956" TEXT="Truthy &amp; Falsy Values">
 <node CREATED="1515000691233" ID="ID_219606049" MODIFIED="1515000708304">
 <richcontent TYPE="NODE"><html>
@@ -2106,7 +2120,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1515767236168" FOLDED="true" ID="ID_1894198962" MODIFIED="1515767366853" TEXT="typeof">
+<node CREATED="1515767236168" FOLDED="true" ID="ID_1894198962" MODIFIED="1517323538908" TEXT="typeof">
 <node CREATED="1515767344059" ID="ID_1060944303" MODIFIED="1515767364513">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2181,7 +2195,362 @@
 </node>
 </node>
 </node>
-<node CREATED="1515061449910" FOLDED="true" ID="ID_800361885" MODIFIED="1515072028278" TEXT="Scope">
+<node CREATED="1517386931123" ID="ID_1503197367" MODIFIED="1517387550567" TEXT="Arrays">
+<node CREATED="1517387453738" FOLDED="true" ID="ID_38154120" MODIFIED="1517387508329" TEXT="Length Property">
+<node CREATED="1517386942245" ID="ID_3173540" MODIFIED="1517387001295">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// empty array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray.length = 0; </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray['length'] = 0;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1517387463490" FOLDED="true" ID="ID_1154213737" MODIFIED="1517387507365" TEXT="Iteration">
+<node CREATED="1517387491363" ID="ID_1892278514" MODIFIED="1517387506140">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">var colors = ['red', 'green', 'blue']; </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">colors.forEach(color =&gt; console.log(color)); </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1517387558309" ID="ID_1270547903" MODIFIED="1517387560675" TEXT="Methods">
+<node CREATED="1517387551085" FOLDED="true" ID="ID_380298328" MODIFIED="1517387678693" TEXT=".concat()">
+<node CREATED="1517387567219" ID="ID_1399647199" MODIFIED="1517387630040">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// joins two arrays and returns a new array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray = myArray.concat('a', 'b', 'c'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray) // [&quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1517387679681" FOLDED="true" ID="ID_1377739646" MODIFIED="1517387788817" TEXT=".join(deliminator)">
+<node CREATED="1517387686592" ID="ID_1119647466" MODIFIED="1517387725899">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// joins all elements of an array into a string </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('Wind', 'Rain', 'Fire'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var list = myArray.join(' - '); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(list) // // &quot;Wind - Rain - Fire&quot;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1517387777739" FOLDED="true" ID="ID_251557072" MODIFIED="1517387841737" TEXT=".push()">
+<node CREATED="1517387797492" ID="ID_105141253" MODIFIED="1517387840018">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// adds one or more elements to the end of an array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// and returns the resulting length of the array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('1', '2'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray.push('3'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;1&quot;, &quot;2&quot;, &quot;3&quot;]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1517387984482" FOLDED="true" ID="ID_1845287321" MODIFIED="1517388022588" TEXT=".pop()">
+<node CREATED="1517387988522" ID="ID_189225550" MODIFIED="1517388016901">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// removes the last element from an array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// and returns that element </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var last = myArray.pop(); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;1&quot;, &quot;2&quot;] </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(last); // &quot;3&quot;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1517388023835" FOLDED="true" ID="ID_1451913062" MODIFIED="1517388100957" TEXT=".shift()">
+<node CREATED="1517388080349" ID="ID_1778679617" MODIFIED="1517388099173">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// removes the first element from an array and returns that element </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var first = myArray.shift(); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;2&quot;, &quot;3&quot;] </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(first); // &quot;1&quot;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1517388102230" FOLDED="true" ID="ID_325809637" MODIFIED="1517388176078" TEXT=".unshift()">
+<node CREATED="1517388155894" ID="ID_544960342" MODIFIED="1517388172768">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// adds one or more elements to the front of an array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// and returns the new length of the array. </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray.unshift('4', '5'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;4&quot;, &quot;5&quot;, &quot;1&quot;, &quot;2&quot;, &quot;3&quot;]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1517388281178" FOLDED="true" ID="ID_769695724" MODIFIED="1517388409392" TEXT=".slice(startIndex, endButNotIncludingIndex)">
+<node CREATED="1517388284843" ID="ID_595939144" MODIFIED="1517388346507">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// extracts a section of an array and returns a new array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('a', 'b', 'c', 'd', 'e'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray = myArray.slice(1, 4); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [ &quot;b&quot;, &quot;c&quot;, &quot;d&quot;]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1517388667039" FOLDED="true" ID="ID_961756293" MODIFIED="1517388698239" TEXT=".splice(index, removeCount, addElement1, addElement2, ...)">
+<node CREATED="1517388681423" ID="ID_246538233" MODIFIED="1517388696085">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// removes elements from an array and (optionally) replaces them </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// and returns the items which were removed from the array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3', '4', '5'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray.splice(1, 3, 'a', 'b', 'c', 'd'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;1&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;5&quot;]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1517388762202" FOLDED="true" ID="ID_375042190" MODIFIED="1517388786146" TEXT=".reverse()">
+<node CREATED="1517388767530" ID="ID_823344994" MODIFIED="1517388782886">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// transposes the elements of an array, in place: </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// the first element becomes the last and the last becomes the first </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// and returns a reference to the array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray.reverse(); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;3&quot;, &quot;2&quot;, &quot;1&quot;]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1517388787794" ID="ID_1678541826" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort" MODIFIED="1517389472090" TEXT=".sort([compareFunction])">
+<node CREATED="1517388832452" ID="ID_302349398" MODIFIED="1517389399171">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// sorts the elements of an array in place, </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// and returns a reference to the array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// compareFunction is not supplied, elements are sorted by converting </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// them to strings and comparing strings in Unicode code point order</font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('Wind', 'Rain', 'Fire'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray.sort(); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;Fire&quot;, &quot;Rain&quot;, &quot;Wind&quot;]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1517388903597" ID="ID_324445671" MODIFIED="1517389296648">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// sort() with callback function </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('Wind', 'Rain', 'Fire'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// sort by the last letter of a string&#160; </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var sortFn = function(a, b) { </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">&#160;&#160;if (a[a.length - 1] &lt; b[b.length - 1]) return -1; </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">&#160;&#160;if (a[a.length - 1] &gt; b[b.length - 1]) return 1; </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">&#160;&#160;if (a[a.length - 1] == b[b.length - 1]) return 0; </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">} </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray.sort(sortFn); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;Wind&quot;,&quot;Fire&quot;,&quot;Rain&quot;]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1515061449910" FOLDED="true" ID="ID_800361885" MODIFIED="1517387470475" TEXT="Scope">
 <node CREATED="1515067286756" ID="ID_1943571194" MODIFIED="1515072008339" TEXT="Variable Scopes: &#xa;- Local: can see `this`, return, and any variables declared within the function &#xa;- Closure: can see any variables declared within the enclosing function &#xa;- Global: can see all global variables attached to the global object"/>
 <node CREATED="1515061467256" ID="ID_63667961" MODIFIED="1515061470204" TEXT="Only functions create a new scope."/>
 <node CREATED="1515061485984" ID="ID_18324812" MODIFIED="1515061487155" TEXT="Global Scope is the outermost scope. Variables declared outside a function are in the global scope and can be accessed in any other scope. In a browser, the window object is the global scope."/>
@@ -2645,7 +3014,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1515063541043" FOLDED="true" ID="ID_1668513907" MODIFIED="1515177494186" TEXT="Variables">
+<node CREATED="1515063541043" FOLDED="true" ID="ID_1668513907" MODIFIED="1517387174124" TEXT="Variables">
 <node CREATED="1515171525973" ID="ID_820359785" MODIFIED="1515171543360" TEXT="Global variables are properties of the global object. "/>
 <node CREATED="1515063555933" ID="ID_1222289185" MODIFIED="1515171608802" TEXT="`var`, `let` and `const` (read only)">
 <node CREATED="1515063577356" FOLDED="true" ID="ID_1153837002" MODIFIED="1515067124647" TEXT="Before ES6, it was only possible to declare a variable using `var`. Variables and functions declared inside another function cannot be accessed by any of the enclosing scopes; they are function-scoped. `var` (but not `let`) variables declared inside a block-scope, such as if statements and for loops, can be accessed from outside of the opening and closing curly braces of the block. Note: An undeclared variable&#x200a;assignment without `var`, `let` or `const`,&#x200a;creates a `var` variable in global scope.">
@@ -2789,52 +3158,53 @@
 </node>
 </node>
 </node>
-<node CREATED="1515176515594" FOLDED="true" ID="ID_1901996144" MODIFIED="1515177565653" TEXT="Loops">
-<node CREATED="1515177056552" FOLDED="true" ID="ID_155613686" MODIFIED="1515177162119" TEXT="continue">
-<node CREATED="1515177061102" ID="ID_1537253232" MODIFIED="1515177154280">
+<node CREATED="1515176515594" FOLDED="true" ID="ID_1901996144" MODIFIED="1517387369973" TEXT="Loops">
+<node CREATED="1515177056552" FOLDED="true" ID="ID_155613686" MODIFIED="1517387368634" TEXT="continue">
+<node CREATED="1515177061102" ID="ID_1537253232" MODIFIED="1517387366220">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="4" face="Inconsolata">var i = 0; </font>
+      <font face="Inconsolata" size="4">var i = 0; </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">var n = 0; </font>
+      <font face="Inconsolata" size="4">var n = 0; </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">while (i &lt; 5) { </font>
+      <font face="Inconsolata" size="4">while (i &lt; 5) { </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;i++; </font>
+      <font face="Inconsolata" size="4">&#160;&#160;i++; </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;if (i == 3) { </font>
+      <font face="Inconsolata" size="4">&#160;&#160;if (i == 3) { </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;continue; // go back to while statement and continue </font>
+      <font face="Inconsolata" size="4">&#160;&#160;&#160;&#160;continue; // go back to while statement and continue </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+      <font face="Inconsolata" size="4">&#160;&#160;} </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;n += i; </font>
+      <font face="Inconsolata" size="4">&#160;&#160;n += i; </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">} </font>
+      <font face="Inconsolata" size="4">} </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font size="4" face="Inconsolata">// n&#160;takes on the values one, three, seven, and twelve.</font>
+      <font face="Inconsolata" size="4">// n&#160;takes on the values 1, 3, 7, and 12</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
-<node CREATED="1515176524667" FOLDED="true" ID="ID_1558553800" MODIFIED="1515177556789" TEXT="for...in vs for...of">
+<node CREATED="1515176524667" FOLDED="true" ID="ID_1558553800" MODIFIED="1517387309377" TEXT="for...in vs for...of">
 <node CREATED="1515176527983" ID="ID_1024962067" MODIFIED="1515177405144">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2895,54 +3265,55 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1515177289984" ID="ID_1577997196" MODIFIED="1515177469099">
+<node CREATED="1515177289984" ID="ID_1577997196" MODIFIED="1517387294374">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="4" face="Inconsolata">// for...of interates over property values </font>
+      <font face="Inconsolata" size="4">// for...of interates over property values </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font size="4" face="Inconsolata">var arr = [3, 5, 7]; </font>
+      <font face="Inconsolata" size="4">var arr = [3, 5, 7]; </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">arr.foo = 'hello'; </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">for (var i in arr) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;console.log(i); // logs &quot;0&quot;, &quot;1&quot;, &quot;2&quot;, &quot;foo&quot; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">} </font>
+      <font face="Inconsolata" size="4">arr.foo = 'hello'; </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font size="4" face="Inconsolata">for (var i of arr) { </font>
+      <font face="Inconsolata" size="4">for (var i in arr) { // property names</font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;console.log(i); // logs 3, 5, 7 </font>
+      <font face="Inconsolata" size="4">&#160;&#160;&#160;console.log(i); // logs &quot;0&quot;, &quot;1&quot;, &quot;2&quot;, &quot;foo&quot; </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">}</font>
+      <font face="Inconsolata" size="4">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">for (var i of arr) { // property values</font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">&#160;&#160;&#160;console.log(i); // logs 3, 5, 7 </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">}</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1515087668705" FOLDED="true" ID="ID_1107451607" MODIFIED="1515881832471" TEXT="Functions">
+<node CREATED="1515087668705" FOLDED="true" ID="ID_1107451607" MODIFIED="1517338737663" TEXT="Functions">
 <node CREATED="1515245878852" ID="ID_553206486" MODIFIED="1515684169289" TEXT="In JS, functions are Function objects and first-class objects: they can have properties and methods just like any other object. What distinguishes them from other objects is that functions can be called."/>
 <node CREATED="1515247305802" FOLDED="true" ID="ID_32018720" MODIFIED="1515765356273" TEXT="Function Object">
 <node CREATED="1515247440525" FOLDED="true" ID="ID_570300600" MODIFIED="1515684127364" TEXT="Constructor">
@@ -4052,10 +4423,10 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1515087671761" FOLDED="true" ID="ID_912877028" MODIFIED="1515266550787" TEXT="Arrow Functions">
+<node CREATED="1515087671761" FOLDED="true" ID="ID_912877028" MODIFIED="1517232916376" TEXT="Arrow Functions">
 <node CREATED="1515087671761" ID="ID_1905629619" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions" MODIFIED="1515265871523" TEXT="Arrow Functions"/>
 <node CREATED="1515087695650" ID="ID_1443382581" MODIFIED="1515266421780" TEXT="An arrow function expression has a shorter syntax than a function expression and does not have its own `this`, `arguments`, `super`, or `new.target`."/>
-<node CREATED="1515087738267" ID="ID_1677633798" MODIFIED="1515266384308">
+<node CREATED="1515087738267" ID="ID_1677633798" MODIFIED="1517232905673">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4080,6 +4451,9 @@
       
     </p>
     <p>
+      <font size="4" face="Inconsolata">// shorter syntax</font>
+    </p>
+    <p>
       <font size="4" face="Inconsolata">materials.map(material =&gt; { </font>
     </p>
     <p>
@@ -4092,7 +4466,7 @@
       
     </p>
     <p>
-      <font size="4" face="Inconsolata">// shorter syntax </font>
+      <font size="4" face="Inconsolata">// even shorter syntax (return is implicit)</font>
     </p>
     <p>
       <font size="4" face="Inconsolata">materials.map(material =&gt; material.length); // [8, 6, 7, 9]</font>
@@ -4220,7 +4594,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1515667449792" FOLDED="true" ID="ID_253619665" MODIFIED="1515668198605" TEXT="Generator Functions">
+<node CREATED="1515667449792" FOLDED="true" ID="ID_253619665" MODIFIED="1517338736591" TEXT="Generator Functions">
 <node CREATED="1515667606543" ID="ID_35503890" MODIFIED="1515667619854" TEXT="Generators are functions which can be exited and later re-entered. Their context (variable bindings) will be saved across re-entrances.  &#xa;&#xa;Calling a generator function does not execute its body immediately; an iterator object for the function is returned instead. When the iterator&apos;s next() method is called, the generator function&apos;s body is executed until the first yield expression, which specifies the value to be returned from the iterator or, with yield*, delegates to another generator function. The next() method returns an object with a value property containing the yielded value and a done property which indicates whether the generator has yielded its last value as a boolean. Calling the next() method with an argument will resume the generator function execution, replacing the yield expression where execution was paused with the argument from next(). &#xa;&#xa;A return statement in a generator, when executed, will make the generator done. If a value is returned, it will be passed back as the value. A generator which has returned will not yield any more values."/>
 <node CREATED="1515667484365" ID="ID_1946271983" MODIFIED="1515667786418">
 <richcontent TYPE="NODE"><html>
@@ -4508,8 +4882,8 @@
 </node>
 </node>
 <node CREATED="1515668495613" ID="ID_855264879" MODIFIED="1515668519848" TEXT="Method Functions (see Objects &gt; Object Methods)"/>
-<node CREATED="1515881545127" ID="ID_1139457588" MODIFIED="1515881555581" TEXT="TODO: Async">
-<node CREATED="1515881557246" ID="ID_1086716184" MODIFIED="1515881585281">
+<node CREATED="1515881545127" FOLDED="true" ID="ID_1139457588" MODIFIED="1517320038228" TEXT="TODO: Async">
+<node CREATED="1515881557246" ID="ID_1086716184" MODIFIED="1517320015759">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -4540,7 +4914,16 @@
       
     </p>
     <p>
-      <font face="Inconsolata" size="4">var add = async function(x) { // async function expression assigned to a variable </font>
+      <font face="Inconsolata" size="4">// async function expression assigned to a variable </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var add = async function(x) {&#160; </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">&#160;&#160;// await pauses async until&#160;a&#160;Promise&#160;is fulfilled (resolved or rejected) </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">&#160;&#160;// await takes value of fulfilled Promise and resumes execution of async fn </font>
     </p>
     <p>
       <font face="Inconsolata" size="4">&#160;&#160;var a = await resolveAfter2Seconds(20); </font>
@@ -4570,7 +4953,40 @@
       
     </p>
     <p>
-      <font face="Inconsolata" size="4">(async function(x) { // async function expression used as an IIFE </font>
+      <font face="Inconsolata" size="4">// rejected Promise </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">async function f3() { </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">&#160;&#160;try { </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">&#160;&#160;&#160;&#160;var z = await Promise.reject(30); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">&#160;&#160;} catch(e) { </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">&#160;&#160;&#160;&#160;console.log(e); // 30 </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">} </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">f3();</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// async function expression used as an IIFE </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">(async function(x) { </font>
     </p>
     <p>
       <font face="Inconsolata" size="4">&#160;&#160;var p_a = resolveAfter2Seconds(20); </font>
@@ -4588,7 +5004,10 @@
       <font face="Inconsolata" size="4">&#160;&#160;console.log(v);&#160;&#160;// prints 60 after 2 seconds. </font>
     </p>
     <p>
-      <font face="Inconsolata" size="4">});</font>
+      <font face="Inconsolata" size="4">}); </font>
+    </p>
+    <p>
+      
     </p>
   </body>
 </html></richcontent>
@@ -4742,9 +5161,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1515668524509" FOLDED="true" ID="ID_1843684043" MODIFIED="1515881005638" TEXT="Objects">
+<node CREATED="1515668524509" FOLDED="true" ID="ID_1843684043" MODIFIED="1517387895152" TEXT="Objects">
 <node CREATED="1515880670377" ID="ID_929106008" MODIFIED="1515880675217" TEXT="One can think of an object as an associative array (a.k.a. map, dictionary, hash, lookup table). The keys in this array are the names of the object&apos;s properties. It&apos;s typical when speaking of an object&apos;s properties to make a distinction between properties and methods. However, the property/method distinction is little more than a convention. A method is simply a property that can be called, for example if it has a reference to a Function instance as its value."/>
-<node CREATED="1514318043390" FOLDED="true" ID="ID_1757604941" MODIFIED="1515764859368" TEXT="Object Methods">
+<node CREATED="1514318043390" FOLDED="true" ID="ID_1757604941" MODIFIED="1517387883769" TEXT="Object Methods">
 <node CREATED="1515668290913" FOLDED="true" ID="ID_1066928149" MODIFIED="1515678585457" TEXT="Getters and Setters">
 <node CREATED="1515668365605" ID="ID_340762641" MODIFIED="1515668366759" TEXT="You can define getters (accessor methods) and setters (mutator methods) on any standard built-in object or user-defined object that supports the addition of new properties. The syntax for defining getters and setters uses the object literal syntax."/>
 <node CREATED="1515668383099" FOLDED="true" ID="ID_765430494" MODIFIED="1515678393818" TEXT="`get` binds an object property to a function that will be called when that property is looked up.">
@@ -5363,8 +5782,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1514384560202" FOLDED="true" ID="ID_716727649" MODIFIED="1515880676653" TEXT="Object Properties">
-<node CREATED="1514384471488" FOLDED="true" ID="ID_612843559" MODIFIED="1515764856735" TEXT="Object.__proto__">
+<node CREATED="1514384560202" FOLDED="true" ID="ID_716727649" MODIFIED="1517387891733" TEXT="Object Properties">
+<node CREATED="1514384471488" FOLDED="true" ID="ID_612843559" MODIFIED="1517387890571" TEXT="Object.__proto__">
 <node CREATED="1514384575130" ID="ID_537609542" MODIFIED="1514384874550">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5949,6 +6368,476 @@
 </node>
 </node>
 </node>
+<node CREATED="1517320716891" FOLDED="true" ID="ID_1749130066" MODIFIED="1517323244946" TEXT="Classes">
+<node CREATED="1517320794478" ID="ID_17109619" MODIFIED="1517320801452">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function Person(name, age, sex) {
+    </p>
+    <p>
+      &#160;&#160;this.name = name;
+    </p>
+    <p>
+      &#160;&#160;this.age = age;
+    </p>
+    <p>
+      &#160;&#160;this.sex = sex;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      var rand = new Person('Rand McNally', 33, 'M');
+    </p>
+    <p>
+      var ken = new Person('Ken Jones', 39, 'M');
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      function Car(make, model, year, owner) {
+    </p>
+    <p>
+      &#160;&#160;this.make = make;
+    </p>
+    <p>
+      &#160;&#160;this.model = model;
+    </p>
+    <p>
+      &#160;&#160;this.year = year;
+    </p>
+    <p>
+      &#160;&#160;this.owner = owner;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      var car1 = new Car('Eagle', 'Talon TSi', 1993, rand);
+    </p>
+    <p>
+      var car2 = new Car('Nissan', '300ZX', 1992, ken);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      console.log(car2.owner.name); // Ken Jones
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1517323181968" FOLDED="true" ID="ID_266136544" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super" MODIFIED="1517323232637" TEXT="super(MDN)">
+<node CREATED="1517323186200" ID="ID_323994093" MODIFIED="1517323228436" TEXT="The super keyword is used to access and call functions on an object&apos;s parent. "/>
+</node>
+</node>
+</node>
+<node CREATED="1515082929929" FOLDED="true" ID="ID_1111525223" MODIFIED="1517325296634" TEXT="`this`">
+<node CREATED="1515082938890" ID="ID_230553846" MODIFIED="1515768486741" TEXT="Context refers to the value of `this` in a particular part of your code. Use `this` to refer to the current object. In general, `this` refers to the calling object in a method. "/>
+<node CREATED="1517323382199" ID="ID_1059518022" MODIFIED="1517323397491" TEXT="In strict mode, if `this` was not defined by the execution context, it remains undefined. "/>
+<node CREATED="1515085012607" FOLDED="true" ID="ID_1294144535" MODIFIED="1517323329782" TEXT="Determining `this`">
+<node CREATED="1515085053864" ID="ID_1418515526" MODIFIED="1515085160284" TEXT="The keyword `this` acts as a placeholder, and will refer to whichever object called that method when the method is actually used. The following list is the ordered rules for determining `this`:"/>
+<node CREATED="1515085091784" ID="ID_374497674" MODIFIED="1517323323511" TEXT="`new` Binding">
+<node CREATED="1515085100729" ID="ID_949663769" MODIFIED="1515085101922" TEXT="When using the `new` keyword to call a function, `this` is the newly constructed object."/>
+<node CREATED="1515085110393" ID="ID_1507073721" MODIFIED="1515085136755">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">function Person(name, age) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;this.name = name; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;this.age = age; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;console.log(this); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const Rachel = new Person(&quot;Rachel&quot;, 30); // { age: 30, name: 'Rachel' }</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1515085163579" FOLDED="true" ID="ID_1844935266" MODIFIED="1515768510996" TEXT="Explicit Binding">
+<node CREATED="1515085183667" ID="ID_496558003" MODIFIED="1515085212859" TEXT="When `call()` or `apply()` are used to call a function, `this` is the object that is passed in as the argument. Note: `.bind()` works a little bit differently. It creates a new function that will call the original one with the object that was bound to it."/>
+<node CREATED="1515085225013" ID="ID_220989448" MODIFIED="1515085356535">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">function fn() { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;console.log(this); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var agent = { id: &quot;007&quot; }; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// agent passed as `this`: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">fn.call(agent); // { id: '007' } </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">fn.apply(agent); // { id: '007' } </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// bind agent as `this` to boundFn:</font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var boundFn = fn.bind(agent); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">boundFn(); // { id: '007' }</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1515085181363" FOLDED="true" ID="ID_717629472" MODIFIED="1515240996295" TEXT="Implicit Binding">
+<node CREATED="1515085411755" ID="ID_298497436" MODIFIED="1515085565603" TEXT="When a function is called within a containing object, `this` is the object that the function is a property of. This means that a function is being called as a method."/>
+<node CREATED="1515085430451" ID="ID_896761311" MODIFIED="1515085483216">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var building = { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;floors: 5, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;printThis: function() { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;console.log(this); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">building.printThis(); // { floors: 5, printThis: function() {&#8230;} }</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1515086818861" FOLDED="true" ID="ID_1323114015" MODIFIED="1515241000182" TEXT="Default Binding">
+<node CREATED="1515086830662" ID="ID_1281302183" MODIFIED="1515086852037" TEXT="If none of the above rules apply, `this` is the global object (in a browser, it&apos;s the window object). This happens when a function is called as a standalone function. A function that is not declared as a method automatically becomes a property of the global object."/>
+<node CREATED="1515086864327" ID="ID_1482827664" MODIFIED="1515086884449">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">function printWindow() { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;console.log(this); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">printWindow(); // window object</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1515087277895" ID="ID_635283109" MODIFIED="1515087290123" TEXT="This also happens when a standalone function is called from within an outer function scope:"/>
+<node CREATED="1515087295944" ID="ID_1884750761" MODIFIED="1515087420600">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">function Dinosaur(name) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;this.name = name; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;var self = this; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;inner(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;function inner() { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;alert(this); // window object &#8212; the function has overwritten the `this` context </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;console.log(self); // {name: 'Dino'} &#8212; the stored value from the outer context </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var myDinosaur = new Dinosaur(&quot;Dino&quot;);</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1515087477022" FOLDED="true" ID="ID_320368311" MODIFIED="1515241018656" TEXT="Lexical `this`">
+<node CREATED="1515087493246" ID="ID_160926293" MODIFIED="1515087524487" TEXT="When a function is called with an arrow function =&gt;, `this` receives the `this` value of the surrounding scope at the time it is created. `this` keeps the value from its original context."/>
+<node CREATED="1515087534063" ID="ID_47376196" MODIFIED="1515087567757">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">function Cat(name) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;this.name = name; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;console.log(this); // { name: 'Garfield' } </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;(() =&gt; console.log(this))(); // { name: 'Garfield' } // IIFE </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var myCat = new Cat(&quot;Garfield&quot;);</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1515083612899" FOLDED="true" ID="ID_434343557" MODIFIED="1517323435721" TEXT="Setting `this`">
+<node CREATED="1515241106044" ID="ID_1278343940" MODIFIED="1515241117287" TEXT="call(), apply() and bind()"/>
+<node CREATED="1515083925029" ID="ID_1836315484" MODIFIED="1515085387471" TEXT="Explicit Binding: A different `this` object can be assigned when calling an existing function. `this` refers to the current object, the calling object"/>
+<node CREATED="1515083849833" ID="ID_1444621591" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call" MODIFIED="1515084306551" TEXT="Function.prototype.call(thisArg, arg1, arg2, ...); "/>
+<node CREATED="1515083751176" ID="ID_421479874" MODIFIED="1515083767295" TEXT=".call() invokes the function immediately and requires you to pass in arguments as a list (one by one)."/>
+<node CREATED="1515083883508" ID="ID_145866499" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply" MODIFIED="1515084295986" TEXT="Function.prototype.apply(thisArg, [argsArray]); "/>
+<node CREATED="1515083761496" ID="ID_207527050" MODIFIED="1515083767298" TEXT=".apply() invokes the function immediately and allows you to pass in arguments as an array."/>
+<node CREATED="1515084024793" ID="ID_1825867843" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind" MODIFIED="1515084281699" TEXT="Function.prototype.bind(thisArg[, arg1[, arg2[, ...]]]);"/>
+<node CREATED="1515084074057" ID="ID_98562848" MODIFIED="1515084644685" TEXT=".bind() function creates a new bound function that, when called, has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called. Bound functions are useful for asynchronous callbacks and events."/>
+<node CREATED="1515084362363" ID="ID_909009547" MODIFIED="1515084581984">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">const Snow = { surname: &quot;Snow&quot; }; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const char = { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;surname: &quot;Stark&quot;, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;knows: function(arg, name) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;console.log(`You know ${arg}, ${name} ${this.surname}`); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// don't pass optional `this`:</font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">char.knows(&quot;something&quot;, &quot;Bran&quot;); // You know something, Bran Stark </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// Snow is passed as the optional `this`:&#160;</font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">char.knows.call(Snow, &quot;nothing&quot;, &quot;Jon&quot;); // You know nothing, Jon Snow </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// Snow is passed as the optional `this`:&#160;</font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">char.knows.apply(Snow, [&quot;nothing&quot;, &quot;Jon&quot;]); // You know nothing, Jon Snow </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// ES6 allows us to spread an array as arguments with the call function:&#160;</font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">char.knows.call(Snow, ...[&quot;nothing&quot;, &quot;Jon&quot;]); // You know nothing, Jon Snow</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1515084661596" ID="ID_313331597" MODIFIED="1515084944896">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">const Snow = { surname: &quot;Snow&quot; }; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const char = { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;surname: &quot;Stark&quot;, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;knows: function(arg, name) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;console.log(`You know ${arg}, ${name} ${this.surname}`); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// bind the function with Snow as `this` and &quot;nothing&quot; as first `knows` arg </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const whoKnowsNothing = char.knows.bind(Snow, &quot;nothing&quot;); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// call with 'Jon' passed as &quot;name&quot; second `knows` arg </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">whoKnowsNothing(&quot;Jon&quot;); // You know nothing, Jon Snow&#160; </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1515768574015" FOLDED="true" ID="ID_1203996004" MODIFIED="1515768684438" TEXT="Using `this`">
+<node CREATED="1515768628481" ID="ID_1262225589" MODIFIED="1515768681064">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// validate() validates an object's value property, given its high and low values: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function validate(obj, lowval, hival) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if ((obj.value &lt; lowval) || (obj.value &gt; hival)) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;console.log('Invalid Value!'); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// usage: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// &lt;p&gt;Enter a number between 18 and 99:&lt;/p&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// &lt;input type=&quot;text&quot; name=&quot;age&quot; size=3 onChange=&quot;validate(this, 18, 99);&quot;&gt;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1517324061300" ID="ID_1268523349" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this" MODIFIED="1517324084438" TEXT="In arrow functions, `this` retains the value of the enclosing lexical context&apos;s `this`"/>
 </node>
 <node CREATED="1515067245034" FOLDED="true" ID="ID_423041681" MODIFIED="1515254272413" TEXT="Closures">
 <node CREATED="1515072324411" ID="ID_1762133436" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures" MODIFIED="1515075596623" TEXT="MDN: Closures"/>
@@ -7284,401 +8173,7 @@
 <node CREATED="1515078179544" ID="ID_751831443" MODIFIED="1515078181104" TEXT="In the two previous examples, the inherited prototype can be shared by all objects and the method definitions need not occur at every object creation."/>
 </node>
 </node>
-<node CREATED="1515082929929" FOLDED="true" ID="ID_1111525223" MODIFIED="1515770483834" TEXT="Context `this`">
-<node CREATED="1515082938890" ID="ID_230553846" MODIFIED="1515768486741" TEXT="Context refers to the value of `this` in a particular part of your code. Use `this` to refer to the current object. In general, `this` refers to the calling object in a method. "/>
-<node CREATED="1515085012607" FOLDED="true" ID="ID_1294144535" MODIFIED="1515768560986" TEXT="Determining `this`">
-<node CREATED="1515085053864" ID="ID_1418515526" MODIFIED="1515085160284" TEXT="The keyword `this` acts as a placeholder, and will refer to whichever object called that method when the method is actually used. The following list is the ordered rules for determining `this`:"/>
-<node CREATED="1515085091784" FOLDED="true" ID="ID_374497674" MODIFIED="1515768502011" TEXT="`new` Binding">
-<node CREATED="1515085100729" ID="ID_949663769" MODIFIED="1515085101922" TEXT="When using the `new` keyword to call a function, `this` is the newly constructed object."/>
-<node CREATED="1515085110393" ID="ID_1507073721" MODIFIED="1515085136755">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">function Person(name, age) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;this.name = name; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;this.age = age; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;console.log(this); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">} </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">const Rachel = new Person(&quot;Rachel&quot;, 30); // { age: 30, name: 'Rachel' }</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1515085163579" FOLDED="true" ID="ID_1844935266" MODIFIED="1515768510996" TEXT="Explicit Binding">
-<node CREATED="1515085183667" ID="ID_496558003" MODIFIED="1515085212859" TEXT="When `call()` or `apply()` are used to call a function, `this` is the object that is passed in as the argument. Note: `.bind()` works a little bit differently. It creates a new function that will call the original one with the object that was bound to it."/>
-<node CREATED="1515085225013" ID="ID_220989448" MODIFIED="1515085356535">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">function fn() { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;console.log(this); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">} </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var agent = { id: &quot;007&quot; }; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// agent passed as `this`: </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">fn.call(agent); // { id: '007' } </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">fn.apply(agent); // { id: '007' } </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// bind agent as `this` to boundFn:</font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var boundFn = fn.bind(agent); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">boundFn(); // { id: '007' }</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1515085181363" FOLDED="true" ID="ID_717629472" MODIFIED="1515240996295" TEXT="Implicit Binding">
-<node CREATED="1515085411755" ID="ID_298497436" MODIFIED="1515085565603" TEXT="When a function is called within a containing object, `this` is the object that the function is a property of. This means that a function is being called as a method."/>
-<node CREATED="1515085430451" ID="ID_896761311" MODIFIED="1515085483216">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">var building = { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;floors: 5, </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;printThis: function() { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;console.log(this); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;} </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">}; </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">building.printThis(); // { floors: 5, printThis: function() {&#8230;} }</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1515086818861" FOLDED="true" ID="ID_1323114015" MODIFIED="1515241000182" TEXT="Default Binding">
-<node CREATED="1515086830662" ID="ID_1281302183" MODIFIED="1515086852037" TEXT="If none of the above rules apply, `this` is the global object (in a browser, it&apos;s the window object). This happens when a function is called as a standalone function. A function that is not declared as a method automatically becomes a property of the global object."/>
-<node CREATED="1515086864327" ID="ID_1482827664" MODIFIED="1515086884449">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">function printWindow() { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;console.log(this); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">} </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">printWindow(); // window object</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1515087277895" ID="ID_635283109" MODIFIED="1515087290123" TEXT="This also happens when a standalone function is called from within an outer function scope:"/>
-<node CREATED="1515087295944" ID="ID_1884750761" MODIFIED="1515087420600">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">function Dinosaur(name) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;this.name = name; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;var self = this; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;inner(); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;function inner() { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;alert(this); // window object &#8212; the function has overwritten the `this` context </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;console.log(self); // {name: 'Dino'} &#8212; the stored value from the outer context </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;} </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">} </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var myDinosaur = new Dinosaur(&quot;Dino&quot;);</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1515087477022" FOLDED="true" ID="ID_320368311" MODIFIED="1515241018656" TEXT="Lexical `this`">
-<node CREATED="1515087493246" ID="ID_160926293" MODIFIED="1515087524487" TEXT="When a function is called with an arrow function =&gt;, `this` receives the `this` value of the surrounding scope at the time it is created. `this` keeps the value from its original context."/>
-<node CREATED="1515087534063" ID="ID_47376196" MODIFIED="1515087567757">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">function Cat(name) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;this.name = name; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;console.log(this); // { name: 'Garfield' } </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;(() =&gt; console.log(this))(); // { name: 'Garfield' } // IIFE </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">} </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var myCat = new Cat(&quot;Garfield&quot;);</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1515083612899" FOLDED="true" ID="ID_434343557" MODIFIED="1515768572252" TEXT="Setting `this`">
-<node CREATED="1515241106044" ID="ID_1278343940" MODIFIED="1515241117287" TEXT="call(), apply() and bind()"/>
-<node CREATED="1515083925029" ID="ID_1836315484" MODIFIED="1515085387471" TEXT="Explicit Binding: A different `this` object can be assigned when calling an existing function. `this` refers to the current object, the calling object"/>
-<node CREATED="1515083849833" ID="ID_1444621591" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call" MODIFIED="1515084306551" TEXT="Function.prototype.call(thisArg, arg1, arg2, ...); "/>
-<node CREATED="1515083751176" ID="ID_421479874" MODIFIED="1515083767295" TEXT=".call() invokes the function immediately and requires you to pass in arguments as a list (one by one)."/>
-<node CREATED="1515083883508" ID="ID_145866499" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply" MODIFIED="1515084295986" TEXT="Function.prototype.apply(thisArg, [argsArray]); "/>
-<node CREATED="1515083761496" ID="ID_207527050" MODIFIED="1515083767298" TEXT=".apply() invokes the function immediately and allows you to pass in arguments as an array."/>
-<node CREATED="1515084024793" ID="ID_1825867843" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind" MODIFIED="1515084281699" TEXT="Function.prototype.bind(thisArg[, arg1[, arg2[, ...]]]);"/>
-<node CREATED="1515084074057" ID="ID_98562848" MODIFIED="1515084644685" TEXT=".bind() function creates a new bound function that, when called, has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called. Bound functions are useful for asynchronous callbacks and events."/>
-<node CREATED="1515084362363" ID="ID_909009547" MODIFIED="1515084581984">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">const Snow = { surname: &quot;Snow&quot; }; </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">const char = { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;surname: &quot;Stark&quot;, </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;knows: function(arg, name) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;console.log(`You know ${arg}, ${name} ${this.surname}`); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;} </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">}; </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// don't pass optional `this`:</font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">char.knows(&quot;something&quot;, &quot;Bran&quot;); // You know something, Bran Stark </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// Snow is passed as the optional `this`:&#160;</font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">char.knows.call(Snow, &quot;nothing&quot;, &quot;Jon&quot;); // You know nothing, Jon Snow </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// Snow is passed as the optional `this`:&#160;</font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">char.knows.apply(Snow, [&quot;nothing&quot;, &quot;Jon&quot;]); // You know nothing, Jon Snow </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// ES6 allows us to spread an array as arguments with the call function:&#160;</font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">char.knows.call(Snow, ...[&quot;nothing&quot;, &quot;Jon&quot;]); // You know nothing, Jon Snow</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1515084661596" ID="ID_313331597" MODIFIED="1515084944896">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">const Snow = { surname: &quot;Snow&quot; }; </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">const char = { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;surname: &quot;Stark&quot;, </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;knows: function(arg, name) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;console.log(`You know ${arg}, ${name} ${this.surname}`); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;} </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">}; </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// bind the function with Snow as `this` and &quot;nothing&quot; as first `knows` arg </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">const whoKnowsNothing = char.knows.bind(Snow, &quot;nothing&quot;); </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// call with 'Jon' passed as &quot;name&quot; second `knows` arg </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">whoKnowsNothing(&quot;Jon&quot;); // You know nothing, Jon Snow&#160; </font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1515768574015" FOLDED="true" ID="ID_1203996004" MODIFIED="1515768684438" TEXT="Using `this`">
-<node CREATED="1515768628481" ID="ID_1262225589" MODIFIED="1515768681064">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// validate() validates an object's value property, given its high and low values: </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">function validate(obj, lowval, hival) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;if ((obj.value &lt; lowval) || (obj.value &gt; hival)) </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;console.log('Invalid Value!'); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">} </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// usage: </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// &lt;p&gt;Enter a number between 18 and 99:&lt;/p&gt; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// &lt;input type=&quot;text&quot; name=&quot;age&quot; size=3 onChange=&quot;validate(this, 18, 99);&quot;&gt;</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node CREATED="1515160547787" FOLDED="true" ID="ID_938731781" MODIFIED="1515764868884" TEXT="Currying">
+<node CREATED="1515160547787" FOLDED="true" ID="ID_938731781" MODIFIED="1517162616213" TEXT="Currying">
 <node CREATED="1515161392200" ID="ID_1676479417" MODIFIED="1515161446111" TEXT="Curried functions take only one argument and return a function expecting the next argument until the final function returns the accumulated output"/>
 <node CREATED="1515160617101" ID="ID_1825628780" MODIFIED="1515160842334">
 <richcontent TYPE="NODE"><html>
@@ -8265,7 +8760,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1515168760204" FOLDED="true" ID="ID_1280845075" MODIFIED="1515169408044" TEXT="Asynchronous">
+<node CREATED="1515168760204" FOLDED="true" ID="ID_1280845075" MODIFIED="1517323574589" TEXT="Asynchronous">
 <node CREATED="1515168969307" ID="ID_541005153" LINK="https://www.youtube.com/watch?v=8aGhZQkoFbQ" MODIFIED="1515168990357" TEXT="Video: What the heck is the event loop anyway?"/>
 <node CREATED="1515169080199" ID="ID_11058559" LINK="http://latentflip.com/loupe" MODIFIED="1515169144812" TEXT="Tool: Loupe: Visualizing the JS Runtime at Runtime"/>
 <node CREATED="1515168800236" ID="ID_643462649" MODIFIED="1515168814003" TEXT="JavaScript is a single-threaded programming language. This means that the JavaScript engine can only process a piece of code at a time. One of its main consequences is that when JavaScript encounters a piece of code that takes a long time to process, it will block all code after that from running. JavaScript uses a data structure that stores information about active functions named Call Stack. A Call Stack is like a pile of books. Every book that goes into that pile sits on top of the previous book. The last book to go into the pile will be the first one removed from it, and the first book added to the pile will be the last one removed. The solution to executing heavy pieces of code without blocking anything is asynchronous callback functions. These functions are executed later&#x200a;&#x2013;&#x200a;asynchronously."/>
@@ -8333,7 +8828,7 @@
 <node CREATED="1515169166162" ID="ID_205150683" MODIFIED="1515169268861" TEXT="1. Initially the Browser console is clear and the Call Stack and Event Manager are empty. &#xa;2. first() is added to the Call Stack. &#xa;3. console.log(&quot;First message&quot;) is added to the Call Stack. &#xa;4. console.log(&quot;First message&quot;) is executed and the Browser console displays &quot;First message&quot;. &#xa;5. console.log(&quot;First message&quot;) is removed from the Call Stack. &#xa;6. first() is removed from the Call Stack. &#xa;7. setTimeout(second, 0) is added to the Call Stack. &#xa;8. setTimeout(second, 0) is executed and handled by the Event Manager. And after 0ms the Event Manager moves second() to the Callback Queue. &#xa;9. setTimeout(second, 0) is now completed and removed from the Call Stack. &#xa;10. third() is added to the Call Stack. &#xa;11. console.log(&quot;Third message&quot;) is added to the Call Stack. &#xa;12. console.log(&quot;Third message&quot;) is executed and the Browser console displays &quot;Third message&quot;.&#xa;13. console.log(&quot;Third message&quot;) is removed from the Call Stack. &#xa;14. Call Stack is now empty and the second() function is waiting to be invoked in the Callback Queue. &#xa;15. The Event Loop moves second() from the Callback Queue to the Call Stack. &#xa;16. console.log(&quot;Second message&quot;) is added to the Call Stack. &#xa;17. console.log(&quot;Second message&quot;) is executed and the Browser console displays &quot;Second message&quot;. &#xa;18. console.log(&quot;Second message&quot;) is removed from the Call Stack. &#xa;19. second() is removed from the Call Stack."/>
 <node CREATED="1515169277821" ID="ID_1082164382" MODIFIED="1515169325463" TEXT="Note: The second() function is not executed after 0ms. The time you pass in to setTimeout function does not relate to the delay of its execution. The Event Manager will wait the given time before moving that function into the Callback Queue. "/>
 </node>
-<node CREATED="1515671845686" FOLDED="true" ID="ID_168753588" MODIFIED="1515671909492" TEXT="Promises">
+<node CREATED="1515671845686" FOLDED="true" ID="ID_168753588" MODIFIED="1517323580697" TEXT="Promises">
 <node CREATED="1515671866897" ID="ID_1219737320" MODIFIED="1515671901102">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -8402,9 +8897,366 @@
 <node CREATED="1516015275627" ID="ID_564505660" MODIFIED="1516015276675" TEXT="https://nodejs.org/api/stream.html "/>
 </node>
 </node>
+<node CREATED="1517339024860" FOLDED="true" ID="ID_230064665" MODIFIED="1517339633686" TEXT="Date">
+<node CREATED="1517339027563" ID="ID_1978624389" MODIFIED="1517339045272">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var today = new Date(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var endYear = new Date(1995, 11, 31, 23, 59, 59, 999); // Set day and month </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">endYear.setFullYear(today.getFullYear()); // Set year to this year </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var msPerDay = 24 * 60 * 60 * 1000; // Number of milliseconds per day </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var daysLeft = (endYear.getTime() - today.getTime()) / msPerDay; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var daysLeft = Math.round(daysLeft); //returns days left in the year</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1517339317214" ID="ID_414212611" MODIFIED="1517339332401">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">function JSClock() { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;debugger; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;var time = new Date(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;var hour = time.getHours(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;var minute = time.getMinutes(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;var second = time.getSeconds(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;var temp = '' + ((hour &gt; 12) ? hour - 12 : hour); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (hour == 0) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;temp = '12'; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;temp += ((minute &lt; 10) ? ':0' : ':') + minute; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;temp += ((second &lt; 10) ? ':0' : ':') + second; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;temp += (hour &gt;= 12) ? ' P.M.' : ' A.M.'; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return temp; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1517339635021" FOLDED="true" ID="ID_1844276968" MODIFIED="1517340660440" TEXT="String">
+<node CREATED="1517339637710" FOLDED="true" ID="ID_342402708" MODIFIED="1517340377286" TEXT="Multi-lines">
+<node CREATED="1517339769810" ID="ID_814008364" MODIFIED="1517339837452">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// new line character </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log('string text line 1\n\ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">string text line 2'); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// &quot;string text line 1 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// string text line 2&quot; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// template literals </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(`string text line 1 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">string text line 2`); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// &quot;string text line 1 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// string text line 2&quot;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1517339872664" FOLDED="true" ID="ID_98634158" MODIFIED="1517340374210" TEXT="Embedded expressions">
+<node CREATED="1517339933618" ID="ID_1786712422" MODIFIED="1517339946530">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// concatenation </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a = 5; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var b = 10; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log('Fifteen is ' + (a + b) + ' and\nnot ' + (2 * a + b) + '.'); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// &quot;Fifteen is 15 and </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// not 20.&quot; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// template literals </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a = 5; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var b = 10; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(`Fifteen is ${a + b} and\nnot ${2 * a + b}.`); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// &quot;Fifteen is 15 and </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// not 20.&quot;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1517340352203" FOLDED="true" ID="ID_95290265" MODIFIED="1517340375869" TEXT="Tagged templates">
+<node CREATED="1517340358187" ID="ID_1533950313" MODIFIED="1517340369576">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var person = 'Mike'; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var age = 28; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function myTag(strings, personExp, ageExp) { </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;var str0 = strings[0]; // &quot;that &quot; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;var str1 = strings[1]; // &quot; is a &quot; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;// There is technically a string after </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;// the final expression (in our example), </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;// but it is empty (&quot;&quot;), so disregard. </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;// var str2 = strings[2]; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;var ageStr; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (ageExp &gt; 99){ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;ageStr = 'centenarian'; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} else { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;ageStr = 'youngster'; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return str0 + personExp + str1 + ageStr; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var output = myTag`that ${ person } is a ${ age }`; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(output); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// that Mike is a youngster</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
 <node CREATED="1515087889691" FOLDED="true" ID="ID_843009440" MODIFIED="1515088007532" TEXT="Strict Mode">
 <node CREATED="1515087898564" ID="ID_1948359147" MODIFIED="1515087899568" TEXT="JavaScript is executed in strict mode by using the &quot;use strict&quot; directive. Strict mode tightens the rules for parsing and error handling on your code. Some of its benefits are:"/>
 <node CREATED="1515087918547" ID="ID_324997090" MODIFIED="1515087989359" TEXT="- Makes debugging easier:&#x200a;Code errors that would otherwise have been ignored will now generate errors, such as assigning to non-writable global or property. &#xa;&#xa;- Prevents accidental global variables:&#x200a;Assigning a value to an undeclared variable will now throw an error.&#xa;&#xa;- Prevents invalid use of delete: Attempts to delete variables, functions and undeletable properties will now throw an error. &#xa;&#xa;- Prevents duplicate property names or parameter values:&#x200a;Duplicated named property in an object or argument in a function will now throw an error. (This is no longer the case in ES6) &#xa;&#xa;- Makes eval() safer:&#x200a;Variables and functions declared inside an `eval()` statement are not created in the surrounding scope. &#xa;&#xa;- &#x201c;Secures&#x201d; JavaScript eliminating `this` coercion:&#x200a;Referencing a `this` value of null or undefined is not coerced to the global object. This means that in browsers it&apos;s no longer possible to reference the window object using `this` inside a function."/>
+</node>
+<node CREATED="1517344989584" FOLDED="true" ID="ID_773335520" MODIFIED="1517346637351" TEXT="JSON">
+<node CREATED="1517345034841" FOLDED="true" ID="ID_1551449565" MODIFIED="1517346505473" TEXT="Lists (array literals)">
+<node CREATED="1517345045970" ID="ID_1211915585" MODIFIED="1517345047022" TEXT="[&quot;penguin&quot;, &quot;arctis&quot;, &quot;snow&quot;]"/>
+</node>
+<node CREATED="1517345037073" FOLDED="true" ID="ID_392524179" MODIFIED="1517346511481" TEXT="Maps (object literals)">
+<node CREATED="1517345053402" ID="ID_378939107" MODIFIED="1517345054370" TEXT="{&quot;id&quot;: 2901465, &quot;my phone number&quot;:&quot;0049.30.227109&quot;}"/>
+</node>
+<node CREATED="1517345131581" FOLDED="true" ID="ID_500817042" MODIFIED="1517346512729" TEXT="Records (map with keys)">
+<node CREATED="1517345136442" ID="ID_54504693" MODIFIED="1517345171172" TEXT="{id: 2901465, phone:&quot;0049.30.227109&quot;}"/>
+<node CREATED="1517345168188" ID="ID_901014228" MODIFIED="1517345204047" TEXT="{tags:[&quot;penguin&quot;,&quot;arctis&quot;], photographer:{&quot;last&quot;:&quot;Wagner&quot;,&quot;first&quot;:&quot;Gerd&quot;}}"/>
+<node CREATED="1517345249841" ID="ID_1396749035" MODIFIED="1517345375658" TEXT="{006251587X: {isbn:&quot;006251587X&quot;, title:&quot;Weaving the Web&quot;, year:2000}, 0465026567: { isbn:&quot;0465026567&quot;, title:&quot;G&#xf6;del, Escher, Bach&quot;, year:1999}, 0465030793: {isbn:&quot;0465030793&quot;, title:&quot;I Am A Strange Loop&quot;, year:2008}}"/>
+</node>
+<node CREATED="1517346536178" ID="ID_311058528" MODIFIED="1517346587797" TEXT="var json = JSON.stringify(myObject);"/>
+<node CREATED="1517346556544" ID="ID_1999566657" MODIFIED="1517346606713" TEXT="var object = JSON.parse(myJson);"/>
+</node>
+<node CREATED="1517345505985" FOLDED="true" ID="ID_1868959414" MODIFIED="1517346591016" TEXT="Local Storage">
+<node CREATED="1517345515361" ID="ID_531676331" MODIFIED="1517345604324">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// save data </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var persons = {}; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">persons[&quot;2901465&quot;] = {id: 2901465, name:&quot;Tom&quot;}; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">persons[&quot;3305579&quot;] = {id: 3305579, name:&quot;Su&quot;}; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">persons[&quot;6492003&quot;] = {id: 6492003, name:&quot;Pete&quot;}; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">try { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;localStorage[&quot;personTable&quot;] = JSON.stringify(persons); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} catch (e) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;alert(&quot;Error when writing to Local Storage\n&quot; + e); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1517345605954" ID="ID_101220950" MODIFIED="1517345631492">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// load data </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var persons = {}; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">try { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;persons = JSON.parse(localStorage[&quot;personTable&quot;]); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} catch (e) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;alert(&quot;Error when reading from Local Storage\n&quot; + e);&#160;&#160;&#160;&#160;&#160;&#160;&#160; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1514320134712" FOLDED="true" ID="ID_81305191" MODIFIED="1514326212371" TEXT="DOM">
 <node CREATED="1514318853370" FOLDED="true" ID="ID_1674453123" MODIFIED="1514318989644" TEXT="DOM Manipulation">
@@ -8677,8 +9529,8 @@
 <node CREATED="1516193825488" ID="ID_1654025155" LINK="https://github.com/jonschlinkert/template-helpers" MODIFIED="1516193843514" TEXT="https://github.com/jonschlinkert/template-helpers"/>
 </node>
 </node>
-<node CREATED="1514326195177" ID="ID_994135433" MODIFIED="1516395646435" TEXT="Testing">
-<node CREATED="1514240526709" ID="ID_1055102508" MODIFIED="1516395647395" TEXT="Jasmine">
+<node CREATED="1514326195177" FOLDED="true" ID="ID_994135433" MODIFIED="1517161999497" TEXT="Testing">
+<node CREATED="1514240526709" FOLDED="true" ID="ID_1055102508" MODIFIED="1517161997805" TEXT="Jasmine">
 <node CREATED="1514293716348" ID="ID_925565954" MODIFIED="1514293831600" TEXT="fail(); // to avoid false positives, always start with failing tests"/>
 <node CREATED="1514240535189" ID="ID_1035716587" MODIFIED="1516395651033">
 <richcontent TYPE="NODE"><html>
@@ -10641,13 +11493,17 @@
 <node CREATED="1516370612833" ID="ID_1637583862" MODIFIED="1516370646540" TEXT="npm install {repo} --save // saves dev dependency to package.json"/>
 </node>
 </node>
-<node CREATED="1514317000222" FOLDED="true" ID="ID_816134582" MODIFIED="1515002365415" TEXT="Format/Style Guides">
+<node CREATED="1514317000222" FOLDED="true" ID="ID_816134582" MODIFIED="1517162549988" TEXT="Format/Style Guides">
 <node CREATED="1514317005648" ID="ID_312806319" LINK="https://github.com/airbnb/javascript" MODIFIED="1514317031814" TEXT="Airbnb JavaScript Style Guide"/>
 <node CREATED="1514317035164" FOLDED="true" ID="ID_1939787805" LINK="https://prettier.io/" MODIFIED="1514317119678" TEXT="Prettier: Code Formatter">
 <node CREATED="1514317076019" ID="ID_1503005535" LINK="https://prettier.io/docs/en/options.html" MODIFIED="1514317098913" TEXT="https://prettier.io/docs/en/options.html"/>
 <node CREATED="1514317100996" ID="ID_543673782" LINK="https://packagecontrol.io/packages/JsPrettier" MODIFIED="1514317114899" TEXT="https://packagecontrol.io/packages/JsPrettier"/>
 </node>
 <node CREATED="1514317309390" ID="ID_1155320606" LINK="https://github.com/bendc/frontend-guidelines" MODIFIED="1514317410772" TEXT="Frontend Guidelines (JS, HTML, CSS)"/>
+<node CREATED="1517162011772" ID="ID_1896221129" LINK="http://codeguide.co/" MODIFIED="1517162022844" TEXT="Code Guide by @mdo"/>
+<node CREATED="1517162082922" FOLDED="true" ID="ID_1802402132" LINK="http://editorconfig.org/" MODIFIED="1517162198320" TEXT="EditorConfig">
+<node CREATED="1517162187630" ID="ID_500913604" LINK="https://github.com/twbs/bootstrap/blob/master/.editorconfig" MODIFIED="1517162195824" TEXT="https://github.com/twbs/bootstrap/blob/master/.editorconfig"/>
+</node>
 </node>
 </node>
 <node CREATED="1514245492213" FOLDED="true" ID="ID_554907903" MODIFIED="1514317680988" POSITION="right" TEXT="HTML">
@@ -10661,8 +11517,9 @@
 <node CREATED="1514317309390" ID="ID_980073664" LINK="https://github.com/bendc/frontend-guidelines" MODIFIED="1514317410772" TEXT="Frontend Guidelines (JS, HTML, CSS)"/>
 </node>
 </node>
-<node CREATED="1514317513021" FOLDED="true" ID="ID_1006448547" MODIFIED="1514317673194" POSITION="right" TEXT="Git">
+<node CREATED="1514317513021" FOLDED="true" ID="ID_1006448547" MODIFIED="1517349140309" POSITION="right" TEXT="Git">
 <node CREATED="1514317519133" ID="ID_1770263563" LINK="http://ohshitgit.com/" MODIFIED="1514317600898" TEXT="http://ohshitgit.com/"/>
+<node CREATED="1517348805125" ID="ID_612048248" LINK="https://sethrobertson.github.io/GitFixUm/fixup.html" MODIFIED="1517348813363" TEXT="https://sethrobertson.github.io/GitFixUm/fixup.html"/>
 </node>
 <node CREATED="1514317998077" FOLDED="true" ID="ID_45322287" MODIFIED="1514318026618" POSITION="right" TEXT="CLI">
 <node CREATED="1514318003869" FOLDED="true" ID="ID_1687705929" MODIFIED="1514318025223" TEXT="download and rename">
@@ -10681,7 +11538,7 @@
 <node CREATED="1516280606899" ID="ID_68086346" MODIFIED="1516280631565" TEXT="Load text files and treat them as dependencies. Great for loading templates. The text strings can be inlined in an optimized build when the optimizer is used."/>
 </node>
 </node>
-<node CREATED="1514718738906" FOLDED="true" ID="ID_1227959119" MODIFIED="1516361149052" POSITION="right" TEXT="Programming">
+<node CREATED="1514718738906" FOLDED="true" ID="ID_1227959119" MODIFIED="1517319568149" POSITION="right" TEXT="Programming">
 <node CREATED="1514718564015" FOLDED="true" ID="ID_1861092667" MODIFIED="1516360839133" TEXT="Recursion">
 <node CREATED="1514718575085" ID="ID_722980615" MODIFIED="1514718737179">
 <richcontent TYPE="NODE"><html>
@@ -10785,6 +11642,10 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1517318019364" FOLDED="true" ID="ID_90481964" MODIFIED="1517318065760" TEXT="Arguments">
+<node CREATED="1517318022655" ID="ID_483855764" MODIFIED="1517318042743" TEXT="1-3 args, use position parameters"/>
+<node CREATED="1517318044097" ID="ID_1673719926" MODIFIED="1517318062105" TEXT="&gt; 3 args, use an options object"/>
 </node>
 </node>
 </node>
