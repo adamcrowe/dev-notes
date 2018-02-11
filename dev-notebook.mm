@@ -7,11 +7,511 @@
 <node CREATED="1516360681169" ID="ID_1677291012" LINK="https://zordius.github.io/HandlebarsCookbook/" MODIFIED="1516360826806" TEXT="Lightncandy Tutorial: https://zordius.github.io/HandlebarsCookbook/"/>
 </node>
 </node>
-<node CREATED="1514240428816" ID="ID_411226142" MODIFIED="1515170709827" POSITION="right" TEXT="JavaScript">
+<node CREATED="1518292860903" FOLDED="true" ID="ID_885591118" MODIFIED="1518380091016" POSITION="right" TEXT="HTTP">
+<node CREATED="1518299387811" ID="ID_213212585" LINK="https://developer.mozilla.org/en-US/docs/Web/HTTP" MODIFIED="1518299406469" TEXT="TODO HTTP (MDN)"/>
+<node CREATED="1518294321388" FOLDED="true" ID="ID_1544420661" MODIFIED="1518299384967" TEXT="HTTP &amp; TCP: How it Works">
+<node CREATED="1518294338420" ID="ID_1861935667" MODIFIED="1518294390771">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      When you type a URL address into your browser, you are commanding it to open a TCP channel to the server that responds to that URL.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518294408605" ID="ID_1023445300" MODIFIED="1518294423229">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Your computer, which is making the request, is called the client. The URL you are requesting is the address that belongs to the server.
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518294392262" ID="ID_1527167911" MODIFIED="1518294453742" TEXT="Once the TCP connection is established, the client sends a HTTP GET request to the server to retrieve the webpage it should display. After the server has sent the response, it closes the TCP connection. If you open the website in your browser again, or if your browser automatically requests something from the server, a new connection is opened which follows the same process described above."/>
+<node CREATED="1518294534811" ID="ID_305512342" MODIFIED="1518294573173" TEXT="After you type the URL into your browser, your browser will extract the http part and recognize that it is the name of the network protocol to use. Then, it takes the domain name from the URL (e.g.&#x201c;example.com&#x201d;) and asks the internet Domain Name Server to return an Internet Protocol (IP) address. "/>
+<node CREATED="1518294598733" ID="ID_758939100" MODIFIED="1518294605389">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Now the client knows the destination's IP address. It then opens a connection to the server at that address, using the <code>http</code>&#160;protocol as specified. It will initiate a GET request to the server which contains the IP address of the host and optionally a data payload. The GET request contains the following text:
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518294606869" ID="ID_293988209" MODIFIED="1518297462687">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// request:</font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">GET /index HTTP/1.1 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Host: www.example.com</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518294763514" ID="ID_92309208" MODIFIED="1518294766961" TEXT="Note: In HTTP/1.0, every resource request requires a separate connection to the server. HTTP/1.1 uses one connection more than once, so that additional content (like images or stylesheets) is retrieved even after the page has been retrieved. As a result, requests using HTTP/1.1 have less delay than those using HTTP/1.0."/>
+<node CREATED="1518294840772" ID="ID_1122736282" MODIFIED="1518294841790" TEXT="If the server is able to locate the path requested, the server might respond with the header:"/>
+<node CREATED="1518294857188" ID="ID_1197202675" MODIFIED="1518298033295">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// response: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">HTTP/1.1 200 OK </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Content-Type: text/html </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&lt;!DOCTYPE html&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&lt;html&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&lt;head&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&lt;title&gt;Home Page&lt;/title&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&lt;/head&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&lt;/body&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&lt;div&gt;Hello World!&lt;/div&gt;&#160;</font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&lt;/body&gt; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&lt;/html&gt;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518294922966" ID="ID_453043880" MODIFIED="1518294931904" TEXT="This header is followed by the content requested, which in this case is the information needed to render example.com"/>
+</node>
+<node CREATED="1518289149344" FOLDED="true" ID="ID_1454043202" MODIFIED="1518299386628" TEXT="REST">
+<node CREATED="1518289159287" ID="ID_1788605279" MODIFIED="1518291121985" TEXT="Statelessness: Systems that follow the REST paradigm are stateless, meaning that the server does not need to know anything about what state the client is in and vice versa. In this way, both the server and the client can understand any message received, even without seeing previous messages. "/>
+<node CREATED="1518290037047" ID="ID_191842965" MODIFIED="1518292936899" TEXT="Communication Between Client and Server: Clients send requests to retrieve or modify resources, and servers send responses to these requests">
+<node CREATED="1518290139224" FOLDED="true" ID="ID_1678802550" MODIFIED="1518293371483" TEXT="Making Requests">
+<node CREATED="1518290157550" FOLDED="true" ID="ID_583206449" MODIFIED="1518290910559" TEXT="An HTTP verb which defines what kind of operation to perform">
+<node CREATED="1518290212298" ID="ID_482878178" MODIFIED="1518290242718" TEXT="GET - retrieve a specific resource (by id) or a collection of resources"/>
+<node CREATED="1518290220794" ID="ID_1432648119" MODIFIED="1518290245270" TEXT="POST - create a new resource"/>
+<node CREATED="1518290237491" ID="ID_352311355" MODIFIED="1518290248657" TEXT="PUT - update a specific resource (by id)"/>
+<node CREATED="1518290256235" ID="ID_572859235" MODIFIED="1518290265126" TEXT="DELETE - remove a specific resource (by id)"/>
+</node>
+<node CREATED="1518290170345" FOLDED="true" ID="ID_704228265" MODIFIED="1518291601750" TEXT="A header which passes along information about the request">
+<node CREATED="1518290343366" ID="ID_874925225" LINK="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types" MODIFIED="1518291583054" TEXT="MIME Types (MDN)"/>
+<node CREATED="1518290305645" ID="ID_1030190910" MODIFIED="1518290719340" TEXT="In the header of the request, the client sends the type of content that it is able to receive from the server. This is called the Accept field, and it ensures that the server does not send data that cannot be understood or processed by the client. The options for types of content are MIME Types (or Multipurpose Internet Mail Extensions):"/>
+<node CREATED="1518290397935" ID="ID_704932592" MODIFIED="1518290514310">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre class="syntaxbox"><font size="4" face="Inconsolata">type/subtype
+text/plain
+text/html
+image/jpeg
+image/png
+audio/mpeg
+audio/ogg
+video/mp4
+application/json
+application/xml
+application/pdf
+application/octet-stream</font></pre>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518290644464" ID="ID_499665549" MODIFIED="1518291092270">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// Example: Get resource with id 23 in articles and accept html or xhtml content:&#160; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">GET /articles/23 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Accept: text/html, application/xhtml</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1518290187856" FOLDED="true" ID="ID_1521481273" MODIFIED="1518293368984" TEXT="A URI path to a resource">
+<node CREATED="1518292981378" ID="ID_1896537538" MODIFIED="1518293238019" TEXT="The pair of an HTTP verb and a URI is called a `route` and matching them based on a request is called `routing`. "/>
+<node CREATED="1518290858326" ID="ID_954033593" MODIFIED="1518290952801">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Requests must contain a path to a resource that the operation should be performed on. In RESTful APIs, paths should be designed to help the client know what is going on. Conventionally, the first part of the path should be the plural form of the resource. This keeps nested paths simple to read and easy to understand.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518291000578" ID="ID_1849538492" MODIFIED="1518291095914">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// Example: get the order with id&#160;12 for the customer with id&#160;223 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">GET fashionboutique.com/customers/223/orders/12 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Accept: application/json</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1518290198569" ID="ID_1890627501" MODIFIED="1518290202416" TEXT="An optional message body containing data"/>
+</node>
+<node CREATED="1518291112717" FOLDED="true" ID="ID_624819824" MODIFIED="1518292340720" TEXT="Sending Responses">
+<node CREATED="1518291140207" FOLDED="true" ID="ID_60351315" MODIFIED="1518291358291" TEXT="Content Types">
+<node CREATED="1518291175616" ID="ID_1051497025" MODIFIED="1518291176520" TEXT="In cases where the server is sending a data payload to the client, the server must include a content-type in the header of the response. This content-type header field alerts the client to the type of data it is sending in the response body. These content types are MIME Types, just as they are in the accept field of the request header. The content-type that the server sends back in the response should be one of the options that the client specified in the accept field of the request. "/>
+<node CREATED="1518291310020" ID="ID_1218685896" MODIFIED="1518291332987">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// request: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">GET /articles/23 HTTP/1.1 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Accept: text/html, application/xhtml </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// response: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">HTTP/1.1 200 (OK) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Content-Type: text/html</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1518291497873" FOLDED="true" ID="ID_284561825" MODIFIED="1518292336936" TEXT="Response Codes">
+<node CREATED="1518291355710" ID="ID_1380701950" LINK="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status" MODIFIED="1518291421274" TEXT="Response Codes (MDN)"/>
+<node CREATED="1518291507835" ID="ID_1716446324" MODIFIED="1518291564494" TEXT="For each HTTP verb, there are expected status codes a server should return upon success:      &#xa;GET - return 200 (OK)     &#xa;POST - return 201 (CREATED)     &#xa;PUT - return 200 (OK)     &#xa;DELETE - return 204 (NO CONTENT) "/>
+</node>
+</node>
+<node CREATED="1518291643807" FOLDED="true" ID="ID_1281790041" MODIFIED="1518297806479" TEXT="Examples of Requests and Responses">
+<node CREATED="1518291650623" ID="ID_1101709261" MODIFIED="1518293805737">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// request: view all customers: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">GET http://fashionboutique.com/customers </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Accept: application/json </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// response header: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Status Code: 200 (OK) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Content-type: application/json </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// response body: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">{ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&quot;customers&quot;: [ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;{ }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;{ }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;{ }&#160;&#160; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;] </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518291772194" ID="ID_1315001475" MODIFIED="1518293547774">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// request: create a new customer by posting the data: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">POST http://fashionboutique.com/customers </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Body: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">{ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#8220;customer&#8221;: { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#8220;name&#8221; = &#8220;Scylla Buss&#8221;,</font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#8220;email&#8221; = &#8220;scylla.buss@codecademy.org&#8221; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// response header: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">201 (CREATED) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Content-type: application/json </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// response body: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">{ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#8220;customer&#8221;: { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&quot;id&quot; = 123, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#8220;name&#8221; = &#8220;Scylla Buss&#8221;,</font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#8220;email&#8221; = &#8220;scylla.buss@codecademy.org&#8221; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518291898743" ID="ID_1467678559" MODIFIED="1518291911965">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// request: view a single customer by id: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">GET http://fashionboutique.com/customers/123 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Accept: application/json </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// response header: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Status Code: 200 (OK) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Content-type: application/json</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518291983938" ID="ID_1073259580" MODIFIED="1518293654996">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// request: update customer by putting the new data: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">PUT http://fashionboutique.com/customers/123 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Body: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">{ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#8220;customer&#8221;: { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#8220;name&#8221; = &#8220;Scylla Buss&#8221;, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#8220;email&#8221; = &#8220;scyllabuss1@codecademy.com&#8221; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// response header: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Status Code: 200 (OK) </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518292077477" ID="ID_149059296" MODIFIED="1518292089125">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// request: DELETE that customer by id: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">DELETE http://fashionboutique.com/customers/123 </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// response header: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Status Code: 204 (NO CONTENT)</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1518295411358" FOLDED="true" ID="ID_503544953" MODIFIED="1518297203354" TEXT="URI, URL, URN">
+<node CREATED="1518296453791" ID="ID_1119373467" LINK="https://en.wikipedia.org/wiki/Uniform_Resource_Identifier" MODIFIED="1518296481718" TEXT="Uniform Resource Identifier (Wikipedia)"/>
+<node CREATED="1518295493129" ID="ID_1220546062" MODIFIED="1518295566812" TEXT="A URL (Uniform Resource Locator) is a type of URI (Uniform Resource Identifier)"/>
+<node CREATED="1518295593020" ID="ID_1744257951" MODIFIED="1518296610692" TEXT="A URL is a type of URI that identifies a resource via a representation of its primary access mechanism (its network &quot;location&quot; e.g. http:// or ftp://), rather than by some other attributes it may have."/>
+<node CREATED="1518295614789" ID="ID_861960221" MODIFIED="1518296374439" TEXT="A URN (Uniform Resource Name) is a URI that identifies a resource by name in a particular namespace. A URN may be used to talk about a resource without implying its location or how to access it. For example, in the International Standard Book Number (ISBN) system, ISBN 0-486-27557-4 identifies a specific edition of Shakespeare&apos;s play Romeo and Juliet. The URN for that edition would be urn:isbn:0-486-27557-4. However, it gives no information as to where to find a copy of that book."/>
+<node CREATED="1518296526731" ID="ID_1911502135" MODIFIED="1518296530974" TEXT="A URN may be compared to a person&apos;s name, while a URL may be compared to his or her street address. In other words, a URN identifies an item and a URL provides a method for finding it."/>
+<node CREATED="1518296029633" ID="ID_1338435452" MODIFIED="1518296055294" TEXT="All URNs and URLs are URIs, but the opposite is not true. The part that makes something a URL is the combination of the name and an access method."/>
+<node CREATED="1518295967103" ID="ID_179629529" MODIFIED="1518295988910" TEXT="&quot;URI&quot; is best used when you&#x2019;re referring to a resource just by its name or some other fragment. And when you&#x2019;re giving both the name of a resource and the method of accessing it (like a full URL), it&#x2019;s best to call that a &quot;URL&quot;."/>
+<node CREATED="1518295690806" FOLDED="true" ID="ID_801744914" MODIFIED="1518297201040" TEXT="URIs">
+<node CREATED="1518295916125" ID="ID_93564125" MODIFIED="1518295921785" TEXT="files.hp.com"/>
+<node CREATED="1518295775626" ID="ID_369367879" MODIFIED="1518295791254" TEXT="URLs">
+<node CREATED="1518295725528" ID="ID_439266778" MODIFIED="1518295728927" TEXT="http://www.ietf.org/rfc/rfc2396.txt"/>
+<node CREATED="1518295694663" ID="ID_1588284116" MODIFIED="1518295716194" TEXT="ftp://ftp.is.co.za/rfc/rfc1808.txt"/>
+<node CREATED="1518295757649" ID="ID_1144960179" MODIFIED="1518295852517" TEXT="lapd://[2001:db8::7]/c=GB?objectClass?one"/>
+<node CREATED="1518295791254" ID="ID_139232408" MODIFIED="1518295796049" TEXT="mailto:John.Doe@example.com"/>
+<node CREATED="1518295804962" ID="ID_483441368" MODIFIED="1518295809396" TEXT="news:comp.infosystems.www.servers.unix"/>
+<node CREATED="1518295821634" ID="ID_827302995" MODIFIED="1518295826012" TEXT="tel:+1-816-555-1212"/>
+<node CREATED="1518295847212" ID="ID_805913344" MODIFIED="1518295850861" TEXT="telnet://192.0.2.16:80/"/>
+</node>
+<node CREATED="1518295873580" ID="ID_235231135" MODIFIED="1518295877534" TEXT="URNs">
+<node CREATED="1518296335795" ID="ID_237643630" MODIFIED="1518296338148" TEXT="urn:isbn:0-486-27557-4"/>
+<node CREATED="1518295877773" ID="ID_1941804574" MODIFIED="1518295888017" TEXT="urn:oasis:names:specification:docbook:dtd:xml:4.1.2"/>
+<node CREATED="1518297043081" ID="ID_854937690" MODIFIED="1518297064974" TEXT="urn:mpeg:mpeg7:schema:2001"/>
+<node CREATED="1518297055849" ID="ID_1513522965" MODIFIED="1518297056899" TEXT="urn:sha1:YNCKHTQCWBTRNJIV4WNAE52SJUQCZO5C"/>
+<node CREATED="1518297065913" ID="ID_1764251869" MODIFIED="1518297066685" TEXT="urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1514240428816" FOLDED="true" ID="ID_411226142" MODIFIED="1518380088873" POSITION="right" TEXT="JavaScript">
 <node CREATED="1514246161846" FOLDED="true" ID="ID_1459307230" MODIFIED="1515263261179" TEXT="Includes">
 <node CREATED="1514246166034" ID="ID_1353817231" MODIFIED="1514246167449" TEXT="require(&quot;../src/test.js&quot;);"/>
 </node>
-<node CREATED="1515258841504" FOLDED="true" ID="ID_1952254239" MODIFIED="1517320711743" TEXT="Operators">
+<node CREATED="1515258841504" FOLDED="true" ID="ID_1952254239" MODIFIED="1518375000973" TEXT="Operators">
 <node CREATED="1515766312105" ID="ID_178949811" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators" MODIFIED="1515770543578" TEXT="TODO: Bitwise (MDN)"/>
 <node CREATED="1515765625003" FOLDED="true" ID="ID_1236831658" MODIFIED="1517162709516" TEXT="Assignment">
 <node CREATED="1515765651236" ID="ID_460118585" MODIFIED="1517162702960" TEXT="Compound Assignment">
@@ -2230,8 +2730,7 @@
       <font face="Inconsolata" size="4">colors.forEach(color =&gt; console.log(color)); </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1517387558309" ID="ID_1270547903" MODIFIED="1517387560675" TEXT="Methods">
@@ -2255,8 +2754,7 @@
       <font face="Inconsolata" size="4">console.log(myArray) // [&quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1517387679681" FOLDED="true" ID="ID_1377739646" MODIFIED="1517387788817" TEXT=".join(deliminator)">
@@ -2279,8 +2777,7 @@
       <font face="Inconsolata" size="4">console.log(list) // // &quot;Wind - Rain - Fire&quot;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1517387777739" FOLDED="true" ID="ID_251557072" MODIFIED="1517387841737" TEXT=".push()">
@@ -2306,8 +2803,7 @@
       <font face="Inconsolata" size="4">console.log(myArray); // [&quot;1&quot;, &quot;2&quot;, &quot;3&quot;]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1517387984482" FOLDED="true" ID="ID_1845287321" MODIFIED="1517388022588" TEXT=".pop()">
@@ -2336,11 +2832,10 @@
       <font face="Inconsolata" size="4">console.log(last); // &quot;3&quot;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1517388023835" FOLDED="true" ID="ID_1451913062" MODIFIED="1517388100957" TEXT=".shift()">
+<node CREATED="1517388023835" FOLDED="true" ID="ID_1451913062" MODIFIED="1518375419024" TEXT=".shift()">
 <node CREATED="1517388080349" ID="ID_1778679617" MODIFIED="1517388099173">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2363,11 +2858,10 @@
       <font face="Inconsolata" size="4">console.log(first); // &quot;1&quot;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1517388102230" FOLDED="true" ID="ID_325809637" MODIFIED="1517388176078" TEXT=".unshift()">
+<node CREATED="1517388102230" FOLDED="true" ID="ID_325809637" MODIFIED="1518371749320" TEXT=".unshift()">
 <node CREATED="1517388155894" ID="ID_544960342" MODIFIED="1517388172768">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2390,8 +2884,7 @@
       <font face="Inconsolata" size="4">console.log(myArray); // [&quot;4&quot;, &quot;5&quot;, &quot;1&quot;, &quot;2&quot;, &quot;3&quot;]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1517388281178" FOLDED="true" ID="ID_769695724" MODIFIED="1517388409392" TEXT=".slice(startIndex, endButNotIncludingIndex)">
@@ -2414,8 +2907,7 @@
       <font face="Inconsolata" size="4">console.log(myArray); // [ &quot;b&quot;, &quot;c&quot;, &quot;d&quot;]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1517388667039" FOLDED="true" ID="ID_961756293" MODIFIED="1517388698239" TEXT=".splice(index, removeCount, addElement1, addElement2, ...)">
@@ -2441,8 +2933,7 @@
       <font face="Inconsolata" size="4">console.log(myArray); // [&quot;1&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;5&quot;]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1517388762202" FOLDED="true" ID="ID_375042190" MODIFIED="1517388786146" TEXT=".reverse()">
@@ -2471,43 +2962,84 @@
       <font face="Inconsolata" size="4">console.log(myArray); // [&quot;3&quot;, &quot;2&quot;, &quot;1&quot;]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1517388787794" ID="ID_1678541826" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort" MODIFIED="1517389472090" TEXT=".sort([compareFunction])">
-<node CREATED="1517388832452" ID="ID_302349398" MODIFIED="1517389399171">
+<node CREATED="1517388787794" FOLDED="true" ID="ID_1678541826" MODIFIED="1518374194819" TEXT=".sort([compareFunction])">
+<node CREATED="1518370204789" ID="ID_880525837" MODIFIED="1518370246514">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font face="Inconsolata" size="4">// sorts the elements of an array in place, </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">// and returns a reference to the array </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">// compareFunction is not supplied, elements are sorted by converting </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">// them to strings and comparing strings in Unicode code point order</font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">var myArray = new Array('Wind', 'Rain', 'Fire'); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">myArray.sort(); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;Fire&quot;, &quot;Rain&quot;, &quot;Wind&quot;]</font>
+      <font size="4" face="Inconsolata">Sorts the elements of an array in place (no copy is made), and returns a reference to the array. If a compareFunction is not supplied, elements are sorted by converting them to strings and comparing strings in Unicode code point order.</font>
     </p>
   </body>
 </html>
 </richcontent>
 </node>
-<node CREATED="1517388903597" ID="ID_324445671" MODIFIED="1517389296648">
+<node CREATED="1518369828513" ID="ID_1815305603" MODIFIED="1518370203241">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var months = ['March', 'Jan', 'Feb', 'Dec']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">months.sort(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(months); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// [&quot;Dec&quot;, &quot;Feb&quot;, &quot;Jan&quot;, &quot;March&quot;]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518369859154" ID="ID_1668978001" MODIFIED="1518370203262">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var array1 = [1, 30, 4, 21]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">array1.sort(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(array1); // [1, 21, 30, 4]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1517388832452" ID="ID_302349398" MODIFIED="1518370198663">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var myArray = new Array('Wind', 'Rain', 'Fire'); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">myArray.sort(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(myArray); // [&quot;Fire&quot;, &quot;Rain&quot;, &quot;Wind&quot;]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1517388903597" FOLDED="true" ID="ID_324445671" MODIFIED="1518370775927">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -2542,6 +3074,1176 @@
     </p>
     <p>
       <font face="Inconsolata" size="4">console.log(myArray); // [&quot;Wind&quot;,&quot;Fire&quot;,&quot;Rain&quot;]</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1518370009647" ID="ID_830624014" MODIFIED="1518370082250">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If compareFunction is supplied, the array elements are sorted according to the return value of the compare function. If a and b are two elements being compared, then:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - If compareFunction(a, b) is less than 0, sort a to an index lower than b, i.e. a comes first.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - If compareFunction(a, b) returns 0, leave a and b unchanged with respect to each other, but sorted with respect to all different elements.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - If compareFunction(a, b) is greater than 0, sort b to an index lower than a, i.e. b comes first.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - compareFunction(a, b) must always return the same value when given a specific pair of elements a and b as its two arguments. If inconsistent results are returned then the sort order is undefined.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518370088198" ID="ID_1735778378" MODIFIED="1518370126382">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">function compare(a, b) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (a is less than b by some ordering criterion) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return -1; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (a is greater than b by the ordering criterion) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return 1; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;// a must be equal to b </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return 0; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1518370255583" ID="ID_622997099" MODIFIED="1518370694962">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// use debugger to step through sorting </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var numbers = [4, 2, 5, 1, 3]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">numbers.sort(function(a, b) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;debugger;</font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return a - b; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(numbers); // [1, 2, 3, 4, 5]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518370777496" ID="ID_1545782812" MODIFIED="1518370833759">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// sort objects by value property </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var items = [ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'Edward', value: 21 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'Sharpe', value: 37 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'And', value: 45 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'The', value: -12 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'Magnetic', value: 13 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'Zeros', value: 37 } </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">]; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// sort by value </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">items.sort(function (a, b) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return a.value - b.value; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// sort by name </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">items.sort(function(a, b) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;var nameA = a.name.toUpperCase(); // ignore upper and lowercase </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;var nameB = b.name.toUpperCase(); // ignore upper and lowercase </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (nameA &lt; nameB) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return -1; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (nameA &gt; nameB) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return 1; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;// names must be equal </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return 0; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">});</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518371120898" ID="ID_1207834423" MODIFIED="1518371137027">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// String.localeCompare compares non-english characters so they appear in the right order </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var items = ['r&#233;serv&#233;', 'premier', 'clich&#233;', 'communiqu&#233;', 'caf&#233;', 'adieu']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">items.sort(function (a, b) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return a.localeCompare(b); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// console.log(items) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// ['adieu', 'caf&#233;', 'clich&#233;', 'communiqu&#233;', 'premier', 'r&#233;serv&#233;']</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518371604690" ID="ID_126155276" MODIFIED="1518371672831">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// using map to process sorted temp arrays </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// original array to be sorted </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var list = ['Delta', 'alpha', 'CHARLIE', 'bravo']; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// temp array holds objects with index/position and sort-value </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var mapped = list.map(function(el, i) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return { index: i, value: el.toLowerCase() }; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}) </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// sorting the mapped array </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">mapped.sort(function(a, b) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (a.value &gt; b.value) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return 1; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (a.value &lt; b.value) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return -1; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return 0; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// use index/position to get element from original array </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var result = mapped.map(function(el) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return list[el.index]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">});</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1518371734454" FOLDED="true" ID="ID_77831033" MODIFIED="1518374147748" TEXT=".indexOf(searchElement[, fromIndex])">
+<node CREATED="1518371768519" ID="ID_1798730457" MODIFIED="1518372023192">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// returns the index of the first match (using ===) for searchElement </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a = ['a', 'b', 'a', 'b', 'a']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// search for first instance of 'b' </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a.indexOf('b')); // logs 1 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// search for first instance of 'b' starting from index 2 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a.indexOf('b', 2)); // logs 3 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a.indexOf('z')); // logs -1, because 'z' was not found</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518372280863" ID="ID_1961714072" MODIFIED="1518374128709">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// find all the occurrences of an element, starting at array beginning </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var indices = []; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var array = ['a', 'b', 'a', 'c', 'a', 'd']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var element = 'a'; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var idx = array.indexOf(element); // 0 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">while (idx != -1) { // exit condition: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;// if the index is greater than or equal to the array's length, -1 is returned </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;debugger; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;indices.push(idx); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;idx = array.indexOf(element, idx + 1); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(indices); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// [0, 2, 4]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518373647720" ID="ID_1744916929" MODIFIED="1518373666040">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// if element does not exist in the array, add it, else do nothing </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function updateVegetablesCollection (veggies, veggie) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;if (veggies.indexOf(veggie) === -1) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;veggies.push(veggie); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log('New veggies collection is : ' + veggies); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;} else if (veggies.indexOf(veggie) &gt; -1) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log(veggie + ' already exists in the veggies collection.'); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var veggies = ['potato', 'tomato', 'chillies', 'green-pepper']; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">updateVegetablesCollection(veggies, 'spinach'); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// New veggies collection is : potato,tomato,chillies,green-pepper,spinach </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">updateVegetablesCollection(veggies, 'spinach'); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// spinach already exists in the veggies collection.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1518373732636" FOLDED="true" ID="ID_432470301" MODIFIED="1518374149703" TEXT=".lastIndexOf(searchElement[, fromIndex])">
+<node CREATED="1518373736027" ID="ID_1657283104" MODIFIED="1518373824979">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// works like indexOf, but starts at the end and searches backwards </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a = ['a', 'b', 'c', 'd', 'a', 'b']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a.lastIndexOf('b')); // logs 5 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// start searching from index/position 4 and look backwards </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a.lastIndexOf('b', 4)); // logs 1 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a.lastIndexOf('z')); // logs -1</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518374049829" ID="ID_1512496923" MODIFIED="1518374096672">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// find all the occurrences of an element, starting at array end </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var indices = []; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var array = ['a', 'b', 'a', 'c', 'a', 'd']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var element = 'a'; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var idx = array.lastIndexOf(element); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">while (idx != -1) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;indices.push(idx); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;// skip idx == 0 because the first matching element will always be found </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;idx = (idx &gt; 0 ? array.lastIndexOf(element, idx - 1) : -1); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(indices); // [4, 2, 0]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1518374150848" FOLDED="true" ID="ID_1314408942" MODIFIED="1518375411197" TEXT=".forEach(callback[, thisObject])">
+<node CREATED="1518374449386" ID="ID_745322967" MODIFIED="1518374452178" TEXT="forEach() executes the callback function once for each array element; unlike map() or reduce() it always returns the value undefined and is not chainable. The typical use case is to execute side effects at the end of a chain."/>
+<node CREATED="1518374348911" ID="ID_634436599" MODIFIED="1518374360890">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// executes callback on every array item and returns undefined </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a = ['a', 'b', 'c']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">a.forEach(function(element) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;console.log(element); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// a </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// b </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// c</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518374576717" ID="ID_1011425176" MODIFIED="1518374587629">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// print contents of an array </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function logArrayElements(element, index, array) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;console.log('a[' + index + '] = ' + element); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// index 2 is skipped since there is no item at that position </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">[2, 5, , 9].forEach(logArrayElements); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// logs: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// a[0] = 2 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// a[1] = 5 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// a[3] = 9</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518374795396" ID="ID_239191077" MODIFIED="1518374816155">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// pass `this` arg into callback each time it's invoked for use as its `this` value</font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function Counter() { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;this.sum = 0; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;this.count = 0; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Counter.prototype.add = function(array) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;array.forEach(function(entry) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;this.sum += entry; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;this.count++; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;}, this); // use this same object </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const obj = new Counter(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">obj.add([2, 5, 9]); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">obj.count; // 3 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">obj.sum; // 16</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518374931328" ID="ID_434419287" MODIFIED="1518375394409">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// object copy function </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function copy(obj) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;const copy = Object.create(Object.getPrototypeOf(obj)); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;const propNames = Object.getOwnPropertyNames(obj); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;propNames.forEach(function(name) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;const desc = Object.getOwnPropertyDescriptor(obj, name); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;Object.defineProperty(copy, name, desc); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;}); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return copy; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const obj1 = { a: 1, b: 2 }; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const obj2 = copy(obj1); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(obj2) // looks like obj1</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518375381397" ID="ID_476475816" MODIFIED="1518375407934">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// if the array is modified during iteration, other elements might be skipped </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// (forEach() does not make a copy of the array before iterating) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var words = ['one', 'two', 'three', 'four']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">words.forEach(function(word) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;console.log(word); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (word === 'two') { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;// remove 'one' </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;words.shift(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;// 'four' is now where 'three' was so 'three' is skipped </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// one </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// two </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// four</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1518375779178" FOLDED="true" ID="ID_865674697" MODIFIED="1518379376366" TEXT=".map(callback[, thisObject])">
+<node CREATED="1518375809115" ID="ID_612331905" MODIFIED="1518375844313">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// returns new array of return values from executing callback on every array item </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a1 = ['a', 'b', 'c']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a2 = a1.map(function(item) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return item.toUpperCase(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a2); // ['A', 'B', 'C']</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518375887093" ID="ID_598863545" MODIFIED="1518375897996">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var array1 = [1, 4, 9, 16]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const map1 = array1.map(x =&gt; x * 2); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(map1); // [2, 8, 18, 32]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518376014761" ID="ID_1809372918" MODIFIED="1518376027320">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// map array of numbers to an array of square roots </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var numbers = [1, 4, 9]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var roots = numbers.map(Math.sqrt); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(roots) // [1, 2, 3]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518379007948" ID="ID_397179452" MODIFIED="1518379021403">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// reformat objects in an array </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var kvArray = [{key: 1, value: 10}, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{key: 2, value: 20}, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{key: 3, value: 30}]; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var reformattedArray = kvArray.map(obj =&gt;{ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;var rObj = {}; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;rObj[obj.key] = obj.value; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;return rObj; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}) </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(reformattedArray) // [{1: 10}, {2: 20}, {3: 30}]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518379156793" ID="ID_590261167" MODIFIED="1518379177686">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// using map generically </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var map = Array.prototype.map; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a = map.call('Hello World', function(x) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return x.charCodeAt(0); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// console.log(a) // [72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1518379377624" FOLDED="true" ID="ID_118611816" MODIFIED="1518380045678" TEXT=".filter(callback[, thisObject])">
+<node CREATED="1518379418441" ID="ID_1210097398" MODIFIED="1518379432655">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// returns a new array containing the items for which callback returned true </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a1 = ['a', 10, 'b', 20, 'c', 30]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a2 = a1.filter(function(item) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return typeof item === 'number'; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a2); // [10, 20, 30]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518379476187" ID="ID_1194328801" MODIFIED="1518379490405">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const result = words.filter(word =&gt; word.length &gt; 6); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(result); // [&quot;exuberant&quot;, &quot;destruction&quot;, &quot;present&quot;]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518379627408" ID="ID_1373523453" MODIFIED="1518379642191">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// filter out all small values </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function isBigEnough(value) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return value &gt;= 10; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var filtered = [12, 5, 8, 130, 44].filter(isBigEnough); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(filtered); // [12, 130, 44]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518379878535" ID="ID_965954164" MODIFIED="1518379890512">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// filter for valid (numeric) entries from JSON o </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var arr = [ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ id: 15 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ id: -1 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ id: 0 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ id: 3 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ id: 12.2 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ id: null }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ id: NaN }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ id: 'undefined' } </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">]; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var invalidEntries = 0; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function isNumber(obj) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return obj !== undefined &amp;&amp; typeof(obj) === 'number' &amp;&amp; !isNaN(obj); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function filterByID(item) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (isNumber(item.id)) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return true; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;invalidEntries++; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return false; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var arrByID = arr.filter(filterByID); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log('Filtered Array\n', arrByID); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// Filtered Array </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// [{ id: 15 }, { id: -1 }, { id: 0 }, { id: 3 }, { id: 12.2 }] </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log('Number of Invalid Entries = ', invalidEntries); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// Number of Invalid Entries = 4 </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518380030140" ID="ID_1708289088" MODIFIED="1518380042973">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// searching in array </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var fruits = ['apple', 'banana', 'grapes', 'mango', 'orange']; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">/** </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;* filterItems filters items based on search criteria (query) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;*/ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function filterItems(query) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return fruits.filter(function(el) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;return el.toLowerCase().indexOf(query.toLowerCase()) &gt; -1; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;}) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(filterItems('ap')); // ['apple', 'grapes'] </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(filterItems('an')); // ['banana', 'mango', 'orange']</font>
     </p>
   </body>
 </html>
@@ -3200,8 +4902,7 @@
       <font face="Inconsolata" size="4">// n&#160;takes on the values 1, 3, 7, and 12</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1515176524667" FOLDED="true" ID="ID_1558553800" MODIFIED="1517387309377" TEXT="for...in vs for...of">
@@ -3308,12 +5009,11 @@
       <font face="Inconsolata" size="4">}</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1515087668705" FOLDED="true" ID="ID_1107451607" MODIFIED="1517338737663" TEXT="Functions">
+<node CREATED="1515087668705" FOLDED="true" ID="ID_1107451607" MODIFIED="1518375378101" TEXT="Functions">
 <node CREATED="1515245878852" ID="ID_553206486" MODIFIED="1515684169289" TEXT="In JS, functions are Function objects and first-class objects: they can have properties and methods just like any other object. What distinguishes them from other objects is that functions can be called."/>
 <node CREATED="1515247305802" FOLDED="true" ID="ID_32018720" MODIFIED="1515765356273" TEXT="Function Object">
 <node CREATED="1515247440525" FOLDED="true" ID="ID_570300600" MODIFIED="1515684127364" TEXT="Constructor">
@@ -4423,7 +6123,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1515087671761" FOLDED="true" ID="ID_912877028" MODIFIED="1517232916376" TEXT="Arrow Functions">
+<node CREATED="1515087671761" FOLDED="true" ID="ID_912877028" MODIFIED="1518375105874" TEXT="Arrow Functions">
 <node CREATED="1515087671761" ID="ID_1905629619" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions" MODIFIED="1515265871523" TEXT="Arrow Functions"/>
 <node CREATED="1515087695650" ID="ID_1443382581" MODIFIED="1515266421780" TEXT="An arrow function expression has a shorter syntax than a function expression and does not have its own `this`, `arguments`, `super`, or `new.target`."/>
 <node CREATED="1515087738267" ID="ID_1677633798" MODIFIED="1517232905673">
@@ -5161,9 +6861,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1515668524509" FOLDED="true" ID="ID_1843684043" MODIFIED="1517387895152" TEXT="Objects">
+<node CREATED="1515668524509" FOLDED="true" ID="ID_1843684043" MODIFIED="1518375376534" TEXT="Objects">
 <node CREATED="1515880670377" ID="ID_929106008" MODIFIED="1515880675217" TEXT="One can think of an object as an associative array (a.k.a. map, dictionary, hash, lookup table). The keys in this array are the names of the object&apos;s properties. It&apos;s typical when speaking of an object&apos;s properties to make a distinction between properties and methods. However, the property/method distinction is little more than a convention. A method is simply a property that can be called, for example if it has a reference to a Function instance as its value."/>
-<node CREATED="1514318043390" FOLDED="true" ID="ID_1757604941" MODIFIED="1517387883769" TEXT="Object Methods">
+<node CREATED="1514318043390" FOLDED="true" ID="ID_1757604941" MODIFIED="1518375108675" TEXT="Object Methods">
 <node CREATED="1515668290913" FOLDED="true" ID="ID_1066928149" MODIFIED="1515678585457" TEXT="Getters and Setters">
 <node CREATED="1515668365605" ID="ID_340762641" MODIFIED="1515668366759" TEXT="You can define getters (accessor methods) and setters (mutator methods) on any standard built-in object or user-defined object that supports the addition of new properties. The syntax for defining getters and setters uses the object literal syntax."/>
 <node CREATED="1515668383099" FOLDED="true" ID="ID_765430494" MODIFIED="1515678393818" TEXT="`get` binds an object property to a function that will be called when that property is looked up.">
@@ -5439,7 +7139,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1515668569462" FOLDED="true" ID="ID_538326620" MODIFIED="1515678583832" TEXT="Method Definition Syntax">
+<node CREATED="1515668569462" FOLDED="true" ID="ID_538326620" MODIFIED="1518375072628" TEXT="Method Definition Syntax">
 <node CREATED="1515668612320" ID="ID_1334958048" MODIFIED="1515678513743">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5526,7 +7226,7 @@
 </html></richcontent>
 <node CREATED="1514318050244" ID="ID_954948194" MODIFIED="1514318051298" TEXT="var numberOfTests = Object.keys(tests).length;"/>
 </node>
-<node CREATED="1514378026619" FOLDED="true" ID="ID_411885957" MODIFIED="1515091419696" TEXT="Object.create()">
+<node CREATED="1514378026619" FOLDED="true" ID="ID_411885957" MODIFIED="1518375056356" TEXT="Object.create()">
 <node CREATED="1514378176953" ID="ID_701898202" MODIFIED="1514383162009">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -5680,11 +7380,69 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1518375029122" ID="ID_1147647794" MODIFIED="1518375053865">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // object copy function
+    </p>
+    <p>
+      function copy(obj) {
+    </p>
+    <p>
+      &#160;&#160;const copy = Object.create(Object.getPrototypeOf(obj));
+    </p>
+    <p>
+      &#160;&#160;const propNames = Object.getOwnPropertyNames(obj);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;propNames.forEach(function(name) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;const desc = Object.getOwnPropertyDescriptor(obj, name);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;Object.defineProperty(copy, name, desc);
+    </p>
+    <p>
+      &#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;return copy;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      const obj1 = { a: 1, b: 2 };
+    </p>
+    <p>
+      const obj2 = copy(obj1);
+    </p>
+    <p>
+      console.log(obj2) // looks like obj1
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1515081350787" FOLDED="true" ID="ID_27948273" MODIFIED="1515082044046" TEXT="Object.assign()">
+</node>
+<node CREATED="1515081350787" FOLDED="true" ID="ID_27948273" MODIFIED="1518375069326" TEXT="Object.assign()">
 <node CREATED="1515081371828" ID="ID_1823308532" MODIFIED="1515081454889" TEXT="Combines objects: return Object.assign({}, obj1, obj2, obj3);"/>
 </node>
-<node CREATED="1514318701601" FOLDED="true" ID="ID_722198796" MODIFIED="1515082048180" TEXT="hasOwnProperty()">
+<node CREATED="1514318701601" FOLDED="true" ID="ID_722198796" MODIFIED="1518375063548" TEXT="hasOwnProperty()">
 <node CREATED="1514318711989" ID="ID_974020065" MODIFIED="1514318794829">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11526,7 +13284,7 @@
 <node CREATED="1514318010104" ID="ID_1951725909" MODIFIED="1514318022263" TEXT="curl https://github.com/downloads/wycats/handlebars.js/handlebars-1.0.rc.1.min.js &gt; handlebars.js "/>
 </node>
 </node>
-<node CREATED="1514898019086" FOLDED="true" ID="ID_1902457702" MODIFIED="1516292994258" POSITION="right" TEXT="Tools">
+<node CREATED="1514898019086" FOLDED="true" ID="ID_1902457702" MODIFIED="1517523817926" POSITION="right" TEXT="Tools">
 <node CREATED="1514317477611" ID="ID_1193686789" LINK="https://github.com/latentflip/loupe" MODIFIED="1515169152976" TEXT="Loupe: Visualizing the JS Runtime at Runtime"/>
 <node CREATED="1514898042325" ID="ID_1124825612" LINK="http://bartaz.github.io/ieee754-visualization/" MODIFIED="1514996133040" TEXT="Binary Representation of Base 10 Numbers"/>
 <node CREATED="1514929507630" ID="ID_1581295907" LINK="http://usejsdoc.org/" MODIFIED="1514996120576" TEXT="JSDoc Code Documentation Guidelines"/>
@@ -11537,9 +13295,13 @@
 <node CREATED="1516280596459" ID="ID_764754330" LINK="http://requirejs.org/docs/download.html#text" MODIFIED="1516280642911" TEXT="http://requirejs.org/docs/download.html#text"/>
 <node CREATED="1516280606899" ID="ID_68086346" MODIFIED="1516280631565" TEXT="Load text files and treat them as dependencies. Great for loading templates. The text strings can be inlined in an optimized build when the optimizer is used."/>
 </node>
+<node CREATED="1517523190086" ID="ID_742188779" LINK="https://material.io/resizer/" MODIFIED="1517523208441" TEXT="Resizer"/>
+<node CREATED="1517523230805" ID="ID_1765622396" LINK="http://www.responsivetester.net/" MODIFIED="1517523240695" TEXT="Responsive Tester"/>
+<node CREATED="1517523250664" ID="ID_618127713" LINK="https://dummyimage.com/" MODIFIED="1517523258536" TEXT="Dummy Image"/>
+<node CREATED="1517523321386" ID="ID_795979789" LINK="http://gridcalculator.dk/" MODIFIED="1517523332314" TEXT="Grid Calculator"/>
 </node>
-<node CREATED="1514718738906" FOLDED="true" ID="ID_1227959119" MODIFIED="1517319568149" POSITION="right" TEXT="Programming">
-<node CREATED="1514718564015" FOLDED="true" ID="ID_1861092667" MODIFIED="1516360839133" TEXT="Recursion">
+<node CREATED="1514718738906" FOLDED="true" ID="ID_1227959119" MODIFIED="1518379005409" POSITION="right" TEXT="Programming">
+<node CREATED="1514718564015" FOLDED="true" ID="ID_1861092667" MODIFIED="1518369394995" TEXT="Recursion">
 <node CREATED="1514718575085" ID="ID_722980615" MODIFIED="1514718737179">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11574,11 +13336,21 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1515313734667" FOLDED="true" ID="ID_1068333360" MODIFIED="1516360892698" TEXT="Indirection">
+<node CREATED="1515313734667" FOLDED="true" ID="ID_1068333360" MODIFIED="1518369361271" TEXT="Indirection">
 <node CREATED="1515313745282" ID="ID_533761486" LINK="https://www.youtube.com/watch?v=Bks59AaHe1c" MODIFIED="1516360889919" TEXT="Fun Fun Function: Straight-line code over functions"/>
-<node CREATED="1515313769101" ID="ID_1584929718" MODIFIED="1516360880141" TEXT="Be highly selective about when to add layers of indirection"/>
+<node CREATED="1515313769101" ID="ID_1584929718" MODIFIED="1518369328364" TEXT="Be wary of introducing indirection by breaking down large code blocks into functions"/>
 </node>
-<node CREATED="1515672095337" FOLDED="true" ID="ID_801956206" MODIFIED="1516360846094" TEXT="Functional">
+<node CREATED="1518367250903" FOLDED="true" ID="ID_511093166" MODIFIED="1518379002463" TEXT="Abstraction">
+<node CREATED="1518367256020" ID="ID_1689062436" MODIFIED="1518378320670" TEXT="To prevent premature over-generalisation, before writing an abstract form, wait for at least three or four instances of code duplication so that you can more clearly see the general case."/>
+</node>
+<node CREATED="1518378515765" FOLDED="true" ID="ID_1506870756" MODIFIED="1518379003538" TEXT="Naming">
+<node CREATED="1518378519716" ID="ID_1386937129" MODIFIED="1518378834737" TEXT="The name must always tell the truth"/>
+</node>
+<node CREATED="1517318019364" FOLDED="true" ID="ID_90481964" MODIFIED="1518369368485" TEXT="Arguments">
+<node CREATED="1517318022655" ID="ID_483855764" MODIFIED="1517318042743" TEXT="1-3 args, use position parameters"/>
+<node CREATED="1517318044097" ID="ID_1673719926" MODIFIED="1517318062105" TEXT="&gt; 3 args, use an options object"/>
+</node>
+<node CREATED="1515672095337" FOLDED="true" ID="ID_801956206" MODIFIED="1518369375475" TEXT="Functional">
 <node CREATED="1515671958659" ID="ID_1420461087" MODIFIED="1515672120245">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11643,9 +13415,13 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1517318019364" FOLDED="true" ID="ID_90481964" MODIFIED="1517318065760" TEXT="Arguments">
-<node CREATED="1517318022655" ID="ID_483855764" MODIFIED="1517318042743" TEXT="1-3 args, use position parameters"/>
-<node CREATED="1517318044097" ID="ID_1673719926" MODIFIED="1517318062105" TEXT="&gt; 3 args, use an options object"/>
+<node CREATED="1518361987942" FOLDED="true" ID="ID_1113026053" MODIFIED="1518369068247" TEXT="Declarative">
+<node CREATED="1518362002833" ID="ID_1549027802" LINK="http://codon.com/hello-declarative-world" MODIFIED="1518362408175" TEXT="TODO: Hello, declarative world"/>
+</node>
+<node CREATED="1518293943829" FOLDED="true" ID="ID_1613324279" MODIFIED="1518369379831" TEXT="MVC">
+<node CREATED="1518293969233" ID="ID_111733874" MODIFIED="1518294204878" TEXT="Model: Model code reflects real-world things. In a todo app, the Model would define what a &#x201c;task&#x201d; is and that a &#x201c;list&#x201d; is a collection of tasks.  "/>
+<node CREATED="1518293995332" ID="ID_28882610" MODIFIED="1518294219682" TEXT="View: View code is made up of all the functions that directly interact with the user. In a todo app, the View code will define what the todos and lists looks like, visually. "/>
+<node CREATED="1518294032275" ID="ID_578191618" MODIFIED="1518294256676" TEXT="Controller: Controller code acts as a liaison between the Model and the View, receiving user input and deciding what to do with it. In a todo app, the Controller could define how a user adds a task, or marks another as complete. The Controller connects the View&#x2019;s &quot;add&quot; button to the Model, so that when you click &#x201c;add task,&#x201d; the Model adds a new task."/>
 </node>
 </node>
 </node>
