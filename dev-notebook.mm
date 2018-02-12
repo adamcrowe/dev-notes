@@ -507,7 +507,7 @@ application/octet-stream</font></pre>
 </node>
 </node>
 </node>
-<node CREATED="1514240428816" FOLDED="true" ID="ID_411226142" MODIFIED="1518380088873" POSITION="right" TEXT="JavaScript">
+<node CREATED="1514240428816" ID="ID_411226142" MODIFIED="1518426100548" POSITION="right" TEXT="JavaScript">
 <node CREATED="1514246161846" FOLDED="true" ID="ID_1459307230" MODIFIED="1515263261179" TEXT="Includes">
 <node CREATED="1514246166034" ID="ID_1353817231" MODIFIED="1514246167449" TEXT="require(&quot;../src/test.js&quot;);"/>
 </node>
@@ -2696,456 +2696,60 @@ application/octet-stream</font></pre>
 </node>
 </node>
 <node CREATED="1517386931123" ID="ID_1503197367" MODIFIED="1517387550567" TEXT="Arrays">
-<node CREATED="1517387453738" FOLDED="true" ID="ID_38154120" MODIFIED="1517387508329" TEXT="Length Property">
-<node CREATED="1517386942245" ID="ID_3173540" MODIFIED="1517387001295">
+<node CREATED="1518435049441" FOLDED="true" ID="ID_1962708390" MODIFIED="1518435573991" TEXT="Properties">
+<node CREATED="1517387453738" FOLDED="true" ID="ID_38154120" MODIFIED="1518435462639" TEXT=".length()">
+<node CREATED="1518435106586" ID="ID_153912054" MODIFIED="1518435117753" TEXT="The length property sets or returns the number of elements in that array"/>
+<node CREATED="1517386942245" ID="ID_3173540" MODIFIED="1518435307926">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font face="Inconsolata" size="4">// empty array </font>
+      <font size="4" face="Inconsolata">var clothing = ['shoes', 'shirts', 'socks', 'sweaters']; </font>
     </p>
     <p>
-      <font face="Inconsolata" size="4">myArray.length = 0; </font>
+      <font size="4" face="Inconsolata">console.log(clothing.length); // 4 </font>
     </p>
     <p>
-      <font face="Inconsolata" size="4">myArray['length'] = 0;</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1517387463490" FOLDED="true" ID="ID_1154213737" MODIFIED="1517387507365" TEXT="Iteration">
-<node CREATED="1517387491363" ID="ID_1892278514" MODIFIED="1517387506140">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font face="Inconsolata" size="4">var colors = ['red', 'green', 'blue']; </font>
+      <font size="4" face="Inconsolata">// set the length property to truncate array </font>
     </p>
     <p>
-      <font face="Inconsolata" size="4">colors.forEach(color =&gt; console.log(color)); </font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1517387558309" ID="ID_1270547903" MODIFIED="1517387560675" TEXT="Methods">
-<node CREATED="1517387551085" FOLDED="true" ID="ID_380298328" MODIFIED="1517387678693" TEXT=".concat()">
-<node CREATED="1517387567219" ID="ID_1399647199" MODIFIED="1517387630040">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font face="Inconsolata" size="4">// joins two arrays and returns a new array </font>
+      <font size="4" face="Inconsolata">clothing.length = 0; </font>
     </p>
     <p>
-      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3'); </font>
+      <font size="4" face="Inconsolata">console.log(clothing.length); // 0 </font>
     </p>
     <p>
-      <font face="Inconsolata" size="4">myArray = myArray.concat('a', 'b', 'c'); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">console.log(myArray) // [&quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1517387679681" FOLDED="true" ID="ID_1377739646" MODIFIED="1517387788817" TEXT=".join(deliminator)">
-<node CREATED="1517387686592" ID="ID_1119647466" MODIFIED="1517387725899">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font face="Inconsolata" size="4">// joins all elements of an array into a string </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">var myArray = new Array('Wind', 'Rain', 'Fire'); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">var list = myArray.join(' - '); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">console.log(list) // // &quot;Wind - Rain - Fire&quot;</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1517387777739" FOLDED="true" ID="ID_251557072" MODIFIED="1517387841737" TEXT=".push()">
-<node CREATED="1517387797492" ID="ID_105141253" MODIFIED="1517387840018">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font face="Inconsolata" size="4">// adds one or more elements to the end of an array </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">// and returns the resulting length of the array </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">var myArray = new Array('1', '2'); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">myArray.push('3'); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;1&quot;, &quot;2&quot;, &quot;3&quot;]</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1517387984482" FOLDED="true" ID="ID_1845287321" MODIFIED="1517388022588" TEXT=".pop()">
-<node CREATED="1517387988522" ID="ID_189225550" MODIFIED="1517388016901">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font face="Inconsolata" size="4">// removes the last element from an array </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">// and returns that element </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3'); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">var last = myArray.pop(); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;1&quot;, &quot;2&quot;] </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">console.log(last); // &quot;3&quot;</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1517388023835" FOLDED="true" ID="ID_1451913062" MODIFIED="1518375419024" TEXT=".shift()">
-<node CREATED="1517388080349" ID="ID_1778679617" MODIFIED="1517388099173">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font face="Inconsolata" size="4">// removes the first element from an array and returns that element </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3'); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">var first = myArray.shift(); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;2&quot;, &quot;3&quot;] </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">console.log(first); // &quot;1&quot;</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1517388102230" FOLDED="true" ID="ID_325809637" MODIFIED="1518371749320" TEXT=".unshift()">
-<node CREATED="1517388155894" ID="ID_544960342" MODIFIED="1517388172768">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font face="Inconsolata" size="4">// adds one or more elements to the front of an array </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">// and returns the new length of the array. </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3'); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">myArray.unshift('4', '5'); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;4&quot;, &quot;5&quot;, &quot;1&quot;, &quot;2&quot;, &quot;3&quot;]</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1517388281178" FOLDED="true" ID="ID_769695724" MODIFIED="1517388409392" TEXT=".slice(startIndex, endButNotIncludingIndex)">
-<node CREATED="1517388284843" ID="ID_595939144" MODIFIED="1517388346507">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font face="Inconsolata" size="4">// extracts a section of an array and returns a new array </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">var myArray = new Array('a', 'b', 'c', 'd', 'e'); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">myArray = myArray.slice(1, 4); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">console.log(myArray); // [ &quot;b&quot;, &quot;c&quot;, &quot;d&quot;]</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1517388667039" FOLDED="true" ID="ID_961756293" MODIFIED="1517388698239" TEXT=".splice(index, removeCount, addElement1, addElement2, ...)">
-<node CREATED="1517388681423" ID="ID_246538233" MODIFIED="1517388696085">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font face="Inconsolata" size="4">// removes elements from an array and (optionally) replaces them </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">// and returns the items which were removed from the array </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3', '4', '5'); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">myArray.splice(1, 3, 'a', 'b', 'c', 'd'); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;1&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;5&quot;]</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1517388762202" FOLDED="true" ID="ID_375042190" MODIFIED="1517388786146" TEXT=".reverse()">
-<node CREATED="1517388767530" ID="ID_823344994" MODIFIED="1517388782886">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font face="Inconsolata" size="4">// transposes the elements of an array, in place: </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">// the first element becomes the last and the last becomes the first </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">// and returns a reference to the array </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3'); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">myArray.reverse(); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;3&quot;, &quot;2&quot;, &quot;1&quot;]</font>
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1517388787794" FOLDED="true" ID="ID_1678541826" MODIFIED="1518374194819" TEXT=".sort([compareFunction])">
-<node CREATED="1518370204789" ID="ID_880525837" MODIFIED="1518370246514">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">Sorts the elements of an array in place (no copy is made), and returns a reference to the array. If a compareFunction is not supplied, elements are sorted by converting them to strings and comparing strings in Unicode code point order.</font>
+      <font size="4" face="Inconsolata">console.log(clothing); // []</font>
     </p>
   </body>
 </html>
 </richcontent>
 </node>
-<node CREATED="1518369828513" ID="ID_1815305603" MODIFIED="1518370203241">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">var months = ['March', 'Jan', 'Feb', 'Dec']; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">months.sort(); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(months); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// [&quot;Dec&quot;, &quot;Feb&quot;, &quot;Jan&quot;, &quot;March&quot;]</font>
-    </p>
-  </body>
-</html>
-</richcontent>
 </node>
-<node CREATED="1518369859154" ID="ID_1668978001" MODIFIED="1518370203262">
+<node CREATED="1518435449854" FOLDED="true" ID="ID_283674832" MODIFIED="1518435572006" TEXT=".prototype()">
+<node CREATED="1518435491839" ID="ID_1848346442" MODIFIED="1518435559088" TEXT="The Array.prototype property represents the prototype for the Array constructor and allows you to add new properties and methods to all Array objects. Array instances inherit from Array.prototype. As with all constructors, you can change the constructor&apos;s prototype object to make changes to all Array instances. For example, you can add new methods and properties to extend all Array objects. "/>
+<node CREATED="1518435463887" ID="ID_98246974" MODIFIED="1518435507492">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="4" face="Inconsolata">var array1 = [1, 30, 4, 21]; </font>
+      <font size="4" face="Inconsolata">// add a new method returning the first element of an array </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">array1.sort(); </font>
+      <font size="4" face="Inconsolata">if (!Array.prototype.first) { </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">console.log(array1); // [1, 21, 30, 4]</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1517388832452" ID="ID_302349398" MODIFIED="1518370198663">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">var myArray = new Array('Wind', 'Rain', 'Fire'); </font>
+      <font size="4" face="Inconsolata">&#160;&#160;Array.prototype.first = function() { </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">myArray.sort(); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(myArray); // [&quot;Fire&quot;, &quot;Rain&quot;, &quot;Wind&quot;]</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1517388903597" FOLDED="true" ID="ID_324445671" MODIFIED="1518370775927">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font face="Inconsolata" size="4">// sort() with callback function </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">var myArray = new Array('Wind', 'Rain', 'Fire'); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">// sort by the last letter of a string&#160; </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">var sortFn = function(a, b) { </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">&#160;&#160;if (a[a.length - 1] &lt; b[b.length - 1]) return -1; </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">&#160;&#160;if (a[a.length - 1] &gt; b[b.length - 1]) return 1; </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">&#160;&#160;if (a[a.length - 1] == b[b.length - 1]) return 0; </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">} </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">myArray.sort(sortFn); </font>
-    </p>
-    <p>
-      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;Wind&quot;,&quot;Fire&quot;,&quot;Rain&quot;]</font>
-    </p>
-  </body>
-</html></richcontent>
-<node CREATED="1518370009647" ID="ID_830624014" MODIFIED="1518370082250">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      If compareFunction is supplied, the array elements are sorted according to the return value of the compare function. If a and b are two elements being compared, then:
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      - If compareFunction(a, b) is less than 0, sort a to an index lower than b, i.e. a comes first.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      - If compareFunction(a, b) returns 0, leave a and b unchanged with respect to each other, but sorted with respect to all different elements.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      - If compareFunction(a, b) is greater than 0, sort b to an index lower than a, i.e. b comes first.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      - compareFunction(a, b) must always return the same value when given a specific pair of elements a and b as its two arguments. If inconsistent results are returned then the sort order is undefined.
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1518370088198" ID="ID_1735778378" MODIFIED="1518370126382">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">function compare(a, b) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;if (a is less than b by some ordering criterion) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return -1; </font>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return this[0]; </font>
     </p>
     <p>
       <font size="4" face="Inconsolata">&#160;&#160;} </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;if (a is greater than b by the ordering criterion) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return 1; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;} </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;// a must be equal to b </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;return 0; </font>
     </p>
     <p>
       <font size="4" face="Inconsolata">}</font>
@@ -3155,855 +2759,295 @@ application/octet-stream</font></pre>
 </richcontent>
 </node>
 </node>
-<node CREATED="1518370255583" ID="ID_622997099" MODIFIED="1518370694962">
+</node>
+<node CREATED="1517387558309" ID="ID_1270547903" MODIFIED="1517387560675" TEXT="Methods">
+<node CREATED="1518434315822" FOLDED="true" ID="ID_1170912435" MODIFIED="1518434791196" TEXT=".from(arrayLike[, mapFn, thisObject]) ">
+<node CREATED="1518434398049" ID="ID_1767543782" MODIFIED="1518434448414">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="4" face="Inconsolata">// use debugger to step through sorting </font>
+      <font size="4" face="Inconsolata">// creates a new Array instance from an array-like or iterable object </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">var numbers = [4, 2, 5, 1, 3]; </font>
+      <font size="4" face="Inconsolata">console.log(Array.from('foo')); // [&quot;f&quot;, &quot;o&quot;, &quot;o&quot;] </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">numbers.sort(function(a, b) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;debugger;</font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;return a - b; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">}); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(numbers); // [1, 2, 3, 4, 5]</font>
+      <font size="4" face="Inconsolata">console.log(Array.from([1, 2, 3], x =&gt; x + x)); // [2, 4, 6]</font>
     </p>
   </body>
 </html>
 </richcontent>
 </node>
-<node CREATED="1518370777496" ID="ID_1545782812" MODIFIED="1518370833759">
+<node CREATED="1518434509636" ID="ID_892009729" MODIFIED="1518434513112" TEXT="Array.from() has an optional parameter mapFn, which allows you to execute a map function on each element of the array (or subclass object) that is being created. More clearly, Array.from(obj, mapFn, thisArg) has the same result as Array.from(obj).map(mapFn, thisArg), except that it does not create an intermediate array. This is especially important for certain array subclasses, like typed arrays, since the intermediate array would necessarily have values truncated to fit into the appropriate type."/>
+<node CREATED="1518434553550" ID="ID_1562632768" MODIFIED="1518434659338">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="4" face="Inconsolata">// sort objects by value property </font>
+      <font size="4" face="Inconsolata">// array from a Set </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">var items = [ </font>
+      <font size="4" face="Inconsolata">var s = new Set(['foo', window]); </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'Edward', value: 21 }, </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'Sharpe', value: 37 }, </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'And', value: 45 }, </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'The', value: -12 }, </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'Magnetic', value: 13 }, </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'Zeros', value: 37 } </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">]; </font>
+      <font size="4" face="Inconsolata">console.log(Array.from(s)); // [&quot;foo&quot;, window] </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font size="4" face="Inconsolata">// sort by value </font>
+      <font size="4" face="Inconsolata">// array from a Map </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">items.sort(function (a, b) { </font>
+      <font size="4" face="Inconsolata">var m = new Map([[1, 2], [2, 4], [4, 8]]); </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;return a.value - b.value; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">}); </font>
+      <font size="4" face="Inconsolata">console.log(Array.from(m)); // [[1, 2], [2, 4], [4, 8]] </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font size="4" face="Inconsolata">// sort by name </font>
+      <font size="4" face="Inconsolata">// array from an Array-like object (arguments) </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">items.sort(function(a, b) { </font>
+      <font size="4" face="Inconsolata">function f() { </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;var nameA = a.name.toUpperCase(); // ignore upper and lowercase </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;var nameB = b.name.toUpperCase(); // ignore upper and lowercase </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;if (nameA &lt; nameB) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return -1; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;} </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;if (nameA &gt; nameB) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return 1; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;} </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;// names must be equal </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;return 0; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">});</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1518371120898" ID="ID_1207834423" MODIFIED="1518371137027">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// String.localeCompare compares non-english characters so they appear in the right order </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var items = ['r&#233;serv&#233;', 'premier', 'clich&#233;', 'communiqu&#233;', 'caf&#233;', 'adieu']; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">items.sort(function (a, b) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;return a.localeCompare(b); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">}); </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// console.log(items) </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// ['adieu', 'caf&#233;', 'clich&#233;', 'communiqu&#233;', 'premier', 'r&#233;serv&#233;']</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1518371604690" ID="ID_126155276" MODIFIED="1518371672831">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// using map to process sorted temp arrays </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// original array to be sorted </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var list = ['Delta', 'alpha', 'CHARLIE', 'bravo']; </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// temp array holds objects with index/position and sort-value </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var mapped = list.map(function(el, i) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;return { index: i, value: el.toLowerCase() }; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">}) </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// sorting the mapped array </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">mapped.sort(function(a, b) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;if (a.value &gt; b.value) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return 1; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;} </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;if (a.value &lt; b.value) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return -1; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;} </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;return 0; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">}); </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// use index/position to get element from original array </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var result = mapped.map(function(el) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;return list[el.index]; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">});</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1518371734454" FOLDED="true" ID="ID_77831033" MODIFIED="1518374147748" TEXT=".indexOf(searchElement[, fromIndex])">
-<node CREATED="1518371768519" ID="ID_1798730457" MODIFIED="1518372023192">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// returns the index of the first match (using ===) for searchElement </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var a = ['a', 'b', 'a', 'b', 'a']; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// search for first instance of 'b' </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(a.indexOf('b')); // logs 1 </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// search for first instance of 'b' starting from index 2 </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(a.indexOf('b', 2)); // logs 3 </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(a.indexOf('z')); // logs -1, because 'z' was not found</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1518372280863" ID="ID_1961714072" MODIFIED="1518374128709">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// find all the occurrences of an element, starting at array beginning </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var indices = []; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var array = ['a', 'b', 'a', 'c', 'a', 'd']; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var element = 'a'; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var idx = array.indexOf(element); // 0 </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">while (idx != -1) { // exit condition: </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;// if the index is greater than or equal to the array's length, -1 is returned </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;debugger; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;indices.push(idx); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;idx = array.indexOf(element, idx + 1); </font>
+      <font size="4" face="Inconsolata">&#160;&#160;return Array.from(arguments); </font>
     </p>
     <p>
       <font size="4" face="Inconsolata">} </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">console.log(indices); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// [0, 2, 4]</font>
+      <font size="4" face="Inconsolata">console.log(f(1, 2, 3)); // [1, 2, 3]</font>
     </p>
   </body>
 </html>
 </richcontent>
 </node>
-<node CREATED="1518373647720" ID="ID_1744916929" MODIFIED="1518373666040">
+</node>
+<node CREATED="1518434778911" FOLDED="true" ID="ID_1346207415" MODIFIED="1518434811094" TEXT=".isArray()">
+<node CREATED="1518434796207" ID="ID_138433635" MODIFIED="1518434809461">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="4" face="Inconsolata">// if element does not exist in the array, add it, else do nothing </font>
+      <font size="4" face="Inconsolata">// determines whether the passed value is an Array </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">function updateVegetablesCollection (veggies, veggie) { </font>
+      <font size="4" face="Inconsolata">Array.isArray([1, 2, 3]); // true </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;if (veggies.indexOf(veggie) === -1) { </font>
+      <font size="4" face="Inconsolata">Array.isArray({foo: 123}); // false </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;veggies.push(veggie); </font>
+      <font size="4" face="Inconsolata">Array.isArray('foobar'); // false </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log('New veggies collection is : ' + veggies); </font>
+      <font size="4" face="Inconsolata">Array.isArray(undefined); // false</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1518434883396" FOLDED="true" ID="ID_708438870" MODIFIED="1518435238145" TEXT=".of()">
+<node CREATED="1518434893357" ID="ID_1877934084" MODIFIED="1518434897243" TEXT="The difference between Array.of() and the Array constructor is in the handling of integer arguments: Array.of(7) creates an array with a single element, 7, whereas Array(7) creates an empty array with a length property of 7 (Note: this implies an array of 7 empty slots, not slots with actual undefined values)."/>
+<node CREATED="1518434945439" ID="ID_1156197639" MODIFIED="1518434983505">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">Array.of(7);&#160;&#160;&#160;&#160;&#160;&#160;&#160;// [7] </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;} else if (veggies.indexOf(veggie) &gt; -1) { </font>
+      <font size="4" face="Inconsolata">Array.of(1, 2, 3); // [1, 2, 3] </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log(veggie + ' already exists in the veggies collection.'); </font>
+      <font size="4" face="Inconsolata">Array(7);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// [ , , , , , , ] </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;} </font>
+      <font size="4" face="Inconsolata">Array(1, 2, 3);&#160;&#160;&#160;&#160;// [1, 2, 3]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1517387551085" FOLDED="true" ID="ID_380298328" MODIFIED="1518436000585" TEXT=".concat()">
+<node CREATED="1517387567219" ID="ID_1399647199" MODIFIED="1518435843525">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// merges two or more arrays (or values) and returns a new array </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var myArray = new Array('1', '2', '3'); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">myArray = myArray.concat('a', 'b', 'c'); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(myArray) // [&quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518435762552" ID="ID_206281053" MODIFIED="1518435775556">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var num1 = [1, 2, 3], </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;num2 = [4, 5, 6], </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;num3 = [7, 8, 9]; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var nums = num1.concat(num2, num3); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(nums); // [1, 2, 3, 4, 5, 6, 7, 8, 9]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518435856370" ID="ID_158416968" MODIFIED="1518435872292">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var alpha = ['a', 'b', 'c']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var alphaNumeric = alpha.concat(1, [2, 3]); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(alphaNumeric); // ['a', 'b', 'c', 1, 2, 3]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518435975654" ID="ID_1054273221" MODIFIED="1518435988614">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// concatenate nested arrays and retain reference </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var num1 = [[1]]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var num2 = [2, [3]]; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var nums = num1.concat(num2); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(nums); // [[1], 2, [3]] </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">num1[0].push(4); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(nums); // [[1, 4], 2, [3]]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518435673948" ID="ID_1579785173" MODIFIED="1518435695187" TEXT="Does not recurse into nested array arguments (use .reduce instead)"/>
+</node>
+<node CREATED="1518436589941" ID="ID_42011398" MODIFIED="1518436812627" TEXT="TODO: .copyWithin(target[, start, end])"/>
+<node CREATED="1518426121627" FOLDED="true" ID="ID_1648655494" MODIFIED="1518436710887" TEXT=".every(callback[, thisObject])">
+<node CREATED="1518431318651" ID="ID_807304580" MODIFIED="1518431323239" TEXT=".every acts like the &quot;for all&quot; quantifier in mathematics. In particular, for an empty array, it returns true. (It is vacuously true that all elements of the empty set satisfy any given condition.)"/>
+<node CREATED="1518426178942" ID="ID_465545376" MODIFIED="1518426222189">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// returns true if callback returns true for every item in the array </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function isNumber(value) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return typeof value === 'number'; </font>
     </p>
     <p>
       <font size="4" face="Inconsolata">} </font>
     </p>
     <p>
-      
+      <font size="4" face="Inconsolata">var a1 = [1, 2, 3]; </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">var veggies = ['potato', 'tomato', 'chillies', 'green-pepper']; </font>
+      <font size="4" face="Inconsolata">console.log(a1.every(isNumber)); // logs true </font>
     </p>
     <p>
-      
+      <font size="4" face="Inconsolata">var a2 = [1, '2', 3]; </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">updateVegetablesCollection(veggies, 'spinach'); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// New veggies collection is : potato,tomato,chillies,green-pepper,spinach </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">updateVegetablesCollection(veggies, 'spinach'); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// spinach already exists in the veggies collection.</font>
+      <font size="4" face="Inconsolata">console.log(a2.every(isNumber)); // logs false</font>
     </p>
   </body>
 </html>
 </richcontent>
 </node>
-</node>
-<node CREATED="1518373732636" FOLDED="true" ID="ID_432470301" MODIFIED="1518374149703" TEXT=".lastIndexOf(searchElement[, fromIndex])">
-<node CREATED="1518373736027" ID="ID_1657283104" MODIFIED="1518373824979">
+<node CREATED="1518431358660" ID="ID_321891748" MODIFIED="1518431385052">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="4" face="Inconsolata">// works like indexOf, but starts at the end and searches backwards </font>
+      <font size="4" face="Inconsolata">[12, 5, 8, 130, 44].every(x =&gt; x &gt;= 10); // false </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">var a = ['a', 'b', 'c', 'd', 'a', 'b']; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(a.lastIndexOf('b')); // logs 5 </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// start searching from index/position 4 and look backwards </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(a.lastIndexOf('b', 4)); // logs 1 </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(a.lastIndexOf('z')); // logs -1</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1518374049829" ID="ID_1512496923" MODIFIED="1518374096672">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// find all the occurrences of an element, starting at array end </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var indices = []; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var array = ['a', 'b', 'a', 'c', 'a', 'd']; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var element = 'a'; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var idx = array.lastIndexOf(element); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">while (idx != -1) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;indices.push(idx); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;// skip idx == 0 because the first matching element will always be found </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;idx = (idx &gt; 0 ? array.lastIndexOf(element, idx - 1) : -1); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">} </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(indices); // [4, 2, 0]</font>
+      <font size="4" face="Inconsolata">[12, 54, 18, 130, 44].every(x =&gt; x &gt;= 10); // true</font>
     </p>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node CREATED="1518374150848" FOLDED="true" ID="ID_1314408942" MODIFIED="1518375411197" TEXT=".forEach(callback[, thisObject])">
-<node CREATED="1518374449386" ID="ID_745322967" MODIFIED="1518374452178" TEXT="forEach() executes the callback function once for each array element; unlike map() or reduce() it always returns the value undefined and is not chainable. The typical use case is to execute side effects at the end of a chain."/>
-<node CREATED="1518374348911" ID="ID_634436599" MODIFIED="1518374360890">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// executes callback on every array item and returns undefined </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var a = ['a', 'b', 'c']; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">a.forEach(function(element) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;console.log(element); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">}); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// a </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// b </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// c</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1518374576717" ID="ID_1011425176" MODIFIED="1518374587629">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// print contents of an array </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">function logArrayElements(element, index, array) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;console.log('a[' + index + '] = ' + element); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">} </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// index 2 is skipped since there is no item at that position </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">[2, 5, , 9].forEach(logArrayElements); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// logs: </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// a[0] = 2 </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// a[1] = 5 </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// a[3] = 9</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1518374795396" ID="ID_239191077" MODIFIED="1518374816155">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// pass `this` arg into callback each time it's invoked for use as its `this` value</font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">function Counter() { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;this.sum = 0; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;this.count = 0; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">} </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">Counter.prototype.add = function(array) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;array.forEach(function(entry) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;this.sum += entry; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;this.count++; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;}, this); // use this same object </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">}; </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">const obj = new Counter(); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">obj.add([2, 5, 9]); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">obj.count; // 3 </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">obj.sum; // 16</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1518374931328" ID="ID_434419287" MODIFIED="1518375394409">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// object copy function </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">function copy(obj) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;const copy = Object.create(Object.getPrototypeOf(obj)); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;const propNames = Object.getOwnPropertyNames(obj); </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;propNames.forEach(function(name) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;const desc = Object.getOwnPropertyDescriptor(obj, name); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;Object.defineProperty(copy, name, desc); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;}); </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;return copy; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">} </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">const obj1 = { a: 1, b: 2 }; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">const obj2 = copy(obj1); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(obj2) // looks like obj1</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1518375381397" ID="ID_476475816" MODIFIED="1518375407934">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// if the array is modified during iteration, other elements might be skipped </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// (forEach() does not make a copy of the array before iterating) </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var words = ['one', 'two', 'three', 'four']; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">words.forEach(function(word) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;console.log(word); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;if (word === 'two') { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;// remove 'one' </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;words.shift(); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;// 'four' is now where 'three' was so 'three' is skipped </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;} </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">}); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// one </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// two </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// four</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1518375779178" FOLDED="true" ID="ID_865674697" MODIFIED="1518379376366" TEXT=".map(callback[, thisObject])">
-<node CREATED="1518375809115" ID="ID_612331905" MODIFIED="1518375844313">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// returns new array of return values from executing callback on every array item </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var a1 = ['a', 'b', 'c']; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var a2 = a1.map(function(item) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;return item.toUpperCase(); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">}); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(a2); // ['A', 'B', 'C']</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1518375887093" ID="ID_598863545" MODIFIED="1518375897996">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">var array1 = [1, 4, 9, 16]; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">const map1 = array1.map(x =&gt; x * 2); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(map1); // [2, 8, 18, 32]</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1518376014761" ID="ID_1809372918" MODIFIED="1518376027320">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// map array of numbers to an array of square roots </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var numbers = [1, 4, 9]; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var roots = numbers.map(Math.sqrt); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(roots) // [1, 2, 3]</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1518379007948" ID="ID_397179452" MODIFIED="1518379021403">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// reformat objects in an array </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var kvArray = [{key: 1, value: 10}, </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{key: 2, value: 20}, </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{key: 3, value: 30}]; </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var reformattedArray = kvArray.map(obj =&gt;{ </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;var rObj = {}; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;rObj[obj.key] = obj.value; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;&#160;return rObj; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">}) </font>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">console.log(reformattedArray) // [{1: 10}, {2: 20}, {3: 30}]</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1518379156793" ID="ID_590261167" MODIFIED="1518379177686">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font size="4" face="Inconsolata">// using map generically </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var map = Array.prototype.map; </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">var a = map.call('Hello World', function(x) { </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">&#160;&#160;return x.charCodeAt(0); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">}); </font>
-    </p>
-    <p>
-      <font size="4" face="Inconsolata">// console.log(a) // [72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1518379377624" FOLDED="true" ID="ID_118611816" MODIFIED="1518380045678" TEXT=".filter(callback[, thisObject])">
+<node CREATED="1518379377624" FOLDED="true" ID="ID_118611816" MODIFIED="1518436714838" TEXT=".filter(callback[, thisObject])">
 <node CREATED="1518379418441" ID="ID_1210097398" MODIFIED="1518379432655">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -4029,8 +3073,7 @@ application/octet-stream</font></pre>
       <font size="4" face="Inconsolata">console.log(a2); // [10, 20, 30]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1518379476187" ID="ID_1194328801" MODIFIED="1518379490405">
 <richcontent TYPE="NODE"><html>
@@ -4048,8 +3091,7 @@ application/octet-stream</font></pre>
       <font size="4" face="Inconsolata">console.log(result); // [&quot;exuberant&quot;, &quot;destruction&quot;, &quot;present&quot;]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1518379627408" ID="ID_1373523453" MODIFIED="1518379642191">
 <richcontent TYPE="NODE"><html>
@@ -4079,8 +3121,7 @@ application/octet-stream</font></pre>
       <font size="4" face="Inconsolata">console.log(filtered); // [12, 130, 44]</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1518379878535" ID="ID_965954164" MODIFIED="1518379890512">
 <richcontent TYPE="NODE"><html>
@@ -4194,8 +3235,7 @@ application/octet-stream</font></pre>
       <font size="4" face="Inconsolata">// Number of Invalid Entries = 4 </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1518380030140" ID="ID_1708289088" MODIFIED="1518380042973">
 <richcontent TYPE="NODE"><html>
@@ -4246,8 +3286,1821 @@ application/octet-stream</font></pre>
       <font size="4" face="Inconsolata">console.log(filterItems('an')); // ['banana', 'mango', 'orange']</font>
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1518374150848" FOLDED="true" ID="ID_1314408942" MODIFIED="1518436720158" TEXT=".forEach(callback[, thisObject])">
+<node CREATED="1518374449386" ID="ID_745322967" MODIFIED="1518374452178" TEXT="forEach() executes the callback function once for each array element; unlike map() or reduce() it always returns the value undefined and is not chainable. The typical use case is to execute side effects at the end of a chain."/>
+<node CREATED="1518374348911" ID="ID_634436599" MODIFIED="1518436668275">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// executes callback on every array item and returns undefined </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a = ['a', 'b', 'c']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">a.forEach(function(element) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;console.log(element); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// a </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// b </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// c </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var colors = ['red', 'green', 'blue']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">colors.forEach(color =&gt; console.log(color)); </font>
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1518374576717" ID="ID_1011425176" MODIFIED="1518374587629">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// print contents of an array </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function logArrayElements(element, index, array) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;console.log('a[' + index + '] = ' + element); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// index 2 is skipped since there is no item at that position </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">[2, 5, , 9].forEach(logArrayElements); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// logs: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// a[0] = 2 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// a[1] = 5 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// a[3] = 9</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518374795396" ID="ID_239191077" MODIFIED="1518374816155">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// pass `this` arg into callback each time it's invoked for use as its `this` value</font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function Counter() { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;this.sum = 0; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;this.count = 0; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">Counter.prototype.add = function(array) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;array.forEach(function(entry) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;this.sum += entry; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;this.count++; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;}, this); // use this same object </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const obj = new Counter(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">obj.add([2, 5, 9]); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">obj.count; // 3 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">obj.sum; // 16</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518374931328" ID="ID_434419287" MODIFIED="1518375394409">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// object copy function </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function copy(obj) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;const copy = Object.create(Object.getPrototypeOf(obj)); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;const propNames = Object.getOwnPropertyNames(obj); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;propNames.forEach(function(name) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;const desc = Object.getOwnPropertyDescriptor(obj, name); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;Object.defineProperty(copy, name, desc); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;}); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return copy; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const obj1 = { a: 1, b: 2 }; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const obj2 = copy(obj1); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(obj2) // looks like obj1</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518375381397" ID="ID_476475816" MODIFIED="1518375407934">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// if the array is modified during iteration, other elements might be skipped </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// (forEach() does not make a copy of the array before iterating) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var words = ['one', 'two', 'three', 'four']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">words.forEach(function(word) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;console.log(word); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (word === 'two') { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;// remove 'one' </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;words.shift(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;// 'four' is now where 'three' was so 'three' is skipped </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// one </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// two </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// four</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1518371734454" FOLDED="true" ID="ID_77831033" MODIFIED="1518436724815" TEXT=".indexOf(searchElement[, fromIndex])">
+<node CREATED="1518371768519" ID="ID_1798730457" MODIFIED="1518372023192">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// returns the index of the first match (using ===) for searchElement </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a = ['a', 'b', 'a', 'b', 'a']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// search for first instance of 'b' </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a.indexOf('b')); // logs 1 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// search for first instance of 'b' starting from index 2 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a.indexOf('b', 2)); // logs 3 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a.indexOf('z')); // logs -1, because 'z' was not found</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518372280863" ID="ID_1961714072" MODIFIED="1518374128709">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// find all the occurrences of an element, starting at array beginning </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var indices = []; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var array = ['a', 'b', 'a', 'c', 'a', 'd']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var element = 'a'; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var idx = array.indexOf(element); // 0 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">while (idx != -1) { // exit condition: </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;// if the index is greater than or equal to the array's length, -1 is returned </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;debugger; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;indices.push(idx); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;idx = array.indexOf(element, idx + 1); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(indices); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// [0, 2, 4]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518373647720" ID="ID_1744916929" MODIFIED="1518373666040">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// if element does not exist in the array, add it, else do nothing </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function updateVegetablesCollection (veggies, veggie) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;if (veggies.indexOf(veggie) === -1) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;veggies.push(veggie); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log('New veggies collection is : ' + veggies); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;} else if (veggies.indexOf(veggie) &gt; -1) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log(veggie + ' already exists in the veggies collection.'); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var veggies = ['potato', 'tomato', 'chillies', 'green-pepper']; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">updateVegetablesCollection(veggies, 'spinach'); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// New veggies collection is : potato,tomato,chillies,green-pepper,spinach </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">updateVegetablesCollection(veggies, 'spinach'); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// spinach already exists in the veggies collection.</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1517387679681" FOLDED="true" ID="ID_1377739646" MODIFIED="1517387788817" TEXT=".join(deliminator)">
+<node CREATED="1517387686592" ID="ID_1119647466" MODIFIED="1517387725899">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// joins all elements of an array into a string </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('Wind', 'Rain', 'Fire'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var list = myArray.join(' - '); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(list) // // &quot;Wind - Rain - Fire&quot;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1518373732636" FOLDED="true" ID="ID_432470301" MODIFIED="1518436731927" TEXT=".lastIndexOf(searchElement[, fromIndex])">
+<node CREATED="1518373736027" ID="ID_1657283104" MODIFIED="1518373824979">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// works like indexOf, but starts at the end and searches backwards </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a = ['a', 'b', 'c', 'd', 'a', 'b']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a.lastIndexOf('b')); // logs 5 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// start searching from index/position 4 and look backwards </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a.lastIndexOf('b', 4)); // logs 1 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a.lastIndexOf('z')); // logs -1</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518374049829" ID="ID_1512496923" MODIFIED="1518374096672">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// find all the occurrences of an element, starting at array end </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var indices = []; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var array = ['a', 'b', 'a', 'c', 'a', 'd']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var element = 'a'; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var idx = array.lastIndexOf(element); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">while (idx != -1) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;indices.push(idx); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;// skip idx == 0 because the first matching element will always be found </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;idx = (idx &gt; 0 ? array.lastIndexOf(element, idx - 1) : -1); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(indices); // [4, 2, 0]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1518375779178" FOLDED="true" ID="ID_865674697" MODIFIED="1518436738589" TEXT=".map(callback[, thisObject])">
+<node CREATED="1518375809115" ID="ID_612331905" MODIFIED="1518375844313">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// returns new array of return values from executing callback on every array item </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a1 = ['a', 'b', 'c']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a2 = a1.map(function(item) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return item.toUpperCase(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a2); // ['A', 'B', 'C']</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518375887093" ID="ID_598863545" MODIFIED="1518375897996">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var array1 = [1, 4, 9, 16]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const map1 = array1.map(x =&gt; x * 2); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(map1); // [2, 8, 18, 32]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518376014761" ID="ID_1809372918" MODIFIED="1518376027320">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// map array of numbers to an array of square roots </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var numbers = [1, 4, 9]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var roots = numbers.map(Math.sqrt); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(roots) // [1, 2, 3]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518379007948" ID="ID_397179452" MODIFIED="1518379021403">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// reformat objects in an array </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var kvArray = [{key: 1, value: 10}, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{key: 2, value: 20}, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{key: 3, value: 30}]; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var reformattedArray = kvArray.map(obj =&gt;{ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;var rObj = {}; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;rObj[obj.key] = obj.value; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;return rObj; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}) </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(reformattedArray) // [{1: 10}, {2: 20}, {3: 30}]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518379156793" ID="ID_590261167" MODIFIED="1518379177686">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// using map generically </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var map = Array.prototype.map; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a = map.call('Hello World', function(x) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return x.charCodeAt(0); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// console.log(a) // [72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1517387777739" FOLDED="true" ID="ID_251557072" MODIFIED="1517387841737" TEXT=".push()">
+<node CREATED="1517387797492" ID="ID_105141253" MODIFIED="1517387840018">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// adds one or more elements to the end of an array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// and returns the resulting length of the array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('1', '2'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray.push('3'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;1&quot;, &quot;2&quot;, &quot;3&quot;]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1517387984482" FOLDED="true" ID="ID_1845287321" MODIFIED="1517388022588" TEXT=".pop()">
+<node CREATED="1517387988522" ID="ID_189225550" MODIFIED="1517388016901">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// removes the last element from an array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// and returns that element </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var last = myArray.pop(); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;1&quot;, &quot;2&quot;] </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(last); // &quot;3&quot;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1518432116791" FOLDED="true" ID="ID_535404122" MODIFIED="1518436756983" TEXT=".reduce(callback[, initialValue])">
+<node CREATED="1518432496499" ID="ID_800885465" MODIFIED="1518432698330" TEXT="The reduce() method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value."/>
+<node CREATED="1518432699547" ID="ID_1206450953" MODIFIED="1518432705444" TEXT="The first time the callback is called, accumulator and currentValue can be one of two values. If initialValue is provided in the call to reduce(), then accumulator will be equal to initialValue, and currentValue will be equal to the first value in the array. If no initialValue is provided, then accumulator will be equal to the first value in the array, and currentValue will be equal to the second."/>
+<node CREATED="1518432589294" ID="ID_1767826432" MODIFIED="1518432640959">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var a = [10, 20, 30]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var total = a.reduce(function(accumulator, currentValue) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return first + second; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}, 0); // initialValue = 0 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(total) // 60 (0 + 10 + 20 + 30)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518432180097" ID="ID_1179403395" MODIFIED="1518432527074">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">const array1 = [1, 2, 3, 4]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const reducer = (accumulator, currentValue) =&gt; accumulator + currentValue; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(array1.reduce(reducer)); // 10 (1 + 2 + 3 + 4) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(array1.reduce(reducer, 5)); // 15 (5 + 1 + 2 + 3 + 4)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518433095221" ID="ID_261295162" MODIFIED="1518433221901">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">[0, 1, 2, 3, 4].reduce((prev, curr) =&gt; prev + curr, 10); // 20</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518432683480" ID="ID_1432783068" MODIFIED="1518432819208" TEXT="If the array is empty and no initialValue is provided, TypeError will be thrown. If the array has only one element (regardless of position) and no initialValue is provided, or if initialValue is provided but the array is empty, the solo value will be returned without calling callback."/>
+<node CREATED="1518432821596" ID="ID_240977878" MODIFIED="1518432848621" TEXT="It is usually safer to provide an initial value because there are three possible outputs without initialValue, as shown in the following example."/>
+<node CREATED="1518432854885" ID="ID_1830041547" MODIFIED="1518432866641">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var maxCallback = ( acc, cur ) =&gt; Math.max( acc.x, cur.x ); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var maxCallback2 = ( max, cur ) =&gt; Math.max( max, cur ); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// reduce() without initialValue </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">[ { x: 22 }, { x: 42 } ].reduce( maxCallback ); // 42 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">[ { x: 22 }&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;].reduce( maxCallback ); // { x: 22 } </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">[&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;].reduce( maxCallback ); // TypeError </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// map/reduce; better solution, also works for empty or larger arrays </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">[ { x: 22 }, { x: 42 } ].map( el =&gt; el.x ) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.reduce( maxCallback2, -Infinity );</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518433337140" ID="ID_26982216" MODIFIED="1518433348883">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// flatten an array of arrays </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var flattened = [[0, 1], [2, 3], [4, 5]].reduce( </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;function(a, b) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return a.concat(b); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;}, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;[] </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">/* </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var flattened = [[0, 1], [2, 3], [4, 5]].reduce( </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;(acc, cur) =&gt; acc.concat(cur), </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;[] </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">*/ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(flattened) // [0, 1, 2, 3, 4, 5]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518433446935" ID="ID_1465878068" MODIFIED="1518433457961">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// count instances of values in an object </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var names = ['Alice', 'Bob', 'Tiff', 'Bruce', 'Alice']; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var countedNames = names.reduce(function (allNames, name) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (name in allNames) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;allNames[name]++; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;else { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;allNames[name] = 1; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return allNames; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}, {}); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(countedNames); // { 'Alice': 2, 'Bob': 1, 'Tiff': 1, 'Bruce': 1 }</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518433649186" ID="ID_1567238569" MODIFIED="1518433681613">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// bonding arrays using the spread operator and initialValue </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var friends = [{ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;name: 'Anna', </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;books: ['Bible', 'Harry Potter'], </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;age: 21 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}, { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;name: 'Bob', </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;books: ['War and peace', 'Romeo and Juliet'], </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;age: 26 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}, { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;name: 'Alice', </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;books: ['The Lord of the Rings', 'The Shining'], </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;age: 18 </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}]; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var allbooks = friends.reduce(function(prev, curr) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return [...prev, ...curr.books]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}, ['Alphabet']); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(allbooks); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// ['Alphabet', 'Bible', 'Harry Potter', 'War and peace', 'Romeo and Juliet', 'The Lord of the Rings', 'The Shining']</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518433771006" ID="ID_1077938527" MODIFIED="1518433787947">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// remove duplicate items in array </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">let arr = [1, 2, 1, 2, 3, 5, 4, 5, 3, 4, 4, 4, 4]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">let result = arr.sort().reduce((init, current) =&gt; { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;if (init.length === 0 || init[init.length - 1] !== current) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;init.push(current); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return init; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}, []); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(result); // [1, 2, 3, 4, 5]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1518433886129" FOLDED="true" ID="ID_1530478043" MODIFIED="1518436759336" TEXT=".reduceRight(callback[, initialValue])">
+<node CREATED="1518433890153" ID="ID_71140237" MODIFIED="1518433940746" TEXT="The reduceRight() method applies a function against an accumulator and each value of the array (from right-to-left) to reduce it to a single value."/>
+<node CREATED="1518433985156" ID="ID_437662668" MODIFIED="1518434278138">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// flatten array of arrays (right to left) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const array1 = [[0, 1], [2, 3], [4, 5]].reduceRight( </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;(previousValue, currentValue) =&gt; previousValue.concat(currentValue) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// flatten array of array (left to right) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">const array2 = [[0, 1], [2, 3], [4, 5]].reduce( </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;(previousValue, currentValue) =&gt; previousValue.concat(currentValue) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(array1); // [4, 5, 2, 3, 0, 1] </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(array2); // [0, 1, 2, 3, 4, 5]</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1517388762202" FOLDED="true" ID="ID_375042190" MODIFIED="1518436749143" TEXT=".reverse()">
+<node CREATED="1517388767530" ID="ID_823344994" MODIFIED="1517388782886">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// transposes the elements of an array, in place: </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// the first element becomes the last and the last becomes the first </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// and returns a reference to the array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray.reverse(); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;3&quot;, &quot;2&quot;, &quot;1&quot;]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1517388023835" FOLDED="true" ID="ID_1451913062" MODIFIED="1518375419024" TEXT=".shift()">
+<node CREATED="1517388080349" ID="ID_1778679617" MODIFIED="1517388099173">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// removes the first element from an array and returns that element </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var first = myArray.shift(); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;2&quot;, &quot;3&quot;] </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(first); // &quot;1&quot;</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1517388281178" FOLDED="true" ID="ID_769695724" MODIFIED="1518436741567" TEXT=".slice(startIndex, endButNotIncludingIndex)">
+<node CREATED="1517388284843" ID="ID_595939144" MODIFIED="1517388346507">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// extracts a section of an array and returns a new array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('a', 'b', 'c', 'd', 'e'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray = myArray.slice(1, 4); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [ &quot;b&quot;, &quot;c&quot;, &quot;d&quot;]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1518431473575" FOLDED="true" ID="ID_495286391" MODIFIED="1518436754543" TEXT=".some(callback[, thisObject])">
+<node CREATED="1518431642756" ID="ID_271507918" MODIFIED="1518431711423" TEXT="Returns true if the callback function returns a truthy value for at least one array item; else, false "/>
+<node CREATED="1518431515368" ID="ID_1709963627" MODIFIED="1518431674110">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">function isNumber(value) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return typeof value === 'number'; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a1 = [1, 2, 3]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a1.some(isNumber)); // true </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a2 = [1, '2', 3]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a2.some(isNumber)); // true </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var a3 = ['1', '2', '3']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(a3.some(isNumber)); // false</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518431584746" ID="ID_1860093010" MODIFIED="1518431599381">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var array = [1, 2, 3, 4, 5]; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var even = function(element) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return element % 2 === 0; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(array.some(even)); // true</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518431913979" ID="ID_1852412530" MODIFIED="1518432002706">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// checking whether a value exists in an array </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// mimics Array.prototype.includes() </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var fruits = ['apple', 'banana', 'mango', 'guava']; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function checkAvailability(arr, val) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return arr.some(function(arrVal) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return val === arrVal; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;}); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">/* </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function checkAvailability(arr, val) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return arr.some(arrVal =&gt; val === arrVal); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">*/</font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">checkAvailability(fruits, 'kela');&#160;&#160;&#160;// false </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">checkAvailability(fruits, 'banana'); // true</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1518432080110" ID="ID_1928290517" MODIFIED="1518432091423">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// converting any value to Boolean </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var TRUTHY_VALUES = [true, 'true', 1]; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">function getBoolean(value) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;'use strict'; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (typeof value === 'string') { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;value = value.toLowerCase().trim(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return TRUTHY_VALUES.some(function(t) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return t === value; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;}); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">} </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">getBoolean(false);&#160;&#160;&#160;// false </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">getBoolean('false'); // false </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">getBoolean(1);&#160;&#160;&#160;&#160;&#160;&#160;&#160;// true </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">getBoolean('true');&#160;&#160;// true</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1517388787794" FOLDED="true" ID="ID_1678541826" MODIFIED="1518436751959" TEXT=".sort([compareFunction])">
+<node CREATED="1518370204789" ID="ID_880525837" MODIFIED="1518370246514">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">Sorts the elements of an array in place (no copy is made), and returns a reference to the array. If a compareFunction is not supplied, elements are sorted by converting them to strings and comparing strings in Unicode code point order.</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518369828513" ID="ID_1815305603" MODIFIED="1518370203241">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var months = ['March', 'Jan', 'Feb', 'Dec']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">months.sort(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(months); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// [&quot;Dec&quot;, &quot;Feb&quot;, &quot;Jan&quot;, &quot;March&quot;]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518369859154" ID="ID_1668978001" MODIFIED="1518370203262">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var array1 = [1, 30, 4, 21]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">array1.sort(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(array1); // [1, 21, 30, 4]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1517388832452" ID="ID_302349398" MODIFIED="1518370198663">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">var myArray = new Array('Wind', 'Rain', 'Fire'); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">myArray.sort(); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(myArray); // [&quot;Fire&quot;, &quot;Rain&quot;, &quot;Wind&quot;]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1517388903597" FOLDED="true" ID="ID_324445671" MODIFIED="1518370775927">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// sort() with callback function </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('Wind', 'Rain', 'Fire'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// sort by the last letter of a string&#160; </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var sortFn = function(a, b) { </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">&#160;&#160;if (a[a.length - 1] &lt; b[b.length - 1]) return -1; </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">&#160;&#160;if (a[a.length - 1] &gt; b[b.length - 1]) return 1; </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">&#160;&#160;if (a[a.length - 1] == b[b.length - 1]) return 0; </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">} </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray.sort(sortFn); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;Wind&quot;,&quot;Fire&quot;,&quot;Rain&quot;]</font>
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1518370009647" ID="ID_830624014" MODIFIED="1518370082250">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If compareFunction is supplied, the array elements are sorted according to the return value of the compare function. If a and b are two elements being compared, then:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - If compareFunction(a, b) is less than 0, sort a to an index lower than b, i.e. a comes first.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - If compareFunction(a, b) returns 0, leave a and b unchanged with respect to each other, but sorted with respect to all different elements.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - If compareFunction(a, b) is greater than 0, sort b to an index lower than a, i.e. b comes first.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      - compareFunction(a, b) must always return the same value when given a specific pair of elements a and b as its two arguments. If inconsistent results are returned then the sort order is undefined.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518370088198" ID="ID_1735778378" MODIFIED="1518370126382">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">function compare(a, b) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (a is less than b by some ordering criterion) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return -1; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (a is greater than b by the ordering criterion) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return 1; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;// a must be equal to b </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return 0; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1518370255583" ID="ID_622997099" MODIFIED="1518370694962">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// use debugger to step through sorting </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var numbers = [4, 2, 5, 1, 3]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">numbers.sort(function(a, b) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;debugger;</font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return a - b; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">console.log(numbers); // [1, 2, 3, 4, 5]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518370777496" ID="ID_1545782812" MODIFIED="1518370833759">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// sort objects by value property </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var items = [ </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'Edward', value: 21 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'Sharpe', value: 37 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'And', value: 45 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'The', value: -12 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'Magnetic', value: 13 }, </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;{ name: 'Zeros', value: 37 } </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">]; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// sort by value </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">items.sort(function (a, b) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return a.value - b.value; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// sort by name </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">items.sort(function(a, b) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;var nameA = a.name.toUpperCase(); // ignore upper and lowercase </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;var nameB = b.name.toUpperCase(); // ignore upper and lowercase </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (nameA &lt; nameB) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return -1; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (nameA &gt; nameB) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return 1; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;// names must be equal </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return 0; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">});</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518371120898" ID="ID_1207834423" MODIFIED="1518371137027">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// String.localeCompare compares non-english characters so they appear in the right order </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var items = ['r&#233;serv&#233;', 'premier', 'clich&#233;', 'communiqu&#233;', 'caf&#233;', 'adieu']; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">items.sort(function (a, b) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return a.localeCompare(b); </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// console.log(items) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// ['adieu', 'caf&#233;', 'clich&#233;', 'communiqu&#233;', 'premier', 'r&#233;serv&#233;']</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518371604690" ID="ID_126155276" MODIFIED="1518371672831">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">// using map to process sorted temp arrays </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// original array to be sorted </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var list = ['Delta', 'alpha', 'CHARLIE', 'bravo']; </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// temp array holds objects with index/position and sort-value </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var mapped = list.map(function(el, i) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return { index: i, value: el.toLowerCase() }; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}) </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// sorting the mapped array </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">mapped.sort(function(a, b) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (a.value &gt; b.value) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return 1; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;if (a.value &lt; b.value) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;&#160;&#160;return -1; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;} </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return 0; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">}); </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">// use index/position to get element from original array </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">var result = mapped.map(function(el) { </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">&#160;&#160;return list[el.index]; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">});</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1517388667039" FOLDED="true" ID="ID_961756293" MODIFIED="1518436743635" TEXT=".splice(index, removeCount, addElement1, addElementN, ...)">
+<node CREATED="1517388681423" ID="ID_246538233" MODIFIED="1517388696085">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// removes elements from an array and (optionally) replaces them </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// and returns the items which were removed from the array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3', '4', '5'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray.splice(1, 3, 'a', 'b', 'c', 'd'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;1&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;5&quot;]</font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1517388102230" FOLDED="true" ID="ID_325809637" MODIFIED="1518371749320" TEXT=".unshift()">
+<node CREATED="1517388155894" ID="ID_544960342" MODIFIED="1517388172768">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Inconsolata" size="4">// adds one or more elements to the front of an array </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">// and returns the new length of the array. </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">var myArray = new Array('1', '2', '3'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">myArray.unshift('4', '5'); </font>
+    </p>
+    <p>
+      <font face="Inconsolata" size="4">console.log(myArray); // [&quot;4&quot;, &quot;5&quot;, &quot;1&quot;, &quot;2&quot;, &quot;3&quot;]</font>
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -7435,8 +8288,7 @@ application/octet-stream</font></pre>
       console.log(obj2) // looks like obj1
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1515081350787" FOLDED="true" ID="ID_27948273" MODIFIED="1518375069326" TEXT="Object.assign()">
@@ -10586,7 +11438,8 @@ application/octet-stream</font></pre>
 <node CREATED="1515169166162" ID="ID_205150683" MODIFIED="1515169268861" TEXT="1. Initially the Browser console is clear and the Call Stack and Event Manager are empty. &#xa;2. first() is added to the Call Stack. &#xa;3. console.log(&quot;First message&quot;) is added to the Call Stack. &#xa;4. console.log(&quot;First message&quot;) is executed and the Browser console displays &quot;First message&quot;. &#xa;5. console.log(&quot;First message&quot;) is removed from the Call Stack. &#xa;6. first() is removed from the Call Stack. &#xa;7. setTimeout(second, 0) is added to the Call Stack. &#xa;8. setTimeout(second, 0) is executed and handled by the Event Manager. And after 0ms the Event Manager moves second() to the Callback Queue. &#xa;9. setTimeout(second, 0) is now completed and removed from the Call Stack. &#xa;10. third() is added to the Call Stack. &#xa;11. console.log(&quot;Third message&quot;) is added to the Call Stack. &#xa;12. console.log(&quot;Third message&quot;) is executed and the Browser console displays &quot;Third message&quot;.&#xa;13. console.log(&quot;Third message&quot;) is removed from the Call Stack. &#xa;14. Call Stack is now empty and the second() function is waiting to be invoked in the Callback Queue. &#xa;15. The Event Loop moves second() from the Callback Queue to the Call Stack. &#xa;16. console.log(&quot;Second message&quot;) is added to the Call Stack. &#xa;17. console.log(&quot;Second message&quot;) is executed and the Browser console displays &quot;Second message&quot;. &#xa;18. console.log(&quot;Second message&quot;) is removed from the Call Stack. &#xa;19. second() is removed from the Call Stack."/>
 <node CREATED="1515169277821" ID="ID_1082164382" MODIFIED="1515169325463" TEXT="Note: The second() function is not executed after 0ms. The time you pass in to setTimeout function does not relate to the delay of its execution. The Event Manager will wait the given time before moving that function into the Callback Queue. "/>
 </node>
-<node CREATED="1515671845686" FOLDED="true" ID="ID_168753588" MODIFIED="1517323580697" TEXT="Promises">
+<node CREATED="1515671845686" FOLDED="true" ID="ID_168753588" MODIFIED="1518433879288" TEXT="Promises">
+<node CREATED="1518433815711" ID="ID_332392942" LINK="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce" MODIFIED="1518433858646" TEXT="TODO: .reduce() example: Running Promises in Sequence"/>
 <node CREATED="1515671866897" ID="ID_1219737320" MODIFIED="1515671901102">
 <richcontent TYPE="NODE"><html>
   <head>
