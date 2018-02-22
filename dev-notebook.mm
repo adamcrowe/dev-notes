@@ -14102,12 +14102,12 @@ application/octet-stream</font></pre>
 <node CREATED="1514317309390" ID="ID_980073664" LINK="https://github.com/bendc/frontend-guidelines" MODIFIED="1514317410772" TEXT="Frontend Guidelines (JS, HTML, CSS)"/>
 </node>
 </node>
-<node CREATED="1514317513021" FOLDED="true" ID="ID_1006448547" MODIFIED="1519233198331" POSITION="right" TEXT="Git">
-<node CREATED="1519206409307" FOLDED="true" ID="ID_760363339" MODIFIED="1519233197443" TEXT="Workflow">
-<node CREATED="1519205418019" FOLDED="true" ID="ID_1954868235" MODIFIED="1519233196131" TEXT="Feature branches">
+<node CREATED="1514317513021" FOLDED="true" ID="ID_1006448547" MODIFIED="1519310785668" POSITION="right" TEXT="Git">
+<node CREATED="1519206409307" FOLDED="true" ID="ID_760363339" MODIFIED="1519310375691" TEXT="Workflow">
+<node CREATED="1519205418019" FOLDED="true" ID="ID_1954868235" MODIFIED="1519309959844" TEXT="Feature branches">
 <node CREATED="1519205943133" ID="ID_1435644702" MODIFIED="1519207694150" TEXT="A &quot;feature branch&quot; or &quot;topic branch&quot; is a separate branch of the repo used to implement a single feature in your project. Create a branch for each new feature you develop instead of commiting all your new features/changes into the master branch at once."/>
 <node CREATED="1519206167045" ID="ID_895149430" MODIFIED="1519206683080" TEXT="Feature branches let you concentrate on a single specific task at one time. They let you commit  small changes while protecting collaborators from your changes until the feature is complete. What&#x2019;s more, if you need to jump off of a particular feature to work on something else, such as an urgent bug fix, you need not worry about stashing your changes or corrupting your repo."/>
-<node CREATED="1519206723254" ID="ID_1307435453" MODIFIED="1519209212402">
+<node CREATED="1519206723254" ID="ID_1307435453" MODIFIED="1519305971410">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14133,7 +14133,7 @@ application/octet-stream</font></pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1519206910788" ID="ID_504281381" MODIFIED="1519206915406" TEXT="Start on master">
+<node CREATED="1519206910788" FOLDED="true" ID="ID_504281381" MODIFIED="1519306100177" TEXT="Start on master">
 <node CREATED="1519206916664" ID="ID_217233260" MODIFIED="1519207835155">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14156,7 +14156,7 @@ application/octet-stream</font></pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1519207127850" ID="ID_760340383" MODIFIED="1519207532712" TEXT="Create new feature branch">
+<node CREATED="1519207127850" FOLDED="true" ID="ID_760340383" MODIFIED="1519306101777" TEXT="Create new feature branch">
 <node CREATED="1519207163172" ID="ID_1396656986" MODIFIED="1519209262142">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14179,10 +14179,10 @@ application/octet-stream</font></pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1519207414495" FOLDED="true" ID="ID_1960214639" MODIFIED="1519209265755" TEXT="Implement changes on feature branch">
+<node CREATED="1519207414495" FOLDED="true" ID="ID_1960214639" MODIFIED="1519306047705" TEXT="Implement changes on feature branch">
 <node CREATED="1519207463437" ID="ID_1275353695" MODIFIED="1519208236147" TEXT="Make and commit small incremental changes using descriptive commit messages so the history of changes is easy to follow."/>
 </node>
-<node CREATED="1519209213930" ID="ID_847453075" MODIFIED="1519209215281" TEXT="Push the feature branch to your remote repo">
+<node CREATED="1519209213930" FOLDED="true" ID="ID_847453075" MODIFIED="1519306048552" TEXT="Push the feature branch to your remote repo">
 <node CREATED="1519209297820" ID="ID_43472609" MODIFIED="1519209487259">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14202,24 +14202,155 @@ application/octet-stream</font></pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1519209572399" ID="ID_1894065547" MODIFIED="1519209579546" TEXT="Create a pull request">
+<node CREATED="1519209572399" FOLDED="true" ID="ID_1894065547" MODIFIED="1519306043393" TEXT="Create a pull request">
 <node CREATED="1519209589744" ID="ID_1894782895" MODIFIED="1519209688117" TEXT="(Check git tooling/implementation for how to make pull requests using that system)"/>
 <node CREATED="1519209580336" ID="ID_1691319483" MODIFIED="1519209670756" TEXT="Once you have written out the description for the new PR, submit it and what for your teammate to review. You can always get their attention by mentioning them by their username: &quot;Please review this updated form, @teammate&quot;."/>
 </node>
 </node>
 </node>
-<node CREATED="1519205426581" FOLDED="true" ID="ID_1036991506" MODIFIED="1519209202435" TEXT="Pull requests">
+<node CREATED="1519205426581" FOLDED="true" ID="ID_1036991506" MODIFIED="1519309958150" TEXT="Pull requests">
 <node CREATED="1519208217834" ID="ID_1436743053" MODIFIED="1519208284527" TEXT="When you&apos;re ready to have your changes reviewed for inclusion in the project, that&apos;s when you submit a pull request. You should think of your pull request as a request for a code review. The project maintainers may accept it immediately, ask questions and point out tweaks that need to be made, or reject it outright. (There&apos;s a reason it&apos;s called a pull request, not a pull demand.) The commits may be taken as-is, or the maintainer may see fit to fix up or squash the changes into fewer commits."/>
 <node CREATED="1519208460917" ID="ID_1579742397" MODIFIED="1519208465757" TEXT="Once you&apos;ve created a pull request, you can push commits from your topic branch to add them to your existing pull request. These commits will appear in chronological order within your pull request. Other contributors can review your proposed changes, add review comments, contribute to the pull request discussion, and even add commits to the pull request. After you&apos;re happy with the proposed changes, you can merge the pull request. If you&apos;re working in a shared repository model, the proposed changes will be merged from the head branch to the base branch that was specified in the pull request."/>
 <node CREATED="1519208926998" ID="ID_1126422488" MODIFIED="1519208930236" TEXT="When thinking about branches, remember that the base branch is where changes should be applied, the head branch contains what you would like to be applied."/>
 <node CREATED="1519208720024" ID="ID_1558273829" MODIFIED="1519208721728" TEXT="If you don&apos;t have write access to the repository where you&apos;d like to create a pull request, you must create a fork, or copy, of the repository first."/>
 <node CREATED="1519208993305" ID="ID_1189454767" MODIFIED="1519209010987" TEXT="If the pull request does not have any merge conflicts, you can merge it. If the pull request does have merge conflicts, or if you&apos;d like to test the changes before merging, you can check out the pull request locally and merge it using the command line. If you decide you don&apos;t want the changes in a topic branch to be merged to the upstream branch, you can close the pull request without merging."/>
 <node CREATED="1519209182738" ID="ID_627789454" MODIFIED="1519209184539" TEXT="Repository administrators can require that all pull requests receive at least one approved review from someone with write or admin permissions or from a designated code owner before they&apos;re merged into a protected branch. When required reviews are enabled, anyone with access to the repository can approve changes in a pull request. However, to merge your pull request you need someone who has write or admin permissions in the repository to approve your pull request&apos;s changes in their review. If review is required from a designated code owner and the pull request affects code that has a designated owner, approval from that owner is required. If a person who requested changes isn&apos;t available to give an approved review, or if a pull request has changed significantly since it was reviewed, repository administrators or people with write access can dismiss a review. After all required reviewers have approved a pull request, you won&apos;t be able to merge it if there are other open pull requests with pending or rejected reviews and those pull requests have a head branch pointing to the same commit. Someone with write or admin permissions will need to approve or dismiss the blocking review on the other pull requests before you can merge."/>
+<node CREATED="1519305694231" FOLDED="true" ID="ID_171910311" MODIFIED="1519309251955" TEXT="Review pull request locally">
+<node CREATED="1519305707679" ID="ID_566682164" MODIFIED="1519309223449">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata"># create/check in your current changes before pulling down someone else&#8217;s </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">git checkout -b my_feature_branch </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">git status </font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1519205434317" ID="ID_1876820129" MODIFIED="1519205435096" TEXT="What are the different collaboration workflows in Git?"/>
-<node CREATED="1519205408324" ID="ID_1796923776" MODIFIED="1519205409299" TEXT="How do I resolve conflicts? For example, mine versus theirs versus manual merge"/>
-<node CREATED="1519205398690" ID="ID_533326416" MODIFIED="1519205400041" TEXT="How do I merge or rebase my branch, and what is the difference?"/>
-<node CREATED="1519207927799" FOLDED="true" ID="ID_1663114065" MODIFIED="1519208220276" TEXT="Precommit checks">
+<node CREATED="1519305715975" ID="ID_1239991353" MODIFIED="1519309248114">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata"># make a local &quot;copy&quot; their pull request branch</font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">git checkout -b pullrequest_branch origin/pullrequest&#160;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519308319017" ID="ID_127746818" MODIFIED="1519308321798" TEXT="Review"/>
+</node>
+<node CREATED="1519309028135" FOLDED="true" ID="ID_231252789" MODIFIED="1519309956154" TEXT="Merge pull request into master">
+<node CREATED="1519309051048" ID="ID_1060948810" MODIFIED="1519309094886">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata"># get latest master </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">git checkout master </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">git pull origin master</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519309111106" ID="ID_1427301356" MODIFIED="1519309187295">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata"># switch to PR and merge with master </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">git checkout pullrequest_branch </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">git merge master </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519309275919" ID="ID_1386421649" MODIFIED="1519309283315" TEXT="Fix any merge conflicts"/>
+<node CREATED="1519309348666" ID="ID_872651897" MODIFIED="1519309368551">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata">git commit -m 'merge master'</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519309404283" ID="ID_1652954334" MODIFIED="1519309411207" TEXT="Test (CI)"/>
+<node CREATED="1519309452405" ID="ID_14195769" MODIFIED="1519309469479">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata"># switch back to master to merge this PR </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">git checkout master </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">git merge --no-ff docs </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">git push origin master</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519309582013" ID="ID_1372979124" MODIFIED="1519309749822">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata"># delete remote pullrequest_branch </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata"># :pullrequest_branch means &#8220;push nothing to pullrequest_branch&#8221; which deletes it </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">git push origin :pullrequest_branch</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1519207927799" FOLDED="true" ID="ID_1663114065" MODIFIED="1519306110872" TEXT="Precommit checks">
 <node CREATED="1519207959783" ID="ID_322552146" MODIFIED="1519208133777">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14239,11 +14370,11 @@ application/octet-stream</font></pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1519207355868" FOLDED="true" ID="ID_1670727869" MODIFIED="1519220931006" TEXT="Commit messages">
+<node CREATED="1519207355868" FOLDED="true" ID="ID_1670727869" MODIFIED="1519306112787" TEXT="Commit messages">
 <node CREATED="1519207361252" ID="ID_608380713" MODIFIED="1519207409610" TEXT="One way to think about commit messages is that together they make up the recipe for your project: &#x201c;Add linting to application code&#x201d; or &#x201c;Add minification step&#x201d;"/>
 </node>
 </node>
-<node CREATED="1519206383114" FOLDED="true" ID="ID_1259855987" MODIFIED="1519208038866" TEXT="Tutorials">
+<node CREATED="1519206383114" FOLDED="true" ID="ID_1259855987" MODIFIED="1519310538388" TEXT="Guides">
 <node CREATED="1519205459600" ID="ID_1547038582" LINK="https://git-scm.com/book/en/v2" MODIFIED="1519206524193" TEXT="TODO: Pro Git (Book)"/>
 <node CREATED="1519206393507" ID="ID_752554586" LINK="https://www.atlassian.com/git" MODIFIED="1519206501798" TEXT="TODO: https://www.atlassian.com/git"/>
 <node CREATED="1514317519133" ID="ID_1770263563" LINK="http://ohshitgit.com/" MODIFIED="1519206510138" TEXT="TODO: http://ohshitgit.com/"/>
@@ -14252,40 +14383,281 @@ application/octet-stream</font></pre>
 <node CREATED="1519206486718" ID="ID_244456360" LINK="https://truss.works/blog/2014/12/31/a-lightweight-resilient-git-workflow-for-small-teams" MODIFIED="1519206543770" TEXT="TODO: https://truss.works/blog/2014/12/31/a-lightweight-resilient-git-workflow-for-small-teams"/>
 <node CREATED="1519206598538" ID="ID_748752623" LINK="https://yangsu.github.io/pull-request-tutorial/" MODIFIED="1519206610875" TEXT="TODO: https://yangsu.github.io/pull-request-tutorial/"/>
 <node CREATED="1519206621619" ID="ID_1809191004" LINK="https://github.com/susam/gitpr" MODIFIED="1519206635202" TEXT="TODO: Fork and Pull Request Workflow"/>
+<node CREATED="1519310389158" ID="ID_901343577" LINK="http://nvie.com/posts/a-successful-git-branching-model/" MODIFIED="1519310398017" TEXT="TODO: http://nvie.com/posts/a-successful-git-branching-model/"/>
 <node CREATED="1519207875162" ID="ID_183063663" LINK="https://contribute.jquery.org/commits-and-pull-requests/#commit-guidelines" MODIFIED="1519207889257" TEXT="https://contribute.jquery.org/commits-and-pull-requests/#commit-guidelines"/>
+<node CREATED="1519310352893" ID="ID_1557324883" LINK="https://bocoup.com/blog/git-workflows-for-successful-deployment" MODIFIED="1519310362670" TEXT="https://bocoup.com/blog/git-workflows-for-successful-deployment"/>
 </node>
 <node CREATED="1519206804945" FOLDED="true" ID="ID_1927285989" MODIFIED="1519208558672" TEXT="Tools">
 <node CREATED="1519205592322" ID="ID_1699877986" LINK="https://about.gitlab.com/" MODIFIED="1519206284543" TEXT="GitLab"/>
 <node CREATED="1519206285984" ID="ID_217319867" LINK="https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow" MODIFIED="1519206325451" TEXT="GitLab Workflow (VSCode plugin)"/>
 </node>
-<node CREATED="1519207752958" FOLDED="true" ID="ID_1368459519" MODIFIED="1519207852047" TEXT="Fixes">
-<node CREATED="1519207756102" ID="ID_1359784101" MODIFIED="1519207826106">
+<node CREATED="1519207752958" FOLDED="true" ID="ID_1368459519" MODIFIED="1519309052982" TEXT="TODO (Copy cmds from old dev file) Cmds">
+<node CREATED="1519207756102" ID="ID_1359784101" MODIFIED="1519306121807">
 <richcontent TYPE="NODE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Assuming you've just made an errant commit on master:
+      <font size="4" face="Inconsolata"># assuming you've just made an errant commit on master:</font>
     </p>
     <p>
-      <font size="4" face="Inconsolata"># &quot;Backs up&quot; your commit, creating a topic branch </font>
+      <font size="4" face="Inconsolata"># &quot;backs up&quot; your commit, creating a topic branch </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">$ git branch fix-spelling-error </font>
+      <font size="4" face="Inconsolata">git branch fix-spelling-error </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata"># Reset your master branch to the same state as upstream/master </font>
+      <font size="4" face="Inconsolata"># reset your master branch to the same state as upstream/master </font>
     </p>
     <p>
-      <font size="4" face="Inconsolata">$ git reset --hard upstream/master</font>
+      <font size="4" face="Inconsolata">git reset --hard upstream/master</font>
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519292950212" ID="ID_1515004127" MODIFIED="1519306126798">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata"># push local master to new branch (e.g. for pull request) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">git push origin master:temporary_branch</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519305441529" ID="ID_1742007888" MODIFIED="1519306189685">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata"># (does not stash new files or folders) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata"># (only uncommited changes to files previously added will be stashed) </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">git stash save &#8220;Description of my changes&#8221;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519308868554" ID="ID_531252337" MODIFIED="1519308896188">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata"># get latest stash </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">git stash pop </font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
-<node CREATED="1514718738906" FOLDED="true" ID="ID_1227959119" MODIFIED="1519226479825" POSITION="right" TEXT="Programming">
+<node CREATED="1519218083196" FOLDED="true" ID="ID_104304955" MODIFIED="1519226499978" POSITION="right" TEXT="Agile">
+<node CREATED="1519220402188" ID="ID_959656703" MODIFIED="1519226494126" TEXT="Kanplan">
+<node CREATED="1519220561809" ID="ID_824833949" MODIFIED="1519220686108" TEXT="Turn your to-do list into a backlog "/>
+<node CREATED="1519220448422" ID="ID_765693312" MODIFIED="1519220628281" TEXT="Our build engineering team tried to combat their long and disorganized to-do list with daily stand-ups and weekly planning meetings. But what they really needed was a backlog instead of more meetings. Since kanban boards traditionally don&#x2019;t have backlog functionality, product managers, development managers, and team leads use issues in the first column to plan. As this list grows, it&#x2019;s hard to see and prioritize issues."/>
+<node CREATED="1519220407429" ID="ID_609089359" MODIFIED="1519220581147" TEXT="The kanplan feature introduces a wide column backlog with issues in a listview. This splits the kanban board into two different screens; the backlog for backlog grooming and the kanban board for the engineering team to select and move tasks through the workflow."/>
+<node CREATED="1519220606846" ID="ID_1174937572" MODIFIED="1519220622107" TEXT="This functionality is no different than the backlog of a scrum board in Jira Software. For example, when you click the backlog icon in the sidebar, it takes you to a wide column of backlog issues. After grooming your backlog, you can drag and drop issues into the next step in your workflow."/>
+<node CREATED="1519220417604" ID="ID_1525835613" LINK="https://www.atlassian.com/agile/kanban/kanplan" MODIFIED="1519220423434" TEXT="https://www.atlassian.com/agile/kanban/kanplan"/>
+</node>
+<node CREATED="1519219567202" FOLDED="true" ID="ID_1642276843" MODIFIED="1519220400740" TEXT="Kanban">
+<node CREATED="1519219595331" ID="ID_114731130" MODIFIED="1519219613717" TEXT="Limit number of tasks that are &#x201c;in progress&#x201d;"/>
+<node CREATED="1519219597259" ID="ID_949111628" MODIFIED="1519219621434" TEXT="Close one item fully before moving to the next"/>
+<node CREATED="1519219945110" FOLDED="true" ID="ID_1717378968" MODIFIED="1519219980031" TEXT="Daily stand-ups and retrospectives are optional">
+<node CREATED="1519219962214" ID="ID_1250586608" MODIFIED="1519219963064" TEXT="What did I complete yesterday?"/>
+<node CREATED="1519219971815" ID="ID_380012482" MODIFIED="1519219972696" TEXT="What did I complete yesterday?"/>
+<node CREATED="1519219978135" ID="ID_1697791801" MODIFIED="1519219979021" TEXT="What did I complete yesterday?"/>
+</node>
+<node CREATED="1519219774198" ID="ID_623054620" LINK="https://www.atlassian.com/agile/tutorials/how-to-do-kanban-with-jira-software" MODIFIED="1519220023416" TEXT="https://www.atlassian.com/agile/tutorials/how-to-do-kanban-with-jira-software"/>
+</node>
+<node CREATED="1519219551986" FOLDED="true" ID="ID_1497835457" MODIFIED="1519219566305" TEXT="Scrum">
+<node CREATED="1519219112948" ID="ID_400043025" MODIFIED="1519219120648" TEXT="Retrospective"/>
+<node CREATED="1519219092812" ID="ID_1976224643" MODIFIED="1519219103800" TEXT="Sprint Review/Demo"/>
+<node CREATED="1519218286560" ID="ID_726600980" MODIFIED="1519219482229" TEXT="Iterations/Sprints (to Done)">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1519219033853" FOLDED="true" ID="ID_1353851103" MODIFIED="1519219105653" TEXT="Daily Scrum/Standup">
+<node CREATED="1519219042109" ID="ID_1737377440" MODIFIED="1519219059307" TEXT="What did I do yesterday?"/>
+<node CREATED="1519219059709" ID="ID_26112658" MODIFIED="1519219066227" TEXT="What will I do today?"/>
+<node CREATED="1519219066502" ID="ID_1307300612" MODIFIED="1519219071906" TEXT="Are there any blockers?"/>
+</node>
+<node CREATED="1519218731275" ID="ID_52269500" MODIFIED="1519218739947" TEXT="Sprint Backlog"/>
+<node CREATED="1519218681418" ID="ID_865270247" MODIFIED="1519218706446" TEXT="Product/Team Backlog"/>
+<node CREATED="1519219463383" ID="ID_32153447" MODIFIED="1519219473425" TEXT="Defintions of Done (All)"/>
+<node CREATED="1519218741272" FOLDED="true" ID="ID_979998879" MODIFIED="1519219050406" TEXT="Definition of Ready (All)">
+<node CREATED="1519218870699" ID="ID_993607887" MODIFIED="1519218877019" TEXT="Backlog Refinement"/>
+<node CREATED="1519218922568" ID="ID_1288580121" MODIFIED="1519219032445" TEXT="Sprint Planning (All)"/>
+</node>
+<node CREATED="1519218836754" ID="ID_1269475981" MODIFIED="1519218846602" TEXT="Scrum Master (Quality)"/>
+<node CREATED="1519218815241" ID="ID_1773810383" MODIFIED="1519218824261" TEXT="Dev Team (How and When)"/>
+<node CREATED="1519218773281" FOLDED="true" ID="ID_555715856" MODIFIED="1519219126295" TEXT="Product Owner (What and Why)">
+<node CREATED="1519218884415" ID="ID_1111431605" MODIFIED="1519218890082" TEXT="User stories"/>
+</node>
+<node CREATED="1519218089728" ID="ID_782859369" LINK="https://www.youtube.com/watch?v=vuBFzAdaHDY" MODIFIED="1519218107356" TEXT="Video: Scrum in 16 minutes"/>
+</node>
+<node CREATED="1519221274896" ID="ID_1496112316" LINK="http://agilemanifesto.org/" MODIFIED="1519221286948" TEXT="Manifesto for Agile Software Development"/>
+</node>
+<node CREATED="1519221020671" FOLDED="true" ID="ID_203199641" MODIFIED="1519292839783" POSITION="right" TEXT="CI/CD">
+<node CREATED="1519221319401" ID="ID_1088676461" LINK="https://www.martinfowler.com/articles/continuousIntegration.html" MODIFIED="1519225898938" TEXT="Continuous Integration by Martin Fowler"/>
+<node CREATED="1519221026000" ID="ID_1775718870" MODIFIED="1519221066107" TEXT="Continuous Integration is a process in which every push to your repo triggers a build and runs your tests automatically. A red flag is raised as soon as a faulty commit goes in. Pull requests should also be tested automatically before merging to avoid bugs that impact the whole team."/>
+<node CREATED="1519221067729" ID="ID_472106512" MODIFIED="1519221084192" TEXT="Continuous Delivery is the extension of Continuous Integration. If the tests pass properly, the tested version is pushed to the production environment automatically."/>
+<node CREATED="1519221119071" ID="ID_1785314803" MODIFIED="1519231538692" TEXT="Popular Continuous Integration servers are Jenkins, Travis, CircleCI, Bamboo, CodeShip and GitLab."/>
+<node CREATED="1519232575590" ID="ID_542488945" LINK="https://about.gitlab.com/features/gitlab-ci-cd/" MODIFIED="1519232587692" TEXT="https://about.gitlab.com/features/gitlab-ci-cd/"/>
+<node CREATED="1519226587764" ID="ID_1036435349" LINK="https://www.youtube.com/watch?v=1iXFbchozdY" MODIFIED="1519231549230" TEXT="Video: Demo: CI/CD with GitLab"/>
+<node CREATED="1519292776076" ID="ID_737038768" LINK="https://www.youtube.com/results?search_query=Fun+Fun+Function+Continuous+Integration+ " MODIFIED="1519292817179" TEXT="Videos: Demo: Fun Fun Function CI using CircleCI"/>
+<node CREATED="1519222018607" ID="ID_1885328323" MODIFIED="1519222031141" TEXT="In a Continuous Integration environment you should never have a failed integration build stay failed for long. A good team should have many correct builds a day. Bad builds do occur from time to time, but should be quickly fixed. The result of doing this is that there is a stable piece of software that works properly and contains few bugs. Everybody develops off that shared stable base and never gets so far away from that base that it takes very long to integrate back with it. Less time is spent trying to find bugs because they show up quickly."/>
+<node CREATED="1519225750284" ID="ID_827288279" MODIFIED="1519225789586" TEXT="Every developer should commit to the repository every day. In practice it&apos;s often useful if developers commit more frequently than that. The more frequently you commit, the less places you have to look for conflict errors, and the more rapidly you fix conflicts. Frequent commits encourage developers to break down their work into small chunks of a few hours each. This helps track progress and provides a sense of progress."/>
+<node CREATED="1519225886207" ID="ID_1049176673" MODIFIED="1519225890478" TEXT="Many organizations do regular builds on a timed schedule, such as every night. This is not the same thing as a continuous build and isn&apos;t enough for continuous integration. The whole point of continuous integration is to find problems as soon as you can. Nightly builds mean that bugs lie undetected for a whole day before anyone discovers them. Once they are in the system that long, it takes a long time to find and remove them."/>
+<node CREATED="1519226281755" ID="ID_1994427599" MODIFIED="1519226284872" TEXT="If you have continuous integration, it removes one of the biggest barriers to frequent deployment. Frequent deployment is valuable because it allows your users to get new features more rapidly, to give more rapid feedback on those features, and generally become more collaborative in the development cycle."/>
+</node>
+<node CREATED="1519232125250" FOLDED="true" ID="ID_92231006" MODIFIED="1519232268089" POSITION="right" TEXT="Testing">
+<node CREATED="1519232134280" ID="ID_293589351" MODIFIED="1519232178588" TEXT="TODO: Unit tests (Complete Jasmine)"/>
+<node CREATED="1519232136936" ID="ID_1939394792" MODIFIED="1519232186386" TEXT="TODO: Integration tests"/>
+<node CREATED="1519232138792" ID="ID_1074465325" MODIFIED="1519232167410" TEXT="TODO: Functional tests"/>
+</node>
+<node CREATED="1514317998077" FOLDED="true" ID="ID_45322287" MODIFIED="1519292855045" POSITION="right" TEXT="CLI">
+<node CREATED="1514318003869" FOLDED="true" ID="ID_1687705929" MODIFIED="1519292854187" TEXT="download and rename">
+<node CREATED="1514318010104" ID="ID_1951725909" MODIFIED="1514318022263" TEXT="curl https://github.com/downloads/wycats/handlebars.js/handlebars-1.0.rc.1.min.js &gt; handlebars.js "/>
+</node>
+</node>
+<node CREATED="1519308520679" FOLDED="true" ID="ID_1196670058" MODIFIED="1519308635716" POSITION="right" TEXT="Editors">
+<node CREATED="1519308553008" ID="ID_980045651" MODIFIED="1519308555476" TEXT="Sublime">
+<node CREATED="1519308530952" ID="ID_1311217928" MODIFIED="1519308565523" TEXT="TODO (Copy shortcuts from old dev file)"/>
+</node>
+</node>
+<node CREATED="1519308637499" FOLDED="true" ID="ID_1989215848" MODIFIED="1519308823536" POSITION="right" TEXT="OS">
+<node CREATED="1519308642883" FOLDED="true" ID="ID_1304076138" MODIFIED="1519308822797" TEXT="OSX">
+<node CREATED="1519308648124" FOLDED="true" ID="ID_1192487513" MODIFIED="1519308816422" TEXT="Show hidden files/folders">
+<node CREATED="1519308669619" ID="ID_521599357" MODIFIED="1519308722525">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="4" face="Inconsolata"># open terminal </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata"># run the following script:&#160; </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">$ defaults write com.apple.Finder AppleShowAllFiles true </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata">$ killall Finder </font>
+    </p>
+    <p>
+      <font size="4" face="Inconsolata"># if you want to switch it back just change the true to false</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1519308732846" FOLDED="true" ID="ID_138509214" MODIFIED="1519308815403" TEXT="Editting Hosts file">
+<node CREATED="1519308740414" ID="ID_547760450" MODIFIED="1519308808027">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The best way to work with the Hosts file is using the Terminal application found in your Mac's Utilities folder. You'll need to know the IP address of the device you'd like to send your Mac to, or the domain names you're trying to keep your Mac away from.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      # terminal:
+    </p>
+    <p>
+      $ sudo nano /etc/hosts
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      If you want to add a new device or domain, move the cursor using the cursor keys and position it after the text you see, then begin typing. If you're mapping a particular IP address on your local network to a domain, you can type the IP address, hit tab, then type the domain name.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Conversely, if you'd like to make sure a web URL doesn't go to its intended site &#8212; if you're trying to keep your Mac away from certain sites, use &quot;127.0.0.1.&quot; That'll map it back to your Mac. Even if your Mac is assigned a different IP address by its router, 127.0.0.1 defaults to the local machine thanks to the default settings in that hose file.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Once you're done, hold down the control and O keys to save the file, then control and X to exit.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Back at the command line, type sudo killall -HUP mDNSResponder then type return. That will flush your Mac's DNS cache, so it doesn't get confused by any changes you've made to the Hosts file.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Don't forget you've modified the Hosts file, because at some point you may need to undo the changes you've made in order to keep your Mac working right.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      http://www.imore.com/how-edit-your-macs-hosts-file-and-why-you-would-want
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1514898019086" FOLDED="true" ID="ID_1902457702" MODIFIED="1519308517795" POSITION="right" TEXT="Tools">
+<node CREATED="1514317477611" ID="ID_1193686789" LINK="https://github.com/latentflip/loupe" MODIFIED="1515169152976" TEXT="Loupe: Visualizing the JS Runtime at Runtime"/>
+<node CREATED="1514898042325" ID="ID_1124825612" LINK="http://bartaz.github.io/ieee754-visualization/" MODIFIED="1514996133040" TEXT="Binary Representation of Base 10 Numbers"/>
+<node CREATED="1514929507630" ID="ID_1581295907" LINK="http://usejsdoc.org/" MODIFIED="1514996120576" TEXT="JSDoc Code Documentation Guidelines"/>
+<node CREATED="1514996069332" ID="ID_922838764" LINK="http://sideeffect.kr/popularconvention/" MODIFIED="1514996104733" TEXT="Popular Coding Conventions by Language "/>
+<node CREATED="1515169441537" ID="ID_1719275075" LINK="http://dorey.github.io/JavaScript-Equality-Table/" MODIFIED="1515170358235" TEXT="JS Equality Table"/>
+<node CREATED="1515864422548" ID="ID_1049969197" LINK="https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70" MODIFIED="1515864442904" TEXT="Webpack Guide"/>
+<node CREATED="1516280590866" FOLDED="true" ID="ID_1171438546" LINK="http://requirejs.org/docs/download.html" MODIFIED="1516280661796" TEXT="RequireJS">
+<node CREATED="1516280596459" ID="ID_764754330" LINK="http://requirejs.org/docs/download.html#text" MODIFIED="1516280642911" TEXT="http://requirejs.org/docs/download.html#text"/>
+<node CREATED="1516280606899" ID="ID_68086346" MODIFIED="1516280631565" TEXT="Load text files and treat them as dependencies. Great for loading templates. The text strings can be inlined in an optimized build when the optimizer is used."/>
+</node>
+<node CREATED="1517523190086" ID="ID_742188779" LINK="https://material.io/resizer/" MODIFIED="1517523208441" TEXT="Resizer"/>
+<node CREATED="1517523230805" ID="ID_1765622396" LINK="http://www.responsivetester.net/" MODIFIED="1517523240695" TEXT="Responsive Tester"/>
+<node CREATED="1517523250664" ID="ID_618127713" LINK="https://dummyimage.com/" MODIFIED="1517523258536" TEXT="Dummy Image"/>
+<node CREATED="1517523321386" ID="ID_795979789" LINK="http://gridcalculator.dk/" MODIFIED="1517523332314" TEXT="Grid Calculator"/>
+<node CREATED="1519208538204" FOLDED="true" ID="ID_1272105465" MODIFIED="1519226485764" TEXT="Editor Plugins">
+<node CREATED="1518616709751" FOLDED="true" ID="ID_1674721212" LINK="https://wallabyjs.com/" MODIFIED="1518617088060" TEXT="Wallaby.js (Run tests in editor)">
+<node CREATED="1518616747183" ID="ID_814061182" LINK="https://www.youtube.com/watch?v=P4UQ-jTTJJ4" MODIFIED="1518616792669" TEXT="Demo: Fun Fun Function"/>
+</node>
+<node CREATED="1518617030865" ID="ID_1890159105" LINK="https://quokkajs.com/" MODIFIED="1518617099289" TEXT="Quokka.js (Run code in editor)"/>
+<node CREATED="1519206285984" ID="ID_1524233598" LINK="https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow" MODIFIED="1519206325451" TEXT="GitLab Workflow (VSCode plugin)"/>
+</node>
+</node>
+<node CREATED="1514718738906" FOLDED="true" ID="ID_1227959119" MODIFIED="1519292844320" POSITION="right" TEXT="Programming">
 <node CREATED="1514718564015" FOLDED="true" ID="ID_1861092667" MODIFIED="1518599327864" TEXT="Recursion">
 <node CREATED="1514718575085" ID="ID_722980615" MODIFIED="1514718737179">
 <richcontent TYPE="NODE"><html>
@@ -14408,96 +14780,6 @@ application/octet-stream</font></pre>
 <node CREATED="1518293995332" ID="ID_28882610" MODIFIED="1518294219682" TEXT="View: View code is made up of all the functions that directly interact with the user. In a todo app, the View code will define what the todos and lists looks like, visually. "/>
 <node CREATED="1518294032275" ID="ID_578191618" MODIFIED="1518294256676" TEXT="Controller: Controller code acts as a liaison between the Model and the View, receiving user input and deciding what to do with it. In a todo app, the Controller could define how a user adds a task, or marks another as complete. The Controller connects the View&#x2019;s &quot;add&quot; button to the Model, so that when you click &#x201c;add task,&#x201d; the Model adds a new task."/>
 </node>
-</node>
-<node CREATED="1514898019086" FOLDED="true" ID="ID_1902457702" MODIFIED="1519226486863" POSITION="right" TEXT="Tools">
-<node CREATED="1514317477611" ID="ID_1193686789" LINK="https://github.com/latentflip/loupe" MODIFIED="1515169152976" TEXT="Loupe: Visualizing the JS Runtime at Runtime"/>
-<node CREATED="1514898042325" ID="ID_1124825612" LINK="http://bartaz.github.io/ieee754-visualization/" MODIFIED="1514996133040" TEXT="Binary Representation of Base 10 Numbers"/>
-<node CREATED="1514929507630" ID="ID_1581295907" LINK="http://usejsdoc.org/" MODIFIED="1514996120576" TEXT="JSDoc Code Documentation Guidelines"/>
-<node CREATED="1514996069332" ID="ID_922838764" LINK="http://sideeffect.kr/popularconvention/" MODIFIED="1514996104733" TEXT="Popular Coding Conventions by Language "/>
-<node CREATED="1515169441537" ID="ID_1719275075" LINK="http://dorey.github.io/JavaScript-Equality-Table/" MODIFIED="1515170358235" TEXT="JS Equality Table"/>
-<node CREATED="1515864422548" ID="ID_1049969197" LINK="https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70" MODIFIED="1515864442904" TEXT="Webpack Guide"/>
-<node CREATED="1516280590866" FOLDED="true" ID="ID_1171438546" LINK="http://requirejs.org/docs/download.html" MODIFIED="1516280661796" TEXT="RequireJS">
-<node CREATED="1516280596459" ID="ID_764754330" LINK="http://requirejs.org/docs/download.html#text" MODIFIED="1516280642911" TEXT="http://requirejs.org/docs/download.html#text"/>
-<node CREATED="1516280606899" ID="ID_68086346" MODIFIED="1516280631565" TEXT="Load text files and treat them as dependencies. Great for loading templates. The text strings can be inlined in an optimized build when the optimizer is used."/>
-</node>
-<node CREATED="1517523190086" ID="ID_742188779" LINK="https://material.io/resizer/" MODIFIED="1517523208441" TEXT="Resizer"/>
-<node CREATED="1517523230805" ID="ID_1765622396" LINK="http://www.responsivetester.net/" MODIFIED="1517523240695" TEXT="Responsive Tester"/>
-<node CREATED="1517523250664" ID="ID_618127713" LINK="https://dummyimage.com/" MODIFIED="1517523258536" TEXT="Dummy Image"/>
-<node CREATED="1517523321386" ID="ID_795979789" LINK="http://gridcalculator.dk/" MODIFIED="1517523332314" TEXT="Grid Calculator"/>
-<node CREATED="1519208538204" FOLDED="true" ID="ID_1272105465" MODIFIED="1519226485764" TEXT="Editor Plugins">
-<node CREATED="1518616709751" FOLDED="true" ID="ID_1674721212" LINK="https://wallabyjs.com/" MODIFIED="1518617088060" TEXT="Wallaby.js (Run tests in editor)">
-<node CREATED="1518616747183" ID="ID_814061182" LINK="https://www.youtube.com/watch?v=P4UQ-jTTJJ4" MODIFIED="1518616792669" TEXT="Demo: Fun Fun Function"/>
-</node>
-<node CREATED="1518617030865" ID="ID_1890159105" LINK="https://quokkajs.com/" MODIFIED="1518617099289" TEXT="Quokka.js (Run code in editor)"/>
-<node CREATED="1519206285984" ID="ID_1524233598" LINK="https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow" MODIFIED="1519206325451" TEXT="GitLab Workflow (VSCode plugin)"/>
-</node>
-</node>
-<node CREATED="1519218083196" FOLDED="true" ID="ID_104304955" MODIFIED="1519226499978" POSITION="right" TEXT="Agile">
-<node CREATED="1519220402188" ID="ID_959656703" MODIFIED="1519226494126" TEXT="Kanplan">
-<node CREATED="1519220561809" ID="ID_824833949" MODIFIED="1519220686108" TEXT="Turn your to-do list into a backlog "/>
-<node CREATED="1519220448422" ID="ID_765693312" MODIFIED="1519220628281" TEXT="Our build engineering team tried to combat their long and disorganized to-do list with daily stand-ups and weekly planning meetings. But what they really needed was a backlog instead of more meetings. Since kanban boards traditionally don&#x2019;t have backlog functionality, product managers, development managers, and team leads use issues in the first column to plan. As this list grows, it&#x2019;s hard to see and prioritize issues."/>
-<node CREATED="1519220407429" ID="ID_609089359" MODIFIED="1519220581147" TEXT="The kanplan feature introduces a wide column backlog with issues in a listview. This splits the kanban board into two different screens; the backlog for backlog grooming and the kanban board for the engineering team to select and move tasks through the workflow."/>
-<node CREATED="1519220606846" ID="ID_1174937572" MODIFIED="1519220622107" TEXT="This functionality is no different than the backlog of a scrum board in Jira Software. For example, when you click the backlog icon in the sidebar, it takes you to a wide column of backlog issues. After grooming your backlog, you can drag and drop issues into the next step in your workflow."/>
-<node CREATED="1519220417604" ID="ID_1525835613" LINK="https://www.atlassian.com/agile/kanban/kanplan" MODIFIED="1519220423434" TEXT="https://www.atlassian.com/agile/kanban/kanplan"/>
-</node>
-<node CREATED="1519219567202" FOLDED="true" ID="ID_1642276843" MODIFIED="1519220400740" TEXT="Kanban">
-<node CREATED="1519219595331" ID="ID_114731130" MODIFIED="1519219613717" TEXT="Limit number of tasks that are &#x201c;in progress&#x201d;"/>
-<node CREATED="1519219597259" ID="ID_949111628" MODIFIED="1519219621434" TEXT="Close one item fully before moving to the next"/>
-<node CREATED="1519219945110" FOLDED="true" ID="ID_1717378968" MODIFIED="1519219980031" TEXT="Daily stand-ups and retrospectives are optional">
-<node CREATED="1519219962214" ID="ID_1250586608" MODIFIED="1519219963064" TEXT="What did I complete yesterday?"/>
-<node CREATED="1519219971815" ID="ID_380012482" MODIFIED="1519219972696" TEXT="What did I complete yesterday?"/>
-<node CREATED="1519219978135" ID="ID_1697791801" MODIFIED="1519219979021" TEXT="What did I complete yesterday?"/>
-</node>
-<node CREATED="1519219774198" ID="ID_623054620" LINK="https://www.atlassian.com/agile/tutorials/how-to-do-kanban-with-jira-software" MODIFIED="1519220023416" TEXT="https://www.atlassian.com/agile/tutorials/how-to-do-kanban-with-jira-software"/>
-</node>
-<node CREATED="1519219551986" FOLDED="true" ID="ID_1497835457" MODIFIED="1519219566305" TEXT="Scrum">
-<node CREATED="1519219112948" ID="ID_400043025" MODIFIED="1519219120648" TEXT="Retrospective"/>
-<node CREATED="1519219092812" ID="ID_1976224643" MODIFIED="1519219103800" TEXT="Sprint Review/Demo"/>
-<node CREATED="1519218286560" ID="ID_726600980" MODIFIED="1519219482229" TEXT="Iterations/Sprints (to Done)">
-<font NAME="SansSerif" SIZE="12"/>
-</node>
-<node CREATED="1519219033853" FOLDED="true" ID="ID_1353851103" MODIFIED="1519219105653" TEXT="Daily Scrum/Standup">
-<node CREATED="1519219042109" ID="ID_1737377440" MODIFIED="1519219059307" TEXT="What did I do yesterday?"/>
-<node CREATED="1519219059709" ID="ID_26112658" MODIFIED="1519219066227" TEXT="What will I do today?"/>
-<node CREATED="1519219066502" ID="ID_1307300612" MODIFIED="1519219071906" TEXT="Are there any blockers?"/>
-</node>
-<node CREATED="1519218731275" ID="ID_52269500" MODIFIED="1519218739947" TEXT="Sprint Backlog"/>
-<node CREATED="1519218681418" ID="ID_865270247" MODIFIED="1519218706446" TEXT="Product/Team Backlog"/>
-<node CREATED="1519219463383" ID="ID_32153447" MODIFIED="1519219473425" TEXT="Defintions of Done (All)"/>
-<node CREATED="1519218741272" FOLDED="true" ID="ID_979998879" MODIFIED="1519219050406" TEXT="Definition of Ready (All)">
-<node CREATED="1519218870699" ID="ID_993607887" MODIFIED="1519218877019" TEXT="Backlog Refinement"/>
-<node CREATED="1519218922568" ID="ID_1288580121" MODIFIED="1519219032445" TEXT="Sprint Planning (All)"/>
-</node>
-<node CREATED="1519218836754" ID="ID_1269475981" MODIFIED="1519218846602" TEXT="Scrum Master (Quality)"/>
-<node CREATED="1519218815241" ID="ID_1773810383" MODIFIED="1519218824261" TEXT="Dev Team (How and When)"/>
-<node CREATED="1519218773281" FOLDED="true" ID="ID_555715856" MODIFIED="1519219126295" TEXT="Product Owner (What and Why)">
-<node CREATED="1519218884415" ID="ID_1111431605" MODIFIED="1519218890082" TEXT="User stories"/>
-</node>
-<node CREATED="1519218089728" ID="ID_782859369" LINK="https://www.youtube.com/watch?v=vuBFzAdaHDY" MODIFIED="1519218107356" TEXT="Video: Scrum in 16 minutes"/>
-</node>
-<node CREATED="1519221274896" ID="ID_1496112316" LINK="http://agilemanifesto.org/" MODIFIED="1519221286948" TEXT="Manifesto for Agile Software Development"/>
-</node>
-<node CREATED="1519221020671" FOLDED="true" ID="ID_203199641" MODIFIED="1519232593001" POSITION="right" TEXT="CI/CD">
-<node CREATED="1519221319401" ID="ID_1088676461" LINK="https://www.martinfowler.com/articles/continuousIntegration.html" MODIFIED="1519225898938" TEXT="Continuous Integration by Martin Fowler"/>
-<node CREATED="1519221026000" ID="ID_1775718870" MODIFIED="1519221066107" TEXT="Continuous Integration is a process in which every push to your repo triggers a build and runs your tests automatically. A red flag is raised as soon as a faulty commit goes in. Pull requests should also be tested automatically before merging to avoid bugs that impact the whole team."/>
-<node CREATED="1519221067729" ID="ID_472106512" MODIFIED="1519221084192" TEXT="Continuous Delivery is the extension of Continuous Integration. If the tests pass properly, the tested version is pushed to the production environment automatically."/>
-<node CREATED="1519221119071" ID="ID_1785314803" MODIFIED="1519231538692" TEXT="Popular Continuous Integration servers are Jenkins, Travis, CircleCI, Bamboo, CodeShip and GitLab."/>
-<node CREATED="1519232575590" ID="ID_542488945" LINK="https://about.gitlab.com/features/gitlab-ci-cd/" MODIFIED="1519232587692" TEXT="https://about.gitlab.com/features/gitlab-ci-cd/"/>
-<node CREATED="1519226587764" ID="ID_1036435349" LINK="https://www.youtube.com/watch?v=1iXFbchozdY" MODIFIED="1519231549230" TEXT="Video: Demo: CI/CD with GitLab"/>
-<node CREATED="1519222018607" ID="ID_1885328323" MODIFIED="1519222031141" TEXT="In a Continuous Integration environment you should never have a failed integration build stay failed for long. A good team should have many correct builds a day. Bad builds do occur from time to time, but should be quickly fixed. The result of doing this is that there is a stable piece of software that works properly and contains few bugs. Everybody develops off that shared stable base and never gets so far away from that base that it takes very long to integrate back with it. Less time is spent trying to find bugs because they show up quickly."/>
-<node CREATED="1519225750284" ID="ID_827288279" MODIFIED="1519225789586" TEXT="Every developer should commit to the repository every day. In practice it&apos;s often useful if developers commit more frequently than that. The more frequently you commit, the less places you have to look for conflict errors, and the more rapidly you fix conflicts. Frequent commits encourage developers to break down their work into small chunks of a few hours each. This helps track progress and provides a sense of progress."/>
-<node CREATED="1519225886207" ID="ID_1049176673" MODIFIED="1519225890478" TEXT="Many organizations do regular builds on a timed schedule, such as every night. This is not the same thing as a continuous build and isn&apos;t enough for continuous integration. The whole point of continuous integration is to find problems as soon as you can. Nightly builds mean that bugs lie undetected for a whole day before anyone discovers them. Once they are in the system that long, it takes a long time to find and remove them."/>
-<node CREATED="1519226281755" ID="ID_1994427599" MODIFIED="1519226284872" TEXT="If you have continuous integration, it removes one of the biggest barriers to frequent deployment. Frequent deployment is valuable because it allows your users to get new features more rapidly, to give more rapid feedback on those features, and generally become more collaborative in the development cycle."/>
-</node>
-<node CREATED="1514317998077" FOLDED="true" ID="ID_45322287" MODIFIED="1519226467265" POSITION="right" TEXT="CLI">
-<node CREATED="1514318003869" FOLDED="true" ID="ID_1687705929" MODIFIED="1514318025223" TEXT="download and rename">
-<node CREATED="1514318010104" ID="ID_1951725909" MODIFIED="1514318022263" TEXT="curl https://github.com/downloads/wycats/handlebars.js/handlebars-1.0.rc.1.min.js &gt; handlebars.js "/>
-</node>
-</node>
-<node CREATED="1519232125250" FOLDED="true" ID="ID_92231006" MODIFIED="1519232268089" POSITION="right" TEXT="Testing">
-<node CREATED="1519232134280" ID="ID_293589351" MODIFIED="1519232178588" TEXT="TODO: Unit tests (Complete Jasmine)"/>
-<node CREATED="1519232136936" ID="ID_1939394792" MODIFIED="1519232186386" TEXT="TODO: Integration tests"/>
-<node CREATED="1519232138792" ID="ID_1074465325" MODIFIED="1519232167410" TEXT="TODO: Functional tests"/>
 </node>
 </node>
 </map>
