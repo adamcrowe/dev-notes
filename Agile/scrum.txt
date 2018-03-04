@@ -1,0 +1,20 @@
+! Scrum
+* Video: Scrum in 16 minutes <https://www.youtube.com/watch?v=vuBFzAdaHDY>
+
+* Retrospective
+* Sprint Review/Demo
+* Iterations/Sprints (to Done)
+* Daily Scrum/Standup
+** What did I do yesterday?
+** What will I do today?
+** Are there any blockers?
+* Sprint Backlog
+* Product/Team Backlog
+* Definitions of Done (All)
+* Definition of Ready (All)
+** Backlog Refinement
+** Sprint Planning (All)
+* Scrum Master (Quality)
+* Dev Team (How and When)
+* Product Owner (What and Why)
+** User stories

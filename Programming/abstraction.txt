@@ -1,0 +1,1 @@
+> To prevent premature over-generalisation, before writing an abstract form, wait for at least three or four instances of code duplication so that you can more clearly see the general case.

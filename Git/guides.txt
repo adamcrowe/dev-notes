@@ -1,0 +1,11 @@
+* TODO: Pro Git (Book) <https://git-scm.com/book/en/v2>
+* TODO: https://www.atlassian.com/git <https://www.atlassian.com/git>
+* TODO: http://ohshitgit.com/ <http://ohshitgit.com/>
+* TODO: https://sethrobertson.github.io/GitFixUm/fixup.html <https://sethrobertson.github.io/GitFixUm/fixup.html>
+* TODO: https://codewords.recurse.com/issues/two/git-from-the-inside-out <https://codewords.recurse.com/issues/two/git-from-the-inside-out>
+* TODO: https://truss.works/blog/2014/12/31/a-lightweight-resilient-git-workflow-for-small-teams <https://truss.works/blog/2014/12/31/a-lightweight-resilient-git-workflow-for-small-teams>
+* TODO: https://yangsu.github.io/pull-request-tutorial/ <https://yangsu.github.io/pull-request-tutorial/>
+* TODO: Fork and Pull Request Workflow <https://github.com/susam/gitpr>
+* TODO: http://nvie.com/posts/a-successful-git-branching-model/ <http://nvie.com/posts/a-successful-git-branching-model/>
+* <https://contribute.jquery.org/commits-and-pull-requests/#commit-guidelines>
+* <https://bocoup.com/blog/git-workflows-for-successful-deployment>

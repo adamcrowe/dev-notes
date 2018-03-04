@@ -1,0 +1,1 @@
+const myTestFramework = require("../src/test.js");

@@ -1,17 +1,11 @@
-# Development Notes
+# [Notes](http://alexkrupp.typepad.com/sensemaking/2012/09/program-above-and-beyond-your-actual-ability-by-using-freemind.html) on Development
 
-Notes on development.
+## Selected Pages
 
-## Resources
+* [Requirements](Engineering/requirements.md): BDD/TDD, Stories, Specs, Tests
+* [Estimation](Engineering/estimation.md): "We are asked to do this impossible thing all the time, and we must face up to it honestly."
 
-* dev-notebook.mm Mindmap ([Alex Krupp: Program Above and Beyond Your Actual Ability By Using Freemind](http://alexkrupp.typepad.com/sensemaking/2012/09/program-above-and-beyond-your-actual-ability-by-using-freemind.html))
-
-## Pages
-
-* [Requirements](requirements.md): BDD/TDD, Stories, Specs, Tests
-* [Estimation](estimation.md): "We are asked to do this impossible thing all the time, and we must face up to it honestly."
-
-## Engineering
+## Engineering Links
 
 * [Why Don't Software Development Methodologies Work? Great Comments](http://typicalprogrammer.com/why-dont-software-development-methodologies-work): "'Life is pain...Anyone who says differently is selling something.'"
 * [The Joys of Maintenance Programming](http://typicalprogrammer.com/the-joys-of-maintenance-programming): "Maintenance programmers get to work with real users."

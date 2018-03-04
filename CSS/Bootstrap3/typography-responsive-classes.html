@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap Typography - Responsive Classes</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1>Bootstrap Typography - Responsive Classes</h1>
+		</div>
+
+		<div class="container">
+			<h1>Show/Hide Content</h1>
+			<p>These classes are used to show and/or hide content by device via media queries.</p>
+			<p>Use one or a combination of the available classes for toggling content across viewport breakpoints:</p>
+			<div class="table-responsive">
+				<table class="table table-bordered table-striped">
+					<thead>
+						<tr>
+							<th style="width:20%;">Classes</th>
+							<th>Extra small devices
+								<small>Phones (&lt;768px)</small>
+							</th>
+							<th>Small devices
+								<small>Tablets (≥768px)</small>
+							</th>
+							<th>Medium devices
+								<small>Desktops (≥992px)</small>
+							</th>
+							<th>Large devices
+								<small>Desktops (≥1200px)</small>
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">.visible-xs-*</th>
+							<td class="shown">Visible</td>
+							<td>Hidden</td>
+							<td>Hidden</td>
+							<td>Hidden</td>
+						</tr>
+						<tr>
+							<th scope="row">.visible-sm-*</th>
+							<td>Hidden</td>
+							<td class="bg-info">Visible</td>
+							<td>Hidden</td>
+							<td>Hidden</td>
+						</tr>
+						<tr>
+							<th scope="row">.visible-md-*</th>
+							<td>Hidden</td>
+							<td>Hidden</td>
+							<td class="bg-info">Visible</td>
+							<td>Hidden</td>
+						</tr>
+						<tr>
+							<th scope="row">.visible-lg-*</th>
+							<td>Hidden</td>
+							<td>Hidden</td>
+							<td>Hidden</td>
+							<td class="bg-info">Visible</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<th scope="row">.hidden-xs</th>
+							<td>Hidden</td>
+							<td class="bg-info">Visible</td>
+							<td class="bg-info">Visible</td>
+							<td class="bg-info">Visible</td>
+						</tr>
+						<tr>
+							<th scope="row">.hidden-sm</th>
+							<td class="bg-info">Visible</td>
+							<td>Hidden</td>
+							<td class="bg-info">Visible</td>
+							<td class="bg-info">Visible</td>
+						</tr>
+						<tr>
+							<th scope="row">.hidden-md</th>
+							<td class="bg-info">Visible</td>
+							<td class="bg-info">Visible</td>
+							<td>Hidden</td>
+							<td class="bg-info">Visible</td>
+						</tr>
+						<tr>
+							<th scope="row">.hidden-lg</th>
+							<td class="bg-info">Visible</td>
+							<td class="bg-info">Visible</td>
+							<td class="bg-info">Visible</td>
+							<td>Hidden</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="container">
+				<p>Resize this page to see how the text below changes:</p>
+				<h1 class="hidden-xs bg-danger">This text is hidden on an EXTRA SMALL screen.</h1>
+				<h1 class="hidden-sm bg-info">This text is hidden on a SMALL screen.</h1>
+				<h1 class="hidden-md bg-warning">This is text hidden on a MEDIUM screen.</h1>
+				<h1 class="hidden-lg bg-success">This is text hidden on a LARGE screen.</h1>
+				<h1 class="visible-xs bg-danger">This text is shown only on an EXTRA SMALL screen.</h1>
+				<h1 class="visible-sm bg-info">This text is shown only on a SMALL screen.</h1>
+				<h1 class="visible-md bg-warning">This text is shown only on a MEDIUM screen.</h1>
+				<h1 class="visible-lg bg-success">This text is shown only on a LARGE screen.</h1>
+  
+				<p>Note: The visible-* classes are deprecated as of Bootstrap v3.2.0</p>
+			</div>
+		</div>
+	</body>
+</html>	
