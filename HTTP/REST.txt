@@ -46,4 +46,98 @@ GET fashionboutique.com/customers/223/orders/12
 Accept: application/json
 
 !!! An optional message body containing data
+* See examples below
 
+!! Sending Responses
+
+!!! Content Types
+> In cases where the server is sending a data payload to the client, the server must include a content-type in the header of the response. This content-type header field alerts the client to the type of data it is sending in the response body. These content types are MIME Types, just as they are in the accept field of the request header. The content-type that the server sends back in the response should be one of the options that the client specified in the accept field of the request. 
+ 
+// request: 
+GET /articles/23 HTTP/1.1 
+Accept: text/html, application/xhtml 
+
+// response: 
+HTTP/1.1 200 (OK) 
+
+Content-Type: text/html
+
+!!! Response Codes
+* Response Codes (MDN) <https://developer.mozilla.org/en-US/docs/Web/HTTP/Status>
+
+> For each HTTP verb, there are expected status codes a server should return upon success:      
+GET - return 200 (OK)     
+POST - return 201 (CREATED)     
+PUT - return 200 (OK)     
+DELETE - return 204 (NO CONTENT) 
+
+!! Examples of Requests and Responses
+
+// request: view all customers: 
+GET http://fashionboutique.com/customers 
+Accept: application/json 
+
+// response header: 
+Status Code: 200 (OK) 
+Content-type: application/json 
+
+// response body: 
+{ 
+	"customers": [ 
+		{ }, 
+		{ }, 	
+		{ }
+	] 
+}
+
+// request: create a new customer by posting the data: 
+POST http://fashionboutique.com/customers 
+
+Body: 
+{ 
+	“customer”: { 
+		“name” = “Scylla Buss”, 
+		“email” = “scylla.buss@codecademy.org” 
+	} 
+} 
+
+// response header: 
+201 (CREATED) 
+Content-type: application/json 
+
+// response body: 
+{ 
+	“customer”: { 
+		"id" = 123, 
+		“name” = “Scylla Buss”, 
+		“email” = “scylla.buss@codecademy.org” 
+	} 
+}
+
+// request: view a single customer by id: 
+GET http://fashionboutique.com/customers/123 
+Accept: application/json 
+
+// response header: 
+Status Code: 200 (OK) 
+Content-type: application/json
+
+// request: update customer by putting the new data: 
+PUT http://fashionboutique.com/customers/123 
+
+Body: 
+{ 
+	“customer”: { 
+		“name” = “Scylla Buss”, 
+		“email” = “scyllabuss1@codecademy.com” 
+	} 
+} 
+
+// response header: 
+Status Code: 200 (OK)
+
+// request: DELETE that customer by id: 
+DELETE http://fashionboutique.com/customers/123 
+
+// response header: 
+Status Code: 204 (NO CONTENT)
