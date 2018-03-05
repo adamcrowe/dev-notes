@@ -24,3 +24,5 @@ grep -iR myFunction ./ 00 exclude-dir=.svn" 	// search for for myFunction in cur
 												// recursive dirs and exclude .svn dir)
 
 curl https://github.com/downloads/wycats/handlebars.js/handlebars-1.0.rc.1.min.js > handlebars.js // download and rename
+
+tsc types.ts -w 			// watch mode: run tsc on types.ts whenever types.ts changes

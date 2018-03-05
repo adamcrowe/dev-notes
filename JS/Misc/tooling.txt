@@ -4,6 +4,7 @@
 > npm manages downloads of dependencies of your project
 
 !!! Commands
+npm install	-g <package-name>			// install package globally
 										// if has package.json
 npm install								// creates and saves required dependencies to node_module folder
 npm install <package-name> --save 		// installs and adds dependency to package.json
