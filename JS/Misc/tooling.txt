@@ -1,0 +1,22 @@
+! Tooling
+
+!! npm
+> npm manages downloads of dependencies of your project
+
+!!! Commands
+										// if has package.json
+npm install								// creates and saves required dependencies to node_module folder
+npm install <package-name> --save 		// installs and adds dependency to package.json
+npm install <package-name> --save-dev 	// installs and adds dependency to package.json devDependencies
+npm update								// update all dependencies in package.json
+npm update <package-name>				// update specific dependency in package.json
+npm <task-name>							// run task e.g. npm watch, npm dev, npm prod
+
+// webpack scripts
+{
+  "scripts": {
+    "watch": "webpack --watch --progress --colors --config webpack.conf.js",
+    "dev": "webpack --progress --colors --config webpack.conf.js",
+    "prod": "NODE_ENV=production webpack -p --config webpack.conf.js",
+  },
+}
