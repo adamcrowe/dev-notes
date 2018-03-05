@@ -1,0 +1,26 @@
+* CTRL + M 				// Jump to closing parentheses
+* CTR + SHIFT + M 		// Select all within parentheses
+* CTRL + L 				// Select line at cursor
+* CTRL + D 				// Select next instance
+* CTRL + SHIFT + D 		// Copy line and paste below
+* CTRL + SHIFT + K 		// Delete current line
+* CTRL + / 				// Comment selected
+* CTRL + [ 				// Indent
+* CTRL + ] 				// Outdent
+* CTRL + SHIFT + UP 	// Move selected line
+* CTRL + LEFT 			// Jump to the end of word 
+* SHIFT + LEFT 			// Select next character
+* CTRL + SHIFT + LEFT 	// Select word and next
+* ALT + F3				// Select all instances of selected
+* CTRL + SHIFT + V		// Paste with original indentation
+* CTRL + PGUP/PGDOWN 	// Cycle through tabs
+* CTRL + R				// Goto function in current file; in an unopened file: CTRL + P, then type @
+* CTRL + ;				// Goto word in current file; in an unopened file: CTRL + P, then type #
+* CTRL + G 				// Goto line in current file; in an unopened file: CTRL + P, then type :
+* CTRL + SHIFT + M 		// Select all contents of the current brackets (curly brackets, square brackets, parentheses)
+* CTRL + F2				// Toggle Bookmark
+* F2 					// Next bookmark
+* SHIFT + F2: 			// Previous Bookmark
+* CTRL + SHIFT + F2 	// Clear bookmarks
+* CTRL + KU				// Convert to upper case
+* CTRL + KL				// Convert to lower case

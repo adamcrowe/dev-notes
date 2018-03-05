@@ -1,0 +1,1 @@
+Excel (Creating SQL queries): Escape functional equal sign by entering a single quote (') at the beginning of the cell ('=)

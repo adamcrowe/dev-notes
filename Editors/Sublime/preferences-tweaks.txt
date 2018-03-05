@@ -1,0 +1,5 @@
+<http://wesbos.com/sublime-text-5-visual-tweaks/>
+<http://sublimetexttips.com/switch-projects-without-browsing-in-sublime-text> // tidy project list
+<http://www.sublimetext.com/docs/2/multiple_selection_with_the_keyboard.html>
+<http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_win.html>
+<https://d38dico4iqn2di.cloudfront.net/wp-content/uploads/2012/10/sublime_text_2_shortcuts_mac_printable_ractoon.pdf>

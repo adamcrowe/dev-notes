@@ -1,0 +1,3 @@
+# CASE
+
+SELECT o.Order_ID, CASE o.Order_Prefix WHEN 'W' THEN 'Web' WHEN o.Order_Prefix = 'T' THEN 'Telesale' END AS Category, CONCAT_WS(' ', o.Billing_First_Name, o.Billing_Last_Name) AS Name, p.Email AS Email, o.Channel_ID, o.Status, o.Created_On, o.despatchedOn, cu.Code AS Currency FROM orders AS o INNER JOIN currencies AS cu ON cu.Currency_ID=o.Currency_ID INNER JOIN customer AS cm ON cm.Customer_ID=o.Customer_ID INNER JOIN contact AS cn ON cn.Contact_ID=cm.Contact_ID INNER JOIN person AS p ON p.Person_ID=cn.Person_ID WHERE o.Channel_ID=%1$d AND o.Status='Despatched' AND o.despatchedOn LIKE '%2$s %%' ORDER BY o.despatchedOn ASC LIMIT 0, 1;
