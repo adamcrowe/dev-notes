@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap Form Inputs</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1>Bootstrap Form Inputs</h1>
+		</div>
+		<div class="container">
+			<h2>Supported Form Controls</h2>
+			<p>Bootstrap supports the following form controls:</p>
+			<ul>
+				<li>input
+					<ul>
+						<li>text</li>
+						<li>password</li>
+						<li>datetime (depreciated)</li>
+						<li>datetime-local</li>
+						<li>date</li>
+						<li>month</li>
+						<li>time</li>
+						<li>week</li>
+						<li>number</li>
+						<li>email</li>
+						<li>url</li>
+						<li>search</li>
+						<li>tel</li>
+						<li>color</li>
+					</ul>	
+				</li>
+				<li>textarea</li>
+				<li>checkbox</li>
+				<li>radio</li>
+				<li>select</li>
+			</ul>
+
+			<h2>Inputs</h2>
+			<form>
+				<div class="form-group">
+					<label for="usr">Name:</label>
+					<input type="text" class="form-control" id="usr">
+				</div>
+				<div class="form-group">
+					<label for="pwd">Password:</label>
+					<input type="password" class="form-control" id="pwd">
+				</div>
+				<div class="form-group">
+					<label for="dtl">Date/Time Local:</label>
+					<input type="datetime-local" class="form-control" id="dtl">
+				</div>
+				<div class="form-group">
+					<label for="eml">Email:</label>
+					<input type="email" class="form-control" id="eml">
+				</div>
+				<div class="form-group">
+					<label for="tl">Tel:</label>
+					<input type="tel" class="form-control" id="tl">
+				</div>
+				<div class="form-group">
+					<label for="search">Search:</label>
+					<input type="search" class="form-control" id="search">
+				</div>
+				<div class="form-group">
+					<label for="url">URL:</label>
+					<input type="url" class="form-control" id="url">
+				</div>
+				<div class="form-group">
+					<label for="clr">Color:</label>
+					<input type="color" class="form-control" id="crl">
+				</div>
+			</form>
+
+			<h2>Textarea</h2>
+			<form>
+				<div class="form-group">
+					<label for="comment">Comment:</label>
+					<textarea class="form-control" rows="5" id="comment"></textarea>
+				</div>
+			</form>
+
+			<h2>Checkboxes</h2>
+			<div class="checkbox">
+				<label><input type="checkbox" value="">Option 1</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox" value="">Option 2</label>
+			</div>
+			<div class="checkbox disabled">
+				<label><input type="checkbox" value="" disabled>Option 3</label>
+			</div>
+			
+			<p><code>.checkbox-inline</code>:</p>
+			<form>
+				<label class="checkbox-inline">
+					<input type="checkbox" value="">Option 1
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox" value="">Option 2
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox" value="">Option 3
+				</label>
+			</form>
+
+			<h2>Radio Buttons</h2>
+			<form>
+				<div class="radio">
+					<label><input type="radio" name="optradio">Option 1</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" name="optradio">Option 2</label>
+				</div>
+				<div class="radio disabled">
+					<label><input type="radio" name="optradio" disabled>Option 3</label>
+				</div>
+			</form>
+
+			<hr>
+
+			<p><code>.radio-inline</code>:</p>
+			<form>
+				<label class="radio-inline">
+					<input type="radio" name="optradio">Option 1
+				</label>
+				<label class="radio-inline">
+					<input type="radio" name="optradio">Option 2
+				</label>
+				<label class="radio-inline">
+					<input type="radio" name="optradio">Option 3
+				</label>
+			</form>
+
+			<h2>Select List</h2>
+			<form>
+				<div class="form-group">
+					<label for="sel">Select list:</label>
+					<select class="form-control" id="sel">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+					</select>
+				</div>
+			</form>		
+			
+			<h3>Multiple Select</h3>
+			<form>
+				<div class="form-group">
+					<label for="multsel">Multiple select list:</label>
+					<select multiple class="form-control" id="multsel">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+				</div>
+			</form>
+
+			<h2>Static Control</h2>
+			<p>If you need to insert plain text next to a form label within a horizontal form, use the <code>.form-control-static</code> class on a <code>&lt;p&gt;</code> element:</p>
+
+			<form class="form-horizontal" action="/action_page.php">
+				<div class="form-group">
+					<label class="control-label col-sm-2" for="email">Email:</label>
+						<div class="col-sm-10">
+							<p class="form-control-static">someone@example.com</p>
+						</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-2" for="pwd">Password:</label>
+						<div class="col-sm-10">
+							<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+						</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<button type="submit" class="btn btn-default">Submit</button>
+					</div>
+				</div>
+			</form>
+
+			<hr>
+
+			<h2>Input Groups</h2>
+			<p>The <code>.input-group</code> class is a container to enhance an input by adding an icon, text or a button in front or behind it as a "help text".</p> 
+			<p>The <code>.input-group-addon</code> class attaches an icon or help text next to the input field.</p>
+
+			<form>
+				<div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+					<input id="email" type="text" class="form-control" name="email" placeholder="Email">
+				</div>
+				<div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+					<input id="password" type="password" class="form-control" name="password" placeholder="Password">
+				</div>
+				<br>
+				<div class="input-group">
+					<span class="input-group-addon">Text</span>
+					<input id="msg" type="text" class="form-control" name="msg" placeholder="Additional Info">
+				</div>
+			</form>
+
+			<hr>
+
+			<p>It can also be used on the right side of the input:</p>
+			
+			<form>
+				<div class="input-group">
+					<input id="email" type="text" class="form-control" name="email" placeholder="Email">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>   
+				</div>
+				<div class="input-group">
+					<input id="password" type="password" class="form-control" name="password" placeholder="Password">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+				</div>
+			</form>
+
+			<hr>
+
+			<p>The <code>.input-group-btn</code> attaches a button next to an input. This is often used together with a search bar:</p>
+			
+			<form action="/action_page.php">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search" name="search">
+					<div class="input-group-btn">
+						<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+					</div>
+				</div>
+			</form>
+
+			<h2>Form Control States</h2>
+			
+			<form class="form-horizontal">
+				<div class="form-group">
+					<label class="col-sm-2 control-label">Focused</label>
+					<div class="col-sm-10">
+						<input class="form-control" id="focusedInput" type="text" value="Click to focus...">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="disabledInput" class="col-sm-2 control-label">Disabled</label>
+					<div class="col-sm-10">
+						<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+					</div>
+				</div>
+				<fieldset disabled>
+					<div class="form-group">
+						<label for="disabledTextInput" class="col-sm-2 control-label">Disabled input and select list (Fieldset disabled)</label>
+						<div class="col-sm-10">
+							<input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="disabledSelect" class="col-sm-2 control-label"></label>
+						<div class="col-sm-10">
+							<select id="disabledSelect" class="form-control">
+								<option>Disabled select</option>
+							</select>
+						</div>
+					</div>
+				</fieldset>
+				<div class="form-group has-success has-feedback">
+					<label class="col-sm-2 control-label" for="inputSuccess">Input with success and glyphicon</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="inputSuccess">
+						<span class="glyphicon glyphicon-ok form-control-feedback"></span>
+					</div>
+				</div>
+				<div class="form-group has-warning has-feedback">
+					<label class="col-sm-2 control-label" for="inputWarning">Input with warning and glyphicon</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="inputWarning">
+						<span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+					</div>
+				</div>
+				<div class="form-group has-error has-feedback">
+					<label class="col-sm-2 control-label" for="inputError">Input with error and glyphicon</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="inputError">
+						<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+					</div>
+				</div>
+			</form>
+
+			<h2>Input Sizing</h2>
+			<p>Set the heights of input elements using classes like <code>.input-lg</code> and <code>.input-sm</code>.</p>
+			<p>Set the widths of elements using grid column classes like <code>.col-lg-*</code> and <code>.col-sm-*</code>.</p>
+
+			<h3>Heights</h3>
+
+			<form>
+				<div class="form-group">
+					<label for="inputdefault">Default input</label>
+					<input class="form-control" id="inputdefault" type="text">
+				</div>
+				<div class="form-group">
+					<label for="inputlg">input-lg</label>
+					<input class="form-control input-lg" id="inputlg" type="text">
+				</div>
+				<div class="form-group">
+					<label for="inputsm">input-sm</label>
+					<input class="form-control input-sm" id="inputsm" type="text">
+				</div>
+				<div class="form-group">
+					<label for="sel1">Default select list</label>
+					<select class="form-control" id="sel1">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="sel2">input-lg</label>
+					<select class="form-control input-lg" id="sel2">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="sel3">input-sm</label>
+					<select class="form-control input-sm" id="sel3">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select>
+				</div>
+			</form>
+
+			<p>You can quickly size labels and form controls within a Horizontal form by adding <code>.form-group-lg</code> or <code>.form-group-sm</code> to the <code>div class="form-group"</code> element:</p>
+			
+			<form class="form-horizontal">
+				<div class="form-group form-group-lg">
+					<label class="col-sm-2 control-label" for="lg">form-group-lg</label>
+					<div class="col-sm-10">
+						<input class="form-control" type="text" id="lg">
+					</div>
+				</div>
+				<div class="form-group form-group-sm">
+					<label class="col-sm-2 control-label" for="sm">form-group-sm</label>
+					<div class="col-sm-10">
+						<input class="form-control" type="text" id="sm">
+					</div>
+				</div>
+			</form>
+
+			<p>You can also quickly size all inputs and other elements inside an <code>.input-group</code> with the <code>.input-group-sm</code> or <code>.input-group-lg</code> classes:</p>
+
+			<form>
+				<div class="input-group input-group-sm">
+					<input type="text" class="form-control" placeholder="Search">
+					<div class="input-group-btn">
+						<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+					</div>
+				</div>
+			</form>
+
+			<hr>
+
+			<form>
+				<div class="input-group input-group-lg">
+					<input type="text" class="form-control" placeholder="Search">
+					<div class="input-group-btn">
+						<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+					</div>
+				</div>
+			</form>
+
+			<h3>Widths</h3>
+
+			<p>The following examples shows input elements with different widths using different <code>.col-xs-*</code> classes:</p>
+
+			<form>
+				<div class="form-group row">
+					<div class="col-xs-2">
+						<label for="ex1">col-xs-2</label>
+						<input class="form-control" id="ex1" type="text">
+					</div>
+					<div class="col-xs-3">
+						<label for="ex2">col-xs-3</label>
+						<input class="form-control" id="ex2" type="text">
+					</div>
+					<div class="col-xs-4">
+						<label for="ex3">col-xs-4</label>
+						<input class="form-control" id="ex3" type="text">
+					</div>
+				</div>
+			</form>
+
+			<h2>Help Text</h2>
+			<p>Use the <code>.help-block</code> class to add a block level help text in forms:</p>
+
+			<form>
+				<div class="form-group">
+					<label for="pwd">Password:</label>
+					<input type="password" class="form-control" id="pwd" placeholder="Enter password">
+					<span class="help-block">This is some help text that breaks onto a new line and may extend more than one line.</span>
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+		</div>
+	</body>
+</html>	
+
