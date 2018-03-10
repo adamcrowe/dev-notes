@@ -4,9 +4,9 @@
 		<title>Bootstrap Form Inputs</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap-3.3.7.css">
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/bootstrap-3.3.7.js"></script>
 	</head>
 	<body>
 		<div class="jumbotron text-center">
@@ -225,6 +225,7 @@
 
 			<hr>
 
+			<h3>Input Group Button</h3>
 			<p>The <code>.input-group-btn</code> attaches a button next to an input. This is often used together with a search bar:</p>
 			
 			<form action="/action_page.php">
@@ -235,6 +236,30 @@
 					</div>
 				</div>
 			</form>
+
+			<h3>Input Group Size</h3>
+			<p>Use the <code>.input-group-lg</code> if you want a large input group:</p>
+			<form>
+				<div class="input-group input-group-lg">
+					<input type="text" class="form-control" placeholder="Search">
+					<div class="input-group-btn">
+						<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+					</div>
+				</div>
+			</form>
+			<br>
+
+			<p>Use the <code>.input-group-sm</code> if you want a small input group:</p>
+			<form>
+				<div class="input-group input-group-sm">
+					<input type="text" class="form-control" placeholder="Search">
+					<div class="input-group-btn">
+						<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+					</div>
+				</div>
+			</form>
+
+			<hr>
 
 			<h2>Form Control States</h2>
 			

@@ -1,0 +1,14 @@
+> Plugins can be included individually (using Bootstrap's individual *.js files), or all at once (using bootstrap.js or the minified bootstrap.min.js). <https://getbootstrap.com/docs/3.3/javascript/>
+
+affix.js <https://getbootstrap.com/docs/3.3/javascript/#affix>
+alert.js <https://getbootstrap.com/docs/3.3/javascript/#alerts>
+button.js <https://getbootstrap.com/docs/3.3/javascript/#buttons>
+carousel.js <https://getbootstrap.com/docs/3.3/javascript/#carousel>
+collapse.js <https://getbootstrap.com/docs/3.3/javascript/#collapse>
+dropdown.js <https://getbootstrap.com/docs/3.3/javascript/#dropdowns>
+modal.js <https://getbootstrap.com/docs/3.3/javascript/#modals>
+popover.js <https://getbootstrap.com/docs/3.3/javascript/#popovers>
+scrollspy.js <https://getbootstrap.com/docs/3.3/javascript/#scrollspy>
+tab.js <https://getbootstrap.com/docs/3.3/javascript/#tabs>
+tooltip.js <https://getbootstrap.com/docs/3.3/javascript/#tooltips>
+transitions.js <https://getbootstrap.com/docs/3.3/javascript/#transitions>
