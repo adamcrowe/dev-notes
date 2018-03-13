@@ -13,6 +13,10 @@
 			<h1>Bootstrap Tabs</h1>
 		</div>
 		<div class="container">
+			<div class="alert alert-info">
+				<strong>Tip</strong>: Plugins can be included individually (using Bootstrap's individual "tab.js" file), or all at once (using "bootstrap.js" or "bootstrap.min.js").
+			</div>
+
 			<h2>Tabs</h2>
 			<p>Tabs are created with <code>&lt;ul class="nav nav-tabs"&gt;</code>. Also mark the current page with <code>&lt;li class="active"&gt;</code>.</p>
 			<ul class="nav nav-tabs">
@@ -36,6 +40,56 @@
 				<li><a href="#">Menu 2</a></li>
 				<li><a href="#">Menu 3</a></li>
 			</ul>
+
+			<h3>Centered/Justified Tabs</h3>
+			<p>To center/justify the tabs and pills, use the <code>.nav-justified</code> class.</p>
+			<p>Note that on screens that are smaller than 768px, the list items are stacked (content will remain centered):</p>
+			<ul class="nav nav-tabs nav-justified">
+				<li class="active"><a href="#">Home</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 1 <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Submenu 1-1</a></li>
+						<li><a href="#">Submenu 1-2</a></li>
+						<li><a href="#">Submenu 1-3</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Menu 2</a></li>
+				<li><a href="#">Menu 3</a></li>
+			</ul>
+
+			<h3>Toggleable/Dynamic Tabs</h3>
+			<p>To make the tabs toggleable, add the <code>data-toggle="tab"</code> attribute to each link. Then add a <code>.tab-pane</code> class with a unique ID for every tab and wrap them inside a &lt;div&gt; element with class <code>.tab-content</code>.</p>
+			<p>If you want the tabs to fade in and out when clicking on them, add the <code>.fade</code> class to <code>.tab-pane</code>:</p>
+
+			<ul class="nav nav-tabs">
+				<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+				<li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+				<li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+				<li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div id="home" class="tab-pane fade in active">
+					<h3>Home</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div id="menu1" class="tab-pane fade">
+					<h3>Menu 1</h3>
+					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div id="menu2" class="tab-pane fade">
+					<h3>Menu 2</h3>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+				</div>
+				<div id="menu3" class="tab-pane fade">
+					<h3>Menu 3</h3>
+					<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+				</div>
+			</div>
+
+			<h3>Tab Methods</h3>
+			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#tabs">https://getbootstrap.com/docs/3.3/javascript/#tabs</a></p>
 
 			<h2>Pills</h2>
 			<p>Pills are created with <code>&lt;ul class="nav nav-pills"&gt;</code>. Also mark the current page with <code>&lt;li class="active"&gt;</code>:</p>
@@ -78,10 +132,10 @@
 				<div class="clearfix visible-lg"></div>
 			</div>
 
-			<h2>Centered Tabs and Pills</h2>
+			<h3>Centered/Justified Pills</h3>
 			<p>To center/justify the tabs and pills, use the <code>.nav-justified</code> class.</p>
 			<p>Note that on screens that are smaller than 768px, the list items are stacked (content will remain centered):</p>
-			<ul class="nav nav-pills nav-stacked">
+			<ul class="nav nav-pills nav-justified">
 				<li class="active"><a href="#">Home</a></li>
 				<li class="dropdown">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 1 <span class="caret"></span></a>
@@ -95,37 +149,7 @@
 				<li><a href="#">Menu 3</a></li>
 			</ul>
 
-			<h2>Toggleable/Dynamic Tabs</h2>
-			<p>To make the tabs toggleable, add the <code>data-toggle="tab"</code> attribute to each link. Then add a <code>.tab-pane</code> class with a unique ID for every tab and wrap them inside a &lt;div&gt; element with class <code>.tab-content</code>.</p>
-			<p>If you want the tabs to fade in and out when clicking on them, add the <code>.fade</code> class to <code>.tab-pane</code>:</p>
-
-			<ul class="nav nav-tabs">
-				<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-				<li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-				<li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-				<li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
-			</ul>
-
-			<div class="tab-content">
-				<div id="home" class="tab-pane fade in active">
-					<h3>HOME</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-				<div id="menu1" class="tab-pane fade">
-					<h3>Menu 1</h3>
-					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-				<div id="menu2" class="tab-pane fade">
-					<h3>Menu 2</h3>
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-				</div>
-				<div id="menu3" class="tab-pane fade">
-					<h3>Menu 3</h3>
-					<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-				</div>
-			</div>
-
-			<h2>Toggleable / Dynamic Pills</h2>
+			<h3>Toggleable/Dynamic Pills</h3>
 			<p>To make the tabs toggleable, add the <code>data-toggle="pill"</code> attribute to each link. Then add a <code>.tab-pane</code> class with a unique ID for every tab and wrap them inside a div element with class <code>.tab-content</code>.</p>
 			<ul class="nav nav-pills">
 				<li class="active"><a data-toggle="pill" href="#home2">Home</a></li>
@@ -136,7 +160,7 @@
 
 			<div class="tab-content">
 				<div id="home2" class="tab-pane fade in active">
-					<h3>HOME</h3>
+					<h3>Home</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
 				<div id="menuA" class="tab-pane fade">

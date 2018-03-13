@@ -7,6 +7,17 @@
 		<link rel="stylesheet" href="css/bootstrap-3.3.7.css">
 		<script src="js/jquery-3.3.1.js"></script>
 		<script src="js/bootstrap-3.3.7.js"></script>
+		<style>
+			.dropdown-submenu {
+				position: relative;
+			}
+
+			.dropdown-submenu .dropdown-menu {
+				top: 0;
+				left: 100%;
+				margin-top: -1px;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="jumbotron text-center">
@@ -14,8 +25,13 @@
 			<p>A dropdown menu is a toggleable menu that allows the user to choose one value from a predefined list</p>
 		</div>
 		<div class="container">
+			<div class="alert alert-info">
+				<strong>Tip</strong>: Plugins can be included individually (using Bootstrap's individual "dropdown.js" file), or all at once (using "bootstrap.js" or "bootstrap.min.js").
+			</div>
+
 			<h2>Basic Dropdown</h2>
-			<p>To open the dropdown menu, use a button or a link with a class of <code>.dropdown-toggle</code> and the <code>data-toggle="dropdown"</code> attribute. The <code>.caret</code> class creates a caret arrow icon (), which indicates that the button is a dropdown. Add the <code>.dropdown-menu</code> class to a <code>&lt;ul&gt;</code> element to actually build the dropdown menu.</p>
+			<p>To open the dropdown menu, use a button or a link with a class of <code>.dropdown-toggle</code> and the <code>data-toggle="dropdown"</code> attribute. The <code>.caret</code> class creates a caret arrow icon (<span class="caret"></span>), which indicates that the button is a dropdown. Add the <code>.dropdown-menu</code> class to a <code>&lt;ul&gt;</code> element to actually build the dropdown menu.</p>
+			
 			<div class="dropdown">
 				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown
 					<span class="caret"></span>
@@ -26,6 +42,58 @@
 					<li><a href="#">Cc</a></li>
 				</ul>
 			</div>	
+
+			<h2>Multi-Level Dropdowns (Vertical Opening)</h2>
+			<p>(see script section).</p>                             
+			<div class="dropdown">
+				<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Parent
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><a tabindex="-1" href="#">Child 1</a></li>
+					<li><a tabindex="-1" href="#">Child 2</a></li>
+					<li>
+						<a class="vertical-test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+							<li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+							<li>
+								<a class="vertical-test" href="#">Another dropdown <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">3rd level dropdown</a></li>
+									<li><a href="#">3rd level dropdown</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<h2>Multi-Level Dropdowns (Horizontal Opening)</h2>
+			<p>(see script and style sections).</p>                             
+			<div class="dropdown">
+				<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Parent
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><a tabindex="-1" href="#">Child 1</a></li>
+					<li><a tabindex="-1" href="#">Child 2</a></li>
+					<li class="dropdown-submenu">
+						<a class="horizonal-test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+							<li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+							<li class="dropdown-submenu">
+								<a class="horizonal-test" href="#">Another dropdown <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">3rd level dropdown</a></li>
+									<li><a href="#">3rd level dropdown</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
 
 			<h2>Dropdown Divider</h2>
 			<p>The <code>.divider</code> class is used to separate links inside the dropdown menu with a thin horizontal border:</p>
@@ -119,6 +187,9 @@
 					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Dd</a></li>
 				</ul>
 			</div>
+
+			<h2>Dropdown Methods</h2>
+			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#dropdowns">https://getbootstrap.com/docs/3.3/javascript/#dropdowns</a></p>
 			
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
@@ -126,5 +197,21 @@
 			<p>&nbsp;</p>
 			<p>&nbsp;</p> 
 		</div>
+
+		<script>
+		$(document).ready(function(){
+			$('.dropdown-menu a.vertical-test').on("click", function(e){
+				$(this).next('ul').toggle();
+				e.stopPropagation();
+				e.preventDefault();
+			});
+		
+			$('.dropdown-submenu a.horizonal-test').on("click", function(e){
+				$(this).next('ul').toggle();
+				e.stopPropagation();
+				e.preventDefault();
+			});
+		});
+		</script>
 	</body>
 </html>

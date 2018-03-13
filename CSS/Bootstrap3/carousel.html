@@ -7,13 +7,26 @@
 		<link rel="stylesheet" href="css/bootstrap-3.3.7.css">
 		<script src="js/jquery-3.3.1.js"></script>
 		<script src="js/bootstrap-3.3.7.js"></script>
+		<style>
+			/* Hide the carousel text when the screen is less than 600 pixels wide */
+			@media (max-width: 600px) {
+				.carousel-caption {
+					display: none; 
+				}
+			}
+		</style>	
 	</head>
 	<body>
 		<div class="jumbotron text-center">
 			<h1>Bootstrap Carousel</h1>
+			<p>The Carousel is a component for cycling through elements, like a carousel (slideshow). <strong>Nested carousels are not supported</strong>.</p>
 		</div>
 		<div class="container">
+			<div class="alert alert-info">
+				<strong>Tip</strong>: Plugins can be included individually (using Bootstrap's individual "carousel.js" file), or all at once (using "bootstrap.js" or "bootstrap.min.js").
+			</div>
 			<h2>Basic Carousel</h2>
+			<p>Carousel caption text is hidden when the screen is less than 600 pixels wide (see style section)</p>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
@@ -54,7 +67,10 @@
 					<span class="glyphicon glyphicon-chevron-right"></span>
 					<span class="sr-only">Next</span>
 				</a>
-			</div>	
+			</div>
+
+			<h2>Carousel Methods</h2>
+			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#carousel">https://getbootstrap.com/docs/3.3/javascript/#carousel</a></p>
 
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>

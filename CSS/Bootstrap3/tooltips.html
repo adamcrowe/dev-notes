@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Bootstrap Tooltip Plugin</title>
+		<title>Bootstrap Tooltips</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/bootstrap-3.3.7.css">
@@ -38,10 +38,14 @@
 	</head>
 	<body>
 		<div class="jumbotron text-center">
-			<h1>Bootstrap Tooltip Plugin</h1>
-			<p>The Tooltip plugin is small pop-up box that appears when the user moves the mouse pointer over an element</p>
+			<h1>Bootstrap Tooltips</h1>
+			<p>The Tooltip is small pop-up box that appears when the user moves the mouse pointer over an element</p>
 		</div>
 		<div class="container">
+			<div class="alert alert-info">
+				<strong>Tip</strong>: Plugins can be included individually (using Bootstrap's individual "tooltip.js" file), or all at once (using "bootstrap.js" or "bootstrap.min.js").
+			</div>
+
 			<h2>Tooltip</h2>
 			<p>Add the <code>data-toggle="tooltip"</code> attribute to an element.</p>
 			<p>Use the title attribute to specify the text that should be displayed inside the tooltip:</p>
@@ -164,7 +168,8 @@
 			<p>If a function is given, it is called with the triggering element DOM node as its only argument. The <code>this</code> context is set to the tooltip instance.</p>
 
 			<h2>Tooltip Methods</h2>
-			<p><a href="#" data-toggle="tooltipA" title="Hooray!">Tooltip</a></p>	
+			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#tooltips">https://getbootstrap.com/docs/3.3/javascript/#tooltips</a></p>
+			<p><a href="#" data-toggle="tooltipA" title="Hooray!">Tooltip will show here</a></p>	
 			<ul>
 				<li><code>.tooltip('show')</code> Shows the tooltip</li>
 				<li><code>.tooltip('hide')</code> Hides the tooltip</li>
@@ -177,7 +182,7 @@
 			<button type="button" id="btnDestroy1" class="btn btn-danger btn-lg">Destroy</button>
 
 			<h2>Tooltip Events</h2>
-			<p><a href="#" data-toggle="tooltipB" title="Hooray!">Tooltip</a></p>	
+			<p><a href="#" data-toggle="tooltipB" title="Hooray!">Tooltip will show here</a></p>	
 			<p>The <strong>show.bs.tooltip</strong> event occurs when the tooltip is about to be shown.</p>
 			<p>The <strong>shown.bs.tooltip</strong> event occurs when the tooltip is fully shown.</p>
 			<p>The <strong>hide.bs.tooltip</strong> event occurs when the tooltip is about to be hidden.</p>
@@ -187,7 +192,7 @@
 			<button type="button" id="btnToggle2" class="btn btn-default btn-lg">Toggle</button>
 			<button type="button" id="btnDestroy2" class="btn btn-danger btn-lg">Destroy</button>
 
-			<h2>Custom Tooltip</h2>
+			<h2>Custom Hover Tooltips</h2>
 			<ul class="list-inline">
 				<li><a class="test" href="#" data-toggle="tooltipC" data-placement="top" title="Hooray!">Top</a></li>
 				<li><a class="test" href="#" data-toggle="tooltipC" data-placement="bottom" title="Hooray!">Bottom</a></li>

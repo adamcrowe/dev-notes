@@ -7,6 +7,19 @@
 		<link rel="stylesheet" href="css/bootstrap-3.3.7.css">
 		<script src="js/jquery-3.3.1.js"></script>
 		<script src="js/bootstrap-3.3.7.js"></script>
+		<style>
+		.btn-non-rounded {
+			border-radius: 0;
+		}
+		.btn-custom-color {
+			background: #000;
+			color: #fff;
+		}
+		.btn-shadow {
+			box-shadow: 1px 2px 5px #000000;   
+		}
+
+		</style>
 	</head>
 	<body>
 		<div class="jumbotron text-center">
@@ -14,6 +27,10 @@
 			<p>Bootstrap provides different styles of buttons</p>
 		</div>
 		<div class="container">
+			<div class="alert alert-info">
+				<strong>Tip</strong>: Plugins can be included individually (using Bootstrap's individual "button.js" file), or all at once (using "bootstrap.js" or "bootstrap.min.js").
+			</div>
+
 			<h2>Button Styles</h2>
 			<button type="button" class="btn">Basic</button>
 			<button type="button" class="btn btn-default">Default</button>
@@ -128,12 +145,53 @@
 				<a href="#" class="btn btn-primary">Samsung</a>
 				<a href="#" class="btn btn-primary">Sony</a>
 			</div>
+
+			<h2>Button Methods</h2>
+			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#buttons">https://getbootstrap.com/docs/3.3/javascript/#buttons</a></p>
+
+			<h2>CSS Customized Buttons</h2>
+			<h3>Remove Rounded Borders</h3>
+			<p>
+				<code>
+				.btn-non-rounded {
+					border-radius: 0;
+				}</code>
+			</p>
+			<button type="button" class="btn btn-success">Rounded corners</button>
+			<button type="button" class="btn btn-non-rounded">No rounded corners</button>
+
+			<h3>Custom Color</h3>
+			<p>
+				<code>
+				.btn-custom-color {
+      				background: #000;
+     				color: #fff;
+				}</code>
+			</p>
+			<button type="button" class="btn btn-custom-color">Button</button>
 			
+			<h3>Custom Button Shadow</h3>
+			<p>
+				<code>
+				.btn-default {
+					box-shadow: 1px 2px 5px #000000; 
+				}</code>
+			</p>
+			<button type="button" class="btn btn-shadow">Button</button>
+
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 			<p>&nbsp;</p> 
 		</div>
+		<script>
+		$(document).ready(function(){
+			$(".btn-toggle").click(function(){
+				$(this).button('toggle');
+			});   
+		});
+		</script>
+
 	</body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Bootstrap Popover Plugin</title>
+		<title>Bootstrap Popover</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/bootstrap-3.3.7.css">
@@ -35,10 +35,14 @@
 	</head>
 	<body>
 		<div class="jumbotron text-center">
-			<h1>Bootstrap Popover Plugin</h1>
-			<p>The Popover plugin is similar to tooltips; it is a pop-up box that appears when the user clicks on an element</p>
+			<h1>Bootstrap Popovers</h1>
+			<p>Popovers are similar to tooltips; it is a pop-up box that appears when the user clicks on an element</p>
 		</div>
 		<div class="container">
+			<div class="alert alert-info">
+				<strong>Tip</strong>: Plugins can be included individually (using Bootstrap's individual "popover.js" file), or all at once (using "bootstrap.js" or "bootstrap.min.js").
+			</div>
+
 			<h2>Popover</h2>
 			<p>Add the <code>data-toggle="popover"</code> attribute to an element. Use the <code>title</code> attribute to specify the header text of the popover, and use the <code>data-content</code> attribute to specify the text that should be displayed inside the popover's body:</p>
 			<a href="#" data-toggle="popover-basic" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
@@ -155,7 +159,8 @@
 			<p>If a function is given, it is called with the triggering element DOM node as its only argument. The <code>this</code> context is set to the popover instance.</p>
 
 			<h2>Popover Methods</h2>
-			<p><a href="#" data-toggle="popoverA" title="Hooray!" data-content="Some content inside the popover">popover</a></p>	
+			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#popovers">https://getbootstrap.com/docs/3.3/javascript/#popovers</a></p>
+			<p><a href="#" data-toggle="popoverA" title="Hooray!" data-content="Some content inside the popover">Popover will show here</a></p>	
 			<ul>
 				<li><code>.popover('show')</code> Shows the popover</li>
 				<li><code>.popover('hide')</code> Hides the popover</li>
@@ -168,7 +173,7 @@
 			<button type="button" id="btnDestroy1" class="btn btn-danger btn-lg">Destroy</button>
 
 			<h2>Popover Events</h2>
-			<p><a href="#" data-toggle="popoverB" title="Hooray!" data-content="Some content inside the popover">popover</a></p>	
+			<p><a href="#" data-toggle="popoverB" title="Hooray!" data-content="Some content inside the popover">Popover will show here</a></p>	
 			<p>The <strong>show.bs.popover</strong> event occurs when the popover is about to be shown.</p>
 			<p>The <strong>shown.bs.popover</strong> event occurs when the popover is fully shown.</p>
 			<p>The <strong>hide.bs.popover</strong> event occurs when the popover is about to be hidden.</p>

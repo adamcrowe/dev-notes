@@ -1,0 +1,2 @@
+* Character Entities <https://dev.w3.org/html5/html-author/charref>
+* Placeholder Images: https://placehold.it/800x400?text=IMAGE

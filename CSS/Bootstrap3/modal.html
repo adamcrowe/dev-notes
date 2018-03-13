@@ -7,19 +7,31 @@
 		<link rel="stylesheet" href="css/bootstrap-3.3.7.css">
 		<script src="js/jquery-3.3.1.js"></script>
 		<script src="js/bootstrap-3.3.7.js"></script>
+
+		<style>
+		.modal-header, h4, .close {
+			background-color: #5cb85c;
+			color:white !important;
+			text-align: center;
+			font-size: 30px;
+		}
+		.modal-footer {
+			background-color: #f9f9f9;
+		}
+		</style>
+
 	</head>
 	<body>
 		<div class="jumbotron text-center">
 			<h1>Bootstrap Modal</h1>
-			<p>The Modal plugin is a dialog box/popup window that is displayed on top of the current page</p>
+			<p>A Modal is a dialog box/popup window that is displayed on top of the current page</p>
 		</div>
 		<div class="container">
-
 			<div class="alert alert-info">
 				<strong>Tip</strong>: Plugins can be included individually (using Bootstrap's individual "modal.js" file), or all at once (using "bootstrap.js" or "bootstrap.min.js").
 			</div>
 
-			<h2>Basic Modal</h2>
+			<h2>Basic Modal (using <code>data-toggle="modal"</code>)</h2>
 			<!-- Trigger the modal with a button -->
 			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 
@@ -42,11 +54,10 @@
 				</div>
 			</div>
 
-			<h2>Modal Size</h2>
-			<p>By default, modals are medium in size.</p>
-			<p>Change the size of the modal by adding the <code>.modal-sm</code> or <code>.modal-lg</code> class to the <code>&lt;div&gt;</code> element with class <code>.modal-dialog</code>:</p>
+			<h2>Modal Size (default is medium)</h2>
+			<p>Change the size of the modal by using the <code>.modal-sm</code> or <code>.modal-lg</code> classes:</p>
 
-			<h3>Small Modal</h3>
+			<h3>Small Modal (using <code>data-toggle="modal"</code>)</h3>
 			<!-- Trigger the modal with a button -->
 			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalSmall">Open Small Modal</button>
 
@@ -68,7 +79,7 @@
 				</div>
 			</div>
 
-			<h3>Large Modal</h3>
+			<h3>Large Modal (using <code>data-toggle="modal"</code>)</h3>
 			<!-- Trigger the modal with a button -->
 			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalLarge">Open Large Modal</button>
 
@@ -90,11 +101,61 @@
 				</div>
 			</div>
 
+			<h2>Modal Login (using JS)</h2>
+			<!-- Trigger the modal with a button -->
+			<button type="button" class="btn btn-default btn-lg" id="myLoginBtn">Login</button>
+
+			<!-- Modal -->
+			<div class="modal fade" id="myLoginModal" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header" style="padding:35px 50px;">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+						</div>
+						<div class="modal-body" style="padding:40px 50px;">
+							<form role="form">
+								<div class="form-group">
+									<label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+									<input type="text" class="form-control" id="usrname" placeholder="Enter email">
+								</div>
+								<div class="form-group">
+									<label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+									<input type="text" class="form-control" id="psw" placeholder="Enter password">
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" value="" checked>Remember me</label>
+								</div>
+								<button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+							<p>Not a member? <a href="#">Sign Up</a></p>
+							<p>Forgot <a href="#">Password?</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<h2>Modal Methods</h2>
+			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#modals">https://getbootstrap.com/docs/3.3/javascript/#modals</p>
+
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 		</div>
+
+		<script>
+		$(document).ready(function(){
+    		$("#myLoginBtn").click(function(){
+        		$("#myLoginModal").modal();
+    		});
+		});
+		</script>
 	</body>
 </html>
