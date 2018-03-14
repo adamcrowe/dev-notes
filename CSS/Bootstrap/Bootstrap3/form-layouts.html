@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 3 Form Layouts</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap-3.3.7.css">
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/bootstrap-3.3.7.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+			<title>Bootstrap 3 Form Layouts</h1>
+		</div>
+		<div class="container">
+			<h2>Three Layouts</h2>
+			<p>Bootstrap provides three types of form layouts:</p>
+			<ul>
+				<li>Vertical form (default)</li>
+				<li>Horizontal form</li>
+				<li>Inline form</li>
+			</ul>
+			<p>Standard rules for all three form layouts:</p>
+			<ul>
+				<li>Wrap labels and form controls in <code>&lt;div class="form-group"&gt;</code> (needed for optimum spacing)</li>
+				<li>Add class <code>.form-control</code> to all textual <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, and <code>&lt;select&gt;</code> elements</li>
+			</ul>
+
+			<h2>Vertical Form (default)</h2>
+			
+			<form action="/action_page.php">
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+				</div>
+				<div class="form-group">
+					<label for="pwd">Password:</label>
+					<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" name="remember"> Remember me</label>
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+
+			<h2>Inline Form</h2>
+			<p>Add class <code>.form-inline</code> to the <code>&lt;form&gt;</code> element</p>
+			<p>Note: This only applies to forms within viewports that are at least 768px wide</p>
+
+			<form class="form-inline" action="/action_page.php">
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+				</div>
+				<div class="form-group">
+					<label for="pwd">Password:</label>
+					<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" name="remember"> Remember me</label>
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+
+			<h2>Inline Form (hidden labels)</h2>
+			<p>If you don't include a label for every input, screen readers will have trouble with the form. You can hide the labels for all devices, except screen readers, by using the <code>.sr-only</code> class:</p>
+
+			<form class="form-inline" action="/action_page.php">
+				<div class="form-group">
+					<label class="sr-only" for="email">Email:</label>
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+				</div>
+				<div class="form-group">
+					<label class="sr-only" for="pwd">Password:</label>
+					<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" name="remember"> Remember me</label>
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+
+			<h2>Horizontal Form</h2>
+			<p>On small screens (767px and below), it will transform to a vertical form (labels are placed on top of each input).</p>
+			<p>Additional rules for a horizontal form:</p>
+			<ul>
+				<li>Add class <code>.form-horizontal</code> to the <code>&lt;form&gt;</code> element</li>
+				<li>Add class <code>.control-label</code> to all <code>&lt;label&gt;</code> elements</li>
+			</ul>
+			<p>Tip: Use Bootstrap's predefined grid classes to align labels and groups of form controls in a horizontal layout.</p>
+
+			<form class="form-horizontal" action="/action_page.php">
+				<div class="form-group">
+					<label class="control-label col-sm-2" for="email">Email:</label>
+					<div class="col-sm-10">
+						<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-2" for="pwd">Password:</label>
+					<div class="col-sm-10">
+						<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<div class="checkbox">
+							<label><input type="checkbox" name="remember"> Remember me</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<button type="submit" class="btn btn-default">Submit</button>
+					</div>
+				</div>
+			</form>
+
+			<hr>
+			
+		</div>
+	</body>
+</html>

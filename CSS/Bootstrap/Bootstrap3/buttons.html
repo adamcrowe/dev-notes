@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 3 Buttons</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap-3.3.7.css">
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/bootstrap-3.3.7.js"></script>
+		<style>
+		.btn-non-rounded {
+			border-radius: 0;
+		}
+		.btn-custom-color {
+			background: #000;
+			color: #fff;
+		}
+		.btn-shadow {
+			box-shadow: 1px 2px 5px #000000;   
+		}
+
+		</style>
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+			<title>Bootstrap 3 Buttons</h1>
+			<p>Bootstrap provides different styles of buttons</p>
+		</div>
+		<div class="container">
+			<div class="alert alert-info">
+				<strong>Tip</strong>: Plugins can be included individually (using Bootstrap's individual "button.js" file), or all at once (using "bootstrap.js" or "bootstrap.min.js").
+			</div>
+
+			<h2>Button Styles</h2>
+			<button type="button" class="btn">Basic</button>
+			<button type="button" class="btn btn-default">Default</button>
+			<button type="button" class="btn btn-primary">Primary</button>
+			<button type="button" class="btn btn-success">Success</button>
+			<button type="button" class="btn btn-info">Info</button>
+			<button type="button" class="btn btn-warning">Warning</button>
+			<button type="button" class="btn btn-danger">Danger</button>
+			<button type="button" class="btn btn-link">Link</button>
+
+			<h2>Button Tags</h2>
+			<p>The button classes can be used on an <code>&lt;a&gt;</code>, <code>&lt;button&gt;</code>, or <code>&lt;input&gt;</code> element:</p>
+			<a href="#" class="btn btn-info" role="button">Link Button</a>
+			<button type="button" class="btn btn-info">Button</button>
+			<input type="button" class="btn btn-info" value="Input Button">
+			<input type="submit" class="btn btn-info" value="Submit Button">
+
+			<h2>Button Sizes</h2>
+			<p>The classes that define the different sizes are: <code>.btn-lg</code>, <code>.btn-md</code>, <code>.btn-sm</code>, <code>.btn-xs</code></p>
+			<button type="button" class="btn btn-primary btn-lg">Large</button>
+			<button type="button" class="btn btn-primary btn-md">Medium</button>
+			<button type="button" class="btn btn-primary btn-sm">Small</button>
+			<button type="button" class="btn btn-primary btn-xs">XSmall</button>
+
+			<h2>Block Level Buttons</h2>
+			<h3>Default Block Level Buttons</h3>
+			<button type="button" class="btn btn-primary btn-block">Block Button 1</button>
+			<button type="button" class="btn btn-default btn-block">Block Button 2</button>
+
+			<h3>Large Block Level Buttons</h3>
+			<button type="button" class="btn btn-primary btn-lg btn-block">Block Button 1</button>
+			<button type="button" class="btn btn-default btn-lg btn-block">Block Block Button 2</button>
+
+			<h3>Small Block Level Buttons</h3>
+			<button type="button" class="btn btn-primary btn-sm btn-block">Block Button 1</button>
+			<button type="button" class="btn btn-default btn-sm btn-block">Block Button 2</button>
+
+			<h2>Button States</h2>
+			<p>A button can be set to an active (appear pressed) or a disabled (unclickable) state.</p>
+			<p>The class <code>.active</code> makes a button appear pressed, and the class <code>.disabled</code> makes a button unclickable:</p>
+			<button type="button" class="btn btn-primary">Primary Button</button>
+			<button type="button" class="btn btn-primary active">Active Primary</button>
+			<button type="button" class="btn btn-primary disabled">Disabled Primary</button>
+
+			<h2>Button Groups</h2>
+			<h3>Default Button Group</h3>
+			<p>The <code>.btn-group</code> class creates a button group:</p>
+			<div class="btn-group" style="margin:5px 0 10px 0;">
+				<button type="button" class="btn btn-primary">Apple</button>
+				<button type="button" class="btn btn-primary">Samsung</button>
+				<button type="button" class="btn btn-primary">Sony</button>
+			</div>
+			<h3>Button Group Large</h3>
+			<p>Add class <code>.btn-group-*</code> to size all buttons in a button group.</p>
+			<div class="btn-group btn-group-lg" style="margin:5px 0 10px 0;">
+				<button type="button" class="btn btn-primary">Apple</button>
+				<button type="button" class="btn btn-primary">Samsung</button>
+				<button type="button" class="btn btn-primary">Sony</button>
+			</div>
+			<h3>Button Group Small</h3>
+			<p>Add class <code>.btn-group-*</code> to size all buttons in a button group.</p>
+			<div class="btn-group btn-group-sm" style="margin:5px 0 10px 0;">
+				<button type="button" class="btn btn-primary">Apple</button>
+				<button type="button" class="btn btn-primary">Samsung</button>
+				<button type="button" class="btn btn-primary">Sony</button>
+			</div>
+			<h3>Button Group X-Small</h3>
+			<p>Add class <code>.btn-group-*</code> to size all buttons in a button group.</p>
+			<div class="btn-group btn-group-xs" style="margin:5px 0 10px 0;">
+				<button type="button" class="btn btn-primary">Apple</button>
+				<button type="button" class="btn btn-primary">Samsung</button>
+				<button type="button" class="btn btn-primary">Sony</button>
+			</div>
+			<h3>Button Group Vertical</h3>
+			<p>Use the <code>.btn-group-vertical</code> class to create a vertical button group:</p>
+			<div class="btn-group btn-group-vertical" style="margin:5px 0 10px 0;">
+				<button type="button" class="btn btn-primary">Apple</button>
+				<button type="button" class="btn btn-primary">Samsung</button>
+				<button type="button" class="btn btn-primary">Sony</button>
+			</div>
+
+			<h3>Nesting Button Groups</h3>
+			<p>Nest button groups to create drop down menus:</p>
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary">Apple</button>
+				<button type="button" class="btn btn-primary">Samsung</button>
+				<div class="btn-group">
+					<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Sony <span class="caret"></span></button>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Tablet</a></li>
+						<li><a href="#">Smartphone</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<h3>Split Buttons</h3>
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary">Sony</button>
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="#">Tablet</a></li>
+					<li><a href="#">Smartphone</a></li>
+				</ul>
+			</div>
+
+			<h3>Justified Button Groups</h3>
+			<p>To span the entire width of the screen, use the <code>.btn-group-justified</code> class:</p>
+			<div class="btn-group btn-group-justified">
+				<a href="#" class="btn btn-primary">Apple</a>
+				<a href="#" class="btn btn-primary">Samsung</a>
+				<a href="#" class="btn btn-primary">Sony</a>
+			</div>
+
+			<h2>Button Methods</h2>
+			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#buttons">https://getbootstrap.com/docs/3.3/javascript/#buttons</a></p>
+
+			<h2>CSS Customized Buttons</h2>
+			<h3>Remove Rounded Borders</h3>
+			<p>
+				<code>
+				.btn-non-rounded {
+					border-radius: 0;
+				}</code>
+			</p>
+			<button type="button" class="btn btn-success">Rounded corners</button>
+			<button type="button" class="btn btn-non-rounded">No rounded corners</button>
+
+			<h3>Custom Color</h3>
+			<p>
+				<code>
+				.btn-custom-color {
+      				background: #000;
+     				color: #fff;
+				}</code>
+			</p>
+			<button type="button" class="btn btn-custom-color">Button</button>
+			
+			<h3>Custom Button Shadow</h3>
+			<p>
+				<code>
+				.btn-default {
+					box-shadow: 1px 2px 5px #000000; 
+				}</code>
+			</p>
+			<button type="button" class="btn btn-shadow">Button</button>
+
+			<hr>
+			
+		</div>
+		<script>
+		$(document).ready(function(){
+			$(".btn-toggle").click(function(){
+				$(this).button('toggle');
+			});   
+		});
+		</script>
+
+	</body>
+</html>
