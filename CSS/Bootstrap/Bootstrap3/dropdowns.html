@@ -33,7 +33,7 @@
 			<p>To open the dropdown menu, use a button or a link with a class of <code>.dropdown-toggle</code> and the <code>data-toggle="dropdown"</code> attribute. The <code>.caret</code> class creates a caret arrow icon (<span class="caret"></span>), which indicates that the button is a dropdown. Add the <code>.dropdown-menu</code> class to a <code>&lt;ul&gt;</code> element to actually build the dropdown menu.</p>
 			
 			<div class="dropdown">
-				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown
+				<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dropdown
 					<span class="caret"></span>
 				</button>
 				<ul class="dropdown-menu">
@@ -41,10 +41,10 @@
 					<li><a href="#">Bb</a></li>
 					<li><a href="#">Cc</a></li>
 				</ul>
-			</div>	
+			</div>
 
 			<h2>Multi-Level Dropdowns (Vertical Opening)</h2>
-			<p>(see script section).</p>                             
+			<p>(see script)</p>
 			<div class="dropdown">
 				<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Parent
 					<span class="caret"></span>
@@ -53,15 +53,15 @@
 					<li><a tabindex="-1" href="#">Child 1</a></li>
 					<li><a tabindex="-1" href="#">Child 2</a></li>
 					<li>
-						<a class="vertical-test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+						<a class="vertical-test" tabindex="-1" href="#">Child dropdown <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-							<li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+							<li><a tabindex="-1" href="#">Grandchild 1</a></li>
+							<li><a tabindex="-1" href="#">Grandchild 2</a></li>
 							<li>
-								<a class="vertical-test" href="#">Another dropdown <span class="caret"></span></a>
+								<a class="vertical-test" href="#">Grandchild dropdown <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">3rd level dropdown</a></li>
-									<li><a href="#">3rd level dropdown</a></li>
+									<li><a href="#">Great Grandchild 1</a></li>
+									<li><a href="#">Great Grandchild 2</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -70,7 +70,7 @@
 			</div>
 
 			<h2>Multi-Level Dropdowns (Horizontal Opening)</h2>
-			<p>(see script and style sections).</p>                             
+			<p>(see script and styles)</p>
 			<div class="dropdown">
 				<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Parent
 					<span class="caret"></span>
@@ -79,15 +79,15 @@
 					<li><a tabindex="-1" href="#">Child 1</a></li>
 					<li><a tabindex="-1" href="#">Child 2</a></li>
 					<li class="dropdown-submenu">
-						<a class="horizonal-test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+						<a class="horizonal-test" tabindex="-1" href="#">Child dropdown <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-							<li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+							<li><a tabindex="-1" href="#">Grandchild 1</a></li>
+							<li><a tabindex="-1" href="#">Grandchild 2</a></li>
 							<li class="dropdown-submenu">
-								<a class="horizonal-test" href="#">Another dropdown <span class="caret"></span></a>
+								<a class="horizonal-test" href="#">Grandchild dropdown <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">3rd level dropdown</a></li>
-									<li><a href="#">3rd level dropdown</a></li>
+									<li><a href="#">Great Grandchild 1</a></li>
+									<li><a href="#">Great Grandchild 2</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -108,11 +108,10 @@
 					<li class="divider"></li>
 					<li><a href="#">Dd</a></li>
 				</ul>
-			</div>	
+			</div>
 
 			<h2>Dropdown Header</h2>
 			<p>The <code>.dropdown-header</code> class is used to add headers inside the dropdown menu:</p>
-
 			<div class="dropdown">
 				<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dropdown
 					<span class="caret"></span>
@@ -129,7 +128,8 @@
 			</div>
 
 			<h2>Disable and Active items</h2>
-			<p>Highlight a specific dropdown item with the <code>.active</code> class (adds a blue background color). To disable an item in the dropdown menu, use the <code>.disabled</code> class (gets a light-grey text color and a "no-parking-sign" icon on hover):</p>
+			<p>The <code>.active</code> class adds a blue background color to the active link.</p>
+			<p>The <code>.disabled</code> class disables a dropdown item (grey text color and a no-parking-sign on hover).</p>
 			<div class="dropdown">
 				<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dropdown
 					<span class="caret"></span>
@@ -158,8 +158,7 @@
 			</div>
 
 			<h2>Dropup</h2>
-			<p>If you want the dropdown menu to expand upwards instead of downwards, change the <code>&lt;div&gt;</code> element with <code>class="dropdown"</code> to <code>"dropup"</code>:
-
+			<p>The <code>.dropup</code> class makes the dropdown menu expand upwards instead of downwards:</p>s
 			<div class="dropup">
 				<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dropup
 					<span class="caret"></span>
@@ -190,9 +189,9 @@
 
 			<h2>Dropdown Methods</h2>
 			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#dropdowns">https://getbootstrap.com/docs/3.3/javascript/#dropdowns</a></p>
-			
+
 			<hr>
-			 
+			
 		</div>
 
 		<script>
