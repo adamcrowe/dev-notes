@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 4 Cards</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap-4.0.0.css">
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/bootstrap-4.0.0.bundle.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1 class="display-4">Bootstrap 4 Cards</h1>
+			<p>A card in Bootstrap 4 is a bordered box with some padding around its content</p>
+			<p>Cards replace Bootstrap 3 panels, wells, and thumbnails.</p>
+		</div>
+		<div class="container">
+			<h2>Basic Card</h2>
+			<p>A basic card is created with the <code>.card</code> class, and content inside the card has a <code>.card-body</code> class:</p>
+			<div class="card">
+				<div class="card-body">Basic card</div>
+			</div>
+
+			<hr>
+			
+			<h2>Card Header and Footer</h2>
+			<p>The <code>.card-header</code> class adds a heading to the card and the <code>.card-footer</code> class adds a footer to the card:</p>
+
+			<div class="card">
+				<div class="card-header">Header</div>
+				<div class="card-body">Content</div> 
+				<div class="card-footer">Footer</div>
+			</div>
+
+			<hr>
+
+			<h2>Titles, Text, and Links</h2>
+			<p>Use <code>.card-title</code> to add card titles to any heading element. The <code>.card-text</code> class is used to remove bottom margins for a &lt;p&gt; element if it is the last child in the card-block. The <code>.card-link</code> class adds a blue color to any link, and a hover effect.
+
+			<div class="card">
+				<div class="card-body">
+					<h4 class="card-title">Card Title</h4>
+					<p class="card-text">Card text</p>
+					<a href="#" class="card-link">Card link</a>
+					<a href="#" class="card-link">Card link</a>
+				</div>
+			</div>	
+			
+			<hr>
+
+			<h2>Card Images</h2>
+			<p>Add <code>.card-img-top</code> or <code>.card-img-bottom</code> to an &lt;img&gt; to place it at the top or at the bottom inside the card. The image has been added outside of the <code>.card-body</code> div to span the entire width:</p>
+
+			<div class="card" style="width:400px">
+				<img class="card-img-top" src="images/img_avatar1.png" alt="Card image">
+				<div class="card-body">
+					<h4 class="card-title">John Doe</h4>
+					<p class="card-text">Some example text.</p>
+					<a href="#" class="btn btn-primary">See Profile</a>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="card" style="width:400px">				
+				<div class="card-body">
+					<h4 class="card-title">Jane Doe</h4>
+					<p class="card-text">Some example text.</p>
+					<a href="#" class="btn btn-primary">See Profile</a>
+				</div>
+				<img class="card-img-bottom" src="images/img_avatar5.png" alt="Card image">
+			</div>
+
+			<hr>
+
+			<h2>Card Image Overlays</h2>
+			<p>Turn an image into a card background and use <code>.card-img-overlay</code> to add text on top of the image:</p>
+			<div class="card" style="width:500px">
+				<img class="card-img-top" src="images/img_avatar1.png" alt="Card image">
+				<div class="card-img-overlay">
+					<h4 class="card-title">John Doe</h4>
+					<p class="card-text">Some example text.</p>
+					<a href="#" class="btn btn-primary">See Profile</a>
+				</div>
+			</div>
+
+			<hr>
+			
+		</div>
+	</body>
+</html>	
+
