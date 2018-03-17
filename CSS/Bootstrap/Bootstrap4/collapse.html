@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 4 Collapse</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap-4.0.0.css">
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/bootstrap-4.0.0.bundle.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1 class="display-4">Bootstrap 4 Collapse</h1>
+			<p>Collapsibles are useful when you want to hide and show large amount of content</p>
+		</div>
+
+		<div class="container">
+			<h2>Simple Collapsibles</h2>
+			<p>
+				<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Button with data-target</button>
+			</p>
+			<div id="demo" class="collapse">
+				<div class="card card-body">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</div>
+			</div>
+
+			<hr>
+
+			<p>
+				<a href="#demo2" class="btn btn-primary" data-toggle="collapse">Link with href</a>
+			</p>			
+			<div id="demo2" class="collapse">
+				<div class="card card-body">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</div>
+			</div>	
+			
+			<hr> 
+
+			<h3>Show by Default</h3>
+			<p>By default, the collapsible content is hidden. However, you can add the <code>.show</code> class to show the content by default:</p>
+
+			<p>
+				<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo3">Collapse</button>
+			</p>	
+			<div id="demo3" class="collapse show">
+				<div class="card card-body">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</div>
+			</div>	
+
+			<hr>
+
+			<h2>Multiple Targets</h2>
+			<p>A <code>&lt;button&gt;</code> or <code>&lt;a&gt;</code> can show and hide multiple elements by referencing them with a JQuery selector in its href or data-target attribute. Multiple <code>&lt;button&gt;</code> or <code>&lt;a&gt;</code> can show and hide an element if they each reference it with their href or data-target attribute:</p>
+
+			<p>
+				<a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+			</p>
+			<div class="row">
+				<div class="col">
+					<div class="collapse multi-collapse" id="multiCollapseExample1">
+						<div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="collapse multi-collapse" id="multiCollapseExample2">
+						<div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<h2>Collapsible List Group</h2>
+			<div class="card">
+				<div class="card-header">
+					<h4>
+						<a class="card-link" data-toggle="collapse" href="#collapse2">Collapsible list group</a>
+					</h4>	
+				</div>
+				<div id="collapse2" class="collapse">
+					<ul class="list-group">
+						<li class="list-group-item">One</li>
+						<li class="list-group-item">Two</li>
+						<li class="list-group-item">Three</li>
+					</ul>
+					<div class="card-footer">Footer</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<h2>Accordion</h2>
+			<p>Using the <code>card</code> component, you can extend the default collapse behavior to create an accordion.</p>
+			<p>Use the <code>data-parent</code> attribute to make sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+
+			<div id="accordion">
+				<div class="card">
+					<div class="card-header">
+						<a class="card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+							Collapsible Group Item #1
+						</a>
+					</div>
+					<div id="collapseOne" class="collapse show">
+						<div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+        					Collapsible Group Item #2
+						</a>
+					</div>
+					<div id="collapseTwo" class="collapse">
+						<div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+							Collapsible Group Item #3
+						</a>
+					</div>
+					<div id="collapseThree" class="collapse">
+						<div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<h2>Collapse Methods</h2>
+			<p>See: <a href="https://getbootstrap.com/docs/4.0/components/collapse/">https://getbootstrap.com/docs/4.0/components/collapse/</a></p>
+			
+			<hr>
+
+		</div>
+	</body>
+</html>

@@ -9,31 +9,31 @@
 		<script src="js/bootstrap-3.3.7.js"></script>
 
 		<style>
-		/* Custom Tooltip */
-		/* Tooltip */
-		.test + .tooltip > .tooltip-inner {
-			background-color: #73AD21;
-			color: #FFFFFF; 
-			border: 1px solid green;
-			padding: 15px;
-			font-size: 20px;
-		}
-		/* Tooltip on top */
-		.test + .tooltip.top > .tooltip-arrow {
-			border-top: 5px solid green;
-		}
-		/* Tooltip on bottom */
-		.test + .tooltip.bottom > .tooltip-arrow {
-			border-bottom: 5px solid blue;
-		}
-		/* Tooltip on left */
-		.test + .tooltip.left > .tooltip-arrow {
-			border-left: 5px solid red;
-		}
-		/* Tooltip on right */
-		.test + .tooltip.right > .tooltip-arrow {
-			border-right: 5px solid black;
-		}
+			/* Custom Tooltip */
+			/* Tooltip */
+			.test + .tooltip > .tooltip-inner {
+				background-color: #73AD21;
+				color: #FFFFFF; 
+				border: 1px solid green;
+				padding: 15px;
+				font-size: 20px;
+			}
+			/* Tooltip on top */
+			.test + .tooltip.top > .tooltip-arrow {
+				border-top: 5px solid green;
+			}
+			/* Tooltip on bottom */
+			.test + .tooltip.bottom > .tooltip-arrow {
+				border-bottom: 5px solid blue;
+			}
+			/* Tooltip on left */
+			.test + .tooltip.left > .tooltip-arrow {
+				border-left: 5px solid red;
+			}
+			/* Tooltip on right */
+			.test + .tooltip.right > .tooltip-arrow {
+				border-right: 5px solid black;
+			}
 		</style>
 	</head>
 	<body>
@@ -41,10 +41,13 @@
 			<h1>Bootstrap 3 Tooltips</h1>
 			<p>The Tooltip is small pop-up box that appears when the user moves the mouse pointer over an element</p>
 		</div>
+		
 		<div class="container">
 			<div class="alert alert-info">
 				<strong>Tip</strong>: Plugins can be included individually (using Bootstrap's individual "tooltip.js" file), or all at once (using "bootstrap.js" or "bootstrap.min.js").
 			</div>
+
+			<hr>
 
 			<h2>Tooltip</h2>
 			<p>Add the <code>data-toggle="tooltip"</code> attribute to an element.</p>
@@ -87,8 +90,12 @@
 				</code>
 			</div>
 
+			<hr>
+
 			<h2>Tooltip Options</h2>
 			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#tooltips">https://getbootstrap.com/docs/3.3/javascript/#tooltips</a></p>
+
+			<hr>
 			
 			<h3>Animation</h3>
 			<p>The <strong>animation</strong> option (default: true) specifies whether to add a CSS fade transition effect to the tooltip.</p>
@@ -97,11 +104,15 @@
 				<button class="btn btn-warning btn-md">Hover over me (animation: false)</button>
 			</div>
 
+			<hr>
+
 			<h3>Container</h3>
 			<p>The <strong>container</strong> option (default: false) appends the tooltip to a specific element.</p>
 			<div class="parent">
 				<button class="btn btn-primary btn-lg">Hover over me</button>
 			</div>
+
+			<hr>
 
 			<h3>Delay</h3>
 			<p>The <strong>delay</strong> option (default: 0) specifies the number of milliseconds it will take to show and hide the popover.</p>
@@ -111,10 +122,14 @@
 			<p>This tooltip will take 500 milliseconds to show when you hover over it, and 100 ms to hide on mouse leave.</p>
 			<button class="btn btn-default btn-md">Hover over me (500ms)</button>
 
+			<hr>
+
 			<h3>HTML</h3>
 			<p>The <strong>html</strong> option (default: false) specifies whether to accept HTML tags in the tooltip.</p>
 			<p>When set to false (default), jQuery's <code>text()</code> method will be used. Use this if you are worried about XSS attacks.</p>
 			<button class="btn btn-success btn-sm">Hover over me</button>
+
+			<hr>
 
 			<h3>Template</h3>
 			<p>Base HTML to use when creating the tooltip. The tooltip's title will be inserted into the element having the class <code>.tooltip-inner</code> and the element with the class <code>.tooltip-arrow</code> will become the tooltip's arrow. The outermost wrapper element should have the <code>.tooltip</code> class.</p>
@@ -127,6 +142,8 @@
 					&lt;/div&gt;<br>
 				</code>
 			</div>
+
+			<hr>
 
 			<h3>Positioning</h3>
 			<p>The <strong>placement</strong> option (default: "top") specifies the tooltip position.</p>
@@ -141,9 +158,13 @@
 				<p><strong>Tip</strong>: You can also use the <code>data-placement</code> attribute with a value of "auto", which will let the browser decide the position of the tooltip. For example, if the value is "auto left", the tooltip will display on the left side when possible, otherwise on the right.</p>
 			</div>
 
+			<hr>
+
 			<h3>Title</h3>
 			<p>The <strong>title</strong> option (default: "") specifies the text that should be displayed inside the tooltip.</p>
 			<button class="btn btn-success btn-lg">Hover over me</button>
+
+			<hr>
 
 			<h3>Trigger</h3>
 			<p>The <strong>trigger</strong> option (default: "hover focus") specifies how the tooltip is triggered.</p>
@@ -162,10 +183,14 @@
 				<button class="btn btn-info btn-xs">Manual (cannot be combined with any other trigger)</button>
 			</div>
 
+			<hr>
+
 			<h3>Viewport</h3>
 			<p>Keeps the tooltip within the bounds of this element (default: {selector: "body", padding: 0}). 
 			<p>Example: viewport: '#viewport' or {selector: '#viewport', padding: 0}</p>
 			<p>If a function is given, it is called with the triggering element DOM node as its only argument. The <code>this</code> context is set to the tooltip instance.</p>
+
+			<hr>
 
 			<h2>Tooltip Methods</h2>
 			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#tooltips">https://getbootstrap.com/docs/3.3/javascript/#tooltips</a></p>
@@ -181,6 +206,8 @@
 			<button type="button" id="btnToggle1" class="btn btn-default btn-lg">Toggle</button>
 			<button type="button" id="btnDestroy1" class="btn btn-danger btn-lg">Destroy</button>
 
+			<hr>
+
 			<h2>Tooltip Events</h2>
 			<p><a href="#" data-toggle="tooltipB" title="Hooray!">Tooltip will show here</a></p>	
 			<p>The <strong>show.bs.tooltip</strong> event occurs when the tooltip is about to be shown.</p>
@@ -191,6 +218,8 @@
 			<button type="button" id="btnHide2" class="btn btn-info btn-lg">Hide</button>
 			<button type="button" id="btnToggle2" class="btn btn-default btn-lg">Toggle</button>
 			<button type="button" id="btnDestroy2" class="btn btn-danger btn-lg">Destroy</button>
+
+			<hr>
 
 			<h2>Custom Hover Tooltips</h2>
 			<ul class="list-inline">
@@ -205,66 +234,66 @@
 		</div>
 
 		<script>
-		$(document).ready(function(){
-			$('[data-toggle="tooltip"]').tooltip(); 
-			$('.btn-success.btn-lg').tooltip({title: "Title goes here!"});
-			
-			$('.btn-success.btn-md').tooltip({title: "Hooray!", animation: true}); 
-			$('.btn-warning.btn-md').tooltip({title: "Hooray!", animation: false});
-			
-			$('.btn-primary.btn-sm').tooltip({title: "Hooray!", container: ".parent"});
-			
-			$('.btn-info.btn-md').tooltip({title: "Hooray!", delay: 1000}); 
-			$('.btn-default.btn-md').tooltip({title: "Hooray!", delay: {show: 500, hide: 100}}); 
-			
-			$('.btn-success.btn-sm').tooltip({title: "<h1><strong>HTML</strong> inside <code>the</code> <em>tooltip</em></h1>", html: true, placement: "bottom"}); 
-			
-			$('.btn-success.btn-xs').tooltip({title: "Hooray!", trigger: "click"}); 
-			$('.btn-warning.btn-xs').tooltip({title: "Hooray!", trigger: "hover"}); 
-			$('.btn-danger.btn-xs').tooltip({title: "Hooray!", trigger: "focus"}); 
-			$('.btn-info.btn-xs').tooltip({title: "Hooray!", trigger: "manual"});
-			
-			$('#btnShow1').click(function(){
-				$("[data-toggle='tooltipA']").tooltip('show');
-			});
-			$('#btnHide1').click(function(){
-				$("[data-toggle='tooltipA']").tooltip('hide');
-			});
-			$('#btnToggle1').click(function(){
-				$("[data-toggle='tooltipA']").tooltip('toggle');
-			});
-			$("#btnDestroy1").click(function(){
-				$("[data-toggle='tooltipA']").tooltip('destroy');
-			});
+			$(document).ready(function(){
+				$('[data-toggle="tooltip"]').tooltip(); 
+				$('.btn-success.btn-lg').tooltip({title: "Title goes here!"});
+				
+				$('.btn-success.btn-md').tooltip({title: "Hooray!", animation: true}); 
+				$('.btn-warning.btn-md').tooltip({title: "Hooray!", animation: false});
+				
+				$('.btn-primary.btn-sm').tooltip({title: "Hooray!", container: ".parent"});
+				
+				$('.btn-info.btn-md').tooltip({title: "Hooray!", delay: 1000}); 
+				$('.btn-default.btn-md').tooltip({title: "Hooray!", delay: {show: 500, hide: 100}}); 
+				
+				$('.btn-success.btn-sm').tooltip({title: "<h1><strong>HTML</strong> inside <code>the</code> <em>tooltip</em></h1>", html: true, placement: "bottom"}); 
+				
+				$('.btn-success.btn-xs').tooltip({title: "Hooray!", trigger: "click"}); 
+				$('.btn-warning.btn-xs').tooltip({title: "Hooray!", trigger: "hover"}); 
+				$('.btn-danger.btn-xs').tooltip({title: "Hooray!", trigger: "focus"}); 
+				$('.btn-info.btn-xs').tooltip({title: "Hooray!", trigger: "manual"});
+				
+				$('#btnShow1').click(function(){
+					$("[data-toggle='tooltipA']").tooltip('show');
+				});
+				$('#btnHide1').click(function(){
+					$("[data-toggle='tooltipA']").tooltip('hide');
+				});
+				$('#btnToggle1').click(function(){
+					$("[data-toggle='tooltipA']").tooltip('toggle');
+				});
+				$("#btnDestroy1").click(function(){
+					$("[data-toggle='tooltipA']").tooltip('destroy');
+				});
 
-			$('#btnShow2').click(function(){
-				$("[data-toggle='tooltipB']").tooltip('show');
-			});
-			$('#btnHide2').click(function(){
-				$("[data-toggle='tooltipB']").tooltip('hide');
-			});
-			$('#btnToggle2').click(function(){
-				$("[data-toggle='tooltipB']").tooltip('toggle');
-			});
-			$("#btnDestroy2").click(function(){
-				$("[data-toggle='tooltipB']").tooltip('destroy');
-			}); 
+				$('#btnShow2').click(function(){
+					$("[data-toggle='tooltipB']").tooltip('show');
+				});
+				$('#btnHide2').click(function(){
+					$("[data-toggle='tooltipB']").tooltip('hide');
+				});
+				$('#btnToggle2').click(function(){
+					$("[data-toggle='tooltipB']").tooltip('toggle');
+				});
+				$("#btnDestroy2").click(function(){
+					$("[data-toggle='tooltipB']").tooltip('destroy');
+				}); 
 
-			$("[data-toggle='tooltipB']").on('show.bs.tooltip', function(){
-				alert('The tooltip is about to be shown.');
-			});
-			$("[data-toggle='tooltipB']").on('shown.bs.tooltip', function(){
-				alert('The tooltip is now fully shown.');
-			});
-			$("[data-toggle='tooltipB']").on('hide.bs.tooltip', function(){
-				alert('The tooltip is about to be hidden.');
-			});
-			$("[data-toggle='tooltipB']").on('hidden.bs.tooltip', function(){
-				alert('The tooltip is now hidden.');
-			});
+				$("[data-toggle='tooltipB']").on('show.bs.tooltip', function(){
+					alert('The tooltip is about to be shown.');
+				});
+				$("[data-toggle='tooltipB']").on('shown.bs.tooltip', function(){
+					alert('The tooltip is now fully shown.');
+				});
+				$("[data-toggle='tooltipB']").on('hide.bs.tooltip', function(){
+					alert('The tooltip is about to be hidden.');
+				});
+				$("[data-toggle='tooltipB']").on('hidden.bs.tooltip', function(){
+					alert('The tooltip is now hidden.');
+				});
 
-			$('[data-toggle="tooltipC"]').tooltip();
-		});
+				$('[data-toggle="tooltipC"]').tooltip();
+			});
 		</script>
 	</body>
 </html>

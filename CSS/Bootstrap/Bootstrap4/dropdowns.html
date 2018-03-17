@@ -13,6 +13,7 @@
 			<h1 class="display-4">Bootstrap 4 Dropdowns</h1>
 			<p>A dropdown menu is a toggleable menu that allows the user to choose one value from a predefined list</p>
 		</div>
+		
 		<div class="container">
 			<h2>Basic Dropdown</h2>
 			<p>Use a button or a link with a class of <code>.dropdown-toggle</code> and the <code>data-toggle="dropdown"</code> attribute. The <code>.caret</code> class creates a caret arrow icon (<span class="caret"></span>), which indicates that the button is a dropdown. Add the <code>.dropdown-menu</code> class to a <code>&lt;ul&gt;</code> element to actually build the dropdown menu. Add the <code>.dropdown-item</code> class to each menu item.</p>
@@ -360,13 +361,13 @@
 		</div>
 
 		<script>
-		$(document).ready(function(){
-			$('.dropdown-menu a.multiple-test').on("click", function(e){
-				$(this).next('ul').toggle();
-				e.stopPropagation();
-				e.preventDefault();
+			$(document).ready(function(){
+				$('.dropdown-menu a.multiple-test').on("click", function(e){
+					$(this).next('ul').toggle();
+					e.stopPropagation();
+					e.preventDefault();
+				});
 			});
-		});
 		</script>
 	</body>
 </html>

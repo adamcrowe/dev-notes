@@ -13,10 +13,13 @@
 			<h1>Bootstrap 3 Alerts</h1>
 			<p>Bootstrap provides an easy way to create predefined alert messages.</p>
 		</div>
+		
 		<div class="container">
 			<div class="alert alert-info">
 				<strong>Tip</strong>: Plugins can be included individually (using Bootstrap's individual "alert.js" file), or all at once (using "bootstrap.js" or "bootstrap.min.js").
 			</div>
+
+			<hr>
 
 			<h2>Alerts</h2>
 			<div class="alert alert-success">
@@ -32,6 +35,8 @@
 				<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
 			</div>
 
+			<hr>
+
 			<h2>Alert Links</h2>
 			<p>Add the <code>.alert-link</code> class to any links inside the alert box to create "matching colored links".</p>
 			<div class="alert alert-success">
@@ -46,6 +51,8 @@
 			<div class="alert alert-danger">
 				<strong>Danger!</strong> You should <a href="#" class="alert-link">read this message</a>.
 			</div>
+
+			<hr>
 
 			<h2>Alerts Close Button</h2>
 			<p>The <code>&lt;a&gt;</code> element with <code>class="close"</code> and <code>data-dismiss="alert"</code> is used to close the alert box.</p>
@@ -68,6 +75,8 @@
 				<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
 			</div>
 
+			<hr>
+
 			<h2>Alerts Close Button Animated Fade</h2>
 			<p>The <code>.fade</code> and <code>.in</code> classes adds a fading effect when closing the alert message.</p>
 			<div class="alert alert-success alert-dismissable fade in">
@@ -87,6 +96,8 @@
 				<strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
 			</div>
 
+			<hr>
+
 			<h2>Alert Dialog</h2>
 			<div class="alert alert-danger alert-dismissible fade in" role="alert">
 				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -100,12 +111,16 @@
 				</p>
 			</div>
 
+			<hr>
+
 			<h2>Close Alerts Via JavaScript</h2>
 			<p>Close alerts manually with: <code>$('.close').alert();</code></p>
 			<div class="alert alert-success alert-dismissible" id="jsAlert">
 				<a href="#" class="close">&times;</a>
 				<strong>Success!</strong> This alert box could indicate a successful or positive action.
 			</div>
+
+			<hr>
 
 			<h2>Alert Methods</h2>
 			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#alerts">https://getbootstrap.com/docs/3.3/javascript/#alerts</a></p>
@@ -115,12 +130,11 @@
 		</div>
 
 		<script>
-		$(document).ready(function(){
-			$(".close").click(function(){
-       			$("#jsAlert").alert("close");
+			$(document).ready(function(){
+				$(".close").click(function(){
+					$("#jsAlert").alert("close");
+				});
 			});
-		});
 		</script>
 	</body>
-</html>	
-
+</html>

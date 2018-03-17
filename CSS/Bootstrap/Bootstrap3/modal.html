@@ -9,15 +9,15 @@
 		<script src="js/bootstrap-3.3.7.js"></script>
 
 		<style>
-		.modal-header, h4, .close {
-			background-color: #5cb85c;
-			color:white !important;
-			text-align: center;
-			font-size: 30px;
-		}
-		.modal-footer {
-			background-color: #f9f9f9;
-		}
+			.modal-header, h4, .close {
+				background-color: #5cb85c;
+				color:white !important;
+				text-align: center;
+				font-size: 30px;
+			}
+			.modal-footer {
+				background-color: #f9f9f9;
+			}
 		</style>
 
 	</head>
@@ -26,10 +26,13 @@
 			<h1>Bootstrap 3 Modal</h1>
 			<p>A Modal is a dialog box/popup window that is displayed on top of the current page</p>
 		</div>
+		
 		<div class="container">
 			<div class="alert alert-info">
 				<strong>Tip</strong>: Plugins can be included individually (using Bootstrap's individual "modal.js" file), or all at once (using "bootstrap.js" or "bootstrap.min.js").
 			</div>
+
+			<hr>
 
 			<h2>Basic Modal (using <code>data-toggle="modal"</code>)</h2>
 			<!-- Trigger the modal with a button -->
@@ -54,8 +57,12 @@
 				</div>
 			</div>
 
+			<hr>
+
 			<h2>Modal Size (default is medium)</h2>
 			<p>Change the size of the modal by using the <code>.modal-sm</code> or <code>.modal-lg</code> classes:</p>
+
+			<hr>
 
 			<h3>Small Modal (using <code>data-toggle="modal"</code>)</h3>
 			<!-- Trigger the modal with a button -->
@@ -79,6 +86,8 @@
 				</div>
 			</div>
 
+			<hr>
+
 			<h3>Large Modal (using <code>data-toggle="modal"</code>)</h3>
 			<!-- Trigger the modal with a button -->
 			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalLarge">Open Large Modal</button>
@@ -100,6 +109,8 @@
 					</div>
 				</div>
 			</div>
+
+			<hr>
 
 			<h2>Modal Login (using JS)</h2>
 			<!-- Trigger the modal with a button -->
@@ -140,6 +151,8 @@
 				</div>
 			</div>
 
+			<hr>
+
 			<h2>Modal Methods</h2>
 			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#modals">https://getbootstrap.com/docs/3.3/javascript/#modals</p>
 
@@ -148,11 +161,11 @@
 		</div>
 
 		<script>
-		$(document).ready(function(){
-    		$("#myLoginBtn").click(function(){
-        		$("#myLoginModal").modal();
-    		});
-		});
+			$(document).ready(function(){
+				$("#myLoginBtn").click(function(){
+					$("#myLoginModal").modal();
+				});
+			});
 		</script>
 	</body>
 </html>

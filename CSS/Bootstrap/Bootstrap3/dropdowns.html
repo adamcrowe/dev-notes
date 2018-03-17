@@ -24,10 +24,13 @@
 			<h1>Bootstrap 3 Dropdowns</h1>
 			<p>A dropdown menu is a toggleable menu that allows the user to choose one value from a predefined list</p>
 		</div>
+		
 		<div class="container">
 			<div class="alert alert-info">
 				<strong>Tip</strong>: Plugins can be included individually (using Bootstrap's individual "dropdown.js" file), or all at once (using "bootstrap.js" or "bootstrap.min.js").
 			</div>
+
+			<hr>
 
 			<h2>Basic Dropdown</h2>
 			<p>To open the dropdown menu, use a button or a link with a class of <code>.dropdown-toggle</code> and the <code>data-toggle="dropdown"</code> attribute. The <code>.caret</code> class creates a caret arrow icon (<span class="caret"></span>), which indicates that the button is a dropdown. Add the <code>.dropdown-menu</code> class to a <code>&lt;ul&gt;</code> element to actually build the dropdown menu.</p>
@@ -42,6 +45,8 @@
 					<li><a href="#">Cc</a></li>
 				</ul>
 			</div>
+
+			<hr>
 
 			<h2>Multi-Level Dropdowns (Vertical Opening)</h2>
 			<p>(see script)</p>
@@ -69,6 +74,8 @@
 				</ul>
 			</div>
 
+			<hr>
+
 			<h2>Multi-Level Dropdowns (Horizontal Opening)</h2>
 			<p>(see script and styles)</p>
 			<div class="dropdown">
@@ -95,6 +102,8 @@
 				</ul>
 			</div>
 
+			<hr>
+
 			<h2>Dropdown Divider</h2>
 			<p>The <code>.divider</code> class is used to separate links inside the dropdown menu with a thin horizontal border:</p>
 			<div class="dropdown">
@@ -109,6 +118,8 @@
 					<li><a href="#">Dd</a></li>
 				</ul>
 			</div>
+
+			<hr>
 
 			<h2>Dropdown Header</h2>
 			<p>The <code>.dropdown-header</code> class is used to add headers inside the dropdown menu:</p>
@@ -127,6 +138,8 @@
 				</ul>
 			</div>
 
+			<hr>
+
 			<h2>Disable and Active items</h2>
 			<p>The <code>.active</code> class adds a blue background color to the active link.</p>
 			<p>The <code>.disabled</code> class disables a dropdown item (grey text color and a no-parking-sign on hover).</p>
@@ -141,6 +154,8 @@
 					<li><a href="#">Normal</a></li>
 				</ul>
 			</div>
+
+			<hr>
 
 			<h2>Dropdown Position</h2>
 			<p>To right-align the dropdown, add the <code>.dropdown-menu-right</code> class to the element with <code>.dropdown-menu</code>:</p>
@@ -157,6 +172,8 @@
 				</ul>
 			</div>
 
+			<hr>
+
 			<h2>Dropup</h2>
 			<p>The <code>.dropup</code> class makes the dropdown menu expand upwards instead of downwards:</p>s
 			<div class="dropup">
@@ -171,6 +188,8 @@
 					<li><a href="#">Dd</a></li>
 				</ul>
 			</div>
+
+			<hr>
 
 			<h2>Dropdown Accessibility</h2>
 			<p>To help improve accessibility for people using screen readers, you should include the following <code>role</code> and <code>aria-*</code> attributes, when creating a dropdown menu:</p>
@@ -187,6 +206,8 @@
 				</ul>
 			</div>
 
+			<hr>
+
 			<h2>Dropdown Methods</h2>
 			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#dropdowns">https://getbootstrap.com/docs/3.3/javascript/#dropdowns</a></p>
 
@@ -195,19 +216,19 @@
 		</div>
 
 		<script>
-		$(document).ready(function(){
-			$('.dropdown-menu a.vertical-test').on("click", function(e){
-				$(this).next('ul').toggle();
-				e.stopPropagation();
-				e.preventDefault();
+			$(document).ready(function(){
+				$('.dropdown-menu a.vertical-test').on("click", function(e){
+					$(this).next('ul').toggle();
+					e.stopPropagation();
+					e.preventDefault();
+				});
+			
+				$('.dropdown-submenu a.horizonal-test').on("click", function(e){
+					$(this).next('ul').toggle();
+					e.stopPropagation();
+					e.preventDefault();
+				});
 			});
-		
-			$('.dropdown-submenu a.horizonal-test').on("click", function(e){
-				$(this).next('ul').toggle();
-				e.stopPropagation();
-				e.preventDefault();
-			});
-		});
 		</script>
 	</body>
 </html>

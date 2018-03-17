@@ -21,13 +21,13 @@
 			content: "\e080";
 		}
 		</style>
-
 	</head>
 	<body>
 		<div class="jumbotron text-center">
 			<h1>Bootstrap 3 Collapse</h1>
 			<p>Collapsibles are useful when you want to hide and show large amount of content</p>
 		</div>
+		
 		<div class="container">
 			<div class="alert alert-info">
 				<strong>Tip</strong>: Plugins can be included individually (using Bootstrap's individual "collapse.js" file), or all at once (using "bootstrap.js" or "bootstrap.min.js"). Plugin dependency: Collapse requires the transitions plugin to be included in your version of Bootstrap.
@@ -35,20 +35,22 @@
 
 			<h2>Simple Collapsibles</h2>
 
-			<h3><code>button</code></h3>
-			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+			<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Using a &lt;button&gt; element</button>
 			<div id="demo" class="collapse">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
 
-			<h3><code>&lt;a&gt;</code></h3>
-			<a href="#demo2" class="btn btn-info" data-toggle="collapse">Simple collapsible</a>
+			<hr>
+
+			<a href="#demo2" class="btn btn-primary" data-toggle="collapse">Using an &lt;a&gt; element</a>
 			<div id="demo2" class="collapse">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
 			
-			<p></p> 
+			<hr> 
 
 			<h3>Show by Default</h3>
 			<p>By default, the collapsible content is hidden. However, you can add the <code>.in</code> class to show the content by default:</p>
 			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo3">Simple collapsible</button>
 			<div id="demo3" class="collapse in">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+
+			<hr>
 
 			<h2>Expand and Collapse with Different Icons using JS</h2>
 			<button type="button" class="btn btn-success icons" data-toggle="collapse" data-target="#icons">
@@ -57,10 +59,14 @@
 			<div id="icons" class="collapse">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 			</div>
 
+			<hr>
+
 			<h2>Expand and Collapse with Different Icons using CSS</h2>
 			<button type="button" class="btn btn-success collapsed cssicon" data-toggle="collapse" data-target="#cssicon">Simple collapsible</button>
 			<div id="cssicon" class="collapse">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 			</div>
+
+			<hr>
 
 			<h2>Collapsible Panel</h2>
 			<div class="panel-group">
@@ -76,6 +82,8 @@
 					</div>
 				</div>
 			</div>
+
+			<hr>
 
 			<h2>Collapsible List Group</h2>
 			<div class="panel-group">
@@ -95,6 +103,8 @@
 					</div>
 				</div>
 			</div>
+
+			<hr>
 
 			<h2>Accordion</h2>
 			<p>Use the <code>data-parent</code> attribute to make sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
@@ -132,6 +142,8 @@
 				</div>	
 			</div>
 
+			<hr>
+
 			<h2>Collapse Methods</h2>
 			<p>See: <a href="https://getbootstrap.com/docs/3.3/javascript/#collapse">https://getbootstrap.com/docs/3.3/javascript/#collapse</a></p>
 			
@@ -140,14 +152,14 @@
 		</div>
 
 		<script>
-		$(document).ready(function(){
-			$("#icons").on("hide.bs.collapse", function(){
-				$(".btn.icons").html('<span class="glyphicon glyphicon-collapse-down"></span> Open');
+			$(document).ready(function(){
+				$("#icons").on("hide.bs.collapse", function(){
+					$(".btn.icons").html('<span class="glyphicon glyphicon-collapse-down"></span> Open');
+				});
+				$("#icons").on("show.bs.collapse", function(){
+					$(".btn.icons").html('<span class="glyphicon glyphicon-collapse-up"></span> Close');
+				});
 			});
-			$("#icons").on("show.bs.collapse", function(){
-				$(".btn.icons").html('<span class="glyphicon glyphicon-collapse-up"></span> Close');
-			});
-		});
 		</script>
 	</body>
 </html>
