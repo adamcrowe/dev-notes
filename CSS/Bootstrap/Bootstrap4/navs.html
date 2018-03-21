@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 4 Navs, Tabs &amp; Pills</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap-4.0.0.css">
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/bootstrap-4.0.0.bundle.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1 class="display-4">Bootstrap 4 Navs, Tabs &amp; Pills</h1>
+		</div>
+
+		<div class="container">
+			<h2>Navs</h2>
+			<hr>
+			<h3>Basic Horizontal Menu</h3>
+			<p>Use the <code>.nav</code> class to a &lt;ul&gt; element, followed by <code>.nav-item</code> for each &lt;li&gt; and add the <code>.nav-link</code> class to their links:
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+
+			<hr>
+
+			<h3>Aligned Navigation Menu</h3>
+			<p>Use the <code>.justify-content-center</code> class to center the nav, and the <code>.justify-content-end</code> class to right-align the nav:</p>
+			
+			<p>Left-aligned nav (default):</p>
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+  
+			<p class="text-center">Centered nav:</p>
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+    
+			<p class="text-right">Right-aligned nav:</p>
+			<ul class="nav justify-content-end">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+
+			<hr>
+
+			<h3>Vertical Navigation Menu</h3>
+			<p>Use the <code>.flex-column</code> class to create a vertical nav:</p>
+			<ul class="nav flex-column">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+
+			<hr>
+
+			<h2>Tabs</h2>
+			<hr>
+			<h3>Basic Tabs Menu</h3>
+			<p>Turn a nav menu into navigation tabs with the <code>.nav-tabs</code> class. Add the <code>.active</code> class to the active/current link:</p>
+			<ul class="nav nav-tabs">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Active</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+
+			<hr>
+
+			<h3>Tabs With Dropdown Menu</h3>
+			<ul class="nav nav-tabs">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Active</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Link 1</a>
+						<a class="dropdown-item" href="#">Link 2</a>
+						<a class="dropdown-item" href="#">Link 3</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+			
+			<hr>
+
+			<h3>Centered/Justified Tabs</h3>
+			<p>To center/justify the tabs and pills, use the <code>.nav-justified</code> class.</p>
+			<p>Note that on screens that are smaller than 768px, the list items are stacked (content will remain centered):</p>
+			<ul class="nav nav-tabs nav-justified">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Active</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Link 1</a>
+						<a class="dropdown-item" href="#">Link 2</a>
+						<a class="dropdown-item" href="#">Link 3</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+
+			<hr>
+
+			<h3>Toggleable/Dynamic Tabs</h3>
+			<p>To make the tabs toggleable, add the <code>data-toggle="tab"</code> attribute to each link. Then add a <code>.tab-pane</code> class with a unique ID for every tab and wrap them inside a &lt;div&gt; element with class <code>.tab-content</code>.</p>
+			<p>If you want the tabs to fade in and out when clicking on them, add the <code>.fade</code> class to <code>.tab-pane</code>:</p>
+
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+				</li>
+			</ul>
+
+			<!-- Tab panes -->
+			<div class="tab-content">
+				<div id="home" class="container tab-pane active"><br>
+					<h3>Home</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div id="menu1" class="container tab-pane fade"><br>
+					<h3>Menu 1</h3>
+					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div id="menu2" class="container tab-pane fade"><br>
+					<h3>Menu 2</h3>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+				</div>
+			</div>
+
+			<hr>
+
+			<h2>Pills</h2>
+			<hr>
+			<h3>Basic Pills Menu</h3>
+			<p>Turn a nav menu into navigation pills with the <code>.nav-pills</code> class:</p>
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Active</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+
+			<hr>
+
+			<h3>Vertical Pills</h3>
+			<p>Use the <code>.flex-column</code> class to create a vertical nav:</p>
+			<ul class="nav nav-pills flex-column">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Active</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+
+			<hr>
+
+			<h3>Vertical Pills in a Row</h3>
+			<p>The following example places the vertical pill menu inside the last column. So, on a large screen the menu will be displayed to the right. But on a small screen, the content will automatically adjust itself into a single-column layout:</p>
+			<div class="row">
+				<div class="col-md-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="col-md-3"> 
+					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="col-md-3"> 
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+				</div>
+				<div class="col-md-3">
+					<ul class="nav nav-pills flex-column">
+						<li class="nav-item">
+							<a class="nav-link active" href="#">Active</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#">Disabled</a>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix visible-lg"></div>
+			</div>
+
+			<hr>
+
+			<h3>Pills with Dropdown</h3>
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Active</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Link 1</a>
+						<a class="dropdown-item" href="#">Link 2</a>
+						<a class="dropdown-item" href="#">Link 3</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+
+			<hr>
+
+			<h3>Centered/Justified Pills</h3>
+			<p>To center/justify the tabs and pills, use the <code>.nav-justified</code> class.</p>
+			<p>Note that on screens that are smaller than 768px, the list items are stacked (content will remain centered):</p>
+			<ul class="nav nav-pills nav-justified">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Home</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Menu 1</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Link 1</a>
+						<a class="dropdown-item" href="#">Link 2</a>
+						<a class="dropdown-item" href="#">Link 3</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Menu 2</a>
+				</li>
+				<li class="nav-item">
+					<a  class="nav-link" href="#">Menu 3</a>
+				</li>
+			</ul>
+
+			<hr>
+
+			<h3>Toggleable/Dynamic Pills</h3>
+			<p>To make the tabs toggleable, add the <code>data-toggle="pill"</code> attribute to each link. Then add a <code>.tab-pane</code> class with a unique ID for every tab and wrap them inside a div element with class <code>.tab-content</code>.</p>
+			<!-- Nav pills -->
+			<ul class="nav nav-pills" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link active" data-toggle="pill" href="#home2">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#menuA">Menu A</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#menuB">Menu B</a>
+				</li>
+			</ul>
+
+			<!-- Tab panes -->
+			<div class="tab-content">
+				<div id="home2" class="container tab-pane active"><br>
+					<h3>Home</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div id="menuA" class="container tab-pane fade"><br>
+					<h3>Menu A</h3>
+ 					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div id="menuB" class="container tab-pane fade"><br>
+					<h3>Menu B</h3>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+				</div>
+			</div>
+
+			<hr>
+
+			<h2>Navs, Tabs &amp; Pills Methods</h2>
+			<p>See: <a href="https://getbootstrap.com/docs/4.0/components/navs/">https://getbootstrap.com/docs/4.0/components/navs/</a></p>
+
+			<hr>
+			
+		</div>
+	</body>
+</html>
