@@ -1,0 +1,2 @@
+> "A library is something that you call from your code, and a framework is something that calls your code."
+* [A Framework Author's Case Against Frameworks - "Patterns, not frameworks."](https://www.youtube.com/watch?v=k7n2xnOiWI8)

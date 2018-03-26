@@ -3,3 +3,5 @@
 * GitLab Workflow: <https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow>
 * Bracket Pair Colorizer: <https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer>
 * EditorConfig: (Maintain consistent coding styles between different editors and IDEs): <http://editorconfig.org>
+* Doc​Blockr: (Simplifies writing DocBlock comments): <https://pawelgrzybek.com/javascript-console-in-sublime-text>
+* JavaScript console in Sublime Text <https://pawelgrzybek.com/javascript-console-in-sublime-text/>

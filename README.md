@@ -14,6 +14,7 @@
 * [What Makes a Great Software Engineer?](https://faculty.washington.edu/ajko/papers/Li2015GreatEngineers.pdf), Personal Characteristics, Decision Making, Team Work, Product Design 
 * [What Makes a Good Programmer?](https://henrikwarne.com/2014/06/30/what-makes-a-good-programmer/): Problem Decomposition, Testing, Naming, Consistency, Learning
 * [Programmer Competency Matrix](http://sijinjoseph.com/programmer-competency-matrix/): Computer Science, Software Engineering, Programming, Experience, Knowledge
+* [The 6 Core Skills You Need to be Considered a Senior Developer](https://hackernoon.com/developers-edge-how-to-become-a-senior-developer-f1ec1738cf45): Technical Skills, Team Skills, Client/User Skills, Growth Skills, Community Skills
 
 ## Quotes
 

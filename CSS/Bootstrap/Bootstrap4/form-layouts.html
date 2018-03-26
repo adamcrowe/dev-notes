@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 4 Form Layouts</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap-4.0.0.css">
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/bootstrap-4.0.0.bundle.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1 class="display-4">Bootstrap 4 Form Layouts</h1>
+		</div>
+		
+		<div class="container">
+			<h2>Two Layouts</h2>
+			<p>Bootstrap provides two types of form layouts:</p>
+			<ul>
+				<li>Stacked (full-width) form</li>
+				<li>Inline form</li>
+			</ul>
+		
+			<hr>
+
+			<h3>Stacked Form (Default)</h3>
+			
+			<form action="/action_page.php">
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+				</div>
+				<div class="form-group">
+					<label for="pwd">Password:</label>
+					<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="checkbox" name="remember"> Remember me
+					</label>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+
+			<hr>
+
+			<h3>Inline Form</h3>
+			<p>Use the <code>.form-inline</code> class with <code>&lt;form&gt;</code> elements</p>
+			<p>Note: This only applies to forms within viewports that are at least 576px wide. On screens smaller than 576px, it will stack horizontally.</p>
+
+			<form class="form-inline" action="/action_page.php">
+				<label for="email">Email:</label>
+				<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+				<label for="pwd">Password:</label>
+				<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+				<div class="form-check">
+					<label class="form-check-label">
+						<input class="form-check-input" type="checkbox" name="remember"> Remember me
+					</label>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+
+			<hr>
+
+			<h3>Inline Form (hidden labels)</h3>
+			<p>If you don't include a label for every input, screen readers will have trouble with the form. You can hide the labels for all devices, except screen readers, by using the <code>.sr-only</code> class:</p>
+
+			<form class="form-inline" action="/action_page.php">
+				<div class="form-group">
+					<label class="sr-only" for="email">Email:</label>
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+				</div>
+				<div class="form-group">
+					<label class="sr-only" for="pwd">Password:</label>
+					<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+				</div>
+				<div class="checkbox">
+					<label><input type="checkbox" name="remember"> Remember me</label>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+
+			<hr>
+			
+		</div>
+	</body>
+</html>

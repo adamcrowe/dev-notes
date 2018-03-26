@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 4 Form Inputs</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap-4.0.0.css">
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/bootstrap-4.0.0.bundle.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1 class="display-4">Bootstrap 4 Form Inputs</h1>
+		</div>
+		
+		<div class="container">
+			<h2>Form Validation Styles</h2>
+			<p>See: <a href="https://getbootstrap.com/docs/4.0/components/forms/">https://getbootstrap.com/docs/4.0/components/forms/</a></p>	
+
+			<hr>
+
+			<h2>Supported Form Controls</h2>
+			<p>Bootstrap supports the following form controls:</p>
+			<ul>
+				<li>input
+					<ul>
+						<li>text</li>
+						<li>password</li>
+						<li>datetime (depreciated)</li>
+						<li>datetime-local</li>
+						<li>date</li>
+						<li>month</li>
+						<li>time</li>
+						<li>week</li>
+						<li>number</li>
+						<li>email</li>
+						<li>url</li>
+						<li>search</li>
+						<li>tel</li>
+						<li>color</li>
+					</ul>	
+				</li>
+				<li>textarea</li>
+				<li>checkbox</li>
+				<li>radio</li>
+				<li>select</li>
+			</ul>
+
+			<hr>
+
+			<h2>Inputs</h2>
+			<form>
+				<div class="form-group">
+					<label for="usr">Name:</label>
+					<input type="text" class="form-control" id="usr">
+				</div>
+				<div class="form-group">
+					<label for="pwd">Password:</label>
+					<input type="password" class="form-control" id="pwd">
+				</div>
+				<div class="form-group">
+					<label for="dtl">Date/Time Local:</label>
+					<input type="datetime-local" class="form-control" id="dtl">
+				</div>
+				<div class="form-group">
+					<label for="eml">Email:</label>
+					<input type="email" class="form-control" id="eml">
+				</div>
+				<div class="form-group">
+					<label for="tl">Tel:</label>
+					<input type="tel" class="form-control" id="tl">
+				</div>
+				<div class="form-group">
+					<label for="search">Search:</label>
+					<input type="search" class="form-control" id="search">
+				</div>
+				<div class="form-group">
+					<label for="url">URL:</label>
+					<input type="url" class="form-control" id="url">
+				</div>
+				<div class="form-group">
+					<label for="clr">Color:</label>
+					<input type="color" class="form-control" id="crl">
+				</div>
+			</form>
+
+			<hr>
+
+			<h2>Textarea</h2>
+			<form>
+				<div class="form-group">
+					<label for="comment">Comment:</label>
+					<textarea class="form-control" rows="5" id="comment"></textarea>
+				</div>
+			</form>
+
+			<hr>
+
+			<h2>Checkboxes and Radios</h2>
+			<p>Checkboxes and radios use the <code>.form-check</code> class. By default, checkboxes and radios are vertically stacked.</p>
+			<p>You must specify id and for attributes to relate the &lt;input&gt; and &lt;label&gt;.</p>		
+
+			<h3>Checkboxes</h3>
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+				<label class="form-check-label" for="defaultCheck1">Default checkbox</label>
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+				<label class="form-check-label" for="defaultCheck2">Disabled checkbox</label>
+			</div>
+
+			<hr>
+			
+			<h5>Checkbox Inline</h5>
+			<p>Group checkboxes or radios on the same horizontal row by adding <code>.form-check-inline</code> to any <code>.form-check</code>.
+
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+				<label class="form-check-label" for="defaultCheck1">Default checkbox</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+				<label class="form-check-label" for="defaultCheck2">Disabled checkbox</label>
+			</div>
+
+			<hr>
+
+			<h3>Radio Buttons</h3>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+				<label class="form-check-label" for="exampleRadios1"> Default radio</label>
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+				<label class="form-check-label" for="exampleRadios2"> Second default radio</label>
+			</div>
+			<div class="form-check disabled">
+				<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+				<label class="form-check-label" for="exampleRadios3"> Disabled radio</label>
+			</div>
+
+			<hr>
+
+			<h5>Radio Inline</h5>
+			<p>Group checkboxes or radios on the same horizontal row by adding <code>.form-check-inline</code> to any <code>.form-check</code>.
+
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+				<label class="form-check-label" for="exampleRadios1"> Default radio</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+				<label class="form-check-label" for="exampleRadios2"> Second default radio</label>
+			</div>
+			<div class="form-check form-check-inline disabled">
+				<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+				<label class="form-check-label" for="exampleRadios3"> Disabled radio</label>
+			</div>
+
+			<hr>
+
+			<h2>Select List</h2>
+			<form>
+				<div class="form-group">
+					<label for="sel">Select list:</label>
+					<select class="form-control" id="sel">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+					</select>
+				</div>
+			</form>
+
+			<hr>
+			
+			<h3>Multiple Select</h3>
+			<form>
+				<div class="form-group">
+					<label for="multsel">Multiple select list:</label>
+					<select multiple class="form-control" id="multsel">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+				</div>
+			</form>
+
+			<hr>
+
+			<h2>File Input</h2>
+			<form>
+				<div class="form-group">
+					<label for="exampleFormControlFile1">Upload</label>
+					<input type="file" class="form-control-file" id="exampleFormControlFile1">
+				</div>
+			</form>
+
+			<hr>
+
+			<h2>Disabled</h2>
+			<p>Add the disabled boolean attribute on an input to prevent user interactions and make it appear lighter.</p>
+
+			<form>
+				<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+			</form>
+
+			<hr>
+			<p>Add the disabled attribute to a &lt;fieldset&gt; to disable all the controls within.</p>
+
+			<form>
+				<fieldset disabled>
+					<div class="form-group">
+						<label for="disabledTextInput">Disabled input</label>
+						<input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+					</div>
+					<div class="form-group">
+						<label for="disabledSelect">Disabled select menu</label>
+						<select id="disabledSelect" class="form-control">
+							<option>Disabled select</option>
+						</select>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+						<label class="form-check-label" for="disabledFieldsetCheck">Can't check this</label>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</fieldset>
+			</form>
+
+			<hr>
+
+			<h2>Read-only</h2>
+			<p>Add the <code>readonly</code> boolean attribute on an input to prevent modification of the input’s value. Read-only inputs appear lighter (just like disabled inputs), but retain the standard cursor.</p>
+
+			<input class="form-control" type="text" placeholder="Read-only input here…" readonly>
+
+			<hr>
+
+			<h2>Read-only (Plain Text)</h2>
+			<p>If you want to have &lt;input readonly&gt; elements in your form styled as plain text, use the <code>.form-control-plaintext</code> class to remove the default form field styling and preserve the correct margin and padding.</p>
+
+			<form>
+				<div class="form-group row">
+					<label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+					<div class="col-sm-10">
+						<input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+					<div class="col-sm-10">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+					</div>
+				</div>
+			</form>
+
+			<hr>
+
+			<form class="form-inline">
+				<div class="form-group mb-2">
+					<label for="staticEmail2" class="sr-only">Email</label>
+					<input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+				</div>
+				<div class="form-group mx-sm-3 mb-2">
+					<label for="inputPassword2" class="sr-only">Password</label>
+					<input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+				</div>
+				<button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+			</form>
+
+			<hr>
+
+			<h2>Layout</h2>
+			<p>Bootstrap applies <code>display: block</code> and <code>width: 100%</code> to almost all our form controls, forms will by default stack vertically. Additional classes can be used to vary this layout on a per-form basis.</p>
+
+			<h3>Form Groups</h3>
+			<p>The <code>.form-group</code> class adds structure to forms: it encourages the proper grouping of labels, controls, optional help text, and form validation messaging.</p>
+
+			<form>
+				<div class="form-group">
+					<label for="formGroupExampleInput">Example label</label>
+					<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+				</div>
+				<div class="form-group">
+					<label for="formGroupExampleInput2">Another label</label>
+    				<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+				</div>
+			</form>
+
+			<hr>
+
+			<h3>Form Grid</h3>
+			<form>
+				<div class="row">
+					<div class="col">
+						<input type="text" class="form-control" placeholder="First name">
+					</div>
+ 					<div class="col">
+						<input type="text" class="form-control" placeholder="Last name">
+					</div>
+				</div>
+			</form>
+
+			<hr>
+
+			<h4>Form Row (Compact)</h4>
+			<p>Swap <code>.row</code> for <code>.form-row</code>, a variation of the standard grid row that overrides the default column gutters for tighter and more compact layouts.</p>
+
+			<form>
+				<div class="form-row">
+					<div class="col">
+						<input type="text" class="form-control" placeholder="First name">
+					</div>
+					<div class="col">
+						<input type="text" class="form-control" placeholder="Last name">
+					</div>
+				</div>
+			</form>
+
+			<hr>
+
+			<h4>Form Grid (Compact)</h4>
+
+			<form>
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<label for="inputEmail4">Email</label>
+						<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+					</div>
+					<div class="form-group col-md-6">
+						<label for="inputPassword4">Password</label>
+						<input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputAddress">Address</label>
+					<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+				</div>
+				<div class="form-group">
+					<label for="inputAddress2">Address 2</label>
+					<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+				</div>
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<label for="inputCity">City</label>
+						<input type="text" class="form-control" id="inputCity">
+					</div>
+					<div class="form-group col-md-4">
+						<label for="inputState">State</label>
+						<select id="inputState" class="form-control">
+							<option selected>Choose me</option>
+							<option>No, choose me</option>
+						</select>
+					</div>
+					<div class="form-group col-md-2">
+						<label for="inputZip">Zip</label>
+						<input type="text" class="form-control" id="inputZip">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" id="gridCheck">
+						<label class="form-check-label" for="gridCheck">Check me out</label>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary">Sign in</button>
+			</form>
+
+			<hr>
+
+			<h3>Horizontal Form</h3>
+			<p>Use the <code>.row</code> class to form groups and the <code>.col-*-*</code> classes to specify the width of your labels and controls. Add the <code>.col-form-label</code> to each &lt;label&gt; so they're vertically centered with their associated form controls.</p>
+
+			<form>
+				<div class="form-group row">
+					<label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+					<div class="col-sm-10">
+						<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+					<div class="col-sm-10">
+						<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+					</div>
+				</div>
+				<fieldset class="form-group">
+					<div class="row">
+						<legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+ 						<div class="col-sm-10">
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+								<label class="form-check-label" for="gridRadios1">First radio</label>
+  							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+								<label class="form-check-label" for="gridRadios2">Second radio</label>
+							</div>
+							<div class="form-check disabled">
+								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+								<label class="form-check-label" for="gridRadios3">Third disabled radio</label>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+				<div class="form-group row">
+					<div class="col-sm-2">Checkbox</div>
+					<div class="col-sm-10">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="gridCheck1">
+							<label class="form-check-label" for="gridCheck1">Example checkbox</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-sm-10">
+						<button type="submit" class="btn btn-primary">Sign in</button>
+					</div>
+				</div>
+			</form>
+
+			<hr>
+
+			<h4>Horizontal Form Label Sizing</h4>
+			<p>Use <code>.col-form-label-sm</code> or <code>.col-form-label-lg</code> with each &lt;label&gt; or &lt;legend&gt; to correctly follow the size of <code>.form-control-lg</code> and <code>.form-control-sm</code>.</p>
+
+			<form>
+				<div class="form-group row">
+					<label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
+					<div class="col-sm-10">
+						<input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="col-form-label-sm">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+					<div class="col-sm-10">
+						<input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+					<div class="col-sm-10">
+						<input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="col-form-label-lg">
+					</div>
+				</div>
+			</form>
+
+			<hr>
+
+			<h4>Column Sizing</h4>
+			<p><code>.col-7</code>, <code>.col</code>, <code>.col</code></p>
+			<form>
+				<div class="form-row">
+					<div class="col-7">
+						<input type="text" class="form-control" placeholder="City">
+					</div>
+					<div class="col">
+						<input type="text" class="form-control" placeholder="State">
+					</div>
+					<div class="col">
+						<input type="text" class="form-control" placeholder="Zip">
+					</div>
+				</div>
+			</form>
+
+			<hr>
+
+			<h4>Auto-Sizing</h4>
+			<p>Use the <code>.col-auto</code> flexbox utility to vertically center the contents and make the column size itself based on the contents.</p>
+
+			<form>
+				<div class="form-row align-items-center">
+					<div class="col-auto">
+						<label class="sr-only" for="inlineFormInput">Name</label>
+						<input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+					</div>
+					<div class="col-auto">
+						<label class="sr-only" for="inlineFormInputGroup">Username</label>
+						<div class="input-group mb-2">
+							<div class="input-group-prepend">
+								<div class="input-group-text">@</div>
+							</div>
+							<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+						</div>
+					</div>
+					<div class="col-auto">
+						<div class="form-check mb-2">
+							<input class="form-check-input" type="checkbox" id="autoSizingCheck">
+							<label class="form-check-label" for="autoSizingCheck">Remember me</label>
+						</div>
+					</div>
+					<div class="col-auto">
+						<button type="submit" class="btn btn-primary mb-2">Submit</button>
+					</div>
+				</div>
+			</form>
+
+			<hr>
+
+			<h2>Help Text</h2>
+			<p>Help text below inputs can be styled with <code>.form-text</code>. This class includes display: block and adds some top margin for easy spacing from the inputs above.</p>
+			<p>Help text should be explicitly associated with the form control it relates to using the <code>aria-describedby</code> attribute. This will ensure that screen readers will announce this help text when the user focuses or enters the control.</p>
+
+			<form class="form">
+				<div class="form-group">
+					<label for="inputPassword5">Password</label>
+					<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+					<small id="passwordHelpBlock" class="form-text text-muted">Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.</small>
+				</div>
+			</form>		
+
+			<hr>
+
+			<form class="form-inline">
+				<div class="form-group">
+					<label for="inputPassword6">Password</label>
+					<input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+					<small id="passwordHelpInline" class="text-muted">Must be 8-20 characters long.</small>
+				</div>
+			</form>
+
+			<hr>
+
+		</div>
+	</body>
+</html>
