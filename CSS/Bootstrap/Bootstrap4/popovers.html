@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 4 Popovers</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap-4.0.0.css">
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/bootstrap-4.0.0.bundle.js"></script>
+
+		<style>
+			/* Custom Popover */
+			/* Popover */
+			.test + .popover {
+				border: 2px dotted red;
+			}
+			/* Popover Header */
+			.test + .popover-title {
+				background-color: #73AD21; 
+				color: #FFFFFF; 
+				font-size: 28px;
+				text-align:center;
+			}
+			/* Popover Body */
+			.test + .popover-content {
+				background-color: coral;
+				color: #FFFFFF;
+				padding: 25px;
+			}
+			/* Popover Arrow */
+			.test + .arrow {
+				border-right-color: red !important;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1 class="display-4">Bootstrap 4 Popovers</h1>
+			<p>Popovers are similar to tooltips; it is a pop-up box that appears when the user clicks on an element</p>
+		</div>
+		
+		<div class="container">			
+			<h2>Overview</h2>
+
+			<p>Popovers rely on the 3rd party library Popper.js for positioning. You must include popper.min.js before bootstrap.js or use bootstrap.bundle.min.js / bootstrap.bundle.js which contains Popper.js in order for popovers to work!</p>
+
+			<p><strong>Note</strong>: Popovers are opt-in for performance reasons, so you must initialize them yourself. must be initialized with jQuery: select the specified element and call the <code>popover()</code> method.</p>
+
+			<p>The following code will enable all popovers in the document:</p>
+
+			<div class="card">
+				<div class="card-body">
+					<code>
+						&lt;script&gt;<br>
+						$(document).ready(function(){<br>
+						&nbsp;&nbsp;$('[data-toggle="popover"]').popover();<br> 
+						});<br>
+						&lt;/script&gt;
+					</code>
+				</div>
+			</div>
+
+			<hr>
+
+			<p>The following code will enable a popover on the specified element:</p>
+			<div class="card">
+				<div class="card-body">
+					<code>
+						&lt;script&gt;<br>
+						$(document).ready(function(){<br>
+						&nbsp;&nbsp;$('#myPopover').popover();<br> 
+						});<br>
+						&lt;/script&gt;
+					</code>
+				</div>	
+			</div>
+
+			<hr>
+
+			<p>The following code will enable a popover on the specified selector:</p>
+			<div class="card">
+				<div class="card-body">
+					<code>
+						&lt;script&gt;<br>
+						$(document).ready(function(){<br>
+						&nbsp;&nbsp;$('body').popover({title: "Hooray!", selector: ".btn"});<br> 
+						});<br>
+						&lt;/script&gt;
+					</code>
+				</div>	
+			</div>
+
+			<hr>
+
+			<h2>Basic Popover</h2>
+			<p>Add the <code>data-toggle="popover"</code> attribute to an element. Use the <code>title</code> attribute to specify the header text of the popover, and use the <code>data-content</code> attribute to specify the text that should be displayed inside the popover's body:</p>
+
+			<a href="#" data-toggle="popover-basic" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>			
+
+			<hr>
+
+			<h2>Title</h2>
+			<p>The <strong>title</strong> option (default: "") specifies the text that should be displayed inside the popover.</p>
+			<button class="btn btn-success btn-lg">Click me</button>
+
+			<hr>
+
+			<h2>Trigger</h2>
+			<p>The <strong>trigger</strong> option (default: "hover focus") specifies how the popover is triggered.</p>
+			<p>Possible values (To pass multiple values, separate them with a space):</p>
+			<ul>
+				<li>"click" - Trigger the popover with a click</li>
+				<li>"hover" - Trigger the popover on hover</li>
+				<li>"focus" - Trigger the popover when it gets focus (by tabbing or clicking .e.g</li>
+			</ul>
+
+			<div>
+				<button class="btn btn-success btn-xs">Click me</button>
+				<button class="btn btn-warning btn-xs">Hover over me</button>
+				<button class="btn btn-danger btn-xs">Focus (tab or click)</button>
+			</div>
+
+			<hr>
+
+			<h2>Positioning</h2>
+			<p>The <strong>placement</strong> option (default: "top") specifies the popover position.</p>
+			<ul class="list-inline">
+				<button class="btn btn-warning btn-md test1" data-placement="top">Top</button>
+				<button class="btn btn-success btn-md test1" data-placement="bottom">Bottom</button>
+				<button class="btn btn-danger btn-md test1" data-placement="left">Left</button>
+				<button class="btn btn-default btn-md test1" data-placement="right">Right</button>
+			</ul>
+
+			<hr>
+
+			<div class="alert alert-info">
+				<p><strong>Tip</strong>: You can also use the <code>data-placement</code> attribute with a value of "auto", which will let the browser decide the position of the popover. For example, if the value is "auto left", the popover will display on the left side when possible, otherwise on the right.</p>
+			</div>
+
+			<hr>
+
+			<h2>Disabled</h2>
+			<span class="d-inline-block" data-toggle="popover" data-content="Disabled popover">
+				<button class="btn btn-primary" style="pointer-events: none;" type="button" disabled>Disabled button</button>
+			</span>
+
+			<hr>
+			
+			<h2>Animation</h2>
+			<p>The <strong>animation</strong> option (default: true) specifies whether to add a CSS fade transition effect to the popover.</p>
+			<div>
+				<button class="btn btn-success btn-md">Click me (animation: true)</button>
+				<button class="btn btn-warning btn-md">Click me (animation: false)</button>
+			</div>
+
+			<hr>
+
+			<h2>Container</h2>
+			<p>The <strong>container</strong> option (default: false) appends the popover to a specific element.</p>
+			<div class="parent">
+				<button class="btn btn-primary btn-lg">Click me</button>
+			</div>
+
+			<hr>
+
+			<h2>Delay</h2>
+			<p>The <strong>delay</strong> option (default: 0) specifies the number of milliseconds it will take to show and hide the popover.</p>
+			<p>This popover will take 1000 milliseconds to show when you click it, and 1000 milliseconds to hide on click leave.</p>
+			<button class="btn btn-info btn-md">Click me (1000ms)</button><br><br>
+
+			<p>This popover will take 500 milliseconds to show when you click it, and 100 ms to hide on click leave.</p>
+			<button class="btn btn-default btn-md">Hover over me (500ms)</button>
+
+			<hr>
+
+			<h2>HTML</h2>
+			<p>The <strong>html</strong> option (default: false) specifies whether to accept HTML tags in the popover.</p>
+			<p>When set to false (default), jQuery's <code>text()</code> method will be used. Use this if you are worried about XSS attacks.</p>
+			<button class="btn btn-success btn-sm">Click me</button>
+
+			<hr>
+
+			<h2>Template</h2>
+			<p>Base HTML to use when creating the popover. The popover's title will be inserted into the element having the class <code>.popover-inner</code> and the element with the class <code>.popover-arrow</code> will become the popover's arrow. The outermost wrapper element should have the <code>.popover</code> class.</p>
+
+			<div class="card">
+				<div class="card-body">
+					<code>
+						&lt;div class="popover" role="popover"&gt;<br>
+							&nbsp;&nbsp;&lt;div class="popover-arrow"&gt;&lt;/div&gt;<br>
+							&nbsp;&nbsp;&lt;div class="popover-inner"&gt;&lt;/div&gt;<br>
+						&lt;/div&gt;<br>
+					</code>
+				</div>	
+			</div>
+
+			<hr>			
+
+			<h2>Viewport</h2>
+			<p>Keeps the popover within the bounds of this element (default: {selector: "body", padding: 0}). 
+			<p>Example: viewport: '#viewport' or {selector: '#viewport', padding: 0}</p>
+			<p>If a function is given, it is called with the triggering element DOM node as its only argument. The <code>this</code> context is set to the popover instance.</p>
+
+			<hr>
+
+			<h2>Popover Options and Methods</h2>
+			<p>See: <a href="https://getbootstrap.com/docs/4.0/components/popovers/">https://getbootstrap.com/docs/4.0/components/popovers/</a></p>
+			<p><a href="#" data-toggle="popoverA" title="Hooray!" data-content="Some content inside the popover">Popover will show here</a></p>	
+			<ul>
+				<li><code>.popover('show')</code> Shows the popover</li>
+				<li><code>.popover('hide')</code> Hides the popover</li>
+				<li><code>.popover('toggle')</code> Toggles the popover</li>
+				<li><code>.popover('destroy')</code> Hides and destroys the popover</li>
+			</ul>	
+			<button type="button" id="btnShow1" class="btn btn-primary btn-lg">Show</button>
+			<button type="button" id="btnHide1" class="btn btn-info btn-lg">Hide</button>
+			<button type="button" id="btnToggle1" class="btn btn-default btn-lg">Toggle</button>
+			<button type="button" id="btnDestroy1" class="btn btn-danger btn-lg">Destroy</button>
+
+			<hr>
+
+			<h2>Popover Events</h2>
+			<p><a href="#" data-toggle="popoverB" title="Hooray!" data-content="Some content inside the popover">Popover will show here</a></p>	
+			<p>The <strong>show.bs.popover</strong> event occurs when the popover is about to be shown.</p>
+			<p>The <strong>shown.bs.popover</strong> event occurs when the popover is fully shown.</p>
+			<p>The <strong>hide.bs.popover</strong> event occurs when the popover is about to be hidden.</p>
+			<p>The <strong>hidden.bs.popover</strong> event occurs when the popover is fully hidden.</p>
+			<button type="button" id="btnShow2" class="btn btn-primary btn-lg">Show</button>
+			<button type="button" id="btnHide2" class="btn btn-info btn-lg">Hide</button>
+			<button type="button" id="btnToggle2" class="btn btn-default btn-lg">Toggle</button>
+			<button type="button" id="btnDestroy2" class="btn btn-danger btn-lg">Destroy</button>
+
+			<hr>
+
+			<h2>Dismissible Popover</h2>
+			<p>Use the <code>focus</code> trigger to dismiss popovers on the next click that the user makes:</p>
+			<a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
+
+			<hr>
+
+			<h2>Custom Popover</h2>
+			<button type="button" class="test btn btn-default" data-toggle="popoverC" title="Popover Header" data-content="Some content inside the popover">Toggle popover</button>
+
+			<hr>
+			
+		</div>
+
+		<script>
+			$(document).ready(function(){
+				$('[data-toggle="popover-basic"]').popover();
+
+				$('[data-toggle="popover"]').popover(); 
+				$('.btn-success.btn-lg').popover({title: "Title goes here!", content: "Blahblah"});
+				
+				$('.btn-success.btn-md').popover({title: "Hooray!", content: "Blahblah", animation: true}); 
+				$('.btn-warning.btn-md').popover({title: "Hooray!", content: "Blahblah", animation: false});
+				
+				$('.btn-primary.btn-sm').popover({title: "Hooray!", content: "Blahblah", container: ".parent"});
+				
+				$('.btn-info.btn-md').popover({title: "Hooray!", content: "Blahblah", delay: 1000}); 
+				$('.btn-default.btn-md').popover({title: "Hooray!", content: "Blahblah", delay: {show: 500, hide: 100}}); 
+				
+				$('.btn-success.btn-sm').popover({title: "<h1><strong>HTML</strong> inside <code>the</code> <em>popover</em></h1>", html: true, placement: "bottom"}); 
+				
+				$('.btn-success.btn-xs').popover({title: "Hooray!", content: "Blahblah", trigger: "click"}); 
+				$('.btn-warning.btn-xs').popover({title: "Hooray!", content: "Blahblah", trigger: "hover"}); 
+				$('.btn-danger.btn-xs').popover({title: "Hooray!", content: "Blahblah", trigger: "focus"}); 
+
+				$('.btn-success.btn-md.test1').popover({title: "Hooray!", content: "Blahblah", placement: "top"}); 
+				$('.btn-warning.btn-md.test1').popover({title: "Hooray!", content: "Blahblah", placement: "bottom"}); 
+				$('.btn-danger.btn-md.test1').popover({title: "Hooray!", content: "Blahblah", placement: "left"}); 
+				$('.btn-default.btn-md.test1').popover({title: "Hooray!", content: "Blahblah", placement: "right"});
+				
+				$('#btnShow1').click(function(){
+					$("[data-toggle='popoverA']").popover('show');
+				});
+				$('#btnHide1').click(function(){
+					$("[data-toggle='popoverA']").popover('hide');
+				});
+				$('#btnToggle1').click(function(){
+					$("[data-toggle='popoverA']").popover('toggle');
+				});
+				$("#btnDestroy1").click(function(){
+					$("[data-toggle='popoverA']").popover('destroy');
+				});
+
+				$('#btnShow2').click(function(){
+					$("[data-toggle='popoverB']").popover('show');
+				});
+				$('#btnHide2').click(function(){
+					$("[data-toggle='popoverB']").popover('hide');
+				});
+				$('#btnToggle2').click(function(){
+					$("[data-toggle='popoverB']").popover('toggle');
+				});
+				$("#btnDestroy2").click(function(){
+					$("[data-toggle='popoverB']").popover('destroy');
+				}); 
+
+				$("[data-toggle='popoverB']").on('show.bs.popover', function(){
+					alert('The popover is about to be shown.');
+				});
+				$("[data-toggle='popoverB']").on('shown.bs.popover', function(){
+					alert('The popover is now fully shown.');
+				});
+				$("[data-toggle='popoverB']").on('hide.bs.popover', function(){
+					alert('The popover is about to be hidden.');
+				});
+				$("[data-toggle='popoverB']").on('hidden.bs.popover', function(){
+					alert('The popover is now hidden.');
+				});
+
+				$('[data-toggle="popoverC"]').popover();
+			});
+		</script>
+	</body>
+</html>

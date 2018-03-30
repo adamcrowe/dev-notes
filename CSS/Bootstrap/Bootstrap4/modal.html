@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 4 Modal</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap-4.0.0.css">
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/bootstrap-4.0.0.bundle.js"></script>
+
+		<style>
+			.modal-header, h4, .close {
+				background-color: #5cb85c;
+				color:white !important;
+				text-align: center;
+				font-size: 30px;
+			}
+			.modal-footer {
+				background-color: #f9f9f9;
+			}
+		</style>
+
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1 class="display-4">Bootstrap 4 Modal</h1>
+			<p>A Modal is a dialog box/popup window that is displayed on top of the current page</p>
+		</div>
+		
+		<div class="container">
+			<h2>Basic Modal</h2>
+			<!-- Button to Open the Modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalBasic">Open modal</button>
+
+			<!-- The Modal -->
+			<div class="modal fade" id="myModalBasic" aria-labelledby="basicModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">      
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">Modal Heading</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+
+						<!-- Modal body -->
+						<div class="modal-body">
+							Modal body...
+						</div>
+
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>	
+
+			<hr>
+
+			<h2>Modal Size</h2>
+			<p>The default size of the modal is medium. Change the size by using the <code>.modal-sm</code> or <code>.modal-lg</code> classes.</p>
+
+			<hr>
+
+			<h3>Small Modal</h3>
+			<!-- Button to Open the Modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalSmall">Open modal</button>
+
+			<!-- The Modal -->
+			<div class="modal fade" id="myModalSmall" aria-labelledby="smallModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-sm">
+					<div class="modal-content">
+
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">Modal Heading</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+
+						<!-- Modal body -->
+						<div class="modal-body">
+							Modal body...
+						</div>
+
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<h3>Large Modal</h3>
+			<!-- Button to Open the Modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalLarge">Open modal</button>
+
+			<!-- The Modal -->
+			<div class="modal fade" id="myModalLarge" aria-labelledby="largeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">Modal Heading</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+
+						<!-- Modal body -->
+						<div class="modal-body">
+							Modal body...
+						</div>
+
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<h2>Centered Modal</h2>
+			<p>Center the modal vertically and horizontally within the page, with the <code>.modal-dialog-centered</code> class.</p>
+			<!-- Button to Open the Modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalCentered">Open modal</button>
+
+			<!-- The Modal -->
+			<div class="modal fade" id="myModalCentered" aria-labelledby="centeredModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">Modal Heading</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+
+						<!-- Modal body -->
+						<div class="modal-body">Modal body...</div>
+
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<h2>Model Grid</h2>
+			<!-- Button to Open the Modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalGrid">Open modal</button>
+
+			<!-- The Modal -->
+			<div class="modal fade" id="myModalGrid" aria-labelledby="gridModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">Modal Heading</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+
+						<!-- Modal body -->
+						<div class="modal-body">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-4">.col-md-4</div>
+									<div class="col-md-4 ml-auto">.col-md-4 .ml-auto</div>
+								</div>
+								<div class="row">
+									<div class="col-md-3 ml-auto">.col-md-3 .ml-auto</div>
+									<div class="col-md-2 ml-auto">.col-md-2 .ml-auto</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6 ml-auto">.col-md-6 .ml-auto</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-9">
+										Level 1: .col-sm-9
+										<div class="row">
+											<div class="col-8 col-sm-6">
+												Level 2: .col-8 .col-sm-6
+											</div>
+											<div class="col-4 col-sm-6">
+												Level 2: .col-4 .col-sm-6
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+
+			<hr>	
+
+			<h2>Modal Login (using JS)</h2>
+			<!-- Trigger the modal with a button; see script below -->
+			<button type="button" class="btn btn-primary" id="myLoginBtn">Open modal</button>
+
+			<!-- Modal -->
+			<div class="modal fade" id="myLoginModal" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+
+					<!-- Modal content-->
+					<div class="modal-content">			
+
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">Login</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+
+						<!-- Modal body -->
+						<div class="modal-body">
+							<form role="form">
+								<div class="form-group">
+									<label for="usrname">Username</label>
+									<input type="text" class="form-control" id="usrname" placeholder="Enter email">
+								</div>
+								<div class="form-group">
+									<label for="psw">Password</label>
+									<input type="text" class="form-control" id="psw" placeholder="Enter password">
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" value="" checked> Remember me</label>
+								</div>
+								<button type="submit" class="btn btn-success btn-block">Login</button>
+							</form>
+						</div>
+
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<div class="col-3">	
+								<button type="submit" class="btn btn-danger btn-default" data-dismiss="modal">Cancel</button>
+							</div>	
+							<div class="col-3"></div>
+							<div class="col-6">	
+								<p>Not a member? <a href="#">Sign Up</a> | <a href="#">Forgot Password?</a></p>
+							</div>	
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<h2>Modal Methods</h2>
+			<p>See: <a href="https://getbootstrap.com/docs/4.0/components/modal/">https://getbootstrap.com/docs/4.0/components/modal/</p>
+
+			<hr>
+			
+		</div>
+
+		<script>
+			$(document).ready(function(){
+				$("#myLoginBtn").click(function(){
+					$("#myLoginModal").modal();
+				});
+			});
+		</script>
+	</body>
+</html>
