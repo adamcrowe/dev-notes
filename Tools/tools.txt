@@ -13,3 +13,4 @@
 * Responsive Tester <http://www.responsivetester.net/>
 * Dummy Image <https://dummyimage.com/>
 * Grid Calculator <http://gridcalculator.dk/>
+* Now (App Deployment) <https://zeit.co/now>

@@ -1,0 +1,1 @@
+$event.preventDefault() // clicked anchors will not take the browser to a new URL

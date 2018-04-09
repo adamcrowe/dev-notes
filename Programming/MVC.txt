@@ -6,3 +6,6 @@
 
 ! Controller
 > Controller code acts as a liaison between the Model and the View, receiving user input and deciding what to do with it. In a todo app, the Controller could define how a user adds a task, or marks another as complete. The Controller connects the View’s "add" button to the Model, so that when you click “add task,” the Model adds a new task.
+
+! Best Practices
+* Fat Models, Kinny Controllers
