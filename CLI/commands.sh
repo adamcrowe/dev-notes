@@ -1,6 +1,10 @@
+Esc -> : -> q! -> RETURN	# quit the vi editor without saving any changes you've made:
+							# if insert or append mode: Press Esc -> Press : (colon) -> Enter q! -> Press RETURN
+
 pwd 						# print working directory
-cd - 						# go to previous dir
-cd ~						# go to home dir
+cd - 				
+		# go to previous dir
+cd ~						# go to user's home dir
 
 cp myfile.sql /httpdocs 	# copy myfile from pwd to another dir 
 scp myfile.sql /httpdocs 	# secure copy file from pwd to another dir 

@@ -1,4 +1,5 @@
 // http://reactivex.io/rxjs/manual/overview.html
+// https://legacy.gitbook.com/book/btroncone/learn-rxjs/details (RxJS and reactive programming tutorials)
 
 // Normally you register event listeners
 var button = document.querySelector('button');

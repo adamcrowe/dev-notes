@@ -1,7 +1,7 @@
-# BASIC
+# GENERAL
 git status 								# get status of current branch
 git status -s 							# get short status of current branch
-git add <file> 							# add file in pwd to staging area
+git add <filename> 							# add file in pwd to staging area
 git add -A 								# add all files in pwd to staging area 
 git commit -m "<message>" 				# commit with message
 git commit -a -m "<message>" 			# add all and commit with a message 
@@ -11,6 +11,8 @@ git commit --amend 						# combine staged changes with previous commit and repla
 										# actually entirely new commits, and the previous commit is removed from the project history
 git commit --amend -m "<message>" 		# edit previous commit message without adding staged changes to the commit
 git commit --amend --no-edit 			# after staging changes, amend previous commit with changes and use previous commit message
+
+git rm -r <filename/directory>			# recursively remove filename/directory
 
 git log									# show commit history for current branch
 git log --pretty=format:<format> 		# show pretty log (format: "%h - %an, %ar : %s")
@@ -25,16 +27,16 @@ git fetch origin master					# fetches data from origin that we don't have *witho
 git pull origin master					# fetch latest changes from origin and merge with current local branch
 git push origin master 					# push local commits to remote version of current branch
 git branch 								# show all branches in repository
+git branch –d <branch> 					# delete local branch
+git push origin :branch 				# delete remote branch
+git branch -m <branch> 					# rename branch
+git branch --contains <commit>			# get branch containing commit
+git merge <branch>						# pull down remote branch and merge into local
 git checkout <branch> 					# checkout branch
 git checkout -b <branch> 				# create and checkout a new branch
-git merge <branch>						# pull down remote branch and merge into local
-git push origin :branch 				# delete remote branch
 git checkout - 							# checkout the previous branch worked on
 git checkout -b <branch> master 		# create branch based on master
 git checkout -b <branch>				# create branch from uncommitted changes
-git branch –d <branch> 					# delete branch
-git branch -m <branch> 					# rename branch
-git branch --contains <commit>			# get branch containing commit
 git checkout -- <filename>				# restore the status of a file to the last commit
 git checkout <commit> hello.py 			# get old version of hello.py from commit (will apply to pwd) 
 git checkout HEAD hello.py 				# get back (apply to pwd) the most recent version of hello.py
@@ -45,7 +47,7 @@ git reset								# at commit-level: discard commits in a private branch or throw
 git reset								# at file-level: unstage a file
 git revert								# at commit-level: undo commits in a public branch
 gitk <folder>							# show all committed changes on specified folder
-gitk <file> 							# show all committed changes on specified file
+gitk <filename> 						# show all committed changes on specified file
 gitk --all 								# show commit history of all branches
 
 # INTIALIZATION
