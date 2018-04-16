@@ -1,4 +1,10 @@
 // ! Asynchronous
+
+// There are generally three approaches to dealing with async code:
+// * Callbacks
+// * Promises
+// * Observables (RxJS)
+
 // Video: What the heck is the event loop anyway? <https://www.youtube.com/watch?v=8aGhZQkoFbQ>
 // Tool: Loupe: Visualizing the JS Runtime at Runtime <http://latentflip.com/loupe>
 
