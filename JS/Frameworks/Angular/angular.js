@@ -10,6 +10,10 @@
 													// 1) maintain a list of subscribers
 													// 2) publish events to subscribers
 
+// @Outputs specify events that can be emitted from the component; the view can listen to these events
+/* @Output() loading: EventEmiter<boolean> = new EventEmitter<boolean>(); */
+
+
 // ngFor
 // breadcrumbs...
 /*<div class="product-department">

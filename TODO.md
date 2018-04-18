@@ -3,8 +3,7 @@
 * https://natelandau.com/my-mac-osx-bash_profile/
 * https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 
-// .bash_profile
-
+/* .bash_profile
 PATH=$PATH:/usr/local/sbin
 alias composer="php /usr/local/bin/composer.phar"
 parse_git_branch() {
@@ -14,6 +13,7 @@ parse_git_branch() {
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\[\033[0;37m\]\$(p$
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
+```
 if [ -f ~/.git-completion.bash ]; then
         .~/.git-completion.bash
 fi
@@ -22,7 +22,10 @@ fi
 if [ -f ~/.bash_aliases ]; then
         source ~/.bash_aliases;
 fi
+
 export EDITOR=/usr/bin/nano
+```
+* /
 
 # BOOKS/TUTORIALS
 
@@ -30,12 +33,12 @@ export EDITOR=/usr/bin/nano
 * [-] MDN: JAVASCRIPT
 * [-] YOU DON'T KNOW JAVASCRIPT
 * [-] SPEAKING JAVASCRIPT
-* [*] WATCH AND CODE BEASTS
-* [*] WATCH AND CODE (JAVASCRIPT)
-* [*] CORE JAVASCRIPT CONCEPTS
+* [/] WATCH AND CODE BEASTS
+* [/] WATCH AND CODE (JAVASCRIPT)
+* [/] CORE JAVASCRIPT CONCEPTS
 
 ## HTML/CSS
-* [*] BOOTSTRAP 3/4
+* [/] BOOTSTRAP 3/4
 * [-] HTML5 & CSS3
 * [-] HEAD FIRST HTML5 PROGRAMMING
 * [-] CSS MASTER
@@ -47,7 +50,7 @@ export EDITOR=/usr/bin/nano
 * [-] MDN: HTTP
 * [-] MDN: NODE + SQL
 * [-] BUILD FRONT-END APPS WITH PLAIN JAVASCRIPT
-* [*] INSTANT HANDLEBARS
+* [/] INSTANT HANDLEBARS
 
 ## CLI
 * [-] PRO GIT
@@ -68,7 +71,7 @@ export EDITOR=/usr/bin/nano
 * [-] TESTABLE JAVASCRIPT
 * [-] TEST-DRIVEN JAVASCRIPT DEVELOPMENT
 * [-] TEST-DRIVEN DEVELOPMENT EXTENSIVE TUTORIAL
-* [*] JAVASCRIPT TESTING WITH JASMINE
+* [/] JAVASCRIPT TESTING WITH JASMINE
 
 ## CRAFTMANSHIP
 * [-] HEAD FIRST SOFTWARE DEVELOPMENT
@@ -88,7 +91,7 @@ export EDITOR=/usr/bin/nano
 * [-] CRACKING THE CODING INTERVIEW
 * [-] NAND TO TETRIS
 
-# SQL
+## SQL
 * [-] SQL QUERIES FOR MERE MORTALS
 * [-] DATABASE DESIGN FOR MERE MORTALS
 * [-] BEGINNING DATABASE DESIGN SOLUTIONS

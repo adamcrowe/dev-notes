@@ -28,7 +28,8 @@ git pull origin master					# fetch latest changes from origin and merge with cur
 git push origin master 					# push local commits to remote version of current branch
 git branch 								# show all branches in repository
 git branch –d <branch> 					# delete local branch
-git push origin :branch 				# delete remote branch
+git branch --delete <branch>			# delete local branch
+git push origin --delete <branch>		# delete remote branch
 git branch -m <branch> 					# rename branch
 git branch --contains <commit>			# get branch containing commit
 git merge <branch>						# pull down remote branch and merge into local
