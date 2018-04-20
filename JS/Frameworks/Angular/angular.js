@@ -1,6 +1,9 @@
 // Commands:
-// ng new my-app-name								// creates my-app-name folder/app in pwd
-// ng generate component article 					// creates new component (article)
+// npm install										// install dependencies in package.json
+// npm start										// run scripts to build project
+// ng new <my-app>									// creates my-app-name folder/app in pwd
+// ng generate component <component>				// creates new component
+// ng generate guard <component>					// creates new guarded/protected component
 // ng serve 										// compiles .ts to .js and starts local server on localhost:4200
 // ng serve --port 9001 							// open on port 9001 
 // ng build --target=production --base-href '/' 	// build dist folder for deployment
@@ -21,4 +24,4 @@
 		<a href="#">{{ name }}</a>
 		<span>{{ i < (product.department.length -1) ? '>' : '' }}</span>
 	</span>
-</div>*/													
+</div>*/	
