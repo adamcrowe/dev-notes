@@ -12,6 +12,7 @@ git commit --amend 						# combine staged changes with previous commit and repla
 git commit --amend -m "<message>" 		# edit previous commit message without adding staged changes to the commit
 git commit --amend --no-edit 			# after staging changes, amend previous commit with changes and use previous commit message
 
+git rm <filename>						# remove file (without the having to 'git add' the change to staging)
 git rm -r <filename/directory>			# recursively remove filename/directory
 
 git log									# show commit history for current branch
@@ -27,9 +28,10 @@ git fetch origin master					# fetches data from origin that we don't have *witho
 git pull origin master					# fetch latest changes from origin and merge with current local branch
 git push origin master 					# push local commits to remote version of current branch
 git branch 								# show all branches in repository
+git push -d <remote> <branch>			# delete remote branch
+git push <remote> --delete <branch>		# delete remote branch
 git branch –d <branch> 					# delete local branch
 git branch --delete <branch>			# delete local branch
-git push origin --delete <branch>		# delete remote branch
 git branch -m <branch> 					# rename branch
 git branch --contains <commit>			# get branch containing commit
 git merge <branch>						# pull down remote branch and merge into local

@@ -4,6 +4,7 @@ Esc -> : -> q! -> RETURN					# quit the vi editor without saving any changes you
 pwd 										# print working directory
 cd - 										# go to previous dir
 cd ~										# go to user's home dir
+rm <filename/directory>						# delete file/dir
 
 cp myfile.sql /httpdocs 					# copy myfile from pwd to another dir 
 scp myfile.sql /httpdocs 					# secure copy file from pwd to another dir 
