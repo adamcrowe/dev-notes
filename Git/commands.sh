@@ -32,6 +32,7 @@ git push -d <remote> <branch>			# delete remote branch
 git push <remote> --delete <branch>		# delete remote branch
 git branch –d <branch> 					# delete local branch
 git branch --delete <branch>			# delete local branch
+git branch -D <branch>					# -D = alias for --delete --force, which deletes branch "irrespective of merged status
 git branch -m <branch> 					# rename branch
 git branch --contains <commit>			# get branch containing commit
 git merge <branch>						# pull down remote branch and merge into local
@@ -62,7 +63,7 @@ git remote add origin <url.git> 		# create remote (origin) master e.g. https://g
 # STASHING
 git stash save "<message>" 				# save named changes - tracked only
 git stash -u save "<message>" 			# save named changes tracked and untracked (-u) 
-git stash list							# show in in stash
+git stash list							# show stashes in stash
 git stash show stash@{0} 				# show most recent stash
 git stash drop stash@{0} 				# delete most recent stash
 git stash apply 						# apply stash contents to branch and keep it in stash

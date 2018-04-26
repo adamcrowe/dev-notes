@@ -4,18 +4,4 @@ ESC	: q!			// (within insert mode) exit without saving
 
 vi .bash_profile	// open the file in vi
 
-OLLIE'S bash_profile:
-PATH=$PATH:/usr/local/sbin
-alias composer="php /usr/local/bin/composer.phar"
-parse_git_branch() {
-        git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-}
-#export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
-export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\[\033[0;37m\]\$(parse_git_branch)\[\033[00m\]$ "
-export CLICOLOR=1
-export LSCOLORS=GxFxCxDxBxegedabagaced
-if [ -f /Users/olliekett/.git-completion.bash ]; then
-        . /Users/olliekett/.git-completion.bash
-fi
-
 [Basic vi Commands](https://www.cs.colostate.edu/helpdocs/vi.html)
