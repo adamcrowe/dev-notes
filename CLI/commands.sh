@@ -50,3 +50,7 @@ TAB {letter(s)} 							# begin autocomplete using {letter}
 (Drag Finder directory into Terminal)		# copy directory location to Terminal
 
 sudo lsof -t -i tcp:4200 | xargs kill -9 	# kill currently running process on port 4200	
+
+less /private/etc/apache2/httpd.conf 		# LoadModule php5_module /usr/local/opt/php54/libexec/apache2/libphp5.so
+
+open -e /usr/local/etc/httpd/httpd.conf		# open in TextEdit

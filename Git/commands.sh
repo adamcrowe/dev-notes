@@ -24,7 +24,7 @@ git log --grep="<pattern>" 				# search log using <pattern>, which can be a plai
 
 git log --graph --abbrev-commit --pretty=oneline --decorate
 
-git fetch origin master					# fetches data from origin that we don't have *without* merging
+git fetch origin master					# fetches everything from origin that we don't have *without* merging
 git pull origin master					# fetch latest changes from origin and merge with current local branch
 git push origin master 					# push local commits to remote version of current branch
 git branch 								# show all branches in repository
@@ -47,6 +47,7 @@ git checkout HEAD hello.py 				# get back (apply to pwd) the most recent version
 git checkout HEAD~2 					# move head back two commits 
 										# (warning: detaches the head, create new branch if working from new (~2) node)
 git checkout HEAD foo.py 				# discard unstaged changes to foo.py (file-only version of git reset HEAD --hard)
+git checkout <branch> origin/<branch>   # creare new local branch based on a remote branch
 git reset								# at commit-level: discard commits in a private branch or throw away uncommitted changes
 git reset								# at file-level: unstage a file
 git revert								# at commit-level: undo commits in a public branch
