@@ -1,3 +1,8 @@
+
+! Put Display to Sleep
+* pmset displaysleepnow
+> Press Ctrl+Shift+Eject to put your Mac's displays to sleep immediately, with no warnings or delay. If you're really finished working and want to put your Mac to sleep, press Opt+Cmd+Eject to instantly put your Mac to sleep.
+
 ! Show hidden files/folders
 
 !! AppleScript 

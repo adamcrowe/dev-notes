@@ -116,6 +116,7 @@
 * https://askubuntu.com/questions/918379/what-is-the-main-difference-between-chmod-and-chown
 * https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf
 * https://warrior.js.org
+* https://developers.google.com/web/tools/chrome-devtools/
 
 ## DONE
 * [A Modern Front-End Workflow with DevTools](https://www.youtube.com/watch?v=wz1Sy5C039M)
