@@ -14,6 +14,7 @@ git commit --amend --no-edit 			# after staging changes, amend previous commit w
 
 git rm <filename>						# remove file (without the having to 'git add' the change to staging)
 git rm -r <filename/directory>			# recursively remove filename/directory
+git mv old.php new.php					# rename file old.php to new.php
 
 git log									# show commit history for current branch
 git log --pretty=format:<format> 		# show pretty log (format: "%h - %an, %ar : %s")
