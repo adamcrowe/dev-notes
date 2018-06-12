@@ -4,7 +4,14 @@ Esc -> : -> q! -> RETURN					# quit the vi editor without saving any changes you
 pwd 										# print working directory
 cd - 										# go to previous dir
 cd ~										# go to user's home dir
-rm <filename/directory>						# delete file/dir
+
+echo "hello world!" - > helloworld.txt		# create/overwrite file
+
+rm <filename>								# delete file
+rmdir <directory>							# delete empty directory
+rm -R <directory>							# delete directory and contents
+rm -rf </path/to/directory>					# delete directory and contents
+rm -rf </path/to/directory/*>				# delete contents of directory only
 
 cp myfile.sql /httpdocs 					# copy myfile from pwd to another dir 
 scp myfile.sql /httpdocs 					# secure copy file from pwd to another dir 
@@ -59,3 +66,5 @@ sudo lsof -t -i tcp:4200 | xargs kill -9 	# kill currently running process on po
 less /private/etc/apache2/httpd.conf 		# LoadModule php5_module /usr/local/opt/php54/libexec/apache2/libphp5.so
 
 open -e /usr/local/etc/httpd/httpd.conf		# open in TextEdit
+
+less /etc/hosts								# edit hosts file
