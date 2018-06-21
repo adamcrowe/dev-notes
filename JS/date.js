@@ -26,3 +26,6 @@ function JSClock() {
 	
 	return temp; 
 }
+
+/// ! Moment
+const todayDate = moment().format('YYYY-MM-DD');
