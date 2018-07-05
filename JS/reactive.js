@@ -1,4 +1,13 @@
 // ! Observables
+// * As a publisher, you create an Observable instance that defines a subscriber function.
+// * The subscriber function is executed when the Observable's subscribe() method is called.
+// * The subscriber function defines how to obtain or generate values or messages to be published.
+// * To execute the Observable and begin receiving notifications, you call its subscribe() method, passing an observer. 
+// * The observer is a JavaScript object that defines the handlers for the notifications you receive from the subscriber function.
+// * The subscribe() call returns a Subscription object that has an unsubscribe() method, which you call to stop receiving notifications.
+// * Data published by an observable is a stream. Any type of value can be represented with an observable, and values are published as a stream.
+// https://angular.io/guide/observables
+
 // (From: ng-book: Data Architecture with Observables):
 // Here are a few big ideas about streams:
 // * 1: Promises emit a single value whereas streams emit many values. Streams improve upon the promise pattern in that we can continuously respond to data changes on a stream (vs. a one-time resolve from a promise)
