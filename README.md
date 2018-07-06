@@ -49,3 +49,6 @@
 
 #
 > It has taken us some time to dare to believe in our own results. It now seems to us, although we are aware that at this point we do not have sufficient data, and so it must remain a speculation, that what distinguishes the three groups in the first test is their different attitudes to meaninglessness. Formal logical proofs, and therefore programs – formal logical proofs that particular computations are possible, expressed in a formal system called a programming language – are utterly meaningless. To write a computer program you have to come to terms with this, to accept that whatever you might want the program to mean, the machine will blindly follow its meaningless rules and come to some meaningless conclusion. In the test the consistent group showed a pre-acceptance of this fact: they are capable of seeing mathematical calculation problems in terms of rules, and can follow those rules wheresoever they may lead. The inconsistent group, on the other hand, looks for meaning where it is not. The blank group knows that it is looking at meaninglessness, and refuses to deal with it. -- [Saeed Dehnadi and Richard Bornat](http://www.eis.mdx.ac.uk/research/PhDArea/saeed/paper1.pdf)
+
+#
+> Gradualism in theory is perpetuity in practice. -- [William Lloyd Garrison](https://en.wikipedia.org/wiki/William_Lloyd_Garrison)

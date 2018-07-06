@@ -21,6 +21,7 @@
 // * We capture emitted events asynchronously, by defining a function that will execute when a value is emitted, another function when an error is emitted, and another function when 'completed' is emitted.
 // * Sometimes these last two can be omitted and you can just focus on defining the function for values. 
 // * The "listening" to the stream is called subscribing. The functions we are defining are observers. The stream is the subject (or "observable") being observed. This is precisely the Observer Design Pattern.
+// * The official terminology for a stream is "Observable", for the fact that it can be observed, but I find it to be a silly name, so I call it "stream".
 
 // [RxJS Marbles: Interactive diagrams of Rx Observables](http://rxmarbles.com)
 // [RxJS and reactive programming tutorials](https://legacy.gitbook.com/book/btroncone/learn-rxjs/details)
