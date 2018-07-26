@@ -34,6 +34,7 @@
 * [-] SPEAKING JAVASCRIPT
 * [-] LEARNING JAVASCRIPT DESIGN PATTERNS
 * [/] CORE JAVASCRIPT CONCEPTS
+* [-] [Using JavaScript’s Bitwise Operators in Real Life](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
 
 ## FUNCTIONAL
 * [-] LEARNING UNDERSCORE (MONGO)
