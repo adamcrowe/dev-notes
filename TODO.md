@@ -8,8 +8,8 @@
 * [Watch and Code - Slack Channel](https://watchandcode.slack.com)
 
 ## FRONT-END
-* [/] NG-BOOK (ANGULAR)
-* [-] ANGULAR.IO TUTORIAL
+* [/] [ng-book (Angular 5)](https://www.ng-book.com/2/)
+* [-] [Angular Quickstart Guide](https://angular.io/guide/quickstart)
 * [-] ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX
 * [-] MDN: HTTP
 * [-] MDN: NODE + SQL
