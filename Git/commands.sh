@@ -72,6 +72,8 @@ git stash apply 						# apply stash contents to branch and keep it in stash
 git stash branch add-style stash@{1} 	# create new branch from stash
 git stash pop 							# remove/extract/pop latest from stash and apply to branch
 git stash clear 						# clear stash
+git stash pop stash@{n}					# apply stash and remove it from the stash list
+git stash apply stash@{n} 				# apply a stash and keep it in the stash cache
 
 # MERGING
 git merge <branch>						# pull down remote branch and merge into local

@@ -4,6 +4,7 @@ Esc -> : -> q! -> RETURN					# quit the vi editor without saving any changes you
 pwd 										# print working directory
 cd - 										# go to previous dir
 cd ~										# go to user's home dir
+df 											# reports available disk space
 
 echo "hello world!" - > helloworld.txt		# create/overwrite file
 
