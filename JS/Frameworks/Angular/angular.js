@@ -1,11 +1,13 @@
 // Commands:
 // npm install										// install dependencies in package.json
+// npm install - g @angular/cli						// install angular cli globally
 // npm start										// run scripts to build project
 // ng new <my-app>									// creates my-app-name folder/app in pwd
 // ng generate component <component>				// creates new component
 // ng generate guard <component>					// creates new guarded/protected component
 // ng serve 										// compiles .ts to .js and starts local server on localhost:4200
 // ng serve --port 9001 							// open on port 9001 
+// ng serve --port 9001 --open 						// --open flag opens a browser to http://localhost:9001/
 // ng build --target=production --base-href '/' 	// build dist folder for deployment
 
 // EventEmitter 									// is an object that implements the Observer Pattern:
