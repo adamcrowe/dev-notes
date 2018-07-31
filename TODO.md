@@ -9,7 +9,8 @@
 
 ## FRONT-END
 * [/] [ng-book (Angular 5)](https://www.ng-book.com/2/)
-* [-] [Angular Quickstart Guide](https://angular.io/guide/quickstart)
+* [-] [Angular Tutorial](https://angular.io/tutorial)
+* [-] [Angular Docs](https://angular.io/)
 * [-] ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX
 * [-] MDN: HTTP
 * [-] MDN: NODE + SQL
