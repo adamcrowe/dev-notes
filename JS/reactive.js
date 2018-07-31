@@ -50,6 +50,9 @@ Rx.Observable.fromEvent(button, 'click')
 // * A Subject inherits from both Observable and Observer. Think of a Subject as a "read/write" steam.
 // * BehaviourSubject stores the latest value in a stream e.g., currentUser: Subject<User> = new BehaviorSubject<User>(null);
 
+// A Subject is both a source of observable values and an Observable itself. You can subscribe to a Subject as you would any Observable.
+// You can also push values into that Observable by calling its next(value).
+
 // ! Promises
 // TODO: .reduce() example: Running Promises in Sequence 
 // <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce>

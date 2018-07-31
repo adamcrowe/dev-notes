@@ -14,6 +14,9 @@
 // ng generate module app-routing--flat--module = app 	// --flat puts the file in src/app instead of its own folder
 														// --module=app tells the CLI to register it in the imports array of the AppModule
 
+// <li * ngFor="let hero of heroes$ | async"></li>		// $ is a convention that indicates heroes$ is an Observable not an array
+														// async identifies Angular's AsyncPipe which subscribes to an Observable automaticall
+
 // EventEmitter 										
 // is an object that implements the Observer Pattern:
 // it will... 
