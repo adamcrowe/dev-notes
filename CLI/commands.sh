@@ -1,6 +1,13 @@
 Esc -> : -> q! -> RETURN					# quit the vi editor without saving any changes you've made:
 											# if insert or append mode: Press Esc -> Press : (colon) -> Enter q! -> Press RETURN
 
+ctrl-a  									# move to the beginning of the line
+ctrl-e										# move to the end of the line
+ctrl-u 										# clear the line (before the cursor position)
+ctrl-w 										# delete the word before the cursor position
+
+history										# shows history of typed commands
+
 pwd 										# print working directory
 cd - 										# go to previous dir
 cd ~										# go to user's home dir

@@ -68,8 +68,9 @@
 * [-] PRO GIT
 * [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS 
 * [-] OLIVER: INTRODUCTION TO UNIX
-* [-] INTRODUCTION TO BASH, VIM & REGEX
+* [-] UNIX POWER TOOLS, THIRD EDITION
 * [-] [sed, a stream editor](https://www.gnu.org/software/sed/manual/sed.html)
+* [-] INTRODUCTION TO BASH, VIM & REGEX
 * [-] PRACTICAL VIM
 * [-] MODERN VIM
 * [-] THE VIML PRIMER
