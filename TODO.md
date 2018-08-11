@@ -8,7 +8,9 @@
 * [Watch and Code - Slack Channel](https://watchandcode.slack.com)
 
 ## FRONT-END
-* [-] NG-BOOK (ANGULAR)
+* [/] [ng-book (Angular 5)](https://www.ng-book.com/2/)
+* [/] [Angular Tutorial](https://angular.io/tutorial)
+* [-] [Angular Docs](https://angular.io/)
 * [-] ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX
 * [-] MDN: HTTP
 * [-] MDN: NODE + SQL
@@ -33,12 +35,17 @@
 * [-] SPEAKING JAVASCRIPT
 * [-] LEARNING JAVASCRIPT DESIGN PATTERNS
 * [/] CORE JAVASCRIPT CONCEPTS
+* [-] [Using JavaScript’s Bitwise Operators in Real Life](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
 
 ## FUNCTIONAL
 * [-] LEARNING UNDERSCORE (MONGO)
 * [-] FUNCTIONAL JAVASCRIPT (UNDERSCORE)
 * [-] FUNCTIONAL-LIGHT JAVASCRIPT
 * [-] JAVASCRIPT ALLONGE (FUNCTIONAL)
+
+## VISUALIZATION
+* [-] DASHINGD3JS.COM
+* [-] INTERACTIVE DATA VISUALIZATION FOR THE WEB 2ND ED
 
 ## HTML/CSS
 * [/] BOOTSTRAP 3/4
@@ -62,6 +69,7 @@
 * [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS 
 * [-] OLIVER: INTRODUCTION TO UNIX
 * [-] INTRODUCTION TO BASH, VIM & REGEX
+* [-] [sed, a stream editor](https://www.gnu.org/software/sed/manual/sed.html)
 * [-] PRACTICAL VIM
 * [-] MODERN VIM
 * [-] THE VIML PRIMER

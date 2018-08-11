@@ -88,3 +88,4 @@ var regex = new RegExp("[^0-9-" + decimal + "]", "g"); // find non-numeric, non-
 'rarr'.match(/(r)a(\1{2})/g); // match 'r' followed by two r's ('rr') returns: ["rarr"]
 '(999)'.match(/\((.*)\)/); // match zero or more occurrences of anything within and including parentheses // returns: ["(999)", "999"]
 '(999)'.replace(/\((.*)\)/, "-$1"); // returns: "-999"  
+'999999'.replace(/\B(?=(\d{3})+(?!\d))/g, ','); // return "999,999" i.e., comma-separate the value every 3 digits

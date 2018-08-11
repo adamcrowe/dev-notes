@@ -1,0 +1,2 @@
+SELECT * FROM myDB.table WHERE NOT(STRCMP(CEIL(checkThisField), checkThisField)); -- GET VALUES THAT ARE *NOT* A STRINGS
+SELECT * FROM myDB.table WHERE (STRCMP(CEIL(checkThisField), checkThisField)); -- GET VALUES THAT ARE STRINGS
