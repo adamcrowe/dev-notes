@@ -1,3 +1,6 @@
+# SET foreign_key_checks=0;
+# SET foreign_key_checks=1;
+
 # Errors: MySQL errno 150; MySQL errno 121;
 # <http://www.eliacom.com/mysql-gui-wp-errno-150.php> 
 # <http://dev.mysql.com/doc/refman/5.5/en/innodb-error-codes.html>

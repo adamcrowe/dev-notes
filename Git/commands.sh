@@ -12,7 +12,7 @@ git commit --amend 						# combine staged changes with previous commit and repla
 git commit --amend -m "<message>" 		# edit previous commit message without adding staged changes to the commit
 git commit --amend --no-edit 			# after staging changes, amend previous commit with changes and use previous commit message
 
-git rm <filename>						# remove file (without the having to 'git add' the change to staging)
+git rm <filename>						# remove file (without having to 'git add' the change to staging)
 git rm -r <filename/directory>			# recursively remove filename/directory
 git mv old.php new.php					# rename file old.php to new.php
 

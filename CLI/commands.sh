@@ -1,10 +1,10 @@
 Esc -> : -> q! -> RETURN					# quit the vi editor without saving any changes you've made:
 											# if insert or append mode: Press Esc -> Press : (colon) -> Enter q! -> Press RETURN
 
-ctrl-a  									# move to the beginning of the line
-ctrl-e										# move to the end of the line
-ctrl-u 										# clear the line (before the cursor position)
-ctrl-w 										# delete the word before the cursor position
+CTRL-a  									# move to the beginning of the line
+CTRL-e										# move to the end of the line
+CTRL-u 										# clear the line (before the cursor position)
+CTRL-w 										# delete the word before the cursor position
 
 history										# shows history of typed commands
 
@@ -37,7 +37,7 @@ ls -R 										# list recursively
 
 UP ARROW									# show previously executed commands
 Right-click (in PuTTy)						# paste 
-CTRL + C 									# kill script/process
+CTRL-C 										# kill script/process
 sudo 										# superuser powers for single command
 
 echo "Test" > README.txt					# create README.txt with "Test" as content
