@@ -1,8 +1,3 @@
-// Object.assign()
-// Combines objects (warning: shallow clone)
-const newState = Object.assign({}, obj1, obj2, obj3);
-
-// Alternatively...
 // Deep clone an object:
 const obj1 = { a: 0, b: { c: 0 } };
 let obj3 = JSON.parse(JSON.stringify(obj1)); // deep clone
