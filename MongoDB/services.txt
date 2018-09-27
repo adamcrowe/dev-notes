@@ -1,0 +1,2 @@
+Hosted:
+https://www.mongodb.com/cloud/atlas
