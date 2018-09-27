@@ -1,16 +1,16 @@
 # BOOKS/COURSES/TUTORIALS
 
 ## WATCH AND CODE
-* [Watch and Code - Practical JavaScript](https://watchandcode.com)
-* [Watch and Code - Premium Membership](https://watchandcode.com)
-* [Watch and Code - Beast Challenges](https://github.com/gordonmzhu)
-* [Watch and Code - Office Hours](https://www.youtube.com/user/gordonmzhu)
-* [Watch and Code - Slack Channel](https://watchandcode.slack.com)
+* [/] [Watch and Code - Practical JavaScript](https://watchandcode.com)
+* [-] [Watch and Code - Premium Membership](https://watchandcode.com)
+* [/] [Watch and Code - Beast Challenges](https://github.com/gordonmzhu)
+* [-] [Watch and Code - Office Hours](https://www.youtube.com/user/gordonmzhu)
+* [-] [Watch and Code - Slack Channel](https://watchandcode.slack.com)
 
 ## FRONT-END
 * [/] [ng-book (Angular 5)](https://www.ng-book.com/2/)
 * [/] [Angular Tutorial](https://angular.io/tutorial)
-* [-] [Angular Docs](https://angular.io/)
+* [-] [Angular Docs](https://angular.io/) [Bookmark: The RxJS library]
 * [-] ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX
 * [-] MDN: HTTP
 * [-] MDN: NODE + SQL

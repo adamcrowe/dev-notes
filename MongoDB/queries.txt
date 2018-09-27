@@ -1,0 +1,1 @@
+Queries: https://blog.exploratory.io/an-introduction-to-mongodb-query-for-beginners-bd463319aa4c
