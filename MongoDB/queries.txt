@@ -1,3 +1,4 @@
 Queries: 
 https://blog.exploratory.io/an-introduction-to-mongodb-query-for-beginners-bd463319aa4c
 https://docs.mongodb.com/manual/reference/sql-comparison/
+https://docs.mongodb.com/manual/reference/sql-aggregation-comparison/
