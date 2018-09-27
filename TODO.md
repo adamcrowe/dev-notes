@@ -118,6 +118,7 @@
 * [Maths for Programmers](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
 
 # ARTICLES
+* [How to Build TypeScript App and Deploy it on GitHub Page](https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html)
 
 ## CURRENT
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
