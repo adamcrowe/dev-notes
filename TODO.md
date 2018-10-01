@@ -1,3 +1,46 @@
+# VARIOUS
+
+## CURRENT
+* https://developers.google.com/web/fundamentals/primers/promises#complex_async_code_made_easier
+* https://angular.io/guide/rx-library
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+* https://medium.freecodecamp.org/demystifying-javascripts-new-keyword-874df126184c
+
+# VIDEOS
+* [Fun Fun Function](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
+* [Wes Bos](https://www.youtube.com/user/wesbos/playlists?disable_polymer=1)
+* [Boost your tech career](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
+* [Workplace Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY) 
+* [Git Tutorial](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQHO1PfyscjIPkNJjgHsLyH)
+* [Git & GitHub](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF)
+* [NodeJS Tutorial](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSpxyVx5XcprEgvhJ1BzruD) 
+* [Design Patterns](https://www.youtube.com/playlist?list=PLF206E906175C7E07) 
+* [Object Oriented Design](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE) 
+* [Code Refactoring](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV) 
+* [Computer Science and Software Engineering Theory](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy) 
+* [Data Structures and Algorithms](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ)
+* [Maths for Programmers](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
+
+## DONE
+* [A Modern Front-End Workflow with DevTools](https://www.youtube.com/watch?v=wz1Sy5C039M)
+
+## TODO
+* https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5
+* https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html
+* http://codon.com/hello-declarative-world 
+* http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html
+* https://www.infoq.com/presentations/Simple-Made-Easy
+* http://blog.teamtreehouse.com/mastering-developer-tools-console
+* https://medium.freecodecamp.org/bash-shortcuts-to-enhance-your-git-workflow-5107d64ea0ff
+* https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
+* https://natelandau.com/my-mac-osx-bash_profile/
+* https://en.wikibooks.org/wiki/Bash_Shell_Scripting
+* http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
+* https://askubuntu.com/questions/918379/what-is-the-main-difference-between-chmod-and-chown
+* https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf
+* https://warrior.js.org
+* https://developers.google.com/web/tools/chrome-devtools/
+
 # BOOKS/COURSES/TUTORIALS
 
 ## WATCH AND CODE
@@ -10,7 +53,7 @@
 ## FRONT-END
 * [/] [ng-book (Angular 5)](https://www.ng-book.com/2/)
 * [/] [Angular Tutorial](https://angular.io/tutorial)
-* [-] [Angular Docs](https://angular.io/) [Bookmark: The RxJS library]
+* [-] [Angular Docs](https://angular.io/) [Bookmark: See CURRENT]
 * [-] ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX
 * [-] MDN: HTTP
 * [-] MDN: NODE + SQL
@@ -35,7 +78,6 @@
 * [-] SPEAKING JAVASCRIPT
 * [-] LEARNING JAVASCRIPT DESIGN PATTERNS
 * [/] CORE JAVASCRIPT CONCEPTS
-* [-] [Using JavaScript’s Bitwise Operators in Real Life](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
 
 ## FUNCTIONAL
 * [-] LEARNING UNDERSCORE (MONGO)
@@ -104,43 +146,3 @@
 * [-] DATABASE DESIGN FOR MERE MORTALS
 * [-] BEGINNING DATABASE DESIGN SOLUTIONS
 * [-] SQL ANTIPATTERNS
-
-# VIDEOS
-* [Fun Fun Function](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
-* [Wes Bos](https://www.youtube.com/user/wesbos/playlists?disable_polymer=1)
-* [Boost your tech career](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
-* [Workplace Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY) 
-* [Git Tutorial](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQHO1PfyscjIPkNJjgHsLyH)
-* [Git & GitHub](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF)
-* [NodeJS Tutorial](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSpxyVx5XcprEgvhJ1BzruD) 
-* [Design Patterns](https://www.youtube.com/playlist?list=PLF206E906175C7E07) 
-* [Object Oriented Design](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE) 
-* [Code Refactoring](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV) 
-* [Computer Science and Software Engineering Theory](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy) 
-* [Data Structures and Algorithms](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ)
-* [Maths for Programmers](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
-
-# ARTICLES
-* [How to Build TypeScript App and Deploy it on GitHub Page](https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html)
-
-## CURRENT
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
-* https://medium.freecodecamp.org/demystifying-javascripts-new-keyword-874df126184c
-
-## TODO
-* http://codon.com/hello-declarative-world 
-* http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html
-* https://www.infoq.com/presentations/Simple-Made-Easy
-* http://blog.teamtreehouse.com/mastering-developer-tools-console
-* https://medium.freecodecamp.org/bash-shortcuts-to-enhance-your-git-workflow-5107d64ea0ff
-* https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
-* https://natelandau.com/my-mac-osx-bash_profile/
-* https://en.wikibooks.org/wiki/Bash_Shell_Scripting
-* http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
-* https://askubuntu.com/questions/918379/what-is-the-main-difference-between-chmod-and-chown
-* https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf
-* https://warrior.js.org
-* https://developers.google.com/web/tools/chrome-devtools/
-
-## DONE
-* [A Modern Front-End Workflow with DevTools](https://www.youtube.com/watch?v=wz1Sy5C039M)
