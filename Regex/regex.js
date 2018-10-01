@@ -1,4 +1,4 @@
-// REGEX REFERENCE: http://www.rexegg.com | https://regexr.com
+// REGEX REFERENCE: http://www.rexegg.com | https://regexr.com | https://visca.com/regexdict/
 /pattern/flags		
 /(a|b)/				// a or b captured and referenced as $1
 /abc/				// A sequence of characters
