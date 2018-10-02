@@ -15,6 +15,28 @@
 // * 3: RxJS is functional. Streams are in some sense lists, and so powerful functional operators all apply
 // * 4: Streams are composable. Think of streams like a pipeline of operations over your data. You can subscribe to any part of your stream and even combine them to create new streams.
 
+// !! Pipe function
+// You can use pipes to link operators together. Pipes let you combine multiple functions into a single function. The pipe() function takes as its arguments the functions you want to combine, and returns a new function that, when executed, runs the composed functions in sequence.
+import { filter, map } from 'rxjs/operators';
+
+// Use `of` to create a stream from array of values
+const squareOdd = of(1, 2, 3, 4, 5).pipe(
+    filter(n => n % 2 !== 0),
+    map(n => n * n)
+);
+
+// Subscribe to get values
+squareOdd.subscribe(x => console.log(x));
+
+// !! Common operators
+// Note that, for Angular apps, we prefer combining operators with pipes, rather than chaining. Chaining is used in many RxJS examples.
+// Creation:	    from, fromPromise, fromEvent, of
+// Combination:	    combineLatest, concat, merge, startWith, withLatestFrom, zip
+// Filtering:	    debounceTime, distinctUntilChanged, filter, take, takeUntil
+// Transformation:	bufferTime, concatMap, map, mergeMap, scan, switchMap
+// Utility:	        tap
+// Multicasting:	share
+
 // TO READ:
 // [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 // * Reactive programming is programming with asynchronous data streams. 
@@ -43,33 +65,9 @@ Rx.Observable.fromEvent(button, 'click')
 // A stream is a flow of values that will be arriving whenever they feel like
 // Streaming libraries:
 // * http://reactivex.io
-// * https://baconjs.github.io
-// * http://highlandjs.org
-// * https://nodejs.org/api/stream.html
 
 // * A Subject inherits from both Observable and Observer. Think of a Subject as a "read/write" steam.
 // * BehaviourSubject stores the latest value in a stream e.g., currentUser: Subject<User> = new BehaviorSubject<User>(null);
 
 // A Subject is both a source of observable values and an Observable itself. You can subscribe to a Subject as you would any Observable.
 // You can also push values into that Observable by calling its next(value).
-
-// ! Promises
-// TODO: .reduce() example: Running Promises in Sequence 
-// <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce>
-// http://bluebirdjs.com 
-
-import Promise from 'bluebird'
-
-const whenDragonLoaded = new Promise((resolve, reject)) => {
-  setTimeout(() => resolve({ 
-		{ name: 'Fluffykins', health: 70 } 
-	}, 2000) 
-});
-
-const names =
-  whenDragonLoaded
-    .map(dragon => dragon.name)
-    .then(name =>   console.log(name));
-
-// output 
-'Fluffykins'
