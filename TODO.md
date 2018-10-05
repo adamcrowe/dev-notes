@@ -1,7 +1,7 @@
 # ARTICLES
 
 ## CURRENT
-* https://angular.io/guide/observables-in-angular
+* https://angular.io/guide/bootstrapping
 
 ## TODO
 * [Boost your tech career](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)

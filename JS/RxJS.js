@@ -8,6 +8,12 @@
 // * Data published by an Observable is a stream. Any type of value can be represented with an Observable, and values are published as a stream.
 // https://angular.io/guide/observables
 
+// !! Observables compared to other techniques
+// * Observables compared to promises
+// * Observables compared to events API
+// * Observables compared to arrays
+// https://angular.io/guide/comparing-observables
+
 // (From: ng-book: Data Architecture with Observables):
 // Here are a few big ideas about streams:
 // * 1: Promises emit a single value whereas streams emit many values. Streams improve upon the promise pattern in that we can continuously respond to data changes on a stream (vs. a one-time resolve from a promise)
