@@ -32,6 +32,7 @@
 * [Workplace Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY) 
 * [Git Tutorial](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQHO1PfyscjIPkNJjgHsLyH)
 * [Git & GitHub](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF)
+* [JavaScript Classes Tutorial](https://www.youtube.com/watch?v=2ZphE5HcQPQ)
 * [NodeJS Tutorial](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSpxyVx5XcprEgvhJ1BzruD) 
 * [Design Patterns](https://www.youtube.com/playlist?list=PLF206E906175C7E07) 
 * [Object Oriented Design](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE) 
