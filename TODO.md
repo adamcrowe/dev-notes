@@ -1,7 +1,7 @@
 # ARTICLES
 
 ## CURRENT
-* https://angular.io/guide/feature-modules
+* https://angular.io/guide/lazy-loading-ngmodules
 
 ## TODO
 * [Boost your tech career](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
