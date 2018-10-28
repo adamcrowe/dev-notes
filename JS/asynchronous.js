@@ -1,4 +1,4 @@
-// ! Asynchronous
+// ! Asynchronous (see: RxJS, Promises)
 
 // There are generally three approaches to dealing with async code:
 // * Callbacks

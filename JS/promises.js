@@ -1,8 +1,6 @@
 // The Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
 // Essentially, a promise is a returned object to which you attach callbacks, instead of passing callbacks into a function.
 
-
-
 const promise = createAudioFileAsync(audioSettings);
 promise.then(successCallback, failureCallback);
 
@@ -139,6 +137,94 @@ class Storage {
 const storage = new Storage();
 storage.getAvatar('jaffathecake').then(/* do more stuff */);
 // Note: Class constructors and getters / settings cannot be async.
+
+// !!! Promisifying XMLHttpRequest
+function get(url) {
+    // Return a new promise.
+    return new Promise(function (resolve, reject) {
+        // Do the usual XHR stuff
+        var req = new XMLHttpRequest();
+        req.open('GET', url);
+
+        req.onload = function () {
+            // This is called even on 404 etc
+            // so check the status
+            if (req.status == 200) {
+                // Resolve the promise with the response text
+                resolve(req.response);
+            }
+            else {
+                // Otherwise reject with the status text
+                // which will hopefully be a meaningful error
+                reject(Error(req.statusText));
+            }
+        };
+
+        // Handle network errors
+        req.onerror = function () {
+            reject(Error("Network Error"));
+        };
+
+        // Make the request
+        req.send();
+    });
+}
+
+get('story.json').then((response) => {
+    console.log("Success!", response);
+}, (error) => {
+    console.error("Failed!", error);
+})
+
+// !! Chaining
+// You can transform values simply by returning the new value:
+
+var promise = new Promise(function (resolve, reject) {
+    resolve(1);
+});
+
+promise.then(function (val) {
+    console.log(val); // 1
+    return val + 2;
+}).then(function (val) {
+    console.log(val); // 3
+})
+
+// !! Queuing asynchronous actions
+// You can also chain thens to run async actions in sequence. When you return something from a then() 
+// callback, it's a bit magic. If you return a value, the next then() is called with that value. 
+// However, if you return something promise-like, the next then() waits on it, and is only called when 
+// that promise settles (succeeds/fails). For example:
+
+getJSON('story.json').then(function (story) {
+    return getJSON(story.chapterUrls[0]);
+}).then(function (chapter1) {
+    console.log("Got chapter 1!", chapter1);
+})
+// Here we make an async request to story.json, which gives us a set of URLs to request, then we request 
+// the first of those.This is when promises really start to stand out from simple callback patterns.
+
+// You could even make a shortcut method to get chapters:
+
+var storyPromise;
+
+function getChapter(i) {
+    storyPromise = storyPromise || getJSON('story.json');
+
+    return storyPromise.then(function (story) {
+        return getJSON(story.chapterUrls[i]);
+    })
+}
+
+// and using it is simple:
+getChapter(0).then(function (chapter) {
+    console.log(chapter);
+    return getChapter(1);
+}).then(function (chapter) {
+    console.log(chapter);
+})
+// We don't download story.json until getChapter is called, but the next time(s) getChapter is called we reuse 
+// the story promise, so story.json is only fetched once. 
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
 // https://developers.google.com/web/fundamentals/primers/promises
