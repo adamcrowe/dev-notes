@@ -23,6 +23,12 @@
 * https://en.wikibooks.org/wiki/Bash_Shell_Scripting
 * http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
 * https://askubuntu.com/questions/918379/what-is-the-main-difference-between-chmod-and-chown
+* https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf
+* https://warrior.js.org
+* https://developers.google.com/web/tools/chrome-devtools/
+* https://www.freecodecamp.org/news/beaucarnes/timeline-of-javascript-evolution--39ut308ZX
+* https://medium.freecodecamp.org/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f
+* http://dorophone.blogspot.com/2011/07/duckspeak-vs-smalltalk.html?view=classic
 
 # BOOKS/COURSES/TUTORIALS
 
@@ -118,6 +124,9 @@
 * [-] [Maths for Programmers](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
 * [-] CRACKING THE CODING INTERVIEW
 * [-] NAND TO TETRIS
+
+## SECURITY
+* [-] [Hack This Site](https://www.hackthissite.org)
 
 ## CRAFTMANSHIP
 * [-] HEAD FIRST SOFTWARE DEVELOPMENT
