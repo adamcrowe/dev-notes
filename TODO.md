@@ -1,7 +1,7 @@
 # ARTICLES
 
 ## CURRENT
-* https://angular.io/guide/lazy-loading-ngmodules
+* https://angular.io/guide/router
 
 ## TODO
 * [Boost your tech career](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)

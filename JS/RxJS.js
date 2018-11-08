@@ -35,7 +35,6 @@ const squareOdd = of(1, 2, 3, 4, 5).pipe(
 squareOdd.subscribe(x => console.log(x));
 
 // !! Common operators
-// Note that, for Angular apps, we prefer combining operators with pipes, rather than chaining. Chaining is used in many RxJS examples.
 // Creation:	      from, fromPromise, fromEvent, of
 // Combination:	    combineLatest, concat, merge, startWith, withLatestFrom, zip
 // Filtering:	      debounceTime, distinctUntilChanged, filter, take, takeUntil
@@ -44,7 +43,6 @@ squareOdd.subscribe(x => console.log(x));
 // Multicasting:	  share
 
 // !!! SwitchMap()
-// * From: https://angular.io/guide/http#debouncing-requests
 ngOnInit() {
   this.packages$ = this.searchText$.pipe(
     debounceTime(500),
@@ -57,6 +55,14 @@ ngOnInit() {
 // It takes a function argument that returns an Observable.PackageSearchService.search returns an Observable, as other data service methods do.
 // If a previous search request is still in -flight(as when the connection is poor), it cancels that request and sends a new one.
 // It returns service responses in their original request order, even if the server returns them out of order.
+// From: https://angular.io/guide/http#debouncing-requests
+
+// !!! tap()
+// The RxJS tap operator captures whether the request succeed or failed. 
+
+// !!! finalize()
+// The RxJS finalize operator is called when the response observable either errors or completes (which it must), and reports the outcome to the MessageService.
+
 
 // TO READ:
 // [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
