@@ -89,3 +89,8 @@ var regex = new RegExp("[^0-9-" + decimal + "]", "g"); // find non-numeric, non-
 '(999)'.match(/\((.*)\)/); // match zero or more occurrences of anything within and including parentheses // returns: ["(999)", "999"]
 '(999)'.replace(/\((.*)\)/, "-$1"); // returns: "-999"  
 '999999'.replace(/\B(?=(\d{3})+(?!\d))/g, ','); // return "999,999" i.e., comma-separate the value every 3 digits
+'({{).* (\?).* (:).* (t)(r)(a)(n)(s)(l)(a)(t)(e).* (}})' // js format: matches: {{ isRead() ? 'Back' : 'Cancel' | translate }}
+'[{][{].* [\?].* [:].* [t][r][a][n][s][l][a][t][e].* [}][}]' // java format: matches: {{ isRead() ? 'Back' : 'Cancel' | translate }}
+'/^\d{4}-(0[1-9]|1[0-2])-((0[1-9])|([1-2]\d)|(3[0-1]))$/' // YYYY-MM-DD
+'/^\d{4}-(0[1-9]|1[0-2])$/' // YYYY-MM
+'/^(0[1-9]|1[0-2])-(0[1-9]|([1-2]\d)|(3[0-1]))$/' // MM-DD

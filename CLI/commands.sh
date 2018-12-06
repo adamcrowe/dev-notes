@@ -25,7 +25,7 @@ cp myfile.sql /httpdocs 					# copy myfile from pwd to another dir
 scp myfile.sql /httpdocs 					# secure copy file from pwd to another dir 
 
 mv old_dir_name new_dir_name 				# (if new_dir_name does not exist...) rename old_dir_name to new_dir_name 
-mv old_dir_name new_dir_name 				#  (if new_dir_name exists...) move old_dir_name into new_dir_name
+mv old_dir_name new_dir_name 				# (if new_dir_name exists...) move old_dir_name into new_dir_name
 mv file_name ~/Desktop 						# move file_name to Desktop
 mv -R dir_name ~/Desktop					# move dir_name (and its contents) to Desktop
 
