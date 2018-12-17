@@ -39,3 +39,15 @@ fi
 export EDITOR=/usr/bin/nano
 ```
 */
+
+
+/*
+ADD GIT BRANCH TO TERMINAL PSI
+# via: https://techcommons.stanford.edu/topics/git/show-git-branch-bash-prompt
+parse_git_branch() {
+  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/()/'
+}
+
+# add git branch to prompt
+export PS1="\[\033]0;\h:\W\007\]\h:\W\$(parse_git_branch)] "
+*/

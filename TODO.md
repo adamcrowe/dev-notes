@@ -100,12 +100,15 @@
 * [/] JAVASCRIPT TESTING WITH JASMINE
 * [-] MODERN DEVTOOLS (VIDEO COURSE)
 
-## CLI/EDITORS
+## MAC/GIT/CLI/EDITORS
+* [-] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac/)
+* [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git/)
 * [-] PRO GIT
 * [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS 
-* [-] OLIVER: INTRODUCTION TO UNIX
+* [-] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
 * [-] UNIX POWER TOOLS, THIRD EDITION
-* [-] [sed, a stream editor](https://www.gnu.org/software/sed/manual/sed.html)
+* [-] [SED, A STREAM EDITOR](https://www.gnu.org/software/sed/manual/sed.html)
+* [-] [OLIVER: VIM BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_vim/)
 * [-] INTRODUCTION TO BASH, VIM & REGEX
 * [-] PRACTICAL VIM
 * [-] MODERN VIM
@@ -127,6 +130,11 @@
 
 ## SECURITY
 * [-] [Hack This Site](https://www.hackthissite.org)
+
+## NETWORK
+* [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws/)
+
+
 
 ## CRAFTMANSHIP
 * [-] HEAD FIRST SOFTWARE DEVELOPMENT
