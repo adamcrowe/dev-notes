@@ -2,6 +2,7 @@
 
 ## CURRENT
 * https://angular.io/guide/router
+* http://oliverelliott.org/article/computing/tut_unix
 
 ## TODO
 * [Boost your tech career](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
@@ -45,7 +46,7 @@
 ## FRONT-END
 * [/] [ng-book (Angular 5)](https://www.ng-book.com/2/)
 * [/] [Angular Tutorial](https://angular.io/tutorial)
-* [-] [Angular Docs](https://angular.io/) [Bookmark: See CURRENT]
+* [.] [Angular Docs](https://angular.io/) 
 * [-] ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX
 * [-] MDN: HTTP
 * [-] MDN: NODE + SQL
@@ -105,9 +106,8 @@
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git/)
 * [-] PRO GIT
 * [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS 
-* [-] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
+* [.] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
 * [-] UNIX POWER TOOLS, THIRD EDITION
-* [-] [SED, A STREAM EDITOR](https://www.gnu.org/software/sed/manual/sed.html)
 * [-] [OLIVER: VIM BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_vim/)
 * [-] INTRODUCTION TO BASH, VIM & REGEX
 * [-] PRACTICAL VIM
@@ -131,10 +131,8 @@
 ## SECURITY
 * [-] [Hack This Site](https://www.hackthissite.org)
 
-## NETWORK
+## NETWORK/DEPLOYMENT
 * [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws/)
-
-
 
 ## CRAFTMANSHIP
 * [-] HEAD FIRST SOFTWARE DEVELOPMENT
