@@ -440,10 +440,21 @@ extract my_compressed_file.gz
 extract my_compressed_file.bz2
 extract my_compressed_tarball.tar.gz
 
-tar xvzf download.tar.gz 								# x extracting archive, v verbose (give us some output),
-														# z unzips the file, f passing the name of the archive file
-gzip something.txt										# compress
-gzip -d something.txt.gz 								# decompress
+gzip file.txt											# compress
+gzip -d file.txt.gz 									# decompress
+gunzip file.txt.gz										# decompress
+cat file.gz | gunzip | head								# preserve zipped file while allowing preview of it
+zcat file.gz 											# cat a file without unzipping it
+zless file.gz											# less a file without unzipping it
+
+														# tar rolls, or glues, an entire directory structure into a single file (the original directory remains)
+tar -cvf dir.tar dir									# tar dir into a tarball called dir.tar. 
+														# "create a new archive containing the specified items" (-c), "write the archive to the specified file" (-f), verbose (-v) 
+
+tar -xvf dir.tar										# untar/extract (-x) 
+tar -zcvf dir.tar.gz dir								# tar and zip dir into a zipped tarball dir.tar.gz
+tar -zxvf dir.tar.gz									# extract (-x) plus unzip (-z)
+
 
 # less =============================================
 less file1.txt 											# open file.txt in less 
@@ -548,7 +559,7 @@ $ cat mail.txt | perl -ne '{chomp($_); if ( $_ =~ m/(\w+)(\@+)(\w+)/) {print $2,
 @
 @
 
-# awk													# awk executes its code once every line ($0 = whole line, $1 = first column, $2 = second column)
+# awk ===============================================	# awk executes its code once every line ($0 = whole line, $1 = first column, $2 = second column)
 cat test.txt 
 1	c
 3	c
@@ -656,6 +667,13 @@ cat file2.txt
 3       c
 2       t
 
+echo joe | awk '{for (i = 1; i <= 5; i++) {print i}}'	# for loop
+1
+2
+3
+4
+5
+
 echo -e "a\ta\na\tc\na\tz\na\ta"						# challenge: how would you print the row numbers such that the first field equals the second field?
 a	a
 a	c
@@ -746,7 +764,7 @@ eee
 ggg
 iii
 
-# sed
+# sed ===============================================
 cat test_header.txt
 This is a header
 1	asdf
@@ -795,8 +813,12 @@ done
 ls
 file1.html  file2.html	file3.html
 
+# touch ============================================= 
+touch test.txt 											# create empty file test.txt
+														# run this command to see if you have write permission in a particular dir
 
-# cat ================================================
+
+# cat ===============================================
 cat file.txt											# prints the contents of file.txt
 cat file.txt file2.txt									# prints the contents of both file.txt and file2.txt concatenated together
 cat -n file.txt      									# prints the contents of file.txt with line numbers
@@ -815,6 +837,13 @@ echo joe >> junk.txt  									# append to already-existing file
 cat junk.txt
 joe
 joe
+
+# column =============================================
+cat myfile.txt | column -t 								# (-t) prints myfile content in table/column format
+cat myfile.txt | column -t | less -S					# use less for horizontal scrolling
+
+cat myfile.txt | column -s'      ' -t | less -S 		# if fields contain spaces, make column delimit on tab rather than whitespace (default)
+														# CTRL-v tab = create tab character
 
 # head and tail ======================================
 head file1.txt     	 									# print the first 10 lines of file1 (10 by default)
@@ -958,6 +987,73 @@ $ cat sample.fa | paste - -									# put different rows of a file on the same l
 >TCONS_00046782	MRWHMPIIPALWEAEVSGSPDVRSLRPTWPTTPSLLKTKNKTKQNISWAWCMCL
 >TCONS_00046782	MFCFVLFFVFSRDGVVGQVGLKLLTSGDPLTSASQSAGIIGMCHRIQPWLLIY
 
+
+# date ==============================================
+date
+Sat Mar 21 18:23:56 EDT 2014
+
+date "+%y%m%d"
+120310 
+
+date "+%D"
+03/10/12
+
+date "+%s"
+
+
+# cal ===============================================
+cal
+cal -y
+cal 12 2011
+
+
+# dirname, basename =================================
+
+basename /some/path/to/file.txt							# get the file name
+file.txt
+
+dirname /some/path/to/file.txt							# get the the directory in which the file resides
+/some/path/to
+
+#!/bin/bash												
+d=$( dirname $( readlink -m $0 ) ) 						# get the directory in which your script itself resides
+
+
+# set, unset ========================================   # use set to set various properties of your shell
+
+#!/bin/bash												# using -x flag to debug, all commands to be echoed to std:err before they are run
+set -x  # activate debugging from here
+.
+.
+.
+set +x  # de-activate debugging from here
+
+#!/bin/bash
+set -eux												# exit immediately if a simple command exits with a non-zero status (-e)
+														# treat unset variables as an error when performing parameter expansion (-u)
+echo hello
+sleep 5
+echo joe
+
+# output:
++ echo hello
+hello
++ sleep 5
++ echo joe
+joe
+
+#!/bin/bash												# use unset to clear variables
+$ TEST=asdf
+$ echo $TEST
+asdf
+$ unset TEST
+$ echo $TEST
+
+
+# env ===============================================	# use env to avoid hard-wired paths in your shebang
+#!/usr/bin/env python									# use whichever python is first in the PATH
+#!/some/path/python										# use this python: /some/path/python
+ 
 
 # $PATH ============================================= 
 which less												# /usr/bin/less (the location of less in your PATH)
@@ -1103,10 +1199,32 @@ do echo $i; done
 $ for i in /some/path/*.txt; 							# print any file in /some/path that has the .txt file extension
 do echo $i; done
 
-$ find . -name "*.txt"									# list all text files in the cwd and below (i.e., including child directories)
+
+# find ==============================================
+find /some/directory -name "myfile"						# find "myfile" in /some/directory
+find . -name "*.txt"									# list all text files in the cwd and below (i.e., including child directories)
+find /my/dir -iname "*file*"							# list all files containing file - case insensitive (-iname)
+find mydirectory | wc -l								# count number of files/dirs in mydirectory
+
+for i in mydirectory/*; 								# count number of files/dirs in mydirectory (recursive)
+do echo "***"$i; 
+find $i | wc -l; 
+done
+
+find mydirectory -name "tmp.txt" | xargs rm				# delete any files called tmp.txt in mydirectory
+for i in $( find mydirectory -name "tmp.txt" ); 		# loop version of above
+do echo $i; 
+rm $i; 
+done
+
+find mydirectory -name "*.txt" | xargs gzip				# zip any file with the extension .txt in mydirectory
+for i in $( find mydirectory -name "*.txt" ); 			# loop version of above
+do echo $i; 
+gzip $i;
+done
 
 
-# create/delete/copy/rename file/dir =================
+# create/delete/copy/rename file/dir ================
 echo "hello world!" - > file1.txt						# create/overwrite file
 
 mkdir -p a/b/c  										# make nested directories (and -p don't complain if directory already exists)
@@ -1181,8 +1299,6 @@ echo $a													# 3
 echo $apple												# (variable apple is not set)
 echo ${a}pple											# 3pple (the variable $a plus the string "pple")
 
-filename=$( basename $file );							# basename returns only the filename (rather than the full path of the file)
-
 
 # Misc ===============================================								
 sudo 													# run command as the superuser						
@@ -1202,6 +1318,10 @@ tsc types.ts -w 										# watch mode: run tsc on types.ts whenever types.ts ch
 
 whoami													# show current user
 groups													# show user's groups
+uname -a 												# prints out various system information
+df -h 													# reports "file system disk space usage"
+du -sh myfolder											# reports disk usage of myfolder
+du -sh /my/dir/* | awk '$1 ~ /G/'						# find all the files in /my/dir in the gigabyte range
 
 sleep 5													# sleep for 5 seconds
 
@@ -1233,6 +1353,7 @@ CTRL-l 													# clear screen (works in the Python, MySQL, and other shells
 CTRL-d 													# end of transmission (synonymous with quit - e.g., exiting the Python or MySQL shells)
 CTRL-s 													# freeze screen
 CTRL-q 													# un-freeze screen
+CTRL-v tab												# make tab character
 
 TAB {letter(s)} 										# begin autocomplete using {letter}
 (Drag Finder directory into Terminal)					# copy directory location to Terminal
