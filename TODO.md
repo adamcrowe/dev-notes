@@ -34,19 +34,19 @@
 # BOOKS/COURSES/TUTORIALS
 
 ## GENERAL
-* [-] [Fun Fun Function](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
+* [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
 
 ## WATCH AND CODE
-* [/] [Watch and Code - Practical JavaScript](https://watchandcode.com)
-* [-] [Watch and Code - Premium Membership](https://watchandcode.com)
-* [/] [Watch and Code - Beast Challenges](https://github.com/gordonmzhu)
-* [-] [Watch and Code - Office Hours](https://www.youtube.com/user/gordonmzhu)
-* [-] [Watch and Code - Slack Channel](https://watchandcode.slack.com)
+* [/] [WATCH AND CODE - PRACTICAL JAVASCRIPT](https://watchandcode.com)
+* [-] [WATCH AND CODE - PREMIUM MEMBERSHIP](https://watchandcode.com)
+* [/] [WATCH AND CODE - BEAST CHALLENGES](https://github.com/gordonmzhu)
+* [-] [WATCH AND CODE - OFFICE HOURS](https://www.youtube.com/user/gordonmzhu)
+* [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
 
 ## FRONT-END
-* [/] [ng-book (Angular 5)](https://www.ng-book.com/2/)
-* [/] [Angular Tutorial](https://angular.io/tutorial)
-* [.] [Angular Docs](https://angular.io/) 
+* [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2/)
+* [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
+* [.] [ANGULAR DOCS](https://angular.io/) 
 * [-] ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX
 * [-] MDN: HTTP
 * [-] MDN: NODE + SQL
@@ -70,7 +70,7 @@
 * [-] YOU DON'T KNOW JAVASCRIPT
 * [-] SPEAKING JAVASCRIPT
 * [-] LEARNING JAVASCRIPT DESIGN PATTERNS
-* [-] [NodeJS Tutorial](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSpxyVx5XcprEgvhJ1BzruD)
+* [-] [NODEJS TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSpxyVx5XcprEgvhJ1BzruD)
 * [/] CORE JAVASCRIPT CONCEPTS
 
 ## FUNCTIONAL
@@ -115,21 +115,22 @@
 * [-] THE VIML PRIMER
 
 ## COMPSCI
-* [-] [How Do Computers and the Internet Work? - Computer Science Basics](https://www.youtube.com/watch?v=AV_VYsJnHQQ)
+* [-] [HOW DO COMPUTERS AND THE INTERNET WORK? - COMPUTER SCIENCE BASICS](https://www.youtube.com/watch?v=AV_VYsJnHQQ)
+* [-] [PYTHON CODING AND SYNTAX REFERENCE](http://oliverelliott.org/article/computing/wik_python)
 * [-] PRACTICAL PROGRAMMING: AN INTRODUCTION TO COMPUTER SCIENCE USING PYTHON 3
 * [-] THINK LIKE A PROGRAMMER PYTHON EDITION
 * [-] CODE: THE HIDDEN LANGUAGE OF COMPUTER HARDWARE AND SOFTWARE
 * [-] IMPOSTER'S HANDBOOK 
-* [-] [Data Structures and Algorithms](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ)
-* [-] [Data Structures and Algorithms in JavaScript - Full Course for Beginners](https://www.youtube.com/watch?v=t2CEgPsws3U)
+* [-] [DATA STRUCTURES AND ALGORITHMS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ)
+* [-] [DATA STRUCTURES AND ALGORITHMS IN JAVASCRIPT - FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=t2CEgPsws3U)
 * [-] DATA STRUCTURES AND ALGORITHMS WITH JAVASCRIPT
-* [-] [Learning Algorithms App](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
-* [-] [Maths for Programmers](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
+* [-] [LEARNING ALGORITHMS APP](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
+* [-] [MATHS FOR PROGRAMMERS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
 * [-] CRACKING THE CODING INTERVIEW
 * [-] NAND TO TETRIS
 
 ## SECURITY
-* [-] [Hack This Site](https://www.hackthissite.org)
+* [-] [HACK THIS SITE](https://www.hackthissite.org)
 
 ## NETWORK/DEPLOYMENT
 * [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws/)
@@ -145,22 +146,22 @@
 * [-] CLEAN CODE: A HANDBOOK OF AGILE SOFTWARE CRAFTSMANSHIP
 * [-] CLEAN CODER: A CODE OF CONDUCT FOR PROFESSIONAL PROGRAMMERS
 * [-] CLEAN ARCHITECTURE: A CRAFTSMAN'S GUIDE TO SOFTWARE STRUCTURE AND DESIGN
-* [-] [Design Patterns](https://www.youtube.com/playlist?list=PLF206E906175C7E07) 
-* [-] [Object Oriented Design](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE) 
-* [-] [Code Refactoring](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV) 
-* [-] [Computer Science and Software Engineering Theory](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy) 
+* [-] [DESIGN PATTERNS](https://www.youtube.com/playlist?list=PLF206E906175C7E07) 
+* [-] [OBJECT ORIENTED DESIGN](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE) 
+* [-] [CODE REFACTORING](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV) 
+* [-] [COMPUTER SCIENCE AND SOFTWARE ENGINEERING THEORY](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy) 
 
 ## MONGO
-* [-] [MongoDB Full Tutorial with NodeJS, Express, & Mongoose](https://www.youtube.com/watch?v=4yqu8YF29cU)
-* [-] [Getting Started with MongoDB](https://resources.mongodb.com/getting-started-with-mongodb)
+* [-] [MONGODB FULL TUTORIAL WITH NODEJS, EXPRESS, & MONGOOSE](https://www.youtube.com/watch?v=4yqu8YF29cU)
+* [-] [GETTING STARTED WITH MONGODB](https://resources.mongodb.com/getting-started-with-mongodb)
 
 ## SQL
-* [-][SQL: Full Course for Beginners](https://www.youtube.com/watch?v=HXV3zeQKqGY)
+* [-][SQL: FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=HXV3zeQKqGY)
 * [-] SQL QUERIES FOR MERE MORTALS
 * [-] DATABASE DESIGN FOR MERE MORTALS
 * [-] BEGINNING DATABASE DESIGN SOLUTIONS
 * [-] SQL ANTIPATTERNS
 
 # DONE
-* [A Modern Front-End Workflow with DevTools](https://www.youtube.com/watch?v=wz1Sy5C039M)
+* [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 * https://developers.google.com/web/fundamentals/primers/promises#complex_async_code_made_easier

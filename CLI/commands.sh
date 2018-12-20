@@ -22,6 +22,43 @@ alias n="history | tail -2 | head -1 | tr -s ' ' | cut -d' ' -f3- | awk '{print 
 ./long_hard-to-remember_command --with_lots --of_flags > poorly_named_file
 n														# saves command in notes file in cwd
 
+
+# While Loops
+#!/bin/bash
+i=0
+
+while [ $i -le 2 ]										# -le, -lt, -ge, -gt, e
+do
+	echo Number: $i
+	((i++))
+done
+
+#!/bin/bash
+file=/etc/passwd
+														# IFS= prevent default trimming of leading/trailing whitespace characters (spaces and tabs)
+while IFS= read -r line; do 							# use read with the -r option to prevent backslash acting as an escape character
+	echo $line
+done < "$file"
+
+#!/bin/bash
+i=0
+while [ $i -lt 5 ]
+do
+	((i++))
+	if [[ "$i" == '2' ]]; then
+		continue
+	fi
+	echo "Number: $i"
+done
+echo 'All Done!'
+
+# output
+Number: 1
+Number: 3
+Number: 4
+Number: 5
+All Done!
+
 # Piping
 cat file.txt | sort | less 								# only the stdout stream gets passed through the pipeline; the stderr hits the screen right away
 cat -n file.txt | head -37 | tail -1  					# print row 37
@@ -566,6 +603,15 @@ cat file1.txt | grep -m 2 apple							# exit after finding the first two instanc
 egrep "apple|orange" file1.txt  						# return lines with `apple` OR `orange`
 
 
+# Globbing
+touch A1f A2a A3c A4d A5a B5x							# create files
+ls														# list everything
+A1f  A2a  A3c  A4d  A5a  B5x
+ls A{2..5}*												# list files beginning with A2 through A5 (using * glob)
+A2a  A3c  A4d  A5a
+
+
+
 # awk													# awk executes its code once every line ($0 = whole line, $1 = first column, $2 = second column)
 cat test.txt 
 1	c
@@ -859,6 +905,7 @@ IdentityFile ~/.ssh/localkey
 ~/.ssh/authorized_keys									# next, cat your public key and paste it into authorized_keys on the remote machine										
 ssh Myserver											# now on your local computer, you can ssh into myserver.com without a password
 														# to enable ssh on mac: http://oliverelliott.org/article/computing/tips_mac/#sshintoYourMac
+
 
 
 
