@@ -1,16 +1,15 @@
-CTRL-a  												# move to the beginning of the line
-CTRL-e													# move to the end of the line
-CTRL-u 													# clear the line (before the cursor position)
-CTRL-w 													# delete the word before the cursor position
-
+# history ===========================================
 history													# shows history of typed commands
 history | grep apple  									# find commands in history containing `apple`
 history | tail        									# print the last 10 lines of history of the current session
 tail ~/.bash_history									# print the last 10 lines of history of the previous session
 
-# in .bash_profile										# append history to history file as you type in commands (for all open shells)
+# bash_profile begin									# append history to history file as you type in commands (for all open shells)
 shopt -s histappend										# shopt = shell option
 export PROMPT_COMMAND='history -a'
+# bash_profile end
+
+history -c  											# clear history list in memory
 echo > ~/.bash_history									# trash history
 
 # in .bash_profile (or alias file)
@@ -22,8 +21,8 @@ alias n="history | tail -2 | head -1 | tr -s ' ' | cut -d' ' -f3- | awk '{print 
 ./long_hard-to-remember_command --with_lots --of_flags > poorly_named_file
 n														# saves command in notes file in cwd
 
+# while loops ========================================
 
-# While Loops
 #!/bin/bash
 i=0
 
@@ -59,7 +58,7 @@ Number: 4
 Number: 5
 All Done!
 
-# Piping
+# piping ============================================
 cat file.txt | sort | less 								# only the stdout stream gets passed through the pipeline; the stderr hits the screen right away
 cat -n file.txt | head -37 | tail -1  					# print row 37
 cat -n file.txt | awk 'NR==37'        					# print row 37 (NR = row number)
@@ -70,7 +69,21 @@ cat file.txt | awk '$1==1' | cut -f2-4    				# display columns 2 through 4 (cut
 history | grep "|" | less  								# find all the commands in your history with pipes ("|")
 len=$( cat file.txt | wc -l )							# store length of file (wc -l = word count -lines) in a variable
 
-# Command Substitution									# run a command on the fly and use its output as an argument for another command or store it in a variable
+cat tmp.txt												# print the number of *unique* elements in column 3 (delimiting on tab)
+1       aa      3
+1       34      z
+1       f       32
+2       3r      z
+2       d       cc
+3       d       34
+x       e       cc
+x       1       z
+
+cat tmp.txt | cut -f3 | sort -u | wc -l 				# print the number of unique elements in column 3 (delimiting on tab) (cut -f3 = get column 3) (wc -l = count lines)
+5
+
+# command substitution ==============================									
+														# run a command on the fly and use its output as an argument for another command or store it in a variable
 d=$( pwd )												# store cwd in a variable
 d=$( dirname $( readlink -m $0 ) )						# save scripts directory in the variable d (readlink gets absolute path of script ($0))
 for i in $( cat file.txt | cut -f3 | sort -u ); 		# loop through and echo all unique elements of the third column of file.txt
@@ -105,8 +118,8 @@ This folder has 7 elements and is 32K large
 *** /usr/sbin ***
 This folder has 130 elements and is 8.6M large
 
-# Process Substitution
-# > ... process substitution is a form of inter-process communication that allows the input or output of a command to appear as a file. The command is substituted in-line, where a file name would normally occur, by the command shell. This allows programs that normally only accept files to directly read from or write to another program. -- Wikipedia
+# process substitution ==============================
+														# > ... process substitution is a form of inter-process communication that allows the input or output of a command to appear as a file. The command is substituted in-line, where a file name would normally occur, by the command shell. This allows programs that normally only accept files to directly read from or write to another program. -- Wikipedia
 
 cat <( head -1 file.txt ) <( tail file.txt )			# whatever's in the block: <( ) is treated as a file
 
@@ -122,7 +135,7 @@ echo "Your file is $len lines long."
 ./test_script <( gunzip --stdout 1.txt.gz )				# use process substituion to pass in a compressed file 
 Your file is 11 lines long.
 
-# Processes
+# processes =========================================
 time script.py > out.o 2> out.e &						# time how long your script takes to run
 nohup script.py > out.o 2> out.e &						# nohup ("no hang up") = run script even if the terminal is quit
 
@@ -158,162 +171,7 @@ CTRL-c													# kill job running in fg
 ps -Af | grep Terminal									# show PID of Terminal process (e.g. 252)
 kill 252
 
-pwd 													# print current working directory (cwd)
-cd - 													# go to previous dir
-cd 														# go to user home dir
-cd ~													# go to user home dir
-cd /													# go to root directory
-df 														# reports available disk space
-
-echo "hello world!" - > file1.txt						# create/overwrite file
-
-mkdir -p a/b/c  										# make nested directories (and -p don't complain if directory already exists)
-rmdir dir1												# delete empty directory
-
-rm file1												# delete file
-rm -r dir1   											# delete directory and contents
-rm -R dir1												# delete directory and contents (-R force recursion)
-rm -rf dir1 											# force dleete of a file or directory (i.e., ignore warnings)
-rm -rf </path/to/dir1>									# delete directory and contents
-rm -rf </path/to/dir1/*>								# delete contents of directory only
-rm -P file  											# deletes file securely by first overwriting file contents
-shred -zuv file											# deletes file securely by first overwriting file contents (flags are: zero, remove, verbose)
-
-cp file1.sql /httpdocs 									# copy myfile from cwd to another dir 
-scp file1.sql /httpdocs 								# secure copy file from cwd to another dir 
-cp file1 file2 											# copy file1 to file2
-cp -R dir1 dir2 										# copy directories plus files recursively
-cp -R dir1 ../../										# make a copy of dir1 into the dir two levels up from our cwd
-
-mv file1 dir1/dir2										# move file1 into dir1/dir2/ (or, rename ./file1 as ./dir1/dir2/file1)
-mv dir1 dir2 											# (if dir2 exists...) move dir1 into dir2
-mv dir1 dir2 											# (if dir2 does not exist...) rename dir1 to dir2
-mv -n file1 dir2 										# (if file1 exists in dir2 exists...) do not move (-n) file1
-mv file1 ~/Desktop 										# move file1 to Desktop
-mv -R dir1 ~/Desktop									# move dir1 (and its contents, recursively) to Desktop
-mv file1 dir1/dir2/file2								# move file1 into dir1/dir2/ and rename it to file2
-mv a a.1												# step 1: Swap the names of two files, a and b
-mv b a													# step 2: Swap the names of two files, a and b
-mv a.1 b												# step 3: Swap the names of two files, a and b
-mv file1.txt file1.html									# change the extension of file1.txt from .txt to .html
-mv file1.{txt,html}										# change the extension of file1.txt from .txt to .html
-
-ls 														# list contents of cwd
-ls -l 													# lists your files in long format
-ls -al													# lists all files (-a) including those begining with a dot
-ls -la													# lists all files (-a) including those begining with a dot
-ls -l -a												# lists all files (-a) including those begining with a dot
-ls -a -l												# lists all files (-a) including those begining with a dot
-ls /dir 												# list files in dir
-ls -R 													# list recursively
-ls -hl  												# long form, human readable
-ls -hlt 												# long form, human readable, sorted by time
-ls *.txt 												# list any file that has the .txt file extension
-ls . dir1 .. dir2/*.txt dir3/A*.html					# list anything in the cwd; anything in dir1; anything in the dir one above; anything in dir2 that ends with .txt; 
-														# and anything in dir3 that starts with A and ends with .html.
-$ for i in $( ls /some/path/*.txt ); 					# print any file in /some/path that has the .txt file extension
-do echo $i; done
-$ for i in /some/path/*.txt; 							# print any file in /some/path that has the .txt file extension
-do echo $i; done
-
-$ find . -name "*.txt"									# list all text files in the cwd and below (i.e., including child directories)
-
-TAB														# auto-complete
-UP ARROW												# show previously executed commands
-CTRL-c 													# kill script/process/abort mission
-CTRL-a 													# jump cursor to beginning of line
-CTRL-e 													# jump cursor to end of line
-CTRL-k 													# delete to end of line
-CTRL-u 													# delete to beginning of line
-CTRL-w 													# delete back one word
-CTRL-y 													# paste (yank) what was deleted with the above shortcuts
-CTRL-r 													# reverse-search history for a given word
-CTRL-z 													# suspend the process running in the foreground
-CTRL-l 													# clear screen (works in the Python, MySQL, and other shells)
-CTRL-d 													# end of transmission (synonymous with quit - e.g., exiting the Python or MySQL shells)
-CTRL-s 													# freeze screen
-CTRL-q 													# un-freeze screen
-
-# Superuser										
-sudo 													# run command as the superuser						
-														# The most common use case for running commands 
-														# as the superuser is when you have to install a 
-														# program which might want to write into a dir
-														# root owns, like /usr/bin or accesses sys files
-
-echo -n "test"            								# suppress newline
-echo -e "test\ttest\ntest"  							# -e interpret special chars ( \t is tab, \n newline )
-echo "test" > readme.txt								# create readme.txt with "test" as content
-
-cmd="ls -hl"; 								
-echo $cmd; 
-echo $cmd | bash										# retrace your steps by echoing a command before execute it using a pipe into bash
-
-cat file.txt											# prints the contents of file.txt
-cat file.txt file2.txt									# prints the contents of both file.txt and file2.txt concatenated together
-cat -n file.txt      									# prints the contents of file.txt with line numbers
-cat file.txt | wc -l									# count the number of lines in a file
-cat file.txt | cut -f1									# cut the first column
-cat file.txt | awk ...									# awk will process what cat pipes out in a linewise fashion 
-echo "hello world" | cat								# if you route something to cat via a pipe, it just passes through
-zcat file.txt.gz 										# zcat cats zipped files
-tac file.txt											# see file.txt in reverse order
-
-echo joe > file.txt 									# save to file
-cat file.txt
-joe
-
-echo joe >> junk.txt  									# append to already-existing file
-cat junk.txt
-joe
-joe
-
-head file1.txt     	 									# print the first 10 lines of file1 (10 by default)
-head -1 file1.txt  	 									# print the first line of file1
-head -50 file1.txt 	 									# print the first 50 lines of file1
-tail file1.txt     	 									# print the last 10 lines of file1 (10 by default)
-tail -1 file1.txt  	 									# print the last line of file1
-tail -50 file1.txt 	 									# print the last 50 lines of file1
-cat -n file1.txt | head -37 | tail -1  					# print row 37 of file1
-history | tail        									# print the last 10 lines of history
-ls | head												# print the first 10 elements in the cwd (10 by default)
-head -2 file1.txt file2.txt 							# print the file name and first 2 lines of both file1 and file2 
-head *													# print the first 10 elements of all files in the cwd (10 by default)
-
-a=3
-echo a													# a
-echo $a													# 3
-a=test	       
-echo $a													# test
-a="test test"  
-echo $a													# test test
-a=3; b=4
-echo $a $b												# 3 4
-echo $a$b         										# 34
-echo "$a$b"      										# 34
-echo -e "$a\t$b"  										# 3	4 (-e flag tells echo to interpret \t as a tab)
-var=5
-joe=hello $var											# bash: 5: command not found
-joe="hello $var"
-echo $joe												# hello 5
-joe='hello $var'
-echo $joe												# hello $var
-d=dir1/dir2/dir3
-ls $d
-cd $d
-d=..     												# d = the directory one above
-cd $d/.. 												# cd two directories up (cd ../../)
-a=3
-echo $a													# 3
-echo \$a												# $a (use escape to prevent use of $a as a variable)
-echo "\$a"  											# $a (use quotes to prevent use of $a as a variable)
-echo \\\$a  											# \$a (escape the escape and the use of $a as a variable)
-a=3
-echo $a													# 3
-echo $apple												# (variable apple is not set)
-echo ${a}pple											# 3pple (the variable $a plus the string "pple")
-
-streams:
+# streams ============================================
 stdin (standard in)
 stdout (standard out)
 stderr (standard error)
@@ -329,6 +187,12 @@ echo "hello kitty" > somefile.txt						# echo "hello kitty" to the file somefile
 echo "hello kitty" > &1									# echo "hello kitty" to stdout
 echo "hello kitty" > &2									# echo "hello kitty" to sterr
 echo "hello kitty" > 1									# echo "hello kitty" to the file named 1
+
+# scripting (various) ================================
+
+cmd="ls -hl"; 								
+echo $cmd; 
+echo $cmd | bash										# retrace your steps by echoing a command before execute it using a pipe into bash
 
 #!/bin/bash
 a=joe											
@@ -462,7 +326,6 @@ echo hello $1 $4										# echo `hello` and the first and fourth args
 ./hellokitty.sh											# output
 hello my cat 											# output	
 
-
 #!/bin/bash
 helpmessage="This script shows how to read arguments"
 
@@ -501,7 +364,10 @@ flag3 passed zzz										# output
 flag1 passed zzz
 flag3 passed x
 
+# source, export ====================================
+
 cat ./test_src.sh 
+
 #!/bin/bash
 myvariable=54
 echo $myvariable
@@ -527,6 +393,8 @@ source ./test_src.sh 									# call source on the exported variable within test
 ./test_src_2.sh 										# test_src_2.sh echos the exported variable in test_src.sh 
 54
 
+# function ==========================================
+
 #!/bin/bash
 # git: stage all changes, commit, then push				# gup "Minor updates"
 gup ()
@@ -542,6 +410,8 @@ gup ()
     git commit -m "$mymessage"
     git push
 }
+
+# compression/uncompression =========================
 
 #!/bin/bash
 # one-size-fits-all command to uncompress different compression formats
@@ -575,9 +445,7 @@ tar xvzf download.tar.gz 								# x extracting archive, v verbose (give us some
 gzip something.txt										# compress
 gzip -d something.txt.gz 								# decompress
 
-Esc -> : -> q! -> RETURN								# quit the vi editor without saving any changes you've made:
-														# if insert or append mode: Press Esc -> Press : (colon) -> Enter q! -> Press RETURN
-
+# less =============================================
 less file1.txt 											# open file.txt in less 
 less -S file2.txt    									# allow horizontal scrolling
 cat file3.txt | column -t | less -S						# force the columns of the file to line up nicely
@@ -588,6 +456,11 @@ arrow keys 												# scroll up and down
 Space 													# page down
 q														# quit/exit
 
+# vi ===============================================
+Esc -> : -> q! -> RETURN								# quit the vi editor without saving any changes you've made:
+														# if insert or append mode: Press Esc -> Press : (colon) -> Enter q! -> Press RETURN
+
+# grep =============================================
 grep apple file1.txt          							# return lines of file with the text `apple`
 grep -n apple file1.txt       							# include the line number
 grep -i apple file1.txt       							# case insensitive matching
@@ -603,14 +476,77 @@ cat file1.txt | grep -m 2 apple							# exit after finding the first two instanc
 egrep "apple|orange" file1.txt  						# return lines with `apple` OR `orange`
 
 
-# Globbing
+# sort =============================================
+echo "2 2 2 1 2 1 3 4 5 6 6" | tr " " "\n" | sort		# truncate (tr) whitespace, insert newlines, and sort
+1
+1
+2
+2
+2
+2
+3
+4
+5
+6
+6
+
+echo "2 2 1 2 1 3 4 5 6 6" | tr " " "\n" | sort | uniq -d 	# find duplicate (-d) entries
+1
+2
+6
+
+echo "2 2 1 2 1 3 4 5 6 6" | tr " " "\n" | sort | uniq -u 	# find non-duplicate/unique (-u) entries
+3
+4
+5
+
+# globbing ==========================================
 touch A1f A2a A3c A4d A5a B5x							# create files
 ls														# list everything
 A1f  A2a  A3c  A4d  A5a  B5x
 ls A{2..5}*												# list files beginning with A2 through A5 (using * glob)
 A2a  A3c  A4d  A5a
 
+# perl regex ========================================
+$ cat test_table.txt									# convert test_table.txt to HTML
+x	y	z
+1	2	3
+a	b	c
 
+cat test_table.txt | perl -ne 'BEGIN{print "<table border=\"1\">\n";}{
+      chomp($_); 
+      my @line=split("\t",$_); 
+      print "<tr>"; 
+      foreach my $elt (@line) { print "<td>$elt</td>"; } 
+      print "</tr>\n";
+  }END{print "</table>\n";}'
+# output:
+<table border="1">
+<tr><td>x</td><td>y</td><td>z</td></tr>
+<tr><td>1</td><td>2</td><td>3</td></tr>
+<tr><td>a</td><td>b</td><td>c</td></tr>
+</table>
+
+cat mail.txt
+xd2@joe.com
+malformed.hotmail.com
+malformed@@hotmail.com
+carlos_danger@gmail.com
+hellokitty@yahoo.com
+
+cat mail.txt | perl -ne '{chomp($_); if ($_ =~ m/(\w+)\@{1}(\w+)/) {print $_,"\n";}}' 		# @{1}
+xd2@joe.com
+carlos_danger@gmail.com
+hellokitty@yahoo.com
+
+$ cat mail.txt | perl -ne '{chomp($_); if ($_ =~ m/(\w+)\@{2}(\w+)/) {print $_,"\n";}}'		# @{2}
+malformed@@hotmail.com
+
+$ cat mail.txt | perl -ne '{chomp($_); if ( $_ =~ m/(\w+)(\@+)(\w+)/) {print $2,"\n";}}'	# print $2 (capture group 2)
+@
+@@
+@
+@
 
 # awk													# awk executes its code once every line ($0 = whole line, $1 = first column, $2 = second column)
 cat test.txt 
@@ -779,6 +715,37 @@ cat file.txt | awk -F"\t" '{
       	print $0
 }}'
 
+cat tmp.txt												# print only the odd-numbered rows of tmp.txt
+aaa
+bbb
+ccc
+ddd
+eee
+fff
+ggg
+hhh
+iii
+jjj
+
+cat tmp.txt | awk '{print NR"\t"NR%2"\t"$0}' 			# explicitly list the row number (NR) as well as the row number mod 2 (Nr%2)
+1       1       aaa
+2       0       bbb
+3       1       ccc
+4       0       ddd
+5       1       eee
+6       0       fff
+7       1       ggg
+8       0       hhh
+9       1       iii
+10      0       jjj
+
+cat tmp.txt | awk 'NR%2==1'								# get only those rows where the mod 2 of row number is 1
+aaa
+ccc
+eee
+ggg
+iii
+
 # sed
 cat test_header.txt
 This is a header
@@ -828,11 +795,171 @@ done
 ls
 file1.html  file2.html	file3.html
 
-tsc types.ts -w 										# watch mode: run tsc on types.ts whenever types.ts changes
 
-open .													# (mac) opens cwd in Finder
-./myprogram												# execute myprogram from the cwd
+# cat ================================================
+cat file.txt											# prints the contents of file.txt
+cat file.txt file2.txt									# prints the contents of both file.txt and file2.txt concatenated together
+cat -n file.txt      									# prints the contents of file.txt with line numbers
+cat file.txt | wc -l									# count the number of lines in a file
+cat file.txt | cut -f1									# cut the first column
+cat file.txt | awk ...									# awk will process what cat pipes out in a linewise fashion 
+echo "hello world" | cat								# if you route something to cat via a pipe, it just passes through
+zcat file.txt.gz 										# zcat cats zipped files
+tac file.txt											# see file.txt in reverse order
 
+echo joe > file.txt 									# save to file
+cat file.txt
+joe
+
+echo joe >> junk.txt  									# append to already-existing file
+cat junk.txt
+joe
+joe
+
+# head and tail ======================================
+head file1.txt     	 									# print the first 10 lines of file1 (10 by default)
+head -1 file1.txt  	 									# print the first line of file1
+head -50 file1.txt 	 									# print the first 50 lines of file1
+tail file1.txt     	 									# print the last 10 lines of file1 (10 by default)
+tail -1 file1.txt  	 									# print the last line of file1
+tail -50 file1.txt 	 									# print the last 50 lines of file1
+cat -n file1.txt | head -37 | tail -1  					# print row 37 of file1
+history | tail        									# print the last 10 lines of history
+ls | head												# print the first 10 elements in the cwd (10 by default)
+head -2 file1.txt file2.txt 							# print the file name and first 2 lines of both file1 and file2 
+head *													# print the first 10 elements of all files in the cwd (10 by default)
+ls -t | head -1											# get most recently created/modified file in cwd
+
+# uniq
+cat file1.txt											# Given two files (file1 and file2), how do you find the rows that are only in one of them? 
+1
+200
+324
+95
+10
+a b c
+
+cat file2.txt
+3
+1
+200
+324
+95
+
+cat file1.txt file2.txt file2.txt | sort | uniq -u		
+10
+a b c
+
+>17 dna:chromosome chromosome:GRCh37:17:1:81195210:1 REF			# count the number of As, Ts, Cs, and Gs in this sequence
+AAGCTTCTCACCCTGTTCCTGCATAGATAATTGCATGACAATTGCCTTGTCCCTGCTGAA
+TGTGCTCTGGGGTCTCTGGGGTCTCACCCACGACCAACTCCCTGGGCCTGGCACCAGGGA
+GCTTAACAAACATCTGTCCAGCGAATACCTGCATCCCTAGAAGTGAAGCCACCGCCCAAA
+GACACGCCCATGTCCAGCTTAACCTGCATCCCTAGAAGTGAAGGCACCGCCCAAAGACAC
+GCCCATGTCCAGCTTATTCTGCCCAGTTCCTCTCCAGAAAGGCTGCATGGTTGACACACA
+
+cat chr17_300bp.fa | grep -v ">" | fold -w 1 | head					#  discard the identifier line (grep -v ">"), restrict the number of characters printed per line (fold -w 1)
+A
+A
+G
+C
+T
+T
+C
+T
+C
+A
+
+cat chr17_300bp.fa  | grep -v ">" | fold -w 1 | sort | uniq -c		# sort the file so that all the A, T, C, and G rows go together, and then count them with uniq -c
+73 	A
+100 C
+63 	G
+64 	T
+
+# seq ===============================================
+seq 1 5													# display sequence of numbers 1 through 5
+1
+2
+3
+4
+5
+
+echo {1..5} | tr " " "\n"								# alternative: display sequence of numbers 1 through 5
+1
+2
+3
+4
+5
+
+seq 1 2 10 												# display sequence of numbers 1 through 5 with step/increment of 2 											
+1
+3
+5
+7
+9
+
+
+# cut ===============================================
+cat sample.blast.txt
+TCONS_00007936|m.162    gi|27151736|ref|NP_006727.2|    100.00  324		
+TCONS_00007944|m.1236   gi|55749932|ref|NP_001918.3|    99.36   470
+TCONS_00007947|m.1326   gi|157785645|ref|NP_005867.3|   91.12   833
+TCONS_00007948|m.1358   gi|157785645|ref|NP_005867.3|   91.12   833 
+
+cat sample.blast.txt | cut -f2 								# cut second column (-f2) (cut delimits on tab by default)
+gi|27151736|ref|NP_006727.2|											
+gi|55749932|ref|NP_001918.3|
+gi|157785645|ref|NP_005867.3|
+gi|157785645|ref|NP_005867.3|
+
+cat sample.blast.txt | cut -f2 | cut -f4 -d"|" 				# cut second column then cut fourth column of result using "|" delimiter
+NP_006727.2																
+NP_001918.3
+NP_005867.3
+NP_005867.3
+
+cat sample.blast.txt | cut -f5 -d"|" 						# cut fifth column using "|" delimiter
+NP_006727.2
+NP_001918.3
+NP_005867.3
+NP_005867.3
+
+
+# paste =============================================		# join files together in a column-wise fashion (in contrast to cat, which joins files vertically)
+cat file1.txt
+a
+b
+c
+
+cat file2.txt
+1
+2
+3
+
+paste file1.txt file2.txt									# deafult delimiter is tab
+a	1
+b	2
+c	3
+
+paste -d";" file1.txt file2.txt								# paste with a delimiter (-d";")
+a;1
+b;2
+c;3
+
+cat sample.fa 
+>TCONS_00046782
+FLLRQNDFHSVTQAGVQWCDLGSLQSLPPRLKQISCLSLLSSWDYRHRPPHPAFFLFFFLF
+>TCONS_00046782
+MRWHMPIIPALWEAEVSGSPDVRSLRPTWPTTPSLLKTKNKTKQNISWAWCMCL
+>TCONS_00046782
+MFCFVLFFVFSRDGVVGQVGLKLLTSGDPLTSASQSAGIIGMCHRIQPWLLIY
+
+$ cat sample.fa | paste - -									# put different rows of a file on the same line (you can use as many dashes as you like)
+>TCONS_00046782	FLLRQNDFHSVTQAGVQWCDLGSLQSLPPRLKQISCLSLLSSWDYRHRPPHPAFFLFFFLF
+>TCONS_00046782	MRWHMPIIPALWEAEVSGSPDVRSLRPTWPTTPSLLKTKNKTKQNISWAWCMCL
+>TCONS_00046782	MFCFVLFFVFSRDGVVGQVGLKLLTSGDPLTSASQSAGIIGMCHRIQPWLLIY
+
+
+# $PATH ============================================= 
 which less												# /usr/bin/less (the location of less in your PATH)
 which cat												# /bin/cat
 which rm												# /bin/rm
@@ -855,8 +982,11 @@ PATH=/apps/R/3.1.2/bin:$PATH							# use this version of R
 PATH=/apps/gcc/4.6.0/bin/:$PATH							# use this version of gcc
 export PATH												# export
 
+# bash_profile	=====================================
 dotfiles												# files: https://github.com/gitliver/.dotfiles
 														# strategy: http://oliverelliott.org/article/computing/tut_unix/33
+
+# permissions ========================================
 
 permissions: r 											# r denotes read
 permissions: w 											# w denotes write
@@ -879,13 +1009,28 @@ chmod a-rwx file1   									# remove all permissions for the user (u), the grou
 chmod 777 file1     									# grant all permissions (rwxrwxrwx) 111 111 111 = 777
 chmod 755 file1     									# reserve write access for the user, but grant all other permissions (rwxr-xr-x) 111 101 101 = 755
 
+sudo chown ec2-user myfile								# myfile is owned by root. grant ownership to ec2-user 
+sudo chown someuser:somegroup myfile					# change both the user to someuser and the group to somegroup
+sudo chown $( whoami ):$( whoami ) myfile				# change the user and group to your current user (via whoami)
+
+
+# bash ==============================================
 ps -p $$												# what implementation of sh are we using?: https://stackoverflow.com/questions/5725296/difference-between-sh-and-bash
 sh --version											# what implementation of sh are we using?: https://stackoverflow.com/questions/5725296/difference-between-sh-and-bash
 
+
+# symbolic links ====================================
 ln -s /path/to/target/file1 link1						# create symbolic link (link1) that links to file1
 ln -s /path/to/target/file								# without a name argument, the link will be give the target file's name
 rm link1 												# delete link1
 
+
+# readlink ==========================================	# requires (brew install coreutils)
+readlink -m mydir 										# get the absolute path of the directory mydir
+readlink -m .											# get the absolute path of the cwd
+
+
+# ssh ===============================================
 ssh username@myhost.university.edu						# login to remote computer
 ssh username@{IP-address}								# login to remote computer
 ssh username@myhost.university.edu "ls -hl"				# list files on remote computer
@@ -906,13 +1051,21 @@ IdentityFile ~/.ssh/localkey
 ssh Myserver											# now on your local computer, you can ssh into myserver.com without a password
 														# to enable ssh on mac: http://oliverelliott.org/article/computing/tips_mac/#sshintoYourMac
 
+# scp ===============================================
+# > If you have ssh access to a remote computer and want to copy its files to your local computer, you can use scp according to the syntax:
+scp username@host:/some/path/on/remote/machine /some/path/on/my/machine
+
+# rsync ============================================= 							# remotely copy/syncronise files to or from a computer to which you have ssh access
+rsync user@host:/some/path/on/remote/machine /some/path/on/my/machine/ 			# copy files from a remote machine
+rsync /some/path/on/my/machine user@host:/some/path/on/remote/machine/			# copy files to a remote machine
+rsync directory1 directory2														# sync two directories on your local machine
+rsync -azv --progress user@myhost.university.edu:/my/source /my/destination/	# archive (-a) preserves symbolic links, devices, attributes, permissions, ownerships
+																				# compress(-z), verbose (-v), --progress (show progress indicator)
+rsync --exclude mydir user@myhost.university.edu:/my/source /my/destination/ 	# copy certain directories from the source
+rsync -azv -L --progress user@myhost.university.edu:/my/source /my/destination/ # copy the files pointed to by the symbolic links ("transform symlink into referent file/dir") (--L)
 
 
-
-
-
-
-
+# curl/wget =========================================
 curl https://github.com/downloads/wycats 				# curl: download and rename
 /handlebars.js/handlebars-1.0.rc.1.min.js 
 > handlebars.js 
@@ -920,23 +1073,168 @@ curl https://github.com/downloads/wycats 				# curl: download and rename
 wget https://raw.githubusercontent.com/git 				# wget: download file into cwd (see: https://en.wikipedia.org/wiki/Wget)
 /git/master/README.md
 
-TAB {letter(s)} 										# begin autocomplete using {letter}
-(Drag Finder directory into Terminal)					# copy directory location to Terminal
 
-sudo lsof -t -i tcp:4200 | xargs kill -9 				# kill currently running process on port 4200	
+# comment ============================================  # comment
 
-less /private/etc/apache2/httpd.conf 					# LoadModule php5_module /usr/local/opt/php54/libexec/apache2/libphp5.so
 
-open -e /usr/local/etc/httpd/httpd.conf					# open in TextEdit
+# navigation =========================================
+pwd 													# print current working directory (cwd)
+cd - 													# go to previous dir
+cd 														# go to user home dir
+cd ~													# go to user home dir
+cd /													# go to root directory
+df 														# reports available disk space
 
-less /etc/hosts											# edit hosts file
+ls 														# list contents of cwd
+ls -l 													# lists your files in long format
+ls -al													# lists all files (-a) including those begining with a dot
+ls -la													# lists all files (-a) including those begining with a dot
+ls -l -a												# lists all files (-a) including those begining with a dot
+ls -a -l												# lists all files (-a) including those begining with a dot
+ls /dir 												# list files in dir
+ls -R 													# list recursively
+ls -hl  												# long form, human readable
+ls -hlt 												# long form, human readable, sorted by time
+ls *.txt 												# list any file that has the .txt file extension
+ls . dir1 .. dir2/*.txt dir3/A*.html					# list anything in the cwd; anything in dir1; anything in the dir one above; anything in dir2 that ends with .txt; 
+														# and anything in dir3 that starts with A and ends with .html.
+$ for i in $( ls /some/path/*.txt ); 					# print any file in /some/path that has the .txt file extension
+do echo $i; done
+$ for i in /some/path/*.txt; 							# print any file in /some/path that has the .txt file extension
+do echo $i; done
+
+$ find . -name "*.txt"									# list all text files in the cwd and below (i.e., including child directories)
+
+
+# create/delete/copy/rename file/dir =================
+echo "hello world!" - > file1.txt						# create/overwrite file
+
+mkdir -p a/b/c  										# make nested directories (and -p don't complain if directory already exists)
+rmdir dir1												# delete empty directory
+
+rm file1												# delete file
+rm -r dir1   											# delete directory and contents
+rm -R dir1												# delete directory and contents (-R force recursion)
+rm -rf dir1 											# force dleete of a file or directory (i.e., ignore warnings)
+rm -rf </path/to/dir1>									# delete directory and contents
+rm -rf </path/to/dir1/*>								# delete contents of directory only
+rm -P file  											# deletes file securely by first overwriting file contents
+shred -zuv file											# deletes file securely by first overwriting file contents (flags are: zero, remove, verbose)
+
+cp file1.sql /httpdocs 									# copy myfile from cwd to another dir 
+scp file1.sql /httpdocs 								# secure copy file from cwd to another dir 
+cp file1 file2 											# copy file1 to file2
+cp -R dir1 dir2 										# copy directories plus files recursively
+cp -R dir1 ../../										# make a copy of dir1 into the dir two levels up from our cwd
+
+mv file1 dir1/dir2										# move file1 into dir1/dir2/ (or, rename ./file1 as ./dir1/dir2/file1)
+mv dir1 dir2 											# (if dir2 exists...) move dir1 into dir2
+mv dir1 dir2 											# (if dir2 does not exist...) rename dir1 to dir2
+mv -n file1 dir2 										# (if file1 exists in dir2 exists...) do not move (-n) file1
+mv file1 ~/Desktop 										# move file1 to Desktop
+mv -R dir1 ~/Desktop									# move dir1 (and its contents, recursively) to Desktop
+mv file1 dir1/dir2/file2								# move file1 into dir1/dir2/ and rename it to file2
+mv a a.1												# step 1: Swap the names of two files, a and b
+mv b a													# step 2: Swap the names of two files, a and b
+mv a.1 b												# step 3: Swap the names of two files, a and b
+mv file1.txt file1.html									# change the extension of file1.txt from .txt to .html
+mv file1.{txt,html}										# change the extension of file1.txt from .txt to .html
+
+
+# echo ==============================================
+echo -n "test"            								# suppress newline
+echo -e "test\ttest\ntest"  							# -e interpret special chars ( \t is tab, \n newline )
+echo "test" > readme.txt								# create readme.txt with "test" as content
+
+
+# variables =========================================
+a=3														# create variable
+echo a													# a
+echo $a													# 3
+a=test	       
+echo $a													# test
+a="test test"  
+echo $a													# test test
+a=3; b=4
+echo $a $b												# 3 4
+echo $a$b         										# 34
+echo "$a$b"      										# 34
+echo -e "$a\t$b"  										# 3	4 (-e flag tells echo to interpret \t as a tab)
+var=5
+joe=hello $var											# bash: 5: command not found
+joe="hello $var"
+echo $joe												# hello 5
+joe='hello $var'
+echo $joe												# hello $var
+d=dir1/dir2/dir3
+ls $d
+cd $d
+d=..     												# d = the directory one above
+cd $d/.. 												# cd two directories up (cd ../../)
+a=3
+echo $a													# 3
+echo \$a												# $a (use escape to prevent use of $a as a variable)
+echo "\$a"  											# $a (use quotes to prevent use of $a as a variable)
+echo \\\$a  											# \$a (escape the escape and the use of $a as a variable)
+a=3
+echo $a													# 3
+echo $apple												# (variable apple is not set)
+echo ${a}pple											# 3pple (the variable $a plus the string "pple")
+
+filename=$( basename $file );							# basename returns only the filename (rather than the full path of the file)
+
+
+# Misc ===============================================								
+sudo 													# run command as the superuser						
+														# The most common use case for running commands 
+														# as the superuser is when you have to install a 
+														# program which might want to write into a dir
+														# root owns, like /usr/bin or accesses sys files
+
+sudo lsof -t -i tcp:4200 | xargs kill -9 				# kill currently running process on port 4200
+
+su user													# switches the user
+
+man														# show manual
+man	ls													# show manual for ls command
+
+tsc types.ts -w 										# watch mode: run tsc on types.ts whenever types.ts changes
 
 whoami													# show current user
 groups													# show user's groups
 
-# comment												# comment
+sleep 5													# sleep for 5 seconds
 
-man														# show manual
-man	ls													# show manual for ls command
+clear													# clears the screen
+logout													# logout
+exit													# exit
+
+open .													# (mac) opens cwd in Finder
+./myprogram												# execute myprogram from the cwd
+
+wc -l													# word count lines
+wc -w													# word count words
+wc -c													# word count characters
+
+
+# key bindings =======================================
+TAB														# auto-complete
+UP ARROW												# show previously executed commands
+CTRL-c 													# kill script/process/abort mission
+CTRL-a 													# jump cursor to beginning of line
+CTRL-e 													# jump cursor to end of line
+CTRL-k 													# delete to end of line
+CTRL-u 													# delete to beginning of line
+CTRL-w 													# delete back one word
+CTRL-y 													# paste (yank) what was deleted with the above shortcuts
+CTRL-r 													# reverse-search history for a given word
+CTRL-z 													# suspend the process running in the foreground
+CTRL-l 													# clear screen (works in the Python, MySQL, and other shells)
+CTRL-d 													# end of transmission (synonymous with quit - e.g., exiting the Python or MySQL shells)
+CTRL-s 													# freeze screen
+CTRL-q 													# un-freeze screen
+
+TAB {letter(s)} 										# begin autocomplete using {letter}
+(Drag Finder directory into Terminal)					# copy directory location to Terminal
 
 Right-click (in PuTTy)									# paste 
