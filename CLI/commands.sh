@@ -859,7 +859,92 @@ head -2 file1.txt file2.txt 							# print the file name and first 2 lines of bo
 head *													# print the first 10 elements of all files in the cwd (10 by default)
 ls -t | head -1											# get most recently created/modified file in cwd
 
-# uniq
+
+# tr (translate) ====================================
+
+echo "joe.joe" | tr "." "\n"							# replace a period with a newline
+joe
+joe
+
+echo joe | tr "[:lower:]" "[:upper:]"					# replace lowercase letters to uppercase letters
+JOE
+
+cat blast_header 
+qid	sid	pid	alignmentlength	mismatches	numbergap	query_start	query_end	subject_start	subject_end	evalue	bitscore
+
+cat blast_header | tr "\t" "\n" | nl -b a				# replace tabs with newlines and numberings of headers
+     1	qid
+     2	sid
+     3	pid
+     4	alignmentlength
+     5	mismatches
+     6	numbergap
+     7	query_start
+     8	query_end
+     9	subject_start
+    10	subject_end
+    11	evalue
+    12	bitscore
+
+cat tmp.txt												
+a a a a 
+a b b b
+a v b b
+1 b 2 3
+
+cat tmp.txt | tr -d "b"									# delete "b" characters
+a a a a 
+a   
+a v  
+1  2 3
+
+cat tmp.txt | tr -d "\n"								# delete newlines
+a a a aa b b ba v b b1 b 2 3
+
+cat file.txt | tr -d "\r"								# strip carriage return characters ("\r") from Windows files
+
+
+# od ================================================
+cat Workbook1.txt | od -tc 								# explicitly prints every character in a string or a file
+cat Workbook1.txt | tr "\r" "\n" | od -tc				# strip carriage return characters ("\r") from Windows files and priint remaining characters
+
+
+# split =============================================	# split splits up a file
+$ cat test.txt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+split -l 3 -d test.txt test_split_						# split file into sub-files with 3 lines in each file (-l 3),  test_split_ prefix, and numeric suffixes (-d)
+
+head test_split_*										# preview splif files...
+==> test_split_00 <==
+1
+2
+3
+
+==> test_split_01 <==
+4
+5
+6
+
+==> test_split_02 <==
+7
+8
+9
+
+==> test_split_03 <==									# the last file doesn't have 3 lines because 10 is not divisible by 3 — its line count equals the remainder
+10
+
+
+# uniq ==============================================
 cat file1.txt											# Given two files (file1 and file2), how do you find the rows that are only in one of them? 
 1
 200
@@ -988,6 +1073,41 @@ $ cat sample.fa | paste - -									# put different rows of a file on the same l
 >TCONS_00046782	MFCFVLFFVFSRDGVVGQVGLKLLTSGDPLTSASQSAGIIGMCHRIQPWLLIY
 
 
+# diff ============================================== 		# diff prints out the differences between two files
+cat tmp1.txt
+a
+a
+b
+c
+
+cat tmp2.txt
+a
+x
+b
+c
+
+diff tmp1.txt tmp2.txt
+2c2
+< a
+---
+> x
+
+
+# join ============================================== 		#joins two sorted files on a common key (the first column by default)
+cat tmp1.txt
+1	a
+2	b
+3	c
+
+cat tmp2.txt
+2	aa
+3	bb
+
+join tmp1.txt tmp2.txt 
+2 b aa
+3 c bb
+
+
 # date ==============================================
 date
 Sat Mar 21 18:23:56 EDT 2014
@@ -1048,6 +1168,18 @@ $ echo $TEST
 asdf
 $ unset TEST
 $ echo $TEST
+
+
+# md5, md5sum, sha1sum ==============================	# check you've made a faithful copy of a file (file owner provides the md5 checksum)
+
+md5 tmp.txt 
+84fac4682b93268061e4adb49cee9788  tmp.txt
+
+md5sum tmp.txt 
+84fac4682b93268061e4adb49cee9788  tmp.txt
+
+sha1sum tmp.txt
+fbaaa780c23da55182f448e38b1a0677292dde01  tmp.txt
 
 
 # env ===============================================	# use env to avoid hard-wired paths in your shebang
