@@ -106,7 +106,7 @@
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git/)
 * [-] PRO GIT
 * [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS 
-* [.] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix) (Boomark: nano, emacs, vim)
+* [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
 * [-] UNIX POWER TOOLS, THIRD EDITION
 * [-] [OLIVER: VIM BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_vim/)
 * [-] INTRODUCTION TO BASH, VIM & REGEX

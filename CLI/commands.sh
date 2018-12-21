@@ -231,6 +231,11 @@ echo "hello kitty" > &1									# echo "hello kitty" to stdout
 echo "hello kitty" > &2									# echo "hello kitty" to sterr
 echo "hello kitty" > 1									# echo "hello kitty" to the file named 1
 
+
+# watch ============================================= 	# repeat every 2.0 seconds
+watch ls -hl /some/directory							# monitor directory's size
+watch tail log.txt										# monitor log (last 10 lines)
+
 # scripting (various) ================================
 
 cmd="ls -hl"; 								
@@ -995,6 +1000,23 @@ J
 o
 e
 
+cat myfasta.fa
+>entry1
+AACCCGGCTGCGTACGTACCACAGAGAGGGGTGTA
+>entry2
+TTATGCGATAAACCCGGGTGTAATTTTATTTTTTT
+
+cat myfasta.fa | grep -v ">" | fold -w 1 | sort | uniq -c	# grep -v (get the reverse)
+     17 A
+     13 C
+     18 G
+     22 T
+
+
+# rev ===============================================	# rev reverses a string
+echo hello | rev
+olleh
+
 
 # od ================================================
 cat Workbook1.txt | od -tc 								# explicitly prints every character in a string or a file
@@ -1385,14 +1407,30 @@ rsync --exclude mydir user@myhost.university.edu:/my/source /my/destination/ 	# 
 rsync -azv -L --progress user@myhost.university.edu:/my/source /my/destination/ # copy the files pointed to by the symbolic links ("transform symlink into referent file/dir") (--L)
 
 
-# curl/wget =========================================
+# curl ==============================================	# everything curl book: https://ec.haxx.se/
 curl https://github.com/downloads/wycats 				# curl: download and rename
 /handlebars.js/handlebars-1.0.rc.1.min.js 
 > handlebars.js 
 
+# wget =============================================
+
 wget https://raw.githubusercontent.com/git 				# wget: download file into cwd (see: https://en.wikipedia.org/wiki/Wget)
 /git/master/README.md
 
+wget http://example.com/test.MOV						# download test.MOV	
+
+cat list.txt | while read i; 							# download each file listed in list.txt
+do echo $i; 
+wget "http://example.com/"${i}; 
+done
+
+while read i; 											# download each file listed in list.txt
+do echo $i; 
+wget "http://example.com/"${i}; 
+done < list.txt
+
+
+# gpg2 =============================================== 	# http://oliverelliott.org/article/computing/ref_unix/97
 
 # comment ============================================  # comment
 
@@ -1567,6 +1605,16 @@ find ./ -name ".DS_Store" | xargs -i rm {}  			# delete all .DS_store files in t
 
 sudo lsof -t -i tcp:4200 | xargs kill -9 				# kill currently running process on port 4200
 
+# lsof ===============================================	# list open files/dir/process/stream
+lsof | grep myprogram									# show what files myprogram is opening or writing to
+lsof -i													# show all network connections
+lsof -i tcp:4200										# show processes running on a specific port
+lsof -i tcp:1-1024										# show processes running in a range of ports
+lsof -i -u^root											# show processes running for users except root
+lsof -r 1												# repeat listing files every 1 second
+sudo lsof -t -i tcp:4200 | xargs kill -9 				# kill currently running process on port 4200														
+														# Mac OS X lsof only shows your own processes unless running as root with sudo
+
 
 # crontab ============================================
 # arguments:
@@ -1633,10 +1681,29 @@ exit													# exit
 
 open .													# (mac) opens cwd in Finder
 ./myprogram												# execute myprogram from the cwd
+mount													# mounts a filesystem
 
 wc -l													# word count lines
 wc -w													# word count words
 wc -c													# word count characters
+
+echo $RANDOM											# random number generator
+1284
+
+# mktemp ============================================	# make a temporary dir with a unique name in your designated temporary dir
+
+echo $TMPDIR
+/path/tempdir
+
+mktemp
+/path/tempdir/tmp.LaOYagQwq3
+
+mktemp
+/path/tempdir/tmp.h5FapGH4LS
+
+ping 127.0.0.1											# check IP address
+dig 127.0.0.1											# get IP address's DNS information
+ifconfig | grep inet									# get IP address of local machine
 
 
 # key bindings =======================================
