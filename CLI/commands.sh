@@ -21,8 +21,24 @@ alias n="history | tail -2 | head -1 | tr -s ' ' | cut -d' ' -f3- | awk '{print 
 ./long_hard-to-remember_command --with_lots --of_flags > poorly_named_file
 n														# saves command in notes file in cwd
 
-# while loops ========================================
 
+# read ==============================================
+while read x; do echo "$x"; done < file.txt				# read up a file with a while loop using read e.g., spit out file.txt exactly as is
+
+echo -e '1\t2\n3\t4\n5\t6'
+1       2
+3       4
+5       6
+
+echo -e '1\t2\n3\t4\n5\t6' | while read x y; 			# read each column into variables
+do echo $x; 
+done
+1
+3
+5
+
+
+# while loops ========================================
 #!/bin/bash
 i=0
 
@@ -57,6 +73,29 @@ Number: 3
 Number: 4
 Number: 5
 All Done!
+
+
+# tee ===============================================	# save a file in the middle of the pipeline and keep going
+cat test.txt
+1	c
+3	c
+2	t
+1	c
+
+cat test.txt | sort -u | tee tmp.txt | wc -l
+3
+
+cat tmp.txt
+1	c
+2	t
+3	c
+
+echo joe | tee test.txt									# joe is echoed to std:out as well as saved in the file test.txt
+joe
+
+cat test.txt 
+joe
+
 
 # piping ============================================
 cat file.txt | sort | less 								# only the stdout stream gets passed through the pipeline; the stderr hits the screen right away
@@ -142,7 +181,8 @@ nohup script.py > out.o 2> out.e &						# nohup ("no hang up") = run script even
 sleep 60 &												# to run things in the background, use an ampersand. use ps -f to see process running and get its PID
 ps														# list processes currently running (plain)
 ps -f 													# list processes currently running (verbose)
-pstree 													# shows us the process hierarchy (brew install pstree)
+pstree 													# shows us the process hierarchy (brew install pstree) 
+tree -L 1 												# view tree with one level of depth (brew install tree)
 ps -A  													# show all process info (not just those processes spawned by terminals)
 ps -fA  												# show all process info (verbose)
 top 													# show dynamic view of your processes
@@ -466,6 +506,12 @@ zless file4.txt.gz    									# view zipped file
 arrow keys 												# scroll up and down 
 Space 													# page down
 q														# quit/exit
+
+
+# nano =============================================
+CTRL-O 													# save
+CTRL-X 													# quit
+
 
 # vi ===============================================
 Esc -> : -> q! -> RETURN								# quit the vi editor without saving any changes you've made:
@@ -858,6 +904,29 @@ ls | head												# print the first 10 elements in the cwd (10 by default)
 head -2 file1.txt file2.txt 							# print the file name and first 2 lines of both file1 and file2 
 head *													# print the first 10 elements of all files in the cwd (10 by default)
 ls -t | head -1											# get most recently created/modified file in cwd
+
+
+# nl (number of lines) ==============================	# numbers each row in a file
+cat tmp.txt 
+aaa
+bbb
+ccc
+ddd
+eee
+
+nl -b a tmp.txt 
+     1  aaa
+     2  bbb
+     3  ccc
+     4  ddd
+     5  eee
+
+cat tmp.txt | awk '{print NR"\t"$0}'					# count number of lines using awk
+1       aaa
+2       bbb
+3       ccc
+4       ddd
+5       eee
 
 
 # tr (translate) ====================================
@@ -1448,12 +1517,20 @@ man	ls													# show manual for ls command
 
 tsc types.ts -w 										# watch mode: run tsc on types.ts whenever types.ts changes
 
+who 													# show users currently logged in
+w 														# show users currently logged in as well as what command they're running
 whoami													# show current user
 groups													# show user's groups
+
+hostname 												# prints the system's host name (the name of the computer)
+finger $( whoami )										# prints out information about a user on the system
+
 uname -a 												# prints out various system information
 df -h 													# reports "file system disk space usage"
 du -sh myfolder											# reports disk usage of myfolder
 du -sh /my/dir/* | awk '$1 ~ /G/'						# find all the files in /my/dir in the gigabyte range
+
+pbcopy < ~/.ssh/id_rsa.pub								# copy to clipboard
 
 sleep 5													# sleep for 5 seconds
 
@@ -1491,3 +1568,10 @@ TAB {letter(s)} 										# begin autocomplete using {letter}
 (Drag Finder directory into Terminal)					# copy directory location to Terminal
 
 Right-click (in PuTTy)									# paste 
+
+
+# tmux ============================================== 	# (brew install tmux)
+														# http://oliverelliott.org/article/computing/ref_unix/65
+														# https://leanpub.com/the-tao-of-tmux/read 
+
+
