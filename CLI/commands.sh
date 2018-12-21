@@ -158,7 +158,10 @@ This folder has 7 elements and is 32K large
 This folder has 130 elements and is 8.6M large
 
 # process substitution ==============================
-														# > ... process substitution is a form of inter-process communication that allows the input or output of a command to appear as a file. The command is substituted in-line, where a file name would normally occur, by the command shell. This allows programs that normally only accept files to directly read from or write to another program. -- Wikipedia
+														# > ... process substitution is a form of inter-process communication that allows the input or 
+														# output of a command to appear as a file. The command is substituted in-line, where a file 
+														# name would normally occur, by the command shell. This allows programs that normally only accept 
+														# files to directly read from or write to another program. -- Wikipedia
 
 cat <( head -1 file.txt ) <( tail file.txt )			# whatever's in the block: <( ) is treated as a file
 
@@ -489,7 +492,8 @@ zless file.gz											# less a file without unzipping it
 
 														# tar rolls, or glues, an entire directory structure into a single file (the original directory remains)
 tar -cvf dir.tar dir									# tar dir into a tarball called dir.tar. 
-														# "create a new archive containing the specified items" (-c), "write the archive to the specified file" (-f), verbose (-v) 
+														# "create a new archive containing the specified items" (-c), 
+														# "write the archive to the specified file" (-f), verbose (-v) 
 
 tar -xvf dir.tar										# untar/extract (-x) 
 tar -zcvf dir.tar.gz dir								# tar and zip dir into a zipped tarball dir.tar.gz
@@ -973,6 +977,25 @@ a a a aa b b ba v b b1 b 2 3
 cat file.txt | tr -d "\r"								# strip carriage return characters ("\r") from Windows files
 
 
+# fold ==============================================	# restrict the number of characters per line written to std:out
+echo -e "asdfasdfasdf\nasdfasdfasdf"
+asdfasdfasdf
+asdfasdfasdf
+
+echo -e "asdfasdfasdf\nasdfasdfasdf" | fold -w 5
+asdfa
+sdfas
+df
+asdfa
+sdfas
+df
+
+echo Joe | fold -w 1
+J
+o
+e
+
+
 # od ================================================
 cat Workbook1.txt | od -tc 								# explicitly prints every character in a string or a file
 cat Workbook1.txt | tr "\r" "\n" | od -tc				# strip carriage return characters ("\r") from Windows files and priint remaining characters
@@ -1373,6 +1396,22 @@ wget https://raw.githubusercontent.com/git 				# wget: download file into cwd (s
 
 # comment ============================================  # comment
 
+# true and false =====================================	# useful to make multi-line comments in a bash script:
+
+# multi-line comment
+if false; then
+echo hello
+echo hello
+echo hello
+fi
+
+# uncomment the above
+if true; then
+echo hello
+echo hello
+echo hello
+fi
+
 
 # navigation =========================================
 pwd 													# print current working directory (cwd)
@@ -1501,6 +1540,51 @@ echo $apple												# (variable apple is not set)
 echo ${a}pple											# 3pple (the variable $a plus the string "pple")
 
 
+# shift ==============================================	# pops elements off the array of input arguments
+
+# tmpscript.sh
+#!/bin/bash
+echo $1
+shift
+echo $1
+
+./tmpscript x y											# run tmpscript.sh
+x
+y
+
+
+# xargs =============================================	# xargs is a nice shortcut to avoid using for loops
+for i in *.txt; do readlink -m $i; done
+ls *.txt | xargs -i readlink -m {}						# {} represents "the bucket" — i.e., what was passed through the pipe
+
+ls /some/path/*.txt | xargs -i ln -s {}					# make symbolic links en masse (-i = each line)
+
+cat myfile.txt | xargs -i grep {} anotherfile.txt  		# search for anything in myfile.txt in anotherfile.txt 
+
+find my_directory -name "*.fastq" | xargs -i gzip {}	# zip all files with .fastq extension found in a directory or any of its sub-directories
+
+find ./ -name ".DS_Store" | xargs -i rm {}  			# delete all .DS_store files in the cwd or any of its sub-directories
+
+sudo lsof -t -i tcp:4200 | xargs kill -9 				# kill currently running process on port 4200
+
+
+# crontab ============================================
+# arguments:
+# minute	0-59
+# hour		0-23
+# day		1-31
+# month		1-12
+# day		0-7 (where both 0 and 7 mean Sun, 1 = Mon, 2 = Tue, etc)
+# command	the absolute path to the command to run along with any parameters
+
+cat mycron.txt
+45 10 * * * rm -r /full/path/trash/* > /full/path/out.o 2> /full/path/out.e  	# empty the trash folder every day at 10:45
+
+crontab mycron.txt																# run cron
+
+crontab -l																		# display your cron jobs
+
+
 # Misc ===============================================								
 sudo 													# run command as the superuser						
 														# The most common use case for running commands 
@@ -1514,6 +1598,9 @@ su user													# switches the user
 
 man														# show manual
 man	ls													# show manual for ls command
+info grep												# show info about ... grep
+apropos grep 											# show commands related to ... grep
+shopt 													# controls various togglable shell options
 
 tsc types.ts -w 										# watch mode: run tsc on types.ts whenever types.ts changes
 
@@ -1524,6 +1611,12 @@ groups													# show user's groups
 
 hostname 												# prints the system's host name (the name of the computer)
 finger $( whoami )										# prints out information about a user on the system
+
+type 													# type will tell you what type of entity you're dealing with
+type ssh
+ssh is /usr/bin/ssh
+type quickssh
+quickssh is aliased to `ssh -Y user@myserver.edu`
 
 uname -a 												# prints out various system information
 df -h 													# reports "file system disk space usage"
