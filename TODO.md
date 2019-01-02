@@ -1,8 +1,8 @@
 # ARTICLES
 
-## CURRENT
+## CURRENT [.]
 * https://angular.io/guide/router
-* http://oliverelliott.org/article/computing/tut_unix
+* https://ec.haxx.se/usingcurl-persist.html
 
 ## TODO
 * [Boost your tech career](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)

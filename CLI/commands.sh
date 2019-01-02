@@ -214,10 +214,13 @@ CTRL-c													# kill job running in fg
 ps -Af | grep Terminal									# show PID of Terminal process (e.g. 252)
 kill 252
 
-# streams ============================================
+# stdout and streams ============================================
 stdin (standard in)
 stdout (standard out)
 stderr (standard error)
+curl http://example.com/ > example.html					# send response (via stdout) to example.html
+curl http://example.com > files.html 2>errors.html		# send response (via stdout) to example.html and stderr (2>) to errors.html
+
 ./myscript.sh > out.txt 2> err.txt  					# save the output into out.txt and the error into err.txt
 1> o.txt												# save stdout to o.txt (> also works)
 2> e.txt 												# save stderr to e.txt
@@ -1414,45 +1417,68 @@ curl https://github.com/downloads/wycats 				# curl: download and rename
 /handlebars.js/handlebars-1.0.rc.1.min.js 
 > handlebars.js 
 
+curl http://example.com									# curl defaults to downloading the resources unless you tell it otherwise
+curl http://example.com/								# the trailing slash/path (/) is added automatically added by curl
+curl http://example.com/								# by default the response is sent to stdout - send the response to a file using the output flag (-o or --output)
+curl -o output.html http://example.com/					# send response to output.html
+curl -o /tmp/index.html http://example.com/				# send response to /tmp/index.html
+curl http://ex.com -o ../../folder/savethis.html   		# send response to ../../folder/savethis.html
+curl -o one.html http://ex.com/1 http://ex.com/2		# responses from 1 and 2 will be sent to one.html via stdout
+curl -o 1.txt -o 2.txt http://ex.com/1 http://ex.com/2	# response from 1 is sent to 1.txt and response from 2 to 2.txt
+curl http://ex.com/1 http://ex.com/2 -o 1.txt -o 2.txt	# response from 1 is sent to 1.txt and response from 2 to 2.txt
+curl -o 1.txt http://ex.com/1 http://ex.com/2 -o 2.txt	# response from 1 is sent to 1.txt and response from 2 to 2.txt
+curl -o 1.txt http://ex.com/1 -o 2.txt http://ex.com/2  # response from 1 is sent to 1.txt and response from 2 to 2.txt
+curl -O http://ex.com/file.html							# (-O or --remote-name) = use the filename part of request as the output filename
+curl -O --remote-name-all http://ex.com/file ...		# (--remote-name-all) = for all files use the filename part of requested file as the output filename
+
+curl --compressed http://example.com/					# ask server to compress response before sending (curl automatically decompresses on arrival)
+curl https://example.com/ --limit-rate 200K				# rate-limit request (K, M and G)
+curl --max-filesize 100000 https://example.com/			# size-limit request (in bytes)
+
 curl --verbose http://example.com						# verbose mode (-v) (long option)
 curl -v http://example.com								# verbose mode (-v) (short option)
-curl --verbose --location http://example.com			# verbose mode (-v) and follow HTTP redirects (-L)
+curl --verbose --location http://example.com			# verbose mode (-v) and follow HTTP redirects (-location)
 curl -vL http://example.com								# verbose mode (-v) and follow HTTP redirects (-L)
 curl http://example.com -Lv								# verbose mode (-v) and follow HTTP redirects (-L)
 curl -v -L http://example.com							# verbose mode (-v) and follow HTTP redirects (-L)
 curl --no-verbose http://example.com					# switch off verbose mode
-curl -d some-data http://example.com					# post some-data
 curl -data some-data http://example.com					# post some-data
+curl -d some-data http://example.com					# post some-data
 curl -A "I am your father" http://example.com			# set user agent (-A) string to "I am your father"
 curl -d '{ "name": "Darth" }' http://example.com		# post JSON 
 curl -d @json http://example.com						# post a file called json
 curl ftp://user:password@example.com 					# the presence of user name and password in the URL is optional,
-														# curl also allows that information to be provide with normal command-line options
+														# curl also allows that information to be provided along with normal command-line options
 curl ftp://ftp.example.com/tmp/							# ending the URL with a trailing slash implies it is a directory and not a file
 
 curl --location http://example.com/1 --next				# three requests in a single line using --next
   --data sendthis http://example.com/2 --next
   --head http://example.com/3
 
-curl -O http://example.com/[1-100].png					# get 100 images one by one that are named numerically (-O/--remote-name = save the target file using the file name part of the URL)
-curl -O http://example.com/[001-100].png				# get 100 images one by one that are named numerically
-curl -O http://example.com/[0-100:2].png				# get 100 images one by one that are named numerically with step/increment of 2
+curl -O http://example.com/[1-100].png					# get 100 images one by one named numerically (-O/--remote-name = save the target file using the file name part of the URL)
+curl -O http://example.com/[001-100].png				# get 100 images one by one named numerically
+curl -O http://example.com/[0-100:2].png				# get 100 images one by one named numerically with step/increment of 2
 curl -O http://example.com/section[a-z].html			# get a range of pages
 curl -O http://example.com/{one,two,alpha,beta}.html	# get a list of pages
-curl -O http://example.com/{Ben,Alice,Frank}-{100x100,1000x1000}.jpg # get images of Ben, Alice and Frank, in both the resolutions 100x100 and 1000x1000
+curl -O http://example.com/{Ben,Alice,Frank}-{100x100,1000x1000}.jpg # get images of Ben, Alice and Frank, in both 100x100 and 1000x1000 resolutions
 curl -O http://example.com/chess-[0-7]x[0-7].jpg 		# get images of a chess board, indexed by two coordinates ranged 0 to 7
 curl -O http://example.com/{web,mail}-log[0-6].txt		# get a week's worth of logs for both the web server and the mail server
 curl http://{one,two}.example.com -o "file_#1.txt"		# get as file_one.txt and file_two.txt
-curl http://{site,host}.host[1-5].example.com -o "subdir/#1_#2" 	# save the outputs from a command line with two globs in a subdirectory (???)
+curl http://{site,host}.host[1-5].example.com -o "subdir/#1_#2" # save the outputs from a command line with two globs in a subdirectory (???)
 curl -K cmdline.txt http://example.com					# read more command-line options from a specific file
  														# if you want to provide a URL in a config file, you must do that the --url way, or just with url:
 														# url = "http://example.com"
 														# default config file: curl always (unless -q is used) checks for a default config file and uses it if found.
 														# the file name it checks for is .curlrc on Unix-like systems and _curlrc on windows
-curl -u alice:12345 https://example.com/					# authentication (no prompt for password)
+curl -u alice:12345 https://example.com/				# authentication (no prompt for password)
 curl -u alice https://example.com/						# authentication (prompt for password)
 curl -v -s http://example.com/ -o saved					# get as `saved`, do not show progress (-s / --silent)
 curl -v -# http://example.com/ -o saved					# simple progress meter (-# / --progress-bar)
+
+curl -T uploadthis ftp://example.com/this/directory/	# upload uploadthis to directory
+curl -T mail smtp://mail.ex.com/ --mail-from u@ex.com	# upload email
+curl smtp://mail.example.com --mail-from myself@example.com --mail-rcpt	# upload email
+receiver@example.com --upload-file email.txt
 
 
 
