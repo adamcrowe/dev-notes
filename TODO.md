@@ -105,6 +105,7 @@
 * [-] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac/)
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git/)
 * [-] PRO GIT
+* [.] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
 * [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS 
 * [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
 * [-] UNIX POWER TOOLS, THIRD EDITION

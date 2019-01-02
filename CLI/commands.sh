@@ -97,7 +97,7 @@ cat test.txt
 joe
 
 
-# piping ============================================
+# piping ============================================ 	# pipe design philosophy: send data to stdout to make it easy to chain together with other tools
 cat file.txt | sort | less 								# only the stdout stream gets passed through the pipeline; the stderr hits the screen right away
 cat -n file.txt | head -37 | tail -1  					# print row 37
 cat -n file.txt | awk 'NR==37'        					# print row 37 (NR = row number)
@@ -1407,10 +1407,61 @@ rsync --exclude mydir user@myhost.university.edu:/my/source /my/destination/ 	# 
 rsync -azv -L --progress user@myhost.university.edu:/my/source /my/destination/ # copy the files pointed to by the symbolic links ("transform symlink into referent file/dir") (--L)
 
 
-# curl ==============================================	# everything curl book: https://ec.haxx.se/
+# curl ==============================================	# `everything curl book`: https://ec.haxx.se/
+curl --manual											# https://curl.haxx.se/docs/manpage.html
+
 curl https://github.com/downloads/wycats 				# curl: download and rename
 /handlebars.js/handlebars-1.0.rc.1.min.js 
 > handlebars.js 
+
+curl --verbose http://example.com						# verbose mode (-v) (long option)
+curl -v http://example.com								# verbose mode (-v) (short option)
+curl --verbose --location http://example.com			# verbose mode (-v) and follow HTTP redirects (-L)
+curl -vL http://example.com								# verbose mode (-v) and follow HTTP redirects (-L)
+curl http://example.com -Lv								# verbose mode (-v) and follow HTTP redirects (-L)
+curl -v -L http://example.com							# verbose mode (-v) and follow HTTP redirects (-L)
+curl --no-verbose http://example.com					# switch off verbose mode
+curl -d some-data http://example.com					# post some-data
+curl -data some-data http://example.com					# post some-data
+curl -A "I am your father" http://example.com			# set user agent (-A) string to "I am your father"
+curl -d '{ "name": "Darth" }' http://example.com		# post JSON 
+curl -d @json http://example.com						# post a file called json
+curl ftp://user:password@example.com 					# the presence of user name and password in the URL is optional,
+														# curl also allows that information to be provide with normal command-line options
+curl ftp://ftp.example.com/tmp/							# ending the URL with a trailing slash implies it is a directory and not a file
+
+curl --location http://example.com/1 --next				# three requests in a single line using --next
+  --data sendthis http://example.com/2 --next
+  --head http://example.com/3
+
+curl -O http://example.com/[1-100].png					# get 100 images one by one that are named numerically (-O/--remote-name = save the target file using the file name part of the URL)
+curl -O http://example.com/[001-100].png				# get 100 images one by one that are named numerically
+curl -O http://example.com/[0-100:2].png				# get 100 images one by one that are named numerically with step/increment of 2
+curl -O http://example.com/section[a-z].html			# get a range of pages
+curl -O http://example.com/{one,two,alpha,beta}.html	# get a list of pages
+curl -O http://example.com/{Ben,Alice,Frank}-{100x100,1000x1000}.jpg # get images of Ben, Alice and Frank, in both the resolutions 100x100 and 1000x1000
+curl -O http://example.com/chess-[0-7]x[0-7].jpg 		# get images of a chess board, indexed by two coordinates ranged 0 to 7
+curl -O http://example.com/{web,mail}-log[0-6].txt		# get a week's worth of logs for both the web server and the mail server
+curl http://{one,two}.example.com -o "file_#1.txt"		# get as file_one.txt and file_two.txt
+curl http://{site,host}.host[1-5].example.com -o "subdir/#1_#2" 	# save the outputs from a command line with two globs in a subdirectory (???)
+curl -K cmdline.txt http://example.com					# read more command-line options from a specific file
+ 														# if you want to provide a URL in a config file, you must do that the --url way, or just with url:
+														# url = "http://example.com"
+														# default config file: curl always (unless -q is used) checks for a default config file and uses it if found.
+														# the file name it checks for is .curlrc on Unix-like systems and _curlrc on windows
+curl -u alice:12345 https://example.com/					# authentication (no prompt for password)
+curl -u alice https://example.com/						# authentication (prompt for password)
+curl -v -s http://example.com/ -o saved					# get as `saved`, do not show progress (-s / --silent)
+curl -v -# http://example.com/ -o saved					# simple progress meter (-# / --progress-bar)
+
+
+
+
+
+
+
+
+
 
 # wget =============================================
 
