@@ -103,8 +103,9 @@
 * [-] MODERN DEVTOOLS (VIDEO COURSE)
 
 ## MAC/GIT/CLI/EDITORS
-* [-] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac/)
+* [/] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac/)
 * [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
+* [-] [Set up your .bash_profile, .bashrc, and Other Dotfiles](http://oliverelliott.org/article/computing/tips_mac/9/)
 * [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS 
 * [-] SMALL, SHARP. SOFTWARE TOOLS (PRAGPROG)
 * [-] UNIX POWER TOOLS, THIRD EDITION
