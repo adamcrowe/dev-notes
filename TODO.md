@@ -5,6 +5,7 @@
 * https://ec.haxx.se/usingcurl-persist.html
 
 ## TODO
+* [What do programmers actually do?](https://www.freecodecamp.org/news/what-do-programmers-actually-do/)
 * [Boost your tech career](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
 * [Workplace Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY) 
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
@@ -54,6 +55,7 @@
 * [/] INSTANT HANDLEBARS
 
 ## REACTIVE 
+* [-] BUILD REACTIVE WEBSITES WITH RXJS
 * [-] THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING
 * [-] ASYNCHRONOUS PROGRAMMING: THE END OF THE LOOP
 * [-] INTRODUCTION TO REACTIVE PROGRAMMING
@@ -63,7 +65,6 @@
 * [-] RXJS SUBJECTS AND MULTICASTING OPERATORS
 * [-] RXJS IN ACTION
 * [-] REACTIVE PROGRAMMING WITH RXJS 5
-* [-] BUILD REACTIVE WEBSITES WITH RXJS
 
 ## JS
 * [-] MDN: JAVASCRIPT
@@ -103,12 +104,13 @@
 
 ## MAC/GIT/CLI/EDITORS
 * [-] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac/)
+* [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
+* [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS 
+* [-] SMALL, SHARP. SOFTWARE TOOLS (PRAGPROG)
+* [-] UNIX POWER TOOLS, THIRD EDITION
+* [.] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git/)
 * [-] PRO GIT
-* [.] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
-* [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS 
-* [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
-* [-] UNIX POWER TOOLS, THIRD EDITION
 * [-] [OLIVER: VIM BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_vim/)
 * [-] INTRODUCTION TO BASH, VIM & REGEX
 * [-] PRACTICAL VIM
@@ -117,10 +119,12 @@
 
 ## COMPSCI
 * [-] [HOW DO COMPUTERS AND THE INTERNET WORK? - COMPUTER SCIENCE BASICS](https://www.youtube.com/watch?v=AV_VYsJnHQQ)
-* [-] [PYTHON CODING AND SYNTAX REFERENCE](http://oliverelliott.org/article/computing/wik_python)
-* [-] PRACTICAL PROGRAMMING: AN INTRODUCTION TO COMPUTER SCIENCE USING PYTHON 3
-* [-] THINK LIKE A PROGRAMMER PYTHON EDITION
 * [-] CODE: THE HIDDEN LANGUAGE OF COMPUTER HARDWARE AND SOFTWARE
+* [-] PRACTICAL PROGRAMMING: AN INTRODUCTION TO COMPUTER SCIENCE USING PYTHON 3 (PRAGPROG)
+* [-] [PYTHON CODING AND SYNTAX REFERENCE](http://oliverelliott.org/article/computing/wik_python)
+* [-] A COMMON-SENSE GUIDE TO DATA STRUCTURES AND ALGORITHMS (PRAGPROG)
+* [-] NAND TO TETRIS
+* [-] THINK LIKE A PROGRAMMER PYTHON EDITION
 * [-] IMPOSTER'S HANDBOOK 
 * [-] [DATA STRUCTURES AND ALGORITHMS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ)
 * [-] [DATA STRUCTURES AND ALGORITHMS IN JAVASCRIPT - FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=t2CEgPsws3U)
@@ -128,9 +132,11 @@
 * [-] [LEARNING ALGORITHMS APP](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
 * [-] [MATHS FOR PROGRAMMERS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
 * [-] CRACKING THE CODING INTERVIEW
-* [-] NAND TO TETRIS
+
 
 ## SECURITY
+* [-] [A QUICK INTRODUCTION TO WEB SECURITY](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
+* [-] [WEB APP PENETRATION TESTING FOR ETHICAL HACKING](https://www.freecodecamp.org/news/web-app-penetration-testing-full-course/)
 * [-] [HACK THIS SITE](https://www.hackthissite.org)
 
 ## NETWORK/DEPLOYMENT
@@ -138,6 +144,7 @@
 
 ## CRAFTMANSHIP
 * [-] HEAD FIRST SOFTWARE DEVELOPMENT
+* [-] YOUR CODE AS A CRIME SCENE (PRAGPROG)
 * [-] THE PRAGMATIC PROGRAMMER - FROM JOURNEYMAN TO MASTER 
 * [-] PRACTICES OF AN AGILE DEVELOPER
 * [-] THE DEVELOPER'S CODE
