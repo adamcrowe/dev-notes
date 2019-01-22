@@ -1,7 +1,7 @@
 # GENERAL
 git status 								# get status of current branch
 git status -s 							# get short status of current branch
-git add <filename> 							# add file in pwd to staging area
+git add <filename> 						# add file in pwd to staging area
 git add -A 								# add all files in pwd to staging area 
 git commit -m "<message>" 				# commit with message
 git commit -a -m "<message>" 			# add all and commit with a message 
@@ -105,33 +105,33 @@ git push origin master:temporary_branch # push local master to new branch (e.g. 
 # Never use `git reset <commit>` when any snapshots after <commit> have been pushed to a public repository
 # After publishing a commit, you have to assume that other developers are reliant upon it. 
 
-git revert <commit> 	# creates and applies a new reversed/(undo changes) commit to leave previous commit in history
-git revert HEAD 		# revert to before the most recent commit
-git revert -n HEAD 		# revert to before the most recent commit
-git reset 				# unstages all files without overwriting any changes (only use to undo local changes on a private branch)
-git reset <filename> 	# remove file from staging area but leave pwd unchanged 
-git reset --hard 		# reset staging area to most recent commit and overwrite/obliterate all changes to pwd
-git reset <commit> 		# reset staging area to most recent commit leaving pwd alone - files can be re-committed
-git reset HEAD 			# reset staging area to most recent commit leaving pwd alone - files can be re-committed  
-git reset --hard HEAD 	# unstage and throw away all changes in pwd
-git reset --mixed HEAD 	# unstage all changes but leave them in pwd
-git clean -df 			# remove untracked files and untracked directories from pwd
-git clean -xf 			# remove untracked files from the pwd as well as any files usually ignored
-git clean -n 			# show which files would be removed from pwd 
-git clean -f 			# execute clean (f = force check: will not remove untracked folders or files specified by .gitignore)
-git clean -f <path> 	# remove untracked files, but limit the operation to the specified path
+git revert <commit> 	                # creates and applies a new reversed/(undo changes) commit to leave previous commit in history
+git revert HEAD 		                # revert to before the most recent commit
+git revert -n HEAD 		                # revert to before the most recent commit
+git reset 				                # unstages all files without overwriting any changes (only use to undo local changes on a private branch)
+git reset <filename> 	                # remove file from staging area but leave pwd unchanged 
+git reset --hard 		                # reset staging area to most recent commit and overwrite/obliterate all changes to pwd
+git reset <commit> 		                # reset staging area to most recent commit leaving pwd alone - files can be re-committed
+git reset HEAD 			                # reset staging area to most recent commit leaving pwd alone - files can be re-committed  
+git reset --hard HEAD 	                # unstage and throw away all changes in pwd
+git reset --mixed HEAD 	                # unstage all changes but leave them in pwd
+git clean -df 			                # remove untracked files and untracked directories from pwd
+git clean -xf 			                # remove untracked files from the pwd as well as any files usually ignored
+git clean -n 			                # show which files would be removed from pwd 
+git clean -f 			                # execute clean (f = force check: will not remove untracked folders or files specified by .gitignore)
+git clean -f <path> 	                # remove untracked files, but limit the operation to the specified path
 
 # SEQUENCE: RETURN THE WORKING DIRECTORY TO THE EXACT STATE OF THE MOST RECENT COMMIT
-git reset --hard 		# reset staging area to most recent commit and *overwrite/obliterate* all changes to pwd
-git clean -df 			# remove untracked files and untracked directories)
+git reset --hard 		                # reset staging area to most recent commit and *overwrite/obliterate* all changes to pwd
+git clean -df 			                # remove untracked files and untracked directories)
 
 # SEQUENCE: CHERRY-PICKING A COMMIT
 # <https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow>
 
-git log 					# find hash of commit
-git checkout <branch> 		# switch to branch to apply cherry-picked commit to
-git cherry-pick <commit>	# apply cherry-picked commit to branch
-							# multiples: git cherry-pick <commit1> <commit2> <commit3>
+git log 					            # find hash of commit
+git checkout <branch> 		            # switch to branch to apply cherry-picked commit to
+git cherry-pick <commit>	            # apply cherry-picked commit to branch
+							            # multiples: git cherry-pick <commit1> <commit2> <commit3>
 
 # THE REBASING PROCESS
 # > Rebasing works by transferring each local commit to the updated master branch one at a time. This means that you catch merge conflicts on a commit-by-commit basis rather than resolving all of them in one massive merge commit. This keeps your commits as focused as possible and makes for a clean project history. In turn, this makes it much easier to figure out where bugs were introduced and, if necessary, to roll back changes with minimal impact on the project. 
