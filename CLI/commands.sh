@@ -1593,6 +1593,7 @@ rm -rf </path/to/dir1>									# delete directory and contents
 rm -rf </path/to/dir1/*>								# delete contents of directory only
 rm -P file  											# deletes file securely by first overwriting file contents
 shred -zuv file											# deletes file securely by first overwriting file contents (flags are: zero, remove, verbose)
+find . -name '.DS_Store' -type f -delete 				# recursively remove .DS_Store
 
 cp file1.sql /httpdocs 									# copy myfile from cwd to another dir 
 scp file1.sql /httpdocs 								# secure copy file from cwd to another dir 

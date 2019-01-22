@@ -2,14 +2,15 @@
 > This guide covers the basics of setting up a development environment on a new Mac. Whether you are an experienced programmer or not, this guide is intended for everyone to use as a reference for setting up your environment or installing languages/libraries.
 
 
+
 ! Put Display to Sleep
 * pmset displaysleepnow
 > Press Ctrl+Shift+Eject to put your Mac's displays to sleep immediately, with no warnings or delay. If you're really finished working and want to put your Mac to sleep, press Opt+Cmd+Eject to instantly put your Mac to sleep.
 
 ! Show hidden files/folders
 
-!! AppleScript 
-defaults write com.apple.Finder AppleShowAllFiles YES
+!! Shortcut
+# Highlight folder to show (e.g., Macintosh HD), then... CMD + SHIFT + . (dot)
 
 !! Manual
 # open terminal 
@@ -17,6 +18,9 @@ defaults write com.apple.Finder AppleShowAllFiles YES
 $ defaults write com.apple.Finder AppleShowAllFiles true 
 $ killall Finder 
 # if you want to switch it back just change the true to false
+
+!! AppleScript 
+defaults write com.apple.Finder AppleShowAllFiles YES
 
 ! Editing Hosts file
 > The best way to work with the Hosts file is using the Terminal application found in your Mac's Utilities folder. You'll need to know the IP address of the device you'd like to send your Mac to, or the domain names you're trying to keep your Mac away from. 
