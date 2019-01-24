@@ -163,6 +163,22 @@ git checkout master 				# pull latest master
 git merge new-feature				# fast-forward merge from master
 git push origin master 				# push merged feature branch
 
+###
+
+Committer: Adam <adam@Mac.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+git commit --amend --reset-author
+
+
 # Git Complete Script # https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 #!/bin/bash
 URL="https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash"
