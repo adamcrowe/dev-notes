@@ -93,3 +93,7 @@ cd_func ()
 }
 
 */
+
+/* Git Completion Script
+https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
+*/

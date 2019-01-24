@@ -52,6 +52,7 @@
 * [-] MDN: NODE + SQL
 * [-] BUILD FRONT-END APPS WITH PLAIN JAVASCRIPT
 * [/] INSTANT HANDLEBARS
+* [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 
 ## REACTIVE 
 * [-] THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING
@@ -72,6 +73,10 @@
 * [-] LEARNING JAVASCRIPT DESIGN PATTERNS
 * [-] [NODEJS TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSpxyVx5XcprEgvhJ1BzruD)
 * [/] CORE JAVASCRIPT CONCEPTS
+* [-] [33 CONCEPTS EVERY JAVASCRIPT DEVELOPER SHOULD KNOW](https://github.com/leonardomso/33-js-concepts)
+* [-] [USING JAVASCRIPT’S BITWISE OPERATORS IN REAL LIFE](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
+* [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
+* [-] [LEARN X IN Y MINUTES](https://learnxinyminutes.com/docs/typescript/)
 
 ## FUNCTIONAL
 * [-] LEARNING UNDERSCORE (MONGO)
@@ -94,6 +99,9 @@
 * [-] PROGRAMMING GAME: https://warrior.js.org
 
 ## TESTING
+* [-] [DEBUGGING JAVASCRIPT IN GOOGLE CHROME AND VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-studio-code)
+* [-] [DEBUGGING ANGULAR CLI APPLICATIONS IN VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-angular-cli-applications-in-visual-studio-code)
+* [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
 * [-] JAVASCRIPT TESTING
 * [-] TESTABLE JAVASCRIPT
 * [-] TEST-DRIVEN JAVASCRIPT DEVELOPMENT
@@ -105,6 +113,7 @@
 * [-] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac/)
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git/)
 * [-] PRO GIT
+* [-] [GIT INTEGRATION IN VISUAL STUDIO CODE](https://scotch.io/tutorials/git-integration-in-visual-studio-code)
 * [.] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
 * [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS 
 * [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
@@ -151,6 +160,7 @@
 * [-] [OBJECT ORIENTED DESIGN](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE) 
 * [-] [CODE REFACTORING](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV) 
 * [-] [COMPUTER SCIENCE AND SOFTWARE ENGINEERING THEORY](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy) 
+* [-] [PROGRAMMING QUOTES](http://quotes.cat-v.org/programming/)
 
 ## MONGO
 * [-] [MONGODB FULL TUTORIAL WITH NODEJS, EXPRESS, & MONGOOSE](https://www.youtube.com/watch?v=4yqu8YF29cU)
