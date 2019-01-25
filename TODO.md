@@ -148,7 +148,6 @@
 * [-] [MATHS FOR PROGRAMMERS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
 * [-] CRACKING THE CODING INTERVIEW
 
-
 ## SECURITY
 * [-] [A QUICK INTRODUCTION TO WEB SECURITY](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
 * [-] [WEB APP PENETRATION TESTING FOR ETHICAL HACKING](https://www.freecodecamp.org/news/web-app-penetration-testing-full-course/)
