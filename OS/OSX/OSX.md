@@ -1,8 +1,6 @@
 ! [macOS Setup Guide](https://sourabhbajaj.com/mac-setup/)
 > This guide covers the basics of setting up a development environment on a new Mac. Whether you are an experienced programmer or not, this guide is intended for everyone to use as a reference for setting up your environment or installing languages/libraries.
 
-
-
 ! Put Display to Sleep
 * pmset displaysleepnow
 > Press Ctrl+Shift+Eject to put your Mac's displays to sleep immediately, with no warnings or delay. If you're really finished working and want to put your Mac to sleep, press Opt+Cmd+Eject to instantly put your Mac to sleep.

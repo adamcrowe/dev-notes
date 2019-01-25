@@ -49,6 +49,7 @@
 * [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
 * [.] [ANGULAR DOCS](https://angular.io/) 
 * [-] ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX
+* [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
 * [-] MDN: HTTP
 * [-] MDN: NODE + SQL
 * [-] BUILD FRONT-END APPS WITH PLAIN JAVASCRIPT
