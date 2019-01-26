@@ -23,8 +23,6 @@
 * https://medium.freecodecamp.org/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f
 * http://dorophone.blogspot.com/2011/07/duckspeak-vs-smalltalk.html?view=classic
 
-# BOOKS/COURSES/TUTORIALS
-
 ## GENERAL
 * [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
 
@@ -35,7 +33,29 @@
 * [-] [WATCH AND CODE - OFFICE HOURS](https://www.youtube.com/user/gordonmzhu)
 * [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
 
-## FRONT-END
+# HTML/CSS
+* [/] BOOTSTRAP 3/4
+* [-] HTML5 AND CSS3 (2ND EDITION) (PRAGPROG)
+* [-] CSS MASTER
+* [-] PRAGMATIC GUIDE TO SASS 3 (PRAGPROG)
+* [-] HEAD FIRST HTML5 PROGRAMMING
+* [-] FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT
+* [-] ADVANCED GAME DESIGN WITH HTML5 AND JAVASCRIPT
+* [-] [PROGRAMMING GAME](https://warrior.js.org)
+
+# JS
+* [-] MDN: JAVASCRIPT
+* [-] YOU DON'T KNOW JAVASCRIPT
+* [-] SPEAKING JAVASCRIPT
+* [-] LEARNING JAVASCRIPT DESIGN PATTERNS
+* [-] [NODEJS TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSpxyVx5XcprEgvhJ1BzruD)
+* [/] CORE JAVASCRIPT CONCEPTS
+* [-] [33 CONCEPTS EVERY JAVASCRIPT DEVELOPER SHOULD KNOW](https://github.com/leonardomso/33-js-concepts)
+* [-] [USING JAVASCRIPT’S BITWISE OPERATORS IN REAL LIFE](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
+* [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
+* [-] [LEARN X IN Y MINUTES](https://learnxinyminutes.com/docs/typescript)
+
+# FRONT-END
 * [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2/)
 * [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
 * [.] [ANGULAR DOCS](https://angular.io/) 
@@ -47,7 +67,7 @@
 * [/] INSTANT HANDLEBARS
 * [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 
-## REACTIVE 
+# REACTIVE 
 * [-] BUILD REACTIVE WEBSITES WITH RXJS (PRAGPROG)
 * [-] REACTIVE PROGRAMMING WITH RXJS 5 (PRAGPROG)
 * [-] [THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
@@ -60,33 +80,11 @@
 * [-] [RXJS SUBJECTS AND MULTICASTING OPERATORS](https://egghead.io/courses/rxjs-subjects-and-multicasting-operators)
 * [-] RXJS IN ACTION
 
-## JS
-* [-] MDN: JAVASCRIPT
-* [-] YOU DON'T KNOW JAVASCRIPT
-* [-] SPEAKING JAVASCRIPT
-* [-] LEARNING JAVASCRIPT DESIGN PATTERNS
-* [-] [NODEJS TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSpxyVx5XcprEgvhJ1BzruD)
-* [/] CORE JAVASCRIPT CONCEPTS
-* [-] [33 CONCEPTS EVERY JAVASCRIPT DEVELOPER SHOULD KNOW](https://github.com/leonardomso/33-js-concepts)
-* [-] [USING JAVASCRIPT’S BITWISE OPERATORS IN REAL LIFE](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
-* [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
-* [-] [LEARN X IN Y MINUTES](https://learnxinyminutes.com/docs/typescript)
-
-## FUNCTIONAL
+# FUNCTIONAL
 * [-] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
 * [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 
-## HTML/CSS
-* [/] BOOTSTRAP 3/4
-* [-] HTML5 & CSS3
-* [-] CSS MASTER
-* [-] PRAGMATIC GUIDE TO SASS 3 (PRAGPROG)
-* [-] HEAD FIRST HTML5 PROGRAMMING
-* [-] FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT
-* [-] ADVANCED GAME DESIGN WITH HTML5 AND JAVASCRIPT
-* [-] [PROGRAMMING GAME](https://warrior.js.org)
-
-## TESTING
+# TESTING
 * [-] [DEBUGGING JAVASCRIPT IN GOOGLE CHROME AND VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-studio-code)
 * [-] [DEBUGGING ANGULAR CLI APPLICATIONS IN VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-angular-cli-applications-in-visual-studio-code)
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
@@ -97,7 +95,7 @@
 * [/] JAVASCRIPT TESTING WITH JASMINE
 * [-] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 
-## MAC/GIT/CLI/EDITORS
+# MAC/GIT/CLI/EDITORS
 * [/] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac/)
 * [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
 * [-] [Set up your .bash_profile, .bashrc, and Other Dotfiles](http://oliverelliott.org/article/computing/tips_mac/9/)
@@ -115,7 +113,7 @@
 * [-] [GIT INTEGRATION IN VISUAL STUDIO CODE](https://scotch.io/tutorials/git-integration-in-visual-studio-code)
 * [-] PRO GIT
 
-## COMPSCI
+# COMPSCI
 * [-] [HOW DO COMPUTERS AND THE INTERNET WORK? - COMPUTER SCIENCE BASICS](https://www.youtube.com/watch?v=AV_VYsJnHQQ)
 * [-] CODE: THE HIDDEN LANGUAGE OF COMPUTER HARDWARE AND SOFTWARE
 * [-] PRACTICAL PROGRAMMING: AN INTRODUCTION TO COMPUTER SCIENCE USING PYTHON 3 (PRAGPROG)
@@ -131,12 +129,13 @@
 * [-] [MATHS FOR PROGRAMMERS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
 * [-] CRACKING THE CODING INTERVIEW
 
-## CRAFTMANSHIP
-* [-] REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE (2ND EDITION) 
-* [-] YOUR CODE AS A CRIME SCENE (PRAGPROG)
+# CRAFTMANSHIP
 * [-] HEAD FIRST SOFTWARE DEVELOPMENT
 * [-] THE PRAGMATIC PROGRAMMER - FROM JOURNEYMAN TO MASTER (PRAGPROG)
+* [-] PRACTICES OF AN AGILE DEVELOPEr (PRAGPROG)
 * [-] THE SENIOR SOFTWARE ENGINEER: 11 PRACTICES OF AN EFFECTIVE TECHNICAL LEADER
+* [-] REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE (2ND EDITION) 
+* [-] YOUR CODE AS A CRIME SCENE (PRAGPROG)
 * [-] JOEL ON SOFTWARE
 * [-] MORE JOEL ON SOFTWARE
 * [-] CLEAN CODE: A HANDBOOK OF AGILE SOFTWARE CRAFTSMANSHIP
@@ -148,19 +147,19 @@
 * [-] [COMPUTER SCIENCE AND SOFTWARE ENGINEERING THEORY](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy) 
 * [-] [PROGRAMMING QUOTES](http://quotes.cat-v.org/programming/)
 
-## SECURITY
+# SECURITY
 * [-] [A QUICK INTRODUCTION TO WEB SECURITY](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
 * [-] [WEB APP PENETRATION TESTING FOR ETHICAL HACKING](https://www.freecodecamp.org/news/web-app-penetration-testing-full-course/)
 * [-] [HACK THIS SITE](https://www.hackthissite.org)
 
-## NETWORK/DEPLOYMENT
+# NETWORK/DEPLOYMENT
 * [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws/)
 
-## VISUALIZATION
+# VISUALIZATION
 * [-] DASHINGD3JS.COM
 * [-] INTERACTIVE DATA VISUALIZATION FOR THE WEB 2ND ED
 
-## SQL
+# SQL
 * [-][SQL: FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=HXV3zeQKqGY)
 * [-] SQL QUERIES FOR MERE MORTALS
 * [-] DATABASE DESIGN FOR MERE MORTALS
