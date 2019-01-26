@@ -11,8 +11,6 @@
 * http://codon.com/hello-declarative-world 
 * http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html
 * https://www.infoq.com/presentations/Simple-Made-Easy
-* [Git Tutorial](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQHO1PfyscjIPkNJjgHsLyH)
-* [Git & GitHub](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF)
 * https://medium.freecodecamp.org/bash-shortcuts-to-enhance-your-git-workflow-5107d64ea0ff
 * https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 * https://natelandau.com/my-mac-osx-bash_profile/
@@ -112,6 +110,8 @@
 * [-] MODERN VIM (PRAGPROG)
 * [-] THE VIML PRIMER (PRAGPROG)
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git/)
+* [-] [Git Tutorial](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQHO1PfyscjIPkNJjgHsLyH)
+* [-] [Git & GitHub](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF)
 * [-] [GIT INTEGRATION IN VISUAL STUDIO CODE](https://scotch.io/tutorials/git-integration-in-visual-studio-code)
 * [-] PRO GIT
 
