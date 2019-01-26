@@ -1,9 +1,7 @@
-# BUFFER
-* [What do programmers actually do?](https://www.freecodecamp.org/news/what-do-programmers-actually-do/)
-* [Boost your tech career](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
-* [Workplace Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY) 
-
 ## GENERAL
+* [-] [WHAT DO PROGRAMMERS ACTUALLY DO?](https://www.freecodecamp.org/news/what-do-programmers-actually-do/)
+* [-] [BOOST YOUR TECH CAREER](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
+* [-] [WORKPLACE Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY) 
 * [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
 
 ## WATCH AND CODE
@@ -21,14 +19,14 @@
 * [-] HEAD FIRST HTML5 PROGRAMMING
 * [-] FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT
 * [-] ADVANCED GAME DESIGN WITH HTML5 AND JAVASCRIPT
-* [-] [PROGRAMMING GAME](https://warrior.js.org)
+* [-] [WARRIORJS: WRITE JAVASCRIPT TO TEACH YOUR WARRIOR WHAT TO DO DEPENDING ON THE SITUATION](https://warrior.js.org)
 
 # JS
 * [-] MDN: JAVASCRIPT
-* [-] YOU DON'T KNOW JAVASCRIPT
-* [-] SPEAKING JAVASCRIPT
-* [-] LEARNING JAVASCRIPT DESIGN PATTERNS
-* [-] [NODEJS TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSpxyVx5XcprEgvhJ1BzruD)
+* [-] [YOU DON'T KNOW JAVASCRIPT](https://github.com/getify/You-Dont-Know-JS)
+* [-] [SPEAKING JAVASCRIPT](http://speakingjs.com/es5/index.html)
+* [-] [LEARNING JAVASCRIPT DESIGN PATTERNS](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+* [-] [JAVASCRIPT PATTERNS COLLECTION](https://shichuan.github.io/javascript-patterns/)
 * [/] CORE JAVASCRIPT CONCEPTS
 * [-] [33 CONCEPTS EVERY JAVASCRIPT DEVELOPER SHOULD KNOW](https://github.com/leonardomso/33-js-concepts)
 * [-] [USING JAVASCRIPT'S BITWISE OPERATORS IN REAL LIFE](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
@@ -37,6 +35,7 @@
 * [-] [THE TIMELINE OF JAVASCRIPT'S EVOLUTION](https://www.youtube.com/watch?v=CseCDFed458)
 * [-] [USING JAVASCRIPT'S BITWISE OPERATORS IN REAL LIFE](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
 * [-] [LET'S DEMYSTIFY JAVASCRIPT'S ‘NEW’ KEYWORD](https://medium.freecodecamp.org/demystifying-javascripts-new-keyword-874df126184c)
+* [-] [NODEJS TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSpxyVx5XcprEgvhJ1BzruD)
 
 # FRONT-END
 * [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2/)
@@ -75,27 +74,28 @@
 * [-] [DEBUGGING JAVASCRIPT IN GOOGLE CHROME AND VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-studio-code)
 * [-] [DEBUGGING ANGULAR CLI APPLICATIONS IN VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-angular-cli-applications-in-visual-studio-code)
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
-* [-] JAVASCRIPT TESTING
-* [-] TESTABLE JAVASCRIPT
-* [-] TEST-DRIVEN JAVASCRIPT DEVELOPMENT
-* [-] TEST-DRIVEN DEVELOPMENT EXTENSIVE TUTORIAL
+* [-] JAVASCRIPT TESTING (PACKT)
+* [-] TESTABLE JAVASCRIPT (O'REILLY)
+* [-] [TEST-DRIVEN JAVASCRIPT DEVELOPMENT](https://www.tddjs.com/)
+* [-] [TEST-DRIVEN DEVELOPMENT EXTENSIVE TUTORIAL](https://leanpub.com/tdd-ebook)
 * [/] JAVASCRIPT TESTING WITH JASMINE
 * [-] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 
 # SQL
-* [-][SQL: FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=HXV3zeQKqGY)
+* [-] [SQL: FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=HXV3zeQKqGY)
 * [-] SQL QUERIES FOR MERE MORTALS
 * [-] DATABASE DESIGN FOR MERE MORTALS
-* [-] BEGINNING DATABASE DESIGN SOLUTIONS
+* [-] BEGINNING DATABASE DESIGN SOLUTIONS (WROX)
 * [-] SQL ANTIPATTERNS (PRAGPROG)
+* [/] HEAD FIRST SQL (O'REILLY)
 
-# MAC/GIT/CLI/EDITORS
+# UNIX/CLI/BASH/GIT/EDITORS
 * [/] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac/)
 * [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
 * [-] [OLIVER: SET UP YOUR .BASH_PROFILE, .BASHRC, AND OTHER DOTFILES](http://oliverelliott.org/article/computing/tips_mac/9/)
 * [-] [MY MAC OSX BASH PROFILE](https://natelandau.com/my-mac-osx-bash_profile/)
 * [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS 
-* [-] SMALL, SHARP. SOFTWARE TOOLS (PRAGPROG)
+* [-] SMALL, SHARP, SOFTWARE TOOLS (PRAGPROG)
 * [-] UNIX POWER TOOLS (THIRD EDITION)
 * [-] [BASH PROGRAMMING](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
 * [-] [BASH SHELL SCRIPTING](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)
@@ -112,25 +112,23 @@
 * [-] [BASH SHORTCUTS TO ENHANCE YOUR GIT WORKFLOW](https://medium.freecodecamp.org/bash-shortcuts-to-enhance-your-git-workflow-5107d64ea0ff)
 * [-] PRO GIT
 
-# COMPSCI
+# CS
 * [-] [HOW DO COMPUTERS AND THE INTERNET WORK? - COMPUTER SCIENCE BASICS](https://www.youtube.com/watch?v=AV_VYsJnHQQ)
 * [-] CODE: THE HIDDEN LANGUAGE OF COMPUTER HARDWARE AND SOFTWARE
 * [-] PRACTICAL PROGRAMMING: AN INTRODUCTION TO COMPUTER SCIENCE USING PYTHON 3 (PRAGPROG)
 * [-] THINK LIKE A PROGRAMMER (PYTHON EDITION)
 * [-] [PYTHON CODING AND SYNTAX REFERENCE](http://oliverelliott.org/article/computing/wik_python)
 * [-] NAND TO TETRIS
-* [-] IMPOSTER'S HANDBOOK 
+* [-] [IMPOSTER'S HANDBOOK](https://bigmachine.io/products/the-imposters-handbook/)
 * [-] A COMMON-SENSE GUIDE TO DATA STRUCTURES AND ALGORITHMS (PRAGPROG)
-* [-] DATA STRUCTURES AND ALGORITHMS WITH JAVASCRIPT
-* [-] [APP THAT MAKES LEARNING ALGORITHMS AND DATA STRUCTURES FUN](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
-* [-] [DATA STRUCTURES AND ALGORITHMS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ)
+* [-] DATA STRUCTURES AND ALGORITHMS WITH JAVASCRIPT (O'REILLY)
 * [-] [DATA STRUCTURES AND ALGORITHMS IN JAVASCRIPT - FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=t2CEgPsws3U)
 * [-] [LEARNING ALGORITHMS APP](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
 * [-] [MATHS FOR PROGRAMMERS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
 * [-] CRACKING THE CODING INTERVIEW
 
 # CRAFTMANSHIP
-* [-] HEAD FIRST SOFTWARE DEVELOPMENT
+* [-] HEAD FIRST SOFTWARE DEVELOPMENT (O'REILLY)
 * [-] THE PRAGMATIC PROGRAMMER - FROM JOURNEYMAN TO MASTER (PRAGPROG)
 * [-] PRACTICES OF AN AGILE DEVELOPEr (PRAGPROG)
 * [-] THE SENIOR SOFTWARE ENGINEER: 11 PRACTICES OF AN EFFECTIVE TECHNICAL LEADER
@@ -149,14 +147,10 @@
 * [-] [DUCKSPEAK VS SMALLTALK THE DECLINE OF THE XEROX PARC PHILOSOPHY AT APPLE COMPUTERS](https://dorophone.blogspot.com/2011/07/duckspeak-vs-smalltalk.html)
 * [-] [SIMPLE MADE EASY](https://www.infoq.com/presentations/Simple-Made-Easy)
 
+# DEPLOYMENT
+* [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws/)
+
 # SECURITY
 * [-] [A QUICK INTRODUCTION TO WEB SECURITY](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
 * [-] [WEB APP PENETRATION TESTING FOR ETHICAL HACKING](https://www.freecodecamp.org/news/web-app-penetration-testing-full-course/)
 * [-] [HACK THIS SITE](https://www.hackthissite.org)
-
-# NETWORK/DEPLOYMENT
-* [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws/)
-
-# VISUALIZATION
-* [-] DASHINGD3JS.COM
-* [-] INTERACTIVE DATA VISUALIZATION FOR THE WEB 2ND ED
