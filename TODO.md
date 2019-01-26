@@ -54,16 +54,17 @@
 * [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 
 ## REACTIVE 
-* [-] BUILD REACTIVE WEBSITES WITH RXJS
-* [-] THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING
-* [-] ASYNCHRONOUS PROGRAMMING: THE END OF THE LOOP
-* [-] INTRODUCTION TO REACTIVE PROGRAMMING
-* [-] RXJS BEYOND THE BASICS: OPERATORS IN DEPTH
-* [-] USE HIGHER ORDER OBSERVABLES IN RXJS EFFECTIVELY
-* [-] SAVE TIME AVOIDING COMMON MISTAKES USING RXJS
-* [-] RXJS SUBJECTS AND MULTICASTING OPERATORS
+* [-] BUILD REACTIVE WEBSITES WITH RXJS (PRAGPROG)
+* [-] REACTIVE PROGRAMMING WITH RXJS 5 (PRAGPROG)
+* [-] [THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+* [-] [ASYNCHRONOUS PROGRAMMING: THE END OF THE LOOP](https://egghead.io/courses/asynchronous-programming-the-end-of-the-loop)
+* [-] [INTRODUCTION TO REACTIVE PROGRAMMING](https://egghead.io/courses/introduction-to-reactive-programming)
+* [-] [RXJS BEYOND THE BASICS: CREATING OBSERVABLES FROM SCRATCH](https://egghead.io/courses/rxjs-beyond-the-basics-creating-observables-from-scratch)
+* [-] [RXJS BEYOND THE BASICS: OPERATORS IN DEPTH](https://egghead.io/courses/rxjs-beyond-the-basics-operators-in-depth)
+* [-] [USE HIGHER ORDER OBSERVABLES IN RXJS EFFECTIVELY](https://egghead.io/courses/use-higher-order-observables-in-rxjs-effectively)
+* [-] [SAVE TIME AVOIDING COMMON MISTAKES USING RXJS](https://egghead.io/courses/save-time-avoiding-common-mistakes-using-rxjs)
+* [-] [RXJS SUBJECTS AND MULTICASTING OPERATORS](https://egghead.io/courses/rxjs-subjects-and-multicasting-operators)
 * [-] RXJS IN ACTION
-* [-] REACTIVE PROGRAMMING WITH RXJS 5
 
 ## JS
 * [-] MDN: JAVASCRIPT
@@ -75,19 +76,17 @@
 * [-] [33 CONCEPTS EVERY JAVASCRIPT DEVELOPER SHOULD KNOW](https://github.com/leonardomso/33-js-concepts)
 * [-] [USING JAVASCRIPT’S BITWISE OPERATORS IN REAL LIFE](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
 * [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
-* [-] [LEARN X IN Y MINUTES](https://learnxinyminutes.com/docs/typescript/)
+* [-] [LEARN X IN Y MINUTES](https://learnxinyminutes.com/docs/typescript)
 
 ## FUNCTIONAL
-* [-] LEARNING UNDERSCORE (MONGO)
-* [-] FUNCTIONAL JAVASCRIPT (UNDERSCORE)
-* [-] FUNCTIONAL-LIGHT JAVASCRIPT
-* [-] JAVASCRIPT ALLONGE (FUNCTIONAL)
+* [-] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
+* [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 
 ## HTML/CSS
 * [/] BOOTSTRAP 3/4
 * [-] HTML5 & CSS3
 * [-] CSS MASTER
-* [-] PRAGMATIC GUIDE TO SASS 3
+* [-] PRAGMATIC GUIDE TO SASS 3 (PRAGPROG)
 * [-] HEAD FIRST HTML5 PROGRAMMING
 * [-] FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT
 * [-] ADVANCED GAME DESIGN WITH HTML5 AND JAVASCRIPT
@@ -124,24 +123,23 @@
 * [-] [HOW DO COMPUTERS AND THE INTERNET WORK? - COMPUTER SCIENCE BASICS](https://www.youtube.com/watch?v=AV_VYsJnHQQ)
 * [-] CODE: THE HIDDEN LANGUAGE OF COMPUTER HARDWARE AND SOFTWARE
 * [-] PRACTICAL PROGRAMMING: AN INTRODUCTION TO COMPUTER SCIENCE USING PYTHON 3 (PRAGPROG)
+* [-] THINK LIKE A PROGRAMMER (PYTHON EDITION)
 * [-] [PYTHON CODING AND SYNTAX REFERENCE](http://oliverelliott.org/article/computing/wik_python)
-* [-] A COMMON-SENSE GUIDE TO DATA STRUCTURES AND ALGORITHMS (PRAGPROG)
 * [-] NAND TO TETRIS
-* [-] THINK LIKE A PROGRAMMER PYTHON EDITION
 * [-] IMPOSTER'S HANDBOOK 
+* [-] A COMMON-SENSE GUIDE TO DATA STRUCTURES AND ALGORITHMS (PRAGPROG)
+* [-] DATA STRUCTURES AND ALGORITHMS WITH JAVASCRIPT
 * [-] [DATA STRUCTURES AND ALGORITHMS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ)
 * [-] [DATA STRUCTURES AND ALGORITHMS IN JAVASCRIPT - FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=t2CEgPsws3U)
-* [-] DATA STRUCTURES AND ALGORITHMS WITH JAVASCRIPT
 * [-] [LEARNING ALGORITHMS APP](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
 * [-] [MATHS FOR PROGRAMMERS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
 * [-] CRACKING THE CODING INTERVIEW
 
 ## CRAFTMANSHIP
-* [-] HEAD FIRST SOFTWARE DEVELOPMENT
 * [-] REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE (2ND EDITION) 
 * [-] YOUR CODE AS A CRIME SCENE (PRAGPROG)
+* [-] HEAD FIRST SOFTWARE DEVELOPMENT
 * [-] THE PRAGMATIC PROGRAMMER - FROM JOURNEYMAN TO MASTER (PRAGPROG)
-* [-] THINK LIKE A PROGRAMMER (PYTHON EDITION)
 * [-] THE SENIOR SOFTWARE ENGINEER: 11 PRACTICES OF AN EFFECTIVE TECHNICAL LEADER
 * [-] JOEL ON SOFTWARE
 * [-] MORE JOEL ON SOFTWARE
@@ -153,7 +151,6 @@
 * [-] [CODE REFACTORING](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV) 
 * [-] [COMPUTER SCIENCE AND SOFTWARE ENGINEERING THEORY](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy) 
 * [-] [PROGRAMMING QUOTES](http://quotes.cat-v.org/programming/)
-
 
 ## SECURITY
 * [-] [A QUICK INTRODUCTION TO WEB SECURITY](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
@@ -167,13 +164,9 @@
 * [-] DASHINGD3JS.COM
 * [-] INTERACTIVE DATA VISUALIZATION FOR THE WEB 2ND ED
 
-## MONGO
-* [-] [MONGODB FULL TUTORIAL WITH NODEJS, EXPRESS, & MONGOOSE](https://www.youtube.com/watch?v=4yqu8YF29cU)
-* [-] [GETTING STARTED WITH MONGODB](https://resources.mongodb.com/getting-started-with-mongodb)
-
 ## SQL
 * [-][SQL: FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=HXV3zeQKqGY)
 * [-] SQL QUERIES FOR MERE MORTALS
 * [-] DATABASE DESIGN FOR MERE MORTALS
 * [-] BEGINNING DATABASE DESIGN SOLUTIONS
-* [-] SQL ANTIPATTERNS
+* [-] SQL ANTIPATTERNS (PRAGPROG)
