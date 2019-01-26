@@ -4,7 +4,7 @@
 ["penguin", "arctis", "snow"]
 
 // !! Maps (object literals)
-{"id": 2901465, "my phone number":"0049.30.227109"}
+{ "id": "2901465", "my phone number": "0049.30.227109" }
 
 // !! Records (map with keys)
 {id: 2901465, phone:"0049.30.227109"}
