@@ -1,4 +1,5 @@
 // Commands:
+
 // npm install											// install dependencies in package.json
 // npm install - g @angular/cli							// install angular cli globally
 // npm start											// run scripts to build project
@@ -23,30 +24,3 @@
 														// compiles the application into an output directory
 														// tests will execute after a build is executed via Karma
 
-
-
-// <li * ngFor="let hero of heroes$ | async"></li>		// $ is a convention that indicates heroes$ is an Observable not an array
-														// async identifies Angular's AsyncPipe which subscribes to an Observable automaticall
-
-// EventEmitter 										
-// is an object that implements the Observer Pattern:
-// it will... 
-// 1) maintain a list of subscribers
-// 2) publish events to subscribers
-
-// Angular only binds to public component properties.
-// @Outputs specify events that can be emitted from the component; the view can listen to these events
-/* @Output() loading: EventEmiter<boolean> = new EventEmitter<boolean>(); */
-
-// ngFor
-// breadcrumbs...
-/*<div class="product-department">
-	<span *ngFor="let name of product.department; let i=index">
-		<a href="#">{{ name }}</a>
-		<span>{{ i < (product.department.length -1) ? '>' : '' }}</span>
-	</span>
-</div>*/	
-
-// Disable Form Element 
-// disabled is a boolean; must use null instead of any truthy or falsy value
-// <button type="button" [attr.disabled]="disabled || null">Send</button>
