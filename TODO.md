@@ -1,7 +1,3 @@
-# CURRENT [.]
-* https://angular.io/guide/router
-* https://ec.haxx.se/usingcurl-persist.html
-
 # TO SORT
 * [What do programmers actually do?](https://www.freecodecamp.org/news/what-do-programmers-actually-do/)
 * [Boost your tech career](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
