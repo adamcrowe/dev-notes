@@ -1,27 +1,7 @@
-# TO SORT
+# BUFFER
 * [What do programmers actually do?](https://www.freecodecamp.org/news/what-do-programmers-actually-do/)
 * [Boost your tech career](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
 * [Workplace Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY) 
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
-* https://medium.freecodecamp.org/demystifying-javascripts-new-keyword-874df126184c
-* https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5
-* https://developers.google.com/web/tools/chrome-devtools/
-* http://blog.teamtreehouse.com/mastering-developer-tools-console
-* https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html
-* http://codon.com/hello-declarative-world 
-* http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html
-* https://www.infoq.com/presentations/Simple-Made-Easy
-* https://medium.freecodecamp.org/bash-shortcuts-to-enhance-your-git-workflow-5107d64ea0ff
-* https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
-* https://natelandau.com/my-mac-osx-bash_profile/
-* https://en.wikibooks.org/wiki/Bash_Shell_Scripting
-* http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
-* https://askubuntu.com/questions/918379/what-is-the-main-difference-between-chmod-and-chown
-* https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf
-* https://developers.google.com/web/tools/chrome-devtools/
-* https://www.freecodecamp.org/news/beaucarnes/timeline-of-javascript-evolution--39ut308ZX
-* https://medium.freecodecamp.org/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f
-* http://dorophone.blogspot.com/2011/07/duckspeak-vs-smalltalk.html?view=classic
 
 ## GENERAL
 * [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
@@ -51,15 +31,20 @@
 * [-] [NODEJS TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSpxyVx5XcprEgvhJ1BzruD)
 * [/] CORE JAVASCRIPT CONCEPTS
 * [-] [33 CONCEPTS EVERY JAVASCRIPT DEVELOPER SHOULD KNOW](https://github.com/leonardomso/33-js-concepts)
-* [-] [USING JAVASCRIPT’S BITWISE OPERATORS IN REAL LIFE](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
+* [-] [USING JAVASCRIPT'S BITWISE OPERATORS IN REAL LIFE](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
 * [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
 * [-] [LEARN X IN Y MINUTES](https://learnxinyminutes.com/docs/typescript)
+* [-] [THE TIMELINE OF JAVASCRIPT'S EVOLUTION](https://www.youtube.com/watch?v=CseCDFed458)
+* [-] [USING JAVASCRIPT'S BITWISE OPERATORS IN REAL LIFE](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
+* [-] [LET'S DEMYSTIFY JAVASCRIPT'S ‘NEW’ KEYWORD](https://medium.freecodecamp.org/demystifying-javascripts-new-keyword-874df126184c)
 
 # FRONT-END
 * [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2/)
 * [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
 * [.] [ANGULAR DOCS](https://angular.io/) 
 * [-] ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX
+* [-] [BEST PRACTICES FOR A CLEAN AND PERFORMANT ANGULAR APPLICATION](https://medium.freecodecamp.org/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f)
+* [-] [HOW TO BUILD TYPESCRIPT APP AND DEPLOY IT ON GITHUB PAGES](https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html)
 * [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
 * [-] MDN: HTTP
 * [-] MDN: NODE + SQL
@@ -67,7 +52,11 @@
 * [/] INSTANT HANDLEBARS
 * [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 
-# REACTIVE 
+# FUNCTIONAL REACTIVE 
+* [-] [DECLARATIVE VS. IMPERATIVE PROGRAMMING FOR THE WEB](http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html)
+* [-] [HELLO, DECLARATIVE WORLD](http://codon.com/hello-declarative-world)
+* [-] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
+* [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 * [-] BUILD REACTIVE WEBSITES WITH RXJS (PRAGPROG)
 * [-] REACTIVE PROGRAMMING WITH RXJS 5 (PRAGPROG)
 * [-] [THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
@@ -80,11 +69,9 @@
 * [-] [RXJS SUBJECTS AND MULTICASTING OPERATORS](https://egghead.io/courses/rxjs-subjects-and-multicasting-operators)
 * [-] RXJS IN ACTION
 
-# FUNCTIONAL
-* [-] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
-* [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
-
 # TESTING
+* [-] [CHROME DEVTOOLS](https://developers.google.com/web/tools/chrome-devtools)
+* [-] [MASTERING THE DEVELOPER TOOLS CONSOLE](https://blog.teamtreehouse.com/mastering-developer-tools-console)
 * [-] [DEBUGGING JAVASCRIPT IN GOOGLE CHROME AND VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-studio-code)
 * [-] [DEBUGGING ANGULAR CLI APPLICATIONS IN VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-angular-cli-applications-in-visual-studio-code)
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
@@ -105,19 +92,24 @@
 # MAC/GIT/CLI/EDITORS
 * [/] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac/)
 * [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
-* [-] [Set up your .bash_profile, .bashrc, and Other Dotfiles](http://oliverelliott.org/article/computing/tips_mac/9/)
+* [-] [OLIVER: SET UP YOUR .BASH_PROFILE, .BASHRC, AND OTHER DOTFILES](http://oliverelliott.org/article/computing/tips_mac/9/)
+* [-] [MY MAC OSX BASH PROFILE](https://natelandau.com/my-mac-osx-bash_profile/)
 * [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS 
 * [-] SMALL, SHARP. SOFTWARE TOOLS (PRAGPROG)
 * [-] UNIX POWER TOOLS (THIRD EDITION)
+* [-] [BASH PROGRAMMING](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
+* [-] [BASH SHELL SCRIPTING](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)
 * [.] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
 * [-] [OLIVER: VIM BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_vim/)
 * [-] PRACTICAL VIM (PRAGPROG)
 * [-] MODERN VIM (PRAGPROG)
 * [-] THE VIML PRIMER (PRAGPROG)
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git/)
-* [-] [Git Tutorial](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQHO1PfyscjIPkNJjgHsLyH)
-* [-] [Git & GitHub](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF)
+* [-] [GIT TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQHO1PfyscjIPkNJjgHsLyH)
+* [-] [GIT & GITHUB](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF)
 * [-] [GIT INTEGRATION IN VISUAL STUDIO CODE](https://scotch.io/tutorials/git-integration-in-visual-studio-code)
+* [-] [GIT-COMPLETION.BASH](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
+* [-] [BASH SHORTCUTS TO ENHANCE YOUR GIT WORKFLOW](https://medium.freecodecamp.org/bash-shortcuts-to-enhance-your-git-workflow-5107d64ea0ff)
 * [-] PRO GIT
 
 # COMPSCI
@@ -130,6 +122,7 @@
 * [-] IMPOSTER'S HANDBOOK 
 * [-] A COMMON-SENSE GUIDE TO DATA STRUCTURES AND ALGORITHMS (PRAGPROG)
 * [-] DATA STRUCTURES AND ALGORITHMS WITH JAVASCRIPT
+* [-] [APP THAT MAKES LEARNING ALGORITHMS AND DATA STRUCTURES FUN](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
 * [-] [DATA STRUCTURES AND ALGORITHMS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ)
 * [-] [DATA STRUCTURES AND ALGORITHMS IN JAVASCRIPT - FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=t2CEgPsws3U)
 * [-] [LEARNING ALGORITHMS APP](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
@@ -153,6 +146,8 @@
 * [-] [CODE REFACTORING](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV) 
 * [-] [COMPUTER SCIENCE AND SOFTWARE ENGINEERING THEORY](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy) 
 * [-] [PROGRAMMING QUOTES](http://quotes.cat-v.org/programming/)
+* [-] [DUCKSPEAK VS SMALLTALK THE DECLINE OF THE XEROX PARC PHILOSOPHY AT APPLE COMPUTERS](https://dorophone.blogspot.com/2011/07/duckspeak-vs-smalltalk.html)
+* [-] [SIMPLE MADE EASY](https://www.infoq.com/presentations/Simple-Made-Easy)
 
 # SECURITY
 * [-] [A QUICK INTRODUCTION TO WEB SECURITY](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
