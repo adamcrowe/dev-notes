@@ -1,3 +1,4 @@
+// See: https://www.typescriptlang.org/docs/handbook/
 // npm install -g typescript
 // tsc myTypeScriptFile.ts -w
 
