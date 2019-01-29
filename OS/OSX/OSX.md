@@ -1,3 +1,5 @@
+! [Fix macOS Mojave Font Rendering Issue](https://ahmadawais.com/fix-macos-mojave-font-rendering-issue)
+
 ! [macOS Setup Guide](https://sourabhbajaj.com/mac-setup/)
 > This guide covers the basics of setting up a development environment on a new Mac. Whether you are an experienced programmer or not, this guide is intended for everyone to use as a reference for setting up your environment or installing languages/libraries.
 

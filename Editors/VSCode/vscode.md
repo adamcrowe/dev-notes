@@ -3,3 +3,6 @@
 
 # Extentions location:
 ~/.vscode/extensions
+
+# Course
+[VSCode Power User Master Class](https://vscode.pro)

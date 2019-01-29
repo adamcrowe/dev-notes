@@ -29,3 +29,5 @@ function JSClock() {
 
 /// ! Moment
 const todayDate = moment().format('YYYY-MM-DD');
+const startDate = moment().add('-1', 'month').format('YYYY-MM-DD'); // a month ago
+const endDate = moment().format('YYYY-MM-DD'); // today
