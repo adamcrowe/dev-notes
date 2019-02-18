@@ -99,7 +99,7 @@
 * [-] UNIX POWER TOOLS (THIRD EDITION)
 * [-] [BASH PROGRAMMING](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
 * [-] [BASH SHELL SCRIPTING](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)
-* [.] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
+* [/] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
 * [-] [VSCODE POWER USER MASTER CLASS](https://vscode.pro)
 * [-] [OLIVER: VIM BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_vim/)
 * [-] PRACTICAL VIM (PRAGPROG)
