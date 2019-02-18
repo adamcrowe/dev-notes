@@ -1,5 +1,4 @@
 /*
-OLLIE'S bash_profile:
 PATH=$PATH:/usr/local/sbin
 alias composer="php /usr/local/bin/composer.phar"
 parse_git_branch() {
