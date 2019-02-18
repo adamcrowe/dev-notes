@@ -6,7 +6,7 @@
 
 ## WATCH AND CODE
 * [/] [WATCH AND CODE - PRACTICAL JAVASCRIPT](https://watchandcode.com)
-* [-] [WATCH AND CODE - PREMIUM MEMBERSHIP](https://watchandcode.com)
+* [.] [WATCH AND CODE - PREMIUM MEMBERSHIP](https://watchandcode.com)
 * [/] [WATCH AND CODE - BEAST CHALLENGES](https://github.com/gordonmzhu)
 * [-] [WATCH AND CODE - OFFICE HOURS](https://www.youtube.com/user/gordonmzhu)
 * [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
@@ -33,7 +33,6 @@
 * [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
 * [-] [LEARN X IN Y MINUTES](https://learnxinyminutes.com/docs/typescript)
 * [-] [THE TIMELINE OF JAVASCRIPT'S EVOLUTION](https://www.youtube.com/watch?v=CseCDFed458)
-* [-] [USING JAVASCRIPT'S BITWISE OPERATORS IN REAL LIFE](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
 * [-] [LET'S DEMYSTIFY JAVASCRIPT'S ‘NEW’ KEYWORD](https://medium.freecodecamp.org/demystifying-javascripts-new-keyword-874df126184c)
 * [-] [NODEJS TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSpxyVx5XcprEgvhJ1BzruD)
 
@@ -47,6 +46,7 @@
 * [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
 * [-] MDN: HTTP
 * [-] MDN: NODE + SQL
+* [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
 * [-] BUILD FRONT-END APPS WITH PLAIN JAVASCRIPT
 * [/] INSTANT HANDLEBARS
 * [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
@@ -74,6 +74,7 @@
 * [-] [DEBUGGING JAVASCRIPT IN GOOGLE CHROME AND VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-studio-code)
 * [-] [DEBUGGING ANGULAR CLI APPLICATIONS IN VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-angular-cli-applications-in-visual-studio-code)
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
+* [-] [AN INTRODUCTION TO TEST-DRIVEN DEVELOPMENT](https://medium.freecodecamp.org/an-introduction-to-test-driven-development-c4de6dce5c)
 * [-] JAVASCRIPT TESTING (PACKT)
 * [-] TESTABLE JAVASCRIPT (O'REILLY)
 * [-] [TEST-DRIVEN JAVASCRIPT DEVELOPMENT](https://www.tddjs.com/)
