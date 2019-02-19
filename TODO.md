@@ -93,8 +93,8 @@
 # UNIX/CLI/BASH/GIT/EDITORS
 * [/] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac/)
 * [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
-* [-] [OLIVER: SET UP YOUR .BASH_PROFILE, .BASHRC, AND OTHER DOTFILES](http://oliverelliott.org/article/computing/tips_mac/9/)
-* [-] [MY MAC OSX BASH PROFILE](https://natelandau.com/my-mac-osx-bash_profile/)
+* [/] [OLIVER: SET UP YOUR .BASH_PROFILE, .BASHRC, AND OTHER DOTFILES](http://oliverelliott.org/article/computing/tips_mac/9/)
+* [/] [MY MAC OSX BASH PROFILE](https://natelandau.com/my-mac-osx-bash_profile/)
 * [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS 
 * [-] SMALL, SHARP, SOFTWARE TOOLS (PRAGPROG)
 * [-] UNIX POWER TOOLS (THIRD EDITION)
