@@ -30,6 +30,7 @@ new Promise((resolve, reject) => {
 .then(() => {
     throw new Error('Something failed');
     console.log('Do this');
+    // Note: 'Do this' is not displayed because the Something failed error caused a rejection.
 })
 .catch(() => {
     console.log('Do that');
@@ -44,6 +45,57 @@ new Promise((resolve, reject) => {
 // Do this, no matter what happened before
 
 // ! Error propagation
+// In the old days, doing several asynchronous operations in a row would lead to the classic callback pyramid of doom:
+doSomething(function (result) {
+    doSomethingElse(result, function (newResult) {
+        doThirdThing(newResult, function (finalResult) {
+            console.log('Got the final result: ' + finalResult);
+        }, failureCallback);
+    }, failureCallback);
+}, failureCallback);
+
+// With modern functions, we attach our callbacks to the returned promises instead, forming a promise chain:
+doSomething()
+    .then(function (result) {
+        return doSomethingElse(result);
+    })
+    .then(function (newResult) {
+        return doThirdThing(newResult);
+    })
+    .then(function (finalResult) {
+        console.log('Got the final result: ' + finalResult);
+    })
+    .catch(failureCallback);
+
+// The arguments to then are optional, and catch (failureCallback) is short for then(null, failureCallback).You might see this expressed with arrow functions instead:
+doSomething()
+    .then(result => doSomethingElse(result))
+    .then(newResult => doThirdThing(newResult))
+    .then(finalResult => { console.log(`Got the final result: ${finalResult}`); })
+    .catch(failureCallback);
+
+// Basically, a promise chain stops if there's an exception, looking down the chain for catch handlers instead. This is very much modeled after how synchronous code works:
+try {
+    const result = syncDoSomething();
+    const newResult = syncDoSomethingElse(result);
+    const finalResult = syncDoThirdThing(newResult);
+    console.log(`Got the final result: ${finalResult}`);
+} catch (error) {
+    failureCallback(error);
+}  
+// Promises solve a fundamental flaw with the callback pyramid of doom, by catching all errors, even thrown exceptions and programming errors. This is essential for functional composition of asynchronous operations.
+
+// async/await (ECMAScript 2017) verson of above:
+async function foo() {
+    try {
+        const result = await doSomething();
+        const newResult = await doSomethingElse(result);
+        const finalResult = await doThirdThing(newResult);
+        console.log(`Got the final result: ${finalResult}`);
+    } catch (error) {
+        failureCallback(error);
+    }
+}
 
 // !! Simple error handling
 // The promise constructor takes one argument, a callback with two parameters, resolve and reject. 
@@ -57,11 +109,14 @@ var promise = new Promise((resolve, reject) => {
     }
 });
 
-promise.then((result) => { 
-    console.log(result); // "Stuff worked!"
-}, (err) => {
-    console.log(err); // Error: It broke
-});
+promise.then(
+    (result) => { 
+        console.log(result); // "Stuff worked!"
+    }, 
+    (err) => {
+        console.log(err); // Error: It broke
+    },
+);
 // then() takes two arguments, a callback for a success case, and another for the failure case.
 // Both are optional, so you can add a callback for the success or failure case only.
 
@@ -77,7 +132,48 @@ async function foo() {
     }
 }
 
+// ! Composition
+// Promise.resolve() and Promise.reject() are shortcuts to manually create an already resolved or rejected promise respectively. This can be useful at times.
+// Promise.all() and Promise.race() are two composition tools for running asynchronous operations in parallel.
+// We can start operations in parallel and wait for them all to finish like this:
+Promise.all([func1(), func2(), func3()])
+    .then(([result1, result2, result3]) => {
+        /* use result1, result2 and result3 */ 
+    });
+
+// !! Sequential composition with async/await:
+let result;
+for (const f of [func1, func2, func3]) {
+    result = await f(result);
+}
+/* use last result (i.e. result3) */
+
+// ! Nesting
+// Nesting is a control structure to limit the scope of catch statements. Specifically, a nested catch only catches failures in its scope and below, not errors higher up in the chain outside the nested scope. When used correctly, this gives greater precision in error recovery:
+doSomethingCritical()
+    .then(result => doSomethingOptional()
+        .then(
+            optionalResult => doSomethingExtraNice(optionalResult)
+        ).catch( // Ignore if optional stuff fails; proceed.
+            e => { }
+        ) 
+    ) 
+    .then(() => moreCriticalStuff())
+    .catch(e => console.log("Critical failure: " + e.message));
+// Note that the optional steps here are nested, not from the indentation, but from the precarious placement of the outer(and) around them.
+// The inner neutralizing catch statement only catches failures from doSomethingOptional() and doSomethingExtraNice(), after which the code resumes with moreCriticalStuff().Importantly, if doSomethingCritical() fails, its error is caught by the final(outer) catch only.
+
 // ! Async/Await
+// Async functions work like this:
+async function myFirstAsyncFunction() {
+    try {
+        const fulfilledValue = await promise;
+    }
+    catch (rejectedValue) {
+        // …
+    }
+}
+// If you use the async keyword before a function definition, you can then use await within the function. When you await a promise, the function is paused in a non - blocking way until the promise settles. If the promise fulfills, you get the value back.If the promise rejects, the rejected value is thrown.
 
 // Anything you await is passed through Promise.resolve(), so you can safely await non-native promises.
 async function logFetch(url) {
@@ -91,7 +187,6 @@ async function logFetch(url) {
 }
 // Async functions always return a promise, whether you use await or not. 
 // That promise resolves with whatever the async function returns, or rejects with whatever the async function throws. So with:
-
 function wait(ms) { // wait ms milliseconds
     return new Promise(r => setTimeout(r, ms));
 }
@@ -170,11 +265,13 @@ function get(url) {
     });
 }
 
-get('story.json').then((response) => {
-    console.log("Success!", response);
-}, (error) => {
-    console.error("Failed!", error);
-})
+get('story.json').then(
+    (response) => {
+        console.log("Success!", response);
+    }, (error) => {
+        console.error("Failed!", error);
+    },
+);
 
 // !! Chaining
 // You can transform values simply by returning the new value:
@@ -183,12 +280,17 @@ var promise = new Promise(function (resolve, reject) {
     resolve(1);
 });
 
-promise.then(function (val) {
-    console.log(val); // 1
-    return val + 2;
-}).then(function (val) {
-    console.log(val); // 3
-})
+promise
+    .then(
+        function (val) {
+            console.log(val); // 1
+            return val + 2;
+        }
+    ).then(
+        function (val) {
+            console.log(val); // 3
+        }
+    );
 
 // !! Queuing asynchronous actions
 // You can also chain thens to run async actions in sequence. When you return something from a then() 
@@ -202,7 +304,7 @@ getJSON('story.json').then(function (story) {
     console.log("Got chapter 1!", chapter1);
 })
 // Here we make an async request to story.json, which gives us a set of URLs to request, then we request 
-// the first of those.This is when promises really start to stand out from simple callback patterns.
+// the first of those. This is when promises really start to stand out from simple callback patterns.
 
 // You could even make a shortcut method to get chapters:
 
