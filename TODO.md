@@ -159,3 +159,6 @@
 
 # DESIGN
 * [-] [SKETCH MASTER](https://sketchmaster.com)
+* [-] [REFACTORING UI](https://refactoringui.com/book) 
+* [/] [REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
+
