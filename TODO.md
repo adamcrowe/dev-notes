@@ -1,7 +1,7 @@
 ## GENERAL
 * [-] [WHAT DO PROGRAMMERS ACTUALLY DO?](https://www.freecodecamp.org/news/what-do-programmers-actually-do/)
 * [-] [BOOST YOUR TECH CAREER](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
-* [-] [WORKPLACE Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY) 
+* [-] [WORKPLACE Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY)
 * [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
 
 ## WATCH AND CODE
@@ -39,7 +39,7 @@
 # FRONT-END
 * [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2/)
 * [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
-* [.] [ANGULAR DOCS](https://angular.io/) 
+* [.] [ANGULAR DOCS](https://angular.io/)
 * [-] ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX
 * [-] [BEST PRACTICES FOR A CLEAN AND PERFORMANT ANGULAR APPLICATION](https://medium.freecodecamp.org/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f)
 * [-] [HOW TO BUILD TYPESCRIPT APP AND DEPLOY IT ON GITHUB PAGES](https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html)
@@ -51,7 +51,7 @@
 * [/] INSTANT HANDLEBARS
 * [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 
-# FUNCTIONAL REACTIVE 
+# FUNCTIONAL REACTIVE
 * [-] [DECLARATIVE VS. IMPERATIVE PROGRAMMING FOR THE WEB](http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html)
 * [-] [HELLO, DECLARATIVE WORLD](http://codon.com/hello-declarative-world)
 * [-] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
@@ -95,7 +95,7 @@
 * [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
 * [/] [OLIVER: SET UP YOUR .BASH_PROFILE, .BASHRC, AND OTHER DOTFILES](http://oliverelliott.org/article/computing/tips_mac/9/)
 * [/] [MY MAC OSX BASH PROFILE](https://natelandau.com/my-mac-osx-bash_profile/)
-* [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS 
+* [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS
 * [-] SMALL, SHARP, SOFTWARE TOOLS (PRAGPROG)
 * [-] UNIX POWER TOOLS (THIRD EDITION)
 * [-] [BASH PROGRAMMING](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
@@ -134,17 +134,17 @@
 * [-] THE PRAGMATIC PROGRAMMER - FROM JOURNEYMAN TO MASTER (PRAGPROG)
 * [-] PRACTICES OF AN AGILE DEVELOPEr (PRAGPROG)
 * [-] THE SENIOR SOFTWARE ENGINEER: 11 PRACTICES OF AN EFFECTIVE TECHNICAL LEADER
-* [-] REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE (2ND EDITION) 
+* [-] REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE (2ND EDITION)
 * [-] YOUR CODE AS A CRIME SCENE (PRAGPROG)
 * [-] JOEL ON SOFTWARE
 * [-] MORE JOEL ON SOFTWARE
 * [-] CLEAN CODE: A HANDBOOK OF AGILE SOFTWARE CRAFTSMANSHIP
 * [-] CLEAN CODER: A CODE OF CONDUCT FOR PROFESSIONAL PROGRAMMERS
 * [-] CLEAN ARCHITECTURE: A CRAFTSMAN'S GUIDE TO SOFTWARE STRUCTURE AND DESIGN
-* [-] [DESIGN PATTERNS](https://www.youtube.com/playlist?list=PLF206E906175C7E07) 
-* [-] [OBJECT ORIENTED DESIGN](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE) 
-* [-] [CODE REFACTORING](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV) 
-* [-] [COMPUTER SCIENCE AND SOFTWARE ENGINEERING THEORY](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy) 
+* [-] [DESIGN PATTERNS](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
+* [-] [OBJECT ORIENTED DESIGN](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE)
+* [-] [CODE REFACTORING](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV)
+* [-] [COMPUTER SCIENCE AND SOFTWARE ENGINEERING THEORY](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy)
 * [-] [PROGRAMMING QUOTES](http://quotes.cat-v.org/programming/)
 * [-] [DUCKSPEAK VS SMALLTALK THE DECLINE OF THE XEROX PARC PHILOSOPHY AT APPLE COMPUTERS](https://dorophone.blogspot.com/2011/07/duckspeak-vs-smalltalk.html)
 * [-] [SIMPLE MADE EASY](https://www.infoq.com/presentations/Simple-Made-Easy)
@@ -158,7 +158,8 @@
 * [-] [HACK THIS SITE](https://www.hackthissite.org)
 
 # DESIGN
+* [-] [THEORY SPRINTS](https://proximityschool.com/theory-sprints)
 * [-] [SKETCH MASTER](https://sketchmaster.com)
-* [-] [REFACTORING UI](https://refactoringui.com/book) 
+* [-] [REFACTORING UI](https://refactoringui.com/book)
 * [/] [REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
 
