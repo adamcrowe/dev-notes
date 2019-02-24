@@ -1,16 +1,3 @@
-## GENERAL
-* [-] [WHAT DO PROGRAMMERS ACTUALLY DO?](https://www.freecodecamp.org/news/what-do-programmers-actually-do/)
-* [-] [BOOST YOUR TECH CAREER](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
-* [-] [WORKPLACE Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY)
-* [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
-
-## WATCH AND CODE
-* [/] [WATCH AND CODE - PRACTICAL JAVASCRIPT](https://watchandcode.com)
-* [.] [WATCH AND CODE - PREMIUM MEMBERSHIP](https://watchandcode.com)
-* [/] [WATCH AND CODE - BEAST CHALLENGES](https://github.com/gordonmzhu)
-* [-] [WATCH AND CODE - OFFICE HOURS](https://www.youtube.com/user/gordonmzhu)
-* [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
-
 # HTML/CSS
 * [/] BOOTSTRAP 3/4
 * [-] HTML5 AND CSS3 (2ND EDITION) (PRAGPROG)
@@ -148,6 +135,8 @@
 * [-] [PROGRAMMING QUOTES](http://quotes.cat-v.org/programming/)
 * [-] [DUCKSPEAK VS SMALLTALK THE DECLINE OF THE XEROX PARC PHILOSOPHY AT APPLE COMPUTERS](https://dorophone.blogspot.com/2011/07/duckspeak-vs-smalltalk.html)
 * [-] [SIMPLE MADE EASY](https://www.infoq.com/presentations/Simple-Made-Easy)
+* [/] [BOOST YOUR TECH CAREER](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
+* [/] [WORKPLACE Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY)
 
 # DEPLOYMENT
 * [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws/)
@@ -163,3 +152,12 @@
 * [-] [REFACTORING UI](https://refactoringui.com/book)
 * [/] [REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
 
+## WATCH AND CODE
+* [/] [WATCH AND CODE - PRACTICAL JAVASCRIPT](https://watchandcode.com)
+* [.] [WATCH AND CODE - PREMIUM MEMBERSHIP](https://watchandcode.com)
+* [/] [WATCH AND CODE - BEAST CHALLENGES](https://github.com/gordonmzhu)
+* [-] [WATCH AND CODE - OFFICE HOURS](https://www.youtube.com/user/gordonmzhu)
+* [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
+
+## GENERAL
+* [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
