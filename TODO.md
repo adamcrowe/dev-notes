@@ -1,5 +1,7 @@
 # HTML/CSS
 * [/] BOOTSTRAP 3/4
+* [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [-] [MDN: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [-] HTML5 AND CSS3 (2ND EDITION) (PRAGPROG)
 * [-] CSS MASTER
 * [-] PRAGMATIC GUIDE TO SASS 3 (PRAGPROG)
@@ -9,7 +11,7 @@
 * [-] [WARRIORJS](https://warrior.js.org)
 
 # JS
-* [-] MDN: JAVASCRIPT
+* [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
 * [-] [YOU DON'T KNOW JAVASCRIPT](https://github.com/getify/You-Dont-Know-JS)
 * [-] [SPEAKING JAVASCRIPT](http://speakingjs.com/es5/index.html)
 * [-] [LEARNING JAVASCRIPT DESIGN PATTERNS](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
@@ -26,7 +28,7 @@
 # FRONT-END
 * [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2/)
 * [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
-* [.] [ANGULAR DOCS](https://angular.io/)
+* [.] [ANGULAR DOCS](https://angular.io/): Testing
 * [-] ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX
 * [-] [BEST PRACTICES FOR A CLEAN AND PERFORMANT ANGULAR APPLICATION](https://medium.freecodecamp.org/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f)
 * [-] [HOW TO BUILD TYPESCRIPT APP AND DEPLOY IT ON GITHUB PAGES](https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html)
@@ -61,7 +63,7 @@
 * [-] [DEBUGGING JAVASCRIPT IN GOOGLE CHROME AND VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-studio-code)
 * [-] [DEBUGGING ANGULAR CLI APPLICATIONS IN VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-angular-cli-applications-in-visual-studio-code)
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
-* [-] [AN INTRODUCTION TO TEST-DRIVEN DEVELOPMENT](https://medium.freecodecamp.org/an-introduction-to-test-driven-development-c4de6dce5c)
+* [/] [AN INTRODUCTION TO TEST-DRIVEN DEVELOPMENT](https://medium.freecodecamp.org/an-introduction-to-test-driven-development-c4de6dce5c)
 * [-] JAVASCRIPT TESTING (PACKT)
 * [-] TESTABLE JAVASCRIPT (O'REILLY)
 * [-] [TEST-DRIVEN JAVASCRIPT DEVELOPMENT](https://www.tddjs.com/)
