@@ -4,12 +4,14 @@
 const promise = createAudioFileAsync(audioSettings);
 promise.then(successCallback, failureCallback);
 
+// TIP: .then() must always take a function (and return the result of that function to the next .then())
+
 // ! Chaining
 const promise = doSomething();
 const promise2 = promise.then(successCallback, failureCallback);
-// The then() function returns a new promise, different from the original. This second promise (promise2) represents the completion not 
-// just of doSomething(), but also of the successCallback or failureCallback you passed in, which can be other asynchronous functions 
-// returning a promise. When that's the case, any callbacks added to promise2 get queued behind the promise returned by either 
+// The then() function returns a new promise, different from the original. This second promise (promise2) represents the completion not
+// just of doSomething(), but also of the successCallback or failureCallback you passed in, which can be other asynchronous functions
+// returning a promise. When that's the case, any callbacks added to promise2 get queued behind the promise returned by either
 // successCallback or failureCallback. Basically, each promise represents the completion of another asynchronous step in the chain.
 
 doSomething()
@@ -82,7 +84,7 @@ try {
     console.log(`Got the final result: ${finalResult}`);
 } catch (error) {
     failureCallback(error);
-}  
+}
 // Promises solve a fundamental flaw with the callback pyramid of doom, by catching all errors, even thrown exceptions and programming errors. This is essential for functional composition of asynchronous operations.
 
 // async/await (ECMAScript 2017) verson of above:
@@ -98,7 +100,7 @@ async function foo() {
 }
 
 // !! Simple error handling
-// The promise constructor takes one argument, a callback with two parameters, resolve and reject. 
+// The promise constructor takes one argument, a callback with two parameters, resolve and reject.
 // Do something within the callback, then call resolve if everything worked, otherwise call reject.
 var promise = new Promise((resolve, reject) => {
     if (success) { /* everything turned out fine */
@@ -110,9 +112,9 @@ var promise = new Promise((resolve, reject) => {
 });
 
 promise.then(
-    (result) => { 
+    (result) => {
         console.log(result); // "Stuff worked!"
-    }, 
+    },
     (err) => {
         console.log(err); // Error: It broke
     },
@@ -138,7 +140,7 @@ async function foo() {
 // We can start operations in parallel and wait for them all to finish like this:
 Promise.all([func1(), func2(), func3()])
     .then(([result1, result2, result3]) => {
-        /* use result1, result2 and result3 */ 
+        /* use result1, result2 and result3 */
     });
 
 // !! Sequential composition with async/await:
@@ -156,14 +158,53 @@ doSomethingCritical()
             optionalResult => doSomethingExtraNice(optionalResult)
         ).catch( // Ignore if optional stuff fails; proceed.
             e => { }
-        ) 
-    ) 
+        )
+    )
     .then(() => moreCriticalStuff())
     .catch(e => console.log("Critical failure: " + e.message));
 // Note that the optional steps here are nested, not from the indentation, but from the precarious placement of the outer(and) around them.
 // The inner neutralizing catch statement only catches failures from doSomethingOptional() and doSomethingExtraNice(), after which the code resumes with moreCriticalStuff().Importantly, if doSomethingCritical() fails, its error is caught by the final(outer) catch only.
 
 // ! Async/Await
+// ES7 gives us a new kind of function, the async function.Inside of an async function, we have a new keyword, await, which we use to "wait for" a promise:
+
+async function myFunction() {
+    let result = await somethingThatReturnsAPromise();
+    console.log(result); // cool, we have a result
+}
+// If the promise resolves, we can immediately interact with it on the next line.
+// And if it rejects, then an error is thrown. So try/catch actually works again!
+async function myFunction() {
+    try {
+        await somethingThatReturnsAPromise();
+    } catch (err) {
+        console.log(err); // oh noes, we got an error
+    }
+}
+
+// You have to be careful to wrap your code in try/catches, or else a promise might be rejected, in which case the error is silently swallowed.
+// Ensure that your async functions are entirely surrounded by try/catches, at least at the top level:
+async function createNewDoc() {
+    let response = await db.post({}); // post a new doc
+    return await db.get(response.id); // find by id
+}
+
+async function printDoc() {
+    try {
+        let doc = await createNewDoc();
+        console.log(doc);
+    } catch (err) {
+        console.log(err);
+    }
+}
+
+// Promise chain using async/await
+let docs = [{}, {}, {}];
+
+for (let doc of docs) {
+    await db.post(doc);
+}
+
 // Async functions work like this:
 async function myFirstAsyncFunction() {
     try {
@@ -185,7 +226,7 @@ async function logFetch(url) {
         console.log('fetch failed', err);
     }
 }
-// Async functions always return a promise, whether you use await or not. 
+// Async functions always return a promise, whether you use await or not.
 // That promise resolves with whatever the async function returns, or rejects with whatever the async function throws. So with:
 function wait(ms) { // wait ms milliseconds
     return new Promise(r => setTimeout(r, ms));
@@ -293,9 +334,9 @@ promise
     );
 
 // !! Queuing asynchronous actions
-// You can also chain thens to run async actions in sequence. When you return something from a then() 
-// callback, it's a bit magic. If you return a value, the next then() is called with that value. 
-// However, if you return something promise-like, the next then() waits on it, and is only called when 
+// You can also chain thens to run async actions in sequence. When you return something from a then()
+// callback, it's a bit magic. If you return a value, the next then() is called with that value.
+// However, if you return something promise-like, the next then() waits on it, and is only called when
 // that promise settles (succeeds/fails). For example:
 
 getJSON('story.json').then(function (story) {
@@ -303,7 +344,7 @@ getJSON('story.json').then(function (story) {
 }).then(function (chapter1) {
     console.log("Got chapter 1!", chapter1);
 })
-// Here we make an async request to story.json, which gives us a set of URLs to request, then we request 
+// Here we make an async request to story.json, which gives us a set of URLs to request, then we request
 // the first of those. This is when promises really start to stand out from simple callback patterns.
 
 // You could even make a shortcut method to get chapters:
@@ -325,9 +366,11 @@ getChapter(0).then(function (chapter) {
 }).then(function (chapter) {
     console.log(chapter);
 })
-// We don't download story.json until getChapter is called, but the next time(s) getChapter is called we reuse 
-// the story promise, so story.json is only fetched once. 
+// We don't download story.json until getChapter is called, but the next time(s) getChapter is called we reuse
+// the story promise, so story.json is only fetched once.
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
 // https://developers.google.com/web/fundamentals/primers/promises
 // https://developers.google.com/web/fundamentals/primers/async-functions
+// https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html
+// https://blog.scottlogic.com/2016/06/10/six-tips-for-cleaner-promises.html
