@@ -1,10 +1,9 @@
+// ! Promises
 // The Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
 // Essentially, a promise is a returned object to which you attach callbacks, instead of passing callbacks into a function.
 
 const promise = createAudioFileAsync(audioSettings);
 promise.then(successCallback, failureCallback);
-
-// TIP: .then() must always take a function (and return the result of that function to the next .then())
 
 // ! Chaining
 const promise = doSomething();
@@ -14,6 +13,7 @@ const promise2 = promise.then(successCallback, failureCallback);
 // returning a promise. When that's the case, any callbacks added to promise2 get queued behind the promise returned by either
 // successCallback or failureCallback. Basically, each promise represents the completion of another asynchronous step in the chain.
 
+// TIP: .then() must always take a function (and return the result of that function to the next .then())
 doSomething()
     .then(result => doSomethingElse(result))
     .then(newResult => doThirdThing(newResult))
@@ -21,10 +21,10 @@ doSomething()
         console.log(`Got the final result: ${finalResult}`);
     })
     .catch(failureCallback);
-// The arguments to then are optional, and catch (failureCallback) is short for then(null, failureCallback).
+// .catch(failureCallback) is short for then(null, failureCallback)
 
 // !! Chaining after a catch
-// It's possible to chain after a failure, i.e. a catch, which is useful to accomplish new actions even after an action failed in the chain. Read the following example:
+// It's possible to chain after a failure, i.e. a catch, which is useful to accomplish new actions even after an action failed in the chain:
 new Promise((resolve, reject) => {
     console.log('Initial');
     resolve();
@@ -40,7 +40,6 @@ new Promise((resolve, reject) => {
 .then(() => {
     console.log('Do this, no matter what happened before');
 });
-
 // This will output the following text:
 // Initial
 // Do that
