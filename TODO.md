@@ -1,3 +1,10 @@
+## WATCH AND CODE
+* [/] [WATCH AND CODE - PRACTICAL JAVASCRIPT](https://watchandcode.com)
+* [.] [WATCH AND CODE - PREMIUM MEMBERSHIP](https://watchandcode.com)
+* [/] [WATCH AND CODE - BEAST CHALLENGES](https://github.com/gordonmzhu)
+* [-] [WATCH AND CODE - OFFICE HOURS](https://www.youtube.com/user/gordonmzhu)
+* [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
+
 # HTML/CSS
 * [/] BOOTSTRAP 3/4
 * [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -122,7 +129,7 @@
 # CRAFTMANSHIP
 * [-] HEAD FIRST SOFTWARE DEVELOPMENT (O'REILLY)
 * [-] THE PRAGMATIC PROGRAMMER - FROM JOURNEYMAN TO MASTER (PRAGPROG)
-* [-] PRACTICES OF AN AGILE DEVELOPEr (PRAGPROG)
+* [-] PRACTICES OF AN AGILE DEVELOPER (PRAGPROG)
 * [-] THE SENIOR SOFTWARE ENGINEER: 11 PRACTICES OF AN EFFECTIVE TECHNICAL LEADER
 * [-] REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE (2ND EDITION)
 * [-] YOUR CODE AS A CRIME SCENE (PRAGPROG)
@@ -149,18 +156,14 @@
 * [-] [WEB APP PENETRATION TESTING FOR ETHICAL HACKING](https://www.freecodecamp.org/news/web-app-penetration-testing-full-course/)
 * [-] [HACK THIS SITE](https://www.hackthissite.org)
 
-# DESIGN
+# SYSTEM DESIGN
+* [-] [DRAW.IO](https://www.draw.io)
+
+# UI DESIGN
 * [-] [THEORY SPRINTS](https://proximityschool.com/theory-sprints)
 * [-] [SKETCH MASTER](https://sketchmaster.com)
 * [-] [REFACTORING UI](https://refactoringui.com/book)
 * [/] [REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
-
-## WATCH AND CODE
-* [/] [WATCH AND CODE - PRACTICAL JAVASCRIPT](https://watchandcode.com)
-* [.] [WATCH AND CODE - PREMIUM MEMBERSHIP](https://watchandcode.com)
-* [/] [WATCH AND CODE - BEAST CHALLENGES](https://github.com/gordonmzhu)
-* [-] [WATCH AND CODE - OFFICE HOURS](https://www.youtube.com/user/gordonmzhu)
-* [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
 
 ## GENERAL
 * [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
