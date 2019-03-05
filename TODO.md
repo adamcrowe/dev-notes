@@ -149,6 +149,7 @@
 * [/] [WORKPLACE Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY)
 
 # DEPLOYMENT
+* [-] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
 * [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws/)
 
 # SECURITY
@@ -157,6 +158,8 @@
 * [-] [HACK THIS SITE](https://www.hackthissite.org)
 
 # SYSTEM DESIGN
+* [-] [TAMING THE FRONT-END MONOLITH](https://blog.logrocket.com/taming-the-front-end-monolith-dbaede402c39)
+* [-] [GROKKING THE SYSTEM DESIGN INTERVIEW](https://www.educative.io/collection/5668639101419520/5649050225344512)
 * [-] [DRAW.IO](https://www.draw.io)
 
 # UI DESIGN
