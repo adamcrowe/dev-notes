@@ -26,6 +26,7 @@ npm ll or npm la                        // print additional package information 
 npm i express momemt lodash mongoose... // install multiple packages at once
 
 ### Webpack Scripts
+``` javascript
 {
   "scripts": {
     "watch": "webpack --watch --progress --colors --config webpack.conf.js",
@@ -33,3 +34,4 @@ npm i express momemt lodash mongoose... // install multiple packages at once
     "prod": "NODE_ENV=production webpack -p --config webpack.conf.js",
   },
 }
+```
