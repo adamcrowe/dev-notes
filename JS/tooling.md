@@ -3,6 +3,7 @@
 ## npm
 > npm manages downloads of dependencies of your project
 * https://www.sitepoint.com/beginners-guide-node-package-manager
+* https://www.sitepoint.com/10-npm-tips-and-tricks
 
 ### Commands
 
