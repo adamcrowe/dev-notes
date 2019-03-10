@@ -1,0 +1,2 @@
+* [Startup Cemetery](https://www.failory.com/cemetery)
+> A big resource for entrepreneurs and startup owners, in which we have collected and analyzed why +100 big companies have failed. Learn from mistakes, and avoid being part of the 90% of businesses that fail.
