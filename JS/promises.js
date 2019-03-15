@@ -165,7 +165,7 @@ doSomethingCritical()
 // The inner neutralizing catch statement only catches failures from doSomethingOptional() and doSomethingExtraNice(), after which the code resumes with moreCriticalStuff().Importantly, if doSomethingCritical() fails, its error is caught by the final(outer) catch only.
 
 // ! Async/Await
-// ES7 gives us a new kind of function, the async function.Inside of an async function, we have a new keyword, await, which we use to "wait for" a promise:
+// ES7 gives us a new kind of function, the async function. Inside of an async function, we have a new keyword, await, which we use to "wait for" a promise:
 
 async function myFunction() {
     let result = await somethingThatReturnsAPromise();
@@ -213,7 +213,7 @@ async function myFirstAsyncFunction() {
         // …
     }
 }
-// If you use the async keyword before a function definition, you can then use await within the function. When you await a promise, the function is paused in a non - blocking way until the promise settles. If the promise fulfills, you get the value back.If the promise rejects, the rejected value is thrown.
+// If you use the async keyword before a function definition, you can then use await within the function. When you await a promise, the function is paused in a non-blocking way until the promise settles. If the promise fulfills, you get the value back. If the promise rejects, the rejected value is thrown.
 
 // Anything you await is passed through Promise.resolve(), so you can safely await non-native promises.
 async function logFetch(url) {
@@ -308,7 +308,8 @@ function get(url) {
 get('story.json').then(
     (response) => {
         console.log("Success!", response);
-    }, (error) => {
+    },
+    (error) => {
         console.error("Failed!", error);
     },
 );
@@ -338,16 +339,17 @@ promise
 // However, if you return something promise-like, the next then() waits on it, and is only called when
 // that promise settles (succeeds/fails). For example:
 
-getJSON('story.json').then(function (story) {
-    return getJSON(story.chapterUrls[0]);
-}).then(function (chapter1) {
-    console.log("Got chapter 1!", chapter1);
-})
+getJSON('story.json')
+    .then(function (story) {
+        return getJSON(story.chapterUrls[0]);
+    })
+    .then(function (chapter1) {
+        console.log("Got chapter 1!", chapter1);
+    })
 // Here we make an async request to story.json, which gives us a set of URLs to request, then we request
 // the first of those. This is when promises really start to stand out from simple callback patterns.
 
 // You could even make a shortcut method to get chapters:
-
 var storyPromise;
 
 function getChapter(i) {
@@ -368,8 +370,30 @@ getChapter(0).then(function (chapter) {
 // We don't download story.json until getChapter is called, but the next time(s) getChapter is called we reuse
 // the story promise, so story.json is only fetched once.
 
+// !! Loops
+// Cannot use forEach, instead:
+// 1. Read files in sequence (for/of):
+async function printFiles() {
+    const files = await getFilePaths();
+
+    for (const file of files) {
+        const contents = await fs.readFile(file, 'utf8');
+        console.log(contents);
+    }
+}
+// 2. Read files in parallel (.map):
+async function printFiles() {
+    const files = await getFilePaths();
+
+    await Promise.all(files.map(async (file) => {
+        const contents = await fs.readFile(file, 'utf8')
+        console.log(contents)
+    }));
+}
+
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
 // https://developers.google.com/web/fundamentals/primers/promises
 // https://developers.google.com/web/fundamentals/primers/async-functions
 // https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html
 // https://blog.scottlogic.com/2016/06/10/six-tips-for-cleaner-promises.html
+// https://stackoverflow.com/questions/37576685/using-async-await-with-a-foreach-loop

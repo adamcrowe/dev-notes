@@ -34,7 +34,7 @@ git push <remote> --delete <branch>		# delete remote branch
 git branch –d <branch> 					# delete local branch
 git branch --delete <branch>			# delete local branch
 git branch -D <branch>					# -D = alias for --delete --force, which deletes branch "irrespective of merged status
-git branch -m <branch> 					# rename branch
+git branch -m <oldname> <newname>		# rename branch
 git branch --contains <commit>			# get branch containing commit
 git merge <branch>						# pull down remote branch and merge into local
 git checkout <branch> 					# checkout branch
