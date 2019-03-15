@@ -15,8 +15,8 @@ echo > ~/.bash_history									# trash history
 # in .bash_profile (or alias file)
 # notes append alias
 alias n="history | tail -2 | head -1 | tr -s ' ' | cut -d' ' -f3- | awk '{print \"# \"\$0}' >> notes"
-# The -s flag in tr stands for squeeze-repeats and the point of this is that there can be a varying number of space characters in the whitespace. 
-# Since we're going to cut on space as the delimiter, we have to make sure this doesn't trip us up.  With this out of the way, we simply cut on 
+# The -s flag in tr stands for squeeze-repeats and the point of this is that there can be a varying number of space characters in the whitespace.
+# Since we're going to cut on space as the delimiter, we have to make sure this doesn't trip us up.  With this out of the way, we simply cut on
 # space and use awk to put a pound sign in front of the command, so it's read as a comment.
 ./long_hard-to-remember_command --with_lots --of_flags > poorly_named_file
 n														# saves command in notes file in cwd
@@ -31,7 +31,7 @@ echo -e '1\t2\n3\t4\n5\t6'
 5       6
 
 echo -e '1\t2\n3\t4\n5\t6' | while read x y; 			# read each column into variables
-do echo $x; 
+do echo $x;
 done
 1
 3
@@ -93,7 +93,7 @@ cat tmp.txt
 echo joe | tee test.txt									# joe is echoed to std:out as well as saved in the file test.txt
 joe
 
-cat test.txt 
+cat test.txt
 joe
 
 
@@ -101,7 +101,7 @@ joe
 cat file.txt | sort | less 								# only the stdout stream gets passed through the pipeline; the stderr hits the screen right away
 cat -n file.txt | head -37 | tail -1  					# print row 37
 cat -n file.txt | awk 'NR==37'        					# print row 37 (NR = row number)
-cat file.txt | cut -f2 | sort -u | wc -l  				# print the number (wc -l) of unique elements (-u) in the second column (cut -f2) of a file 
+cat file.txt | cut -f2 | sort -u | wc -l  				# print the number (wc -l) of unique elements (-u) in the second column (cut -f2) of a file
 head -1 file.txt | tr "\t" "\n" | nl -b a  				# number the fields in a tab-delimited header and display them as a column
 bind -P | grep history-search-backward   				# find the key-binding for history-search-backward
 cat file.txt | awk '$1==1' | cut -f2-4    				# display columns 2 through 4 (cut -f2-4) of a file for rows such that the first column equals 1
@@ -121,31 +121,31 @@ x       1       z
 cat tmp.txt | cut -f3 | sort -u | wc -l 				# print the number of unique elements in column 3 (delimiting on tab) (cut -f3 = get column 3) (wc -l = count lines)
 5
 
-# command substitution ==============================									
+# command substitution ==============================
 														# run a command on the fly and use its output as an argument for another command or store it in a variable
 d=$( pwd )												# store cwd in a variable
 d=$( dirname $( readlink -m $0 ) )						# save scripts directory in the variable d (readlink gets absolute path of script ($0))
 for i in $( cat file.txt | cut -f3 | sort -u ); 		# loop through and echo all unique elements of the third column of file.txt
-do echo $i; 
+do echo $i;
 done
 
-for i in $( ls *.txt | grep -v apple ); 				# loop through all .txt files in the cwd that do not contain the word apple	
-do echo $i; 
+for i in $( ls *.txt | grep -v apple ); 				# loop through all .txt files in the cwd that do not contain the word apple
+do echo $i;
 done
 
-touch {1..3}.txt										# create three files		
-for i in {1..3}.txt; 
+touch {1..3}.txt										# create three files
+for i in {1..3}.txt;
 do j=$( echo $i | sed 's|\.txt|\.html|' );  			# change file extension
 cmd="mv $i $j"; 										# create cmd and save it
 echo "Run command: $cmd"; 								# echo cmd to user
 echo $cmd | bash; 										# run cmd
 done
 
-for i in 
+for i in
 	$( echo $PATH | tr ":" "\n" | head -3 ); 			# For the first three directories in our PATH, show how many things are in each and how big each is
-do echo "*** "$i" ***"; 
-echo "This folder has "$( ls $i | wc -l )" elements and is "$( du -sh $i | cut -f1 )" large"; 
-echo; 
+do echo "*** "$i" ***";
+echo "This folder has "$( ls $i | wc -l )" elements and is "$( du -sh $i | cut -f1 )" large";
+echo;
 done
 # output:
 *** /usr/local/sbin ***
@@ -158,9 +158,9 @@ This folder has 7 elements and is 32K large
 This folder has 130 elements and is 8.6M large
 
 # process substitution ==============================
-														# > ... process substitution is a form of inter-process communication that allows the input or 
-														# output of a command to appear as a file. The command is substituted in-line, where a file 
-														# name would normally occur, by the command shell. This allows programs that normally only accept 
+														# > ... process substitution is a form of inter-process communication that allows the input or
+														# output of a command to appear as a file. The command is substituted in-line, where a file
+														# name would normally occur, by the command shell. This allows programs that normally only accept
 														# files to directly read from or write to another program. -- Wikipedia
 
 cat <( head -1 file.txt ) <( tail file.txt )			# whatever's in the block: <( ) is treated as a file
@@ -168,13 +168,13 @@ cat <( head -1 file.txt ) <( tail file.txt )			# whatever's in the block: <( ) i
 cat <( head -1 temp.txt ) 								# sort on the first column without touching your header
 	<( cat temp.txt | sed '1d' | sort -k1,1n )
 
-#!/bin/bash		
-# return line count of file			
+#!/bin/bash
+# return line count of file
 myfile=$1
 len=$( cat $myfile | wc -l )
 echo "Your file is $len lines long."
 
-./test_script <( gunzip --stdout 1.txt.gz )				# use process substituion to pass in a compressed file 
+./test_script <( gunzip --stdout 1.txt.gz )				# use process substituion to pass in a compressed file
 Your file is 11 lines long.
 
 # processes =========================================
@@ -184,7 +184,7 @@ nohup script.py > out.o 2> out.e &						# nohup ("no hang up") = run script even
 sleep 60 &												# to run things in the background, use an ampersand. use ps -f to see process running and get its PID
 ps														# list processes currently running (plain)
 ps -f 													# list processes currently running (verbose)
-pstree 													# shows us the process hierarchy (brew install pstree) 
+pstree 													# shows us the process hierarchy (brew install pstree)
 tree -L 1 												# view tree with one level of depth (brew install tree)
 ps -A  													# show all process info (not just those processes spawned by terminals)
 ps -fA  												# show all process info (verbose)
@@ -241,23 +241,23 @@ watch tail log.txt										# monitor log (last 10 lines)
 
 # scripting (various) ================================
 
-cmd="ls -hl"; 								
-echo $cmd; 
+cmd="ls -hl";
+echo $cmd;
 echo $cmd | bash										# retrace your steps by echoing a command before execute it using a pipe into bash
 
 #!/bin/bash
-a=joe											
+a=joe
 if [ $a == "joe" ]; then echo hello; fi					# if then conditional logic
 hello
 
 #!/bin/bash
 a=joe
 if [ $a == "joe" ]; then 								# if/elseif/else then conditional logic
-    echo hello; 
-elif [ $a == "doe" ]; then 
-    echo goodbye; 
-else 
-    echo "ni hao"; 
+    echo hello;
+elif [ $a == "doe" ]; then
+    echo goodbye;
+else
+    echo "ni hao";
 fi
 
 #!/bin/bash
@@ -273,22 +273,22 @@ esac
 touch emptyfile          								# create an empty file
 echo joe > nonemptyfile  								# create a non-empty file
 
-file=emptyfile                    
-if [ -e $file ]; then echo "exists";       				# The operator -e tests for existence 
+file=emptyfile
+if [ -e $file ]; then echo "exists";       				# The operator -e tests for existence
 	if [ -s $file ]; then echo "non-0"; 				# The operator -s tests for non-zero-ness
-	fi; 
+	fi;
 fi
 exists													# result output
 
-file=nonemptyfile 
+file=nonemptyfile
 if [ -e $file ]; then echo "exists"; 					# The operator -e tests for existence
 	if [ -s $file ]; then echo "non-0"; 				# The operator -s tests for non-zero-ness
-	fi; 
+	fi;
 fi
 exists													# result output
 non-0													# result output
 
-echo joe										
+echo joe
 joe
 echo $?  												# query exit code of previous command
 0														# 0 = success code
@@ -307,24 +307,24 @@ echo $?
 130														# 130 = fail code
 
 ./test_exitcode.sh 										# run without interruption
-if [ $? == 0 ]; 
-	then echo "program succeeded"; 
-	else echo "program failed"; 
+if [ $? == 0 ];
+	then echo "program succeeded";
+	else echo "program failed";
 fi
 program succeeded
 
 ./test_exitcode.sh; 									# run with interruption
 ^C
-if [ $? == 0 ]; 
-	then echo "program succeeded"; 
-	else echo "program failed"; 
+if [ $? == 0 ];
+	then echo "program succeeded";
+	else echo "program failed";
 fi
 program failed
 
 #!/bin/bash
 outputdir=nonexistentdir  								# set output dir equal to a nonexistent directory
-if ! cd $outputdir; 
-	then echo "couldnt cd into output dir"; 
+if ! cd $outputdir;
+	then echo "couldnt cd into output dir";
 fi
 -bash: pushd: nonexistentdir: No such file or directory
 couldnt cd into output dir
@@ -332,8 +332,8 @@ couldnt cd into output dir
 #!/bin/bash
 mkdir existentdir  										# make a test directory
 outputdir=existentdir
-if ! cd $outputdir; 
-	then echo "couldnt cd into output dir"; 
+if ! cd $outputdir;
+	then echo "couldnt cd into output dir";
 fi
 # no error - now we're in existentdir
 
@@ -344,13 +344,13 @@ for i in 1 2 3 hello; do echo $i; done					# basic for loop
 hello
 
 for i in {1..10}; do echo -n "$i "; done				# loop and suppress new line
-1 2 3 4 5 6 7 8 9 10 
+1 2 3 4 5 6 7 8 9 10
 
 echo {1..10}											# loop range
 
-x=1; 
+x=1;
 while ((x <= 3)); 										# basic while loop
-	do echo $x; 
+	do echo $x;
 	((x++));
 	done
 1
@@ -363,7 +363,7 @@ cat junk.txt 											# create file
 3
 
 while read x;											# iterate over file (read each line of x)
-	do echo $x; 
+	do echo $x;
 	done < junk.txt
 1
 2
@@ -375,23 +375,23 @@ echo $0													# echo the name of the script
 echo hello $1 $4										# echo `hello` and the first and fourth args
 ./hellokitty.sh my sweet kitty cat						# run hellokitty.sh with four args: my sweet kitty cat
 ./hellokitty.sh											# output
-hello my cat 											# output	
+hello my cat 											# output
 
 #!/bin/bash
 helpmessage="This script shows how to read arguments"
 
 ### get arguments
 while (($# > 0)); do									# while input array ($) size ($#) is greater than zero
-    if [ 
-		"$1" == "-h" -o 
-		"$1" == "-help" -o 
+    if [
+		"$1" == "-h" -o
+		"$1" == "-help" -o
 		"$1" == "--help" ]; then						# -o is logical OR
-        shift; 											# shift deletes item from args array 
+        shift; 											# shift deletes item from args array
         echo "$helpmessage"
         exit;											# exit script
     elif [ "$1" == "-f1" -o "$1" == "--flag1" ]; then
         shift; var1=$1; shift							# store what's passed via flag1 in var1
-    elif [ "$1" == "-f2" -o "$1" == "--flag2" ]; then					
+    elif [ "$1" == "-f2" -o "$1" == "--flag2" ]; then
         shift; var2=$1; shift							# store what's passed via flag2 in var2
     elif [ "$1" == "-f3" -o "$1" == "--flag3" ]; then
         shift; var3=$1; shift							# store what's passed via flag2 in var3
@@ -401,7 +401,7 @@ while (($# > 0)); do									# while input array ($) size ($#) is greater than z
 done
 
 ### main
-# echo variable if not empty 
+# echo variable if not empty
 if [ ! -z $var1 ]; then echo "flag1 passed "$var1; fi	# -z is empty check
 if [ ! -z $var2 ]; then echo "flag2 passed "$var2; fi
 if [ ! -z $var3 ]; then echo "flag3 passed "$var3; fi
@@ -417,20 +417,20 @@ flag3 passed x
 
 # source, export ====================================
 
-cat ./test_src.sh 
+cat ./test_src.sh
 
 #!/bin/bash
 myvariable=54
 echo $myvariable
 
-source ./test_src.sh 									# run ./test_src.sh and persist the return value										
+source ./test_src.sh 									# run ./test_src.sh and persist the return value
 54
 echo $myvariable										# echo persisted variable after script has run
 54
 . ./test_src.sh  										# . is shorthand for source
 54
 
-cat ./test_src.sh 
+cat ./test_src.sh
 #!/bin/bash
 export myvariable=54  									# export this variable to make it available to other scripts
 echo $myvariable
@@ -441,7 +441,7 @@ echo $myvariable
 
 source ./test_src.sh 									# call source on the exported variable within test_src.sh
 54
-./test_src_2.sh 										# test_src_2.sh echos the exported variable in test_src.sh 
+./test_src_2.sh 										# test_src_2.sh echos the exported variable in test_src.sh
 54
 
 # function ==========================================
@@ -451,12 +451,12 @@ source ./test_src.sh 									# call source on the exported variable within test
 gup ()
 {
     local mymessage="next update";
-    
+
     # if $1 not zero length
     if [ ! -z "$1" ]; then
         mymessage=$1
-    fi 
-    
+    fi
+
     git add .
     git commit -m "$mymessage"
     git push
@@ -499,23 +499,23 @@ zcat file.gz 											# cat a file without unzipping it
 zless file.gz											# less a file without unzipping it
 
 														# tar rolls, or glues, an entire directory structure into a single file (the original directory remains)
-tar -cvf dir.tar dir									# tar dir into a tarball called dir.tar. 
-														# "create a new archive containing the specified items" (-c), 
-														# "write the archive to the specified file" (-f), verbose (-v) 
+tar -cvf dir.tar dir									# tar dir into a tarball called dir.tar.
+														# "create a new archive containing the specified items" (-c),
+														# "write the archive to the specified file" (-f), verbose (-v)
 
-tar -xvf dir.tar										# untar/extract (-x) 
+tar -xvf dir.tar										# untar/extract (-x)
 tar -zcvf dir.tar.gz dir								# tar and zip dir into a zipped tarball dir.tar.gz
 tar -zxvf dir.tar.gz									# extract (-x) plus unzip (-z)
 
 
 # less =============================================
-less file1.txt 											# open file.txt in less 
+less file1.txt 											# open file.txt in less
 less -S file2.txt    									# allow horizontal scrolling
 cat file3.txt | column -t | less -S						# force the columns of the file to line up nicely
 cat file4.txt | column -s'      ' -t | less -S 			# delimit columns on tabs (whitespace by default) use CTRL-v TAB to make a tab character in terminal
 
 zless file4.txt.gz    									# view zipped file
-arrow keys 												# scroll up and down 
+arrow keys 												# scroll up and down
 Space 													# page down
 q														# quit/exit
 
@@ -583,10 +583,10 @@ x	y	z
 a	b	c
 
 cat test_table.txt | perl -ne 'BEGIN{print "<table border=\"1\">\n";}{
-      chomp($_); 
-      my @line=split("\t",$_); 
-      print "<tr>"; 
-      foreach my $elt (@line) { print "<td>$elt</td>"; } 
+      chomp($_);
+      my @line=split("\t",$_);
+      print "<tr>";
+      foreach my $elt (@line) { print "<td>$elt</td>"; }
       print "</tr>\n";
   }END{print "</table>\n";}'
 # output:
@@ -618,7 +618,7 @@ $ cat mail.txt | perl -ne '{chomp($_); if ( $_ =~ m/(\w+)(\@+)(\w+)/) {print $2,
 @
 
 # awk ===============================================	# awk executes its code once every line ($0 = whole line, $1 = first column, $2 = second column)
-cat test.txt 
+cat test.txt
 1	c
 3	c
 2	t
@@ -648,7 +648,7 @@ c
 t
 c
 
-cat test.txt | awk 'BEGIN{x=""}{x=x"@"$1; print x}'	# BEGIN block gets executed before the file is read and anything in an END block gets executed after it's read. 
+cat test.txt | awk 'BEGIN{x=""}{x=x"@"$1; print x}'	# BEGIN block gets executed before the file is read and anything in an END block gets executed after it's read.
 														# If you define variables in awk they're global and persist rather than being cleared every line.
 @1
 @1@3
@@ -717,11 +717,11 @@ hello	1       c
 
 														# write to multiple files from inside awk
 cat test.txt | awk '{if ($1==1) {print > "file1.txt"} else {print > "file2.txt"}}'
-cat file1.txt 
+cat file1.txt
 1       c
 1       c
 
-cat file2.txt 
+cat file2.txt
 3       c
 2       t
 
@@ -742,12 +742,12 @@ echo -e "a\ta\na\tc\na\tz\na\ta" | awk '$1==$2{print NR}'
 1
 4
 
-# Suppose we have some files that start with the prefix myfile and we want to concatenate them together. 
-# However, in the resulting file, we want the first column to be the name of the file from which that row originated. 
+# Suppose we have some files that start with the prefix myfile and we want to concatenate them together.
+# However, in the resulting file, we want the first column to be the name of the file from which that row originated.
 for i in myfile*; do echo "*** "$i" ***"; cat $i | awk -v x=${i} '{print x"\t"$0}' >> files.concat.txt; done
 
 # Suppose we have a text file of URLs, test_markup.txt:
-cat test_markup.txt 
+cat test_markup.txt
 https://www.google.com
 http://www.nytimes.com
 http://en.wikipedia.org/wiki/Main_Page
@@ -756,7 +756,7 @@ cat test_markup.txt | awk '{print "<a href=\""$1"\">"$1"</a><br>"}'
 <a href="https://www.google.com">https://www.google.com</a><br>
 <a href="http://www.nytimes.com">http://www.nytimes.com</a><br>
 <a href="http://www.wikipedia.org">http://www.wikipedia.org</a><br>
-# Notice that we've escaped the quote character with a slash where necessary. 
+# Notice that we've escaped the quote character with a slash where necessary.
 
 # Suppose you want to add numbers above each column at the top of a text file. If your file looks like this:
 hello	kitty	kitty
@@ -768,24 +768,24 @@ hello	kitty	kitty
 
 cat file.txt | awk -F"\t" '{
 	if (NR==1)  # if first line
- 	{ 
+ 	{
       	# loop thro the number of fields
-      	for (i=1; i<=NF; i++) 
+      	for (i=1; i<=NF; i++)
       	{
           	# print number with no tab or newline
-          	printf i; 
-          
+          	printf i;
+
           	# use the fact a tab is 8 characters
-          	# print extra tabs for long words 
-          	for (j=1; j<=int(length($i)/8); j++) { printf "\t" }; 
-          
+          	# print extra tabs for long words
+          	for (j=1; j<=int(length($i)/8); j++) { printf "\t" };
+
           	# if last field, print newline; otherwise, print tab
           	if (i==NF) { printf "\n" } else { printf "\t" }
-      	}; 
+      	};
 
       	# print first line
-      	print $0 
-  	} 
+      	print $0
+  	}
   	else  # if not first line, simply print
   	{
       	print $0
@@ -837,7 +837,7 @@ cat test_header.txt | sed '1d'    						# delete the first line (d = delete if t
 cat test_header.txt | sed '1,3d'  						# delete lines 1-3 (1,3 = range)
 2	asdf
 
-cat test_comment.txt 
+cat test_comment.txt
 1	asdf
 # This is a comment
 2	asdf
@@ -864,14 +864,14 @@ echo "hello kitty. goodbye kitty" | sed 's|kitty||'		# replace the first occurre
 hello . goodbye kitty
 
 touch file{1..3}.txt
-for i in file{1..3}.txt; 
+for i in file{1..3}.txt;
 do j=$( echo $i | sed 's|.txt|.html|'); 				# replace ".txt" with ".html" and overwrite the file
-mv $i $j; 
+mv $i $j;
 done
 ls
 file1.html  file2.html	file3.html
 
-# touch ============================================= 
+# touch =============================================
 touch test.txt 											# create empty file test.txt
 														# run this command to see if you have write permission in a particular dir
 
@@ -882,7 +882,7 @@ cat file.txt file2.txt									# prints the contents of both file.txt and file2.
 cat -n file.txt      									# prints the contents of file.txt with line numbers
 cat file.txt | wc -l									# count the number of lines in a file
 cat file.txt | cut -f1									# cut the first column
-cat file.txt | awk ...									# awk will process what cat pipes out in a linewise fashion 
+cat file.txt | awk ...									# awk will process what cat pipes out in a linewise fashion
 echo "hello world" | cat								# if you route something to cat via a pipe, it just passes through
 zcat file.txt.gz 										# zcat cats zipped files
 tac file.txt											# see file.txt in reverse order
@@ -913,20 +913,20 @@ tail -50 file1.txt 	 									# print the last 50 lines of file1
 cat -n file1.txt | head -37 | tail -1  					# print row 37 of file1
 history | tail        									# print the last 10 lines of history
 ls | head												# print the first 10 elements in the cwd (10 by default)
-head -2 file1.txt file2.txt 							# print the file name and first 2 lines of both file1 and file2 
+head -2 file1.txt file2.txt 							# print the file name and first 2 lines of both file1 and file2
 head *													# print the first 10 elements of all files in the cwd (10 by default)
 ls -t | head -1											# get most recently created/modified file in cwd
 
 
 # nl (number of lines) ==============================	# numbers each row in a file
-cat tmp.txt 
+cat tmp.txt
 aaa
 bbb
 ccc
 ddd
 eee
 
-nl -b a tmp.txt 
+nl -b a tmp.txt
      1  aaa
      2  bbb
      3  ccc
@@ -950,7 +950,7 @@ joe
 echo joe | tr "[:lower:]" "[:upper:]"					# replace lowercase letters to uppercase letters
 JOE
 
-cat blast_header 
+cat blast_header
 qid	sid	pid	alignmentlength	mismatches	numbergap	query_start	query_end	subject_start	subject_end	evalue	bitscore
 
 cat blast_header | tr "\t" "\n" | nl -b a				# replace tabs with newlines and numberings of headers
@@ -967,16 +967,16 @@ cat blast_header | tr "\t" "\n" | nl -b a				# replace tabs with newlines and nu
     11	evalue
     12	bitscore
 
-cat tmp.txt												
-a a a a 
+cat tmp.txt
+a a a a
 a b b b
 a v b b
 1 b 2 3
 
 cat tmp.txt | tr -d "b"									# delete "b" characters
-a a a a 
-a   
-a v  
+a a a a
+a
+a v
 1  2 3
 
 cat tmp.txt | tr -d "\n"								# delete newlines
@@ -1062,7 +1062,7 @@ head test_split_*										# preview splif files...
 
 
 # uniq ==============================================
-cat file1.txt											# Given two files (file1 and file2), how do you find the rows that are only in one of them? 
+cat file1.txt											# Given two files (file1 and file2), how do you find the rows that are only in one of them?
 1
 200
 324
@@ -1077,7 +1077,7 @@ cat file2.txt
 324
 95
 
-cat file1.txt file2.txt file2.txt | sort | uniq -u		
+cat file1.txt file2.txt file2.txt | sort | uniq -u
 10
 a b c
 
@@ -1121,7 +1121,7 @@ echo {1..5} | tr " " "\n"								# alternative: display sequence of numbers 1 th
 4
 5
 
-seq 1 2 10 												# display sequence of numbers 1 through 5 with step/increment of 2 											
+seq 1 2 10 												# display sequence of numbers 1 through 5 with step/increment of 2
 1
 3
 5
@@ -1131,19 +1131,19 @@ seq 1 2 10 												# display sequence of numbers 1 through 5 with step/incre
 
 # cut ===============================================
 cat sample.blast.txt
-TCONS_00007936|m.162    gi|27151736|ref|NP_006727.2|    100.00  324		
+TCONS_00007936|m.162    gi|27151736|ref|NP_006727.2|    100.00  324
 TCONS_00007944|m.1236   gi|55749932|ref|NP_001918.3|    99.36   470
 TCONS_00007947|m.1326   gi|157785645|ref|NP_005867.3|   91.12   833
-TCONS_00007948|m.1358   gi|157785645|ref|NP_005867.3|   91.12   833 
+TCONS_00007948|m.1358   gi|157785645|ref|NP_005867.3|   91.12   833
 
 cat sample.blast.txt | cut -f2 								# cut second column (-f2) (cut delimits on tab by default)
-gi|27151736|ref|NP_006727.2|											
+gi|27151736|ref|NP_006727.2|
 gi|55749932|ref|NP_001918.3|
 gi|157785645|ref|NP_005867.3|
 gi|157785645|ref|NP_005867.3|
 
 cat sample.blast.txt | cut -f2 | cut -f4 -d"|" 				# cut second column then cut fourth column of result using "|" delimiter
-NP_006727.2																
+NP_006727.2
 NP_001918.3
 NP_005867.3
 NP_005867.3
@@ -1176,7 +1176,7 @@ a;1
 b;2
 c;3
 
-cat sample.fa 
+cat sample.fa
 >TCONS_00046782
 FLLRQNDFHSVTQAGVQWCDLGSLQSLPPRLKQISCLSLLSSWDYRHRPPHPAFFLFFFLF
 >TCONS_00046782
@@ -1220,7 +1220,7 @@ cat tmp2.txt
 2	aa
 3	bb
 
-join tmp1.txt tmp2.txt 
+join tmp1.txt tmp2.txt
 2 b aa
 3 c bb
 
@@ -1230,7 +1230,7 @@ date
 Sat Mar 21 18:23:56 EDT 2014
 
 date "+%y%m%d"
-120310 
+120310
 
 date "+%D"
 03/10/12
@@ -1252,7 +1252,7 @@ file.txt
 dirname /some/path/to/file.txt							# get the the directory in which the file resides
 /some/path/to
 
-#!/bin/bash												
+#!/bin/bash
 d=$( dirname $( readlink -m $0 ) ) 						# get the directory in which your script itself resides
 
 
@@ -1289,10 +1289,10 @@ $ echo $TEST
 
 # md5, md5sum, sha1sum ==============================	# check you've made a faithful copy of a file (file owner provides the md5 checksum)
 
-md5 tmp.txt 
+md5 tmp.txt
 84fac4682b93268061e4adb49cee9788  tmp.txt
 
-md5sum tmp.txt 
+md5sum tmp.txt
 84fac4682b93268061e4adb49cee9788  tmp.txt
 
 sha1sum tmp.txt
@@ -1302,9 +1302,9 @@ fbaaa780c23da55182f448e38b1a0677292dde01  tmp.txt
 # env ===============================================	# use env to avoid hard-wired paths in your shebang
 #!/usr/bin/env python									# use whichever python is first in the PATH
 #!/some/path/python										# use this python: /some/path/python
- 
 
-# $PATH ============================================= 
+
+# $PATH =============================================
 which less												# /usr/bin/less (the location of less in your PATH)
 which cat												# /bin/cat
 which rm												# /bin/rm
@@ -1312,9 +1312,9 @@ which rm												# /bin/rm
 
 #!/bin/bash												# shebang: run script using (path to) bash
 #!/usr/bin/perl											# shebang: run script using (path to) perl
-#!/usr/bin/env perl										# shebang: run script using whatever the environmental variable for perl is — i.e., the perl that's first in your PATH 
+#!/usr/bin/env perl										# shebang: run script using whatever the environmental variable for perl is — i.e., the perl that's first in your PATH
 
-echo $PATH												# shows a priorty-ordered list of locations of programs that can be run using just the command's name 
+echo $PATH												# shows a priorty-ordered list of locations of programs that can be run using just the command's name
 /dir1/newcommand										# until added to PATH, `newcommand` can be run using /dir1/newcommand
 PATH=/dir1:$PATH 										# add /dir1 (and newcommand) to the front of PATH - highest priority
 PATH=$PATH:/dir1  										# add /dir1 (and newcommand) to the back of PATH - lowest priority
@@ -1354,7 +1354,7 @@ chmod a-rwx file1   									# remove all permissions for the user (u), the grou
 chmod 777 file1     									# grant all permissions (rwxrwxrwx) 111 111 111 = 777
 chmod 755 file1     									# reserve write access for the user, but grant all other permissions (rwxr-xr-x) 111 101 101 = 755
 
-sudo chown ec2-user myfile								# myfile is owned by root. grant ownership to ec2-user 
+sudo chown ec2-user myfile								# myfile is owned by root. grant ownership to ec2-user
 sudo chown someuser:somegroup myfile					# change both the user to someuser and the group to somegroup
 sudo chown $( whoami ):$( whoami ) myfile				# change the user and group to your current user (via whoami)
 
@@ -1388,11 +1388,11 @@ ssh-keygen -t rsa -f localkey							# generate rsa ssh keys:
 ~/.ssh/localkey											# and a private key
 
 Host Myserver											# instead of ssh-ing manually using a password, add these lines to your ~/.ssh/config file
-HostName myserver.com							
+HostName myserver.com
 User myusername
 IdentityFile ~/.ssh/localkey
 
-~/.ssh/authorized_keys									# next, cat your public key and paste it into authorized_keys on the remote machine										
+~/.ssh/authorized_keys									# next, cat your public key and paste it into authorized_keys on the remote machine
 ssh Myserver											# now on your local computer, you can ssh into myserver.com without a password
 														# to enable ssh on mac: http://oliverelliott.org/article/computing/tips_mac/#sshintoYourMac
 
@@ -1414,8 +1414,8 @@ rsync -azv -L --progress user@myhost.university.edu:/my/source /my/destination/ 
 curl --manual											# https://curl.haxx.se/docs/manpage.html
 
 curl https://github.com/downloads/wycats 				# curl: download and rename
-/handlebars.js/handlebars-1.0.rc.1.min.js 
-> handlebars.js 
+/handlebars.js/handlebars-1.0.rc.1.min.js
+> handlebars.js
 
 curl http://example.com									# curl defaults to downloading the resources unless you tell it otherwise
 curl http://example.com/								# the trailing slash/path (/) is added automatically added by curl
@@ -1445,7 +1445,7 @@ curl --no-verbose http://example.com					# switch off verbose mode
 curl -data some-data http://example.com					# post some-data
 curl -d some-data http://example.com					# post some-data
 curl -A "I am your father" http://example.com			# set user agent (-A) string to "I am your father"
-curl -d '{ "name": "Darth" }' http://example.com		# post JSON 
+curl -d '{ "name": "Darth" }' http://example.com		# post JSON
 curl -d @json http://example.com						# post a file called json
 curl ftp://user:password@example.com 					# the presence of user name and password in the URL is optional,
 														# curl also allows that information to be provided along with normal command-line options
@@ -1494,16 +1494,16 @@ receiver@example.com --upload-file email.txt
 wget https://raw.githubusercontent.com/git 				# wget: download file into cwd (see: https://en.wikipedia.org/wiki/Wget)
 /git/master/README.md
 
-wget http://example.com/test.MOV						# download test.MOV	
+wget http://example.com/test.MOV						# download test.MOV
 
 cat list.txt | while read i; 							# download each file listed in list.txt
-do echo $i; 
-wget "http://example.com/"${i}; 
+do echo $i;
+wget "http://example.com/"${i};
 done
 
 while read i; 											# download each file listed in list.txt
-do echo $i; 
-wget "http://example.com/"${i}; 
+do echo $i;
+wget "http://example.com/"${i};
 done < list.txt
 
 
@@ -1547,7 +1547,7 @@ ls -R 													# list recursively
 ls -hl  												# long form, human readable
 ls -hlt 												# long form, human readable, sorted by time
 ls *.txt 												# list any file that has the .txt file extension
-ls . dir1 .. dir2/*.txt dir3/A*.html					# list anything in the cwd; anything in dir1; anything in the dir one above; anything in dir2 that ends with .txt; 
+ls . dir1 .. dir2/*.txt dir3/A*.html					# list anything in the cwd; anything in dir1; anything in the dir one above; anything in dir2 that ends with .txt;
 														# and anything in dir3 that starts with A and ends with .html.
 $ for i in $( ls /some/path/*.txt ); 					# print any file in /some/path that has the .txt file extension
 do echo $i; done
@@ -1562,19 +1562,19 @@ find /my/dir -iname "*file*"							# list all files containing file - case insen
 find mydirectory | wc -l								# count number of files/dirs in mydirectory
 
 for i in mydirectory/*; 								# count number of files/dirs in mydirectory (recursive)
-do echo "***"$i; 
-find $i | wc -l; 
+do echo "***"$i;
+find $i | wc -l;
 done
 
 find mydirectory -name "tmp.txt" | xargs rm				# delete any files called tmp.txt in mydirectory
 for i in $( find mydirectory -name "tmp.txt" ); 		# loop version of above
-do echo $i; 
-rm $i; 
+do echo $i;
+rm $i;
 done
 
 find mydirectory -name "*.txt" | xargs gzip				# zip any file with the extension .txt in mydirectory
 for i in $( find mydirectory -name "*.txt" ); 			# loop version of above
-do echo $i; 
+do echo $i;
 gzip $i;
 done
 
@@ -1595,8 +1595,8 @@ rm -P file  											# deletes file securely by first overwriting file content
 shred -zuv file											# deletes file securely by first overwriting file contents (flags are: zero, remove, verbose)
 find . -name '.DS_Store' -type f -delete 				# recursively remove .DS_Store
 
-cp file1.sql /httpdocs 									# copy myfile from cwd to another dir 
-scp file1.sql /httpdocs 								# secure copy file from cwd to another dir 
+cp file1.sql /httpdocs 									# copy myfile from cwd to another dir
+scp file1.sql /httpdocs 								# secure copy file from cwd to another dir
 cp file1 file2 											# copy file1 to file2
 cp -R dir1 dir2 										# copy directories plus files recursively
 cp -R dir1 ../../										# make a copy of dir1 into the dir two levels up from our cwd
@@ -1625,9 +1625,9 @@ echo "test" > readme.txt								# create readme.txt with "test" as content
 a=3														# create variable
 echo a													# a
 echo $a													# 3
-a=test	       
+a=test
 echo $a													# test
-a="test test"  
+a="test test"
 echo $a													# test test
 a=3; b=4
 echo $a $b												# 3 4
@@ -1675,7 +1675,7 @@ ls *.txt | xargs -i readlink -m {}						# {} represents "the bucket" — i.e., w
 
 ls /some/path/*.txt | xargs -i ln -s {}					# make symbolic links en masse (-i = each line)
 
-cat myfile.txt | xargs -i grep {} anotherfile.txt  		# search for anything in myfile.txt in anotherfile.txt 
+cat myfile.txt | xargs -i grep {} anotherfile.txt  		# search for anything in myfile.txt in anotherfile.txt
 
 find my_directory -name "*.fastq" | xargs -i gzip {}	# zip all files with .fastq extension found in a directory or any of its sub-directories
 
@@ -1690,7 +1690,7 @@ lsof -i tcp:4200										# show processes running on a specific port
 lsof -i tcp:1-1024										# show processes running in a range of ports
 lsof -i -u^root											# show processes running for users except root
 lsof -r 1												# repeat listing files every 1 second
-sudo lsof -t -i tcp:4200 | xargs kill -9 				# kill currently running process on port 4200														
+sudo lsof -t -i tcp:4200 | xargs kill -9 				# kill currently running process on port 4200
 														# Mac OS X lsof only shows your own processes unless running as root with sudo
 
 
@@ -1711,10 +1711,10 @@ crontab mycron.txt																# run cron
 crontab -l																		# display your cron jobs
 
 
-# Misc ===============================================								
-sudo 													# run command as the superuser						
-														# The most common use case for running commands 
-														# as the superuser is when you have to install a 
+# Misc ===============================================
+sudo 													# run command as the superuser
+														# The most common use case for running commands
+														# as the superuser is when you have to install a
 														# program which might want to write into a dir
 														# root owns, like /usr/bin or accesses sys files
 
@@ -1805,11 +1805,11 @@ CTRL-v tab												# make tab character
 TAB {letter(s)} 										# begin autocomplete using {letter}
 (Drag Finder directory into Terminal)					# copy directory location to Terminal
 
-Right-click (in PuTTy)									# paste 
+Right-click (in PuTTy)									# paste
 
 
 # tmux ============================================== 	# (brew install tmux)
 														# http://oliverelliott.org/article/computing/ref_unix/65
-														# https://leanpub.com/the-tao-of-tmux/read 
+														# https://leanpub.com/the-tao-of-tmux/read
 
 

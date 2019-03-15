@@ -30,7 +30,6 @@
 * [-] [LEARN X IN Y MINUTES](https://learnxinyminutes.com/docs/typescript)
 * [-] [THE TIMELINE OF JAVASCRIPT'S EVOLUTION](https://www.youtube.com/watch?v=CseCDFed458)
 * [-] [LET'S DEMYSTIFY JAVASCRIPT'S ‘NEW’ KEYWORD](https://medium.freecodecamp.org/demystifying-javascripts-new-keyword-874df126184c)
-* [-] [NODEJS TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSpxyVx5XcprEgvhJ1BzruD)
 * [-] [NODE.JS STREAMS: EVERYTHING YOU NEED TO KNOW](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
 * [/] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
 
@@ -129,6 +128,7 @@
 * [-] CRACKING THE CODING INTERVIEW
 
 # CRAFTMANSHIP
+* [-] [CODE WITHOUT RULES](https://codewithoutrules.com)
 * [-] HEAD FIRST SOFTWARE DEVELOPMENT (O'REILLY)
 * [-] THE PRAGMATIC PROGRAMMER - FROM JOURNEYMAN TO MASTER (PRAGPROG)
 * [-] PRACTICES OF AN AGILE DEVELOPER (PRAGPROG)
