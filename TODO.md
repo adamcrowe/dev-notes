@@ -32,6 +32,8 @@
 * [-] [LET'S DEMYSTIFY JAVASCRIPT'S ‘NEW’ KEYWORD](https://medium.freecodecamp.org/demystifying-javascripts-new-keyword-874df126184c)
 * [-] [NODE.JS STREAMS: EVERYTHING YOU NEED TO KNOW](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
 * [/] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
+* [-] [HOW TO CREATE A CHROME EXTENSION IN 10 MINUTES FLAT](https://www.sitepoint.com/create-chrome-extension-10-minutes-flat)
+* [-] [HOW TO CREATE AND PUBLISH A CHROME EXTENSION IN 20 MINUTES](https://medium.freecodecamp.org/how-to-create-and-publish-a-chrome-extension-in-20-minutes-6dc8395d7153)
 
 # FRONT-END
 * [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2/)
@@ -46,8 +48,10 @@
 * [-] MDN: NODE + SQL
 * [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
 * [-] BUILD FRONT-END APPS WITH PLAIN JAVASCRIPT
+* [-] [REACT NATIVE COURSE: HOW TO BUILD ONE AN IPHONE APP, ANDROID APP, AND WEBSITE - ALL WITH THE SAME CODEBASE](https://www.youtube.com/watch?v=_CBYbEGvxYY)
 * [/] INSTANT HANDLEBARS
 * [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
+
 
 # FUNCTIONAL REACTIVE
 * [-] [DECLARATIVE VS. IMPERATIVE PROGRAMMING FOR THE WEB](http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html)
@@ -128,6 +132,7 @@
 * [-] CRACKING THE CODING INTERVIEW
 
 # CRAFTMANSHIP
+* [-] [HOW TO CODE LIKE A PRO](https://www.youtube.com/watch?v=ZihKWQXRBmE)
 * [-] [CODE WITHOUT RULES](https://codewithoutrules.com)
 * [-] HEAD FIRST SOFTWARE DEVELOPMENT (O'REILLY)
 * [-] THE PRAGMATIC PROGRAMMER - FROM JOURNEYMAN TO MASTER (PRAGPROG)
@@ -151,7 +156,7 @@
 * [/] [WORKPLACE Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY)
 
 # DEPLOYMENT
-* [-] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
+* [/] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
 * [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws/)
 
 # SECURITY
