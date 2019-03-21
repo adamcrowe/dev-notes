@@ -21,8 +21,8 @@
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
 * [-] [YOU DON'T KNOW JAVASCRIPT](https://github.com/getify/You-Dont-Know-JS)
 * [-] [SPEAKING JAVASCRIPT](http://speakingjs.com/es5/index.html)
-* [-] [LEARNING JAVASCRIPT DESIGN PATTERNS](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-* [-] [JAVASCRIPT PATTERNS COLLECTION](https://shichuan.github.io/javascript-patterns/)
+* [-] [LEARNING JAVASCRIPT DESIGN PATTERNS](https://addyosmani.com/resources/essentialjsdesignpatterns/book)
+* [-] [JAVASCRIPT PATTERNS COLLECTION](https://shichuan.github.io/javascript-patterns)
 * [/] CORE JAVASCRIPT CONCEPTS
 * [-] [33 CONCEPTS EVERY JAVASCRIPT DEVELOPER SHOULD KNOW](https://github.com/leonardomso/33-js-concepts)
 * [-] [USING JAVASCRIPT'S BITWISE OPERATORS IN REAL LIFE](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
@@ -41,7 +41,7 @@
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
 
 # FRONT-END
-* [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2/)
+* [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2)
 * [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
 * [.] [ANGULAR DOCS](https://angular.io/guide/testing)
 * [/] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
@@ -81,7 +81,7 @@
 * [/] [AN INTRODUCTION TO TEST-DRIVEN DEVELOPMENT](https://medium.freecodecamp.org/an-introduction-to-test-driven-development-c4de6dce5c)
 * [-] JAVASCRIPT TESTING (PACKT)
 * [-] TESTABLE JAVASCRIPT (O'REILLY)
-* [-] [TEST-DRIVEN JAVASCRIPT DEVELOPMENT](https://www.tddjs.com/)
+* [-] [TEST-DRIVEN JAVASCRIPT DEVELOPMENT](https://www.tddjs.com)
 * [-] [TEST-DRIVEN DEVELOPMENT EXTENSIVE TUTORIAL](https://leanpub.com/tdd-ebook)
 * [/] JAVASCRIPT TESTING WITH JASMINE
 * [-] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
@@ -96,9 +96,9 @@
 * [/] HEAD FIRST SQL (O'REILLY)
 
 # UNIX/CLI/BASH/GIT/EDITORS
-* [/] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac/)
+* [/] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac)
 * [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
-* [/] [OLIVER: SET UP YOUR .BASH_PROFILE, .BASHRC, AND OTHER DOTFILES](http://oliverelliott.org/article/computing/tips_mac/9/)
+* [/] [OLIVER: SET UP YOUR .BASH_PROFILE, .BASHRC, AND OTHER DOTFILES](http://oliverelliott.org/article/computing/tips_mac/9)
 * [/] [MY MAC OSX BASH PROFILE](https://natelandau.com/my-mac-osx-bash_profile/)
 * [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS
 * [-] SMALL, SHARP, SOFTWARE TOOLS (PRAGPROG)
@@ -107,11 +107,11 @@
 * [-] [BASH SHELL SCRIPTING](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)
 * [/] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
 * [-] [VSCODE POWER USER MASTER CLASS](https://vscode.pro)
-* [-] [OLIVER: VIM BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_vim/)
+* [-] [OLIVER: VIM BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_vim)
 * [-] PRACTICAL VIM (PRAGPROG)
 * [-] MODERN VIM (PRAGPROG)
 * [-] THE VIML PRIMER (PRAGPROG)
-* [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git/)
+* [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git)
 * [-] [GIT TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQHO1PfyscjIPkNJjgHsLyH)
 * [-] [GIT & GITHUB](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF)
 * [-] [GIT INTEGRATION IN VISUAL STUDIO CODE](https://scotch.io/tutorials/git-integration-in-visual-studio-code)
@@ -126,7 +126,7 @@
 * [-] THINK LIKE A PROGRAMMER (PYTHON EDITION)
 * [-] [PYTHON CODING AND SYNTAX REFERENCE](http://oliverelliott.org/article/computing/wik_python)
 * [-] NAND TO TETRIS
-* [-] [IMPOSTER'S HANDBOOK](https://bigmachine.io/products/the-imposters-handbook/)
+* [-] [IMPOSTER'S HANDBOOK](https://bigmachine.io/products/the-imposters-handbook)
 * [-] A COMMON-SENSE GUIDE TO DATA STRUCTURES AND ALGORITHMS (PRAGPROG)
 * [-] DATA STRUCTURES AND ALGORITHMS WITH JAVASCRIPT (O'REILLY)
 * [-] [DATA STRUCTURES AND ALGORITHMS IN JAVASCRIPT - FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=t2CEgPsws3U)
@@ -160,11 +160,11 @@
 
 # DEPLOYMENT
 * [/] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
-* [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws/)
+* [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws)
 
 # SECURITY
 * [-] [A QUICK INTRODUCTION TO WEB SECURITY](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
-* [-] [WEB APP PENETRATION TESTING FOR ETHICAL HACKING](https://www.freecodecamp.org/news/web-app-penetration-testing-full-course/)
+* [-] [WEB APP PENETRATION TESTING FOR ETHICAL HACKING](https://www.freecodecamp.org/news/web-app-penetration-testing-full-course)
 * [-] [HACK THIS SITE](https://www.hackthissite.org)
 
 # SYSTEM DESIGN
