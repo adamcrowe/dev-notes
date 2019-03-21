@@ -87,6 +87,7 @@
 * [-] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 
 # SQL
+* [-] [MYSQL TUTORIAL](http://www.mysqltutorial.org)
 * [-] [SQL: FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=HXV3zeQKqGY)
 * [-] SQL QUERIES FOR MERE MORTALS
 * [-] DATABASE DESIGN FOR MERE MORTALS
