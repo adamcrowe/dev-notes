@@ -52,7 +52,6 @@
 * [/] INSTANT HANDLEBARS
 * [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 
-
 # FUNCTIONAL REACTIVE
 * [-] [DECLARATIVE VS. IMPERATIVE PROGRAMMING FOR THE WEB](http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html)
 * [-] [HELLO, DECLARATIVE WORLD](http://codon.com/hello-declarative-world)
