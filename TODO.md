@@ -36,6 +36,7 @@
 * [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
 * [-] [NODE + SQL](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
 * [-] [SERVERJS.IO TUTORIALS](https://serverjs.io/tutorials)
+* [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide/)
 * [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
 * [-] [NODE.JS STREAMS: EVERYTHING YOU NEED TO KNOW](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
@@ -44,8 +45,10 @@
 * [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2)
 * [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
 * [.] [ANGULAR DOCS](https://angular.io/guide/testing)
-* [/] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
+* [-] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
 * [-] [ANGULAR (FULL APP) WITH ANGULAR MATERIAL, ANGULARFIRE & NGRX](https://www.udemy.com/angular-full-app-with-angular-material-angularfire-ngrx)
+* [-] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide)
+* [-] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security)
 * [-] [BUILD A REAL WORLD BEAUTIFUL WEB APP WITH ANGULAR 7 )](https://medium.com/@hamedbaatour/build-a-real-world-beautiful-web-app-with-angular-6-a-to-z-ultimate-guide-2018-part-i-e121dd1d55e)
 * [-] [HOW TO BUILD TYPESCRIPT APP AND DEPLOY IT ON GITHUB PAGES](https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html)
 * [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
@@ -54,6 +57,11 @@
 * [-] [REACT NATIVE COURSE: HOW TO BUILD ONE AN IPHONE APP, ANDROID APP, AND WEBSITE - ALL WITH THE SAME CODEBASE](https://www.youtube.com/watch?v=_CBYbEGvxYY)
 * [/] INSTANT HANDLEBARS
 * [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
+
+# MOBILE
+* [-] [PROGRESSIVE WEB APPS (PWA) - THE COMPLETE GUIDE](https://www.udemy.com/progressive-web-app-pwa-the-complete-guide)
+* [-] [NATIVESCRIPT + ANGULAR: BUILD NATIVE IOS, ANDROID & WEB APPS](https://www.udemy.com/nativescript-angular-build-native-ios-android-web-apps/)
+* [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 
 # FUNCTIONAL REACTIVE
 * [-] [DECLARATIVE VS. IMPERATIVE PROGRAMMING FOR THE WEB](http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html)
@@ -161,11 +169,13 @@
 # DEPLOYMENT
 * [/] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
 * [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws)
+* [-] [AWS SERVERLESS APIS & APPS - A COMPLETE INTRODUCTION](https://www.udemy.com/aws-serverless-a-complete-introduction/)
 
 # SECURITY
 * [-] [A QUICK INTRODUCTION TO WEB SECURITY](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
 * [-] [WEB APP PENETRATION TESTING FOR ETHICAL HACKING](https://www.freecodecamp.org/news/web-app-penetration-testing-full-course)
 * [-] [HACK THIS SITE](https://www.hackthissite.org)
+* [-] [HACKER 101](https://www.hacker101.com)
 
 # SYSTEM DESIGN
 * [-] [TAMING THE FRONT-END MONOLITH](https://blog.logrocket.com/taming-the-front-end-monolith-dbaede402c39)
