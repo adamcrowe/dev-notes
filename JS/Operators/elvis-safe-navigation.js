@@ -7,3 +7,5 @@
 
 const streetName = user?.address?.street; // Safe Navigation Operator: (user && user.address && user.address.street)
 const displayName = user.name ?: "Anonymous";  // Elvis Operator: user.name || Anonymous
+
+// https://www.bennadel.com/blog/3043-providing-default-values-for-the-safe-navigation-operator-in-angular-2-beta-8.htm
