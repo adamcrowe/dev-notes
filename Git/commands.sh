@@ -56,6 +56,7 @@ git revert								# at commit-level: undo commits in a public branch
 gitk <folder>							# show all committed changes on specified folder
 gitk <filename> 						# show all committed changes on specified file
 gitk --all 								# show commit history of all branches
+git remote prune origin                 # remove errant tracking branches
 
 # INTIALIZATION
 git init <directory> 					# create an empty .git repository in the specified directory

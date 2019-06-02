@@ -179,11 +179,12 @@
 * [-] [HACKER 101](https://www.hacker101.com)
 
 # SYSTEM DESIGN
-* [-] [TAMING THE FRONT-END MONOLITH](https://blog.logrocket.com/taming-the-front-end-monolith-dbaede402c39)
+* [-] [TAMING THE FRONT-END MONOLITH](httpss://blog.logrocket.com/taming-the-front-end-monolith-dbaede402c39)
 * [-] [GROKKING THE SYSTEM DESIGN INTERVIEW](https://www.educative.io/collection/5668639101419520/5649050225344512)
 * [-] [DRAW.IO](https://www.draw.io)
 
 # UI DESIGN
+* [-] [DESIGN FOR DEVELOPERS](https://frontendmasters.com/courses/design-for-developers)
 * [-] [THEORY SPRINTS](https://proximityschool.com/theory-sprints)
 * [-] [SKETCH MASTER](https://sketchmaster.com)
 * [-] [REFACTORING UI](https://refactoringui.com/book)

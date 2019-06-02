@@ -1,5 +1,5 @@
 // REGEX REFERENCE: http://www.rexegg.com | https://regexr.com | https://visca.com/regexdict/
-/pattern/flags		
+/pattern/flags
 /(a|b)/				// a or b captured and referenced as $1
 /abc/				// A sequence of characters
 /[abc]/				// Any character from a set of characters
@@ -41,11 +41,11 @@ $&					// The original string
 Modifiers/Flags:
 g					// global (get all occurrences not just first)
 i					// case insensitive
-m					// make dot match newlines 
+m					// make dot match newlines
 					// more: http://www.rexegg.com/regex-modifiers.html
 
 // REGEX EXAMPLES:
-var regex = new RegExp("[^0-9-" + decimal + "]", "g"); // find non-numeric, non-dash, and non-decimal characters 
+var regex = new RegExp("[^0-9-" + decimal + "]", "g"); // find non-numeric, non-dash, and non-decimal characters
 'string'.match(/s/); // returns: ["s", index: 0, input: "s"]
 'string'.match(/x/); // returns: null
 'ss'.match(/s/); // returns: ["s", index: 0, input: "ss"]
@@ -76,7 +76,7 @@ var regex = new RegExp("[^0-9-" + decimal + "]", "g"); // find non-numeric, non-
 'Info: 111-222-3333'.replace(/\d{3}-\d{3}-(\d{4})/, '$& $1'); // (\d{4}) = captured group, referenced as $1 (first captured group): $& $1
 'Info: 111-222-3333'.replace(/\d{3}-\d{3}-(\d{4})/, '$& $1'); // returns: "Info: 111-222-3333 3333"
 'Info: 111-222-3333'.replace(/(\d{3})-(\d{3})-(\d{4})/, '$& $1 $2 $3'); // 3 captured groups returns: "Info: 111-222-3333 111 222 3333"Ho
-'Lovelace, Ada Babbage, Charles Turing, Alan'.replace(/([a-z]+), ([a-z]+)/gi, '$2 $1'); // returns: "Ada Lovelace Charles Babbage Alan Turing" 
+'Lovelace, Ada Babbage, Charles Turing, Alan'.replace(/([a-z]+), ([a-z]+)/gi, '$2 $1'); // returns: "Ada Lovelace Charles Babbage Alan Turing"
 'ww'.match(/w(?=w)/g); // match 'w' only if next character is 'w' // returns: ["w"]
 'wow'.match(/w(?=.*w)/g); // match 'w' when next or any subsequent character is 'w' (testcase: 'wow')
 'wow'.match(/w(?!.*w)/g); // match last 'w' in string // returns: ["w"]
@@ -87,7 +87,7 @@ var regex = new RegExp("[^0-9-" + decimal + "]", "g"); // find non-numeric, non-
 'rrr'.match(/(r)(\1{2})/g); // match 'r' followed by two r's ('rr') returns: ["rrr"]
 'rarr'.match(/(r)a(\1{2})/g); // match 'r' followed by two r's ('rr') returns: ["rarr"]
 '(999)'.match(/\((.*)\)/); // match zero or more occurrences of anything within and including parentheses // returns: ["(999)", "999"]
-'(999)'.replace(/\((.*)\)/, "-$1"); // returns: "-999"  
+'(999)'.replace(/\((.*)\)/, "-$1"); // returns: "-999"
 '999999'.replace(/\B(?=(\d{3})+(?!\d))/g, ','); // return "999,999" i.e., comma-separate the value every 3 digits
 '({{).* (\?).* (:).* (t)(r)(a)(n)(s)(l)(a)(t)(e).* (}})' // js format: matches: {{ isRead() ? 'Back' : 'Cancel' | translate }}
 '[{][{].* [\?].* [:].* [t][r][a][n][s][l][a][t][e].* [}][}]' // java format: matches: {{ isRead() ? 'Back' : 'Cancel' | translate }}
