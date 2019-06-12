@@ -120,6 +120,7 @@
 * [-] PRACTICAL VIM (PRAGPROG)
 * [-] MODERN VIM (PRAGPROG)
 * [-] THE VIML PRIMER (PRAGPROG)
+* [-] [LEARN GIT CONCEPTS, NOT COMMANDS](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git)
 * [-] [GIT TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQHO1PfyscjIPkNJjgHsLyH)
 * [-] [GIT & GITHUB](https://www.youtube.com/playlist?list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF)
