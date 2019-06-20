@@ -167,6 +167,7 @@
 * [-] [SIMPLE MADE EASY](https://www.infoq.com/presentations/Simple-Made-Easy)
 * [/] [BOOST YOUR TECH CAREER](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
 * [/] [WORKPLACE Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY)
+* [-] [THINGS I LEARNT THE HARD WAY (IN 30 YEARS OF SOFTWARE DEVELOPMENT)](https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way)
 
 # DEPLOYMENT
 * [/] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
