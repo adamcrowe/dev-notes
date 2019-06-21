@@ -16,6 +16,7 @@
 * [-] FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT
 * [-] ADVANCED GAME DESIGN WITH HTML5 AND JAVASCRIPT
 * [-] [WARRIORJS](https://warrior.js.org)
+* [-] [RELEARN CSS LAYOUT](https://every-layout.dev)
 
 # JS
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
