@@ -9,7 +9,7 @@
 * [/] BOOTSTRAP 3/4
 * [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [-] [MDN: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [-] HTML5 AND CSS3 (2ND EDITION) (PRAGPROG)
+* [.] HTML5 AND CSS3 (2ND EDITION)
 * [-] CSS MASTER
 * [-] PRAGMATIC GUIDE TO SASS 3 (PRAGPROG)
 * [-] HEAD FIRST HTML5 PROGRAMMING
