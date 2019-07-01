@@ -66,12 +66,8 @@
 * [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 
 # FUNCTIONAL REACTIVE
-* [-] [DECLARATIVE VS. IMPERATIVE PROGRAMMING FOR THE WEB](http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html)
-* [-] [HELLO, DECLARATIVE WORLD](http://codon.com/hello-declarative-world)
-* [-] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
-* [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
-* [-] BUILD REACTIVE WEBSITES WITH RXJS (PRAGPROG)
 * [-] REACTIVE PROGRAMMING WITH RXJS 5 (PRAGPROG)
+* [-] BUILD REACTIVE WEBSITES WITH RXJS (PRAGPROG)
 * [-] [THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 * [-] [ASYNCHRONOUS PROGRAMMING: THE END OF THE LOOP](https://egghead.io/courses/asynchronous-programming-the-end-of-the-loop)
 * [-] [INTRODUCTION TO REACTIVE PROGRAMMING](https://egghead.io/courses/introduction-to-reactive-programming)
@@ -81,6 +77,10 @@
 * [-] [SAVE TIME AVOIDING COMMON MISTAKES USING RXJS](https://egghead.io/courses/save-time-avoiding-common-mistakes-using-rxjs)
 * [-] [RXJS SUBJECTS AND MULTICASTING OPERATORS](https://egghead.io/courses/rxjs-subjects-and-multicasting-operators)
 * [-] RXJS IN ACTION
+* [-] [DECLARATIVE VS. IMPERATIVE PROGRAMMING FOR THE WEB](http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html)
+* [-] [HELLO, DECLARATIVE WORLD](http://codon.com/hello-declarative-world)
+* [-] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
+* [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 
 # TESTING
 * [-] [CHROME DEVTOOLS](https://developers.google.com/web/tools/chrome-devtools)
