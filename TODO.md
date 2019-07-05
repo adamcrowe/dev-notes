@@ -43,6 +43,10 @@
 * [-] [NODE.JS STREAMS: EVERYTHING YOU NEED TO KNOW](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
 
+# TYPESCRIPT
+* [/] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
+* [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
+
 # FRONT-END
 * [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2)
 * [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
