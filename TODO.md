@@ -74,6 +74,8 @@
 # FUNCTIONAL REACTIVE
 * [-] REACTIVE PROGRAMMING WITH RXJS 5 (PRAGPROG)
 * [-] BUILD REACTIVE WEBSITES WITH RXJS (PRAGPROG)
+* [-] [GETTING STARTED WITH REDUX](https://egghead.io/courses/getting-started-with-redux)
+* [-] [BUILDING REACT APPLICATIONS WITH IDIOMATIC REDUX](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
 * [-] [THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 * [-] [ASYNCHRONOUS PROGRAMMING: THE END OF THE LOOP](https://egghead.io/courses/asynchronous-programming-the-end-of-the-loop)
 * [-] [INTRODUCTION TO REACTIVE PROGRAMMING](https://egghead.io/courses/introduction-to-reactive-programming)
