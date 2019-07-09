@@ -50,8 +50,10 @@
 # FRONT-END
 * [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2)
 * [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
-* [.] [ANGULAR DOCS](https://angular.io/guide/testing)
+* [/] [ANGULAR DOCS](https://angular.io/guide)
+* [-] [ANGULAR AND REDUX: INTRODUCTION TO STATE MANAGEMENT](https://medium.com/codingthesmartway-com-blog/angular-and-redux-ecd22ea53492)
 * [-] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
+* [-] [ANGULAR 8 (FORMERLY ANGULAR 2) - THE COMPLETE GUIDE](https://www.udemy.com/the-complete-guide-to-angular-2/)
 * [-] [ANGULAR (FULL APP) WITH ANGULAR MATERIAL, ANGULARFIRE & NGRX](https://www.udemy.com/angular-full-app-with-angular-material-angularfire-ngrx)
 * [-] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide)
 * [-] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security)
@@ -70,7 +72,6 @@
 * [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 
 # FUNCTIONAL REACTIVE
-* [-] [ANGULAR AND REDUX: INTRODUCTION TO STATE MANAGEMENT](https://medium.com/codingthesmartway-com-blog/angular-and-redux-ecd22ea53492)
 * [-] REACTIVE PROGRAMMING WITH RXJS 5 (PRAGPROG)
 * [-] BUILD REACTIVE WEBSITES WITH RXJS (PRAGPROG)
 * [-] [THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
