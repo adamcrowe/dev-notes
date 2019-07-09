@@ -1,6 +1,6 @@
-// EventEmitter 										
+// EventEmitter
 // is an object that implements the Observer Pattern:
-// it will... 
+// it will...
 // 1) maintain a list of subscribers
 // 2) publish events to subscribers
 

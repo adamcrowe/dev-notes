@@ -1,2 +1,2 @@
 // <li * ngFor="let hero of heroes$ | async"></li>		// $ is a convention that indicates heroes$ is an Observable not an array
-														// async identifies Angular's AsyncPipe which subscribes to an Observable automaticall
+														// async identifies Angular's AsyncPipe which subscribes to an Observable automatically
