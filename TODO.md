@@ -5,6 +5,9 @@
 * [-] [WATCH AND CODE - OFFICE HOURS](https://www.youtube.com/user/gordonmzhu)
 * [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
 
+## FUN FUN FUNCTION
+* [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
+
 # HTML/CSS
 * [-] [CSS - THE COMPLETE GUIDE (INCL. FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/)
 * [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -189,7 +192,7 @@
 * [-] [HACKER 101](https://www.hacker101.com)
 
 # SYSTEM DESIGN
-* [-] [TAMING THE FRONT-END MONOLITH](httpss://blog.logrocket.com/taming-the-front-end-monolith-dbaede402c39)
+* [-] [TAMING THE FRONT-END MONOLITH](https://blog.logrocket.com/taming-the-front-end-monolith-dbaede402c39)
 * [-] [GROKKING THE SYSTEM DESIGN INTERVIEW](https://www.educative.io/collection/5668639101419520/5649050225344512)
 * [-] [DRAW.IO](https://www.draw.io)
 
@@ -199,6 +202,3 @@
 * [-] [SKETCH MASTER](https://sketchmaster.com)
 * [-] [REFACTORING UI](https://refactoringui.com/book)
 * [/] [REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
-
-## GENERAL
-* [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
