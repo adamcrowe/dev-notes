@@ -19,7 +19,7 @@
 * [-] [RELEARN CSS LAYOUT](https://every-layout.dev)
 * [/] BOOTSTRAP 3/4
 
-# JS
+# JS/TYPESCRIPT
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
 * [-] [DO MORE WITH REDUCE](https://jrsinclair.com/articles/2019/functional-js-do-more-with-reduce)
 * [-] [YOU DON'T KNOW JAVASCRIPT](https://github.com/getify/You-Dont-Know-JS)
@@ -34,6 +34,8 @@
 * [-] [LET'S DEMYSTIFY JAVASCRIPT'S ‘NEW’ KEYWORD](https://medium.freecodecamp.org/demystifying-javascripts-new-keyword-874df126184c)
 * [-] [HOW TO CREATE A CHROME EXTENSION IN 10 MINUTES FLAT](https://www.sitepoint.com/create-chrome-extension-10-minutes-flat)
 * [-] [HOW TO CREATE AND PUBLISH A CHROME EXTENSION IN 20 MINUTES](https://medium.freecodecamp.org/how-to-create-and-publish-a-chrome-extension-in-20-minutes-6dc8395d7153)
+* [/] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
+* [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
 
 # NODE
 * [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide/)
@@ -43,10 +45,6 @@
 * [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
 * [-] [NODE.JS STREAMS: EVERYTHING YOU NEED TO KNOW](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
-
-# TYPESCRIPT
-* [/] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
-* [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
 
 # FRONT-END
 * [-] [ANGULAR 8 (FORMERLY ANGULAR 2) - THE COMPLETE GUIDE](https://www.udemy.com/the-complete-guide-to-angular-2/)
