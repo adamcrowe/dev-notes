@@ -95,6 +95,7 @@
 * [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 
 # TESTING
+* [-] [MASTERING CHROME DEVELOPER TOOLS V2](https://frontendmasters.com/courses/chrome-dev-tools-v2)
 * [-] [CHROME DEVTOOLS](https://developers.google.com/web/tools/chrome-devtools)
 * [-] [MASTERING THE DEVELOPER TOOLS CONSOLE](https://blog.teamtreehouse.com/mastering-developer-tools-console)
 * [-] [DEBUGGING JAVASCRIPT IN GOOGLE CHROME AND VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-studio-code)
@@ -200,8 +201,8 @@
 * [-] [DRAW.IO](https://www.draw.io)
 
 # UI DESIGN
-* [-] [DESIGN FOR DEVELOPERS](https://frontendmasters.com/courses/design-for-developers)
-* [-] [THEORY SPRINTS](https://proximityschool.com/theory-sprints)
 * [-] [SKETCH MASTER](https://sketchmaster.com)
 * [-] [REFACTORING UI](https://refactoringui.com/book)
+* [-] [DESIGN FOR DEVELOPERS](https://frontendmasters.com/courses/design-for-developers)
 * [/] [REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
+* [-] [THEORY SPRINTS](https://proximityschool.com/theory-sprints)
