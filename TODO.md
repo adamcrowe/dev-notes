@@ -39,6 +39,7 @@
 * [-] [HOW TO CREATE AND PUBLISH A CHROME EXTENSION IN 20 MINUTES](https://medium.freecodecamp.org/how-to-create-and-publish-a-chrome-extension-in-20-minutes-6dc8395d7153)
 * [/] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
 * [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
+* [-] [HOW TO BUILD MINESWEEPER WITH JAVASCRIPT](https://mitchum.blog/how-to-build-minesweeper-with-javascript/)
 
 # NODE
 * [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide/)
@@ -170,6 +171,7 @@
 * [-] CLEAN CODE: A HANDBOOK OF AGILE SOFTWARE CRAFTSMANSHIP
 * [-] CLEAN CODER: A CODE OF CONDUCT FOR PROFESSIONAL PROGRAMMERS
 * [-] CLEAN ARCHITECTURE: A CRAFTSMAN'S GUIDE TO SOFTWARE STRUCTURE AND DESIGN
+* [-] [THE 3 TYPES OF DESIGN PATTERNS ALL DEVELOPERS SHOULD KNOW](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/)
 * [-] [DESIGN PATTERNS](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
 * [-] [OBJECT ORIENTED DESIGN](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE)
 * [-] [CODE REFACTORING](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV)
