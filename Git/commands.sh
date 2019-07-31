@@ -49,7 +49,7 @@ git checkout HEAD~2 					# move head back two commits
 										# (warning: detaches the head, create new branch if working from new (~2) node)
 git checkout HEAD foo.py 				# discard unstaged changes to foo.py (file-only version of git reset HEAD --hard)
 git checkout <branch> origin/<branch>   # creare new local branch based on a remote branch
-git checkout origin/master <filename>	# revert file to the version on master
+git checkout origin/master <filename>	# revert file to the version on master e.g. git checkout origin/master yarn.lock
 git reset								# at commit-level: discard commits in a private branch or throw away uncommitted changes
 git reset								# at file-level: unstage a file
 git revert								# at commit-level: undo commits in a public branch
