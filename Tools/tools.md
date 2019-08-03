@@ -14,3 +14,4 @@
 * Dummy Image <https://dummyimage.com/>
 * Grid Calculator <http://gridcalculator.dk/>
 * Now (App Deployment) <https://zeit.co/now>
+* Highlight JS (Code snippets) <https://highlightjs.org>

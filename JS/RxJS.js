@@ -1,8 +1,29 @@
+// ! Streams
+// Streams - FunFunFunction #13 <https://www.youtube.com/watch?v=UD2dZw9iHCc>
+// A stream is a flow of values that will be arriving whenever they feel like
+// Streaming libraries:
+// * http://reactivex.io
+
+// ! Subject
+// * A Subject is both a source of observable values and an Observable itself.
+// * You can subscribe to a Subject as you would any Observable.
+// * You can also push values into that Observable by calling Subject.next(value).
+// * A Subject publishes its values only once.
+
+// !! BehaviorSubject
+// Example (From: ng-book: Data Architecture with Observables: UserService): currentUser: Subject<User> = new BehaviorSubject<User>(null); // initial value is null
+// * Think of a Subject as a "read/write" steam. (Technically, a Subject inherits from both Observable and Observer.)
+// * One consequence of streams is that, because messages are published immediately, a new subscriber risks missing the latest value of the stream.
+// * BehaviourSubject compensates for this. BehaviourSubject has a special property in that it stores the last value.
+// * Meaning that any subscriber to the stream will receive the latest value.
+// * Any part of our application can subscribe to the UsersService.currentUser stream and immediately know who the current user is.
+// * Push a newUser into currentUser (Subject): let u = new User('Nate', 'anImgSrc'); UsersService.currentUser.next(u);
+
 // ! Observables
 // * As a publisher, you create an Observable instance that defines a subscriber function.
 // * The subscriber function is executed when the Observable's subscribe() method is called.
 // * The subscriber function defines how to obtain or generate values or messages to be published.
-// * To execute the Observable and begin receiving notifications, you call its subscribe() method, passing an observer. 
+// * To execute the Observable and begin receiving notifications, you call its subscribe() method, passing an observer.
 // * The observer is a JavaScript object that defines the handlers for the notifications you receive from the subscriber function.
 // * The subscribe() call returns a Subscription object that has an unsubscribe() method, which you call to stop receiving notifications.
 // * Data published by an Observable is a stream. Any type of value can be represented with an Observable, and values are published as a stream.
@@ -58,17 +79,16 @@ ngOnInit() {
 // From: https://angular.io/guide/http#debouncing-requests
 
 // !!! tap()
-// The RxJS tap operator captures whether the request succeed or failed. 
+// The RxJS tap operator captures whether the request succeed or failed.
 
 // !!! finalize()
 // The RxJS finalize operator is called when the response observable either errors or completes (which it must), and reports the outcome to the MessageService.
 
-
 // TO READ:
 // [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
-// * Reactive programming is programming with asynchronous data streams. 
+// * Reactive programming is programming with asynchronous data streams.
 // * We capture emitted events asynchronously, by defining a function that will execute when a value is emitted, another function when an error is emitted, and another function when 'completed' is emitted.
-// * Sometimes these last two can be omitted and you can just focus on defining the function for values. 
+// * Sometimes these last two can be omitted and you can just focus on defining the function for values.
 // * The "listening" to the stream is called subscribing. The functions we are defining are observers. The stream is the subject (or "observable") being observed. This is precisely the Observer Design Pattern.
 // * The official terminology for a stream is "Observable", for the fact that it can be observed, but I find it to be a silly name, so I call it "stream".
 
@@ -86,16 +106,3 @@ button.addEventListener('click', () => console.log('Clicked!'));
 var button = document.querySelector('button');
 Rx.Observable.fromEvent(button, 'click')
   .subscribe(() => console.log('Clicked!'));
-
-// ! Streams
-// Streams - FunFunFunction #13 <https://www.youtube.com/watch?v=UD2dZw9iHCc>
-// A stream is a flow of values that will be arriving whenever they feel like
-// Streaming libraries:
-// * http://reactivex.io
-
-// * A Subject inherits from both Observable and Observer. Think of a Subject as a "read/write" steam.
-// * BehaviourSubject stores the latest value in a stream e.g., currentUser: Subject<User> = new BehaviorSubject<User>(null);
-
-// A Subject is both a source of observable values and an Observable itself. You can subscribe to a Subject as you would any Observable.
-// You can also push values into that Observable by calling its next(value).
-
