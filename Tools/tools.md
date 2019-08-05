@@ -15,3 +15,4 @@
 * Grid Calculator <http://gridcalculator.dk/>
 * Now (App Deployment) <https://zeit.co/now>
 * Highlight JS (Code snippets) <https://highlightjs.org>
+* Storybook is an open source tool for developing UI components in isolation <https://storybook.js.org>
