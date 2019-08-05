@@ -61,6 +61,7 @@
 * [-] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
 * [-] [HOW TO BUILD TYPESCRIPT APP AND DEPLOY IT ON GITHUB PAGES](https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html)
 * [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
+* [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
 * [-] MDN: HTTP
 * [-] BUILD FRONT-END APPS WITH PLAIN JAVASCRIPT
 * [/] INSTANT HANDLEBARS
