@@ -52,6 +52,7 @@
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
 
 # FRONT-END
+* [-] [ANGULAR COURSE](https://codecraft.tv/courses/angular/quickstart/overview/)
 * [-] [ANGULAR 8 (FORMERLY ANGULAR 2) - THE COMPLETE GUIDE](https://www.udemy.com/the-complete-guide-to-angular-2/)
 * [-] [ANGULAR (FULL APP) WITH ANGULAR MATERIAL, ANGULARFIRE & NGRX](https://www.udemy.com/angular-full-app-with-angular-material-angularfire-ngrx)
 * [-] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide)
