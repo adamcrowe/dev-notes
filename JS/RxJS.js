@@ -3,6 +3,8 @@
 // A stream is a flow of values that will be arriving whenever they feel like
 // Streaming libraries:
 // * http://reactivex.io
+// * Tutorials:
+// * https://www.learnrxjs.io
 
 // ! Subject
 // * A Subject is both a source of observable values and an Observable itself.
@@ -59,9 +61,45 @@ squareOdd.subscribe(x => console.log(x));
 // Creation:	      from, fromPromise, fromEvent, of
 // Combination:	    combineLatest, concat, merge, startWith, withLatestFrom, zip
 // Filtering:	      debounceTime, distinctUntilChanged, filter, take, takeUntil
-// Transformation:	bufferTime, concatMap, map, mergeMap, scan, switchMap
+// Transformation:	bufferTime, concatMap, map, mergeMap, scan, switchMap, reduce
 // Utility:	        tap
 // Multicasting:	  share
+
+// !!! Reduce
+// Reduce emits a value when obs closes and whose single, final value is the total sum of all stream elements.
+var obs = Rx.Observable.interval(1000).take(5); // emit value in sequence every 1 second and take 5 latest values (1,2,3,4,5)
+var reduced = obs.reduce((state, value) => state + value, 0);
+reduced.subscribe(total => console.log("total =" + total));
+// total = 10
+
+// !!! Scan
+// Scan emits the intermediate results of the accumulation process, and not only the final result (see reduce).
+var obs = Rx.Observable.interval(1000).take(5);
+var scanObs = obs.scan((state, value) => state + value, 0);
+scanObs.subscribe(total => console.log(total));
+// 0
+// 1
+// 3
+// 6
+// 10
+
+// !!! Share
+// The share operator allows us to share a single subscription of a processing chain (obs) with other subscribers.
+var obs = Rx.Observable.interval(1000).take(5)
+  .do(i => console.log("obs value " + i))
+  .share();
+
+obs.subscribe(value => console.log("observer 1 received " + value));
+obs.subscribe(value => console.log("observer 2 received " + value));
+// obs value 0
+// observer 1 received 0
+// observer 2 received 0
+
+// obs value 1
+// observer 1 received 1
+// observer 2 received 1
+
+
 
 // !!! SwitchMap()
 ngOnInit() {

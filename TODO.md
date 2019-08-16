@@ -41,17 +41,7 @@
 * [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
 * [-] [HOW TO BUILD MINESWEEPER WITH JAVASCRIPT](https://mitchum.blog/how-to-build-minesweeper-with-javascript/)
 
-# NODE
-* [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide/)
-* [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
-* [-] [GETTING STARTED WITH NODE.JS - FULL TUTORIAL](https://www.youtube.com/watch?v=gG3pytAY2MY)
-* [-] [NODE + SQL](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
-* [-] [SERVERJS.IO TUTORIALS](https://serverjs.io/tutorials)
-* [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
-* [-] [NODE.JS STREAMS: EVERYTHING YOU NEED TO KNOW](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
-* [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
-
-# FRONT-END
+# FRONT-END/ANGULAR
 * [-] [ANGULAR UNIVERSITY](https://angular-university.io/)
 * [-] [ANGULAR COURSE](https://codecraft.tv/courses/angular/quickstart/overview/)
 * [-] [ANGULAR 8 (FORMERLY ANGULAR 2) - THE COMPLETE GUIDE](https://www.udemy.com/the-complete-guide-to-angular-2/)
@@ -72,15 +62,7 @@
 * [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
 * [/] [ANGULAR DOCS](https://angular.io/guide)
 
-# MOBILE
-* [-] [REACT NATIVE COURSE: HOW TO BUILD ONE AN IPHONE APP, ANDROID APP, AND WEBSITE - ALL WITH THE SAME CODEBASE](https://www.youtube.com/watch?v=_CBYbEGvxYY)
-* [-] [PROGRESSIVE WEB APPS (PWA) - THE COMPLETE GUIDE](https://www.udemy.com/progressive-web-app-pwa-the-complete-guide)
-* [-] [NATIVESCRIPT + ANGULAR: BUILD NATIVE IOS, ANDROID & WEB APPS](https://www.udemy.com/nativescript-angular-build-native-ios-android-web-apps/)
-* [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
-
 # FUNCTIONAL REACTIVE
-* [-] REACTIVE PROGRAMMING WITH RXJS 5 (PRAGPROG)
-* [-] BUILD REACTIVE WEBSITES WITH RXJS (PRAGPROG)
 * [-] [GETTING STARTED WITH REDUX](https://egghead.io/courses/getting-started-with-redux)
 * [-] [BUILDING REACT APPLICATIONS WITH IDIOMATIC REDUX](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
 * [-] [THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
@@ -91,11 +73,23 @@
 * [-] [USE HIGHER ORDER OBSERVABLES IN RXJS EFFECTIVELY](https://egghead.io/courses/use-higher-order-observables-in-rxjs-effectively)
 * [-] [SAVE TIME AVOIDING COMMON MISTAKES USING RXJS](https://egghead.io/courses/save-time-avoiding-common-mistakes-using-rxjs)
 * [-] [RXJS SUBJECTS AND MULTICASTING OPERATORS](https://egghead.io/courses/rxjs-subjects-and-multicasting-operators)
+* [-] REACTIVE PROGRAMMING WITH RXJS 5 (PRAGPROG)
+* [-] BUILD REACTIVE WEBSITES WITH RXJS (PRAGPROG)
 * [-] RXJS IN ACTION
 * [-] [DECLARATIVE VS. IMPERATIVE PROGRAMMING FOR THE WEB](http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html)
 * [-] [HELLO, DECLARATIVE WORLD](http://codon.com/hello-declarative-world)
 * [-] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
 * [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
+
+# NODE
+* [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide/)
+* [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
+* [-] [GETTING STARTED WITH NODE.JS - FULL TUTORIAL](https://www.youtube.com/watch?v=gG3pytAY2MY)
+* [-] [NODE + SQL](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
+* [-] [SERVERJS.IO TUTORIALS](https://serverjs.io/tutorials)
+* [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
+* [-] [NODE.JS STREAMS: EVERYTHING YOU NEED TO KNOW](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
+* [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
 
 # TESTING
 * [-] [MASTERING CHROME DEVELOPER TOOLS V2](https://frontendmasters.com/courses/chrome-dev-tools-v2)
@@ -111,6 +105,12 @@
 * [-] [TEST-DRIVEN DEVELOPMENT EXTENSIVE TUTORIAL](https://leanpub.com/tdd-ebook)
 * [/] JAVASCRIPT TESTING WITH JASMINE
 * [-] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
+
+# MOBILE
+* [-] [REACT NATIVE COURSE: HOW TO BUILD ONE AN IPHONE APP, ANDROID APP, AND WEBSITE - ALL WITH THE SAME CODEBASE](https://www.youtube.com/watch?v=_CBYbEGvxYY)
+* [-] [PROGRESSIVE WEB APPS (PWA) - THE COMPLETE GUIDE](https://www.udemy.com/progressive-web-app-pwa-the-complete-guide)
+* [-] [NATIVESCRIPT + ANGULAR: BUILD NATIVE IOS, ANDROID & WEB APPS](https://www.udemy.com/nativescript-angular-build-native-ios-android-web-apps/)
+* [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 
 # SQL
 * [-] [MYSQL TUTORIAL](http://www.mysqltutorial.org)
