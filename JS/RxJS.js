@@ -1,25 +1,22 @@
-// ! Streams
-// Streams - FunFunFunction #13 <https://www.youtube.com/watch?v=UD2dZw9iHCc>
-// A stream is a flow of values that will be arriving whenever they feel like
-// Streaming libraries:
-// * http://reactivex.io
-// * Tutorials:
-// * https://www.learnrxjs.io
-
-// ! Subject
+// !! Subject
 // * A Subject is both a source of observable values and an Observable itself.
 // * You can subscribe to a Subject as you would any Observable.
 // * You can also push values into that Observable by calling Subject.next(value).
 // * A Subject publishes its values only once.
 
 // !! BehaviorSubject
-// Example (From: ng-book: Data Architecture with Observables: UserService): currentUser: Subject<User> = new BehaviorSubject<User>(null); // initial value is null
+// * UserService... let currentUser: Subject<User> = new BehaviorSubject<User>(null); // initial value is null
 // * Think of a Subject as a "read/write" steam. (Technically, a Subject inherits from both Observable and Observer.)
 // * One consequence of streams is that, because messages are published immediately, a new subscriber risks missing the latest value of the stream.
 // * BehaviourSubject compensates for this. BehaviourSubject has a special property in that it stores the last value.
 // * Meaning that any subscriber to the stream will receive the latest value.
 // * Any part of our application can subscribe to the UsersService.currentUser stream and immediately know who the current user is.
 // * Push a newUser into currentUser (Subject): let u = new User('Nate', 'anImgSrc'); UsersService.currentUser.next(u);
+// -- ng-book: Data Architecture with Observables: )
+
+// !! Subject vs BehaviorSubject in Angular
+// Subject has one particularity that prevents us from using it to build observable data services: if we subscribe to it we won't get the last value, we will have to wait until some part of the app calls next(). This poses a problem especially in bootstrapping situations, where the app is still initializing and not all subscribers have registered, for example not all async pipes had the chance to register themselves because not all templates are yet initialized. The solution for this is to use a BehaviorSubject. What this type of subject does it that it will return upon subscription the last value of the stream, or an initial state if no value was emitted yet. There is another property of the BehaviorSubject that is interesting: we can at any time retrieve the current value of the stream: let currentValue = behaviorSubject.getValue();
+// -- https://blog.angular-university.io/how-to-build-angular2-apps-using-rxjs-observable-data-services-pitfalls-to-avoid/
 
 // ! Observables
 // * As a publisher, you create an Observable instance that defines a subscriber function.
@@ -37,12 +34,20 @@
 // * Observables compared to arrays
 // https://angular.io/guide/comparing-observables
 
-// (From: ng-book: Data Architecture with Observables):
+// ! Streams
+// Streams - FunFunFunction #13 <https://www.youtube.com/watch?v=UD2dZw9iHCc>
+// A stream is a flow of values that will be arriving whenever they feel like
+// Streaming libraries:
+// * http://reactivex.io
+// * Tutorials:
+// * https://www.learnrxjs.io
+
 // Here are a few big ideas about streams:
 // * 1: Promises emit a single value whereas streams emit many values. Streams improve upon the promise pattern in that we can continuously respond to data changes on a stream (vs. a one-time resolve from a promise)
 // * 2: Imperative code "pulls" data whereas reactive streams "push" data. In Reactive Programming our code subscribes to be notified of changes and the streams "push" data to these subscribers.
 // * 3: RxJS is functional. Streams are in some sense lists, and so powerful functional operators all apply
 // * 4: Streams are composable. Think of streams like a pipeline of operations over your data. You can subscribe to any part of your stream and even combine them to create new streams.
+// -- ng-book: Data Architecture with Observables
 
 // !! Pipe function
 // You can use pipes to link operators together. Pipes let you combine multiple functions into a single function. The pipe() function takes as its arguments the functions you want to combine, and returns a new function that, when executed, runs the composed functions in sequence.
@@ -98,8 +103,6 @@ obs.subscribe(value => console.log("observer 2 received " + value));
 // obs value 1
 // observer 1 received 1
 // observer 2 received 1
-
-
 
 // !!! SwitchMap()
 ngOnInit() {
