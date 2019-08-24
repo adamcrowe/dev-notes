@@ -189,6 +189,7 @@
 * [-] [THINGS I LEARNT THE HARD WAY (IN 30 YEARS OF SOFTWARE DEVELOPMENT)](https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way)
 
 # DEPLOYMENT
+* [-] [LEARN DEVOPS BASICS WITH THIS FREE 2-HOUR DOCKER COURSE](https://www.freecodecamp.org/news/docker-devops-course/)
 * [/] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
 * [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws)
 * [-] [AWS SERVERLESS APIS & APPS - A COMPLETE INTRODUCTION](https://www.udemy.com/aws-serverless-a-complete-introduction/)
