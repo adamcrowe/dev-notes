@@ -9,17 +9,20 @@
 * [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
 
 # HTML/CSS
-* [-] [CSS - THE COMPLETE GUIDE (INCL. FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/)
-* [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [-] [MDN: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [.] HTML5 AND CSS3 (2ND EDITION)
-* [-] CSS MASTER
-* [-] PRAGMATIC GUIDE TO SASS 3 (PRAGPROG)
+* [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/)
+* [-] [CSS FULL COURSE INCLUDES FLEXBOX AND CSS GRID TUTORIALS](https://www.freecodecamp.org/news/full-css-course-flexbox-grid/)
+* [-] [MODERN CSS EXPLAINED FOR DINOSAURS](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
+* [-] [RELEARN CSS LAYOUT](https://every-layout.dev)
+* [-] CSS MASTER (SITEPOINT)
+* [-] [PRAGMATIC GUIDE TO SASS 3 (PRAGPROG)](https://pragprog.com/book/pg_sass3/pragmatic-guide-to-sass-3)
+* [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
+* [-] [CHROME DEVELOPER TOOLS TUTORIAL: INSPECT AND TEST CSS 2019](https://www.youtube.com/watch?v=s0RI4IXKE_o)
 * [-] HEAD FIRST HTML5 PROGRAMMING
 * [-] FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT
 * [-] ADVANCED GAME DESIGN WITH HTML5 AND JAVASCRIPT
-* [-] [WARRIORJS](https://warrior.js.org)
-* [-] [RELEARN CSS LAYOUT](https://every-layout.dev)
+* [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [-] [MDN: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [/] BOOTSTRAP 3/4
 
 # JS/TYPESCRIPT
@@ -40,6 +43,7 @@
 * [/] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
 * [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
 * [-] [HOW TO BUILD MINESWEEPER WITH JAVASCRIPT](https://mitchum.blog/how-to-build-minesweeper-with-javascript/)
+* [-] [WARRIORJS](https://warrior.js.org)
 
 # FRONT-END/ANGULAR
 * [-] [ANGULAR UNIVERSITY](https://angular-university.io/)
