@@ -9,6 +9,10 @@
 * [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
 
 # HTML/CSS
+* [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [-] [MDN: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [-] [CSS SNIPPETS YOU CAN UNDERSTAND IN 30 SECONDS OR LESS](https://atomiks.github.io/30-seconds-of-css)
+* [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
 * [.] HTML5 AND CSS3 (2ND EDITION)
 * [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/)
 * [-] [CSS FULL COURSE INCLUDES FLEXBOX AND CSS GRID TUTORIALS](https://www.freecodecamp.org/news/full-css-course-flexbox-grid/)
@@ -21,8 +25,6 @@
 * [-] HEAD FIRST HTML5 PROGRAMMING
 * [-] FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT
 * [-] ADVANCED GAME DESIGN WITH HTML5 AND JAVASCRIPT
-* [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [-] [MDN: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [/] BOOTSTRAP 3/4
 
 # JS/TYPESCRIPT
@@ -43,6 +45,7 @@
 * [/] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
 * [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
 * [-] [HOW TO BUILD MINESWEEPER WITH JAVASCRIPT](https://mitchum.blog/how-to-build-minesweeper-with-javascript/)
+* [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
 * [-] [WARRIORJS](https://warrior.js.org)
 
 # FRONT-END/ANGULAR
