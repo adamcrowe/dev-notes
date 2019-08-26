@@ -171,6 +171,7 @@
 * [-] CRACKING THE CODING INTERVIEW
 
 # CRAFTMANSHIP
+* [-] [WRITING SYSTEM SOFTWARE: CODE COMMENTS](http://antirez.com/news/124)
 * [-] [HOW TO CODE LIKE A PRO](https://www.youtube.com/watch?v=ZihKWQXRBmE)
 * [-] [CODE WITHOUT RULES](https://codewithoutrules.com)
 * [-] HEAD FIRST SOFTWARE DEVELOPMENT (O'REILLY)
