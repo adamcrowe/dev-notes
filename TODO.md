@@ -13,7 +13,6 @@
 * [-] [MDN: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [-] [CSS SNIPPETS YOU CAN UNDERSTAND IN 30 SECONDS OR LESS](https://github.com/30-seconds/30-seconds-of-css)
 * [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
-* [.] HTML5 AND CSS3 (2ND EDITION)
 * [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/)
 * [-] [CSS FULL COURSE INCLUDES FLEXBOX AND CSS GRID TUTORIALS](https://www.freecodecamp.org/news/full-css-course-flexbox-grid/)
 * [-] [MODERN CSS EXPLAINED FOR DINOSAURS](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
@@ -21,11 +20,14 @@
 * [-] CSS MASTER (SITEPOINT)
 * [-] [PRAGMATIC GUIDE TO SASS 3 (PRAGPROG)](https://pragprog.com/book/pg_sass3/pragmatic-guide-to-sass-3)
 * [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
-* [-] [CHROME DEVELOPER TOOLS TUTORIAL: INSPECT AND TEST CSS 2019](https://www.youtube.com/watch?v=s0RI4IXKE_o)
+* [/] [CHROME DEVELOPER TOOLS TUTORIAL: INSPECT AND TEST CSS 2019](https://www.youtube.com/watch?v=s0RI4IXKE_o)
 * [-] HEAD FIRST HTML5 PROGRAMMING
 * [-] FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT
 * [-] ADVANCED GAME DESIGN WITH HTML5 AND JAVASCRIPT
 * [/] BOOTSTRAP 3/4
+* [/] HTML5 AND CSS3 (2ND EDITION)
+* [/] [RESPONSIVE WEB DESIGN](https://alistapart.com/article/responsive-web-design)
+
 
 # JS/TYPESCRIPT
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
