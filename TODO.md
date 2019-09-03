@@ -28,7 +28,6 @@
 * [/] HTML5 AND CSS3 (2ND EDITION)
 * [/] [RESPONSIVE WEB DESIGN](https://alistapart.com/article/responsive-web-design)
 
-
 # JS/TYPESCRIPT
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
 * [-] [DO MORE WITH REDUCE](https://jrsinclair.com/articles/2019/functional-js-do-more-with-reduce)
