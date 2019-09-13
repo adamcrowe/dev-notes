@@ -17,6 +17,7 @@
 * [-] [CSS FULL COURSE INCLUDES FLEXBOX AND CSS GRID TUTORIALS](https://www.freecodecamp.org/news/full-css-course-flexbox-grid/)
 * [-] [MODERN CSS EXPLAINED FOR DINOSAURS](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
 * [-] [RELEARN CSS LAYOUT](https://every-layout.dev)
+* [-] [SASS TUTORIAL FOR BEGINNERS](https://www.freecodecamp.org/news/give-your-css-superpowers-by-learning-sass/)
 * [-] CSS MASTER (SITEPOINT)
 * [-] [PRAGMATIC GUIDE TO SASS 3 (PRAGPROG)](https://pragprog.com/book/pg_sass3/pragmatic-guide-to-sass-3)
 * [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
@@ -27,7 +28,6 @@
 * [/] BOOTSTRAP 3/4
 * [/] HTML5 AND CSS3 (2ND EDITION)
 * [/] [RESPONSIVE WEB DESIGN](https://alistapart.com/article/responsive-web-design)
-
 
 # JS/TYPESCRIPT
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
@@ -65,6 +65,7 @@
 * [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
 * [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
 * [-] MDN: HTTP
+* [-] [INTRODUCTION TO HTTP](https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it)
 * [-] BUILD FRONT-END APPS WITH PLAIN JAVASCRIPT
 * [/] INSTANT HANDLEBARS
 * [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
@@ -204,6 +205,7 @@
 * [/] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
 * [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws)
 * [-] [AWS SERVERLESS APIS & APPS - A COMPLETE INTRODUCTION](https://www.udemy.com/aws-serverless-a-complete-introduction/)
+* [-] [HOW TO DEPLOY A REACT APP TO PRODUCTION ON AWS USING EXPRESS, POSTGRES, PM2 AND NGINX](https://www.freecodecamp.org/news/production-fullstack-react-express/)
 
 # SECURITY
 * [-] [A QUICK INTRODUCTION TO WEB SECURITY](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
