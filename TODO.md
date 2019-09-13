@@ -44,11 +44,12 @@
 * [-] [LET'S DEMYSTIFY JAVASCRIPT'S ‘NEW’ KEYWORD](https://medium.freecodecamp.org/demystifying-javascripts-new-keyword-874df126184c)
 * [-] [HOW TO CREATE A CHROME EXTENSION IN 10 MINUTES FLAT](https://www.sitepoint.com/create-chrome-extension-10-minutes-flat)
 * [-] [HOW TO CREATE AND PUBLISH A CHROME EXTENSION IN 20 MINUTES](https://medium.freecodecamp.org/how-to-create-and-publish-a-chrome-extension-in-20-minutes-6dc8395d7153)
-* [/] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
-* [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
 * [-] [HOW TO BUILD MINESWEEPER WITH JAVASCRIPT](https://mitchum.blog/how-to-build-minesweeper-with-javascript/)
 * [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
 * [-] [WARRIORJS](https://warrior.js.org)
+* [-] [THE COMPLETE TYPESCRIPT COURSE](https://angular-university.io/course/typescript-2-tutorial)
+* [/] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
+* [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
 
 # FRONT-END/ANGULAR
 * [-] [ANGULAR UNIVERSITY](https://angular-university.io/)
