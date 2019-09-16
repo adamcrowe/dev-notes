@@ -28,6 +28,13 @@
 * [/] HTML5 AND CSS3 (2ND EDITION)
 * [/] [RESPONSIVE WEB DESIGN](https://alistapart.com/article/responsive-web-design)
 
+# UI DESIGN
+* [-] [REFACTORING UI](https://refactoringui.com/book)
+* [-] [DESIGN FOR DEVELOPERS](https://frontendmasters.com/courses/design-for-developers)
+* [/] [REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
+* [-] [THEORY SPRINTS](https://proximityschool.com/theory-sprints)
+* [-] [SKETCH MASTER](https://sketchmaster.com)
+
 # JS/TYPESCRIPT
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
 * [-] [DO MORE WITH REDUCE](https://jrsinclair.com/articles/2019/functional-js-do-more-with-reduce)
@@ -216,9 +223,3 @@
 * [-] [GROKKING THE SYSTEM DESIGN INTERVIEW](https://www.educative.io/collection/5668639101419520/5649050225344512)
 * [-] [DRAW.IO](https://www.draw.io)
 
-# UI DESIGN
-* [-] [SKETCH MASTER](https://sketchmaster.com)
-* [-] [REFACTORING UI](https://refactoringui.com/book)
-* [-] [DESIGN FOR DEVELOPERS](https://frontendmasters.com/courses/design-for-developers)
-* [/] [REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
-* [-] [THEORY SPRINTS](https://proximityschool.com/theory-sprints)
