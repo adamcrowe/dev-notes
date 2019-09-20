@@ -1,4 +1,5 @@
 * EditorConfig: (Maintain consistent coding styles between different editors and IDEs): <http://editorconfig.org>
+* Insomnia: (API/REST client): <https://insomnia.rest>
 * Wallaby.js (Run tests in editor): <https://wallabyjs.com> | Demo: <https://www.youtube.com/watch?v=P4UQ-jTTJJ4>
 * Quokka.js (Run code in editor): <https://quokkajs.com>
 * GitLab Workflow (VSCode plugin): <https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow>
