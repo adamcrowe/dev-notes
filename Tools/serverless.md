@@ -4,5 +4,7 @@
 <https://bryanlrobinson.com/blog/routing-contact-form-submissions-to-different-addresses-with-netlify-zapier-and-sendgrid>
 <https://css-tricks.com/using-netlify-forms-and-netlify-functions-to-build-an-email-sign-up-widget>
 <https://css-tricks.com/netlify-functions-for-sending-emails>
-<https://www.youtube.com/watch?v=_1qXQM3Mt4Q>
+[Netlify Functions (Build and Deploy)](https://www.youtube.com/watch?v=_1qXQM3Mt4Q)
+[Serverless Lambda Functions](https://www.youtube.com/watch?v=drJwMlD9Mjo)
+[Simple Contact Form Submission With Netlify](https://www.youtube.com/watch?v=6ElQ689HRcY)
 <https://medium.com/backticks-tildes/handling-static-forms-the-client-side-way-4ffcbecf7498>
