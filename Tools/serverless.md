@@ -1,3 +1,4 @@
+<https://medium.com/datafire-io/simple-backends-four-ways-to-implement-a-contact-us-form-on-a-static-website-10fc430984a4> ***
 <https://cobwwweb.com/zero-to-functioning-netlify-function>
 <https://cobwwweb.com/netlify-function-sends-conditional-email> ***
 <https://bryanlrobinson.com/blog/routing-contact-form-submissions-to-different-addresses-with-netlify-zapier-and-sendgrid>
