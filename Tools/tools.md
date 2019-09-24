@@ -27,4 +27,5 @@
   },
   ...
 }
+* Google Search Console <https://search.google.com/search-console/about>
 
