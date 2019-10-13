@@ -209,6 +209,8 @@
 * [-] [THINGS I LEARNT THE HARD WAY (IN 30 YEARS OF SOFTWARE DEVELOPMENT)](https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way)
 
 # DEPLOYMENT
+* [-] [CODING MODERN WEBSITES WITH THE JAMSTACK - PART 1/3](https://www.netlify.com/blog/2017/10/06/coding-modern-websites-with-the-jamstack-part-1/)
+* [-] [COMPLETE INTRO TO NETLIFY](https://www.netlify.com/blog/2019/10/07/complete-intro-to-netlify-in-3.5-hours/)
 * [-] [LEARN DEVOPS BASICS WITH THIS FREE 2-HOUR DOCKER COURSE](https://www.freecodecamp.org/news/docker-devops-course/)
 * [/] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
 * [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws)
