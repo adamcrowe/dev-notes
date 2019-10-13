@@ -210,6 +210,7 @@
 
 # DEPLOYMENT
 * [-] [CODING MODERN WEBSITES WITH THE JAMSTACK - PART 1/3](https://www.netlify.com/blog/2017/10/06/coding-modern-websites-with-the-jamstack-part-1/)
+* [-] [HOW TO RUN EXPRESS.JS APPS WITH NETLIFY FUNCTIONS](https://www.netlify.com/blog/2018/09/13/how-to-run-express.js-apps-with-netlify-functions/)
 * [-] [COMPLETE INTRO TO NETLIFY](https://www.netlify.com/blog/2019/10/07/complete-intro-to-netlify-in-3.5-hours/)
 * [-] [LEARN DEVOPS BASICS WITH THIS FREE 2-HOUR DOCKER COURSE](https://www.freecodecamp.org/news/docker-devops-course/)
 * [/] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
