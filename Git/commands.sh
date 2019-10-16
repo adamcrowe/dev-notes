@@ -63,6 +63,7 @@ git init <directory> 					# create an empty .git repository in the specified dir
 git init --bare <directory> 			# initialize storage facility (not using as development environment)
 git clone <url.git> 					# clone (origin) master repository created manually (on GitHub, etc.)
 git remote add origin <url.git> 		# create remote (origin) master e.g. https://github.com/user/repo.git
+echo .DS_Store >> .gitignore            # create gitignore file
 
 # STASHING
 git stash save "<message>" 				# save named changes - tracked only
