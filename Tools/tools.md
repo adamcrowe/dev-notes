@@ -28,4 +28,5 @@
   ...
 }
 * Google Search Console <https://search.google.com/search-console/about>
+* BadJS.org is a repository of malicious JavaScript <https://badjs.org>
 
