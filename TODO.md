@@ -7,7 +7,6 @@
 
 ## FUN FUN FUNCTION
 * [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
-
 * [-] [THE COMPLETE WEB DEVELOPER IN 2019](https://www.udemy.com/the-complete-web-developer-in-2018/?ccManual=&couponCode=KHDKA7161)
 * [-] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/?couponCode=MEDIUM12849)
 
