@@ -15,11 +15,11 @@
 # HTML/CSS
 * [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [/] [MDN: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [-] [CSS SNIPPETS YOU CAN UNDERSTAND IN 30 SECONDS OR LESS](https://github.com/30-seconds/30-seconds-of-css)
+* [/] [CSS SNIPPETS YOU CAN UNDERSTAND IN 30 SECONDS OR LESS](https://github.com/30-seconds/30-seconds-of-css)
 * [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
 * [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/)
 * [-] [CSS FULL COURSE INCLUDES FLEXBOX AND CSS GRID TUTORIALS](https://www.freecodecamp.org/news/full-css-course-flexbox-grid/)
-* [-] [MODERN CSS EXPLAINED FOR DINOSAURS](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
+* [/] [MODERN CSS EXPLAINED FOR DINOSAURS](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
 * [-] [RELEARN CSS LAYOUT](https://every-layout.dev)
 * [-] [SASS TUTORIAL FOR BEGINNERS](https://www.freecodecamp.org/news/give-your-css-superpowers-by-learning-sass/)
 * [-] CSS MASTER (SITEPOINT)
