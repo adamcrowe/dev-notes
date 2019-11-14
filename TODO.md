@@ -129,6 +129,7 @@
 * [-] [TEST-DRIVEN DEVELOPMENT EXTENSIVE TUTORIAL](https://leanpub.com/tdd-ebook)
 * [/] JAVASCRIPT TESTING WITH JASMINE
 * [-] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
+* [-] [END-TO-END API TESTING WITH DOCKER](https://www.freecodecamp.org/news/end-to-end-api-testing-with-docker/)
 
 # MOBILE
 * [-] [REACT NATIVE COURSE: HOW TO BUILD ONE AN IPHONE APP, ANDROID APP, AND WEBSITE - ALL WITH THE SAME CODEBASE](https://www.youtube.com/watch?v=_CBYbEGvxYY)
@@ -224,6 +225,7 @@
 * [-] [HOW TO DEPLOY A REACT APP TO PRODUCTION ON AWS USING EXPRESS, POSTGRES, PM2 AND NGINX](https://www.freecodecamp.org/news/production-fullstack-react-express/)
 
 # SECURITY
+* [-] [JWT AUTH TUTORIAL](https://www.freecodecamp.org/news/what-are-json-web-tokens-jwt-auth-tutorial/)
 * [-] [A QUICK INTRODUCTION TO WEB SECURITY](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
 * [-] [WEB APP PENETRATION TESTING FOR ETHICAL HACKING](https://www.freecodecamp.org/news/web-app-penetration-testing-full-course)
 * [-] [HACK THIS SITE](https://www.hackthissite.org)
