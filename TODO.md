@@ -18,6 +18,7 @@
 * [-] [THEORY SPRINTS: COURSE](https://proximityschool.com/theory-sprints)
 * [.] [RECURSIVE TYPEFACE](https://www.recursive.design)
 * [.] [DRIBBLE COLORS](https://dribbble.com/colors/)
+* [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack/)
 
 # HTML/CSS
 * [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
