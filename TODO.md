@@ -8,9 +8,16 @@
 ## FUN FUN FUNCTION
 * [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
 
-## ROAD MAP
-* [-] [THE COMPLETE WEB DEVELOPER IN 2019](https://www.udemy.com/the-complete-web-developer-in-2018/?ccManual=&couponCode=KHDKA7161)
-* [-] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/?couponCode=MEDIUM12849)
+# UI DESIGN
+* [-] [SKETCH MASTER: COURSE](https://sketchmaster.com)
+* [-] [REFACTORING UI: COURSE](https://refactoringui.com/book)
+* [-] [REFACTORING UI: VIDEOS](https://www.youtube.com/channel/UCxqiDtkXtOCNJdckODHk9YA)
+* [-] [REFACTORING UI: DESIGN TIPS](https://twitter.com/i/moments/994601867987619840)
+* [/] [REFACTORING UI: 7 PRACTICAL TIPS FOR CHEATING AT DESIGN](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
+* [/] [REFACTORING UI: REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
+* [-] [THEORY SPRINTS: COURSE](https://proximityschool.com/theory-sprints)
+* [.] [RECURSIVE TYPEFACE](https://www.recursive.design)
+* [.] [DRIBBLE COLORS](https://dribbble.com/colors/)
 
 # HTML/CSS
 * [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -32,14 +39,6 @@
 * [/] [RESPONSIVE WEB DESIGN](https://alistapart.com/article/responsive-web-design)
 * [/] [MODERN CSS EXPLAINED FOR DINOSAURS](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
 * [/] [CHROME DEVELOPER TOOLS TUTORIAL: INSPECT AND TEST CSS 2019](https://www.youtube.com/watch?v=s0RI4IXKE_o)
-
-# UI DESIGN
-* [-] [REFACTORING UI](https://refactoringui.com/book)
-* [-] [DESIGN FOR DEVELOPERS](https://frontendmasters.com/courses/design-for-developers)
-* [/] [REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
-* [-] [THEORY SPRINTS](https://proximityschool.com/theory-sprints)
-* [-] [SKETCH MASTER](https://sketchmaster.com)
-* [-] [RECURSIVE TYPEFACE](https://www.recursive.design)
 
 # JS/TYPESCRIPT
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
@@ -188,6 +187,8 @@
 * [-] CRACKING THE CODING INTERVIEW
 
 # CRAFTMANSHIP
+* [-] [THE COMPLETE WEB DEVELOPER IN 2019](https://www.udemy.com/the-complete-web-developer-in-2018/?ccManual=&couponCode=KHDKA7161)
+* [-] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/?couponCode=MEDIUM12849)
 * [-] [WRITING SYSTEM SOFTWARE: CODE COMMENTS](http://antirez.com/news/124)
 * [-] [HOW TO CODE LIKE A PRO](https://www.youtube.com/watch?v=ZihKWQXRBmE)
 * [-] [CODE WITHOUT RULES](https://codewithoutrules.com)
