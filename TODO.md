@@ -189,8 +189,8 @@
 * [-] CRACKING THE CODING INTERVIEW
 
 # CRAFTMANSHIP
-* [-] [THE COMPLETE WEB DEVELOPER IN 2019](https://www.udemy.com/the-complete-web-developer-in-2018/?ccManual=&couponCode=KHDKA7161)
-* [-] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/?couponCode=MEDIUM12849)
+* [-] [THE COMPLETE WEB DEVELOPER IN 2020: ZERO TO MASTERY](https://www.udemy.com/the-complete-web-developer-in-2018/)
+* [-] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/)
 * [-] [WRITING SYSTEM SOFTWARE: CODE COMMENTS](http://antirez.com/news/124)
 * [-] [HOW TO CODE LIKE A PRO](https://www.youtube.com/watch?v=ZihKWQXRBmE)
 * [-] [CODE WITHOUT RULES](https://codewithoutrules.com)

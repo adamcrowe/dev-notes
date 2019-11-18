@@ -12,3 +12,4 @@
 <https://www.raymondcamden.com/2019/01/08/adding-serverless-functions-to-your-netlify-static-site>
 <https://www.raymondcamden.com/2019/01/15/customized-form-handling-on-netlify-with-serverless-functions>
 <https://luetkemj.github.io/180505/netlify-lambdas-as-simple-as-possible>
+<https://www.codespot.org/how-to-build-a-blog-with-gatsby-and>
