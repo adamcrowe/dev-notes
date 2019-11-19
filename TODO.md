@@ -221,6 +221,7 @@
 * [-] [HOW TO RUN EXPRESS.JS APPS WITH NETLIFY FUNCTIONS](https://www.netlify.com/blog/2018/09/13/how-to-run-express.js-apps-with-netlify-functions/)
 * [-] [COMPLETE INTRO TO NETLIFY](https://www.netlify.com/blog/2019/10/07/complete-intro-to-netlify-in-3.5-hours/)
 * [-] [LEARN DEVOPS BASICS WITH THIS FREE 2-HOUR DOCKER COURSE](https://www.freecodecamp.org/news/docker-devops-course/)
+* [-] [WORDPRESS CONTINUOUS DEPLOYMENT](https://bitbucket.org/blog/wordpress-continuous-deployment)
 * [/] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
 * [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws)
 * [-] [AWS SERVERLESS APIS & APPS - A COMPLETE INTRODUCTION](https://www.udemy.com/aws-serverless-a-complete-introduction/)
