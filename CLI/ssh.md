@@ -1,41 +1,84 @@
-[Set up an SSH key](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html)
-[Connecting to GitHub with SSH](https://help.github.com/articles/connecting-to-github-with-ssh/)
+# SSH (Secure Shell)
+Request login to machine:
+```
+ssh {user}@{host}
+```
 
-# Step 1. Set up your default identity
+# Location of SSH directory
+
+```
+cd ~/.ssh
+open .
+```
+
+# Generate unique key for a service (e.g. Digital Ocean)
+(At prompt, name the file /Users/user1/.ssh/id_rsa_digitalocean)
+Press enter at Enter passphrase prompt
+
+```
+ssh-keygen -t rsa -b 4096 -C "user1@email.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/user1/.ssh/id_rsa):
+/Users/user1/.ssh/id_rsa_digitalocean
+```
+
+## Identity management of multiple keys
+The ```ssh``` command and ssh-agent assumes you're using the default keys: id_rsa and id_rsa.pub
+To use unique keys for different services, first generate a unique key and then add that key to the ssh-agent:
+
+```
+ssh-add ~/.ssh/id_rsa_unique
+```
+
+The ```ssh``` command and ssh-agent will now consider both the default and unique key identities when logging into a box.
+
+## Copy public key to clipboard for sharing with service
+
+```
+~/.ssh pbcopy < ~/.ssh/id_rsa_digitalocean.pub
+```
+
+Copy the public key into the service front-end or ssh into the service (using a password), and copy the key into an 'authorized_keys' (or similar) text file.
+
+---
+
+# Tutorial: Connect with Bitbucket using SSH
+
+## Step 1. Set up your default identity
 
 1. From the terminal, enter ssh-keygen at the command line. The command prompts you for a file to save the key in:
 
 ```
-$ ssh-keygen 
+$ ssh-keygen
 Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/emmap1/.ssh/id_rsa):
+Enter file in which to save the key (/Users/user1/.ssh/id_rsa):
 ```
 
 2. Press the Enter or Return key to accept the default location.
 
-We recommend you keep the default key name unless you have a reason to change it.
+We recommend you keep the default key name unless you have a reason to change it (for example, you need a unique name for a service.)
 
-To create a key with a name or path other than the default, specify the full path to the key. For example, to create a key called my-new-ssh-key, enter a path like the one shown at the prompt:
+To create a key with a name or path other than the default, specify the full path to the key. For example, to create a key called id_rsa_uniquekey, enter a path like the one shown at the prompt:
 
 ```
-$ ssh-keygen 
+$ ssh-keygen
 Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/emmap1/.ssh/id_rsa): /Users/emmap1/.ssh/my-new-ssh-key
+Enter file in which to save the key (/Users/user1/.ssh/id_rsa): /Users/user1/.ssh/id_rsa_uniquekey
 ```
 
 3. Enter and re-enter a passphrase when prompted. The command creates your default identity with its public and private keys. The whole interaction will look similar to the following:
 
 ```
-$ ssh-keygen 
+$ ssh-keygen
 Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/emmap1/.ssh/id_rsa):
-Created directory '/Users/emmap1/.ssh'.
+Enter file in which to save the key (/Users/user1/.ssh/id_rsa):
+Created directory '/Users/user1/.ssh'.
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
-Your identification has been saved in /Users/emmap1/.ssh/id_rsa.
-Your public key has been saved in /Users/emmap1/.ssh/id_rsa.pub.
+Your identification has been saved in /Users/user1/.ssh/id_rsa.
+Your public key has been saved in /Users/user1/.ssh/id_rsa.pub.
 The key fingerprint is:
-4c:80:61:2c:00:3f:9d:dc:08:41:2e:c0:cf:b9:17:69 emmap1@myhost.local 
+4c:80:61:2c:00:3f:9d:dc:08:41:2e:c0:cf:b9:17:69 user1@myhost.local
 The key's randomart image is:
 +--[ RSA 2048]----+
 |*o+ooo.          |
@@ -53,7 +96,7 @@ The key's randomart image is:
 4. List the contents of ~/.ssh to view the key files.
 
 ```
-$ ls ~/.ssh 
+$ ls ~/.ssh
 id_rsa id_rsa.pub
 ```
 
@@ -65,21 +108,23 @@ If you don't want to type your password each time you use the key, you'll need t
 1. To start the agent, run the following:
 
 ```
-$ eval `ssh-agent` 
+$ eval `ssh-agent`
 Agent pid 9700
 ```
 
 2. Enter ssh-add followed by the path to the private key file:
 
 ```
-$ ssh-add -K ~/.ssh/<private_key_file>
+$ ssh-add -K ~/.ssh/id_rsa
 ```
 
 3. So that your computer remembers your password each time it restarts, open (or create) the ~/.ssh/config file and add these lines to the file:
 
 ```
 Host *
+  AddKeysToAgent yes
   UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
 ```
 
 ### Step 3. Add the public key to your Bitbucket settings
@@ -113,8 +158,13 @@ $ ssh -T git@bitbucket.org
 The command message tells you which of your Bitbucket accounts can log in with that key.
 
 ```
-conq: logged in as emmap1.
+conq: logged in as user1.
 You can use git or hg to connect to Bitbucket. Shell access is disabled.
 ```
 
 If you get an error message with Permission denied (publickey), check the [Troubleshoot SSH issues](https://confluence.atlassian.com/bitbucket/troubleshoot-ssh-issues-271943403.html) page for help.
+
+# References
+[Set up an SSH key](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html)
+[Connecting to GitHub with SSH](https://help.github.com/articles/connecting-to-github-with-ssh/)
+[How Secure Shell Works (SSH) - Computerphile](https://www.youtube.com/watch?v=ORcvSkgdA58)

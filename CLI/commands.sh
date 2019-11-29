@@ -1588,7 +1588,7 @@ rmdir dir1												# delete empty directory
 rm file1												# delete file
 rm -r dir1   											# delete directory and contents
 rm -R dir1												# delete directory and contents (-R force recursion)
-rm -rf dir1 											# force dleete of a file or directory (i.e., ignore warnings)
+rm -rf dir1 											# force delete of a file or directory (i.e., ignore warnings)
 rm -rf </path/to/dir1>									# delete directory and contents
 rm -rf </path/to/dir1/*>								# delete contents of directory only
 rm -P file  											# deletes file securely by first overwriting file contents
