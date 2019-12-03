@@ -1,0 +1,4 @@
+/* Stripped rows. */
+.clr-row:nth-of-type(odd) .stripedRows {
+    background-color: #fafafa;
+}
