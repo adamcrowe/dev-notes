@@ -31,4 +31,5 @@
 * BadJS.org is a repository of malicious JavaScript <https://badjs.org>
 * Writing System Software: Code Comments <http://antirez.com/news/124>
 * ShellCheck: Finds bugs in your shell scripts <https://www.shellcheck.net/>
+* Check and remove Exif image data online <http://www.verexif.com/en/>
 
