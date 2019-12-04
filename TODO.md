@@ -117,7 +117,6 @@
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
 
 # TESTING
-* [-] [MASTERING CHROME DEVELOPER TOOLS V2](https://frontendmasters.com/courses/chrome-dev-tools-v2)
 * [-] [CHROME DEVTOOLS](https://developers.google.com/web/tools/chrome-devtools)
 * [-] [MASTERING THE DEVELOPER TOOLS CONSOLE](https://blog.teamtreehouse.com/mastering-developer-tools-console)
 * [-] [DEBUGGING JAVASCRIPT IN GOOGLE CHROME AND VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-studio-code)
