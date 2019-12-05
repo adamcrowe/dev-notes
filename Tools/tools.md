@@ -34,5 +34,8 @@
 * Writing System Software: Code Comments <http://antirez.com/news/124>
 * ShellCheck: Finds bugs in your shell scripts <https://www.shellcheck.net/>
 * Check and remove Exif image data online <http://www.verexif.com/en/>
+* ImageOptim makes images load faster <https://imageoptim.com/>
+* XnConvert Bulk Image Converter <https://www.xnview.com/en/xnconvert/>
 * You Might Not Need jQuery <http://youmightnotneedjquery.com/>
+
 
