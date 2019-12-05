@@ -7,13 +7,15 @@
 
 ### Commands
 
-										// if has package.json...
-npm install								// creates and saves required dependencies to node_module folder
-npm install <package-name> --save 		// installs and adds dependency to package.json
+										                    // if has package.json...
+npm install								              // creates and saves required dependencies to node_module folder
+npm install <package-name> --save 		  // installs and adds dependency to package.json
 npm install <package-name> --save-dev 	// installs and adds dependency to package.json devDependencies
-npm update								// update all dependencies in package.json
-npm update <package-name>				// update specific dependency in package.json
-npm <task-name>							// run task e.g. npm watch, npm dev, npm prod
+npm update								              // update all dependencies in package.json
+npm update <package-name>				        // update specific dependency in package.json
+npm <task-name>							            // run task e.g. npm watch, npm dev, npm prod
+npm audit                               // produce a report of dependency vulnerabilities and, if available, suggested patches
+nom audit fix                           // automatically install compatible updates to vulnerable dependencies
 
 ### Aliases
 npm i <package-name>                    // install local package

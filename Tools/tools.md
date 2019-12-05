@@ -38,5 +38,6 @@
 * XnConvert Bulk Image Converter <https://www.xnview.com/en/xnconvert/>
 * You Might Not Need jQuery <http://youmightnotneedjquery.com/>
 * Favicon Generator <https://realfavicongenerator.net/>
+* Lighthouse PWA Analysis Tool <https://developers.google.com/web/ilt/pwa/lighthouse-pwa-analysis-tool>
 
 
