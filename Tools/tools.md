@@ -37,5 +37,6 @@
 * ImageOptim makes images load faster <https://imageoptim.com/>
 * XnConvert Bulk Image Converter <https://www.xnview.com/en/xnconvert/>
 * You Might Not Need jQuery <http://youmightnotneedjquery.com/>
+* Favicon Generator <https://realfavicongenerator.net/>
 
 
