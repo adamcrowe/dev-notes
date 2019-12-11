@@ -23,7 +23,7 @@ let sizeName2: number = Size.Small;
 console.log(sizeName2);                             // returns '1' (Size.Small)
 
 let myVoid = (): void => console.log('hi')          // void
-let myError = (): never => { throw Error('err!') }; // never
+let myError = (): never => { throw Error('err!') }; // never (neither returns nor logs)
 
 // interface
 interface RobotArmy {
