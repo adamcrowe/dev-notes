@@ -146,6 +146,10 @@
 * [-] SQL ANTIPATTERNS (PRAGPROG)
 * [/] HEAD FIRST SQL (O'REILLY)
 
+# DATA
+* [-] [THINK PYTHON 2E](https://greenteapress.com/wp/think-python-2e/)
+* [-] [THINK STATS 2E](https://greenteapress.com/wp/think-stats-2e/)
+
 # UNIX/CLI/BASH/GIT/EDITORS
 * [/] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac)
 * [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
