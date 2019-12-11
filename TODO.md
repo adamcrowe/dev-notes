@@ -64,7 +64,8 @@
 * [/] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
 * [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
 
-# FRONT-END/ANGULAR
+# FRONT-END/ANGULAR/REACT
+* [-] [COMPLETE REACT DEVELOPER IN 2020 (W/ REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery)
 * [-] [ANGULAR UNIVERSITY](https://angular-university.io/)
 * [-] [ANGULAR COURSE](https://codecraft.tv/courses/angular/quickstart/overview/)
 * [-] [ANGULAR 8 (FORMERLY ANGULAR 2) - THE COMPLETE GUIDE](https://www.udemy.com/the-complete-guide-to-angular-2/)
