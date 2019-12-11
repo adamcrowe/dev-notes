@@ -11,12 +11,16 @@ let numArr: number[] = [0, 1, 2];				    // array of numbers
 let numArr2: Array<number> = [0, 1, 2];			    // array of numbers
 let boolArr: boolean[] = [true, false]			    // array of booleans
 let strNumTuple: [string, number] = ['str', 1];     // tuple/mixed array
-let myObject: object = {a: 'first', b: 'second'};    // object
+let myObject: object = {a: 'first', b: 'second'};   // object
 let confused: string | number = 'hello'             // union
 let hithere: any = "OH HI THERE";                   // type assertions
 let strLength: number = (hithere as string).length; // length
-enum Size { Small, Medium, Large }                  // enum
-let sizeName: string = Size[2]; alert(sizeName);    // Returns 'Medium' (Size[2])
+
+enum Size { Small = 1, Medium = 2, Large = 3 }      // enum
+let sizeName: string = Size[2];
+console.log(sizeName);                              // returns 'Medium' (Size[2])
+let sizeName2: number = Size.Small;
+console.log(sizeName2);                             // returns '1' (Size.Small)
 
 let myVoid = (): void => console.log('hi')          // void
 let myError = (): never => { throw Error('err!') }; // never
