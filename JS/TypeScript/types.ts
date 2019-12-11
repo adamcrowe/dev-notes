@@ -11,6 +11,7 @@ let numArr: number[] = [0, 1, 2];				    // array of numbers
 let numArr2: Array<number> = [0, 1, 2];			    // array of numbers
 let boolArr: boolean[] = [true, false]			    // array of booleans
 let strNumTuple: [string, number] = ['str', 1];     // tuple/mixed array
+let myObject: object = {a: 'first', b: 'second'};    // object
 let confused: string | number = 'hello'             // union
 let hithere: any = "OH HI THERE";                   // type assertions
 let strLength: number = (hithere as string).length; // length
