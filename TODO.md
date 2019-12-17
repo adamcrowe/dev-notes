@@ -66,6 +66,8 @@
 
 # FRONT-END/ANGULAR/REACT
 * [-] [COMPLETE REACT DEVELOPER IN 2020 (W/ REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery)
+* [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react/)
+* [-] [BUILD PERFORMANT AND PROGRESSIVE ANGULAR APPLICATIONS](https://web.dev/angular/)
 * [-] [ANGULAR UNIVERSITY](https://angular-university.io/)
 * [-] [ANGULAR COURSE](https://codecraft.tv/courses/angular/quickstart/overview/)
 * [-] [ANGULAR 8 (FORMERLY ANGULAR 2) - THE COMPLETE GUIDE](https://www.udemy.com/the-complete-guide-to-angular-2/)
