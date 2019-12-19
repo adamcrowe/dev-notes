@@ -21,15 +21,14 @@
 * [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack/)
 
 # HTML/CSS
-* [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [-] CSS MASTER (SITEPOINT)
-* [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
-* [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/)
+* [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/) *Purchased*
+* [-] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) *Purchased*
 * [-] [CSS FULL COURSE INCLUDES FLEXBOX AND CSS GRID TUTORIALS](https://www.freecodecamp.org/news/full-css-course-flexbox-grid/)
-* [-] [RELEARN CSS LAYOUT](https://every-layout.dev) - PAID
-* [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
 * [-] [SASS TUTORIAL FOR BEGINNERS](https://www.freecodecamp.org/news/give-your-css-superpowers-by-learning-sass/)
-* [-] [PRAGMATIC GUIDE TO SASS 3 (PRAGPROG)](https://pragprog.com/book/pg_sass3/pragmatic-guide-to-sass-3)
+* [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
+* [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
+* [-] [RELEARN CSS LAYOUT](https://every-layout.dev) - PAID
+* [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [-] HEAD FIRST HTML5 PROGRAMMING
 * [-] FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT
 * [-] ADVANCED GAME DESIGN WITH HTML5 AND JAVASCRIPT
@@ -40,7 +39,6 @@
 * [/] [RESPONSIVE WEB DESIGN](https://alistapart.com/article/responsive-web-design)
 * [/] [MODERN CSS EXPLAINED FOR DINOSAURS](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
 * [/] [CHROME DEVELOPER TOOLS TUTORIAL: INSPECT AND TEST CSS 2019](https://www.youtube.com/watch?v=s0RI4IXKE_o)
-* [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass)
 
 # JS/TYPESCRIPT
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
@@ -65,18 +63,18 @@
 * [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
 
 # FRONT-END/ANGULAR/REACT
+* [-] [ANGULAR 8 - THE COMPLETE GUIDE 2019+ EDITION](https://www.udemy.com/the-complete-guide-to-angular-2/) *Purchased*
+* [-] [ANGULAR (FULL APP) WITH ANGULAR MATERIAL, ANGULARFIRE & NGRX](https://www.udemy.com/angular-full-app-with-angular-material-angularfire-ngrx) *Purchased*
+* [-] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide) *Purchased*
+* [-] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security) *Purchased*
+* [-] [BUILD A REAL WORLD BEAUTIFUL WEB APP WITH ANGULAR 7 )](https://bit.ly/2sEvsvM)
+* [-] [ANGULAR AND REDUX: INTRODUCTION TO STATE MANAGEMENT](https://medium.com/codingthesmartway-com-blog/angular-and-redux-ecd22ea53492)
+* [-] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
 * [-] [COMPLETE REACT DEVELOPER IN 2020 (W/ REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery)
 * [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react/)
 * [-] [BUILD PERFORMANT AND PROGRESSIVE ANGULAR APPLICATIONS](https://web.dev/angular/)
 * [-] [ANGULAR UNIVERSITY](https://angular-university.io/)
 * [-] [ANGULAR COURSE](https://codecraft.tv/courses/angular/quickstart/overview/)
-* [-] [ANGULAR 8 (FORMERLY ANGULAR 2) - THE COMPLETE GUIDE](https://www.udemy.com/the-complete-guide-to-angular-2/)
-* [-] [ANGULAR (FULL APP) WITH ANGULAR MATERIAL, ANGULARFIRE & NGRX](https://www.udemy.com/angular-full-app-with-angular-material-angularfire-ngrx)
-* [-] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide)
-* [-] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security)
-* [-] [BUILD A REAL WORLD BEAUTIFUL WEB APP WITH ANGULAR 7 )](https://medium.com/@hamedbaatour/build-a-real-world-beautiful-web-app-with-angular-6-a-to-z-ultimate-guide-2018-part-i-e121dd1d55e)
-* [-] [ANGULAR AND REDUX: INTRODUCTION TO STATE MANAGEMENT](https://medium.com/codingthesmartway-com-blog/angular-and-redux-ecd22ea53492)
-* [-] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
 * [/] [ANGULAR COMPONENT DESIGN](https://blog.angular-university.io/angular-component-design-how-to-avoid-custom-event-bubbling-and-extraneous-properties-in-the-local-component-tree/)
 * [-] [HOW TO BUILD TYPESCRIPT APP AND DEPLOY IT ON GITHUB PAGES](https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html)
 * [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
@@ -110,7 +108,8 @@
 * [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 
 # NODE
-* [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide/)
+* [-] [LEARN BLOCKCHAIN BY BUILDING YOUR OWN IN JAVASCRIPT](https://www.udemy.com/course/build-a-blockchain-in-javascript/)
+* [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide/) *Purchased*
 * [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
 * [-] [GETTING STARTED WITH NODE.JS - FULL TUTORIAL](https://www.youtube.com/watch?v=gG3pytAY2MY)
 * [-] [NODE + SQL](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
@@ -135,9 +134,8 @@
 * [-] [END-TO-END API TESTING WITH DOCKER](https://www.freecodecamp.org/news/end-to-end-api-testing-with-docker/)
 
 # MOBILE
-* [-] [REACT NATIVE COURSE: HOW TO BUILD ONE AN IPHONE APP, ANDROID APP, AND WEBSITE - ALL WITH THE SAME CODEBASE](https://www.youtube.com/watch?v=_CBYbEGvxYY)
-* [-] [PROGRESSIVE WEB APPS (PWA) - THE COMPLETE GUIDE](https://www.udemy.com/progressive-web-app-pwa-the-complete-guide)
 * [-] [NATIVESCRIPT + ANGULAR: BUILD NATIVE IOS, ANDROID & WEB APPS](https://www.udemy.com/nativescript-angular-build-native-ios-android-web-apps/)
+* [-] [REACT NATIVE COURSE: HOW TO BUILD ONE AN IPHONE APP, ANDROID APP, AND WEBSITE - ALL WITH THE SAME CODEBASE](https://www.youtube.com/watch?v=_CBYbEGvxYY)
 * [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 
 # SQL
@@ -195,7 +193,7 @@
 * [-] CRACKING THE CODING INTERVIEW
 
 # CRAFTMANSHIP
-* [.] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/)
+* [.] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/) *Purchased*
 * [-] [WRITING SYSTEM SOFTWARE: CODE COMMENTS](http://antirez.com/news/124)
 * [-] [HOW TO CODE LIKE A PRO](https://www.youtube.com/watch?v=ZihKWQXRBmE)
 * [-] [CODE WITHOUT RULES](https://codewithoutrules.com)
@@ -230,7 +228,6 @@
 * [-] [WORDPRESS CONTINUOUS DEPLOYMENT](https://bitbucket.org/blog/wordpress-continuous-deployment)
 * [/] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
 * [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws)
-* [-] [AWS SERVERLESS APIS & APPS - A COMPLETE INTRODUCTION](https://www.udemy.com/aws-serverless-a-complete-introduction/)
 * [-] [HOW TO DEPLOY A REACT APP TO PRODUCTION ON AWS USING EXPRESS, POSTGRES, PM2 AND NGINX](https://www.freecodecamp.org/news/production-fullstack-react-express/)
 
 # SECURITY
