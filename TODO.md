@@ -183,6 +183,7 @@
 * [-] PRACTICAL PROGRAMMING: AN INTRODUCTION TO COMPUTER SCIENCE USING PYTHON 3 (PRAGPROG)
 * [-] THINK LIKE A PROGRAMMER (PYTHON EDITION)
 * [-] [PYTHON CODING AND SYNTAX REFERENCE](http://oliverelliott.org/article/computing/wik_python)
+* [-] [ELEMENTS OF AI](https://www.elementsofai.com/)
 * [-] NAND TO TETRIS
 * [-] [IMPOSTER'S HANDBOOK](https://bigmachine.io/products/the-imposters-handbook)
 * [-] A COMMON-SENSE GUIDE TO DATA STRUCTURES AND ALGORITHMS (PRAGPROG)
