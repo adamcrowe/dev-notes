@@ -1,0 +1,1 @@
+~/Library/Application Support/Code/User$ code settings.json
