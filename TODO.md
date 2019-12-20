@@ -62,7 +62,17 @@
 * [/] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
 * [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
 
-# FRONT-END/ANGULAR/REACT
+# FRONTEND (VARIOUS)
+* [-] MDN: HTTP
+* [-] [INTRODUCTION TO HTTP](https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it)
+* [-] BUILD FRONT-END APPS WITH PLAIN JAVASCRIPT
+* [-] [HOW TO BUILD TYPESCRIPT APP AND DEPLOY IT ON GITHUB PAGES](https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html)
+* [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
+* [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
+* [/] INSTANT HANDLEBARS
+* [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
+
+# FRONTEND (ANGULAR)
 * [-] [ANGULAR 8 - THE COMPLETE GUIDE 2019+ EDITION](https://www.udemy.com/the-complete-guide-to-angular-2/) *Purchased*
 * [-] [ANGULAR (FULL APP) WITH ANGULAR MATERIAL, ANGULARFIRE & NGRX](https://www.udemy.com/angular-full-app-with-angular-material-angularfire-ngrx) *Purchased*
 * [-] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide) *Purchased*
@@ -70,23 +80,20 @@
 * [-] [BUILD A REAL WORLD BEAUTIFUL WEB APP WITH ANGULAR 7 )](https://bit.ly/2sEvsvM)
 * [-] [ANGULAR AND REDUX: INTRODUCTION TO STATE MANAGEMENT](https://medium.com/codingthesmartway-com-blog/angular-and-redux-ecd22ea53492)
 * [-] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
-* [-] [COMPLETE REACT DEVELOPER IN 2020 (W/ REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery)
-* [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react/)
 * [-] [BUILD PERFORMANT AND PROGRESSIVE ANGULAR APPLICATIONS](https://web.dev/angular/)
 * [-] [ANGULAR UNIVERSITY](https://angular-university.io/)
 * [-] [ANGULAR COURSE](https://codecraft.tv/courses/angular/quickstart/overview/)
 * [/] [ANGULAR COMPONENT DESIGN](https://blog.angular-university.io/angular-component-design-how-to-avoid-custom-event-bubbling-and-extraneous-properties-in-the-local-component-tree/)
-* [-] [HOW TO BUILD TYPESCRIPT APP AND DEPLOY IT ON GITHUB PAGES](https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html)
-* [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
-* [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
-* [-] MDN: HTTP
-* [-] [INTRODUCTION TO HTTP](https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it)
-* [-] BUILD FRONT-END APPS WITH PLAIN JAVASCRIPT
-* [/] INSTANT HANDLEBARS
-* [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 * [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2)
 * [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
 * [/] [ANGULAR DOCS](https://angular.io/guide)
+
+# FRONTEND (REACT)
+* [-] [COMPLETE REACT DEVELOPER IN 2020 (W/ REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery)
+* [-] [LEARN HOW TO USE APIS WITH REACT BY BUILDING A HACKER NEWS API APPLICATION](https://www.freecodecamp.org/news/learn-how-to-use-apis-with-react-by-building-a-hacker-news-api-application/)
+* [-] [LEARN HOW TO CREATE A SOCIAL MEDIA APP FROM SCRATCH USING REACT, FIREBASE, REDUX, AND EXPRESS](https://www.freecodecamp.org/news/react-firebase-social-media-app-course/)
+* [-] [LEARN HOW TO USE REACT, CONTENTFUL, AND NETLIFY BY BUILDING A BEACH RESORT WEBSITE](https://www.freecodecamp.org/news/learn-react-contentful-and-netlify-by-building-a-beach-resort-website/)
+* [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react/)
 
 # FUNCTIONAL REACTIVE
 * [-] [GETTING STARTED WITH REDUX](https://egghead.io/courses/getting-started-with-redux)
@@ -117,6 +124,8 @@
 * [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
 * [-] [NODE.JS STREAMS: EVERYTHING YOU NEED TO KNOW](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
+* [-] [APIS FOR BEGINNERS - HOW TO USE AN API](https://www.freecodecamp.org/news/apis-for-beginners-full-course/)
+* [-] [BUILD A NODE.JS API IN UNDER 30 MINUTES](https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/)
 
 # TESTING
 * [-] [CHROME DEVTOOLS](https://developers.google.com/web/tools/chrome-devtools)
@@ -132,6 +141,7 @@
 * [/] JAVASCRIPT TESTING WITH JASMINE
 * [-] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 * [-] [END-TO-END API TESTING WITH DOCKER](https://www.freecodecamp.org/news/end-to-end-api-testing-with-docker/)
+* [-] [THE ULTIMATE GUIDE TO END TO END TESTS WITH SELENIUM AND DOCKER](https://www.freecodecamp.org/news/end-to-end-tests-with-selenium-and-docker-the-ultimate-guide/)
 
 # MOBILE
 * [-] [NATIVESCRIPT + ANGULAR: BUILD NATIVE IOS, ANDROID & WEB APPS](https://www.udemy.com/nativescript-angular-build-native-ios-android-web-apps/)
