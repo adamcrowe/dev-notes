@@ -176,3 +176,4 @@ If you get an error message with Permission denied (publickey), check the [Troub
 [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 [Connecting to GitHub with SSH](https://help.github.com/articles/connecting-to-github-with-ssh/)
 [How Secure Shell Works (SSH) - Computerphile](https://www.youtube.com/watch?v=ORcvSkgdA58)
+[ssh-keygen - Generate a New SSH Key](https://www.ssh.com/ssh/keygen)
