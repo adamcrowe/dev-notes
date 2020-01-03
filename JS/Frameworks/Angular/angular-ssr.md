@@ -1,0 +1,1 @@
+* Pre-Rendering/Server Side Rendering (SSR): [Angular Universal: a Complete Practical Guide](https://blog.angular-university.io/angular-universal/)
