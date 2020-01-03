@@ -44,5 +44,3 @@
 * The Star Wars API: All the Star Wars data you've ever wanted <https://swapi.co/>
 * How to Store User Passwords and Overcome Security Threats in 2017 <https://rangle.io/blog/how-to-store-user-passwords-and-overcome-security-threats-in-2017/>
 * PostgreSQL GUI tool for macOS <http://www.psequel.com/>
-
-
