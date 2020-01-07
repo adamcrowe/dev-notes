@@ -9,7 +9,7 @@ git commit -am "<message>" 				# add all and commit with a message
 git commit --amend 						# combine staged changes with previous commit and replace with resulting snapshot
 										# never amend commits that have been pushed to a public repository: amended commits are
 										# actually entirely new commits, and the previous commit is removed from the project history
-git commit --amend -m "<message>" 		# edit previous commit message without adding staged changes to the commit
+git commit --amend PRESS ENTER 		    # edit previous commit message without adding staged changes to the commit
 git commit --amend --no-edit 			# after staging changes, amend previous commit with changes and use previous commit message
 
 git rm <filename>						# remove file (without having to 'git add' the change to staging)

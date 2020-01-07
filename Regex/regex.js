@@ -94,3 +94,8 @@ var regex = new RegExp("[^0-9-" + decimal + "]", "g"); // find non-numeric, non-
 '/^\d{4}-(0[1-9]|1[0-2])-((0[1-9])|([1-2]\d)|(3[0-1]))$/' // YYYY-MM-DD
 '/^\d{4}-(0[1-9]|1[0-2])$/' // YYYY-MM
 '/^(0[1-9]|1[0-2])-(0[1-9]|([1-2]\d)|(3[0-1]))$/' // MM-DD
+
+// Combine Regex Patterns
+// https://stackoverflow.com/questions/869809/combine-regexp/
+// contains [A-z0-9-_] AND does NOT contain '\' AND does NOT contain '[' AND does NOT contain ']' AND does NOT contain '^' and AND does NOT contain '`'
+"^(?=^[A-z0-9-_]+$)(?=^(?:(?!\\).)*$)(?=^(?:(?!\[).)*$)(?=^(?:(?!\]).)*$)(?=^(?:(?!\^).)*$)(?=^(?:(?!`).)*$).*$"
