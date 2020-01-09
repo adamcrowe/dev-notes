@@ -16,12 +16,13 @@
 
 ## EXAMPLE: ERROR MESSAGE
 * BEFORE: Failure - An authentication error has occurred [OK]
+* USER: [User is attempting to login and get on with their task]
 * CLEAR: Sign-in error - You entered an incorrect password [OK]
 * CONCISE: Wrong password [OK]
 * USEFUL: Wrong password [Try again] [Recover password]
 * BRAND VOICE: That password doesn't look right [Try again] [Recover password]
 
-# TONE OF BRAND VOICE: Serious<->Whimsical
+# TONE OF BRAND VOICE: e.g. Serious<->Whimsical
 * What is the user’s goal?
 * What might they be feeling in that moment?
 * What would you like them to feel?
