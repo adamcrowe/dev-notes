@@ -5,9 +5,6 @@
 * [-] [WATCH AND CODE - OFFICE HOURS](https://www.youtube.com/user/gordonmzhu)
 * [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
 
-## FUN FUN FUNCTION
-* [-] [FUN FUN FUNCTION](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos?sort=dd&view=0&flow=grid)
-
 # UI DESIGN
 * [-] [SKETCH MASTER: COURSE](https://sketchmaster.com)
 * [-] [REFACTORING UI: COURSE](https://refactoringui.com/book)
@@ -99,6 +96,7 @@
 * [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react/)
 
 # FUNCTIONAL REACTIVE
+* [-] [REASONS TO LEARN REDUX AS A JAVASCRIPT DEVELOPER](https://www.robinwieruch.de/redux-javascript)
 * [-] [GETTING STARTED WITH REDUX](https://egghead.io/courses/getting-started-with-redux)
 * [-] [BUILDING REACT APPLICATIONS WITH IDIOMATIC REDUX](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
 * [-] [THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
@@ -188,6 +186,7 @@
 * [-] [GIT INTEGRATION IN VISUAL STUDIO CODE](https://scotch.io/tutorials/git-integration-in-visual-studio-code)
 * [-] [GIT-COMPLETION.BASH](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 * [-] [BASH SHORTCUTS TO ENHANCE YOUR GIT WORKFLOW](https://medium.freecodecamp.org/bash-shortcuts-to-enhance-your-git-workflow-5107d64ea0ff)
+* [-] [HOW TO UNDO (ALMOST) ANYTHING WITH GIT](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
 * [-] PRO GIT
 
 # CS
