@@ -70,10 +70,11 @@
 * [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 
 # FRONTEND (ANGULAR)
+* [-] [ANGULAR UNIVERSITY: ALL COURSES $99 P/A](https://angular-university.io/pricing)
 * [-] [ANGULAR 8 - THE COMPLETE GUIDE 2019+ EDITION](https://www.udemy.com/the-complete-guide-to-angular-2/) *Purchased*
 * [-] [ANGULAR (FULL APP) WITH ANGULAR MATERIAL, ANGULARFIRE & NGRX](https://www.udemy.com/angular-full-app-with-angular-material-angularfire-ngrx) *Purchased*
 * [-] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide) *Purchased*
-* [-] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security) *Purchased*
+* [-] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security) *Purchased* (Angular University)
 * [-] [BUILD A REAL WORLD BEAUTIFUL WEB APP WITH ANGULAR 7 )](https://bit.ly/2sEvsvM)
 * [-] [ANGULAR AND REDUX: INTRODUCTION TO STATE MANAGEMENT](https://medium.com/codingthesmartway-com-blog/angular-and-redux-ecd22ea53492)
 * [-] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
@@ -96,6 +97,8 @@
 * [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react/)
 
 # FUNCTIONAL REACTIVE
+* [-] [RXJS IN PRACTICE COURSE](https://angular-university.io/course/rxjs-course)
+* [-] [RXJS AND REACTIVE PATTERNS ANGULAR ARCHITECTURE COURSE](https://angular-university.io/course/reactive-angular-architecture-course)
 * [-] [REASONS TO LEARN REDUX AS A JAVASCRIPT DEVELOPER](https://www.robinwieruch.de/redux-javascript)
 * [-] [GETTING STARTED WITH REDUX](https://egghead.io/courses/getting-started-with-redux)
 * [-] [BUILDING REACT APPLICATIONS WITH IDIOMATIC REDUX](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
@@ -114,6 +117,7 @@
 * [-] [HELLO, DECLARATIVE WORLD](http://codon.com/hello-declarative-world)
 * [-] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
 * [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
+
 
 # NODE
 * [-] [LEARN BLOCKCHAIN BY BUILDING YOUR OWN IN JAVASCRIPT](https://www.udemy.com/course/build-a-blockchain-in-javascript/)

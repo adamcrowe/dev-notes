@@ -1,1 +1,0 @@
-* Angular requires node 6.9.x and npm 3.x.x

@@ -38,11 +38,11 @@
 * ImageOptim makes images load faster <https://imageoptim.com/>
 * XnConvert Bulk Image Converter <https://www.xnview.com/en/xnconvert/>
 * You Might Not Need jQuery <http://youmightnotneedjquery.com/>
-* Favicon Generator <https://realfavicongenerator.net/>
+* Favicon Generator for PWAs <https://realfavicongenerator.net/>
 * Lighthouse PWA Analysis Tool <https://developers.google.com/web/ilt/pwa/lighthouse-pwa-analysis-tool>
 * A list of community-built, third-party tools that can be used to improve page performance <https://progressivetooling.com/>
 * The Star Wars API: All the Star Wars data you've ever wanted <https://swapi.co/>
 * How to Store User Passwords and Overcome Security Threats in 2017 <https://rangle.io/blog/how-to-store-user-passwords-and-overcome-security-threats-in-2017/>
 * PostgreSQL GUI tool for macOS <http://www.psequel.com/>
-
-
+* ClickUp (Kanban Project Manager) <https://clickup.com/>
+* Airtable (Kanban Project Manager) <https://airtable.com>
