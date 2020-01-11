@@ -18,10 +18,10 @@
 * [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack/)
 
 # HTML/CSS
-* [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/) *Purchased*
-* [-] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) *Purchased*
 * [-] [CSS FULL COURSE INCLUDES FLEXBOX AND CSS GRID TUTORIALS](https://www.freecodecamp.org/news/full-css-course-flexbox-grid/)
 * [-] [SASS TUTORIAL FOR BEGINNERS](https://www.freecodecamp.org/news/give-your-css-superpowers-by-learning-sass/)
+* [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/) *Purchased*
+* [-] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) *Purchased*
 * [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
 * [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
 * [-] [RELEARN CSS LAYOUT](https://every-layout.dev) - PAID
@@ -59,6 +59,40 @@
 * [/] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
 * [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
 
+# FUNCTIONAL REACTIVE
+* [-] [RXJS IN PRACTICE COURSE](https://angular-university.io/course/rxjs-course)
+* [-] [RXJS AND REACTIVE PATTERNS ANGULAR ARCHITECTURE COURSE](https://angular-university.io/course/reactive-angular-architecture-course)
+* [-] [REASONS TO LEARN REDUX AS A JAVASCRIPT DEVELOPER](https://www.robinwieruch.de/redux-javascript)
+* [-] [GETTING STARTED WITH REDUX](https://egghead.io/courses/getting-started-with-redux)
+* [-] [BUILDING REACT APPLICATIONS WITH IDIOMATIC REDUX](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
+* [-] [THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+* [-] [ASYNCHRONOUS PROGRAMMING: THE END OF THE LOOP](https://egghead.io/courses/asynchronous-programming-the-end-of-the-loop)
+* [-] [INTRODUCTION TO REACTIVE PROGRAMMING](https://egghead.io/courses/introduction-to-reactive-programming)
+* [-] [RXJS BEYOND THE BASICS: CREATING OBSERVABLES FROM SCRATCH](https://egghead.io/courses/rxjs-beyond-the-basics-creating-observables-from-scratch)
+* [-] [RXJS BEYOND THE BASICS: OPERATORS IN DEPTH](https://egghead.io/courses/rxjs-beyond-the-basics-operators-in-depth)
+* [-] [USE HIGHER ORDER OBSERVABLES IN RXJS EFFECTIVELY](https://egghead.io/courses/use-higher-order-observables-in-rxjs-effectively)
+* [-] [SAVE TIME AVOIDING COMMON MISTAKES USING RXJS](https://egghead.io/courses/save-time-avoiding-common-mistakes-using-rxjs)
+* [-] [RXJS SUBJECTS AND MULTICASTING OPERATORS](https://egghead.io/courses/rxjs-subjects-and-multicasting-operators)
+* [-] REACTIVE PROGRAMMING WITH RXJS 5 (PRAGPROG)
+* [-] BUILD REACTIVE WEBSITES WITH RXJS (PRAGPROG)
+* [-] RXJS IN ACTION
+* [-] [DECLARATIVE VS. IMPERATIVE PROGRAMMING FOR THE WEB](http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html)
+* [-] [HELLO, DECLARATIVE WORLD](http://codon.com/hello-declarative-world)
+* [-] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
+* [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
+
+# NODE
+* [-] [GETTING STARTED WITH NODE.JS - FULL TUTORIAL](https://www.youtube.com/watch?v=gG3pytAY2MY)
+* [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
+* [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide/) *Purchased*
+* [-] [LEARN BLOCKCHAIN BY BUILDING YOUR OWN IN JAVASCRIPT](https://www.udemy.com/course/build-a-blockchain-in-javascript/)
+* [-] [SERVERJS.IO TUTORIALS](https://serverjs.io/tutorials)
+* [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
+* [-] [NODE.JS STREAMS: EVERYTHING YOU NEED TO KNOW](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
+* [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
+* [-] [APIS FOR BEGINNERS - HOW TO USE AN API](https://www.freecodecamp.org/news/apis-for-beginners-full-course/)
+* [-] [BUILD A NODE.JS API IN UNDER 30 MINUTES](https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/)
+
 # FRONTEND (VARIOUS)
 * [-] MDN: HTTP
 * [-] [INTRODUCTION TO HTTP](https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it)
@@ -95,42 +129,6 @@
 * [-] [LEARN HOW TO CREATE A SOCIAL MEDIA APP FROM SCRATCH USING REACT, FIREBASE, REDUX, AND EXPRESS](https://www.freecodecamp.org/news/react-firebase-social-media-app-course/)
 * [-] [LEARN HOW TO USE REACT, CONTENTFUL, AND NETLIFY BY BUILDING A BEACH RESORT WEBSITE](https://www.freecodecamp.org/news/learn-react-contentful-and-netlify-by-building-a-beach-resort-website/)
 * [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react/)
-
-# FUNCTIONAL REACTIVE
-* [-] [RXJS IN PRACTICE COURSE](https://angular-university.io/course/rxjs-course)
-* [-] [RXJS AND REACTIVE PATTERNS ANGULAR ARCHITECTURE COURSE](https://angular-university.io/course/reactive-angular-architecture-course)
-* [-] [REASONS TO LEARN REDUX AS A JAVASCRIPT DEVELOPER](https://www.robinwieruch.de/redux-javascript)
-* [-] [GETTING STARTED WITH REDUX](https://egghead.io/courses/getting-started-with-redux)
-* [-] [BUILDING REACT APPLICATIONS WITH IDIOMATIC REDUX](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
-* [-] [THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
-* [-] [ASYNCHRONOUS PROGRAMMING: THE END OF THE LOOP](https://egghead.io/courses/asynchronous-programming-the-end-of-the-loop)
-* [-] [INTRODUCTION TO REACTIVE PROGRAMMING](https://egghead.io/courses/introduction-to-reactive-programming)
-* [-] [RXJS BEYOND THE BASICS: CREATING OBSERVABLES FROM SCRATCH](https://egghead.io/courses/rxjs-beyond-the-basics-creating-observables-from-scratch)
-* [-] [RXJS BEYOND THE BASICS: OPERATORS IN DEPTH](https://egghead.io/courses/rxjs-beyond-the-basics-operators-in-depth)
-* [-] [USE HIGHER ORDER OBSERVABLES IN RXJS EFFECTIVELY](https://egghead.io/courses/use-higher-order-observables-in-rxjs-effectively)
-* [-] [SAVE TIME AVOIDING COMMON MISTAKES USING RXJS](https://egghead.io/courses/save-time-avoiding-common-mistakes-using-rxjs)
-* [-] [RXJS SUBJECTS AND MULTICASTING OPERATORS](https://egghead.io/courses/rxjs-subjects-and-multicasting-operators)
-* [-] REACTIVE PROGRAMMING WITH RXJS 5 (PRAGPROG)
-* [-] BUILD REACTIVE WEBSITES WITH RXJS (PRAGPROG)
-* [-] RXJS IN ACTION
-* [-] [DECLARATIVE VS. IMPERATIVE PROGRAMMING FOR THE WEB](http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html)
-* [-] [HELLO, DECLARATIVE WORLD](http://codon.com/hello-declarative-world)
-* [-] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
-* [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
-
-
-# NODE
-* [-] [LEARN BLOCKCHAIN BY BUILDING YOUR OWN IN JAVASCRIPT](https://www.udemy.com/course/build-a-blockchain-in-javascript/)
-* [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide/) *Purchased*
-* [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
-* [-] [GETTING STARTED WITH NODE.JS - FULL TUTORIAL](https://www.youtube.com/watch?v=gG3pytAY2MY)
-* [-] [NODE + SQL](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
-* [-] [SERVERJS.IO TUTORIALS](https://serverjs.io/tutorials)
-* [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
-* [-] [NODE.JS STREAMS: EVERYTHING YOU NEED TO KNOW](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
-* [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
-* [-] [APIS FOR BEGINNERS - HOW TO USE AN API](https://www.freecodecamp.org/news/apis-for-beginners-full-course/)
-* [-] [BUILD A NODE.JS API IN UNDER 30 MINUTES](https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/)
 
 # TESTING
 * [-] [CHROME DEVTOOLS](https://developers.google.com/web/tools/chrome-devtools)
