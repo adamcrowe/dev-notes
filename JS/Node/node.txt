@@ -1,0 +1,6 @@
+<https://nodejs.org/en/download/releases/>
+<https://github.com/tj/n> // node version manager
+
+node -h // print node CLI options
+node -p "Math.random()" // evaluate script and print result
+node -p "process.env" // view environment variables

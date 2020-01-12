@@ -82,7 +82,6 @@
 * [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 
 # NODE
-* [-] [GETTING STARTED WITH NODE.JS - FULL TUTORIAL](https://www.youtube.com/watch?v=gG3pytAY2MY)
 * [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
 * [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide/) *Purchased*
 * [-] [LEARN BLOCKCHAIN BY BUILDING YOUR OWN IN JAVASCRIPT](https://www.udemy.com/course/build-a-blockchain-in-javascript/)
@@ -92,6 +91,7 @@
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
 * [-] [APIS FOR BEGINNERS - HOW TO USE AN API](https://www.freecodecamp.org/news/apis-for-beginners-full-course/)
 * [-] [BUILD A NODE.JS API IN UNDER 30 MINUTES](https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/)
+* [/] [GETTING STARTED WITH NODE.JS - FULL TUTORIAL](https://www.youtube.com/watch?v=gG3pytAY2MY)
 
 # FRONTEND (VARIOUS)
 * [-] MDN: HTTP
