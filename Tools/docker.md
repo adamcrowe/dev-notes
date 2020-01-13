@@ -9,3 +9,49 @@
 * Containerized software will always run the same, regardless of the environment.
 * Containers isolate software from its surroundings. That is, the differences between development and staging environments.
 * Ultimately, Docker helps reduce conflicts between teams running different software on the same infrastructure.
+
+BUILD
+* docker build -t superawesomecontainer . (period is important)
+* // Successfully built 61c0113de606
+* // Successfully tagged superawesomecontainer:latest
+
+RUN
+* docker run -it superawesomecontainer // i = interactive mode; t = terminal
+* docker exec -it <container-id> bash
+* docker run -it -p 3000:3000 superawesomecontainer // expose container port to local host port
+* docker compose up // run all services in compose file
+* docker compose down // stop all services in compose file
+* docker compose up build // first time - build all services in docker-compose file
+
+LIST
+* docker ps // list running
+* docker ps -a // list running including stopped containers
+
+COPY
+* COPY ./ ./ // copy all at ./ and paste into ./
+
+STOP ALL RUNNING CONTAINERS
+* docker ps -aq
+* docker stop $(docker ps -aq)
+* docker stop <container-id>
+
+DOCKERFILE EXAMPLE:
+# Parent container
+FROM node:8.11.1
+
+# Create app directory
+RUN mkdir -p /usr/src/smart-brain-api
+WORKDIR /usr/src/smart-brain-api // the directory where we want to work
+
+# Install app dependencies
+COPY package.json /usr/src/smart-brain-api
+RUN npm install
+
+# Bundle app source
+COPY . /usr/src/smart-brain-api
+
+# Build arguments
+ARG NODE_VERSION=8.11.1
+
+# Environment
+ENV NODE_VERSION $NODE_VERSION

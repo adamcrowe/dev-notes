@@ -18,10 +18,10 @@
 * [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack/)
 
 # HTML/CSS
-* [-] [CSS FULL COURSE INCLUDES FLEXBOX AND CSS GRID TUTORIALS](https://www.freecodecamp.org/news/full-css-course-flexbox-grid/)
-* [-] [SASS TUTORIAL FOR BEGINNERS](https://www.freecodecamp.org/news/give-your-css-superpowers-by-learning-sass/)
 * [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/) *Purchased*
 * [-] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) *Purchased*
+* [-] [CSS FULL COURSE INCLUDES FLEXBOX AND CSS GRID TUTORIALS](https://www.freecodecamp.org/news/full-css-course-flexbox-grid/)
+* [-] [SASS TUTORIAL FOR BEGINNERS](https://www.freecodecamp.org/news/give-your-css-superpowers-by-learning-sass/)
 * [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
 * [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
 * [-] [RELEARN CSS LAYOUT](https://every-layout.dev) - PAID
