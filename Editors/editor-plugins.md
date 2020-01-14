@@ -1,6 +1,9 @@
 # Using
-* [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
+* [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 * [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks&WT.mc_id=vscodecandothat-dotcom)
+* [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
+* [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
+* [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 
 # Other
 * GitLab Workflow: <https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow>
