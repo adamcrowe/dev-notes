@@ -4,6 +4,7 @@
 * [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
 * [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
 * [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+* [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 
 # Other
 * GitLab Workflow: <https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow>
