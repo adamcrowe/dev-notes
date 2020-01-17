@@ -6,7 +6,6 @@
 * [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
 
 # UI DESIGN
-* [-] [HIGH RESOLUTION - UI DESIGN VIDEO INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
 * [-] [DESIGN SYSTEM IN FIGMA](https://designcode.io/design-system-in-figma) *Free* *Figma=Free*
 * [-] [REFACTORING UI: COURSE](https://refactoringui.com/book)
 * [-] [REFACTORING UI: VIDEOS](https://www.youtube.com/channel/UCxqiDtkXtOCNJdckODHk9YA)
@@ -21,6 +20,7 @@
 * [.] [RECURSIVE TYPEFACE](https://www.recursive.design)
 * [.] [DRIBBLE COLORS](https://dribbble.com/colors/)
 * [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack/)
+* [-] [HIGH RESOLUTION - UI DESIGNER INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
 
 # HTML/CSS
 * [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/) *Purchased*
