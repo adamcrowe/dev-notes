@@ -6,12 +6,17 @@
 * [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
 
 # UI DESIGN
-* [-] [SKETCH MASTER: COURSE](https://sketchmaster.com)
+* [-] [HIGH RESOLUTION - UI DESIGN VIDEO INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
+* [-] [DESIGN SYSTEM IN FIGMA](https://designcode.io/design-system-in-figma) *Free* *Figma=Free*
 * [-] [REFACTORING UI: COURSE](https://refactoringui.com/book)
 * [-] [REFACTORING UI: VIDEOS](https://www.youtube.com/channel/UCxqiDtkXtOCNJdckODHk9YA)
 * [-] [REFACTORING UI: DESIGN TIPS](https://twitter.com/i/moments/994601867987619840)
 * [/] [REFACTORING UI: 7 PRACTICAL TIPS FOR CHEATING AT DESIGN](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
 * [/] [REFACTORING UI: REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
+* [-] [DESIGN AND CODE IN FRAMER X](https://designcode.io/framer-x-course) *Free* *Framer=Paid*
+* [-] [UI INTERACTIONS IN FRAMER PLAYGROUND](https://designcode.io/framer-playground-ui-interactions) *Free* *Framer=Paid*
+* [-] [LEARN SKETCH](https://designcode.io/sketch-learn) *Free* *Sketch=Paid*
+* [-] [SKETCH MASTER: COURSE](https://sketchmaster.com) *Paid* *Sketch=Paid*
 * [-] [THEORY SPRINTS: COURSE](https://proximityschool.com/theory-sprints)
 * [.] [RECURSIVE TYPEFACE](https://www.recursive.design)
 * [.] [DRIBBLE COLORS](https://dribbble.com/colors/)
@@ -19,12 +24,12 @@
 
 # HTML/CSS
 * [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/) *Purchased*
-* [-] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) *Purchased*
+* [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) *Purchased*
 * [-] [CSS FULL COURSE INCLUDES FLEXBOX AND CSS GRID TUTORIALS](https://www.freecodecamp.org/news/full-css-course-flexbox-grid/)
 * [-] [SASS TUTORIAL FOR BEGINNERS](https://www.freecodecamp.org/news/give-your-css-superpowers-by-learning-sass/)
 * [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
 * [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
-* [-] [RELEARN CSS LAYOUT](https://every-layout.dev) - PAID
+* [-] [RELEARN CSS LAYOUT](https://every-layout.dev) - *Paid*
 * [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [-] HEAD FIRST HTML5 PROGRAMMING
 * [-] FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT
@@ -144,7 +149,7 @@
 * [/] JAVASCRIPT TESTING WITH JASMINE
 * [-] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 * [-] [END-TO-END API TESTING WITH DOCKER](https://www.freecodecamp.org/news/end-to-end-api-testing-with-docker/)
-* [-] [THE ULTIMATE GUIDE TO END TO END TESTS WITH SELENIUM AND DOCKER](https://www.freecodecamp.org/news/end-to-end-tests-with-selenium-and-docker-the-ultimate-guide/)
+* [-] [THE ULTIMATE GUIDE TO END-TO-END TESTS WITH SELENIUM AND DOCKER](https://www.freecodecamp.org/news/end-to-end-tests-with-selenium-and-docker-the-ultimate-guide/)
 
 # MOBILE
 * [-] [NATIVESCRIPT + ANGULAR: BUILD NATIVE IOS, ANDROID & WEB APPS](https://www.udemy.com/nativescript-angular-build-native-ios-android-web-apps/)
@@ -162,8 +167,10 @@
 * [/] HEAD FIRST SQL (O'REILLY)
 
 # DATA
-* [-] [THINK PYTHON 2E](https://greenteapress.com/wp/think-python-2e/)
-* [-] [THINK STATS 2E](https://greenteapress.com/wp/think-stats-2e/)
+* [-] [COMPLETE PYTHON DEVELOPER IN 2020: ZERO TO MASTERY](https://www.udemy.com/course/complete-python-developer-zero-to-mastery) *Purchased*
+* [-] [COMPLETE MACHINE LEARNING AND DATA SCIENCE: ZERO TO MASTERY](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery) *Purchased*
+* [-] [THINK PYTHON 2E](https://greenteapress.com/wp/think-python-2e)
+* [-] [THINK STATS 2E](https://greenteapress.com/wp/think-stats-2e)
 
 # UNIX/CLI/BASH/GIT/EDITORS
 * [/] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac)
