@@ -29,7 +29,6 @@
 * [-] [SASS TUTORIAL FOR BEGINNERS](https://www.freecodecamp.org/news/give-your-css-superpowers-by-learning-sass/)
 * [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
 * [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
-* [-] [RELEARN CSS LAYOUT](https://every-layout.dev) - *Paid*
 * [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [-] HEAD FIRST HTML5 PROGRAMMING
 * [-] FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT
