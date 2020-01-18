@@ -7,20 +7,20 @@
 
 # UI DESIGN
 * [-] [DESIGN SYSTEM IN FIGMA](https://designcode.io/design-system-in-figma) *Free* *Figma=Free*
+* [-] [DESIGN AND CODE IN FRAMER X](https://designcode.io/framer-x-course) *Free* *Framer=Paid*
+* [-] [UI INTERACTIONS IN FRAMER PLAYGROUND](https://designcode.io/framer-playground-ui-interactions) *Free* *Framer=Paid*
+* [-] [LEARN SKETCH](https://designcode.io/sketch-learn) *Free* *Sketch=Paid*
+* [-] [SKETCH MASTER: COURSE](https://sketchmaster.com) *Paid* *Sketch=Paid*
 * [-] [REFACTORING UI: COURSE](https://refactoringui.com/book)
 * [-] [REFACTORING UI: VIDEOS](https://www.youtube.com/channel/UCxqiDtkXtOCNJdckODHk9YA)
 * [-] [REFACTORING UI: DESIGN TIPS](https://twitter.com/i/moments/994601867987619840)
 * [/] [REFACTORING UI: 7 PRACTICAL TIPS FOR CHEATING AT DESIGN](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
 * [/] [REFACTORING UI: REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
-* [-] [DESIGN AND CODE IN FRAMER X](https://designcode.io/framer-x-course) *Free* *Framer=Paid*
-* [-] [UI INTERACTIONS IN FRAMER PLAYGROUND](https://designcode.io/framer-playground-ui-interactions) *Free* *Framer=Paid*
-* [-] [LEARN SKETCH](https://designcode.io/sketch-learn) *Free* *Sketch=Paid*
-* [-] [SKETCH MASTER: COURSE](https://sketchmaster.com) *Paid* *Sketch=Paid*
 * [-] [THEORY SPRINTS: COURSE](https://proximityschool.com/theory-sprints)
 * [.] [RECURSIVE TYPEFACE](https://www.recursive.design)
 * [.] [DRIBBLE COLORS](https://dribbble.com/colors/)
 * [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack/)
-* [-] [HIGH RESOLUTION - UI DESIGNER INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
+* [/] [HIGH RESOLUTION - UI DESIGNER INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
 
 # HTML/CSS
 * [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/) *Purchased*
