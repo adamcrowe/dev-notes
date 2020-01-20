@@ -12,6 +12,7 @@
 * RequireJS: <http://requirejs.org/docs/download.html> | <http://requirejs.org/docs/download.html#text>
 * Resizer: <https://material.io/resizer/>
 * Responsive Tester: <http://www.responsivetester.net/>
+* Responsive Tester: <https://www.responsinator.com/>
 * Dummy Image: <https://dummyimage.com/>
 * Grid Calculator: <http://gridcalculator.dk/>
 * Now (App Deployment) <https://zeit.co/now>
