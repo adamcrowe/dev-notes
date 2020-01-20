@@ -1,0 +1,2 @@
+# will export the currently-selected DB
+mysqldump --add-drop-database --add-drop-table --add-drop-trigger --add-locks --comments --routines --triggers --events --databases reporting > reporting_dump.sql
