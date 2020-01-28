@@ -5,23 +5,6 @@
 * [-] [WATCH AND CODE - OFFICE HOURS](https://www.youtube.com/user/gordonmzhu)
 * [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
 
-# UI DESIGN
-* [-] [DESIGN SYSTEM IN FIGMA](https://designcode.io/design-system-in-figma) *Free* *Figma=Free*
-* [-] [DESIGN AND CODE IN FRAMER X](https://designcode.io/framer-x-course) *Free* *Framer=Paid*
-* [-] [UI INTERACTIONS IN FRAMER PLAYGROUND](https://designcode.io/framer-playground-ui-interactions) *Free* *Framer=Paid*
-* [-] [LEARN SKETCH](https://designcode.io/sketch-learn) *Free* *Sketch=Paid*
-* [-] [SKETCH MASTER: COURSE](https://sketchmaster.com) *Paid* *Sketch=Paid*
-* [-] [REFACTORING UI: COURSE](https://refactoringui.com/book)
-* [-] [REFACTORING UI: VIDEOS](https://www.youtube.com/channel/UCxqiDtkXtOCNJdckODHk9YA)
-* [-] [REFACTORING UI: DESIGN TIPS](https://twitter.com/i/moments/994601867987619840)
-* [/] [REFACTORING UI: 7 PRACTICAL TIPS FOR CHEATING AT DESIGN](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
-* [/] [REFACTORING UI: REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
-* [-] [THEORY SPRINTS: COURSE](https://proximityschool.com/theory-sprints)
-* [.] [RECURSIVE TYPEFACE](https://www.recursive.design)
-* [.] [DRIBBLE COLORS](https://dribbble.com/colors/)
-* [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack/)
-* [/] [HIGH RESOLUTION - UI DESIGNER INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
-
 # HTML/CSS
 * [.] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/) *Purchased*
 * [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) *Purchased*
@@ -259,7 +242,32 @@
 * [-] [HACK THIS SITE](https://www.hackthissite.org)
 * [-] [HACKER 101](https://www.hacker101.com)
 
-# SYSTEM DESIGN
-* [-] [TAMING THE FRONT-END MONOLITH](https://blog.logrocket.com/taming-the-front-end-monolith-dbaede402c39)
-* [-] [GROKKING THE SYSTEM DESIGN INTERVIEW](https://www.educative.io/collection/5668639101419520/5649050225344512)
-* [-] [DRAW.IO](https://www.draw.io)
+# UI DESIGN
+* [-] [DESIGN SYSTEM IN FIGMA](https://designcode.io/design-system-in-figma) *Free* *Figma=Free*
+* [-] [DESIGN AND CODE IN FRAMER X](https://designcode.io/framer-x-course) *Free* *Framer=Paid*
+* [-] [UI INTERACTIONS IN FRAMER PLAYGROUND](https://designcode.io/framer-playground-ui-interactions) *Free* *Framer=Paid*
+* [-] [LEARN SKETCH](https://designcode.io/sketch-learn) *Free* *Sketch=Paid*
+* [-] [SKETCH MASTER: COURSE](https://sketchmaster.com) *Paid* *Sketch=Paid*
+* [-] [REFACTORING UI: COURSE](https://refactoringui.com/book)
+* [-] [REFACTORING UI: VIDEOS](https://www.youtube.com/channel/UCxqiDtkXtOCNJdckODHk9YA)
+* [-] [REFACTORING UI: DESIGN TIPS](https://twitter.com/i/moments/994601867987619840)
+* [/] [REFACTORING UI: 7 PRACTICAL TIPS FOR CHEATING AT DESIGN](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
+* [/] [REFACTORING UI: REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
+* [-] [THEORY SPRINTS: COURSE](https://proximityschool.com/theory-sprints)
+* [.] [RECURSIVE TYPEFACE](https://www.recursive.design)
+* [.] [DRIBBLE COLORS](https://dribbble.com/colors/)
+* [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack/)
+* [/] [HIGH RESOLUTION - UI DESIGNER INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
+* [-] [USER EXPERIENCE DESIGN - LEARN THE UX UI PROCESS & ADOBE XD](https://www.udemy.com/course/user-interface-user-experience-design-ui-ux-with-adobe-xd)
+* [-] [ADOBE ILLUSTRATOR MASTERCLASS: LEARN FROM AN EXPERT DESIGNER](https://www.udemy.com/course/adobe-illustrator-masterclass-learn-from-an-expert-designer)
+* [-] [LOGO DESIGN MASTERY IN ADOBE ILLUSTRATOR](https://www.udemy.com/course/logo-design-mastery-in-adobe-illustrator)
+* [-] [ADOBE CC MASTERCLASS: PHOTOSHOP, ILLUSTRATOR, XD & INDESIGN](https://www.udemy.com/course/adobe-cc-masterclass-graphic-design-photoshop-illustrator-xd-indesign)
+* [-] [MASTER GRAPHIC DESIGN & SOFTWARE WITH PRACTICAL PROJECTS](https://www.udemy.com/course/master-graphic-design-through-projects-beginner-to-advanced)
+* [-] [GRAPHIC DESIGN MASTERY: THE FULL BRANDING & DESIGN PROCESS](https://www.udemy.com/course/graphic-design-mastery-the-full-branding-design-process)
+* [-] [GRAPHIC DESIGN MASTERCLASS: THE NEXT LEVEL](https://www.udemy.com/course/graphic-design-masterclass-the-next-level)
+* [-] [GRAPHIC DESIGN MASTERCLASS - LEARN GREAT DESIGN](https://www.udemy.com/course/graphic-design-masterclass-everything-you-need-to-know)
+* [-] [THE FREELANCE MASTERCLASS: FOR CREATIVES](https://www.udemy.com/course/the-freelance-masterclass-for-creatives)
+
+
+
+
