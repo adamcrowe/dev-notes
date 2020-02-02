@@ -239,7 +239,8 @@
 * [-] [THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION](https://www.amazon.co.uk/Visual-Display-Quantitative-Information/dp/1930824130)
 * [-] [DATA VISUALISATION: A HANDBOOK FOR DATA DRIVEN DESIGN](https://www.amazon.co.uk/Data-Visualisation-Handbook-Driven-Design/dp/1526468921)
 * [-] [INTERACTIVE DATA VISUALIZATION FOR THE WEB (2ND ED)](https://alignedleft.com/work/d3-book-2e) *Purchased*
-* [-] [MASTERING DATA VISUALIZATION IN D3.JS](https://www.udemy.com/course/masteringd3js) *Purchased*
+* [.] [MASTERING DATA VISUALIZATION IN D3.JS](https://www.udemy.com/course/masteringd3js) *Purchased*
+* [-] [INTERACTIVE DATA VISUALIZATION WITH MODERN JAVASCRIPT AND D3](https://www.sitepoint.com/interactive-data-visualization-javascript-d3/)
 * [-] [FULLSTACK D3 AND DATA VISUALIZATION](https://www.newline.co/fullstack-d3)
 * [-] [D3 TUTORIALS](https://github.com/d3/d3/wiki/Tutorials)
 * [/] [DASHING D3JS: Tutorial](https://www.dashingd3js.com/table-of-contents)
