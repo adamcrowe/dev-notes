@@ -36,7 +36,7 @@
 > Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away. -- [Antoine de Saint Exupéry](https://en.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry)
 
 #
-> A program should follow the 'Law of Least Astonishment'. What is this law? It is simply that the program should always respond to the user in the way that astonishes him least.  -- [The Tao Of Programming](http://canonical.org/~kragen/tao-of-programming.html)
+> A program should follow the 'Law of Least Astonishment'. What is this law? It is simply that the program should always respond to the user in the way that astonishes him least. -- [The Tao Of Programming](http://canonical.org/~kragen/tao-of-programming.html)
 
 #
 > Gall's Law: A complex system that works is invariably found to have evolved from a simple system that worked. –- [Gall's Law](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall.27s_law)

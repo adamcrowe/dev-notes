@@ -250,6 +250,7 @@
 * [-] [THINK STATS 2E](https://greenteapress.com/wp/think-stats-2e)
 
 # UI DESIGN
+* [-] [STORYBOOK: LEARN TO DEVELOP UIS WITH COMPONENTS AND DESIGN SYSTEMS](https://www.learnstorybook.com)
 * [-] [DESIGN SYSTEM IN FIGMA](https://designcode.io/design-system-in-figma) *Free* *Figma=Free*
 * [-] [DESIGN AND CODE IN FRAMER X](https://designcode.io/framer-x-course) *Free* *Framer=Paid*
 * [-] [UI INTERACTIONS IN FRAMER PLAYGROUND](https://designcode.io/framer-playground-ui-interactions) *Free* *Framer=Paid*
