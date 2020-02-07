@@ -1,11 +1,11 @@
-# [Notes](http://alexkrupp.typepad.com/sensemaking/2012/09/program-above-and-beyond-your-actual-ability-by-using-freemind.html) on Development
+# dev-notes: [A Development Notebook](http://alexkrupp.typepad.com/sensemaking/2012/09/program-above-and-beyond-your-actual-ability-by-using-freemind.html)
 
-## Selected Pages
+## Work
 
 * [Requirements](Engineering/requirements.md): BDD/TDD, Stories, Specs, Tests
 * [Estimation](Engineering/estimation.md): "We are asked to do this impossible thing all the time, and we must face up to it honestly."
 
-## Engineering Links
+## Professional Development
 
 * [Things You Should Never Do](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/): "It's harder to read code than to write it. This is why code reuse is so hard."
 * [Why Don't Software Development Methodologies Work?](http://typicalprogrammer.com/why-dont-software-development-methodologies-work): "'Life is pain...Anyone who says differently is selling something.'"
@@ -13,10 +13,10 @@
 * [What Makes a Great Software Engineer?](https://faculty.washington.edu/ajko/papers/Li2015GreatEngineers.pdf), Personal Characteristics, Decision Making, Team Work, Product Design
 * [What Makes a Good Programmer?](https://henrikwarne.com/2014/06/30/what-makes-a-good-programmer/): Problem Decomposition, Testing, Naming, Consistency, Learning
 * [Programmer Competency Matrix](http://sijinjoseph.com/programmer-competency-matrix/): Computer Science, Software Engineering, Programming, Experience, Knowledge
-* [The 6 Core Skills You Need to be Considered a Senior Developer](https://medium.com/zerotomastery/developers-edge-how-to-become-a-senior-developer-f1ec1738cf45): Technical Skills, Team Skills, Client/User Skills, Growth Skills, Community Skills
+* [The 6 Core Skills You Need to be Considered a Senior Developer](https://medium.com/zerotomastery/developers-edge-how-to-become-a-senior-developer-f1ec1738cf45): Technical, Team, Client/User, Growth, Community
 * [The Joys of Maintenance Programming](http://typicalprogrammer.com/the-joys-of-maintenance-programming): "Maintenance programmers get to work with real users."
 
-## Quotes
+## Wisdom
 
 > Deliver your customer a competitive advantage. Your only objective is: How can I help my customer win? -- [Jack Welsh](https://www.google.com/search?hl=en&q=%22the+welch+way%22+podcast+businessweek&oq=%22the+welch+way%22+podcast+businessweek)
 
@@ -46,7 +46,3 @@
 
 #
 > Some people, when confronted with a problem, think "I know, I'll use regular expressions." Now they have two problems. -- [Jamie Zawinski](http://regex.info/blog/2006-09-15/247)
-
-#
-> It has taken us some time to dare to believe in our own results. It now seems to us, although we are aware that at this point we do not have sufficient data, and so it must remain a speculation, that what distinguishes the three groups in the first test is their different attitudes to meaninglessness. Formal logical proofs, and therefore programs – formal logical proofs that particular computations are possible, expressed in a formal system called a programming language – are utterly meaningless. To write a computer program you have to come to terms with this, to accept that whatever you might want the program to mean, the machine will blindly follow its meaningless rules and come to some meaningless conclusion. In the test the consistent group showed a pre-acceptance of this fact: they are capable of seeing mathematical calculation problems in terms of rules, and can follow those rules wheresoever they may lead. The inconsistent group, on the other hand, looks for meaning where it is not. The blank group knows that it is looking at meaninglessness, and refuses to deal with it. -- [Saeed Dehnadi and Richard Bornat](http://www.eis.mdx.ac.uk/research/PhDArea/saeed/paper1.pdf)
-
