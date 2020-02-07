@@ -28,6 +28,7 @@ git log --graph --abbrev-commit --pretty=oneline --decorate
 git fetch origin master					# fetches everything from origin that we don't have *without* merging
 git pull origin master					# fetch latest changes from origin and merge with current local branch
 git push origin master 					# push local commits to remote version of current branch
+git push --all origin                   # push all branches to origin
 git branch 								# show all branches in repository
 git push -d <remote> <branch>			# delete remote branch
 git push <remote> --delete <branch>		# delete remote branch
@@ -57,6 +58,7 @@ gitk <folder>							# show all committed changes on specified folder
 gitk <filename> 						# show all committed changes on specified file
 gitk --all 								# show commit history of all branches
 git remote prune origin                 # remove errant tracking branches
+git remote -v                           # list remotes
 
 # INTIALIZATION
 git init <directory> 					# create an empty .git repository in the specified directory
