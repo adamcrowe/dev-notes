@@ -1,4 +1,5 @@
-* TODO: Pro Git (Book) <https://git-scm.com/book/en/v2>
+* [Moving A Git Repository To A New Server](https://www.smashingmagazine.com/2014/05/moving-git-repository-new-server/)
+* [Moving git repository and all its branches, tags to a new remote repository keeping commits history](https://gist.github.com/niksumeiko/8972566)
 * <http://ohshitgit.com/ <http://ohshitgit.com/>
 * <https://sethrobertson.github.io/GitFixUm/fixup.html>
 * <https://codewords.recurse.com/issues/two/git-from-the-inside-out>
@@ -13,11 +14,8 @@
 * <https://www.atlassian.com/dms/wac/images/landing/git/atlassian_git_cheatsheet.pdf>
 * <https://confluence.atlassian.com/display/BITBUCKET/Bitbucket+Documentation+Home>
 * <https://confluence.atlassian.com/display/BITBUCKET/Clone+your+Git+repository+and+add+source+files>
-* <https://confluence.atlassian.com/bitbucket/clone-a-repository-223217891.html>
 * <http://git-scm.com/videos>
 * <http://git-scm.com/book/en/Git-Branching-Rebasing>
-* <http://git-scm.com/book/en/Git-Tools-Stashing>
-* <http://git-scm.com/download/mac>
 * <http://www.sourcetreeapp.com/download/>
 * <https://flaviocopes.com/git-cheat-sheet/>
 * <http://danbarber.me/using-git-for-deployment/>
