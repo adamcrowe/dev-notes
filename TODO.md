@@ -267,6 +267,7 @@
 * [.] [DRIBBLE COLORS](https://dribbble.com/colors)
 * [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack)
 * [/] [HIGH RESOLUTION - UI DESIGNER INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
+* [-] [THE SCHOOL OF UX DESIGN: UX & UI COURSES](https://schoolofux.com)
 
 # VISUAL DESIGN
 * [-] [USER EXPERIENCE DESIGN - LEARN THE UX UI PROCESS & ADOBE XD](https://www.udemy.com/course/user-interface-user-experience-design-ui-ux-with-adobe-xd)
