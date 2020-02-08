@@ -1,1 +1,1 @@
-[CSS Selectors Cheatsheet]<https://codepen.io/nana8/pen/aXQgoj>
+[CSS Selectors Cheatsheet](https://codepen.io/nana8/pen/aXQgoj)
