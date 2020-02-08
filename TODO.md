@@ -8,6 +8,7 @@
 # HTML/CSS
 * [.] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass) *Purchased*
 * [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) *Purchased*
+* [-] [MASTER 30 FRONT-END SKILLS](https://frontend30.com/exclusive-offer-for-css-selectors-cheatsheet-users/)
 * [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
 * [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
 * [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
