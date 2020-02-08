@@ -47,3 +47,4 @@
 * PostgreSQL GUI tool for macOS <http://www.psequel.com/>
 * ClickUp (Kanban Project Manager) <https://clickup.com/>
 * Airtable (Kanban Project Manager) <https://airtable.com>
+* Remove Background <https://www.remove.bg>
