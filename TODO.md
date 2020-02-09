@@ -250,13 +250,14 @@
 * [-] [THINK PYTHON 2E](https://greenteapress.com/wp/think-python-2e)
 * [-] [THINK STATS 2E](https://greenteapress.com/wp/think-stats-2e)
 
-# UI DESIGN
+# UX/UI DESIGN
+* [-] [UX DESIGN PROCESS SIMPLIFIED FROM USER RESEARCH TO USABILITY](https://www.udemy.com/course/ux-design-process-for-beginners-from-user-research-to-usability)
+* [-] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign/)
+* [-] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma)
+* [-] [DESIGN SYSTEM IN FIGMA](https://designcode.io/design-system-in-figma)
+* [-] [DESIGN AND CODE IN FRAMER X](https://designcode.io/framer-x-course)
+* [-] [UI INTERACTIONS IN FRAMER PLAYGROUND](https://designcode.io/framer-playground-ui-interactions)
 * [-] [STORYBOOK: LEARN TO DEVELOP UIS WITH COMPONENTS AND DESIGN SYSTEMS](https://www.learnstorybook.com)
-* [-] [DESIGN SYSTEM IN FIGMA](https://designcode.io/design-system-in-figma) *Free* *Figma=Free*
-* [-] [DESIGN AND CODE IN FRAMER X](https://designcode.io/framer-x-course) *Free* *Framer=Paid*
-* [-] [UI INTERACTIONS IN FRAMER PLAYGROUND](https://designcode.io/framer-playground-ui-interactions) *Free* *Framer=Paid*
-* [-] [LEARN SKETCH](https://designcode.io/sketch-learn) *Free* *Sketch=Paid*
-* [-] [SKETCH MASTER: COURSE](https://sketchmaster.com) *Paid* *Sketch=Paid*
 * [-] [UI DESIGN FUNDAMENTALS](https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course)
 * [-] [REFACTORING UI: COURSE](https://refactoringui.com/book)
 * [-] [REFACTORING UI: VIDEOS](https://www.youtube.com/channel/UCxqiDtkXtOCNJdckODHk9YA)
@@ -268,7 +269,6 @@
 * [.] [DRIBBLE COLORS](https://dribbble.com/colors)
 * [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack)
 * [/] [HIGH RESOLUTION - UI DESIGNER INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
-* [-] [THE SCHOOL OF UX DESIGN: UX & UI COURSES](https://schoolofux.com)
 
 # VISUAL DESIGN
 * [-] [USER EXPERIENCE DESIGN - LEARN THE UX UI PROCESS & ADOBE XD](https://www.udemy.com/course/user-interface-user-experience-design-ui-ux-with-adobe-xd)
