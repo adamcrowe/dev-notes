@@ -253,6 +253,7 @@
 * [-] [THINK STATS 2E](https://greenteapress.com/wp/think-stats-2e)
 
 # UX/UI DESIGN
+* [-] [BECOME A PRODUCT MANAGER](https://www.udemy.com/course/become-a-product-manager-learn-the-skills-get-a-job) *Purchased*
 * [-] [UX DESIGN PROCESS SIMPLIFIED FROM USER RESEARCH TO USABILITY](https://www.udemy.com/course/ux-design-process-for-beginners-from-user-research-to-usability)
 * [-] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign/)
 * [-] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma)
@@ -282,6 +283,3 @@
 * [-] [GRAPHIC DESIGN MASTERCLASS: THE NEXT LEVEL](https://www.udemy.com/course/graphic-design-masterclass-the-next-level)
 * [-] [GRAPHIC DESIGN MASTERCLASS - LEARN GREAT DESIGN](https://www.udemy.com/course/graphic-design-masterclass-everything-you-need-to-know)
 * [-] [THE FREELANCE MASTERCLASS: FOR CREATIVES](https://www.udemy.com/course/the-freelance-masterclass-for-creatives)
-
-# PRODUCT MANAGMENT
-* [-] [BECOME A PRODUCT MANAGER](https://www.udemy.com/course/become-a-product-manager-learn-the-skills-get-a-job) *Purchased*
