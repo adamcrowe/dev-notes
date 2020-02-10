@@ -282,3 +282,6 @@
 * [-] [GRAPHIC DESIGN MASTERCLASS: THE NEXT LEVEL](https://www.udemy.com/course/graphic-design-masterclass-the-next-level)
 * [-] [GRAPHIC DESIGN MASTERCLASS - LEARN GREAT DESIGN](https://www.udemy.com/course/graphic-design-masterclass-everything-you-need-to-know)
 * [-] [THE FREELANCE MASTERCLASS: FOR CREATIVES](https://www.udemy.com/course/the-freelance-masterclass-for-creatives)
+
+# PRODUCT MANAGMENT
+* [-] [BECOME A PRODUCT MANAGER](https://www.udemy.com/course/become-a-product-manager-learn-the-skills-get-a-job) *Purchased*
