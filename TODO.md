@@ -12,11 +12,11 @@
 * [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
 * [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
 * [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [-] HEAD FIRST HTML5 PROGRAMMING
-* [-] FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT
-* [-] ADVANCED GAME DESIGN WITH HTML5 AND JAVASCRIPT
-* [/] BOOTSTRAP 3/4
-* [/] HTML5 AND CSS3 (2ND EDITION)
+* [-] [HEAD FIRST HTML5 PROGRAMMING](http://shop.oreilly.com/product/0636920010906.do)
+* [-] [FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT](https://www.apress.com/gp/book/9781430247166)
+* [-] [ADVANCED GAME DESIGN WITH HTML5 AND JAVASCRIPT](https://www.apress.com/gp/book/9781430258001)
+* [/] [BOOTSTRAP 3/4](https://getbootstrap.com)
+* [/] [HTML5 AND CSS3 (2ND EDITION)](http://shop.oreilly.com/product/9780980846904.do)
 * [/] [MDN: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [/] [CSS SNIPPETS YOU CAN UNDERSTAND IN 30 SECONDS OR LESS](https://github.com/30-seconds/30-seconds-of-css)
 * [/] [RESPONSIVE WEB DESIGN](https://alistapart.com/article/responsive-web-design)
@@ -31,7 +31,6 @@
 * [-] [SPEAKING JAVASCRIPT](http://speakingjs.com/es5/index.html)
 * [-] [LEARNING JAVASCRIPT DESIGN PATTERNS](https://addyosmani.com/resources/essentialjsdesignpatterns/book)
 * [-] [JAVASCRIPT PATTERNS COLLECTION](https://shichuan.github.io/javascript-patterns)
-* [/] CORE JAVASCRIPT CONCEPTS
 * [-] [33 CONCEPTS EVERY JAVASCRIPT DEVELOPER SHOULD KNOW](https://github.com/leonardomso/33-js-concepts)
 * [-] [USING JAVASCRIPT'S BITWISE OPERATORS IN REAL LIFE](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
 * [-] [LEARN X IN Y MINUTES](https://learnxinyminutes.com/docs/typescript)
@@ -45,6 +44,7 @@
 * [-] [THE COMPLETE TYPESCRIPT COURSE](https://angular-university.io/course/typescript-2-tutorial)
 * [/] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
 * [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
+* [/] CORE JAVASCRIPT CONCEPTS
 
 # FUNCTIONAL REACTIVE
 * [-] [RXJS IN PRACTICE COURSE](https://angular-university.io/course/rxjs-course)
@@ -60,9 +60,8 @@
 * [-] [USE HIGHER ORDER OBSERVABLES IN RXJS EFFECTIVELY](https://egghead.io/courses/use-higher-order-observables-in-rxjs-effectively)
 * [-] [SAVE TIME AVOIDING COMMON MISTAKES USING RXJS](https://egghead.io/courses/save-time-avoiding-common-mistakes-using-rxjs)
 * [-] [RXJS SUBJECTS AND MULTICASTING OPERATORS](https://egghead.io/courses/rxjs-subjects-and-multicasting-operators)
-* [-] REACTIVE PROGRAMMING WITH RXJS 5 (PRAGPROG)
-* [-] BUILD REACTIVE WEBSITES WITH RXJS (PRAGPROG)
-* [-] RXJS IN ACTION
+* [-] [REACTIVE PROGRAMMING WITH RXJS 5](https://pragprog.com/book/smreactjs5/reactive-programming-with-rxjs-5)
+* [-] [BUILD REACTIVE WEBSITES WITH RXJS](https://pragprog.com/book/rkrxjs/build-reactive-websites-with-rxjs)
 * [-] [DECLARATIVE VS. IMPERATIVE PROGRAMMING FOR THE WEB](http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html)
 * [-] [HELLO, DECLARATIVE WORLD](http://codon.com/hello-declarative-world)
 * [-] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
@@ -72,6 +71,8 @@
 * [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
 * [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide) *Purchased*
 * [-] [NODEJS 8 THE RIGHT WAY](https://pragprog.com/book/jwnode2/node-js-8-the-right-way) *Purchased*
+* [-] [DESIGN AND BUILD GREAT WEB APIS](https://pragprog.com/book/maapis/design-and-build-great-web-apis)
+* [-] [PRACTICAL MICROSERVICES](https://pragprog.com/book/egmicro/practical-microservices)
 * [-] [LEARN BLOCKCHAIN BY BUILDING YOUR OWN IN JAVASCRIPT](https://www.udemy.com/course/build-a-blockchain-in-javascript)
 * [-] [SERVERJS.IO TUTORIALS](https://serverjs.io/tutorials)
 * [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
@@ -127,11 +128,9 @@
 * [-] [DEBUGGING ANGULAR CLI APPLICATIONS IN VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-angular-cli-applications-in-visual-studio-code)
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
 * [/] [AN INTRODUCTION TO TEST-DRIVEN DEVELOPMENT](https://medium.freecodecamp.org/an-introduction-to-test-driven-development-c4de6dce5c)
-* [-] JAVASCRIPT TESTING (PACKT)
-* [-] TESTABLE JAVASCRIPT (O'REILLY)
 * [-] [TEST-DRIVEN JAVASCRIPT DEVELOPMENT](https://www.tddjs.com)
 * [-] [TEST-DRIVEN DEVELOPMENT EXTENSIVE TUTORIAL](https://leanpub.com/tdd-ebook)
-* [/] JAVASCRIPT TESTING WITH JASMINE
+* [/] [JAVASCRIPT TESTING WITH JASMINE](http://shop.oreilly.com/product/0636920028277.do)
 * [-] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 * [-] [END-TO-END API TESTING WITH DOCKER](https://www.freecodecamp.org/news/end-to-end-api-testing-with-docker)
 * [-] [THE ULTIMATE GUIDE TO END-TO-END TESTS WITH SELENIUM AND DOCKER](https://www.freecodecamp.org/news/end-to-end-tests-with-selenium-and-docker-the-ultimate-guide)
@@ -143,30 +142,26 @@
 * [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 
 # SQL
+* [-] [SQL QUERIES FOR MERE MORTALS](https://www.pearson.com/us/higher-education/program/Viescas-SQL-Queries-for-Mere-Mortals-A-Hands-On-Guide-to-Data-Manipulation-in-SQL-3rd-Edition/PGM8408.html)
+* [-] [DATABASE DESIGN FOR MERE MORTALS](https://www.pearson.com/us/higher-education/program/Hernandez-Database-Design-for-Mere-Mortals-A-Hands-On-Guide-to-Relational-Database-Design-3rd-Edition/PGM4423.html)
+* [-] [BEGINNING DATABASE DESIGN SOLUTIONS](https://www.oreilly.com/library/view/beginning-database-design/9780470385494)
+* [-] [SQL ANTIPATTERNS](https://pragprog.com/book/bksqla/sql-antipatterns)
+* [/] [HEAD FIRST SQL](http://shop.oreilly.com/product/9780596526849.do)
 * [-] [MYSQL TUTORIAL](http://www.mysqltutorial.org)
 * [-] [SQL: FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=HXV3zeQKqGY)
-* [-] SQL QUERIES FOR MERE MORTALS
-* [-] DATABASE DESIGN FOR MERE MORTALS
-* [-] BEGINNING DATABASE DESIGN SOLUTIONS (WROX)
-* [-] SQL ANTIPATTERNS (PRAGPROG)
-* [/] HEAD FIRST SQL (O'REILLY)
 
 # UNIX/CLI/BASH/GIT/EDITORS
 * [/] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac)
 * [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
 * [/] [OLIVER: SET UP YOUR .BASH_PROFILE, .BASHRC, AND OTHER DOTFILES](http://oliverelliott.org/article/computing/tips_mac/9)
 * [/] [MY MAC OSX BASH PROFILE](https://natelandau.com/my-mac-osx-bash_profile)
-* [-] MAC OS X UNIX 101 BYTE-SIZED PROJECTS
-* [-] SMALL, SHARP, SOFTWARE TOOLS (PRAGPROG)
-* [-] UNIX POWER TOOLS (THIRD EDITION)
+* [-] [MAC OS X UNIX 101 BYTE-SIZED PROJECTS](http://www.peachpit.com/store/mac-os-x-unix-101-byte-sized-projects-9780321374110)
+* [-] [SMALL, SHARP, SOFTWARE TOOLS](https://pragprog.com/book/bhcldev/small-sharp-software-tools)
+* [-] [UNIX POWER TOOLS](http://shop.oreilly.com/product/9780596003302.do)
 * [-] [BASH PROGRAMMING](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
 * [-] [BASH SHELL SCRIPTING](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)
 * [/] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
 * [-] [VSCODE POWER USER MASTER CLASS](https://vscode.pro)
-* [-] [OLIVER: VIM BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_vim)
-* [-] PRACTICAL VIM (PRAGPROG)
-* [-] MODERN VIM (PRAGPROG)
-* [-] THE VIML PRIMER (PRAGPROG)
 * [-] [LEARN GIT CONCEPTS, NOT COMMANDS](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git)
 * [-] [GIT TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQHO1PfyscjIPkNJjgHsLyH)
@@ -175,42 +170,36 @@
 * [-] [GIT-COMPLETION.BASH](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 * [-] [BASH SHORTCUTS TO ENHANCE YOUR GIT WORKFLOW](https://medium.freecodecamp.org/bash-shortcuts-to-enhance-your-git-workflow-5107d64ea0ff)
 * [-] [HOW TO UNDO (ALMOST) ANYTHING WITH GIT](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git)
-* [-] PRO GIT
+* [-] [PRO GIT](https://www.apress.com/gp/book/9781484200773)
 
 # CS
-* [-] [STANFORD COMPUTER SCIENCE CURRICULUM ONLINE](https://medium.com/the-mission/how-to-learn-to-code-for-free-at-stanford-and-make-six-figures-in-under-1-year-4bf95baf793b)
-* [-] [HOW DO COMPUTERS AND THE INTERNET WORK? - COMPUTER SCIENCE BASICS](https://www.youtube.com/watch?v=AV_VYsJnHQQ)
 * [-] CODE: THE HIDDEN LANGUAGE OF COMPUTER HARDWARE AND SOFTWARE
-* [-] PRACTICAL PROGRAMMING: AN INTRODUCTION TO COMPUTER SCIENCE USING PYTHON 3 (PRAGPROG)
-* [-] THINK LIKE A PROGRAMMER (PYTHON EDITION)
-* [-] [PYTHON CODING AND SYNTAX REFERENCE](http://oliverelliott.org/article/computing/wik_python)
-* [-] [ELEMENTS OF AI](https://www.elementsofai.com)
-* [-] NAND TO TETRIS
-* [-] [IMPOSTER'S HANDBOOK](https://bigmachine.io/products/the-imposters-handbook)
-* [-] A COMMON-SENSE GUIDE TO DATA STRUCTURES AND ALGORITHMS (PRAGPROG)
-* [-] DATA STRUCTURES AND ALGORITHMS WITH JAVASCRIPT (O'REILLY)
+* [-] [NAND TO TETRIS](https://www.nand2tetris.org)
+* [-] [PRACTICAL PROGRAMMING: AN INTRODUCTION TO COMPUTER SCIENCE USING PYTHON 3](https://pragprog.com/book/gwpy3/practical-programming-third-edition)
+* [-] [STANFORD COMPUTER SCIENCE CURRICULUM ONLINE](https://medium.com/the-mission/how-to-learn-to-code-for-free-at-stanford-and-make-six-figures-in-under-1-year-4bf95baf793b)
+* [-] [A COMMON-SENSE GUIDE TO DATA STRUCTURES AND ALGORITHMS](https://pragprog.com/book/jwdsal/a-common-sense-guide-to-data-structures-and-algorithms)
+* [-] [DATA STRUCTURES AND ALGORITHMS WITH JAVASCRIPT](http://shop.oreilly.com/product/0636920029557.do)
 * [-] [DATA STRUCTURES AND ALGORITHMS IN JAVASCRIPT - FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=t2CEgPsws3U)
+* [-] [HOW DO COMPUTERS AND THE INTERNET WORK? - COMPUTER SCIENCE BASICS](https://www.youtube.com/watch?v=AV_VYsJnHQQ)
+* [-] [ELEMENTS OF AI](https://www.elementsofai.com)
+* [-] [IMPOSTER'S HANDBOOK](https://bigmachine.io/products/the-imposters-handbook)
 * [-] [LEARNING ALGORITHMS APP](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
 * [-] [MATHS FOR PROGRAMMERS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
 * [-] CRACKING THE CODING INTERVIEW
 
 # CRAFTMANSHIP
 * [/] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP 2020](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap) *Purchased*
-* [-] [WRITING SYSTEM SOFTWARE: CODE COMMENTS](http://antirez.com/news/124)
-* [-] [HOW TO CODE LIKE A PRO](https://www.youtube.com/watch?v=ZihKWQXRBmE)
-* [-] [CODE WITHOUT RULES](https://codewithoutrules.com)
-* [-] HEAD FIRST SOFTWARE DEVELOPMENT (O'REILLY)
-* [-] THE PRAGMATIC PROGRAMMER - FROM JOURNEYMAN TO MASTER (PRAGPROG)
-* [-] PRACTICES OF AN AGILE DEVELOPER (PRAGPROG)
-* [-] THE SENIOR SOFTWARE ENGINEER: 11 PRACTICES OF AN EFFECTIVE TECHNICAL LEADER
-* [-] REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE (2ND EDITION)
-* [-] YOUR CODE AS A CRIME SCENE (PRAGPROG)
-* [-] JOEL ON SOFTWARE
-* [-] MORE JOEL ON SOFTWARE
+* [-] [HEAD FIRST SOFTWARE DEVELOPMENT](http://shop.oreilly.com/product/9780596527358.do)
+* [-] [HEAD FIRST OBJECT-ORIENTED ANALYSIS AND DESIGN](http://shop.oreilly.com/product/9780596008673.do)
+* [-] [HEAD FIRST DESIGN PATTERNS](http://shop.oreilly.com/product/9780596007126.do)
+* [-] [THE 3 TYPES OF DESIGN PATTERNS ALL DEVELOPERS SHOULD KNOW](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know)
+* [-] [YOUR CODE AS A CRIME SCENE](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
+* [-] [REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE](https://www.pearson.com/us/higher-education/program/Fowler-Refactoring-Improving-the-Design-of-Existing-Code-2nd-Edition/PGM1780661.html)
 * [-] CLEAN CODE: A HANDBOOK OF AGILE SOFTWARE CRAFTSMANSHIP
 * [-] CLEAN CODER: A CODE OF CONDUCT FOR PROFESSIONAL PROGRAMMERS
 * [-] CLEAN ARCHITECTURE: A CRAFTSMAN'S GUIDE TO SOFTWARE STRUCTURE AND DESIGN
-* [-] [THE 3 TYPES OF DESIGN PATTERNS ALL DEVELOPERS SHOULD KNOW](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know)
+* [-] JOEL ON SOFTWARE
+* [-] MORE JOEL ON SOFTWARE
 * [-] [DESIGN PATTERNS](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
 * [-] [OBJECT ORIENTED DESIGN](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE)
 * [-] [CODE REFACTORING](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV)
@@ -218,9 +207,15 @@
 * [-] [PROGRAMMING QUOTES](http://quotes.cat-v.org/programming/)
 * [-] [DUCKSPEAK VS SMALLTALK THE DECLINE OF THE XEROX PARC PHILOSOPHY AT APPLE COMPUTERS](https://dorophone.blogspot.com/2011/07/duckspeak-vs-smalltalk.html)
 * [-] [SIMPLE MADE EASY](https://www.infoq.com/presentations/Simple-Made-Easy)
+* [-] [THINGS I LEARNT THE HARD WAY (IN 30 YEARS OF SOFTWARE DEVELOPMENT)](https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way)
+* [-] [WRITING SYSTEM SOFTWARE: CODE COMMENTS](http://antirez.com/news/124)
+* [-] [HOW TO CODE LIKE A PRO](https://www.youtube.com/watch?v=ZihKWQXRBmE)
+* [-] [CODE WITHOUT RULES](https://codewithoutrules.com)
 * [/] [BOOST YOUR TECH CAREER](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
 * [/] [WORKPLACE Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY)
-* [-] [THINGS I LEARNT THE HARD WAY (IN 30 YEARS OF SOFTWARE DEVELOPMENT)](https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way)
+* [-] [THE PRAGMATIC PROGRAMMER](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
+* [-] [PRACTICES OF AN AGILE DEVELOPER](https://pragprog.com/book/pad/practices-of-an-agile-developer)
+* [-] [THE SENIOR SOFTWARE ENGINEER: 11 PRACTICES OF AN EFFECTIVE TECHNICAL LEADER](https://theseniorsoftwareengineer.com)
 
 # DEPLOYMENT
 * [-] [CODING MODERN WEBSITES WITH THE JAMSTACK - PART 1/3](https://www.netlify.com/blog/2017/10/06/coding-modern-websites-with-the-jamstack-part-1)
