@@ -109,7 +109,6 @@
 * [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2)
 * [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
 * [/] [ANGULAR DOCS](https://angular.io/guide)
-* [-] [ANGULAR UNIVERSITY: ALL COURSES $99 P/A](https://angular-university.io/pricing)
 
 # FRONTEND (REACT)
 * [-] [COMPLETE REACT DEVELOPER IN 2020 (W/ REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery) *Purchased*
