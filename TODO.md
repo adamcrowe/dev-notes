@@ -102,6 +102,7 @@
 # FRONTEND (VUE)
 * [-] [VUE JS: INTRODUCTION](https://vuejs.org/v2/guide)
 * [-] [VUE MASTERY](https://www.vuemastery.com/courses)
+* [-] [VUE JS 2 - THE COMPLETE GUIDE (INCL. VUE ROUTER & VUEX)](https://www.udemy.com/course/vuejs-2-the-complete-guide)
 
 # FRONTEND (ANGULAR)
 * [-] [ANGULAR 8 - THE COMPLETE GUIDE 2019+ EDITION](https://www.udemy.com/the-complete-guide-to-angular-2) *Purchased*
