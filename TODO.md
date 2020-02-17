@@ -260,11 +260,17 @@
 * [-] [THINK PYTHON 2E](https://greenteapress.com/wp/think-python-2e)
 * [-] [THINK STATS 2E](https://greenteapress.com/wp/think-stats-2e)
 
-# UX/UI DESIGN
+# UX DESIGN
 * [-] [BECOME A PRODUCT MANAGER](https://www.udemy.com/course/become-a-product-manager-learn-the-skills-get-a-job) *Purchased*
 * [-] [UX DESIGN PROCESS SIMPLIFIED FROM USER RESEARCH TO USABILITY](https://www.udemy.com/course/ux-design-process-for-beginners-from-user-research-to-usability)
 * [-] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign/)
+
+# UI DESIGN
+* [-] [LEARN UX: FIGMA COURSE](https://learnux.io/course/figma)
 * [-] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma)
+* [-] [FIGMA: LEARN DESIGN PILOT](https://www.figma.com/resources/learn-design)
+* [-] [FIGMA: LEARN DESIGN](https://www.figma.com/resources/learn-design/getting-started)
+* [-] [FIGMA: TUTORIALS](https://www.youtube.com/channel/UCQsVmhSa4X-G3lHlUtejzLA/videos?view=0&sort=da&flow=grid)
 * [-] [DESIGN SYSTEM IN FIGMA](https://designcode.io/design-system-in-figma)
 * [-] [DESIGN AND CODE IN FRAMER X](https://designcode.io/framer-x-course)
 * [-] [UI INTERACTIONS IN FRAMER PLAYGROUND](https://designcode.io/framer-playground-ui-interactions)
@@ -275,14 +281,11 @@
 * [-] [REFACTORING UI: DESIGN TIPS](https://twitter.com/i/moments/994601867987619840)
 * [/] [REFACTORING UI: 7 PRACTICAL TIPS FOR CHEATING AT DESIGN](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
 * [/] [REFACTORING UI: REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
-* [-] [THEORY SPRINTS: COURSE](https://proximityschool.com/theory-sprints)
-* [.] [RECURSIVE TYPEFACE](https://www.recursive.design)
-* [.] [DRIBBLE COLORS](https://dribbble.com/colors)
-* [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack)
 * [/] [HIGH RESOLUTION - UI DESIGNER INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
+* [-] [USER EXPERIENCE DESIGN - LEARN THE UX UI PROCESS & ADOBE XD](https://www.udemy.com/course/user-interface-user-experience-design-ui-ux-with-adobe-xd)
 
 # VISUAL DESIGN
-* [-] [USER EXPERIENCE DESIGN - LEARN THE UX UI PROCESS & ADOBE XD](https://www.udemy.com/course/user-interface-user-experience-design-ui-ux-with-adobe-xd)
+* [-] [THEORY SPRINTS: COURSE](https://proximityschool.com/theory-sprints)
 * [-] [ADOBE ILLUSTRATOR MASTERCLASS: LEARN FROM AN EXPERT DESIGNER](https://www.udemy.com/course/adobe-illustrator-masterclass-learn-from-an-expert-designer)
 * [-] [LOGO DESIGN MASTERY IN ADOBE ILLUSTRATOR](https://www.udemy.com/course/logo-design-mastery-in-adobe-illustrator)
 * [-] [ADOBE CC MASTERCLASS: PHOTOSHOP, ILLUSTRATOR, XD & INDESIGN](https://www.udemy.com/course/adobe-cc-masterclass-graphic-design-photoshop-illustrator-xd-indesign)
@@ -291,3 +294,8 @@
 * [-] [GRAPHIC DESIGN MASTERCLASS: THE NEXT LEVEL](https://www.udemy.com/course/graphic-design-masterclass-the-next-level)
 * [-] [GRAPHIC DESIGN MASTERCLASS - LEARN GREAT DESIGN](https://www.udemy.com/course/graphic-design-masterclass-everything-you-need-to-know)
 * [-] [THE FREELANCE MASTERCLASS: FOR CREATIVES](https://www.udemy.com/course/the-freelance-masterclass-for-creatives)
+* [-] [DRIBBLE COLORS](https://dribbble.com/colors)
+
+# TYPOGRAPHY
+* [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack)
+* [-] [RECURSIVE TYPEFACE](https://www.recursive.design)
