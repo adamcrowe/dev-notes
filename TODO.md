@@ -6,7 +6,6 @@
 * [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
 
 # HTML/CSS
-* [-] [RESPONSIVE WEB DESIGN CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
 * [.] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass) *Purchased*
 * [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) *Purchased*
 * [-] [MASTER 30 FRONT-END SKILLS](https://frontend30.com/exclusive-offer-for-css-selectors-cheatsheet-users/)
@@ -87,7 +86,7 @@
 * [/] [GETTING STARTED WITH NODE.JS - FULL TUTORIAL](https://www.youtube.com/watch?v=gG3pytAY2MY)
 
 # FRONTEND (VARIOUS)
-* [-] [FRONT END LIBRARIES CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
+* [/] [VUE JS: COMPARISON WITH OTHER FRAMEWORKS](https://vuejs.org/v2/guide/comparison.html)
 * [-] [REACT JS, ANGULAR & VUE JS - QUICKSTART & COMPARISON](https://www.udemy.com/course/angular-reactjs-vuejs-quickstart-comparison/)
 * [-] [HOW BROWSERS WORK: BEHIND THE SCENES OF MODERN WEB BROWSERS](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 * [/] [HTTP: EVERYTHING YOU NEED TO KNOW](https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it)
@@ -99,6 +98,10 @@
 * [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
 * [/] [INSTANT HANDLEBARS](https://www.oreilly.com/library/view/instant-handlebarsjs/9781783282654)
 * [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
+
+# FRONTEND (VUE)
+* [-] [VUE JS: INTRODUCTION](https://vuejs.org/v2/guide)
+* [-] [VUE MASTERY](https://www.vuemastery.com/courses)
 
 # FRONTEND (ANGULAR)
 * [-] [ANGULAR 8 - THE COMPLETE GUIDE 2019+ EDITION](https://www.udemy.com/the-complete-guide-to-angular-2) *Purchased*
