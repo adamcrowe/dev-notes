@@ -6,6 +6,7 @@
 * [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
 
 # HTML/CSS
+* [-] [RESPONSIVE WEB DESIGN CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
 * [.] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass) *Purchased*
 * [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) *Purchased*
 * [-] [MASTER 30 FRONT-END SKILLS](https://frontend30.com/exclusive-offer-for-css-selectors-cheatsheet-users/)
@@ -24,6 +25,7 @@
 * [/] [CHROME DEVELOPER TOOLS TUTORIAL: INSPECT AND TEST CSS 2019](https://www.youtube.com/watch?v=s0RI4IXKE_o)
 
 # JS/TYPESCRIPT
+* [-] [JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
 * [-] [UNDERSTANDING TYPESCRIPT - 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
 * [-] [DO MORE WITH REDUCE](https://jrsinclair.com/articles/2019/functional-js-do-more-with-reduce)
@@ -68,11 +70,13 @@
 * [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 
 # NODE
+* [-] [APIS AND MICROSERVICES CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
 * [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
 * [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide) *Purchased*
 * [-] [NODEJS 8 THE RIGHT WAY](https://pragprog.com/book/jwnode2/node-js-8-the-right-way) *Purchased*
 * [-] [DESIGN AND BUILD GREAT WEB APIS](https://pragprog.com/book/maapis/design-and-build-great-web-apis)
 * [-] [PRACTICAL MICROSERVICES](https://pragprog.com/book/egmicro/practical-microservices)
+* [-] [NODE, SQL, & POSTGRESQL - MASTERING BACKEND WEB DEVELOPMENT](https://www.udemy.com/course/node-postgresql)
 * [-] [LEARN BLOCKCHAIN BY BUILDING YOUR OWN IN JAVASCRIPT](https://www.udemy.com/course/build-a-blockchain-in-javascript)
 * [-] [SERVERJS.IO TUTORIALS](https://serverjs.io/tutorials)
 * [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
@@ -83,6 +87,7 @@
 * [/] [GETTING STARTED WITH NODE.JS - FULL TUTORIAL](https://www.youtube.com/watch?v=gG3pytAY2MY)
 
 # FRONTEND (VARIOUS)
+* [-] [FRONT END LIBRARIES CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
 * [-] [REACT JS, ANGULAR & VUE JS - QUICKSTART & COMPARISON](https://www.udemy.com/course/angular-reactjs-vuejs-quickstart-comparison/)
 * [-] [HOW BROWSERS WORK: BEHIND THE SCENES OF MODERN WEB BROWSERS](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 * [/] [HTTP: EVERYTHING YOU NEED TO KNOW](https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it)
@@ -142,6 +147,8 @@
 * [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 
 # SQL
+* [-] [LEARN SQL WITH THIS FREE 4-HOUR COURSE ON THE POPULAR POSTGRESQL DATABASE](https://www.freecodecamp.org/news/postgresql-full-course)
+* [-] [LEARN SQL USING POSTGRESQL: FROM ZERO TO HERO](https://www.udemy.com/course/postgresql-from-zero-to-hero)
 * [-] [SQL QUERIES FOR MERE MORTALS](https://www.pearson.com/us/higher-education/program/Viescas-SQL-Queries-for-Mere-Mortals-A-Hands-On-Guide-to-Data-Manipulation-in-SQL-3rd-Edition/PGM8408.html)
 * [-] [DATABASE DESIGN FOR MERE MORTALS](https://www.pearson.com/us/higher-education/program/Hernandez-Database-Design-for-Mere-Mortals-A-Hands-On-Guide-to-Relational-Database-Design-3rd-Edition/PGM4423.html)
 * [-] [BEGINNING DATABASE DESIGN SOLUTIONS](https://www.oreilly.com/library/view/beginning-database-design/9780470385494)
@@ -235,6 +242,7 @@
 * [-] [HACKER 101](https://www.hacker101.com)
 
 # DATA/VISUALIZATION
+* [-] [DATA VISUALIZATION CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
 * [-] [THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION](https://www.amazon.co.uk/Visual-Display-Quantitative-Information/dp/1930824130)
 * [-] [DATA VISUALISATION: A HANDBOOK FOR DATA DRIVEN DESIGN](https://www.amazon.co.uk/Data-Visualisation-Handbook-Driven-Design/dp/1526468921)
 * [-] [INTERACTIVE DATA VISUALIZATION FOR THE WEB (2ND ED)](https://alignedleft.com/work/d3-book-2e) *Purchased*
