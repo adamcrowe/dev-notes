@@ -1,4 +1,4 @@
-## WATCH AND CODE
+# WATCH AND CODE
 * [/] [WATCH AND CODE - PRACTICAL JAVASCRIPT](https://watchandcode.com)
 * [.] [WATCH AND CODE - PREMIUM MEMBERSHIP](https://watchandcode.com)
 * [/] [WATCH AND CODE - BEAST CHALLENGES](https://github.com/gordonmzhu)
@@ -6,6 +6,7 @@
 * [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
 
 # HTML/CSS
+* [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
 * [.] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass) *Purchased*
 * [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) *Purchased*
 * [-] [MASTER 30 FRONT-END SKILLS](https://frontend30.com/exclusive-offer-for-css-selectors-cheatsheet-users/)
@@ -25,7 +26,9 @@
 
 # JS/TYPESCRIPT
 * [-] [JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
+* [-] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course/)
 * [-] [UNDERSTANDING TYPESCRIPT - 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
+* [-] [TYPESCRIPT: THE COMPLETE DEVELOPER'S GUIDE 2020](https://www.udemy.com/course/typescript-the-complete-developers-guide/)
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
 * [-] [DO MORE WITH REDUCE](https://jrsinclair.com/articles/2019/functional-js-do-more-with-reduce)
 * [-] [YOU DON'T KNOW JAVASCRIPT](https://github.com/getify/You-Dont-Know-JS)
@@ -46,6 +49,57 @@
 * [/] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
 * [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
 * [/] CORE JAVASCRIPT CONCEPTS
+
+# FRONTEND (VARIOUS)
+* [/] [VUE JS: COMPARISON WITH OTHER FRAMEWORKS](https://vuejs.org/v2/guide/comparison.html)
+* [-] [REACT JS, ANGULAR & VUE JS - QUICKSTART & COMPARISON](https://www.udemy.com/course/angular-reactjs-vuejs-quickstart-comparison/)
+* [-] [HOW BROWSERS WORK: BEHIND THE SCENES OF MODERN WEB BROWSERS](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+* [/] [HTTP: EVERYTHING YOU NEED TO KNOW](https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it)
+* [/] [HOW THE WEB WORKS PART III: HTTP & REST](https://www.freecodecamp.org/news/how-the-web-works-part-iii-http-rest-e61bc50fa0a/)
+* [/] [HOW I EXPLAINED REST TO MY WIFE](https://web.archive.org/web/20130116005443/http://tomayko.com/writings/rest-to-my-wife)
+* [-] [BUILD FRONT-END APPS WITH PLAIN JAVASCRIPT](https://web-engineering.info/JsFrontendApp-Book)
+* [-] [HOW TO BUILD TYPESCRIPT APP AND DEPLOY IT ON GITHUB PAGES](https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html)
+* [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
+* [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
+* [/] [INSTANT HANDLEBARS](https://www.oreilly.com/library/view/instant-handlebarsjs/9781783282654)
+* [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
+
+# FRONTEND (ANGULAR)
+* [-] [ANGULAR 8 - THE COMPLETE GUIDE 2019+ EDITION](https://www.udemy.com/the-complete-guide-to-angular-2) *Purchased*
+* [-] [ANGULAR (FULL APP) WITH ANGULAR MATERIAL, ANGULARFIRE & NGRX](https://www.udemy.com/angular-full-app-with-angular-material-angularfire-ngrx) *Purchased*
+* [-] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide) *Purchased*
+* [-] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security) *Purchased* (Angular University)
+* [-] [BUILD A REAL WORLD BEAUTIFUL WEB APP WITH ANGULAR 7 )](https://bit.ly/2sEvsvM)
+* [-] [ANGULAR AND REDUX: INTRODUCTION TO STATE MANAGEMENT](https://medium.com/codingthesmartway-com-blog/angular-and-redux-ecd22ea53492)
+* [-] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
+* [-] [BUILD PERFORMANT AND PROGRESSIVE ANGULAR APPLICATIONS](https://web.dev/angular)
+* [-] [ANGULAR UNIVERSITY](https://angular-university.io)
+* [-] [ANGULAR COURSE](https://codecraft.tv/courses/angular/quickstart/overview)
+* [/] [ANGULAR COMPONENT DESIGN](https://blog.angular-university.io/angular-component-design-how-to-avoid-custom-event-bubbling-and-extraneous-properties-in-the-local-component-tree)
+* [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2)
+* [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
+* [/] [ANGULAR DOCS](https://angular.io/guide)
+* [-] [NATIVESCRIPT + ANGULAR: BUILD NATIVE IOS, ANDROID & WEB APPS](https://www.udemy.com/nativescript-angular-build-native-ios-android-web-apps)
+
+# FRONTEND (REACT + REACT NATIVE)
+* [-] [COMPLETE REACT DEVELOPER IN 2020 (W/ REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery) *Purchased*
+* [-] [REACT - THE COMPLETE GUIDE (INCL HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
+* [-] [LEARN REACT - FULL COURSE FOR BEGINNERS](https://www.freecodecamp.org/news/learn-react-course)
+* [-] [LEARN HOW TO USE APIS WITH REACT BY BUILDING A HACKER NEWS API APPLICATION](https://www.freecodecamp.org/news/learn-how-to-use-apis-with-react-by-building-a-hacker-news-api-application)
+* [-] [LEARN TO USE APIS IN REACT BY CREATING A RECIPE APP](https://www.freecodecamp.org/news/apis-in-react)
+* [-] [TAKE YOUR REACT SKILLS TO THE NEXT LEVEL BY BUILDING A TODOIST CLONE](https://www.freecodecamp.org/news/react-firebase-todoist-clone)
+* [-] [LEARN HOW TO CREATE A SOCIAL MEDIA APP FROM SCRATCH USING REACT, FIREBASE, REDUX, AND EXPRESS](https://www.freecodecamp.org/news/react-firebase-social-media-app-course)
+* [-] [LEARN HOW TO USE REACT, CONTENTFUL, AND NETLIFY BY BUILDING A BEACH RESORT WEBSITE](https://www.freecodecamp.org/news/learn-react-contentful-and-netlify-by-building-a-beach-resort-website)
+* [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react)
+* [-] [REACT NATIVE - THE PRACTICAL GUIDE 2020](https://www.udemy.com/course/react-native-the-practical-guide)
+* [-] [INTRO TO REACT NATIVE COURSE](https://www.freecodecamp.org/news/react-native-course-for-beginners)
+* [-] [REACT NATIVE COURSE: HOW TO BUILD ONE AN IPHONE APP, ANDROID APP, AND WEBSITE - ALL WITH THE SAME CODEBASE](https://www.youtube.com/watch?v=_CBYbEGvxYY)
+* [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
+
+# FRONTEND (VUE)
+* [-] [VUE JS: INTRODUCTION](https://vuejs.org/v2/guide)
+* [-] [VUE MASTERY](https://www.vuemastery.com/courses)
+* [-] [VUE JS 2 - THE COMPLETE GUIDE (INCL. VUE ROUTER & VUEX)](https://www.udemy.com/course/vuejs-2-the-complete-guide)
 
 # FUNCTIONAL REACTIVE
 * [-] [RXJS IN PRACTICE COURSE](https://angular-university.io/course/rxjs-course)
@@ -69,8 +123,8 @@
 * [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 
 # NODE
-* [-] [APIS AND MICROSERVICES CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
 * [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
+* [-] [NODE.JS, EXPRESS, MONGODB & MORE: THE COMPLETE BOOTCAMP 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp) *Purchased*
 * [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide) *Purchased*
 * [-] [NODEJS 8 THE RIGHT WAY](https://pragprog.com/book/jwnode2/node-js-8-the-right-way) *Purchased*
 * [-] [DESIGN AND BUILD GREAT WEB APIS](https://pragprog.com/book/maapis/design-and-build-great-web-apis)
@@ -85,51 +139,6 @@
 * [-] [BUILD A NODE.JS API IN UNDER 30 MINUTES](https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/)
 * [/] [GETTING STARTED WITH NODE.JS - FULL TUTORIAL](https://www.youtube.com/watch?v=gG3pytAY2MY)
 
-# FRONTEND (VARIOUS)
-* [/] [VUE JS: COMPARISON WITH OTHER FRAMEWORKS](https://vuejs.org/v2/guide/comparison.html)
-* [-] [REACT JS, ANGULAR & VUE JS - QUICKSTART & COMPARISON](https://www.udemy.com/course/angular-reactjs-vuejs-quickstart-comparison/)
-* [-] [HOW BROWSERS WORK: BEHIND THE SCENES OF MODERN WEB BROWSERS](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
-* [/] [HTTP: EVERYTHING YOU NEED TO KNOW](https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it)
-* [/] [HOW THE WEB WORKS PART III: HTTP & REST](https://www.freecodecamp.org/news/how-the-web-works-part-iii-http-rest-e61bc50fa0a/)
-* [/] [HOW I EXPLAINED REST TO MY WIFE](https://web.archive.org/web/20130116005443/http://tomayko.com/writings/rest-to-my-wife)
-* [-] [BUILD FRONT-END APPS WITH PLAIN JAVASCRIPT](https://web-engineering.info/JsFrontendApp-Book)
-* [-] [HOW TO BUILD TYPESCRIPT APP AND DEPLOY IT ON GITHUB PAGES](https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html)
-* [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
-* [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
-* [/] [INSTANT HANDLEBARS](https://www.oreilly.com/library/view/instant-handlebarsjs/9781783282654)
-* [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
-
-# FRONTEND (VUE)
-* [-] [VUE JS: INTRODUCTION](https://vuejs.org/v2/guide)
-* [-] [VUE MASTERY](https://www.vuemastery.com/courses)
-* [-] [VUE JS 2 - THE COMPLETE GUIDE (INCL. VUE ROUTER & VUEX)](https://www.udemy.com/course/vuejs-2-the-complete-guide)
-
-# FRONTEND (ANGULAR)
-* [-] [ANGULAR 8 - THE COMPLETE GUIDE 2019+ EDITION](https://www.udemy.com/the-complete-guide-to-angular-2) *Purchased*
-* [-] [ANGULAR (FULL APP) WITH ANGULAR MATERIAL, ANGULARFIRE & NGRX](https://www.udemy.com/angular-full-app-with-angular-material-angularfire-ngrx) *Purchased*
-* [-] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide) *Purchased*
-* [-] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security) *Purchased* (Angular University)
-* [-] [BUILD A REAL WORLD BEAUTIFUL WEB APP WITH ANGULAR 7 )](https://bit.ly/2sEvsvM)
-* [-] [ANGULAR AND REDUX: INTRODUCTION TO STATE MANAGEMENT](https://medium.com/codingthesmartway-com-blog/angular-and-redux-ecd22ea53492)
-* [-] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
-* [-] [BUILD PERFORMANT AND PROGRESSIVE ANGULAR APPLICATIONS](https://web.dev/angular)
-* [-] [ANGULAR UNIVERSITY](https://angular-university.io)
-* [-] [ANGULAR COURSE](https://codecraft.tv/courses/angular/quickstart/overview)
-* [/] [ANGULAR COMPONENT DESIGN](https://blog.angular-university.io/angular-component-design-how-to-avoid-custom-event-bubbling-and-extraneous-properties-in-the-local-component-tree)
-* [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2)
-* [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
-* [/] [ANGULAR DOCS](https://angular.io/guide)
-
-# FRONTEND (REACT)
-* [-] [COMPLETE REACT DEVELOPER IN 2020 (W/ REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery) *Purchased*
-* [-] [LEARN REACT - FULL COURSE FOR BEGINNERS](https://www.freecodecamp.org/news/learn-react-course)
-* [-] [LEARN HOW TO USE APIS WITH REACT BY BUILDING A HACKER NEWS API APPLICATION](https://www.freecodecamp.org/news/learn-how-to-use-apis-with-react-by-building-a-hacker-news-api-application)
-* [-] [LEARN TO USE APIS IN REACT BY CREATING A RECIPE APP](https://www.freecodecamp.org/news/apis-in-react)
-* [-] [TAKE YOUR REACT SKILLS TO THE NEXT LEVEL BY BUILDING A TODOIST CLONE](https://www.freecodecamp.org/news/react-firebase-todoist-clone)
-* [-] [LEARN HOW TO CREATE A SOCIAL MEDIA APP FROM SCRATCH USING REACT, FIREBASE, REDUX, AND EXPRESS](https://www.freecodecamp.org/news/react-firebase-social-media-app-course)
-* [-] [LEARN HOW TO USE REACT, CONTENTFUL, AND NETLIFY BY BUILDING A BEACH RESORT WEBSITE](https://www.freecodecamp.org/news/learn-react-contentful-and-netlify-by-building-a-beach-resort-website)
-* [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react)
-
 # TESTING
 * [-] [CHROME DEVTOOLS](https://developers.google.com/web/tools/chrome-devtools)
 * [-] [MASTERING THE DEVELOPER TOOLS CONSOLE](https://blog.teamtreehouse.com/mastering-developer-tools-console)
@@ -143,12 +152,6 @@
 * [-] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 * [-] [END-TO-END API TESTING WITH DOCKER](https://www.freecodecamp.org/news/end-to-end-api-testing-with-docker)
 * [-] [THE ULTIMATE GUIDE TO END-TO-END TESTS WITH SELENIUM AND DOCKER](https://www.freecodecamp.org/news/end-to-end-tests-with-selenium-and-docker-the-ultimate-guide)
-
-# MOBILE
-* [-] [NATIVESCRIPT + ANGULAR: BUILD NATIVE IOS, ANDROID & WEB APPS](https://www.udemy.com/nativescript-angular-build-native-ios-android-web-apps)
-* [-] [INTRO TO REACT NATIVE COURSE](https://www.freecodecamp.org/news/react-native-course-for-beginners)
-* [-] [REACT NATIVE COURSE: HOW TO BUILD ONE AN IPHONE APP, ANDROID APP, AND WEBSITE - ALL WITH THE SAME CODEBASE](https://www.youtube.com/watch?v=_CBYbEGvxYY)
-* [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 
 # SQL
 * [-] [LEARN SQL WITH THIS FREE 4-HOUR COURSE ON THE POPULAR POSTGRESQL DATABASE](https://www.freecodecamp.org/news/postgresql-full-course)
@@ -206,11 +209,6 @@
 * [-] [THE 3 TYPES OF DESIGN PATTERNS ALL DEVELOPERS SHOULD KNOW](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know)
 * [-] [YOUR CODE AS A CRIME SCENE](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
 * [-] [REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE](https://www.pearson.com/us/higher-education/program/Fowler-Refactoring-Improving-the-Design-of-Existing-Code-2nd-Edition/PGM1780661.html)
-* [-] CLEAN CODE: A HANDBOOK OF AGILE SOFTWARE CRAFTSMANSHIP
-* [-] CLEAN CODER: A CODE OF CONDUCT FOR PROFESSIONAL PROGRAMMERS
-* [-] CLEAN ARCHITECTURE: A CRAFTSMAN'S GUIDE TO SOFTWARE STRUCTURE AND DESIGN
-* [-] JOEL ON SOFTWARE
-* [-] MORE JOEL ON SOFTWARE
 * [-] [DESIGN PATTERNS](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
 * [-] [OBJECT ORIENTED DESIGN](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE)
 * [-] [CODE REFACTORING](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV)
@@ -227,6 +225,11 @@
 * [-] [THE PRAGMATIC PROGRAMMER](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
 * [-] [PRACTICES OF AN AGILE DEVELOPER](https://pragprog.com/book/pad/practices-of-an-agile-developer)
 * [-] [THE SENIOR SOFTWARE ENGINEER: 11 PRACTICES OF AN EFFECTIVE TECHNICAL LEADER](https://theseniorsoftwareengineer.com)
+* [-] CLEAN CODE: A HANDBOOK OF AGILE SOFTWARE CRAFTSMANSHIP
+* [-] CLEAN CODER: A CODE OF CONDUCT FOR PROFESSIONAL PROGRAMMERS
+* [-] CLEAN ARCHITECTURE: A CRAFTSMAN'S GUIDE TO SOFTWARE STRUCTURE AND DESIGN
+* [-] JOEL ON SOFTWARE
+* [-] MORE JOEL ON SOFTWARE
 
 # DEPLOYMENT
 * [-] [CODING MODERN WEBSITES WITH THE JAMSTACK - PART 1/3](https://www.netlify.com/blog/2017/10/06/coding-modern-websites-with-the-jamstack-part-1)
@@ -246,15 +249,15 @@
 * [-] [HACKER 101](https://www.hacker101.com)
 
 # DATA/VISUALIZATION
-* [-] [DATA VISUALIZATION CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
 * [-] [THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION](https://www.amazon.co.uk/Visual-Display-Quantitative-Information/dp/1930824130)
 * [-] [DATA VISUALISATION: A HANDBOOK FOR DATA DRIVEN DESIGN](https://www.amazon.co.uk/Data-Visualisation-Handbook-Driven-Design/dp/1526468921)
 * [-] [INTERACTIVE DATA VISUALIZATION FOR THE WEB (2ND ED)](https://alignedleft.com/work/d3-book-2e) *Purchased*
 * [.] [MASTERING DATA VISUALIZATION IN D3.JS](https://www.udemy.com/course/masteringd3js) *Purchased*
-* [-] [INTERACTIVE DATA VISUALIZATION WITH MODERN JAVASCRIPT AND D3](https://www.sitepoint.com/interactive-data-visualization-javascript-d3/)
+* [-] [INTERACTIVE DATA VISUALIZATION WITH MODERN JAVASCRIPT AND D3](https://www.sitepoint.com/interactive-data-visualization-javascript-d3)
 * [-] [FULLSTACK D3 AND DATA VISUALIZATION](https://www.newline.co/fullstack-d3)
 * [-] [D3 TUTORIALS](https://github.com/d3/d3/wiki/Tutorials)
 * [/] [DASHING D3JS: Tutorial](https://www.dashingd3js.com/table-of-contents)
+* [-] [DATA VISUALIZATION CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
 * [-] [COMPLETE PYTHON DEVELOPER IN 2020: ZERO TO MASTERY](https://www.udemy.com/course/complete-python-developer-zero-to-mastery) *Purchased*
 * [-] [COMPLETE MACHINE LEARNING AND DATA SCIENCE: ZERO TO MASTERY](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery) *Purchased*
 * [-] [THINK PYTHON 2E](https://greenteapress.com/wp/think-python-2e)
@@ -295,7 +298,5 @@
 * [-] [GRAPHIC DESIGN MASTERCLASS - LEARN GREAT DESIGN](https://www.udemy.com/course/graphic-design-masterclass-everything-you-need-to-know)
 * [-] [THE FREELANCE MASTERCLASS: FOR CREATIVES](https://www.udemy.com/course/the-freelance-masterclass-for-creatives)
 * [-] [DRIBBLE COLORS](https://dribbble.com/colors)
-
-# TYPOGRAPHY
 * [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack)
 * [-] [RECURSIVE TYPEFACE](https://www.recursive.design)
