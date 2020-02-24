@@ -6,7 +6,7 @@
 * [-] [WATCH AND CODE - SLACK CHANNEL](https://watchandcode.slack.com)
 
 # HTML/CSS
-* [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
+* [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3) *Purchased*
 * [.] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass) *Purchased*
 * [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) *Purchased*
 * [-] [MASTER 30 FRONT-END SKILLS](https://frontend30.com/exclusive-offer-for-css-selectors-cheatsheet-users/)
@@ -26,7 +26,7 @@
 
 # JS/TYPESCRIPT
 * [-] [JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
-* [-] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course/)
+* [-] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course) *Purchased*
 * [-] [UNDERSTANDING TYPESCRIPT - 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
 * [-] [TYPESCRIPT: THE COMPLETE DEVELOPER'S GUIDE 2020](https://www.udemy.com/course/typescript-the-complete-developers-guide/)
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
@@ -52,7 +52,6 @@
 
 # FRONTEND (VARIOUS)
 * [/] [VUE JS: COMPARISON WITH OTHER FRAMEWORKS](https://vuejs.org/v2/guide/comparison.html)
-* [-] [REACT JS, ANGULAR & VUE JS - QUICKSTART & COMPARISON](https://www.udemy.com/course/angular-reactjs-vuejs-quickstart-comparison/)
 * [-] [HOW BROWSERS WORK: BEHIND THE SCENES OF MODERN WEB BROWSERS](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 * [/] [HTTP: EVERYTHING YOU NEED TO KNOW](https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it)
 * [/] [HOW THE WEB WORKS PART III: HTTP & REST](https://www.freecodecamp.org/news/how-the-web-works-part-iii-http-rest-e61bc50fa0a/)
