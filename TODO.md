@@ -98,6 +98,7 @@
 
 # FRONTEND (VUE)
 * [-] [VUE JS: INTRODUCTION](https://vuejs.org/v2/guide)
+* [-] [INTRODUCTION TO VUE.JS](https://frontendmasters.com/courses/vue/)
 * [-] [VUE MASTERY](https://www.vuemastery.com/courses)
 * [-] [VUE JS 2 - THE COMPLETE GUIDE (INCL. VUE ROUTER & VUEX)](https://www.udemy.com/course/vuejs-2-the-complete-guide)
 
