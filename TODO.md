@@ -33,8 +33,9 @@
 * [-] [DO MORE WITH REDUCE](https://jrsinclair.com/articles/2019/functional-js-do-more-with-reduce)
 * [-] [YOU DON'T KNOW JAVASCRIPT](https://github.com/getify/You-Dont-Know-JS)
 * [-] [SPEAKING JAVASCRIPT](http://speakingjs.com/es5/index.html)
+* [-] [SIMPLIFYING JAVASCRIPT: WRITING MODERN JAVASCRIPT WITH ES5, ES6, AND BEYOND](https://pragprog.com/book/es6tips/simplifying-javascript)
+* [-] [JAVASCRIPT PATTERNS: BUILD BETTER APPLICATIONS WITH CODING AND DESIGN PATTERNS](http://shop.oreilly.com/product/9780596806767.do)
 * [-] [LEARNING JAVASCRIPT DESIGN PATTERNS](https://addyosmani.com/resources/essentialjsdesignpatterns/book)
-* [-] [JAVASCRIPT PATTERNS COLLECTION](https://shichuan.github.io/javascript-patterns)
 * [-] [33 CONCEPTS EVERY JAVASCRIPT DEVELOPER SHOULD KNOW](https://github.com/leonardomso/33-js-concepts)
 * [-] [USING JAVASCRIPT'S BITWISE OPERATORS IN REAL LIFE](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
 * [-] [LEARN X IN Y MINUTES](https://learnxinyminutes.com/docs/typescript)
@@ -97,10 +98,10 @@
 * [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 
 # FRONTEND (VUE)
-* [-] [VUE JS: INTRODUCTION](https://vuejs.org/v2/guide)
-* [-] [INTRODUCTION TO VUE.JS](https://frontendmasters.com/courses/vue/)
-* [-] [VUE MASTERY](https://www.vuemastery.com/courses)
 * [-] [VUE JS 2 - THE COMPLETE GUIDE (INCL. VUE ROUTER & VUEX)](https://www.udemy.com/course/vuejs-2-the-complete-guide)
+* [-] [VUE JS: INTRODUCTION](https://vuejs.org/v2/guide)
+* [-] [VUE MASTERY (NUXT)](https://www.vuemastery.com/courses)
+* [-] [NUXTJS: THE PROGRESSIVE VUE.JS FRAMEWORK](https://nuxtjs.org)
 
 # FUNCTIONAL REACTIVE
 * [-] [RXJS IN PRACTICE COURSE](https://angular-university.io/course/rxjs-course)
@@ -141,6 +142,8 @@
 * [/] [GETTING STARTED WITH NODE.JS - FULL TUTORIAL](https://www.youtube.com/watch?v=gG3pytAY2MY)
 
 # TESTING
+* [-] [THE WAY OF THE WEB TESTER: A BEGINNER'S GUIDE TO AUTOMATING TESTS](https://pragprog.com/book/jrtest/the-way-of-the-web-tester)
+* [-] [EXPLORE IT!: REDUCE RISK AND INCREASE CONFIDENCE WITH EXPLORATORY TESTING](https://pragprog.com/book/ehxta/explore-it)
 * [-] [CHROME DEVTOOLS](https://developers.google.com/web/tools/chrome-devtools)
 * [-] [MASTERING THE DEVELOPER TOOLS CONSOLE](https://blog.teamtreehouse.com/mastering-developer-tools-console)
 * [-] [DEBUGGING JAVASCRIPT IN GOOGLE CHROME AND VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-studio-code)
@@ -186,6 +189,7 @@
 * [-] [BASH SHORTCUTS TO ENHANCE YOUR GIT WORKFLOW](https://medium.freecodecamp.org/bash-shortcuts-to-enhance-your-git-workflow-5107d64ea0ff)
 * [-] [HOW TO UNDO (ALMOST) ANYTHING WITH GIT](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git)
 * [-] [PRO GIT](https://www.apress.com/gp/book/9781484200773)
+* [-] [COMMAND LINE TRICKS FOR MANAGING YOUR MESSY OPEN SOURCE REPOSITORY](https://www.freecodecamp.org/news/command-line-tricks-for-managing-your-messy-open-source-repository/)
 
 # CS
 * [-] CODE: THE HIDDEN LANGUAGE OF COMPUTER HARDWARE AND SOFTWARE
@@ -208,6 +212,7 @@
 * [-] [HEAD FIRST OBJECT-ORIENTED ANALYSIS AND DESIGN](http://shop.oreilly.com/product/9780596008673.do)
 * [-] [HEAD FIRST DESIGN PATTERNS](http://shop.oreilly.com/product/9780596007126.do)
 * [-] [THE 3 TYPES OF DESIGN PATTERNS ALL DEVELOPERS SHOULD KNOW](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know)
+* [-] [BEYOND LEGACY CODE: NINE PRACTICES TO EXTEND THE LIFE (AND VALUE) OF YOUR SOFTWARE](https://pragprog.com/book/dblegacy/beyond-legacy-code)
 * [-] [YOUR CODE AS A CRIME SCENE](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
 * [-] [REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE](https://www.pearson.com/us/higher-education/program/Fowler-Refactoring-Improving-the-Design-of-Existing-Code-2nd-Edition/PGM1780661.html)
 * [-] [DESIGN PATTERNS](https://www.youtube.com/playlist?list=PLF206E906175C7E07)

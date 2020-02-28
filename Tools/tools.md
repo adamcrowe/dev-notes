@@ -1,50 +1,104 @@
-* EditorConfig: (Maintain consistent coding styles between different editors and IDEs): <http://editorconfig.org>
-* Insomnia: (API/REST client): <https://insomnia.rest>
-* Wallaby.js (Run tests in editor): <https://wallabyjs.com> | Demo: <https://www.youtube.com/watch?v=P4UQ-jTTJJ4>
-* Quokka.js (Run code in editor): <https://quokkajs.com>
-* GitLab Workflow (VSCode plugin): <https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow>
-* Loupe (Visualizing the JS Runtime at Runtime): <https://github.com/latentflip/loupe>
-* Binary Representation of Base 10 Numbers: <http://bartaz.github.io/ieee754-visualization/>
-* JSDoc Code Documentation Guidelines: <http://usejsdoc.org/>
-* Popular Coding Conventions by Language: <http://sideeffect.kr/popularconvention/>
-* JS Equality Table: <http://dorey.github.io/JavaScript-Equality-Table/>
-* Webpack Guide: <https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70>
-* RequireJS: <http://requirejs.org/docs/download.html> | <http://requirejs.org/docs/download.html#text>
-* Resizer: <https://material.io/resizer/>
-* Responsive Tester: <http://www.responsivetester.net/>
-* Responsive Tester: <https://www.responsinator.com/>
-* Dummy Image: <https://dummyimage.com/>
-* Grid Calculator: <http://gridcalculator.dk/>
-* Now (App Deployment) <https://zeit.co/now>
-* StackBlitz (Create, edit & deploy fullstack apps — in just one click): <https://stackblitz.com/>
-* Highlight JS (Code snippets) <https://highlightjs.org>
-* Storybook is an open source tool for developing UI components in isolation <https://storybook.js.org>
-** <https://stackoverflow.com/questions/56868391/storybook-with-using-injection-in-angular-module>
-{
-  "extends": "../tsconfig.app.json",
-  "compilerOptions": {
-    "emitDecoratorMetadata": true,   <--------- Add this!
-    ...
-  },
-  ...
-}
-* Google Search Console <https://search.google.com/search-console/about>
-* Google Page Speed Insights <https://developers.google.com/speed/pagespeed/insights/>
-* Webpage Test <https://www.webpagetest.org/>
-* BadJS.org is a repository of malicious JavaScript <https://badjs.org>
-* Writing System Software: Code Comments <http://antirez.com/news/124>
+# API + Data
+* Postman: API Development Platform <https://www.postman.com>
+* Insomnia: API/REST/HTTP/GraphQL Client <https://insomnia.rest>
+* The Star Wars API: All the Star Wars data you've ever wanted <https://swapi.co>
+
+# CS + Security
+* Binary Representation of Base 10 Numbers <http://bartaz.github.io/ieee754-visualization/>
+* How to Store User Passwords and Overcome Security Threats in 2017 <https://rangle.io/blog/how-to-store-user-passwords-and-overcome-security-threats-in-2017/>
+
+# CSS + UI Mocking and Testing
+* Tachyons <https://tachyons.io/>
+* Media Queries Cheatsheet <https://gist.github.com/bartholomej/8415655>
+* CSS Snippets <https://atomiks.github.io/30-seconds-of-css/>
+* Animation Easing Functions <https://easings.net/en>
+* Browser Screen Size Stats <https://gs.statcounter.com>
+* Sizzy: Responsive design browser <https://sizzy.co/>
+* Resizer <https://material.io/resizer/>
+* Responsive Tester <http://www.responsivetester.net/>
+* Responsive Tester <https://www.responsinator.com/>
+* Dummy Image <https://dummyimage.com/>
+* Grid Calculator <http://gridcalculator.dk/>
+
+# Databases
+* PostgreSQL GUI tool for macOS <http://www.psequel.com/>
+
+# Debugging + Testing
 * ShellCheck: Finds bugs in your shell scripts <https://www.shellcheck.net/>
-* Minify JS or CSS code <https://www.minifier.org/>
+* Wallaby.js: Run tests in editor <https://wallabyjs.com>
+  * Demo <https://www.youtube.com/watch?v=P4UQ-jTTJJ4>
+* Quokka.js: Run code in editor <https://quokkajs.com>
+
+# Deployment
+* Netlify <https://www.netlify.com/>
+* Now: App Deployment <https://zeit.co/now>
+* StackBlitz: Create, edit & deploy fullstack apps — in just one click <https://stackblitz.com/>
+
+# Documentation + Linting
+* EditorConfig: Maintain consistent coding styles between different editors and IDEs <http://editorconfig.org>
+* JSDoc: Code Documentation Guidelines <http://usejsdoc.org/>
+* Popular Coding Conventions by Language <http://sideeffect.kr/popularconvention/>
+* Writing System Software: Code Comments <http://antirez.com/news/124>
+* Highlight JS: Code snippets <https://highlightjs.org>
+* Storybook is an open source tool for developing UI components in isolation <https://storybook.js.org>
+  * Angular: <https://stackoverflow.com/questions/56868391/storybook-with-using-injection-in-angular-module>
+  ```json
+  {
+    "extends": "../tsconfig.app.json",
+    "compilerOptions": {
+      "emitDecoratorMetadata": true, // <--------- Add this!
+    },
+  }
+  ```
+
+# Image Manipulation
+* Remove Background from image <https://www.remove.bg>
+* Favicon Generator for PWAs <https://realfavicongenerator.net/>
 * Check and remove Exif image data online <http://www.verexif.com/en/>
 * ImageOptim makes images load faster <https://imageoptim.com/>
 * XnConvert Bulk Image Converter <https://www.xnview.com/en/xnconvert/>
+
+# Jamstack / Serverless
+<https://medium.com/datafire-io/simple-backends-four-ways-to-implement-a-contact-us-form-on-a-static-website-10fc430984a4> ***
+<https://cobwwweb.com/zero-to-functioning-netlify-function>
+<https://cobwwweb.com/netlify-function-sends-conditional-email> ***
+<https://bryanlrobinson.com/blog/routing-contact-form-submissions-to-different-addresses-with-netlify-zapier-and-sendgrid> **
+<https://css-tricks.com/using-netlify-forms-and-netlify-functions-to-build-an-email-sign-up-widget>
+<https://css-tricks.com/netlify-functions-for-sending-emails>
+[Netlify Functions (Build and Deploy)](https://www.youtube.com/watch?v=_1qXQM3Mt4Q)
+[Serverless Lambda Functions](https://www.youtube.com/watch?v=drJwMlD9Mjo)
+[Simple Contact Form Submission With Netlify](https://www.youtube.com/watch?v=6ElQ689HRcY)
+<https://medium.com/backticks-tildes/handling-static-forms-the-client-side-way-4ffcbecf7498>
+<https://www.netlify.com/blog/2019/10/07/complete-intro-to-netlify-in-3.5-hours/>
+<https://www.raymondcamden.com/2019/01/08/adding-serverless-functions-to-your-netlify-static-site>
+<https://www.raymondcamden.com/2019/01/15/customized-form-handling-on-netlify-with-serverless-functions>
+<https://luetkemj.github.io/180505/netlify-lambdas-as-simple-as-possible>
+<https://www.codespot.org/how-to-build-a-blog-with-gatsby-and>
+
+# JavaScript
+* JS Equality Table <http://dorey.github.io/JavaScript-Equality-Table/>
+* Webpack Guide <https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70>
+* RequireJS <http://requirejs.org/docs/download.html#text>
+* BadJS.org is a repository of malicious JavaScript <https://badjs.org>
 * You Might Not Need jQuery <http://youmightnotneedjquery.com/>
-* Favicon Generator for PWAs <https://realfavicongenerator.net/>
-* Lighthouse PWA Analysis Tool <https://developers.google.com/web/ilt/pwa/lighthouse-pwa-analysis-tool>
-* A list of community-built, third-party tools that can be used to improve page performance <https://progressivetooling.com/>
-* The Star Wars API: All the Star Wars data you've ever wanted <https://swapi.co/>
-* How to Store User Passwords and Overcome Security Threats in 2017 <https://rangle.io/blog/how-to-store-user-passwords-and-overcome-security-threats-in-2017/>
-* PostgreSQL GUI tool for macOS <http://www.psequel.com/>
+* Loupe (Visualizing the JS Runtime at Runtime): <https://github.com/latentflip/loupe>
+
+# Project Management
 * ClickUp (Kanban Project Manager) <https://clickup.com/>
 * Airtable (Kanban Project Manager) <https://airtable.com>
-* Remove Background <https://www.remove.bg>
+
+# Site Optimization
+* Google Search Console <https://search.google.com/search-console/about>
+* Google Page Speed Insights <https://developers.google.com/speed/pagespeed/insights/>
+* Lighthouse PWA Analysis Tool <https://developers.google.com/web/ilt/pwa/lighthouse-pwa-analysis-tool>
+* Third-party Tools <https://progressivetooling.com/>
+* Webpage Test <https://www.webpagetest.org/>
+* Minify JS or CSS code <https://www.minifier.org/>
+
+# Stock Media
+* Photos <https://unsplash.com>
+* Photos and Videos <https://www.pexels.com>
+* Photos, Videos and Vectors <https://depositphotos.com>
+* Photos and Videos <https://deathtothestockphoto.com>
+* Videos <https://coverr.co>
+* Vectors <https://undraw.co/illustrations>
