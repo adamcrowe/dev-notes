@@ -7,7 +7,13 @@
 * Binary Representation of Base 10 Numbers <http://bartaz.github.io/ieee754-visualization/>
 * How to Store User Passwords and Overcome Security Threats in 2017 <https://rangle.io/blog/how-to-store-user-passwords-and-overcome-security-threats-in-2017/>
 
-# CSS + UI Mocking and Testing
+# CSS Testing + UI Kits
+* Tailwind CSS Framework <https://tailwindcss.com>
+* Tailwind UI Framework <https://tailwindui.com>
+* Awesome things related to Tailwind CSS <https://github.com/aniftyco/awesome-tailwindcss>
+* Bootstrap UI Frameowrk <https://getbootstrap.com>
+* Clarity Design System <https://clarity.design>
+* GitHub Primer Design System <https://primer.style>
 * Tachyons <https://tachyons.io/>
 * Media Queries Cheatsheet <https://gist.github.com/bartholomej/8415655>
 * CSS Snippets <https://atomiks.github.io/30-seconds-of-css/>
@@ -52,11 +58,12 @@
   ```
 
 # Image Manipulation
+* Image Enlarger <https://imglarger.com>
 * Remove Background from image <https://www.remove.bg>
-* Favicon Generator for PWAs <https://realfavicongenerator.net/>
-* Check and remove Exif image data online <http://www.verexif.com/en/>
-* ImageOptim makes images load faster <https://imageoptim.com/>
-* XnConvert Bulk Image Converter <https://www.xnview.com/en/xnconvert/>
+* Favicon Generator for PWAs <https://realfavicongenerator.net>
+* Check and remove Exif image data online <http://www.verexif.com/en>
+* ImageOptim makes images load faster <https://imageoptim.com>
+* XnConvert Bulk Image Converter <https://www.xnview.com/en/xnconvert>
 
 # Jamstack / Serverless
 <https://medium.com/datafire-io/simple-backends-four-ways-to-implement-a-contact-us-form-on-a-static-website-10fc430984a4> ***
@@ -97,8 +104,18 @@
 
 # Stock Media
 * Photos <https://unsplash.com>
+* Photos <https://web.shotzr.com>
 * Photos and Videos <https://www.pexels.com>
 * Photos, Videos and Vectors <https://depositphotos.com>
 * Photos and Videos <https://deathtothestockphoto.com>
 * Videos <https://coverr.co>
 * Vectors <https://undraw.co/illustrations>
+* Vectors <https://www.openpeeps.com>
+* Vectors <https://isometric.online>
+* Illustrations <https://www.oldbookillustrations.com>
+* Hero Patterns <http://www.heropatterns.com>
+* Hero Icons (Complete) <https://www.heroicons.com>
+  * Hero Icons (Subset) <https://github.com/refactoringui/heroicons>
+* Zondicons <http://www.zondicons.com>
+* Inter Typeface <https://rsms.me/inter>
+* Various Resources <https://www.designvalley.club>

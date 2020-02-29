@@ -9,6 +9,9 @@
 * [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3) *Purchased*
 * [.] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass) *Purchased*
 * [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) *Purchased*
+* [-] [DESIGNING WITH TAILWIND CSS (WORKCATION)](https://tailwindcss.com/screencasts) <https://www.youtube.com/watch?v=0aTRN9CSCY0&list=PL7CcGwsqRpSO3J4YU6BkWqjU0XcVSaPXl>
+* [-] [BUILDING INTERFACES WITH TAILWIND CSS](https://www.youtube.com/watch?v=_JhTaENzfZQ&list=PL7CcGwsqRpSMgVc5NxXUpqmGOS9s1YrWF)
+* [-] [TAILWIND CSS (PLAYLIST)](https://www.youtube.com/watch?v=Pg_5Ni1_bg4&list=PLEhEHUEU3x5p8cxOJ27w20LffCknp935L)
 * [-] [MASTER 30 FRONT-END SKILLS](https://frontend30.com/exclusive-offer-for-css-selectors-cheatsheet-users/)
 * [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
 * [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
@@ -98,9 +101,15 @@
 * [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 
 # FRONTEND (VUE)
+* [-] [VUE.JS TODO APP](https://www.youtube.com/watch?v=A5S23KS_-bU&list=PLEhEHUEU3x5q-xB1On4CsLPts0-rZ9oos)
+* [-] [BUILDING A CONVERTKIT OPT-IN FORM WITH VUE.JS](https://www.youtube.com/watch?v=UM4TR3RN_j8)
+* [-] [WEATHER APP W/ VUE, TAILWIND CSS & LARAVEL](https://www.youtube.com/watch?v=_nSzMDx79Ao)
+* [-] [MOJAVE APP STORE REBUILD WITH TAILWIND CSS, ELECTRON AND VUE](https://github.com/drehimself/app-store-tailwind)
+* [-] [GRAPHQL WITH LARAVEL & VUE](https://www.youtube.com/watch?v=hvjW-MQEwIM&list=PLEhEHUEU3x5qsA5JnRzhgOghrH9Vqz4cg)
 * [-] [VUE JS 2 - THE COMPLETE GUIDE (INCL. VUE ROUTER & VUEX)](https://www.udemy.com/course/vuejs-2-the-complete-guide)
 * [-] [VUE JS: INTRODUCTION](https://vuejs.org/v2/guide)
 * [-] [VUE MASTERY (NUXT)](https://www.vuemastery.com/courses)
+* [-] [ADVANCED VUE COMPONENT DESIGN](https://adamwathan.me/advanced-vue-component-design)
 * [-] [NUXTJS: THE PROGRESSIVE VUE.JS FRAMEWORK](https://nuxtjs.org)
 
 # FUNCTIONAL REACTIVE
@@ -140,6 +149,9 @@
 * [-] [APIS FOR BEGINNERS - HOW TO USE AN API](https://www.freecodecamp.org/news/apis-for-beginners-full-course)
 * [-] [BUILD A NODE.JS API IN UNDER 30 MINUTES](https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/)
 * [/] [GETTING STARTED WITH NODE.JS - FULL TUTORIAL](https://www.youtube.com/watch?v=gG3pytAY2MY)
+
+# LARAVEL
+* [-] [TEST-DRIVEN LARAVEL](https://course.testdrivenlaravel.com)
 
 # TESTING
 * [-] [THE WAY OF THE WEB TESTER: A BEGINNER'S GUIDE TO AUTOMATING TESTS](https://pragprog.com/book/jrtest/the-way-of-the-web-tester)
