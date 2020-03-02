@@ -11,10 +11,10 @@
 * Tailwind CSS Framework <https://tailwindcss.com>
 * Tailwind UI Framework <https://tailwindui.com>
 * Awesome things related to Tailwind CSS <https://github.com/aniftyco/awesome-tailwindcss>
+* Tachyons <https://tachyons.io/>
 * Bootstrap UI Frameowrk <https://getbootstrap.com>
 * Clarity Design System <https://clarity.design>
 * GitHub Primer Design System <https://primer.style>
-* Tachyons <https://tachyons.io/>
 * Media Queries Cheatsheet <https://gist.github.com/bartholomej/8415655>
 * CSS Snippets <https://atomiks.github.io/30-seconds-of-css/>
 * Animation Easing Functions <https://easings.net/en>
@@ -66,6 +66,7 @@
 * XnConvert Bulk Image Converter <https://www.xnview.com/en/xnconvert>
 
 # Jamstack / Serverless
+<https://www.crowdform.co.uk/blog/deploying-a-gatsby-site-to-firebase-with-google-cloud-build>
 <https://medium.com/datafire-io/simple-backends-four-ways-to-implement-a-contact-us-form-on-a-static-website-10fc430984a4> ***
 <https://cobwwweb.com/zero-to-functioning-netlify-function>
 <https://cobwwweb.com/netlify-function-sends-conditional-email> ***
