@@ -15,8 +15,7 @@
 * [-] [DESIGNING WITH TAILWIND CSS (WORKCATION)](https://tailwindcss.com/screencasts) <https://www.youtube.com/watch?v=0aTRN9CSCY0&list=PL7CcGwsqRpSO3J4YU6BkWqjU0XcVSaPXl>
 * [-] [BUILDING INTERFACES WITH TAILWIND CSS](https://www.youtube.com/watch?v=_JhTaENzfZQ&list=PL7CcGwsqRpSMgVc5NxXUpqmGOS9s1YrWF)
 * [-] [TAILWIND CSS (PLAYLIST)](https://www.youtube.com/watch?v=Pg_5Ni1_bg4&list=PLEhEHUEU3x5p8cxOJ27w20LffCknp935L)
-* [/] [CSS UTILITY CLASSES AND "SEPARATION OF CONCERNS" (TAILWIND CSS)](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/)
-* [-] [MASTER 30 FRONT-END SKILLS](https://frontend30.com)
+* [/] [CSS UTILITY CLASSES AND SEPARATION OF CONCERNS (TAILWIND CSS)](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/)
 * [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
 * [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
 * [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -34,7 +33,7 @@
 # JS/TYPESCRIPT
 * [-] [JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
 * [-] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course) *Purchased*
-* [-] [UNDERSTANDING TYPESCRIPT - 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
+* [-] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript) *Purchased*
 * [-] [TYPESCRIPT: THE COMPLETE DEVELOPER'S GUIDE 2020](https://www.udemy.com/course/typescript-the-complete-developers-guide/)
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
 * [-] [DO MORE WITH REDUCE](https://jrsinclair.com/articles/2019/functional-js-do-more-with-reduce)
