@@ -54,7 +54,7 @@ let fightRobotArmy2Fn = (robots: { count: number, type: string, magic?: string }
 
 // classes
 class Animal {
-    private sing: string;
+    public sing: string;
     constructor(sound: string) {
         this.sing = sound;
     }

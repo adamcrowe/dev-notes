@@ -2,13 +2,12 @@
 // npm install -g typescript
 // tsc myTypeScriptFile.ts -w
 
-names: string[];        // an array of strings
-names: Array<string>    // an array of strings
-Array<Article>			// Array is a collection that will only hold Article objects
-articles: Article[];	// articles is a array of Article objects
+const names: string[];          // an array of strings
+const names1: Array<string>     // an array of strings
+const articles: Array<Article>  // Array is a collection that will only hold Article objects
+const articles2: Article[]; 	// articles is a array of Article objects
 
 constructor(title: string, link: string, votes?: number) {} // votes? is optional
-
 
 // Generics: https://www.typescriptlang.org/docs/handbook/generics.html
 // accept any type and return any type

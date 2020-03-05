@@ -19,11 +19,11 @@ class User implements UserInterface {
 		console.log('User created: ' + this.name);
 	}
 
-	register() {
+	function register() {
 		console.log(this.name + ' is now registered');
 	}
 
-	payInvoice() {
+	function payInvoice() {
 		console.log(this.name + ' has paid an invoice');
 	}
 }
