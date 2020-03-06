@@ -1,10 +1,7 @@
-# Basic Setup
-* <https://code.visualstudio.com/docs/typescript/typescript-tutorial>
-
-* npm install -g typescript
-* tsc --version
-* touch tsconfig.json
-* touch hello-world.ts
-* tsc hello-world.ts // basic build
-* tsc -p /Users/adam/Documents/Code/projects/dev-notes/TS/basic-setup/tsconfig.json // build using config
-* node hello-world.js
+# [Basic Setup](https://code.visualstudio.com/docs/typescript/typescript-tutorial)
+* `npm install -g typescript`
+* `tsc --version`
+* `tsc --init` creates tsconfig.json and assigns all .ts files to project
+* `touch hello-world.ts`
+* `tsc` compiles .ts files in project OR `tsc -p ../tsconfig.json` compile using specific tsconfig.json
+* `node hello-world.js`

@@ -281,6 +281,7 @@
 * [-] [DATA VISUALIZATION CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
 * [-] [COMPLETE PYTHON DEVELOPER IN 2020: ZERO TO MASTERY](https://www.udemy.com/course/complete-python-developer-zero-to-mastery) *Purchased*
 * [-] [COMPLETE MACHINE LEARNING AND DATA SCIENCE: ZERO TO MASTERY](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery) *Purchased*
+* [-] [PYTHON MACHINE LEARNING WITH TENSORFLOW](https://www.freecodecamp.org/news/massive-tensorflow-2-0-free-course/)
 * [-] [THINK PYTHON 2E](https://greenteapress.com/wp/think-python-2e)
 * [-] [THINK STATS 2E](https://greenteapress.com/wp/think-stats-2e)
 
