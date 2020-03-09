@@ -91,6 +91,9 @@
 * You Might Not Need jQuery <http://youmightnotneedjquery.com/>
 * Loupe (Visualizing the JS Runtime at Runtime): <https://github.com/latentflip/loupe>
 
+# TypeScript
+* [class-validator: Validation made easy using TypeScript decorators](https://github.com/typestack/class-validator)
+
 # Project Management
 * ClickUp (Kanban Project Manager) <https://clickup.com/>
 * Airtable (Kanban Project Manager) <https://airtable.com>
