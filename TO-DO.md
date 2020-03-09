@@ -33,8 +33,9 @@
 # JS/TYPESCRIPT
 * [-] [JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
 * [-] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course) *Purchased*
-* [-] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript) *Purchased*
-* [-] [TYPESCRIPT: THE COMPLETE DEVELOPER'S GUIDE 2020](https://www.udemy.com/course/typescript-the-complete-developers-guide/)
+* [.] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript) *Purchased*
+* [-] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns) *Purchased*
+* [-] [DESIGN PATTERNS IN TYPESCRIPT](https://refactoring.guru/design-patterns/typescript)
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
 * [-] [DO MORE WITH REDUCE](https://jrsinclair.com/articles/2019/functional-js-do-more-with-reduce)
 * [-] [YOU DON'T KNOW JAVASCRIPT](https://github.com/getify/You-Dont-Know-JS)
