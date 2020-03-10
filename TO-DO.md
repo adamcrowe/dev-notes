@@ -66,7 +66,6 @@
 * [/] [HOW THE WEB WORKS PART III: HTTP & REST](https://www.freecodecamp.org/news/how-the-web-works-part-iii-http-rest-e61bc50fa0a/)
 * [/] [HOW I EXPLAINED REST TO MY WIFE](https://web.archive.org/web/20130116005443/http://tomayko.com/writings/rest-to-my-wife)
 * [-] [BUILD FRONT-END APPS WITH PLAIN JAVASCRIPT](https://web-engineering.info/JsFrontendApp-Book)
-* [-] [HOW TO BUILD TYPESCRIPT APP AND DEPLOY IT ON GITHUB PAGES](https://zubialevich.blogspot.com/2018/09/how-to-build-typescript-github-pages-app.html)
 * [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
 * [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
 * [/] [INSTANT HANDLEBARS](https://www.oreilly.com/library/view/instant-handlebarsjs/9781783282654)
@@ -292,8 +291,8 @@
 * [-] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign/)
 
 # UI DESIGN
-* [-] [LEARN UX: FIGMA COURSE](https://learnux.io/course/figma)
 * [-] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma)
+* [-] [LEARN UX: FIGMA COURSE](https://learnux.io/course/figma)
 * [-] [FIGMA: LEARN DESIGN PILOT](https://www.figma.com/resources/learn-design)
 * [-] [FIGMA: LEARN DESIGN](https://www.figma.com/resources/learn-design/getting-started)
 * [-] [FIGMA: TUTORIALS](https://www.youtube.com/channel/UCQsVmhSa4X-G3lHlUtejzLA/videos?view=0&sort=da&flow=grid)
@@ -308,7 +307,6 @@
 * [/] [REFACTORING UI: 7 PRACTICAL TIPS FOR CHEATING AT DESIGN](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
 * [/] [REFACTORING UI: REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
 * [/] [HIGH RESOLUTION - UI DESIGNER INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
-* [-] [USER EXPERIENCE DESIGN - LEARN THE UX UI PROCESS & ADOBE XD](https://www.udemy.com/course/user-interface-user-experience-design-ui-ux-with-adobe-xd)
 
 # VISUAL DESIGN
 * [-] [THEORY SPRINTS: COURSE](https://proximityschool.com/theory-sprints)
