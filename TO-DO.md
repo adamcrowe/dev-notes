@@ -65,7 +65,6 @@
 * [/] [HTTP: EVERYTHING YOU NEED TO KNOW](https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it)
 * [/] [HOW THE WEB WORKS PART III: HTTP & REST](https://www.freecodecamp.org/news/how-the-web-works-part-iii-http-rest-e61bc50fa0a/)
 * [/] [HOW I EXPLAINED REST TO MY WIFE](https://web.archive.org/web/20130116005443/http://tomayko.com/writings/rest-to-my-wife)
-* [-] [BUILD FRONT-END APPS WITH PLAIN JAVASCRIPT](https://web-engineering.info/JsFrontendApp-Book)
 * [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
 * [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
 * [/] [INSTANT HANDLEBARS](https://www.oreilly.com/library/view/instant-handlebarsjs/9781783282654)
