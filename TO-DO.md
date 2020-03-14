@@ -103,16 +103,16 @@
 * [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 
 # FRONTEND (VUE)
-* [-] [VUE.JS TODO APP](https://www.youtube.com/watch?v=A5S23KS_-bU&list=PLEhEHUEU3x5q-xB1On4CsLPts0-rZ9oos)
-* [-] [BUILDING A CONVERTKIT OPT-IN FORM WITH VUE.JS](https://www.youtube.com/watch?v=UM4TR3RN_j8)
-* [-] [WEATHER APP W/ VUE, TAILWIND CSS & LARAVEL](https://www.youtube.com/watch?v=_nSzMDx79Ao)
-* [-] [MOJAVE APP STORE REBUILD WITH TAILWIND CSS, ELECTRON AND VUE](https://github.com/drehimself/app-store-tailwind)
-* [-] [GRAPHQL WITH LARAVEL & VUE](https://www.youtube.com/watch?v=hvjW-MQEwIM&list=PLEhEHUEU3x5qsA5JnRzhgOghrH9Vqz4cg)
 * [-] [VUE JS 2 - THE COMPLETE GUIDE (INCL. VUE ROUTER & VUEX)](https://www.udemy.com/course/vuejs-2-the-complete-guide)
 * [-] [VUE JS: INTRODUCTION](https://vuejs.org/v2/guide)
 * [-] [VUE MASTERY (NUXT)](https://www.vuemastery.com/courses)
 * [-] [ADVANCED VUE COMPONENT DESIGN](https://adamwathan.me/advanced-vue-component-design)
 * [-] [NUXTJS: THE PROGRESSIVE VUE.JS FRAMEWORK](https://nuxtjs.org)
+* [-] [VUE.JS TODO APP](https://www.youtube.com/watch?v=A5S23KS_-bU&list=PLEhEHUEU3x5q-xB1On4CsLPts0-rZ9oos)
+* [-] [BUILDING A CONVERTKIT OPT-IN FORM WITH VUE.JS](https://www.youtube.com/watch?v=UM4TR3RN_j8)
+* [-] [WEATHER APP W/ VUE, TAILWIND CSS & LARAVEL](https://www.youtube.com/watch?v=_nSzMDx79Ao)
+* [-] [MOJAVE APP STORE REBUILD WITH TAILWIND CSS, ELECTRON AND VUE](https://github.com/drehimself/app-store-tailwind)
+* [-] [GRAPHQL WITH LARAVEL & VUE](https://www.youtube.com/watch?v=hvjW-MQEwIM&list=PLEhEHUEU3x5qsA5JnRzhgOghrH9Vqz4cg)
 
 # FUNCTIONAL REACTIVE
 * [-] [RXJS IN PRACTICE COURSE](https://angular-university.io/course/rxjs-course)
