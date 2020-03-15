@@ -59,6 +59,7 @@
 * [/] CORE JAVASCRIPT CONCEPTS
 
 # FRONTEND (VARIOUS)
+* [-] [JAMSTACK TUTORIAL](https://www.freecodecamp.org/news/jamstack-full-course/)
 * [-] [MODERN WEB DEVELOPMENT ON THE JAMSTACK](https://www.netlify.com/oreilly-jamstack)
 * [/] [VUE JS: COMPARISON WITH OTHER FRAMEWORKS](https://vuejs.org/v2/guide/comparison.html)
 * [-] [HOW BROWSERS WORK: BEHIND THE SCENES OF MODERN WEB BROWSERS](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
