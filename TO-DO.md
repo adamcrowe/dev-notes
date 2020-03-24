@@ -9,6 +9,8 @@
 * [/] [WATCH AND CODE - BEAST CHALLENGES](https://github.com/gordonmzhu)
 
 # HTML/CSS
+* [-] [FREECODE CAMP: RESPONSIVE WEB DESIGN CERTIFICATION](https://www.freecodecamp.org/learn/)
+* [-] [FREECODE CAMP: FRONT END LIBRARIES CERTIFICATION](https://www.freecodecamp.org/learn)
 * [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3) *Purchased*
 * [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass) *Purchased*
 * [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) *Purchased*
@@ -29,9 +31,10 @@
 * [/] [RESPONSIVE WEB DESIGN](https://alistapart.com/article/responsive-web-design)
 * [/] [MODERN CSS EXPLAINED FOR DINOSAURS](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
 * [/] [CHROME DEVELOPER TOOLS TUTORIAL: INSPECT AND TEST CSS 2019](https://www.youtube.com/watch?v=s0RI4IXKE_o)
+* [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
 
-# JS/TYPESCRIPT
-* [-] [JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
+# JAVASCRIPT/TYPESCRIPT
+* [-] [FREECODE CAMP: JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION](https://www.freecodecamp.org/learn)
 * [-] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course) *Purchased*
 * [.] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript) *Purchased*
 * [-] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns) *Purchased*
@@ -56,20 +59,25 @@
 * [-] [THE COMPLETE TYPESCRIPT COURSE](https://angular-university.io/course/typescript-2-tutorial)
 * [/] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
 * [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
+* [/] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
 * [/] CORE JAVASCRIPT CONCEPTS
 
 # FRONTEND (VARIOUS)
-* [-] [JAMSTACK TUTORIAL](https://www.freecodecamp.org/news/jamstack-full-course/)
+* [-] [JAMSTACK TUTORIAL](https://www.freecodecamp.org/news/jamstack-full-course)
 * [-] [MODERN WEB DEVELOPMENT ON THE JAMSTACK](https://www.netlify.com/oreilly-jamstack)
-* [/] [VUE JS: COMPARISON WITH OTHER FRAMEWORKS](https://vuejs.org/v2/guide/comparison.html)
-* [-] [HOW BROWSERS WORK: BEHIND THE SCENES OF MODERN WEB BROWSERS](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+* [-] [NETLIFY, NUXTJS, AND CONTENTFUL](https://blog.theodo.com/2020/03/content-driven-static-website)
+* [-] [COMPLETE INTRO TO NETLIFY](https://www.netlify.com/blog/2019/10/07/complete-intro-to-netlify-in-3.5-hours)
+* [-] [CODING MODERN WEBSITES WITH THE JAMSTACK - PART 1/3](https://www.netlify.com/blog/2017/10/06/coding-modern-websites-with-the-jamstack-part-1)
+* [-] [HOW TO RUN EXPRESS.JS APPS WITH NETLIFY FUNCTIONS](https://www.netlify.com/blog/2018/09/13/how-to-run-express.js-apps-with-netlify-functions)
+* [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
+* [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws)
+* [-] [HOW TO DEPLOY A REACT APP TO PRODUCTION ON AWS USING EXPRESS, POSTGRES, PM2 AND NGINX](https://www.freecodecamp.org/news/production-fullstack-react-express)
+* [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
+* [/] [INSTANT HANDLEBARS](https://www.oreilly.com/library/view/instant-handlebarsjs/9781783282654)
 * [/] [HTTP: EVERYTHING YOU NEED TO KNOW](https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it)
 * [/] [HOW THE WEB WORKS PART III: HTTP & REST](https://www.freecodecamp.org/news/how-the-web-works-part-iii-http-rest-e61bc50fa0a/)
 * [/] [HOW I EXPLAINED REST TO MY WIFE](https://web.archive.org/web/20130116005443/http://tomayko.com/writings/rest-to-my-wife)
-* [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
-* [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
-* [/] [INSTANT HANDLEBARS](https://www.oreilly.com/library/view/instant-handlebarsjs/9781783282654)
-* [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
+* [-] [HOW BROWSERS WORK: BEHIND THE SCENES OF MODERN WEB BROWSERS](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 
 # FRONTEND (ANGULAR)
 * [-] [ANGULAR 8 - THE COMPLETE GUIDE 2019+ EDITION](https://www.udemy.com/the-complete-guide-to-angular-2) *Purchased*
@@ -88,7 +96,7 @@
 * [/] [ANGULAR DOCS](https://angular.io/guide)
 * [-] [NATIVESCRIPT + ANGULAR: BUILD NATIVE IOS, ANDROID & WEB APPS](https://www.udemy.com/nativescript-angular-build-native-ios-android-web-apps)
 
-# FRONTEND (REACT + REACT NATIVE)
+# FRONTEND (REACT)
 * [-] [COMPLETE REACT DEVELOPER IN 2020 (W/ REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery) *Purchased*
 * [-] [REACT - THE COMPLETE GUIDE (INCL HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
 * [-] [LEARN REACT - FULL COURSE FOR BEGINNERS](https://www.freecodecamp.org/news/learn-react-course)
@@ -114,6 +122,7 @@
 * [-] [WEATHER APP W/ VUE, TAILWIND CSS & LARAVEL](https://www.youtube.com/watch?v=_nSzMDx79Ao)
 * [-] [MOJAVE APP STORE REBUILD WITH TAILWIND CSS, ELECTRON AND VUE](https://github.com/drehimself/app-store-tailwind)
 * [-] [GRAPHQL WITH LARAVEL & VUE](https://www.youtube.com/watch?v=hvjW-MQEwIM&list=PLEhEHUEU3x5qsA5JnRzhgOghrH9Vqz4cg)
+* [/] [VUE JS: COMPARISON WITH OTHER FRAMEWORKS](https://vuejs.org/v2/guide/comparison.html)
 
 # FUNCTIONAL REACTIVE
 * [-] [RXJS IN PRACTICE COURSE](https://angular-university.io/course/rxjs-course)
@@ -136,7 +145,8 @@
 * [-] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
 * [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 
-# NODE
+# BACKEND (NODE)
+* [-] [FREECODE CAMP: APIS AND MICROSERVICES CERTIFICATION](https://www.freecodecamp.org/learn/)
 * [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
 * [-] [NODE.JS, EXPRESS, MONGODB & MORE: THE COMPLETE BOOTCAMP 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp) *Purchased*
 * [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide) *Purchased*
@@ -153,10 +163,11 @@
 * [-] [BUILD A NODE.JS API IN UNDER 30 MINUTES](https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/)
 * [/] [GETTING STARTED WITH NODE.JS - FULL TUTORIAL](https://www.youtube.com/watch?v=gG3pytAY2MY)
 
-# LARAVEL
+# BACKEND (LARAVEL)
 * [-] [TEST-DRIVEN LARAVEL](https://course.testdrivenlaravel.com)
 
-# TESTING
+# TESTING/SECURITY
+* [-] [FREECODE CAMP: INFORMATION SECURITY AND QUALITY ASSURANCE CERTIFICATION](https://www.freecodecamp.org/learn/)
 * [-] [THE WAY OF THE WEB TESTER: A BEGINNER'S GUIDE TO AUTOMATING TESTS](https://pragprog.com/book/jrtest/the-way-of-the-web-tester)
 * [-] [EXPLORE IT!: REDUCE RISK AND INCREASE CONFIDENCE WITH EXPLORATORY TESTING](https://pragprog.com/book/ehxta/explore-it)
 * [-] [CHROME DEVTOOLS](https://developers.google.com/web/tools/chrome-devtools)
@@ -171,6 +182,11 @@
 * [-] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 * [-] [END-TO-END API TESTING WITH DOCKER](https://www.freecodecamp.org/news/end-to-end-api-testing-with-docker)
 * [-] [THE ULTIMATE GUIDE TO END-TO-END TESTS WITH SELENIUM AND DOCKER](https://www.freecodecamp.org/news/end-to-end-tests-with-selenium-and-docker-the-ultimate-guide)
+* [-] [JWT AUTH TUTORIAL](https://www.freecodecamp.org/news/what-are-json-web-tokens-jwt-auth-tutorial)
+* [-] [A QUICK INTRODUCTION TO WEB SECURITY](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
+* [-] [WEB APP PENETRATION TESTING FOR ETHICAL HACKING](https://www.freecodecamp.org/news/web-app-penetration-testing-full-course)
+* [-] [HACK THIS SITE](https://www.hackthissite.org)
+* [-] [HACKER 101](https://www.hacker101.com)
 
 # SQL
 * [-] [LEARN SQL WITH THIS FREE 4-HOUR COURSE ON THE POPULAR POSTGRESQL DATABASE](https://www.freecodecamp.org/news/postgresql-full-course)
@@ -183,7 +199,7 @@
 * [-] [MYSQL TUTORIAL](http://www.mysqltutorial.org)
 * [-] [SQL: FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=HXV3zeQKqGY)
 
-# UNIX/CLI/BASH/GIT/EDITORS
+# TOOLS (EDITORS/UNIX/BASH/GIT/DOCKER)
 * [/] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac)
 * [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
 * [/] [OLIVER: SET UP YOUR .BASH_PROFILE, .BASHRC, AND OTHER DOTFILES](http://oliverelliott.org/article/computing/tips_mac/9)
@@ -205,6 +221,7 @@
 * [-] [HOW TO UNDO (ALMOST) ANYTHING WITH GIT](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git)
 * [-] [PRO GIT](https://www.apress.com/gp/book/9781484200773)
 * [-] [COMMAND LINE TRICKS FOR MANAGING YOUR MESSY OPEN SOURCE REPOSITORY](https://www.freecodecamp.org/news/command-line-tricks-for-managing-your-messy-open-source-repository/)
+* [-] [LEARN DEVOPS BASICS WITH THIS FREE 2-HOUR DOCKER COURSE](https://www.freecodecamp.org/news/docker-devops-course)
 
 # CS
 * [-] CODE: THE HIDDEN LANGUAGE OF COMPUTER HARDWARE AND SOFTWARE
@@ -252,24 +269,7 @@
 * [-] JOEL ON SOFTWARE
 * [-] MORE JOEL ON SOFTWARE
 
-# DEPLOYMENT
-* [-] [CODING MODERN WEBSITES WITH THE JAMSTACK - PART 1/3](https://www.netlify.com/blog/2017/10/06/coding-modern-websites-with-the-jamstack-part-1)
-* [-] [HOW TO RUN EXPRESS.JS APPS WITH NETLIFY FUNCTIONS](https://www.netlify.com/blog/2018/09/13/how-to-run-express.js-apps-with-netlify-functions)
-* [-] [COMPLETE INTRO TO NETLIFY](https://www.netlify.com/blog/2019/10/07/complete-intro-to-netlify-in-3.5-hours)
-* [-] [LEARN DEVOPS BASICS WITH THIS FREE 2-HOUR DOCKER COURSE](https://www.freecodecamp.org/news/docker-devops-course)
-* [-] [WORDPRESS CONTINUOUS DEPLOYMENT](https://bitbucket.org/blog/wordpress-continuous-deployment)
-* [/] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
-* [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws)
-* [-] [HOW TO DEPLOY A REACT APP TO PRODUCTION ON AWS USING EXPRESS, POSTGRES, PM2 AND NGINX](https://www.freecodecamp.org/news/production-fullstack-react-express)
-
-# SECURITY
-* [-] [JWT AUTH TUTORIAL](https://www.freecodecamp.org/news/what-are-json-web-tokens-jwt-auth-tutorial)
-* [-] [A QUICK INTRODUCTION TO WEB SECURITY](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
-* [-] [WEB APP PENETRATION TESTING FOR ETHICAL HACKING](https://www.freecodecamp.org/news/web-app-penetration-testing-full-course)
-* [-] [HACK THIS SITE](https://www.hackthissite.org)
-* [-] [HACKER 101](https://www.hacker101.com)
-
-# DATA/VISUALIZATION
+# DATA VISUALIZATION
 * [-] [THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION](https://www.amazon.co.uk/Visual-Display-Quantitative-Information/dp/1930824130)
 * [-] [DATA VISUALISATION: A HANDBOOK FOR DATA DRIVEN DESIGN](https://www.amazon.co.uk/Data-Visualisation-Handbook-Driven-Design/dp/1526468921)
 * [-] [INTERACTIVE DATA VISUALIZATION FOR THE WEB (2ND ED)](https://alignedleft.com/work/d3-book-2e) *Purchased*
@@ -278,12 +278,16 @@
 * [-] [FULLSTACK D3 AND DATA VISUALIZATION](https://www.newline.co/fullstack-d3)
 * [-] [D3 TUTORIALS](https://github.com/d3/d3/wiki/Tutorials)
 * [/] [DASHING D3JS: Tutorial](https://www.dashingd3js.com/table-of-contents)
-* [-] [DATA VISUALIZATION CERTIFICATION (300 HOURS)](https://www.freecodecamp.org/learn)
+* [-] [FREECODE CAMP: DATA VISUALIZATION CERTIFICATION](https://www.freecodecamp.org/learn)
+
+# DATA SCIENCE
 * [-] [COMPLETE PYTHON DEVELOPER IN 2020: ZERO TO MASTERY](https://www.udemy.com/course/complete-python-developer-zero-to-mastery) *Purchased*
 * [-] [COMPLETE MACHINE LEARNING AND DATA SCIENCE: ZERO TO MASTERY](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery) *Purchased*
 * [-] [PYTHON MACHINE LEARNING WITH TENSORFLOW](https://www.freecodecamp.org/news/massive-tensorflow-2-0-free-course/)
 * [-] [THINK PYTHON 2E](https://greenteapress.com/wp/think-python-2e)
 * [-] [THINK STATS 2E](https://greenteapress.com/wp/think-stats-2e)
+* [-] [HEAD FIRST DATA ANALYSIS](http://shop.oreilly.com/product/9780596153946.do)
+* [-] [HEAD FIRST STATISTICS](http://shop.oreilly.com/product/9780596527587.do)
 
 # UX DESIGN
 * [-] [BECOME A PRODUCT MANAGER](https://www.udemy.com/course/become-a-product-manager-learn-the-skills-get-a-job) *Purchased*
@@ -321,3 +325,6 @@
 * [-] [DRIBBLE COLORS](https://dribbble.com/colors)
 * [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack)
 * [-] [RECURSIVE TYPEFACE](https://www.recursive.design)
+
+# TECHNICAL WRITING
+* [-] [TECHNICAL WRITING COURSES FOR ENGINEERS](https://developers.google.com/tech-writing)
