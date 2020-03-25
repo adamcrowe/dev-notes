@@ -5,7 +5,7 @@
 
 # WATCH AND CODE
 * [/] [WATCH AND CODE - PRACTICAL JAVASCRIPT](https://watchandcode.com)
-* [.] [WATCH AND CODE - PREMIUM MEMBERSHIP](https://watchandcode.com)
+* [-] [WATCH AND CODE - PREMIUM MEMBERSHIP](https://watchandcode.com)
 * [/] [WATCH AND CODE - BEAST CHALLENGES](https://github.com/gordonmzhu)
 
 # HTML/CSS
@@ -236,7 +236,6 @@
 * [-] [IMPOSTER'S HANDBOOK](https://bigmachine.io/products/the-imposters-handbook)
 * [-] [LEARNING ALGORITHMS APP](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
 * [-] [MATHS FOR PROGRAMMERS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
-* [-] CRACKING THE CODING INTERVIEW
 
 # CRAFTMANSHIP
 * [/] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP 2020](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap) *Purchased*
@@ -269,11 +268,17 @@
 * [-] JOEL ON SOFTWARE
 * [-] MORE JOEL ON SOFTWARE
 
+# INTERVIEWS
+* [-] [FRONT-END JOB INTERVIEW QUESTIONS](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+* [-] [INTERVIEWING FOR FRONT-END ENGINEERS](https://frontendmasters.com/courses/interviewing-frontend)
+* [-] [MASTER THE CODING INTERVIEW: DATA STRUCTURES + ALGORITHMS](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms)
+* [-] [CRACKING THE CODING INTERVIEW](http://www.crackingthecodinginterview.com)
+
 # DATA VISUALIZATION
 * [-] [THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION](https://www.amazon.co.uk/Visual-Display-Quantitative-Information/dp/1930824130)
 * [-] [DATA VISUALISATION: A HANDBOOK FOR DATA DRIVEN DESIGN](https://www.amazon.co.uk/Data-Visualisation-Handbook-Driven-Design/dp/1526468921)
 * [-] [INTERACTIVE DATA VISUALIZATION FOR THE WEB (2ND ED)](https://alignedleft.com/work/d3-book-2e) *Purchased*
-* [.] [MASTERING DATA VISUALIZATION IN D3.JS](https://www.udemy.com/course/masteringd3js) *Purchased*
+* [-] [MASTERING DATA VISUALIZATION IN D3.JS](https://www.udemy.com/course/masteringd3js) *Purchased*
 * [-] [INTERACTIVE DATA VISUALIZATION WITH MODERN JAVASCRIPT AND D3](https://www.sitepoint.com/interactive-data-visualization-javascript-d3)
 * [-] [FULLSTACK D3 AND DATA VISUALIZATION](https://www.newline.co/fullstack-d3)
 * [-] [D3 TUTORIALS](https://github.com/d3/d3/wiki/Tutorials)
