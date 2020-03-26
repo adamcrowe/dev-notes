@@ -124,6 +124,11 @@
 * [-] [GRAPHQL WITH LARAVEL & VUE](https://www.youtube.com/watch?v=hvjW-MQEwIM&list=PLEhEHUEU3x5qsA5JnRzhgOghrH9Vqz4cg)
 * [/] [VUE JS: COMPARISON WITH OTHER FRAMEWORKS](https://vuejs.org/v2/guide/comparison.html)
 
+# STATE MANAGEMENT
+* [-] [REDUX: BASIC TUTORIAL](https://redux.js.org/basics/basic-tutorial)
+* [-] [REDUX: ADVANCED TUTORIAL](https://redux.js.org/advanced/advanced-tutorial)
+* [-] [REDUX: LEARNING RESOURCES](https://redux.js.org/introduction/learning-resources)
+
 # FUNCTIONAL REACTIVE
 * [-] [RXJS IN PRACTICE COURSE](https://angular-university.io/course/rxjs-course)
 * [-] [RXJS AND REACTIVE PATTERNS ANGULAR ARCHITECTURE COURSE](https://angular-university.io/course/reactive-angular-architecture-course)

@@ -1,1 +1,0 @@
-State is the outcome of all of the actions that the user has taken since the application loaded. (Other agents might affect state e.g., the server might set some variables, a service worker might do something in the background, etc.)
