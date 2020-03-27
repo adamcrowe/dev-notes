@@ -97,9 +97,12 @@
 * [-] [NATIVESCRIPT + ANGULAR: BUILD NATIVE IOS, ANDROID & WEB APPS](https://www.udemy.com/nativescript-angular-build-native-ios-android-web-apps)
 
 # FRONTEND (REACT)
+* [.] [REACT DOCS: HELLO WORLD + THINKING IN REACT](https://reactjs.org/docs/hello-world.html)
+* [-] [REACT DOCS: TUTORIAL: TIC-TAC-TOE GAME ](https://reactjs.org/tutorial/tutorial.html)
 * [-] [COMPLETE REACT DEVELOPER IN 2020 (W/ REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery) *Purchased*
 * [-] [REACT - THE COMPLETE GUIDE (INCL HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
 * [-] [LEARN REACT - FULL COURSE FOR BEGINNERS](https://www.freecodecamp.org/news/learn-react-course)
+* [-] [REACT FOR DESIGNERS (REACT + FIGMA)](https://designcode.io/react)
 * [-] [LEARN HOW TO USE APIS WITH REACT BY BUILDING A HACKER NEWS API APPLICATION](https://www.freecodecamp.org/news/learn-how-to-use-apis-with-react-by-building-a-hacker-news-api-application)
 * [-] [LEARN TO USE APIS IN REACT BY CREATING A RECIPE APP](https://www.freecodecamp.org/news/apis-in-react)
 * [-] [TAKE YOUR REACT SKILLS TO THE NEXT LEVEL BY BUILDING A TODOIST CLONE](https://www.freecodecamp.org/news/react-firebase-todoist-clone)
@@ -125,16 +128,17 @@
 * [/] [VUE JS: COMPARISON WITH OTHER FRAMEWORKS](https://vuejs.org/v2/guide/comparison.html)
 
 # STATE MANAGEMENT
-* [-] [REDUX: BASIC TUTORIAL](https://redux.js.org/basics/basic-tutorial)
+* [.] [REDUX: BASIC TUTORIAL](https://redux.js.org/basics/basic-tutorial)
 * [-] [REDUX: ADVANCED TUTORIAL](https://redux.js.org/advanced/advanced-tutorial)
 * [-] [REDUX: LEARNING RESOURCES](https://redux.js.org/introduction/learning-resources)
+* [-] [REASONS TO LEARN REDUX AS A JAVASCRIPT DEVELOPER](https://www.robinwieruch.de/redux-javascript)
+* [-] [GETTING STARTED WITH REDUX](https://egghead.io/courses/getting-started-with-redux)
+* [-] [BUILDING REACT APPLICATIONS WITH IDIOMATIC REDUX](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
+* [/] [THINKING IN REACT (UI COMPONENT ARCHITECTURE + UI STATE)](https://reactjs.org/docs/thinking-in-react.html)
 
 # FUNCTIONAL REACTIVE
 * [-] [RXJS IN PRACTICE COURSE](https://angular-university.io/course/rxjs-course)
 * [-] [RXJS AND REACTIVE PATTERNS ANGULAR ARCHITECTURE COURSE](https://angular-university.io/course/reactive-angular-architecture-course)
-* [-] [REASONS TO LEARN REDUX AS A JAVASCRIPT DEVELOPER](https://www.robinwieruch.de/redux-javascript)
-* [-] [GETTING STARTED WITH REDUX](https://egghead.io/courses/getting-started-with-redux)
-* [-] [BUILDING REACT APPLICATIONS WITH IDIOMATIC REDUX](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
 * [-] [THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 * [-] [ASYNCHRONOUS PROGRAMMING: THE END OF THE LOOP](https://egghead.io/courses/asynchronous-programming-the-end-of-the-loop)
 * [-] [INTRODUCTION TO REACTIVE PROGRAMMING](https://egghead.io/courses/introduction-to-reactive-programming)
@@ -305,6 +309,7 @@
 * [-] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign/)
 
 # UI DESIGN
+* [/] [THINKING IN REACT (UI COMPONENT ARCHITECTURE + UI STATE)](https://reactjs.org/docs/thinking-in-react.html)
 * [-] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma)
 * [-] [LEARN UX: FIGMA COURSE](https://learnux.io/course/figma)
 * [-] [FIGMA: LEARN DESIGN PILOT](https://www.figma.com/resources/learn-design)
