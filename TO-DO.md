@@ -237,16 +237,16 @@
 # CS
 * [-] CODE: THE HIDDEN LANGUAGE OF COMPUTER HARDWARE AND SOFTWARE
 * [-] [NAND TO TETRIS](https://www.nand2tetris.org)
+* [-] [STRUCTURE AND INTERPRETATION OF COMPUTER PROGRAMS — JAVASCRIPT ADAPTATION](https://sicp.comp.nus.edu.sg)
 * [-] [PRACTICAL PROGRAMMING: AN INTRODUCTION TO COMPUTER SCIENCE USING PYTHON 3](https://pragprog.com/book/gwpy3/practical-programming-third-edition)
-* [-] [STANFORD COMPUTER SCIENCE CURRICULUM ONLINE](https://medium.com/the-mission/how-to-learn-to-code-for-free-at-stanford-and-make-six-figures-in-under-1-year-4bf95baf793b)
 * [-] [A COMMON-SENSE GUIDE TO DATA STRUCTURES AND ALGORITHMS](https://pragprog.com/book/jwdsal/a-common-sense-guide-to-data-structures-and-algorithms)
 * [-] [DATA STRUCTURES AND ALGORITHMS WITH JAVASCRIPT](http://shop.oreilly.com/product/0636920029557.do)
 * [-] [DATA STRUCTURES AND ALGORITHMS IN JAVASCRIPT - FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=t2CEgPsws3U)
-* [-] [HOW DO COMPUTERS AND THE INTERNET WORK? - COMPUTER SCIENCE BASICS](https://www.youtube.com/watch?v=AV_VYsJnHQQ)
-* [-] [ELEMENTS OF AI](https://www.elementsofai.com)
 * [-] [IMPOSTER'S HANDBOOK](https://bigmachine.io/products/the-imposters-handbook)
 * [-] [LEARNING ALGORITHMS APP](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
+* [-] [ELEMENTS OF AI](https://www.elementsofai.com)
 * [-] [MATHS FOR PROGRAMMERS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
+* [-] [HOW DO COMPUTERS AND THE INTERNET WORK? - COMPUTER SCIENCE BASICS](https://www.youtube.com/watch?v=AV_VYsJnHQQ)
 
 # CRAFTMANSHIP
 * [/] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP 2020](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap)
@@ -284,6 +284,7 @@
 * [-] [INTERVIEWING FOR FRONT-END ENGINEERS](https://frontendmasters.com/courses/interviewing-frontend)
 * [-] [MASTER THE CODING INTERVIEW: DATA STRUCTURES + ALGORITHMS](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms)
 * [-] [CRACKING THE CODING INTERVIEW](http://www.crackingthecodinginterview.com)
+* [-] [LEET CODE](https://leetcode.com)
 
 # DATA VISUALIZATION
 * [-] [THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION](https://www.amazon.co.uk/Visual-Display-Quantitative-Information/dp/1930824130)
