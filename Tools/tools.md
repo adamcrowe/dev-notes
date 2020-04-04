@@ -7,10 +7,13 @@
 * The Star Wars API: All the Star Wars data you've ever wanted <https://swapi.co>
 
 # CS + Security
-* Binary Representation of Base 10 Numbers <http://bartaz.github.io/ieee754-visualization/>
-* How to Store User Passwords and Overcome Security Threats in 2017 <https://rangle.io/blog/how-to-store-user-passwords-and-overcome-security-threats-in-2017/>
+* Binary Representation of Base 10 Numbers <http://bartaz.github.io/ieee754-visualization>
+* How to Store User Passwords and Overcome Security Threats in 2017 <https://rangle.io/blog/how-to-store-user-passwords-and-overcome-security-threats-in-2017>
 
-# CSS Testing + UI Kits
+# HTML
+* How to manage HTML DOM with vanilla JavaScript only <https://htmldom.dev>
+
+# CSS UI Kits + Testing
 * Tailwind CSS Framework <https://tailwindcss.com>
 * Tailwind UI Framework <https://tailwindui.com>
 * Awesome things related to Tailwind CSS <https://github.com/aniftyco/awesome-tailwindcss>
@@ -19,21 +22,22 @@
 * Clarity Design System <https://clarity.design>
 * GitHub Primer Design System <https://primer.style>
 * Media Queries Cheatsheet <https://gist.github.com/bartholomej/8415655>
-* CSS Snippets <https://atomiks.github.io/30-seconds-of-css/>
+* CSS Layout: A collection of popular layouts and patterns made with CSS <https://csslayout.io>
+* CSS Snippets <https://atomiks.github.io/30-seconds-of-css>
 * Animation Easing Functions <https://easings.net/en>
 * Browser Screen Size Stats <https://gs.statcounter.com>
-* Sizzy: Responsive design browser <https://sizzy.co/>
-* Resizer <https://material.io/resizer/>
-* Responsive Tester <http://www.responsivetester.net/>
-* Responsive Tester <https://www.responsinator.com/>
-* Dummy Image <https://dummyimage.com/>
-* Grid Calculator <http://gridcalculator.dk/>
+* Sizzy: Responsive design browser <https://sizzy.co>
+* Resizer <https://material.io/resizer>
+* Responsive Tester <http://www.responsivetester.net>
+* Responsive Tester <https://www.responsinator.com>
+* Dummy Image <https://dummyimage.com>
+* Grid Calculator <http://gridcalculator.dk>
 
 # Databases
-* PostgreSQL GUI tool for macOS <http://www.psequel.com/>
+* PostgreSQL GUI tool for macOS <http://www.psequel.com>
 
 # Debugging + Testing
-* ShellCheck: Finds bugs in your shell scripts <https://www.shellcheck.net/>
+* ShellCheck: Finds bugs in your shell scripts <https://www.shellcheck.net>
 * Wallaby.js: Run tests in editor <https://wallabyjs.com>
   * Demo <https://www.youtube.com/watch?v=P4UQ-jTTJJ4>
 * Quokka.js: Run code in editor <https://quokkajs.com>
@@ -41,12 +45,12 @@
 # Deployment
 * Netlify <https://www.netlify.com/>
 * Now: App Deployment <https://zeit.co/now>
-* StackBlitz: Create, edit & deploy fullstack apps — in just one click <https://stackblitz.com/>
+* StackBlitz: Create, edit & deploy fullstack apps — in just one click <https://stackblitz.com>
 
 # Documentation + Linting
 * EditorConfig: Maintain consistent coding styles between different editors and IDEs <http://editorconfig.org>
-* JSDoc: Code Documentation Guidelines <http://usejsdoc.org/>
-* Popular Coding Conventions by Language <http://sideeffect.kr/popularconvention/>
+* JSDoc: Code Documentation Guidelines <http://usejsdoc.org>
+* Popular Coding Conventions by Language <http://sideeffect.kr/popularconvention>
 * Writing System Software: Code Comments <http://antirez.com/news/124>
 * Highlight JS: Code snippets <https://highlightjs.org>
 * Storybook is an open source tool for developing UI components in isolation <https://storybook.js.org>
@@ -87,7 +91,7 @@
 <https://www.codespot.org/how-to-build-a-blog-with-gatsby-and>
 
 # JavaScript
-* JS Equality Table <http://dorey.github.io/JavaScript-Equality-Table/>
+* JS Equality Table <http://dorey.github.io/JavaScript-Equality-Table>
 * Webpack Guide <https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70>
 * RequireJS <http://requirejs.org/docs/download.html#text>
 * BadJS.org is a repository of malicious JavaScript <https://badjs.org>
@@ -98,16 +102,16 @@
 * [class-validator: Validation made easy using TypeScript decorators](https://github.com/typestack/class-validator)
 
 # Project Management
-* ClickUp (Kanban Project Manager) <https://clickup.com/>
+* ClickUp (Kanban Project Manager) <https://clickup.com>
 * Airtable (Kanban Project Manager) <https://airtable.com>
 
 # Site Optimization
 * Google Search Console <https://search.google.com/search-console/about>
 * Google Page Speed Insights <https://developers.google.com/speed/pagespeed/insights/>
 * Lighthouse PWA Analysis Tool <https://developers.google.com/web/ilt/pwa/lighthouse-pwa-analysis-tool>
-* Third-party Tools <https://progressivetooling.com/>
-* Webpage Test <https://www.webpagetest.org/>
-* Minify JS or CSS code <https://www.minifier.org/>
+* Third-party Tools <https://progressivetooling.com>
+* Webpage Test <https://www.webpagetest.org>
+* Minify JS or CSS code <https://www.minifier.org>
 
 # Stock Media
 * Photos <https://unsplash.com>

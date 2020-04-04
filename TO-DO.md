@@ -273,6 +273,7 @@
 * [-] [THE PRAGMATIC PROGRAMMER](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
 * [-] [PRACTICES OF AN AGILE DEVELOPER](https://pragprog.com/book/pad/practices-of-an-agile-developer)
 * [-] [THE SENIOR SOFTWARE ENGINEER: 11 PRACTICES OF AN EFFECTIVE TECHNICAL LEADER](https://theseniorsoftwareengineer.com)
+* [-] CODERS AT WORK
 * [-] CLEAN CODE: A HANDBOOK OF AGILE SOFTWARE CRAFTSMANSHIP
 * [-] CLEAN CODER: A CODE OF CONDUCT FOR PROFESSIONAL PROGRAMMERS
 * [-] CLEAN ARCHITECTURE: A CRAFTSMAN'S GUIDE TO SOFTWARE STRUCTURE AND DESIGN
@@ -285,6 +286,9 @@
 * [-] [MASTER THE CODING INTERVIEW: DATA STRUCTURES + ALGORITHMS](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms)
 * [-] [CRACKING THE CODING INTERVIEW](http://www.crackingthecodinginterview.com)
 * [-] [LEET CODE](https://leetcode.com)
+
+# SYSTEM DESIGN
+* [-] [SYSTEM DESIGN](https://www.freecodecamp.org/news/systems-design-for-interviews)
 
 # DATA VISUALIZATION
 * [-] [THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION](https://www.amazon.co.uk/Visual-Display-Quantitative-Information/dp/1930824130)
