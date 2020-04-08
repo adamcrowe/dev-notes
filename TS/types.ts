@@ -36,8 +36,9 @@ function addAndHandle(n1: number, n2: number, cb: (num: number) => void) {
     const result = n1 + n2;
     cb(result);
 }
+
 addAndHandle(10, 20, (result) => {
-    console.log(result);
+    console.log(result); // 30
 })
 
 // enum
@@ -54,6 +55,11 @@ let sizeNum: number = Default.Small;                // returns 0
 type Combinable = number | string;                  // alias of union
 type ConversionFormat = 'as-number' | 'as-string';  // alias of union
 type User1 = { name: string; age: number };         // User1 custom type
+
+// intersection types (the common type)
+type Combinable2 = string | number;
+type Numeric = number | boolean;
+type Universal = Combinable2 & Numeric;             // type of Universal is number (the common type)
 
 // interface
 interface RobotArmy {

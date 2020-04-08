@@ -11,13 +11,13 @@ constructor(title: string, link: string, votes?: number) {} // votes? is optiona
 
 // Generics: https://www.typescriptlang.org/docs/handbook/generics.html
 // accept any type and return any type
-function identity(arg: any): any {
+function identity1(arg: any): any {
     return arg;
 }
 
 // accept any type and return any type with information about the type
-function identity<T>(arg: T): T {
+function identity2<T>(arg: T): T {
     return arg;
 }
-let output = identity<string>("myString");  // type of output will be 'string'
-let output = identity("myString");  		// shortened version: type of output will be 'string'
+let output1 = identity2<string>("myString");  // type of output will be 'string'
+let output2 = identity2("myString");  		  // shortened version: type of output will be 'string'
