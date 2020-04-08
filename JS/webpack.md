@@ -1,6 +1,31 @@
-AKA: Code Splitting
+# Webpack
+* [webpack](https://webpack.js.org)
+* Webpack is a bundling and build orchestration tool.
+* Webpack can also optimize (minify) code using a build step.
 
-# Webpack Scripts
+## Bundling
+* Use webpack to bundle separate js files to reduce network requests.
+
+## Build Orchestration
+See: `course-understanding-typescript/drag-and-drop` for example webpack configuration:
+
+``` javascript
+"scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "lite-server": "^2.5.4",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+```
+
+Another example:
 ``` javascript
 {
   "scripts": {
@@ -11,7 +36,7 @@ AKA: Code Splitting
 }
 ```
 
-# Code Splitting
+## Code Splitting
 > Code-Splitting is a feature supported by bundlers like Webpack, Rollup and Browserify (via factor-bundle) which can create multiple bundles that can be dynamically loaded at runtime. Code-splitting your app can help you “lazy-load” just the things that are currently needed by the user, which can dramatically improve the performance of your app. While you haven’t reduced the overall amount of code in your app, you’ve avoided loading code that the user may never need, and reduced the amount of code needed during the initial load.
 -- [React: Code Splitting](https://reactjs.org/docs/code-splitting.html)
 

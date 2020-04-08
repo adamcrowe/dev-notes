@@ -10,7 +10,7 @@
 
 # HTML/CSS
 * [-] [FREECODE CAMP: RESPONSIVE WEB DESIGN CERTIFICATION](https://www.freecodecamp.org/learn)
-* [-] [CSS GRIDS AND FLEXBOX FOR RESPONSIVE WEB DESIGN](https://frontendmasters.com/courses/css-grids-flexbox)
+* [.] [CSS GRIDS AND FLEXBOX FOR RESPONSIVE WEB DESIGN](https://frontendmasters.com/courses/css-grids-flexbox)
 * [-] [ADVANCED CSS LAYOUTS](https://frontendmasters.com/courses/advanced-css-layouts)
 * [-] [MOTION DESIGN WITH CSS](https://frontendmasters.com/courses/motion-design-css)
 * [-] [CSS IN-DEPTH](https://frontendmasters.com/courses/css-in-depth-v2)
