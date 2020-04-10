@@ -33,7 +33,18 @@
 * [/] [RESPONSIVE WEB DESIGN](https://alistapart.com/article/responsive-web-design)
 * [/] [MODERN CSS EXPLAINED FOR DINOSAURS](https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525)
 * [/] [CHROME DEVELOPER TOOLS TUTORIAL: INSPECT AND TEST CSS 2019](https://www.youtube.com/watch?v=s0RI4IXKE_o)
+
+# COMPONENTS
 * [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
+* [-] [INTRODUCTION TO WEB COMPONENTS — PART I CUSTOM ELEMENTS](https://itnext.io/introduction-to-web-components-part-i-custom-elements-4de6713cef9d)
+* [-] [INTRODUCTION TO WEB COMPONENTS — PART II SHADOW DOM](https://itnext.io/introduction-to-web-components-part-ii-shadow-dom-8d1d8e126332)
+* [-] [A LITTLE WEB COMPONENT IN MY REACT](https://itnext.io/a-little-web-component-in-my-react-3c66a918ea99)
+* [-] [REUSABLE UI — WEB COMPONENTS](https://itnext.io/reusable-ui-web-components-72cbe56b0056)
+* [-] [WEB COMPONENTS USING POLYMER](https://itnext.io/web-components-using-polymer-cd7e2ea8d06e)
+* [-] [BUILDING A PRACTICAL WEB COMPONENT](https://itnext.io/building-a-practical-web-component-9e84f5e4d63a)
+* [-] [REACT AND WEB COMPONENTS](https://itnext.io/react-and-web-components-3e0fca98a593)
+* [-] [#MICROFRONTENDS](https://itnext.io/a-deep-analysis-into-isomorphic-autonomous-cross-framework-usage-microfrontends-364271dc5fa9)
+* [-] [HANDLING DATA WITH WEB COMPONENTS](https://itnext.io/handling-data-with-web-components-9e7e4a452e6e)
 
 # JAVASCRIPT/TYPESCRIPT
 * [-] [FREECODE CAMP: JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION](https://www.freecodecamp.org/learn)
