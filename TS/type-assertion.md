@@ -1,1 +1,0 @@
-Type Assertion <https://basarat.gitbooks.io/typescript/docs/types/type-assertion.html>

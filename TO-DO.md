@@ -12,8 +12,8 @@
 * [-] [FREECODE CAMP: RESPONSIVE WEB DESIGN CERTIFICATION](https://www.freecodecamp.org/learn)
 * [.] [CSS GRIDS AND FLEXBOX FOR RESPONSIVE WEB DESIGN](https://frontendmasters.com/courses/css-grids-flexbox)
 * [-] [ADVANCED CSS LAYOUTS](https://frontendmasters.com/courses/advanced-css-layouts)
-* [-] [MOTION DESIGN WITH CSS](https://frontendmasters.com/courses/motion-design-css)
 * [-] [CSS IN-DEPTH](https://frontendmasters.com/courses/css-in-depth-v2)
+* [-] [MOTION DESIGN WITH CSS](https://frontendmasters.com/courses/motion-design-css)
 * [-] [RESPONSIVE WEB TYPOGRAPHY](https://frontendmasters.com/courses/responsive-typography-v2)
 * [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
 * [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass)
@@ -26,8 +26,6 @@
 * [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
 * [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [-] [HEAD FIRST HTML5 PROGRAMMING](http://shop.oreilly.com/product/0636920010906.do)
-* [-] [FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT](https://www.apress.com/gp/book/9781430247166)
-* [-] [ADVANCED GAME DESIGN WITH HTML5 AND JAVASCRIPT](https://www.apress.com/gp/book/9781430258001)
 * [/] [BOOTSTRAP 3/4](https://getbootstrap.com)
 * [/] [HTML5 AND CSS3 (2ND EDITION)](http://shop.oreilly.com/product/9780980846904.do)
 * [/] [MDN: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -40,7 +38,7 @@
 # JAVASCRIPT/TYPESCRIPT
 * [-] [FREECODE CAMP: JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION](https://www.freecodecamp.org/learn)
 * [-] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course)
-* [.] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
+* [/] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
 * [-] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns)
 * [-] [DESIGN PATTERNS IN TYPESCRIPT](https://refactoring.guru/design-patterns/typescript)
 * [.] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
@@ -65,6 +63,9 @@
 * [-] [TYPE WITH ME](https://www.youtube.com/channel/UCrCJmpy47G_bcEYYCZ60NLw/videos)
 * [/] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
 * [/] CORE JAVASCRIPT CONCEPTS
+* [-] [LEARN JAVASCRIPT BY BUILDING 7 GAMES](https://www.freecodecamp.org/news/learn-javascript-by-building-7-games-video-course)
+* [-] [FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT](https://www.apress.com/gp/book/9781430247166)
+* [-] [ADVANCED GAME DESIGN WITH HTML5 AND JAVASCRIPT](https://www.apress.com/gp/book/9781430258001)
 
 # FRONTEND (VARIOUS)
 * [-] [FREECODE CAMP: FRONT END LIBRARIES CERTIFICATION](https://www.freecodecamp.org/learn)
