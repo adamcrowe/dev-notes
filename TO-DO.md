@@ -35,6 +35,8 @@
 * [/] [CHROME DEVELOPER TOOLS TUTORIAL: INSPECT AND TEST CSS 2019](https://www.youtube.com/watch?v=s0RI4IXKE_o)
 
 # COMPONENTS
+* [-] [GOOGLE DEV: WEB COMPONENTS](https://developers.google.com/web/fundamentals/web-components)
+* [-] [LITELEMENT](https://lit-element.polymer-project.org/)
 * [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
 * [-] [INTRODUCTION TO WEB COMPONENTS — PART I CUSTOM ELEMENTS](https://itnext.io/introduction-to-web-components-part-i-custom-elements-4de6713cef9d)
 * [-] [INTRODUCTION TO WEB COMPONENTS — PART II SHADOW DOM](https://itnext.io/introduction-to-web-components-part-ii-shadow-dom-8d1d8e126332)

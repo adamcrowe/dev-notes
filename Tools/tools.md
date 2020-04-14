@@ -12,6 +12,7 @@
 
 # HTML
 * How to manage HTML DOM with vanilla JavaScript only <https://htmldom.dev>
+* Custom Elements Everywhere: Making sure frameworks and custom elements can be BFFs <https://custom-elements-everywhere.com>
 
 # CSS UI Kits + Testing
 * Tailwind CSS Framework <https://tailwindcss.com>
