@@ -3,5 +3,5 @@
 * `tsc --version`
 * `tsc --init` creates tsconfig.json and assigns all .ts files to project
 * `touch hello-world.ts`
-* `tsc` compiles .ts files in project OR `tsc -p ../tsconfig.json` compiles using specific tsconfig.json
-* `node hello-world.js`
+* `tsc` compiles .ts files in project (OR `tsc -p ../tsconfig.json` compiles using specific tsconfig.json)
+* `node hello-world.js` runs script
