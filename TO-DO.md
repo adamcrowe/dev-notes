@@ -50,7 +50,7 @@
 
 # JAVASCRIPT/TYPESCRIPT
 * [-] [FREECODE CAMP: JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION](https://www.freecodecamp.org/learn)
-* [-] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course)
+* [.] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course)
 * [/] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
 * [-] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns)
 * [-] [DESIGN PATTERNS IN TYPESCRIPT](https://refactoring.guru/design-patterns/typescript)

@@ -27,12 +27,13 @@
 * Use the onload callback: <img onload="imageLoaded()">
 
 ## What do call() and apply() do?
-* Both are used to assign a scope (`this`) to calling function
+* Both are used to assign a scope (`this`) to the calling function
 ** call() takes arguments one-at-a-time: `func.call([thisArg[, arg1, arg2, ...argN]])`
 ** apply() takes an array of arguments: `func.apply(thisArg, [ argsArray])`
 
 ## What is event delegation?
-* Rather than handling bubble up events to single event handler in parent component
+* Rather than adding event listeners to individual elements, you can assign an event handler to a parent element and catch any events on the children.
+** This is known as "bubbling up" events to the parent.
 
 ## What is a worker?
 * Because JavaScript is a single-threaded language, workers are used to offload computationally expensive work to a separate thread.
