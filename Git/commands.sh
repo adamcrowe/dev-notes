@@ -22,6 +22,7 @@ git log --pretty=format:"%h %s" --graph	# show pretty list of commit history
 git log --follow -- <filename> 			# list commits for file
 git log --follow -p -- <filename>		# list commits for file including the commit content
 git log --grep="<pattern>" 				# search log using <pattern>, which can be a plain string or a regular expression
+git log -p <filename>                   # show changes for a specific file
 
 git log --graph --abbrev-commit --pretty=oneline --decorate
 

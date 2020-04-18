@@ -18,6 +18,7 @@
 * [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
 * [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass)
 * [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass)
+* [-] [STYLE YOUR REACT APPS WITH TAILWIND CSS AND STYLED COMPONENTS](https://www.freecodecamp.org/news/how-to-style-your-react-apps-with-less-code-using-tailwind-css-and-styled-components)
 * [-] [DESIGNING WITH TAILWIND CSS (WORKCATION)](https://tailwindcss.com/screencasts) <https://www.youtube.com/watch?v=0aTRN9CSCY0&list=PL7CcGwsqRpSO3J4YU6BkWqjU0XcVSaPXl>
 * [-] [BUILDING INTERFACES WITH TAILWIND CSS](https://www.youtube.com/watch?v=_JhTaENzfZQ&list=PL7CcGwsqRpSMgVc5NxXUpqmGOS9s1YrWF)
 * [-] [TAILWIND CSS (PLAYLIST)](https://www.youtube.com/watch?v=Pg_5Ni1_bg4&list=PLEhEHUEU3x5p8cxOJ27w20LffCknp935L)
@@ -89,7 +90,7 @@
 * [-] [CODING MODERN WEBSITES WITH THE JAMSTACK - PART 1/3](https://www.netlify.com/blog/2017/10/06/coding-modern-websites-with-the-jamstack-part-1)
 * [-] [HOW TO RUN EXPRESS.JS APPS WITH NETLIFY FUNCTIONS](https://www.netlify.com/blog/2018/09/13/how-to-run-express.js-apps-with-netlify-functions)
 * [-] [SERVERLESS SINGLE PAGE APPS (PRAGPROG)](https://pragprog.com/book/brapps/serverless-single-page-apps)
-* [-] [OLIVER: HOW TO HOST A WEBSITE ON THE AMAZON CLOUD (AWS)](http://oliverelliott.org/article/computing/tut_aws)
+* [-] [HOW TO HOST YOUR STATIC WEBSITE WITH AWS](https://www.freecodecamp.org/news/a-beginners-guide-on-how-to-host-a-static-site-with-aws/)
 * [-] [HOW TO DEPLOY A REACT APP TO PRODUCTION ON AWS USING EXPRESS, POSTGRES, PM2 AND NGINX](https://www.freecodecamp.org/news/production-fullstack-react-express)
 * [/] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 * [/] [INSTANT HANDLEBARS](https://www.oreilly.com/library/view/instant-handlebarsjs/9781783282654)
@@ -301,10 +302,14 @@
 
 # INTERVIEWS
 * [-] [FRONT-END JOB INTERVIEW QUESTIONS](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
-* [-] [INTERVIEWING FOR FRONT-END ENGINEERS](https://frontendmasters.com/courses/interviewing-frontend)
+* [/] [INTERVIEWING FOR FRONT-END ENGINEERS](https://frontendmasters.com/courses/interviewing-frontend)
+* [-] [GROKKING ALGORITHMS](https://www.manning.com/books/grokking-algorithms)
 * [-] [MASTER THE CODING INTERVIEW: DATA STRUCTURES + ALGORITHMS](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms)
 * [-] [CRACKING THE CODING INTERVIEW](http://www.crackingthecodinginterview.com)
+* [-] [ALGORITHMS IN MOTION](https://www.manning.com/livevideo/algorithms-in-motion)
+* [-] [INTERVIEW CAKE](https://www.interviewcake.com)
 * [-] [LEET CODE](https://leetcode.com)
+* [-] [INTERVIEWING](https://interviewing.io)
 
 # SYSTEM DESIGN
 * [-] [SYSTEM DESIGN](https://www.freecodecamp.org/news/systems-design-for-interviews)
