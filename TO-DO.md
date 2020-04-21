@@ -68,7 +68,8 @@
 * [-] [FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT](https://www.apress.com/gp/book/9781430247166)
 * [-] [ADVANCED GAME DESIGN WITH HTML5 AND JAVASCRIPT](https://www.apress.com/gp/book/9781430258001)
 
-# FRONTEDN (COMPONENTS)
+# FRONTEND (COMPONENTS)
+* [.] [THE COMPLETE JAVASCRIPT COURSE 2020 - WEB COMPONENTS SECTION](https://www.udemy.com/course/the-complete-javascript-course)
 * [-] [GOOGLE DEV: WEB COMPONENTS](https://developers.google.com/web/fundamentals/web-components)
 * [-] [LITELEMENT](https://lit-element.polymer-project.org/)
 * [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
@@ -185,6 +186,7 @@
 * [-] [DESIGN AND BUILD GREAT WEB APIS](https://pragprog.com/book/maapis/design-and-build-great-web-apis)
 * [-] [PRACTICAL MICROSERVICES](https://pragprog.com/book/egmicro/practical-microservices)
 * [-] [NODE, SQL, & POSTGRESQL - MASTERING BACKEND WEB DEVELOPMENT](https://www.udemy.com/course/node-postgresql)
+* [-] [NESTJS ZERO TO HERO - MODERN TYPESCRIPT BACK-END DEVELOPMENT](https://www.udemy.com/course/nestjs-zero-to-hero/)
 * [-] [LEARN BLOCKCHAIN BY BUILDING YOUR OWN IN JAVASCRIPT](https://www.udemy.com/course/build-a-blockchain-in-javascript)
 * [-] [SERVERJS.IO TUTORIALS](https://serverjs.io/tutorials)
 * [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
