@@ -9,7 +9,7 @@
 * [/] [WATCH AND CODE - BEAST CHALLENGES](https://github.com/gordonmzhu)
 
 # HTML/CSS
-* [-] [FREECODE CAMP: RESPONSIVE WEB DESIGN CERTIFICATION](https://www.freecodecamp.org/learn)
+* [-] [FREECODECAMP: RESPONSIVE WEB DESIGN CERTIFICATION](https://www.freecodecamp.org/learn)
 * [.] [CSS GRIDS AND FLEXBOX FOR RESPONSIVE WEB DESIGN](https://frontendmasters.com/courses/css-grids-flexbox)
 * [-] [ADVANCED CSS LAYOUTS](https://frontendmasters.com/courses/advanced-css-layouts)
 * [-] [CSS IN-DEPTH](https://frontendmasters.com/courses/css-in-depth-v2)
@@ -36,7 +36,8 @@
 * [/] [CHROME DEVELOPER TOOLS TUTORIAL: INSPECT AND TEST CSS 2019](https://www.youtube.com/watch?v=s0RI4IXKE_o)
 
 # JAVASCRIPT/TYPESCRIPT
-* [-] [FREECODE CAMP: JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION](https://www.freecodecamp.org/learn)
+* [-] [FREECODECAMP: JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION](https://www.freecodecamp.org/learn)
+* [-] [FREECODECAMP JAVASCRIPT CERTIFICATION PROJECTS (TALK ALOUDS)](https://www.youtube.com/watch?v=XV5OCibNpLI&list=PLehRZjGCVhQLTWPN8mTo3rlRDQff9fCmT)
 * [.] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course)
 * [/] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
 * [/] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns)
@@ -50,7 +51,6 @@
 * [-] [LEARNING JAVASCRIPT DESIGN PATTERNS](https://addyosmani.com/resources/essentialjsdesignpatterns/book)
 * [-] [33 CONCEPTS EVERY JAVASCRIPT DEVELOPER SHOULD KNOW](https://github.com/leonardomso/33-js-concepts)
 * [-] [USING JAVASCRIPT'S BITWISE OPERATORS IN REAL LIFE](https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5)
-* [-] [LEARN X IN Y MINUTES](https://learnxinyminutes.com/docs/typescript)
 * [-] [THE TIMELINE OF JAVASCRIPT'S EVOLUTION](https://www.youtube.com/watch?v=CseCDFed458)
 * [-] [LET'S DEMYSTIFY JAVASCRIPT'S ‘NEW’ KEYWORD](https://medium.freecodecamp.org/demystifying-javascripts-new-keyword-874df126184c)
 * [-] [HOW TO CREATE A CHROME EXTENSION IN 10 MINUTES FLAT](https://www.sitepoint.com/create-chrome-extension-10-minutes-flat)
@@ -89,6 +89,7 @@
 * [-] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide)
 * [-] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security)
 * [-] [BUILD A REAL WORLD BEAUTIFUL WEB APP WITH ANGULAR 7 )](https://bit.ly/2sEvsvM)
+* [-] [THE MODERN ANGULAR BOOTCAMP 2020](https://www.udemy.com/course/the-modern-angular-bootcamp/)
 * [-] [ANGULAR AND REDUX: INTRODUCTION TO STATE MANAGEMENT](https://medium.com/codingthesmartway-com-blog/angular-and-redux-ecd22ea53492)
 * [-] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
 * [-] [BUILD PERFORMANT AND PROGRESSIVE ANGULAR APPLICATIONS](https://web.dev/angular)
@@ -133,7 +134,7 @@
 * [/] [VUE JS: COMPARISON WITH OTHER FRAMEWORKS](https://vuejs.org/v2/guide/comparison.html)
 
 # FRONTEND (VARIOUS)
-* [-] [FREECODE CAMP: FRONT END LIBRARIES CERTIFICATION](https://www.freecodecamp.org/learn)
+* [-] [FREECODECAMP: FRONT END LIBRARIES CERTIFICATION](https://www.freecodecamp.org/learn)
 * [-] [JAMSTACK TUTORIAL](https://www.freecodecamp.org/news/jamstack-full-course)
 * [-] [MODERN WEB DEVELOPMENT ON THE JAMSTACK](https://www.netlify.com/oreilly-jamstack)
 * [-] [NETLIFY, NUXTJS, AND CONTENTFUL](https://blog.theodo.com/2020/03/content-driven-static-website)
@@ -151,6 +152,7 @@
 * [-] [HOW BROWSERS WORK: BEHIND THE SCENES OF MODERN WEB BROWSERS](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork)
 
 # STATE MANAGEMENT
+* [-] [HOW TO IMPLEMENT REDUX IN 24 LINES OF JAVASCRIPT](https://yazeedb.com/posts/redux-in-24-lines-of-code)
 * [.] [REDUX: BASIC TUTORIAL](https://redux.js.org/basics/basic-tutorial)
 * [-] [REDUX: ADVANCED TUTORIAL](https://redux.js.org/advanced/advanced-tutorial)
 * [-] [REASONS TO LEARN REDUX AS A JAVASCRIPT DEVELOPER](https://www.robinwieruch.de/redux-javascript)
@@ -160,6 +162,10 @@
 * [/] [THINKING IN REACT (UI COMPONENT ARCHITECTURE + UI STATE)](https://reactjs.org/docs/thinking-in-react.html)
 
 # FUNCTIONAL REACTIVE
+* [-] [LEARN REDUCE IN 10 MINUTES](https://yazeedb.com/posts/learn-reduce-in-10-minutes)
+* [-] [10 JAVASCRIPT UTILITY FUNCTIONS MADE WITH REDUCE](https://yazeedb.com/posts/10-js-util-functions-in-reduce)
+* [-] [10 MORE UTILITY FUNCTIONS MADE WITH REDUCE](https://yazeedb.com/posts/10-more-js-utils-using-reduce)
+* [-] [YET ANOTHER 10 UTILITY FUNCTIONS MADE WITH REDUCE](https://yazeedb.com/posts/yet-another-10-utils-using-reduce)
 * [-] [RXJS IN PRACTICE COURSE](https://angular-university.io/course/rxjs-course)
 * [-] [RXJS AND REACTIVE PATTERNS ANGULAR ARCHITECTURE COURSE](https://angular-university.io/course/reactive-angular-architecture-course)
 * [-] [THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
@@ -178,7 +184,7 @@
 * [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 
 # BACKEND (NODE)
-* [-] [FREECODE CAMP: APIS AND MICROSERVICES CERTIFICATION](https://www.freecodecamp.org/learn)
+* [-] [FREECODECAMP: APIS AND MICROSERVICES CERTIFICATION](https://www.freecodecamp.org/learn)
 * [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
 * [-] [NODE.JS, EXPRESS, MONGODB & MORE: THE COMPLETE BOOTCAMP 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp)
 * [-] [NODEJS - THE COMPLETE GUIDE (INCL. MVC, REST APIS, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide)
@@ -200,7 +206,7 @@
 * [-] [TEST-DRIVEN LARAVEL](https://course.testdrivenlaravel.com)
 
 # TESTING/SECURITY
-* [-] [FREECODE CAMP: INFORMATION SECURITY AND QUALITY ASSURANCE CERTIFICATION](https://www.freecodecamp.org/learn)
+* [-] [FREECODECAMP: INFORMATION SECURITY AND QUALITY ASSURANCE CERTIFICATION](https://www.freecodecamp.org/learn)
 * [-] [THE WAY OF THE WEB TESTER: A BEGINNER'S GUIDE TO AUTOMATING TESTS](https://pragprog.com/book/jrtest/the-way-of-the-web-tester)
 * [-] [EXPLORE IT!: REDUCE RISK AND INCREASE CONFIDENCE WITH EXPLORATORY TESTING](https://pragprog.com/book/ehxta/explore-it)
 * [-] [CHROME DEVTOOLS](https://developers.google.com/web/tools/chrome-devtools)
@@ -327,7 +333,7 @@
 * [-] [FULLSTACK D3 AND DATA VISUALIZATION](https://www.newline.co/fullstack-d3)
 * [-] [D3 TUTORIALS](https://github.com/d3/d3/wiki/Tutorials)
 * [/] [DASHING D3JS: Tutorial](https://www.dashingd3js.com/table-of-contents)
-* [-] [FREECODE CAMP: DATA VISUALIZATION CERTIFICATION](https://www.freecodecamp.org/learn)
+* [-] [FREECODECAMP: DATA VISUALIZATION CERTIFICATION](https://www.freecodecamp.org/learn)
 
 # DATA SCIENCE
 * [-] [COMPLETE PYTHON DEVELOPER IN 2020: ZERO TO MASTERY](https://www.udemy.com/course/complete-python-developer-zero-to-mastery)
@@ -363,7 +369,6 @@
 * [/] [HIGH RESOLUTION - UI DESIGNER INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
 
 # VISUAL DESIGN
-* [-] [THEORY SPRINTS: COURSE](https://proximityschool.com/theory-sprints)
 * [-] [ADOBE ILLUSTRATOR MASTERCLASS: LEARN FROM AN EXPERT DESIGNER](https://www.udemy.com/course/adobe-illustrator-masterclass-learn-from-an-expert-designer)
 * [-] [LOGO DESIGN MASTERY IN ADOBE ILLUSTRATOR](https://www.udemy.com/course/logo-design-mastery-in-adobe-illustrator)
 * [-] [ADOBE CC MASTERCLASS: PHOTOSHOP, ILLUSTRATOR, XD & INDESIGN](https://www.udemy.com/course/adobe-cc-masterclass-graphic-design-photoshop-illustrator-xd-indesign)
@@ -371,10 +376,13 @@
 * [-] [GRAPHIC DESIGN MASTERY: THE FULL BRANDING & DESIGN PROCESS](https://www.udemy.com/course/graphic-design-mastery-the-full-branding-design-process)
 * [-] [GRAPHIC DESIGN MASTERCLASS: THE NEXT LEVEL](https://www.udemy.com/course/graphic-design-masterclass-the-next-level)
 * [-] [GRAPHIC DESIGN MASTERCLASS - LEARN GREAT DESIGN](https://www.udemy.com/course/graphic-design-masterclass-everything-you-need-to-know)
+* [-] [ADOBE AFTER EFFECTS CRASH COURSE FOR CREATIVES](https://www.udemy.com/course/adobe-after-effects-crash-course-for-creatives)
 * [-] [THE FREELANCE MASTERCLASS: FOR CREATIVES](https://www.udemy.com/course/the-freelance-masterclass-for-creatives)
+* [-] [PASSIVE INCOME COURSE FOR GRAPHIC DESIGNERS](https://www.udemy.com/course/passive-income-course-for-graphic-designers)
 * [-] [DRIBBLE COLORS](https://dribbble.com/colors)
 * [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack)
 * [-] [RECURSIVE TYPEFACE](https://www.recursive.design)
+* [-] [THEORY SPRINTS: COURSE](https://proximityschool.com/theory-sprints)
 
 # TECHNICAL WRITING
 * [-] [TECHNICAL WRITING COURSES FOR ENGINEERS](https://developers.google.com/tech-writing)
