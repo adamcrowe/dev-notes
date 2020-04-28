@@ -15,7 +15,7 @@
 
 # Existing Ideas
 * [A New Startup Idea Every Day](https://www.billiondollarstartupideas.com)
-* [Automation](https://medium.com/@chrisbuetti/how-i-eat-for-free-in-nyc-using-python-automation-artificial-intelligence-and-instagram-a5ed8a1e2a10)
-* [Startup Cemetery](https://www.failory.com/cemetery)
-* [Property Management](https://www.projecthatch.co/interview/how-i-built-a-400k-month-property-management-tool-because-i-needed-the-product)
 * [r/Business_Ideas](https://www.reddit.com/r/Business_Ideas)
+* [Startup Cemetery](https://www.failory.com/cemetery)
+* [Automation](https://medium.com/@chrisbuetti/how-i-eat-for-free-in-nyc-using-python-automation-artificial-intelligence-and-instagram-a5ed8a1e2a10)
+* [Property Management](https://www.projecthatch.co/interview/how-i-built-a-400k-month-property-management-tool-because-i-needed-the-product)
