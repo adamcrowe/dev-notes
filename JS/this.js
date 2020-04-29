@@ -4,7 +4,7 @@
 
 // Context refers to the value of `this` in a particular part of your code. Use `this` to refer to the current object. In general, `this` refers to the calling object in a method.
 
-// In strict mode, if `this` was not defined by the execution context, it remains undefined.
+// In strict mode, if `this` was not defined by the execution context, it remains undefined. With strict mode,`this` refers to the global/window object.
 
 // In arrow functions, `this` retains the value of the enclosing lexical context's `this`
 // <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this>
