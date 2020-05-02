@@ -37,8 +37,6 @@ for (const value of personData.values()) {
     console.log(value);
 }
 
-
-
 // !! WeakMap
 // * The WeakMap object is a collection of key/value pairs in which the keys are weakly referenced.
 // * WeakMaps hold "weak" references to key objects, which means that they do not prevent garbage collection in case there would be no other reference to the key object.

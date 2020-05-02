@@ -33,6 +33,7 @@
 * Responsive Tester <https://www.responsinator.com>
 * Dummy Image <https://dummyimage.com>
 * Grid Calculator <http://gridcalculator.dk>
+* Figma Mirror (View Figma prototypes on iOS devices) <https://apps.apple.com/us/app/figma-mirror/id1152747299>
 
 # Databases
 * PostgreSQL GUI tool for macOS <http://www.psequel.com>

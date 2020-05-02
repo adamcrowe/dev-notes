@@ -114,6 +114,7 @@
 * [-] [TAKE YOUR REACT SKILLS TO THE NEXT LEVEL BY BUILDING A TODOIST CLONE](https://www.freecodecamp.org/news/react-firebase-todoist-clone)
 * [-] [LEARN HOW TO CREATE A SOCIAL MEDIA APP FROM SCRATCH USING REACT, FIREBASE, REDUX, AND EXPRESS](https://www.freecodecamp.org/news/react-firebase-social-media-app-course)
 * [-] [LEARN HOW TO USE REACT, CONTENTFUL, AND NETLIFY BY BUILDING A BEACH RESORT WEBSITE](https://www.freecodecamp.org/news/learn-react-contentful-and-netlify-by-building-a-beach-resort-website)
+* [-] [HOW TO BUILD A SIMPLE POKÉMON WEB APP WITH REACT HOOKS AND THE CONTEXT API](https://www.freecodecamp.org/news/building-a-simple-pokemon-web-app-with-react-hooks-and-context-api/)
 * [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react)
 * [-] [REACT NATIVE - THE PRACTICAL GUIDE 2020](https://www.udemy.com/course/react-native-the-practical-guide)
 * [-] [INTRO TO REACT NATIVE COURSE](https://www.freecodecamp.org/news/react-native-course-for-beginners)
@@ -207,6 +208,7 @@
 
 # TESTING/SECURITY
 * [-] [FREECODECAMP: INFORMATION SECURITY AND QUALITY ASSURANCE CERTIFICATION](https://www.freecodecamp.org/learn)
+* [-] [WEB SECURITY](https://frontendmasters.com/courses/web-security)
 * [-] [THE WAY OF THE WEB TESTER: A BEGINNER'S GUIDE TO AUTOMATING TESTS](https://pragprog.com/book/jrtest/the-way-of-the-web-tester)
 * [-] [EXPLORE IT!: REDUCE RISK AND INCREASE CONFIDENCE WITH EXPLORATORY TESTING](https://pragprog.com/book/ehxta/explore-it)
 * [-] [CHROME DEVTOOLS](https://developers.google.com/web/tools/chrome-devtools)
@@ -239,18 +241,17 @@
 * [-] [MYSQL TUTORIAL](http://www.mysqltutorial.org)
 * [-] [SQL: FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=HXV3zeQKqGY)
 
-# TOOLS (EDITORS/UNIX/BASH/GIT/DOCKER)
-* [/] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac)
-* [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
-* [/] [OLIVER: SET UP YOUR .BASH_PROFILE, .BASHRC, AND OTHER DOTFILES](http://oliverelliott.org/article/computing/tips_mac/9)
-* [/] [MY MAC OSX BASH PROFILE](https://natelandau.com/my-mac-osx-bash_profile)
+# TOOLS (EDITORS/UNIX/BASH/GIT/DOCKER/DEPLOYMENT)
+* [-] [FULL STACK FOR FRONT-END ENGINEERS V2 - CLI SSH, NGINX, DOCKER CONTAINERS, SERVER SECURITY, HTTP/2, HTTP](https://frontendmasters.com/courses/fullstack-v2)
 * [-] [MAC OS X UNIX 101 BYTE-SIZED PROJECTS](http://www.peachpit.com/store/mac-os-x-unix-101-byte-sized-projects-9780321374110)
 * [-] [SMALL, SHARP, SOFTWARE TOOLS](https://pragprog.com/book/bhcldev/small-sharp-software-tools)
 * [-] [UNIX POWER TOOLS](http://shop.oreilly.com/product/9780596003302.do)
 * [-] [BASH PROGRAMMING](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
 * [-] [BASH SHELL SCRIPTING](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)
+* [-] [AUTOMATE THE BORING STUFF WITH PYTHON](https://automatetheboringstuff.com)
 * [/] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
-* [-] [VSCODE POWER USER MASTER CLASS](https://vscode.pro)
+* [-] [VISUAL STUDIO CODE CAN DO THAT?](https://frontendmasters.com/courses/customize-vs-code/)
+* [-] [GIT IN-DEPTH](https://frontendmasters.com/courses/git-in-depth/)
 * [-] [LEARN GIT CONCEPTS, NOT COMMANDS](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git)
 * [-] [GIT TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQHO1PfyscjIPkNJjgHsLyH)
@@ -262,21 +263,24 @@
 * [-] [PRO GIT](https://www.apress.com/gp/book/9781484200773)
 * [-] [COMMAND LINE TRICKS FOR MANAGING YOUR MESSY OPEN SOURCE REPOSITORY](https://www.freecodecamp.org/news/command-line-tricks-for-managing-your-messy-open-source-repository)
 * [-] [LEARN DEVOPS BASICS WITH THIS FREE 2-HOUR DOCKER COURSE](https://www.freecodecamp.org/news/docker-devops-course)
-* [-] [AUTOMATE THE BORING STUFF WITH PYTHON](https://automatetheboringstuff.com/)
+* [/] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac)
+* [/] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
+* [/] [OLIVER: SET UP YOUR .BASH_PROFILE, .BASHRC, AND OTHER DOTFILES](http://oliverelliott.org/article/computing/tips_mac/9)
+* [/] [MY MAC OSX BASH PROFILE](https://natelandau.com/my-mac-osx-bash_profile)
 
 # CS
 * [-] CODE: THE HIDDEN LANGUAGE OF COMPUTER HARDWARE AND SOFTWARE
 * [-] [NAND TO TETRIS](https://www.nand2tetris.org)
-* [-] [STRUCTURE AND INTERPRETATION OF COMPUTER PROGRAMS — JAVASCRIPT ADAPTATION](https://sicp.comp.nus.edu.sg)
 * [-] [PRACTICAL PROGRAMMING: AN INTRODUCTION TO COMPUTER SCIENCE USING PYTHON 3](https://pragprog.com/book/gwpy3/practical-programming-third-edition)
 * [-] [A COMMON-SENSE GUIDE TO DATA STRUCTURES AND ALGORITHMS](https://pragprog.com/book/jwdsal/a-common-sense-guide-to-data-structures-and-algorithms)
+* [-] [STRUCTURE AND INTERPRETATION OF COMPUTER PROGRAMS — JAVASCRIPT ADAPTATION](https://sicp.comp.nus.edu.sg)
 * [-] [DATA STRUCTURES AND ALGORITHMS WITH JAVASCRIPT](http://shop.oreilly.com/product/0636920029557.do)
 * [-] [DATA STRUCTURES AND ALGORITHMS IN JAVASCRIPT - FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=t2CEgPsws3U)
-* [-] [IMPOSTER'S HANDBOOK: SEASON 1 & 2](https://bigmachine.io/products/the-imposters-handbook)
 * [-] [LEARNING ALGORITHMS APP](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
 * [-] [ELEMENTS OF AI](https://www.elementsofai.com)
 * [-] [MATHS FOR PROGRAMMERS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
 * [-] [HOW DO COMPUTERS AND THE INTERNET WORK? - COMPUTER SCIENCE BASICS](https://www.youtube.com/watch?v=AV_VYsJnHQQ)
+* [-] [IMPOSTER'S HANDBOOK: SEASON 1 & 2](https://bigmachine.io/products/the-imposters-handbook)
 
 # CRAFTMANSHIP
 * [/] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP 2020](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap)
@@ -343,6 +347,8 @@
 * [-] [THINK STATS 2E](https://greenteapress.com/wp/think-stats-2e)
 * [-] [HEAD FIRST DATA ANALYSIS](http://shop.oreilly.com/product/9780596153946.do)
 * [-] [HEAD FIRST STATISTICS](http://shop.oreilly.com/product/9780596527587.do)
+* [-] [PROGRAMMING MACHINE LEARNING](https://pragprog.com/book/pplearn/programming-machine-learning)
+* [-] [COMPLEX NETWORK ANALYSIS IN PYTHON](https://pragprog.com/book/dzcnapy/complex-network-analysis-in-python)
 
 # UX DESIGN
 * [-] [BECOME A PRODUCT MANAGER](https://www.udemy.com/course/become-a-product-manager-learn-the-skills-get-a-job)
