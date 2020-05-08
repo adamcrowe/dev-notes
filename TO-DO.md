@@ -22,7 +22,8 @@
 * [-] [DESIGNING WITH TAILWIND CSS (WORKCATION)](https://tailwindcss.com/screencasts) <https://www.youtube.com/watch?v=0aTRN9CSCY0&list=PL7CcGwsqRpSO3J4YU6BkWqjU0XcVSaPXl>
 * [-] [BUILDING INTERFACES WITH TAILWIND CSS](https://www.youtube.com/watch?v=_JhTaENzfZQ&list=PL7CcGwsqRpSMgVc5NxXUpqmGOS9s1YrWF)
 * [-] [TAILWIND CSS (PLAYLIST)](https://www.youtube.com/watch?v=Pg_5Ni1_bg4&list=PLEhEHUEU3x5p8cxOJ27w20LffCknp935L)
-* [/] [CSS UTILITY CLASSES AND SEPARATION OF CONCERNS (TAILWIND CSS)](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/)
+* [/] [CSS UTILITY CLASSES AND SEPARATION OF CONCERNS (TAILWIND CSS)](https://adamwathan.me/css-utility-classes-and-separation-of-concerns)
+* [-] [HOW TO USE PURE CSS TO CREATE A BEAUTIFUL LOADING ANIMATION FOR YOUR APP](https://www.freecodecamp.org/news/how-to-use-css-to-create-a-beautiful-loading-animation-for-your-app)
 * [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
 * [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
 * [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
