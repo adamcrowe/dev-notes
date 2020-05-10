@@ -45,8 +45,9 @@
 * Quokka.js: Run code in editor <https://quokkajs.com>
 
 # Deployment
+* Jamstack Fns <https://jamstackfns.com/f/sendgrid>
 * Netlify <https://www.netlify.com/>
-* Now: App Deployment <https://zeit.co/now>
+* Vercel <https://vercel.com>
 * StackBlitz: Create, edit & deploy fullstack apps — in just one click <https://stackblitz.com>
 
 # Documentation + Linting

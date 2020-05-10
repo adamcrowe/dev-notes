@@ -107,7 +107,7 @@
 * [.] [REACT DOCS: ADVANCED GUIDES + HOOKS + TESTING](https://reactjs.org/docs) Forwarding Refs
 * [-] [REACT DOCS: TUTORIAL: TIC-TAC-TOE GAME](https://reactjs.org/tutorial/tutorial.html)
 * [-] [COMPLETE REACT DEVELOPER IN 2020 (W/ REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery)
-* [-] [REACT - THE COMPLETE GUIDE (INCL HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
+* [-] [REACT THE COMPLETE GUIDE (INCL HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
 * [-] [LEARN REACT - FULL COURSE FOR BEGINNERS](https://www.freecodecamp.org/news/learn-react-course)
 * [-] [REACT FOR DESIGNERS (REACT + FIGMA)](https://designcode.io/react)
 * [-] [LEARN HOW TO USE APIS WITH REACT BY BUILDING A HACKER NEWS API APPLICATION](https://www.freecodecamp.org/news/learn-how-to-use-apis-with-react-by-building-a-hacker-news-api-application)
@@ -194,7 +194,8 @@
 * [-] [DESIGN AND BUILD GREAT WEB APIS](https://pragprog.com/book/maapis/design-and-build-great-web-apis)
 * [-] [PRACTICAL MICROSERVICES](https://pragprog.com/book/egmicro/practical-microservices)
 * [-] [NODE, SQL, & POSTGRESQL - MASTERING BACKEND WEB DEVELOPMENT](https://www.udemy.com/course/node-postgresql)
-* [-] [NESTJS ZERO TO HERO - MODERN TYPESCRIPT BACK-END DEVELOPMENT](https://www.udemy.com/course/nestjs-zero-to-hero/)
+* [-] [NESTJS ZERO TO HERO - MODERN TYPESCRIPT BACK-END DEVELOPMENT](https://www.udemy.com/course/nestjs-zero-to-hero)
+* [-] [MASTERING NEXT.JS: THE COMPLETE NEXT.JS COURSE](https://masteringnextjs.com)
 * [-] [LEARN BLOCKCHAIN BY BUILDING YOUR OWN IN JAVASCRIPT](https://www.udemy.com/course/build-a-blockchain-in-javascript)
 * [-] [SERVERJS.IO TUTORIALS](https://serverjs.io/tutorials)
 * [-] [DO YOU WANT A BETTER UNDERSTANDING OF BUFFER IN NODE.JS?](https://medium.freecodecamp.org/do-you-want-a-better-understanding-of-buffer-in-node-js-check-this-out-2e29de2968e8)
