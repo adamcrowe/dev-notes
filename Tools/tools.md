@@ -55,6 +55,7 @@
 * JSDoc: Code Documentation Guidelines <http://usejsdoc.org>
 * Popular Coding Conventions by Language <http://sideeffect.kr/popularconvention>
 * Writing System Software: Code Comments <http://antirez.com/news/124>
+* Publish Beautiful Code Snippets <https://carbon.now.sh>
 * Highlight JS: Code snippets <https://highlightjs.org>
 * Storybook is an open source tool for developing UI components in isolation <https://storybook.js.org>
   * Angular: <https://stackoverflow.com/questions/56868391/storybook-with-using-injection-in-angular-module>

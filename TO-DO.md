@@ -24,6 +24,7 @@
 * [-] [TAILWIND CSS (PLAYLIST)](https://www.youtube.com/watch?v=Pg_5Ni1_bg4&list=PLEhEHUEU3x5p8cxOJ27w20LffCknp935L)
 * [/] [CSS UTILITY CLASSES AND SEPARATION OF CONCERNS (TAILWIND CSS)](https://adamwathan.me/css-utility-classes-and-separation-of-concerns)
 * [-] [HOW TO USE PURE CSS TO CREATE A BEAUTIFUL LOADING ANIMATION FOR YOUR APP](https://www.freecodecamp.org/news/how-to-use-css-to-create-a-beautiful-loading-animation-for-your-app)
+* [-] [STRIPE: CONNECT: BEHIND THE FRONT-END EXPERIENCE](https://stripe.com/blog/connect-front-end-experience)
 * [-] [HOW TO WRITE A JAVASCRIPT-FREE TODO APP USING JUST HTML AND CSS](https://www.mattzeunert.com/2017/10/30/javascript-free-todo-app.html)
 * [-] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
 * [-] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -205,7 +206,8 @@
 * [-] [BUILD A NODE.JS API IN UNDER 30 MINUTES](https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/)
 * [/] [GETTING STARTED WITH NODE.JS - FULL TUTORIAL](https://www.youtube.com/watch?v=gG3pytAY2MY)
 
-# BACKEND (LARAVEL)
+# BACKEND (PHP/LARAVEL)
+* [-] [REFACTORING TO COLLECTIONS](https://adamwathan.me/refactoring-to-collections)
 * [-] [TEST-DRIVEN LARAVEL](https://course.testdrivenlaravel.com)
 
 # TESTING/SECURITY
@@ -359,7 +361,7 @@
 
 # UI DESIGN
 * [/] [THINKING IN REACT (UI COMPONENT ARCHITECTURE + UI STATE)](https://reactjs.org/docs/thinking-in-react.html)
-* [-] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma)
+* [.] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma)
 * [-] [LEARN UX: FIGMA COURSE](https://learnux.io/course/figma)
 * [-] [FIGMA: LEARN DESIGN PILOT](https://www.figma.com/resources/learn-design)
 * [-] [FIGMA: LEARN DESIGN](https://www.figma.com/resources/learn-design/getting-started)
@@ -375,6 +377,7 @@
 * [/] [REFACTORING UI: 7 PRACTICAL TIPS FOR CHEATING AT DESIGN](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
 * [/] [REFACTORING UI: REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
 * [/] [HIGH RESOLUTION - UI DESIGNER INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
+* [/] [HOW STRIPE DESIGNS BEAUTIFUL WEBSITES](https://leerob.io/blog/how-stripe-designs-beautiful-websites)
 
 # VISUAL DESIGN
 * [-] [ADOBE ILLUSTRATOR MASTERCLASS: LEARN FROM AN EXPERT DESIGNER](https://www.udemy.com/course/adobe-illustrator-masterclass-learn-from-an-expert-designer)
