@@ -3,6 +3,7 @@
 
 ## Work
 
+* [Asking Questions](Engineering/asking-questions.md)
 * [Requirements](Engineering/requirements.md): BDD/TDD, Stories, Specs, Tests
 * [Estimation](Engineering/estimation.md): "We are asked to do this impossible thing all the time, and we must face up to it honestly."
 
@@ -22,6 +23,9 @@
 > Deliver your customer a competitive advantage. Your only objective is: How can I help my customer win? -- [Jack Welsh](https://www.google.com/search?hl=en&q=%22the+welch+way%22+podcast+businessweek&oq=%22the+welch+way%22+podcast+businessweek)
 
 #
+> Your job as a programmer is not writing code, your job is solving problems: software is a tool, a means to an end. Software becomes valuable because of the problems it solves. -- [Itamar Turner-Trauring](https://codewithoutrules.com/2020/04/20/productivity-skills)
+
+#
 > A programmer does not primarily write code; rather he primarily writes to another programmer about his problem solution. -- [Donald Knuth](http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-9-pdf/k-9-u2769-1-Baker-What-Programmer-Does.pdf)
 
 #
@@ -31,7 +35,7 @@
 > Code that's easier to read gets read more and therefore gets more scrutiny. Because of that, if there are bugs, they're more likely to be found. -- [Gordon Zhu](https://watchandcode.com/courses/77710/lectures/2001287)
 
 #
-> Deleted code is debugged code. -- [Jeff Sickel](http://www.defprogramming.com/quotes-by/jeff-sickel/)
+> Deleted code is debugged code. -- [Jeff Sickel](http://www.defprogramming.com/quotes-by/jeff-sickel)
 
 #
 > Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away. -- [Antoine de Saint Exupéry](https://en.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry)

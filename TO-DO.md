@@ -287,6 +287,7 @@
 * [-] [IMPOSTER'S HANDBOOK: SEASON 1 & 2](https://bigmachine.io/products/the-imposters-handbook)
 
 # CRAFTMANSHIP
+* [-] REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE
 * [/] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP 2020](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap)
 * [-] [HEAD FIRST SOFTWARE DEVELOPMENT](http://shop.oreilly.com/product/9780596527358.do)
 * [-] [HEAD FIRST OBJECT-ORIENTED ANALYSIS AND DESIGN](http://shop.oreilly.com/product/9780596008673.do)
@@ -294,7 +295,6 @@
 * [-] [THE 3 TYPES OF DESIGN PATTERNS ALL DEVELOPERS SHOULD KNOW](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know)
 * [-] [BEYOND LEGACY CODE: NINE PRACTICES TO EXTEND THE LIFE (AND VALUE) OF YOUR SOFTWARE](https://pragprog.com/book/dblegacy/beyond-legacy-code)
 * [-] [YOUR CODE AS A CRIME SCENE](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
-* [-] [REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE](https://www.pearson.com/us/higher-education/program/Fowler-Refactoring-Improving-the-Design-of-Existing-Code-2nd-Edition/PGM1780661.html)
 * [-] [DESIGN PATTERNS](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
 * [-] [OBJECT ORIENTED DESIGN](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE)
 * [-] [CODE REFACTORING](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV)
@@ -305,7 +305,7 @@
 * [-] [THINGS I LEARNT THE HARD WAY (IN 30 YEARS OF SOFTWARE DEVELOPMENT)](https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way)
 * [-] [WRITING SYSTEM SOFTWARE: CODE COMMENTS](http://antirez.com/news/124)
 * [-] [HOW TO CODE LIKE A PRO](https://www.youtube.com/watch?v=ZihKWQXRBmE)
-* [-] [CODE WITHOUT RULES](https://codewithoutrules.com)
+* [-] [THE SECRET SKILLS OF PRODUCTIVE PROGRAMMERS](https://codewithoutrules.com)
 * [/] [BOOST YOUR TECH CAREER](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCnvkSNeM7AYIy9AkTVjEJs)
 * [/] [WORKPLACE Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY)
 * [-] [THE PRAGMATIC PROGRAMMER](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
