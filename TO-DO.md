@@ -191,7 +191,7 @@
 * [-] [FREECODECAMP: APIS AND MICROSERVICES CERTIFICATION](https://www.freecodecamp.org/learn)
 * [-] [EXPRESS.JS & NODE.JS COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=G8uL0lFFoN0)
 * [-] [NODE.JS, EXPRESS, MONGODB & MORE: THE COMPLETE BOOTCAMP 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp)
-* [-] [NODEJS - THE COMPLETE GUIDE (MVC, REST API, GRAPHQL)](https://www.udemy.com/nodejs-the-complete-guide)
+* [-] [NODEJS - THE COMPLETE GUIDE (MVC, REST API, GRAPHQL, NESTJS)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
 * [-] [NODE WITH REACT: FULLSTACK WEB DEVELOPMENT](https://www.udemy.com/course/node-with-react-fullstack-web-development)
 * [-] [GRAPHQL WITH REACT: THE COMPLETE DEVELOPERS GUIDE](https://www.udemy.com/course/graphql-with-react-course)
 * [-] [NODE JS: ADVANCED CONCEPTS](https://www.udemy.com/course/advanced-node-for-developers)
