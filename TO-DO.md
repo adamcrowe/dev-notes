@@ -12,7 +12,6 @@
 * [-] [FREECODECAMP: RESPONSIVE WEB DESIGN CERTIFICATION](https://www.freecodecamp.org/learn)
 * [.] [CSS GRIDS AND FLEXBOX FOR RESPONSIVE WEB DESIGN](https://frontendmasters.com/courses/css-grids-flexbox)
 * [-] [ADVANCED CSS LAYOUTS](https://frontendmasters.com/courses/advanced-css-layouts)
-* [-] [CSS IN-DEPTH](https://frontendmasters.com/courses/css-in-depth-v2)
 * [-] [MOTION DESIGN WITH CSS](https://frontendmasters.com/courses/motion-design-css)
 * [-] [RESPONSIVE WEB TYPOGRAPHY](https://frontendmasters.com/courses/responsive-typography-v2)
 * [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
@@ -65,6 +64,7 @@
 * [/] CORE JAVASCRIPT CONCEPTS
 
 # FRONTEND (DOM MANIPULATION)
+* [-] [LEARN JAVASCRIPT BY CREATING A TETRIS GAME](https://www.freecodecamp.org/news/learn-javascript-by-creating-a-tetris-game)
 * [-] [LEARN JAVASCRIPT BY BUILDING 7 GAMES](https://www.freecodecamp.org/news/learn-javascript-by-building-7-games-video-course)
 * [-] [HOW TO BUILD MINESWEEPER WITH JAVASCRIPT](https://mitchum.blog/how-to-build-minesweeper-with-javascript)
 * [-] [FOUNDATION GAME DESIGN WITH HTML5 AND JAVASCRIPT](https://www.apress.com/gp/book/9781430247166)
