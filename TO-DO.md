@@ -367,6 +367,7 @@
 
 # UI DESIGN
 * [/] [THINKING IN REACT (UI COMPONENT ARCHITECTURE + UI STATE)](https://reactjs.org/docs/thinking-in-react.html)
+* [/] [EVERYTHING I KNOW ABOUT STYLE GUIDES, DESIGN SYSTEMS, AND COMPONENT LIBRARIES](https://leerob.io/blog/style-guides-component-libraries-design-systems)
 * [-] [UI DESIGN FUNDAMENTALS](https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course)
 * [-] [DESIGN SYSTEMS WITH REACT & STORYBOOK](https://frontendmasters.com/courses/design-systems)
 * [-] [STORYBOOK: LEARN TO DEVELOP UIS WITH COMPONENTS AND DESIGN SYSTEMS](https://www.learnstorybook.com)
@@ -376,8 +377,6 @@
 * [-] [FIGMA: LEARN DESIGN](https://www.figma.com/resources/learn-design/getting-started)
 * [-] [FIGMA: TUTORIALS](https://www.youtube.com/channel/UCQsVmhSa4X-G3lHlUtejzLA/videos?view=0&sort=da&flow=grid)
 * [-] [DESIGN SYSTEM IN FIGMA](https://designcode.io/design-system-in-figma)
-* [-] [DESIGN AND CODE IN FRAMER X](https://designcode.io/framer-x-course)
-* [-] [UI INTERACTIONS IN FRAMER PLAYGROUND](https://designcode.io/framer-playground-ui-interactions)
 * [-] [REFACTORING UI: COURSE](https://refactoringui.com/book)
 * [-] [REFACTORING UI: VIDEOS](https://www.youtube.com/channel/UCxqiDtkXtOCNJdckODHk9YA)
 * [-] [REFACTORING UI: DESIGN TIPS](https://twitter.com/i/moments/994601867987619840)
@@ -385,22 +384,6 @@
 * [/] [REFACTORING UI: REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
 * [/] [HIGH RESOLUTION - UI DESIGNER INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
 * [/] [HOW STRIPE DESIGNS BEAUTIFUL WEBSITES](https://leerob.io/blog/how-stripe-designs-beautiful-websites)
-
-# VISUAL DESIGN
-* [-] [ADOBE ILLUSTRATOR MASTERCLASS: LEARN FROM AN EXPERT DESIGNER](https://www.udemy.com/course/adobe-illustrator-masterclass-learn-from-an-expert-designer)
-* [-] [LOGO DESIGN MASTERY IN ADOBE ILLUSTRATOR](https://www.udemy.com/course/logo-design-mastery-in-adobe-illustrator)
-* [-] [ADOBE CC MASTERCLASS: PHOTOSHOP, ILLUSTRATOR, XD & INDESIGN](https://www.udemy.com/course/adobe-cc-masterclass-graphic-design-photoshop-illustrator-xd-indesign)
-* [-] [MASTER GRAPHIC DESIGN & SOFTWARE WITH PRACTICAL PROJECTS](https://www.udemy.com/course/master-graphic-design-through-projects-beginner-to-advanced)
-* [-] [GRAPHIC DESIGN MASTERY: THE FULL BRANDING & DESIGN PROCESS](https://www.udemy.com/course/graphic-design-mastery-the-full-branding-design-process)
-* [-] [GRAPHIC DESIGN MASTERCLASS: THE NEXT LEVEL](https://www.udemy.com/course/graphic-design-masterclass-the-next-level)
-* [-] [GRAPHIC DESIGN MASTERCLASS - LEARN GREAT DESIGN](https://www.udemy.com/course/graphic-design-masterclass-everything-you-need-to-know)
-* [-] [ADOBE AFTER EFFECTS CRASH COURSE FOR CREATIVES](https://www.udemy.com/course/adobe-after-effects-crash-course-for-creatives)
-* [-] [THE FREELANCE MASTERCLASS: FOR CREATIVES](https://www.udemy.com/course/the-freelance-masterclass-for-creatives)
-* [-] [PASSIVE INCOME COURSE FOR GRAPHIC DESIGNERS](https://www.udemy.com/course/passive-income-course-for-graphic-designers)
-* [-] [DRIBBLE COLORS](https://dribbble.com/colors)
-* [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack)
-* [-] [RECURSIVE TYPEFACE](https://www.recursive.design)
-* [-] [THEORY SPRINTS: COURSE](https://proximityschool.com/theory-sprints)
 
 # TECHNICAL WRITING
 * [-] [TECHNICAL WRITING COURSES FOR ENGINEERS](https://developers.google.com/tech-writing)

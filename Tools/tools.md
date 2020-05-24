@@ -132,5 +132,6 @@
 * Hero Icons (Complete) <https://www.heroicons.com>
   * Hero Icons (Subset) <https://github.com/refactoringui/heroicons>
 * Zondicons <http://www.zondicons.com>
+* Feather Icons <https://feathericons.com>
 * Inter Typeface <https://rsms.me/inter>
 * Various Resources <https://www.designvalley.club>
