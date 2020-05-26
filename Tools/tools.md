@@ -33,6 +33,7 @@
 * Responsive Tester <https://www.responsinator.com>
 * Dummy Image <https://dummyimage.com>
 * Grid Calculator <http://gridcalculator.dk>
+* Grid By Example <https://gridbyexample.com>
 * Figma Mirror (View Figma prototypes on iOS devices) <https://apps.apple.com/us/app/figma-mirror/id1152747299>
 
 # Databases
@@ -133,5 +134,6 @@
   * Hero Icons (Subset) <https://github.com/refactoringui/heroicons>
 * Zondicons <http://www.zondicons.com>
 * Feather Icons <https://feathericons.com>
+* Fontjoy: Generate font combinations <https://fontjoy.com>
 * Inter Typeface <https://rsms.me/inter>
 * Various Resources <https://www.designvalley.club>
