@@ -10,7 +10,7 @@
 
 # HTML/CSS
 * [-] [FREECODECAMP: RESPONSIVE WEB DESIGN CERTIFICATION](https://www.freecodecamp.org/learn)
-* [.] [CSS GRIDS AND FLEXBOX FOR RESPONSIVE WEB DESIGN](https://frontendmasters.com/courses/css-grids-flexbox)
+* [/] [CSS GRIDS AND FLEXBOX FOR RESPONSIVE WEB DESIGN](https://frontendmasters.com/courses/css-grids-flexbox)
 * [-] [ADVANCED CSS LAYOUTS](https://frontendmasters.com/courses/advanced-css-layouts)
 * [-] [MOTION DESIGN WITH CSS](https://frontendmasters.com/courses/motion-design-css)
 * [-] [RESPONSIVE WEB TYPOGRAPHY](https://frontendmasters.com/courses/responsive-typography-v2)
@@ -369,7 +369,7 @@
 * [/] [THINKING IN REACT (UI COMPONENT ARCHITECTURE + UI STATE)](https://reactjs.org/docs/thinking-in-react.html)
 * [/] [EVERYTHING I KNOW ABOUT STYLE GUIDES, DESIGN SYSTEMS, AND COMPONENT LIBRARIES](https://leerob.io/blog/style-guides-component-libraries-design-systems)
 * [-] [UI DESIGN FUNDAMENTALS](https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course)
-* [-] [DESIGN SYSTEMS WITH REACT & STORYBOOK](https://frontendmasters.com/courses/design-systems)
+* [.] [DESIGN SYSTEMS WITH REACT & STORYBOOK](https://frontendmasters.com/courses/design-systems)
 * [-] [STORYBOOK: LEARN TO DEVELOP UIS WITH COMPONENTS AND DESIGN SYSTEMS](https://www.learnstorybook.com)
 * [.] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma)
 * [-] [LEARN UX: FIGMA COURSE](https://learnux.io/course/figma)

@@ -36,6 +36,10 @@
 * Grid By Example <https://gridbyexample.com>
 * Figma Mirror (View Figma prototypes on iOS devices) <https://apps.apple.com/us/app/figma-mirror/id1152747299>
 
+# Design Systems
+* Introduction to Design Systems <https://fem-design-systems.netlify.app/building-a-design-system>
+* Primer (GitHub Design System) <https://primer.style>
+
 # Databases
 * PostgreSQL GUI tool for macOS <http://www.psequel.com>
 
@@ -70,6 +74,7 @@
   ```
 
 # Image Manipulation
+* SVG OMG: <https://jakearchibald.github.io/svgomg>
 * Image Enlarger <https://imglarger.com>
 * Remove Background from image <https://www.remove.bg>
 * Favicon Generator for PWAs <https://realfavicongenerator.net>
@@ -134,6 +139,13 @@
   * Hero Icons (Subset) <https://github.com/refactoringui/heroicons>
 * Zondicons <http://www.zondicons.com>
 * Feather Icons <https://feathericons.com>
-* Fontjoy: Generate font combinations <https://fontjoy.com>
-* Inter Typeface <https://rsms.me/inter>
 * Various Resources <https://www.designvalley.club>
+
+# Typography
+* Google Fonts <https://fonts.google.com>
+* Inter Typeface <https://rsms.me/inter>
+* Generate font combinations <https://fontjoy.com>
+* Visual Type Scale <https://type-scale.com>
+
+# Colour
+* Colour Scheme Generator <https://coolors.co>
