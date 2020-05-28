@@ -133,12 +133,14 @@
 * Vectors <https://undraw.co/illustrations>
 * Vectors <https://www.openpeeps.com>
 * Vectors <https://isometric.online>
-* Illustrations <https://www.oldbookillustrations.com>
+* Raster Illustrations <https://www.oldbookillustrations.com>
 * Hero Patterns <http://www.heropatterns.com>
 * Hero Icons (Complete) <https://www.heroicons.com>
   * Hero Icons (Subset) <https://github.com/refactoringui/heroicons>
 * Zondicons <http://www.zondicons.com>
 * Feather Icons <https://feathericons.com>
+* Noun Project Icons <https://thenounproject.com>
+* Material Icons <https://material.io/resources/icons>
 * Various Resources <https://www.designvalley.club>
 
 # Typography
