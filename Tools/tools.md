@@ -1,29 +1,28 @@
 # Online Editors
+* <https://codesandbox.io> (login with Github account)
 * <https://codepen.io/damcro>
 
 # API + Data
 * Postman: API Development Platform <https://www.postman.com>
 * Insomnia: API/REST/HTTP/GraphQL Client <https://insomnia.rest>
-* The Star Wars API: All the Star Wars data you've ever wanted <https://swapi.co>
+* The Star Wars API <https://swapi.co>
 
 # CS + Security
 * Binary Representation of Base 10 Numbers <http://bartaz.github.io/ieee754-visualization>
 * How to Store User Passwords and Overcome Security Threats in 2017 <https://rangle.io/blog/how-to-store-user-passwords-and-overcome-security-threats-in-2017>
 
 # HTML
-* How to manage HTML DOM with vanilla JavaScript only <https://htmldom.dev>
-* Custom Elements Everywhere: Making sure frameworks and custom elements can be BFFs <https://custom-elements-everywhere.com>
+* How to manage HTML DOM with vanilla JS only <https://htmldom.dev>
+* Custom Elements Everywhere <https://custom-elements-everywhere.com>
 
 # CSS UI Kits + Testing
+* Bootstrap UI Framework <https://getbootstrap.com>
+* Tachyons CSS Framework<https://tachyons.io/>
 * Tailwind CSS Framework <https://tailwindcss.com>
 * Tailwind UI Framework <https://tailwindui.com>
-* Awesome things related to Tailwind CSS <https://github.com/aniftyco/awesome-tailwindcss>
-* Tachyons <https://tachyons.io/>
-* Bootstrap UI Frameowrk <https://getbootstrap.com>
-* Clarity Design System <https://clarity.design>
-* GitHub Primer Design System <https://primer.style>
+* Tailwind CSS Collection <https://github.com/aniftyco/awesome-tailwindcss>
 * Media Queries Cheatsheet <https://gist.github.com/bartholomej/8415655>
-* CSS Layout: A collection of popular layouts and patterns made with CSS <https://csslayout.io>
+* CSS Layout patterns <https://csslayout.io>
 * CSS Snippets <https://atomiks.github.io/30-seconds-of-css>
 * Animation Easing Functions <https://easings.net/en>
 * Browser Screen Size Stats <https://gs.statcounter.com>
@@ -39,6 +38,11 @@
 # Design Systems
 * Introduction to Design Systems <https://fem-design-systems.netlify.app/building-a-design-system>
 * Primer (GitHub Design System) <https://primer.style>
+* Clarity Design System <https://clarity.design>
+* Designs Systems Collection <https://designsystemsrepo.com>
+
+# Documentation
+* Storybook <https://storybook.js.org>
 
 # Databases
 * PostgreSQL GUI tool for macOS <http://www.psequel.com>
