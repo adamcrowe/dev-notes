@@ -13,6 +13,7 @@
 * [/] [CSS GRIDS AND FLEXBOX FOR RESPONSIVE WEB DESIGN](https://frontendmasters.com/courses/css-grids-flexbox)
 * [-] [ADVANCED CSS LAYOUTS](https://frontendmasters.com/courses/advanced-css-layouts)
 * [-] [MOTION DESIGN WITH CSS](https://frontendmasters.com/courses/motion-design-css)
+* [-] [SVG ESSENTIALS & ANIMATION](https://frontendmasters.com/courses/svg-essentials-animation/)
 * [-] [RESPONSIVE WEB TYPOGRAPHY](https://frontendmasters.com/courses/responsive-typography-v2)
 * [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
 * [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass)
