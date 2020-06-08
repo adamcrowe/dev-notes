@@ -11,7 +11,8 @@
 # HTML/CSS
 * [-] [FREECODECAMP: RESPONSIVE WEB DESIGN CERTIFICATION](https://www.freecodecamp.org/learn)
 * [/] [CSS GRIDS AND FLEXBOX FOR RESPONSIVE WEB DESIGN](https://frontendmasters.com/courses/css-grids-flexbox)
-* [-] [ADVANCED CSS LAYOUTS](https://frontendmasters.com/courses/advanced-css-layouts)
+* [.] [ADVANCED CSS LAYOUTS](https://frontendmasters.com/courses/advanced-css-layouts)
+* [-] [RESPONSIVE DESIGNS AND CSS CUSTOM PROPERTIES: BUILDING A FLEXIBLE GRID SYSTEM](https://css-tricks.com/responsive-designs-and-css-custom-properties-building-a-flexible-grid-system)
 * [-] [MOTION DESIGN WITH CSS](https://frontendmasters.com/courses/motion-design-css)
 * [-] [SVG ESSENTIALS & ANIMATION](https://frontendmasters.com/courses/svg-essentials-animation/)
 * [-] [RESPONSIVE WEB TYPOGRAPHY](https://frontendmasters.com/courses/responsive-typography-v2)
@@ -262,7 +263,7 @@
 * [-] [AUTOMATE THE BORING STUFF WITH PYTHON](https://automatetheboringstuff.com)
 * [/] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
 * [-] [VISUAL STUDIO CODE CAN DO THAT?](https://frontendmasters.com/courses/customize-vs-code/)
-* [-] [GIT IN-DEPTH](https://frontendmasters.com/courses/git-in-depth/)
+* [-] [GIT IN-DEPTH](https://frontendmasters.com/courses/git-in-depth)
 * [-] [LEARN GIT CONCEPTS, NOT COMMANDS](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git)
 * [-] [GIT TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQHO1PfyscjIPkNJjgHsLyH)
@@ -271,6 +272,7 @@
 * [-] [GIT-COMPLETION.BASH](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 * [-] [BASH SHORTCUTS TO ENHANCE YOUR GIT WORKFLOW](https://medium.freecodecamp.org/bash-shortcuts-to-enhance-your-git-workflow-5107d64ea0ff)
 * [-] [HOW TO UNDO (ALMOST) ANYTHING WITH GIT](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git)
+* [-] [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit)
 * [-] [PRO GIT](https://www.apress.com/gp/book/9781484200773)
 * [-] [COMMAND LINE TRICKS FOR MANAGING YOUR MESSY OPEN SOURCE REPOSITORY](https://www.freecodecamp.org/news/command-line-tricks-for-managing-your-messy-open-source-repository)
 * [-] [LEARN DEVOPS BASICS WITH THIS FREE 2-HOUR DOCKER COURSE](https://www.freecodecamp.org/news/docker-devops-course)
@@ -339,6 +341,9 @@
 # SYSTEM DESIGN
 * [-] [SYSTEM DESIGN](https://www.freecodecamp.org/news/systems-design-for-interviews)
 
+# TECHNICAL WRITING
+* [-] [TECHNICAL WRITING COURSES FOR ENGINEERS](https://developers.google.com/tech-writing)
+
 # DATA VISUALIZATION
 * [-] [THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION](https://www.amazon.co.uk/Visual-Display-Quantitative-Information/dp/1930824130)
 * [-] [DATA VISUALISATION: A HANDBOOK FOR DATA DRIVEN DESIGN](https://www.amazon.co.uk/Data-Visualisation-Handbook-Driven-Design/dp/1526468921)
@@ -368,6 +373,8 @@
 
 # UI DESIGN
 * [-] [ATOMIC DESIGN](https://atomicdesign.bradfrost.com)
+* [-] [THE ATOMIC WORKFLOW — PEOPLE, PROCESS, AND MAKING DESIGN SYSTEMS HAPPEN](https://www.smashingmagazine.com/atomic-design-workflow)
+* [-] [CREATING ATOMIC COMPONENTS THAT WILL BLOW YOUR MIND](https://liferay.design/articles/2019/creating-atomic-components-in-figma)
 * [/] [THINKING IN REACT (UI COMPONENT ARCHITECTURE + UI STATE)](https://reactjs.org/docs/thinking-in-react.html)
 * [/] [EVERYTHING I KNOW ABOUT STYLE GUIDES, DESIGN SYSTEMS, AND COMPONENT LIBRARIES](https://leerob.io/blog/style-guides-component-libraries-design-systems)
 * [-] [UI DESIGN FUNDAMENTALS](https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course)
@@ -409,6 +416,4 @@
 * [/] [REFACTORING UI: REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
 * [/] [HIGH RESOLUTION - UI DESIGNER INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
 * [/] [HOW STRIPE DESIGNS BEAUTIFUL WEBSITES](https://leerob.io/blog/how-stripe-designs-beautiful-websites)
-
-# TECHNICAL WRITING
-* [-] [TECHNICAL WRITING COURSES FOR ENGINEERS](https://developers.google.com/tech-writing)
+* [/] [DESIGN AT SCALE: ONE YEAR WITH FIGMA](https://www.smashingmagazine.com/2019/04/design-scale-figma)

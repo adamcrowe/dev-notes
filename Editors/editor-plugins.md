@@ -5,6 +5,8 @@
 * [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
 * [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 * [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+* [Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
+* [ESLint](https://github.com/Microsoft/vscode-eslint)
 
 # Other
 * GitLab Workflow: <https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow>

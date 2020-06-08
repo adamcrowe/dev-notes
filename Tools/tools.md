@@ -40,6 +40,8 @@
 * Primer (GitHub Design System) <https://primer.style>
 * Clarity Design System <https://clarity.design>
 * Designs Systems Collection <https://designsystemsrepo.com>
+* Lexicon <https://liferay.design/lexicon>
+  * <https://liferay.design/resources/figma>
 
 # Documentation
 * Storybook <https://storybook.js.org>
