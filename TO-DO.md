@@ -11,11 +11,11 @@
 # HTML/CSS
 * [-] [FREECODECAMP: RESPONSIVE WEB DESIGN CERTIFICATION](https://www.freecodecamp.org/learn)
 * [/] [CSS GRIDS AND FLEXBOX FOR RESPONSIVE WEB DESIGN](https://frontendmasters.com/courses/css-grids-flexbox)
-* [.] [ADVANCED CSS LAYOUTS](https://frontendmasters.com/courses/advanced-css-layouts)
+* [/] [ADVANCED CSS LAYOUTS](https://frontendmasters.com/courses/advanced-css-layouts)
 * [-] [RESPONSIVE DESIGNS AND CSS CUSTOM PROPERTIES: BUILDING A FLEXIBLE GRID SYSTEM](https://css-tricks.com/responsive-designs-and-css-custom-properties-building-a-flexible-grid-system)
 * [-] [MOTION DESIGN WITH CSS](https://frontendmasters.com/courses/motion-design-css)
 * [-] [SVG ESSENTIALS & ANIMATION](https://frontendmasters.com/courses/svg-essentials-animation/)
-* [-] [RESPONSIVE WEB TYPOGRAPHY](https://frontendmasters.com/courses/responsive-typography-v2)
+* [.] [RESPONSIVE WEB TYPOGRAPHY](https://frontendmasters.com/courses/responsive-typography-v2)
 * [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
 * [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass)
 * [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass)
@@ -66,6 +66,7 @@
 * [/] CORE JAVASCRIPT CONCEPTS
 
 # FRONTEND (DOM MANIPULATION)
+* [-] [BUILD 15 JAVASCRIPT PROJECTS](https://www.freecodecamp.org/news/hone-your-javascript-skills-by-building-these-15-projects/)
 * [-] [LEARN JAVASCRIPT BY CREATING A TETRIS GAME](https://www.freecodecamp.org/news/learn-javascript-by-creating-a-tetris-game)
 * [-] [LEARN JAVASCRIPT BY BUILDING 7 GAMES](https://www.freecodecamp.org/news/learn-javascript-by-building-7-games-video-course)
 * [-] [HOW TO BUILD MINESWEEPER WITH JAVASCRIPT](https://mitchum.blog/how-to-build-minesweeper-with-javascript)
@@ -296,7 +297,7 @@
 * [-] [IMPOSTER'S HANDBOOK: SEASON 1 & 2](https://bigmachine.io/products/the-imposters-handbook)
 
 # CRAFTMANSHIP
-* [-] REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE
+* [-] [REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE](https://www.informit.com/store/refactoring-improving-the-design-of-existing-code-9780134757599)
 * [/] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP 2020](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap)
 * [-] [HEAD FIRST SOFTWARE DEVELOPMENT](http://shop.oreilly.com/product/9780596527358.do)
 * [-] [HEAD FIRST OBJECT-ORIENTED ANALYSIS AND DESIGN](http://shop.oreilly.com/product/9780596008673.do)

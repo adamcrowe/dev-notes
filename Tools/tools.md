@@ -148,12 +148,14 @@
 * Noun Project Icons <https://thenounproject.com>
 * Material Icons <https://material.io/resources/icons>
 * Various Resources <https://www.designvalley.club>
+* Various Resources <https://nodesign.dev>
 
 # Typography
 * Google Fonts <https://fonts.google.com>
 * Inter Typeface <https://rsms.me/inter>
 * Generate font combinations <https://fontjoy.com>
-* Visual Type Scale <https://type-scale.com>
+* Type Scale <https://type-scale.com>
+* Font Pair <https://fontpair.co>
 
 # Colour
 * Colour Scheme Generator <https://coolors.co>
