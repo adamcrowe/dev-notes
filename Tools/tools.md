@@ -156,6 +156,7 @@
 * Generate font combinations <https://fontjoy.com>
 * Type Scale <https://type-scale.com>
 * Font Pair <https://fontpair.co>
+* Widow Adjust: Automatically fix typographic widows on your web pages <https://github.com/nathanford/widowadjust>
 
 # Colour
 * Colour Scheme Generator <https://coolors.co>
