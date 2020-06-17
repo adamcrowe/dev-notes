@@ -144,7 +144,6 @@
 * Variable Fonts Collection <https://v-fonts.com>
 * Variable Font Playground <https://www.axis-praxis.org>
 * Type Scale <https://type-scale.com>
-
 * Widow Adjust: Automatically fix typographic widows on your web pages <https://github.com/nathanford/widowadjust>
 
 # Colour
