@@ -41,7 +41,7 @@
 * Clarity Design System <https://clarity.design>
 * Designs Systems Collection <https://designsystemsrepo.com>
 * Lexicon <https://liferay.design/lexicon>
-  * <https://liferay.design/resources/figma>
+    * <https://liferay.design/resources/figma>
 
 # Documentation
 * Storybook <https://storybook.js.org>
@@ -52,7 +52,7 @@
 # Debugging + Testing
 * ShellCheck: Finds bugs in your shell scripts <https://www.shellcheck.net>
 * Wallaby.js: Run tests in editor <https://wallabyjs.com>
-  * Demo <https://www.youtube.com/watch?v=P4UQ-jTTJJ4>
+    * Demo <https://www.youtube.com/watch?v=P4UQ-jTTJJ4>
 * Quokka.js: Run code in editor <https://quokkajs.com>
 
 # Deployment
@@ -69,15 +69,15 @@
 * Publish Beautiful Code Snippets <https://carbon.now.sh>
 * Highlight JS: Code snippets <https://highlightjs.org>
 * Storybook is an open source tool for developing UI components in isolation <https://storybook.js.org>
-  * Angular: <https://stackoverflow.com/questions/56868391/storybook-with-using-injection-in-angular-module>
-  ```json
-  {
-    "extends": "../tsconfig.app.json",
-    "compilerOptions": {
-      "emitDecoratorMetadata": true, // <--------- Add this!
-    },
-  }
-  ```
+    * Angular: <https://stackoverflow.com/questions/56868391/storybook-with-using-injection-in-angular-module>
+    ```json
+    {
+        "extends": "../tsconfig.app.json",
+        "compilerOptions": {
+        "emitDecoratorMetadata": true, // <--------- Add this!
+        },
+    }
+    ```
 
 # Image Manipulation
 * SVG OMG: <https://jakearchibald.github.io/svgomg>
@@ -87,24 +87,6 @@
 * Check and remove Exif image data online <http://www.verexif.com/en>
 * ImageOptim makes images load faster <https://imageoptim.com>
 * XnConvert Bulk Image Converter <https://www.xnview.com/en/xnconvert>
-
-# Jamstack / Serverless
-<https://www.crowdform.co.uk/blog/deploying-a-gatsby-site-to-firebase-with-google-cloud-build>
-<https://medium.com/datafire-io/simple-backends-four-ways-to-implement-a-contact-us-form-on-a-static-website-10fc430984a4> ***
-<https://cobwwweb.com/zero-to-functioning-netlify-function>
-<https://cobwwweb.com/netlify-function-sends-conditional-email> ***
-<https://bryanlrobinson.com/blog/routing-contact-form-submissions-to-different-addresses-with-netlify-zapier-and-sendgrid> **
-<https://css-tricks.com/using-netlify-forms-and-netlify-functions-to-build-an-email-sign-up-widget>
-<https://css-tricks.com/netlify-functions-for-sending-emails>
-[Netlify Functions (Build and Deploy)](https://www.youtube.com/watch?v=_1qXQM3Mt4Q)
-[Serverless Lambda Functions](https://www.youtube.com/watch?v=drJwMlD9Mjo)
-[Simple Contact Form Submission With Netlify](https://www.youtube.com/watch?v=6ElQ689HRcY)
-<https://medium.com/backticks-tildes/handling-static-forms-the-client-side-way-4ffcbecf7498>
-<https://www.netlify.com/blog/2019/10/07/complete-intro-to-netlify-in-3.5-hours/>
-<https://www.raymondcamden.com/2019/01/08/adding-serverless-functions-to-your-netlify-static-site>
-<https://www.raymondcamden.com/2019/01/15/customized-form-handling-on-netlify-with-serverless-functions>
-<https://luetkemj.github.io/180505/netlify-lambdas-as-simple-as-possible>
-<https://www.codespot.org/how-to-build-a-blog-with-gatsby-and>
 
 # JavaScript
 * JS Equality Table <http://dorey.github.io/JavaScript-Equality-Table>
@@ -142,7 +124,7 @@
 * Raster Illustrations <https://www.oldbookillustrations.com>
 * Hero Patterns <http://www.heropatterns.com>
 * Hero Icons (Complete) <https://www.heroicons.com>
-  * Hero Icons (Subset) <https://github.com/refactoringui/heroicons>
+    * Hero Icons (Subset) <https://github.com/refactoringui/heroicons>
 * Zondicons <http://www.zondicons.com>
 * Feather Icons <https://feathericons.com>
 * Noun Project Icons <https://thenounproject.com>
@@ -152,11 +134,36 @@
 
 # Typography
 * Google Fonts <https://fonts.google.com>
-* Inter Typeface <https://rsms.me/inter>
-* Generate font combinations <https://fontjoy.com>
-* Type Scale <https://type-scale.com>
+* IBM Plex (Sans, Serif, Mono, Condensed) <https://fonts.google.com/?query=plex#standard-styles>
+* Inter Typeface <https://rsms.me/inter> Samples: <https://www.figma.com/file/WmU5NWr52bnUcqv5os0V4sWi>
+* Font Analyzer and CSS Generator <https://wakamaifondue.com>
 * Font Pair <https://fontpair.co>
+* Font combinations <https://fontjoy.com>
+* Variable Fonts 101 <https://www.monotype.com/resources/expertise/variable-fonts-101>
+* variableFont.js <https://github.com/Monotype/variableFont.js>
+* Variable Fonts Collection <https://v-fonts.com>
+* Variable Font Playground <https://www.axis-praxis.org>
+* Type Scale <https://type-scale.com>
+
 * Widow Adjust: Automatically fix typographic widows on your web pages <https://github.com/nathanford/widowadjust>
 
 # Colour
 * Colour Scheme Generator <https://coolors.co>
+
+# Jamstack / Serverless
+<https://www.crowdform.co.uk/blog/deploying-a-gatsby-site-to-firebase-with-google-cloud-build>
+<https://medium.com/datafire-io/simple-backends-four-ways-to-implement-a-contact-us-form-on-a-static-website-10fc430984a4> ***
+<https://cobwwweb.com/zero-to-functioning-netlify-function>
+<https://cobwwweb.com/netlify-function-sends-conditional-email> ***
+<https://bryanlrobinson.com/blog/routing-contact-form-submissions-to-different-addresses-with-netlify-zapier-and-sendgrid> **
+<https://css-tricks.com/using-netlify-forms-and-netlify-functions-to-build-an-email-sign-up-widget>
+<https://css-tricks.com/netlify-functions-for-sending-emails>
+[Netlify Functions (Build and Deploy)](https://www.youtube.com/watch?v=_1qXQM3Mt4Q)
+[Serverless Lambda Functions](https://www.youtube.com/watch?v=drJwMlD9Mjo)
+[Simple Contact Form Submission With Netlify](https://www.youtube.com/watch?v=6ElQ689HRcY)
+<https://medium.com/backticks-tildes/handling-static-forms-the-client-side-way-4ffcbecf7498>
+<https://www.netlify.com/blog/2019/10/07/complete-intro-to-netlify-in-3.5-hours/>
+<https://www.raymondcamden.com/2019/01/08/adding-serverless-functions-to-your-netlify-static-site>
+<https://www.raymondcamden.com/2019/01/15/customized-form-handling-on-netlify-with-serverless-functions>
+<https://luetkemj.github.io/180505/netlify-lambdas-as-simple-as-possible>
+<https://www.codespot.org/how-to-build-a-blog-with-gatsby-and>
