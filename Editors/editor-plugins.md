@@ -9,6 +9,8 @@
 * [ESLint](https://github.com/Microsoft/vscode-eslint)
 
 # Other
+* REST Client: <https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame>
+* Git Blame: <https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame>
 * GitLab Workflow: <https://marketplace.visualstudio.com/items?itemName=fatihacet.gitlab-workflow>
 * Bracket Pair Colorizer: <https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer>
 * EditorConfig: (Maintain consistent coding styles between different editors and IDEs): <http://editorconfig.org>

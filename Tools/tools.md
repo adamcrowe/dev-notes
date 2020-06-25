@@ -149,6 +149,10 @@
 # Colour
 * Colour Scheme Generator <https://coolors.co>
 
+# Animation
+* cubic-bezier <https://cubic-bezier.com>
+* easings <https://easings.net>
+
 # Jamstack / Serverless
 <https://www.crowdform.co.uk/blog/deploying-a-gatsby-site-to-firebase-with-google-cloud-build>
 <https://medium.com/datafire-io/simple-backends-four-ways-to-implement-a-contact-us-form-on-a-static-website-10fc430984a4> ***
