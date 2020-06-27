@@ -317,6 +317,7 @@
 * [-] [COMPUTER SCIENCE AND SOFTWARE ENGINEERING THEORY](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy)
 * [-] [PROGRAMMING QUOTES](http://quotes.cat-v.org/programming/)
 * [-] [DUCKSPEAK VS SMALLTALK THE DECLINE OF THE XEROX PARC PHILOSOPHY AT APPLE COMPUTERS](https://dorophone.blogspot.com/2011/07/duckspeak-vs-smalltalk.html)
+* [/] [HOW TO EXPLAIN OBJECT-ORIENTED PROGRAMMING CONCEPTS TO A 6-YEAR-OLD](https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260)
 * [-] [SIMPLE MADE EASY](https://www.infoq.com/presentations/Simple-Made-Easy)
 * [-] [THINGS I LEARNT THE HARD WAY (IN 30 YEARS OF SOFTWARE DEVELOPMENT)](https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way)
 * [-] [WRITING SYSTEM SOFTWARE: CODE COMMENTS](http://antirez.com/news/124)
