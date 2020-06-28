@@ -1,11 +1,13 @@
 # dev-notes
 [A Development Notebook](http://alexkrupp.typepad.com/sensemaking/2012/09/program-above-and-beyond-your-actual-ability-by-using-freemind.html)
 
-## Work
+## Engineering
 * [Debugging & Asking Questions](Engineering/debugging.md)
 * [Software Development Life Cycle](Engineering/SDLC.md)
 * [Requirements Analysis](Engineering/requirements.md)
-* [Estimation](Engineering/estimation.md): "We are asked to do this impossible thing all the time, and we must face up to it honestly."
+* [Estimation](Engineering/estimation.md)
+* [Scrum](Engineering/scrum.md)
+* [BDD](Engineering/BDD.md)
 
 ## Professional Development
 * [Things You Should Never Do](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/): "It's harder to read code than to write it. This is why code reuse is so hard."

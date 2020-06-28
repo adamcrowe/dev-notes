@@ -1,5 +1,6 @@
 See: [Agile Manifesto](agile-manifesto.md)
 See: [Scrum](scrum.md)
+See: [Kanban](kanban.md)
 
 # Software Development Life Cycle (SDLC)
 > The software development life cycle is about producing high-quality software promptly.
