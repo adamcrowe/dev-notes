@@ -1,5 +1,4 @@
 # BDD
-
 > **Behavior-driven development** specifies that tests of any unit of software should be specified in terms of the desired behavior of the unit. Borrowing from agile software development the "desired behavior" in this case consists of the requirements set by the business — that is, the desired behavior that has business value for whatever entity commissioned the software unit under construction. Within BDD practice, this is referred to as BDD being an "outside-in" activity. -- [Wikipedia: Behavior-Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development)
 
 > Behaviour-driven development (BDD) takes the position that you can turn an idea for a requirement into implemented, tested, production-ready code simply and effectively, as long as the requirement is specific enough that everyone knows what’s going on. To do this, we need a way to describe the requirement such that everyone – the business folks, the analyst, the developer and the tester – have a common understanding of the scope of the work. From this they can agree a common definition of “done”, and we escape the dual gumption traps of “that’s not what I asked for” or “I forgot to tell you about this other thing”. This, then, is the role of a Story. It has to be a description of a requirement and its business benefit, and a set of criteria by which we all agree that it is “done”. This is a more rigorous definition than in other agile methodologies, where it is variously described as a “promise of a conversation” or a “description of a feature”. (A BDD story can just as easily describe a non-functional requirement, as long as the work can be scoped, estimated and agreed on.) -- [Dan North: What's in a Story?](https://dannorth.net/whats-in-a-story/)
@@ -37,7 +36,7 @@
 * When an (event occurs),
 * Then (ensure some outcomes).
 
-### EXAMPLES 
+### EXAMPLES
 
 #### Scenario 1: Account is in credit
 * Given the account is in credit,
@@ -87,25 +86,25 @@
 
 ```javascript
 
-describe("Given a string containing 'foo'", function() { 
-	var someString; 
-	beforeEach(function() { 
-		someString = "foo"; 
-	}); 
-
-	describe("When I append 'bar'", function() { 
-		beforeEach(function() { 
-			someString += "bar"; 
-		}); 
-
-		it("Then the string is 'foobar'", function() { 
-			expect(someString).toBe("foobar"); 
-		}); 
+describe("Given a string containing 'foo'", function() {
+	var someString;
+	beforeEach(function() {
+		someString = "foo";
 	});
-}); 
+
+	describe("When I append 'bar'", function() {
+		beforeEach(function() {
+			someString += "bar";
+		});
+
+		it("Then the string is 'foobar'", function() {
+			expect(someString).toBe("foobar");
+		});
+	});
+});
 ```
 
-## References
+# References
 * [Dan North: Introducing BDD](https://dannorth.net/introducing-bdd/)
 * [Dan North: What's in a Story?](https://dannorth.net/whats-in-a-story/)
 * [Wikipedia: Behavior-Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development)

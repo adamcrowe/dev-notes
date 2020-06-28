@@ -1,9 +1,9 @@
-* Kanplan <https://www.atlassian.com/agile/kanban/kanplan>
-
-! Turn your to-do list into a backlog 
-
+# Turn your to-do list into a backlog
 > Our build engineering team tried to combat their long and disorganized to-do list with daily stand-ups and weekly planning meetings. But what they really needed was a backlog instead of more meetings. Since kanban boards traditionally don’t have backlog functionality, product managers, development managers, and team leads use issues in the first column to plan. As this list grows, it’s hard to see and prioritize issues.
 
 > The kanplan feature introduces a wide column backlog with issues in a listview. This splits the kanban board into two different screens; the backlog for backlog grooming and the kanban board for the engineering team to select and move tasks through the workflow.
 
 > This functionality is no different than the backlog of a scrum board in Jira Software. For example, when you click the backlog icon in the sidebar, it takes you to a wide column of backlog issues. After grooming your backlog, you can drag and drop issues into the next step in your workflow.
+
+# References
+* [Kanplan](https://www.atlassian.com/agile/kanban/kanplan)

@@ -1,10 +1,11 @@
-> Good questions save time. Bad questions waste time.
+# Debugging and asking questions
+> Good questions save time. Bad questions waste time. ~ Gordon Zhu
 
 ## 1. Understand the code to the best of your ability
 * Check all systems are running
 * Diff changes to the code
 * Check the code for typos
-* Go through the code line-by-line and figure out what each line does
+* Debug: Go through the code line-by-line and figure out what each line does
 
 ## 2. Investigate the problem
 * Create a list of hypotheses about the problem and then test each methodically
@@ -21,8 +22,9 @@
 * Proofread your question and edit for brevity and clarity
 
 ## 4. Ask your question
-* If you figure out the answer before anyone can respond, tell everyone you've asked
+* Then...
+* If you find an answer before anyone responds, tell everyone you've asked
 * Thank each person that helped you to investigate and fix the problem
 
-## References
+# References
 * [Gordon Zhu: How to be great at asking coding questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603)

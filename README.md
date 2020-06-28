@@ -2,13 +2,12 @@
 [A Development Notebook](http://alexkrupp.typepad.com/sensemaking/2012/09/program-above-and-beyond-your-actual-ability-by-using-freemind.html)
 
 ## Work
-
-* [Asking Questions](Engineering/asking-questions.md)
-* [Requirements](Engineering/requirements.md): BDD/TDD, Stories, Specs, Tests
+* [Debugging & Asking Questions](Engineering/debugging.md)
+* [Software Development Life Cycle](Engineering/SDLC.md)
+* [Requirements Analysis](Engineering/requirements.md)
 * [Estimation](Engineering/estimation.md): "We are asked to do this impossible thing all the time, and we must face up to it honestly."
 
 ## Professional Development
-
 * [Things You Should Never Do](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/): "It's harder to read code than to write it. This is why code reuse is so hard."
 * [Why Don't Software Development Methodologies Work?](http://typicalprogrammer.com/why-dont-software-development-methodologies-work): "'Life is pain...Anyone who says differently is selling something.'"
 * [How to be a Programmer: Community Version](https://github.com/braydie/HowToBeAProgrammer): "To communicate well, you have to recognize how hard it is. It is a skill unto itself."

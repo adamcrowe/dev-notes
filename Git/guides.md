@@ -1,5 +1,6 @@
 * [Moving A Git Repository To A New Server](https://www.smashingmagazine.com/2014/05/moving-git-repository-new-server/)
 * [Moving git repository and all its branches, tags to a new remote repository keeping commits history](https://gist.github.com/niksumeiko/8972566)
+* [GitHub - Delete commits history with git commands](https://gist.github.com/heiswayi/350e2afda8cece810c0f6116dadbe651)
 * <http://ohshitgit.com/ <http://ohshitgit.com/>
 * <https://sethrobertson.github.io/GitFixUm/fixup.html>
 * <https://codewords.recurse.com/issues/two/git-from-the-inside-out>
