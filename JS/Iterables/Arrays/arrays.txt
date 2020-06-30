@@ -1,4 +1,0 @@
-TODO: Sort methods into folders based on type:
-mutator methods: sort, reverse, splice, shift and unshift
-accessor methods: concat, join, slice, indexOf and lastIndexOf
-iteration methods: filter, every, forEach, map, some, reduce, reduceRight

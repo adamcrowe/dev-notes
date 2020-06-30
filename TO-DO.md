@@ -14,10 +14,10 @@
 * [/] [ADVANCED CSS LAYOUTS](https://frontendmasters.com/courses/advanced-css-layouts)
 * [-] [RESPONSIVE DESIGNS AND CSS CUSTOM PROPERTIES: BUILDING A FLEXIBLE GRID SYSTEM](https://css-tricks.com/responsive-designs-and-css-custom-properties-building-a-flexible-grid-system)
 * [/] [MOTION DESIGN WITH CSS](https://frontendmasters.com/courses/motion-design-css)
-* [.] [SVG ESSENTIALS & ANIMATION](https://frontendmasters.com/courses/svg-essentials-animation/)
+* [/] [SVG ESSENTIALS & ANIMATION](https://frontendmasters.com/courses/svg-essentials-animation/)
 * [/] [RESPONSIVE WEB TYPOGRAPHY](https://frontendmasters.com/courses/responsive-typography-v2)
 * [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
-* [-] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass)
+* [.] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass)
 * [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass)
 * [-] [STYLE YOUR REACT APPS WITH TAILWIND CSS AND STYLED COMPONENTS](https://www.freecodecamp.org/news/how-to-style-your-react-apps-with-less-code-using-tailwind-css-and-styled-components)
 * [-] [DESIGNING WITH TAILWIND CSS (WORKCATION)](https://tailwindcss.com/screencasts) <https://www.youtube.com/watch?v=0aTRN9CSCY0&list=PL7CcGwsqRpSO3J4YU6BkWqjU0XcVSaPXl>
@@ -160,7 +160,7 @@
 
 # STATE MANAGEMENT
 * [-] [HOW TO IMPLEMENT REDUX IN 24 LINES OF JAVASCRIPT](https://yazeedb.com/posts/redux-in-24-lines-of-code)
-* [.] [REDUX: BASIC TUTORIAL](https://redux.js.org/basics/basic-tutorial)
+* [-] [REDUX: BASIC TUTORIAL](https://redux.js.org/basics/basic-tutorial)
 * [-] [REDUX: ADVANCED TUTORIAL](https://redux.js.org/advanced/advanced-tutorial)
 * [-] [REASONS TO LEARN REDUX AS A JAVASCRIPT DEVELOPER](https://www.robinwieruch.de/redux-javascript)
 * [-] [GETTING STARTED WITH REDUX](https://egghead.io/courses/getting-started-with-redux)
@@ -356,7 +356,7 @@
 * [-] [THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION](https://www.amazon.co.uk/Visual-Display-Quantitative-Information/dp/1930824130)
 * [-] [DATA VISUALISATION: A HANDBOOK FOR DATA DRIVEN DESIGN](https://www.amazon.co.uk/Data-Visualisation-Handbook-Driven-Design/dp/1526468921)
 * [-] [INTERACTIVE DATA VISUALIZATION FOR THE WEB (2ND ED)](https://alignedleft.com/work/d3-book-2e)
-* [-] [MASTERING DATA VISUALIZATION IN D3.JS](https://www.udemy.com/course/masteringd3js)
+* [.] [MASTERING DATA VISUALIZATION IN D3.JS](https://www.udemy.com/course/masteringd3js)
 * [-] [INTERACTIVE DATA VISUALIZATION WITH MODERN JAVASCRIPT AND D3](https://www.sitepoint.com/interactive-data-visualization-javascript-d3)
 * [-] [FULLSTACK D3 AND DATA VISUALIZATION](https://www.newline.co/fullstack-d3)
 * [-] [D3 TUTORIALS](https://github.com/d3/d3/wiki/Tutorials)

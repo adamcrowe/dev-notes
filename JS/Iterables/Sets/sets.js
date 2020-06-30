@@ -1,5 +1,5 @@
 // ! Sets
-// * Used for creating uniquesness
+// * Used for creating uniqueness (only unique values)
 // * Store (nested) data of any kind and length
 // * Iterable with special set methods available
 // * Order is not guaranteed (unlike arrays)
@@ -33,6 +33,15 @@ for (const entry of ids.values()) {
 
 ids.delete(3);
 console.log(ids); // Set(2) {1, 2}
+
+// Remove duplicates substrings from a string
+function removeDuplicateStrings(str) {
+    const arr = str.split(' '); // create array of words (without spaces)
+    const set = new Set(arr); // a Set cannot have duplicate items
+    return [...set].join(' '); // create string of words (with spaces)
+    // return [...new Set(str.split(' '))].join(' ');
+}
+console.log(removeDuplicateStrings('This is is a test test string')); // This is a test string
 
 // !! WeakSets
 // * The WeakSet object lets you store weakly held objects in a collection

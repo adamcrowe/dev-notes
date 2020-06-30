@@ -34,7 +34,7 @@ var maxCallback2 = ( max, cur ) => Math.max( max, cur );
 // map/reduce; better solution, also works for empty or larger arrays
 [ { x: 22 }, { x: 42 } ].map( el => el.x ).reduce( maxCallback2, -Infinity );
 
-// flatten an array of arrays
+// flatten an array of arrays (flattens only one level deep)
 var flattened = [[0, 1], [2, 3], [4, 5]].reduce(
     function(a, b) {
         return a.concat(b);
@@ -42,7 +42,7 @@ var flattened = [[0, 1], [2, 3], [4, 5]].reduce(
     [] // initialValue = []
 );
 
-/* shortened
+/* shortened (flattens only one level deep)
 var flattened = [[0, 1], [2, 3], [4, 5]].reduce(
     (acc, cur) => acc.concat(cur),
     [] // initialValue = []
