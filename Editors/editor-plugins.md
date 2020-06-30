@@ -7,6 +7,7 @@
 * [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 * [Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 * [ESLint](https://github.com/Microsoft/vscode-eslint)
+* [VSCODE PDF](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
 
 # Other
 * REST Client: <https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame>
