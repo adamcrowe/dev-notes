@@ -303,6 +303,12 @@
 * [-] [MATHS FOR PROGRAMMERS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
 * [-] [HOW DO COMPUTERS AND THE INTERNET WORK? - COMPUTER SCIENCE BASICS](https://www.youtube.com/watch?v=AV_VYsJnHQQ)
 * [-] [IMPOSTER'S HANDBOOK: SEASON 1 & 2](https://bigmachine.io/products/the-imposters-handbook)
+* [-] [INTRODUCTION TO ALGORITHMS - THIRD EDITION](https://mitpress.mit.edu/books/introduction-algorithms-third-edition)
+* [.] [FOUR SEMESTERS OF COMPUTER SCIENCE IN 5 HOURS - PART 1](https://frontendmasters.com/courses/computer-science)
+* [-] [A PRACTICAL GUIDE TO ALGORITHMS WITH JAVASCRIPT](https://frontendmasters.com/courses/practical-algorithms)
+* [-] [INTRODUCTION TO DATA STRUCTURES FOR INTERVIEWS](https://frontendmasters.com/courses/data-structures-interviews)
+* [-] [FOUR SEMESTERS OF COMPUTER SCIENCE IN 5 HOURS - PART 2](https://frontendmasters.com/courses/computer-science-2)
+* [-] [TREE AND GRAPH DATA STRUCTURES](https://frontendmasters.com/courses/trees-and-graphs)
 
 # CRAFTMANSHIP
 * [-] [REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE](https://www.informit.com/store/refactoring-improving-the-design-of-existing-code-9780134757599)
