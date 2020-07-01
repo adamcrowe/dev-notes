@@ -1,28 +1,28 @@
-// ! Recursion
+// # Recursion
 // Recursion is when a function calls itself (until it doesn't)
 
-// !! Use case: To replace loops
+// ## Use case: To replace loops
 
 // before:
-var x = 0; 
+var x = 0;
 
-while (x < 10) { 	// exit condition 
-	// do stuff 
-	x++; 
-} 
+while (x < 10) { 	// exit condition
+	// do stuff
+	x++;
+}
 
-// after: 
-function loop(x) { 
-	if (x >= 10) { 	// exit condition 
-		return; 
+// after:
+function loop(x) {
+	if (x >= 10) { 	// exit condition
+		return;
 	}
-	// do stuff 
-	loop(x + 1); 	// recursive call 
-} 
+	// do stuff
+	loop(x + 1); 	// recursive call
+}
 
 loop(0);
 
-// !! Use case: Factorials
+// ## Use case: Factorials
 
 // 4! = 4 * 3 * 2 * 1
 // n! = n * (n - 1)!
@@ -36,11 +36,27 @@ function factorial(n) {
 	}
 }
 
-// !! Use case: Unknown array depth problem: nestedArrays = [[1, 2, 3], [4, 5, 6], [7, 8, 9, [10, 11, 12]]]);
+// ## Use case: Flatten a nested array (without using Array.flatten)
+function flattenArray(arr) {
+	return arr.reduce((acc, item) => {
+		// Base case: item is not an array
+		if (!Array.isArray(item)) {
+			acc.push(item);
+			// Recursive case: item is an array
+		} else {
+			acc = acc.concat(flattenArray(item));
+		}
+		return acc;
+	}, []);
+}
+const exampleArray = [1, 2, [3, 4, [5, 6, 7], 8], 9, 10];
+console.log(flattenArray(exampleArray)); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// ## Use case: Flatten a nested array (e.g. nestedArrays = [[1, 2, 3], [4, 5, 6], [7, 8, 9, [10, 11, 12]]]);
 
 // From accounting.js
 function formatMoney(numbers) {
-	// Recursive case:
+	// Recursive case: numbers is an array
 	if (Array.isArray(numbers)) {
 		return numbers.map(function mapper(element) { // named `mapper` for ease of call stack debugging
 			// 1. map seeks to duplicate array structure of numbers but with transformed elements
@@ -57,58 +73,58 @@ function formatMoney(numbers) {
 nestedArrays = [[1, 2, 3], [4, 5, 6], [7, 8, 9, [10, 11, 12]]];
 formatMoney(nestedArrays);
 
-// !! Use case: unwrap an array
+// ## Use case: Flatten/Unwrap an array
 function unwrapArray(data) {
-	// Base case (exit recursion):
+	// Base case: data is not an array:
 	if (!Array.isArray(data)) {
 		return data;
-	// Recursive case:
+	// Recursive case: data is an array
 	} else {
 		return unwrapArray(data[0]);
 	}
 }
 unwrapArray([[[[[['wrapped']]]]]]);
 
-// Use !! case: Traversing a tree-like structure to manipulate its nodes
-let categories = [ 
-	{ id: 'animals', parent: null }, 
-	{ id: 'mammals', parent: 'animals' }, 
-	{ id: 'cats', parent: 'mammals' }, 
-	{ id: 'dogs', parent: 'mammals' }, 
-	{ id: 'chihuahua', parent: 'dogs' }, 
-	{ id: 'labrador', parent: 'dogs' }, 
-	{ id: 'persian', parent: 'cats' }, 
-	{ id: 'siamese', parent: 'cats' } 
-]; 
+// Use case: Traversing a tree-like structure to manipulate its nodes
+let categories = [
+	{ id: 'animals', parent: null },
+	{ id: 'mammals', parent: 'animals' },
+	{ id: 'cats', parent: 'mammals' },
+	{ id: 'dogs', parent: 'mammals' },
+	{ id: 'chihuahua', parent: 'dogs' },
+	{ id: 'labrador', parent: 'dogs' },
+	{ id: 'persian', parent: 'cats' },
+	{ id: 'siamese', parent: 'cats' }
+];
 
-let makeTree = (categories, parent) => { 
-	let node = {}; 
-	categories 
-		.filter(c => c.parent === parent) 
-		.forEach(c => node[c.id] = 
-			makeTree(categories, c.id)); // recursive calls 
+let makeTree = (categories, parent) => {
+	let node = {};
+	categories
+		.filter(c => c.parent === parent)
+		.forEach(c => node[c.id] =
+			makeTree(categories, c.id)); // recursive calls
 
- 	return Object.keys(node).length ? node : null;  
-}; 
+ 	return Object.keys(node).length ? node : null; 
+};
 
-console.log( 
-	JSON.stringify( 
-		makeTree(categories, null) // initial call 
-	, null, 2) 
-); 
+console.log(
+	JSON.stringify(
+		makeTree(categories, null) // initial call
+	, null, 2)
+);
 
-// anticipated tree structure 
-{ 
-	animals: { 
-		mammals: { 
-			cats: { 
-				'persian': null 
-				'siamese': null 
-			}, 
-			dogs: { 
-				'chihuahua': null 
-				'labrador': null 
-			}      
-		} 
-	} 
+// anticipated tree structure (json)
+{
+	animals: {
+		mammals: {
+			cats: {
+				'persian': null
+				'siamese': null
+			},
+			dogs: {
+				'chihuahua': null
+				'labrador': null
+			}     
+		}
+	}
 }

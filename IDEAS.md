@@ -13,6 +13,9 @@
 > That's it! The process is now aligned with our goals. Instead of developing at the very end, we're now developing all the way through.
 -- [The Secret to Unlimited Ideas for Your Coding Projects](https://www.freecodecamp.org/news/the-secret-to-unlimited-project-ideas)
 
+# PRACTICE PROJECTS
+* [Want to build something fun? Here’s a list of sample web app ideas](https://www.freecodecamp.org/news/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a/)
+
 # Existing Ideas
 * [A New Startup Idea Every Day](https://www.billiondollarstartupideas.com)
 * [r/Business_Ideas](https://www.reddit.com/r/Business_Ideas)

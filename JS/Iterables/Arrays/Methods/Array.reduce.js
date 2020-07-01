@@ -1,4 +1,4 @@
-// ! .reduce(callback[, initialValue])
+// # Array.reduce(callback[, initialValue])
 
 // The reduce() method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.
 
@@ -48,7 +48,23 @@ var flattened = [[0, 1], [2, 3], [4, 5]].reduce(
     [] // initialValue = []
 );
 */
-console.log(flattened) // [0, 1, 2, 3, 4, 5
+console.log(flattened) // [0, 1, 2, 3, 4, 5]
+
+// flatten multi-level nested array (without using Array.flatten)
+function flattenArray(arr) {
+    return arr.reduce((acc, item) => {
+        // Base case: item is not an array
+        if (!Array.isArray(item)) {
+            acc.push(item);
+            // Recursive case: item is an array
+        } else {
+            acc = acc.concat(flattenArray(item));
+        }
+        return acc;
+    }, []);
+}
+const exampleArray = [1, 2, [3, 4, [5, 6, 7], 8], 9, 10];
+console.log(flattenArray(exampleArray)); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // count instances of values in an object
 var names = ['Alice', 'Bob', 'Tiff', 'Bruce', 'Alice'];
@@ -82,8 +98,7 @@ var allbooks = friends.reduce(function(prev, curr) {
     return [...prev, ...curr.books];
 }, ['Alphabet']);
 
-console.log(allbooks);
-// ['Alphabet', 'Bible', 'Harry Potter', 'War and peace', 'Romeo and Juliet', 'The Lord of the Rings', 'The Shining']
+console.log(allbooks); // ['Alphabet', 'Bible', 'Harry Potter', 'War and peace', 'Romeo and Juliet', 'The Lord of the Rings', 'The Shining']
 
 // remove duplicate items in array
 let arr = [1, 2, 1, 2, 3, 5, 4, 5, 3, 4, 4, 4, 4];

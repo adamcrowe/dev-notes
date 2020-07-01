@@ -126,8 +126,10 @@
 * [-] [INTRO TO REACT NATIVE COURSE](https://www.freecodecamp.org/news/react-native-course-for-beginners)
 * [-] [REACT NATIVE COURSE: HOW TO BUILD ONE AN IPHONE APP, ANDROID APP, AND WEBSITE - ALL WITH THE SAME CODEBASE](https://www.youtube.com/watch?v=_CBYbEGvxYY)
 * [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
+* [-] [THE NEXT.JS HANDBOOK](https://www.freecodecamp.org/news/the-next-js-handbook)
 
 # FRONTEND (VUE)
+* [-] [THE VUE HANDBOOK](https://www.freecodecamp.org/news/the-vue-handbook-a-thorough-introduction-to-vue-js-1e86835d8446)
 * [-] [VUE JS 2 - THE COMPLETE GUIDE (INCL. VUE ROUTER & VUEX)](https://www.udemy.com/course/vuejs-2-the-complete-guide)
 * [-] [VUE JS: INTRODUCTION](https://vuejs.org/v2/guide)
 * [-] [VUE MASTERY (NUXT)](https://www.vuemastery.com/courses)

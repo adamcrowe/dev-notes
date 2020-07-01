@@ -89,12 +89,17 @@ console.log(removeDuplicateStrings('This is is  a test test string')); // This i
 
 ## How do you flatten an array without using .flat()?
 ```javascript
+/**
+ * Returns a flattened array from a nested array of any depth
+ */
 function flattenArray(arr) {
     return arr.reduce((acc, item) => {
-        if (Array.isArray(item)) {
-            acc = acc.concat(flattenArray(item));
-        } else {
+        // Base case: item is not an array
+        if (!Array.isArray(item)) {
             acc.push(item);
+        // Recursive case: item is an array
+        } else {
+            acc = acc.concat(flattenArray(item));
         }
         return acc;
     }, []);
@@ -103,6 +108,102 @@ const exampleArray = [1,2,[3,4, [5,6,7], 8], 9, 10];
 console.log(flattenArray(exampleArray)); // [1,2,3,4,5,6,7,8,9,10]
 ```
 
+## How do we change the lexical scope of a function? (How do you implement Function.prototype.bind()?)
+* Unlike `call()` and `apply()`, `bind()` can change the scope of a function without automatically executing the function.
+
+```javascript
+/**
+ * Returns the function with an updated context (lexical scope)
+ * @params context - the new lexical scope
+ */
+Function.prototype.bind = function(context) {
+    const fn = this; // `this` is the function itself
+
+    return function() {
+        fn.call(context);
+    }
+}
+```
+
+## How do you implement debounce (e.g. to delay fetching of results in a search field)?
+```javascript
+function debounce(fn, time);
+    let setTimeoutId; // track the timer
+
+    return function() {
+        if (setTimeoutId) clearTimeout(setTimeoutId); // cancel any previous timeouts to prevent stacking
+
+        // set timeout before executing function
+        setTimeoutId = setTimeout(() => {
+            fn.apply(this, arguments);
+            setTimeoutId = null; // delete the timer
+        }, time)
+    }
+```
+
+## How do you traverse a DOM tree data structure?
+* We have two identical DOM trees, A and B
+* For DOM tree A, we have the location of an element
+* Task: Create a function to find that same element in tree B
+```javascript
+/**
+ * Find an node in tree B, given an node in tree A
+ * @params node - the node in tree A
+ * @params root - the root node of tree B
+ */
+function reversePath(node, root) {
+    const path = []; // path for tree B
+    let pointer = node;
+
+    // create a path array to the `node` in tree A
+    while (pointer.parent) { // while the current node has a parent
+        const index = [...pointer.parent.children].indexOf(pointer); // get the index of the node in the current parent tree
+        path.push(index); // track the index
+        pointer = pointer.parent; // go up a parent in the tree
+    }
+
+    // switch to tree B
+    pointer = root;
+
+    // loop over the path to node in tree A
+    while (path.length) {
+        pointer = pointer.children[path.pop()]; // traverse tree B by using the end node of the tree A path array
+    }
+
+    return pointer; // the node in tree B that corresponds to the `node` in tree A
+}
+```
+
+## How do you move a DOM element?
+```javascript
+function moveElement(duration, distance, element) {
+    const startTime = performance.now(); // highres timestamp
+
+    function move(currentTime) {
+        const elapsed = currentTime - startTime;
+        const progress = elapsed / duration;
+        const amountToMove = progress * distance;
+
+        element.style.transform = `translateX(${ amountToMove }px)`;
+
+        if (amountToMove < distance ) Window.requestAnimationFrame(move(performance.now()));
+    }
+
+    move(performance.now());
+}
+```
+
+## How do you create a sleep function that will delay an awaiting promise?
+```javascript
+function sleep(time) {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve();
+        }, time);
+    });
+}
+```
+
 # References
-* [Interviewing for Front-End Engineers](https://frontendmasters.com/courses/interviewing-frontend/preparing-interview-questions)
+* [Interviewing for Front-End Engineers](https://frontendmasters.com/courses/interviewing-frontend)
 * [25 Most Common Web Developer Interview Questions And Answers 2020](https://blog.codegiant.io/25-web-developer-interview-questions-and-answers-3030b21ae016)
