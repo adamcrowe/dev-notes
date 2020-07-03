@@ -119,6 +119,7 @@
 * [-] [LEARN TO USE APIS IN REACT BY CREATING A RECIPE APP](https://www.freecodecamp.org/news/apis-in-react)
 * [-] [TAKE YOUR REACT SKILLS TO THE NEXT LEVEL BY BUILDING A TODOIST CLONE](https://www.freecodecamp.org/news/react-firebase-todoist-clone)
 * [-] [LEARN HOW TO CREATE A SOCIAL MEDIA APP FROM SCRATCH USING REACT, FIREBASE, REDUX, AND EXPRESS](https://www.freecodecamp.org/news/react-firebase-social-media-app-course)
+* [-] [CREATE A FULL-STACK WEBSITE WITH STRAPI AND GATSBYJS](https://www.freecodecamp.org/news/create-a-full-stack-website-with-strapi-and-gatsbyjs)
 * [-] [LEARN HOW TO USE REACT, CONTENTFUL, AND NETLIFY BY BUILDING A BEACH RESORT WEBSITE](https://www.freecodecamp.org/news/learn-react-contentful-and-netlify-by-building-a-beach-resort-website)
 * [-] [HOW TO BUILD A SIMPLE POKÉMON WEB APP WITH REACT HOOKS AND THE CONTEXT API](https://www.freecodecamp.org/news/building-a-simple-pokemon-web-app-with-react-hooks-and-context-api/)
 * [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react)
@@ -221,28 +222,40 @@
 * [-] [SERVERJS.IO TUTORIALS](https://serverjs.io/tutorials)
 * [-] [FREECODECAMP: APIS AND MICROSERVICES CERTIFICATION](https://www.freecodecamp.org/learn)
 
+# BACKEND (DENO)
+* [-] [LEARN DENO](https://www.freecodecamp.org/news/learn-deno-a-node-js-alternative)
+* [-] [DENO: THE COMPLETE GUIDE ZERO TO MASTERY](https://www.udemy.com/course/deno-the-complete-guide-zero-to-mastery)
+
 # BACKEND (PHP/LARAVEL)
 * [-] [REFACTORING TO COLLECTIONS](https://adamwathan.me/refactoring-to-collections)
 * [-] [TEST-DRIVEN LARAVEL](https://course.testdrivenlaravel.com)
 
-# TESTING/SECURITY
-* [/] [AN INTRODUCTION TO TEST-DRIVEN DEVELOPMENT](https://medium.freecodecamp.org/an-introduction-to-test-driven-development-c4de6dce5c)
-* [/] [JAVASCRIPT TESTING WITH JASMINE](http://shop.oreilly.com/product/0636920028277.do)
-* [-] [JAVASCRIPT TESTING PRACTICES AND PRINCIPLES](https://frontendmasters.com/courses/testing-practices-principles)
-* [-] [TESTING REACT APPLICATIONS](https://frontendmasters.com/courses/testing-react)
-* [-] [TESTING JAVASCRIPT](https://testingjavascript.com)
-* [-] [TEST-DRIVEN JAVASCRIPT DEVELOPMENT](https://www.tddjs.com)
-* [-] [END-TO-END API TESTING WITH DOCKER](https://www.freecodecamp.org/news/end-to-end-api-testing-with-docker)
-* [-] [THE ULTIMATE GUIDE TO END-TO-END TESTS WITH SELENIUM AND DOCKER](https://www.freecodecamp.org/news/end-to-end-tests-with-selenium-and-docker-the-ultimate-guide)
-* [-] [WEB SECURITY](https://frontendmasters.com/courses/web-security)
-* [-] [THE WAY OF THE WEB TESTER: A BEGINNER'S GUIDE TO AUTOMATING TESTS](https://pragprog.com/book/jrtest/the-way-of-the-web-tester)
-* [-] [EXPLORE IT!: REDUCE RISK AND INCREASE CONFIDENCE WITH EXPLORATORY TESTING](https://pragprog.com/book/ehxta/explore-it)
+# DEBUGGING
 * [-] [CHROME DEVTOOLS](https://developers.google.com/web/tools/chrome-devtools)
 * [-] [MASTERING THE DEVELOPER TOOLS CONSOLE](https://blog.teamtreehouse.com/mastering-developer-tools-console)
 * [-] [DEBUGGING JAVASCRIPT IN GOOGLE CHROME AND VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-studio-code)
 * [-] [DEBUGGING ANGULAR CLI APPLICATIONS IN VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-angular-cli-applications-in-visual-studio-code)
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
 * [-] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
+
+# TESTING
+* [/] [AN INTRODUCTION TO TEST-DRIVEN DEVELOPMENT](https://medium.freecodecamp.org/an-introduction-to-test-driven-development-c4de6dce5c)
+* [/] [JAVASCRIPT TESTING WITH JASMINE](http://shop.oreilly.com/product/0636920028277.do)
+* [-] [JAVASCRIPT TESTING PRACTICES AND PRINCIPLES](https://frontendmasters.com/courses/testing-practices-principles)
+* [-] [TESTING JAVASCRIPT (JEST, REACT TESTING LIBRARY, CYPRESS)](https://testingjavascript.com)
+* [-] [TESTING REACT APPLICATIONS (JEST + ENZYME)](https://frontendmasters.com/courses/testing-react)
+* [-] [HOW TO TEST REACT WITH JEST & ENZYME](https://www.robinwieruch.de/react-testing-jest-enzyme)
+* [-] [HOW TO USE REACT TESTING LIBRARY](https://www.robinwieruch.de/react-testing-library)
+* [-] [REACT TESTING WITH JEST AND ENZYME](https://www.udemy.com/course/react-testing-with-jest-and-enzyme)
+* [-] [REACT, REDUX & ENZYME - INTRODUCING APPS & TESTS](https://www.udemy.com/course/react-testing)
+* [-] [TEST-DRIVEN JAVASCRIPT DEVELOPMENT](https://www.tddjs.com)
+* [-] [END-TO-END API TESTING WITH DOCKER](https://www.freecodecamp.org/news/end-to-end-api-testing-with-docker)
+* [-] [THE ULTIMATE GUIDE TO END-TO-END TESTS WITH SELENIUM AND DOCKER](https://www.freecodecamp.org/news/end-to-end-tests-with-selenium-and-docker-the-ultimate-guide)
+
+# SECURITY
+* [-] [WEB SECURITY](https://frontendmasters.com/courses/web-security)
+* [-] [THE WAY OF THE WEB TESTER: A BEGINNER'S GUIDE TO AUTOMATING TESTS](https://pragprog.com/book/jrtest/the-way-of-the-web-tester)
+* [-] [EXPLORE IT!: REDUCE RISK AND INCREASE CONFIDENCE WITH EXPLORATORY TESTING](https://pragprog.com/book/ehxta/explore-it)
 * [-] [JWT AUTH TUTORIAL](https://www.freecodecamp.org/news/what-are-json-web-tokens-jwt-auth-tutorial)
 * [-] [A QUICK INTRODUCTION TO WEB SECURITY](https://medium.freecodecamp.org/a-quick-introduction-to-web-security-f90beaf4dd41)
 * [-] [WEB APP PENETRATION TESTING FOR ETHICAL HACKING](https://www.freecodecamp.org/news/web-app-penetration-testing-full-course)
@@ -343,7 +356,7 @@
 * [-] JOEL ON SOFTWARE
 * [-] MORE JOEL ON SOFTWARE
 
-# INTERVIEWS
+# CAREER
 * [-] [FRONT-END JOB INTERVIEW QUESTIONS](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 * [/] [INTERVIEWING FOR FRONT-END ENGINEERS](https://frontendmasters.com/courses/interviewing-frontend)
 * [-] [GROKKING ALGORITHMS](https://www.manning.com/books/grokking-algorithms)
@@ -353,8 +366,10 @@
 * [-] [INTERVIEW CAKE](https://www.interviewcake.com)
 * [-] [LEET CODE](https://leetcode.com)
 * [-] [INTERVIEWING](https://interviewing.io)
+* [-] [THE CODING CAREER HANDBOOK](https://www.learninpublic.org)
 
 # SYSTEM DESIGN
+* [-] [THE SAAS HANDBOOK – HOW TO BUILD YOUR FIRST SOFTWARE-AS-A-SERVICE PRODUCT STEP-BY-STEP](https://www.freecodecamp.org/news/how-to-build-your-first-saas)
 * [-] [SYSTEM DESIGN](https://www.freecodecamp.org/news/systems-design-for-interviews)
 
 # TECHNICAL WRITING
