@@ -1,10 +1,10 @@
-// ! .keys()
+// # .keys()
 
 // returns a new Array Iterator object that contains the keys for each index in the array
 
 var array1 = ['a', 'b', 'c'];
-var iterator = array1.keys(); 
-  
+var iterator = array1.keys();
+
 for (let key of iterator) {
 	console.log(key); 	// 0 1 2
 }

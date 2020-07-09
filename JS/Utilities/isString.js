@@ -1,5 +1,11 @@
-// isString()
-
-function isString(obj) { 
-	return !!(obj === '' || (obj && obj.charCodeAt && obj.substr)); 
+/**
+ * Returns true if input is a string
+ *
+ * @param {any} input
+ * @returns {boolean}
+ */
+function isString(input) {
+	return !!(input === '' || (input && input.charCodeAt && input.substr));
 }
+
+module.exports = isString;
