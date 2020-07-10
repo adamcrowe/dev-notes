@@ -294,7 +294,7 @@
 * [-] [GIT-COMPLETION.BASH](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 * [-] [BASH SHORTCUTS TO ENHANCE YOUR GIT WORKFLOW](https://medium.freecodecamp.org/bash-shortcuts-to-enhance-your-git-workflow-5107d64ea0ff)
 * [-] [HOW TO UNDO (ALMOST) ANYTHING WITH GIT](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git)
-* [-] [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit)
+* [-] [HOW TO WRITE A GIT COMMIT MESSAGE](https://chris.beams.io/posts/git-commit)
 * [-] [PRO GIT](https://www.apress.com/gp/book/9781484200773)
 * [-] [COMMAND LINE TRICKS FOR MANAGING YOUR MESSY OPEN SOURCE REPOSITORY](https://www.freecodecamp.org/news/command-line-tricks-for-managing-your-messy-open-source-repository)
 * [-] [LEARN DEVOPS BASICS WITH THIS FREE 2-HOUR DOCKER COURSE](https://www.freecodecamp.org/news/docker-devops-course)
@@ -316,9 +316,9 @@
 * [-] [LEARNING ALGORITHMS APP](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
 * [-] [IMPOSTER'S HANDBOOK: SEASON 1 & 2](https://bigmachine.io/products/the-imposters-handbook)
 * [-] [INTRODUCTION TO ALGORITHMS - THIRD EDITION](https://mitpress.mit.edu/books/introduction-algorithms-third-edition)
-* [.] [FOUR SEMESTERS OF COMPUTER SCIENCE IN 5 HOURS - PART 1](https://frontendmasters.com/courses/computer-science)
+* [/] [FOUR SEMESTERS OF COMPUTER SCIENCE IN 5 HOURS - PART 1](https://frontendmasters.com/courses/computer-science)
 * [-] [FOUR SEMESTERS OF COMPUTER SCIENCE IN 5 HOURS - PART 2](https://frontendmasters.com/courses/computer-science-2)
-* [-] [A PRACTICAL GUIDE TO ALGORITHMS WITH JAVASCRIPT](https://frontendmasters.com/courses/practical-algorithms)
+* [.] [A PRACTICAL GUIDE TO ALGORITHMS WITH JAVASCRIPT](https://frontendmasters.com/courses/practical-algorithms)
 * [-] [INTRODUCTION TO DATA STRUCTURES FOR INTERVIEWS](https://frontendmasters.com/courses/data-structures-interviews)
 * [-] [TREE AND GRAPH DATA STRUCTURES](https://frontendmasters.com/courses/trees-and-graphs)
 
@@ -348,6 +348,7 @@
 * [-] [THE PRAGMATIC PROGRAMMER](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
 * [-] [PRACTICES OF AN AGILE DEVELOPER](https://pragprog.com/book/pad/practices-of-an-agile-developer)
 * [-] [THE SENIOR SOFTWARE ENGINEER: 11 PRACTICES OF AN EFFECTIVE TECHNICAL LEADER](https://theseniorsoftwareengineer.com)
+* [-] [97 THINGS EVERY PROGRAMMER SHOULD KNOW](https://www.oreilly.com/library/view/97-things-every/9780596809515)
 * [-] CODERS AT WORK
 * [-] CLEAN CODE: A HANDBOOK OF AGILE SOFTWARE CRAFTSMANSHIP
 * [-] CLEAN CODER: A CODE OF CONDUCT FOR PROFESSIONAL PROGRAMMERS
