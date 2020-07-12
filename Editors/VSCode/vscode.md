@@ -1,16 +1,21 @@
-# Settings location:
-~/Library/Application\ Support/Code/User/settings.json
+# VS CODE SETUP
 
-# Extentions location:
+## Settings Location
+
+~/Library/Application\ Support/Code/User/settings.json
+~/Library/Application Support/Code/User$ code settings.json
+
+## Extentions Location
+
 ~/.vscode/extensions
 
-# Extensions
-* [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
-* [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks&WT.mc_id=vscodecandothat-dotcom)
+## Extensions Used
 
-# Open PWD in VS Code
-* Open fuzzy finder: APPLE + SHIFT + P
-* Type "install" ...
-* Choose "Install 'code' command in PATH"
-* Open PWD in VS Code: `code .`
+- See [Editor Plugins](../editor-plugins.md)
 
+## Open PWD in VS Code
+
+- Open fuzzy finder: APPLE + SHIFT + P
+- Type "install" ...
+- Choose "Install 'code' command in PATH"
+- Open PWD in VS Code: `code .`

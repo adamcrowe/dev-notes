@@ -1,4 +1,4 @@
-# Using
+# USING
 
 - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks&WT.mc_id=vscodecandothat-dotcom)
@@ -8,14 +8,15 @@
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 - [Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 - [ESLint](https://github.com/Microsoft/vscode-eslint)
-  - Setup: <https://btholt.github.io/project-fox-game-site/linting>
+  - Setup: <https://btholt.github.io/project-fox-game-site/linting> <https://editorconfig.org>
 - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
   - Setup: <https://btholt.github.io/project-fox-game-site/editor-setup>
+  - Config: <https://editorconfig.org>
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   - Setup: <https://btholt.github.io/project-fox-game-site/code-formatting>
 - [VSCODE PDF](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
 
-# Other
+# OTHER
 
 - REST Client: <https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame>
 - Git Blame: <https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame>

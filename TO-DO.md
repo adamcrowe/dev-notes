@@ -331,6 +331,7 @@
 * [-] [THE 3 TYPES OF DESIGN PATTERNS ALL DEVELOPERS SHOULD KNOW](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know)
 * [-] [BEYOND LEGACY CODE: NINE PRACTICES TO EXTEND THE LIFE (AND VALUE) OF YOUR SOFTWARE](https://pragprog.com/book/dblegacy/beyond-legacy-code)
 * [-] [YOUR CODE AS A CRIME SCENE](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
+* [-] [DIVE INTO DESIGN PATTERNS](https://refactoring.guru/design-patterns/book)
 * [-] [DESIGN PATTERNS](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
 * [-] [OBJECT ORIENTED DESIGN](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE)
 * [-] [CODE REFACTORING](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV)

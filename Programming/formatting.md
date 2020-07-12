@@ -1,1 +1,0 @@
-> ...consistent code formatting is *worth fighting for*. -- [Death to the Space Infidels!](https://blog.codinghorror.com/death-to-the-space-infidels/)
