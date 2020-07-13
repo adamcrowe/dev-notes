@@ -1,6 +1,6 @@
 root = true
 
-[*.{js,ts,php,py}]
+[*.{js,ts,php,py,css}]
 end_of_line = lf
 insert_final_newline = true
 charset = utf-8

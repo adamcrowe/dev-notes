@@ -1,4 +1,13 @@
-/* Stripped rows. */
+/* Stripped rows */
 .clr-row:nth-of-type(odd) .stripedRows {
     background-color: #fafafa;
+}
+
+/* Hide modal if it doesn't have any text content */
+.modal:empty {
+    display: none;
+}
+
+.modal-inner:empty {
+    display: none;
 }
