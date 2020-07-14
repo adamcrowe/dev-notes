@@ -324,17 +324,14 @@
 
 # CRAFTMANSHIP
 * [-] [REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE](https://www.informit.com/store/refactoring-improving-the-design-of-existing-code-9780134757599)
-* [/] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP 2020](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap)
-* [-] [HEAD FIRST SOFTWARE DEVELOPMENT](http://shop.oreilly.com/product/9780596527358.do)
-* [-] [HEAD FIRST OBJECT-ORIENTED ANALYSIS AND DESIGN](http://shop.oreilly.com/product/9780596008673.do)
-* [-] [HEAD FIRST DESIGN PATTERNS](http://shop.oreilly.com/product/9780596007126.do)
+* [-] [CODE REFACTORING](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV)
+* [-] [DIVE INTO REFACTORING](https://refactoring.guru/refactoring/course)
+* [-] [DIVE INTO DESIGN PATTERNS](https://refactoring.guru/design-patterns/book)
 * [-] [THE 3 TYPES OF DESIGN PATTERNS ALL DEVELOPERS SHOULD KNOW](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know)
 * [-] [BEYOND LEGACY CODE: NINE PRACTICES TO EXTEND THE LIFE (AND VALUE) OF YOUR SOFTWARE](https://pragprog.com/book/dblegacy/beyond-legacy-code)
 * [-] [YOUR CODE AS A CRIME SCENE](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
-* [-] [DIVE INTO DESIGN PATTERNS](https://refactoring.guru/design-patterns/book)
 * [-] [DESIGN PATTERNS](https://www.youtube.com/playlist?list=PLF206E906175C7E07)
 * [-] [OBJECT ORIENTED DESIGN](https://www.youtube.com/playlist?list=PLGLfVvz_LVvS5P7khyR4xDp7T9lCk9PgE)
-* [-] [CODE REFACTORING](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV)
 * [-] [COMPUTER SCIENCE AND SOFTWARE ENGINEERING THEORY](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy)
 * [-] [PROGRAMMING QUOTES](http://quotes.cat-v.org/programming/)
 * [-] [DUCKSPEAK VS SMALLTALK THE DECLINE OF THE XEROX PARC PHILOSOPHY AT APPLE COMPUTERS](https://dorophone.blogspot.com/2011/07/duckspeak-vs-smalltalk.html)
@@ -356,6 +353,10 @@
 * [-] CLEAN ARCHITECTURE: A CRAFTSMAN'S GUIDE TO SOFTWARE STRUCTURE AND DESIGN
 * [-] JOEL ON SOFTWARE
 * [-] MORE JOEL ON SOFTWARE
+* [-] [HEAD FIRST SOFTWARE DEVELOPMENT](http://shop.oreilly.com/product/9780596527358.do)
+* [-] [HEAD FIRST OBJECT-ORIENTED ANALYSIS AND DESIGN](http://shop.oreilly.com/product/9780596008673.do)
+* [-] [HEAD FIRST DESIGN PATTERNS](http://shop.oreilly.com/product/9780596007126.do)
+* [/] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP 2020](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap)
 
 # CAREER
 * [-] [FRONT-END JOB INTERVIEW QUESTIONS](https://github.com/h5bp/Front-end-Developer-Interview-Questions)

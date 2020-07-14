@@ -4,23 +4,23 @@
 
 ## Engineering
 
-- [Debugging & Asking Questions](Engineering/debugging.md)
-- [Software Development Life Cycle](Engineering/SDLC.md)
-- [Requirements Analysis](Engineering/requirements.md)
-- [Estimation](Engineering/estimation.md)
-- [Scrum](Engineering/scrum.md)
-- [BDD](Engineering/BDD.md)
+* [Debugging & Asking Questions](Engineering/debugging.md)
+* [Software Development Life Cycle](Engineering/SDLC.md)
+* [Requirements Analysis](Engineering/requirements.md)
+* [Estimation](Engineering/estimation.md)
+* [Scrum](Engineering/scrum.md)
+* [BDD](Engineering/BDD.md)
 
 ## Professional Development
 
-- [Things You Should Never Do](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/): "It's harder to read code than to write it. This is why code reuse is so hard."
-- [Why Don't Software Development Methodologies Work?](http://typicalprogrammer.com/why-dont-software-development-methodologies-work): "'Life is pain...Anyone who says differently is selling something.'"
-- [How to be a Programmer: Community Version](https://github.com/braydie/HowToBeAProgrammer): "To communicate well, you have to recognize how hard it is. It is a skill unto itself."
-- [What Makes a Great Software Engineer?](https://faculty.washington.edu/ajko/papers/Li2015GreatEngineers.pdf), Personal Characteristics, Decision Making, Team Work, Product Design
-- [What Makes a Good Programmer?](https://henrikwarne.com/2014/06/30/what-makes-a-good-programmer/): Problem Decomposition, Testing, Naming, Consistency, Learning
-- [Programmer Competency Matrix](http://sijinjoseph.com/programmer-competency-matrix/): Computer Science, Software Engineering, Programming, Experience, Knowledge
-- [The 6 Core Skills You Need to be Considered a Senior Developer](https://medium.com/zerotomastery/developers-edge-how-to-become-a-senior-developer-f1ec1738cf45): Technical, Team, Client/User, Growth, Community
-- [The Joys of Maintenance Programming](http://typicalprogrammer.com/the-joys-of-maintenance-programming): "Maintenance programmers get to work with real users."
+* [Things You Should Never Do](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/): "It's harder to read code than to write it. This is why code reuse is so hard."
+* [Why Don't Software Development Methodologies Work?](http://typicalprogrammer.com/why-dont-software-development-methodologies-work): "'Life is pain...Anyone who says differently is selling something.'"
+* [How to be a Programmer: Community Version](https://github.com/braydie/HowToBeAProgrammer): "To communicate well, you have to recognize how hard it is. It is a skill unto itself."
+* [What Makes a Great Software Engineer?](https://faculty.washington.edu/ajko/papers/Li2015GreatEngineers.pdf), Personal Characteristics, Decision Making, Team Work, Product Design
+* [What Makes a Good Programmer?](https://henrikwarne.com/2014/06/30/what-makes-a-good-programmer/): Problem Decomposition, Testing, Naming, Consistency, Learning
+* [Programmer Competency Matrix](http://sijinjoseph.com/programmer-competency-matrix/): Computer Science, Software Engineering, Programming, Experience, Knowledge
+* [The 6 Core Skills You Need to be Considered a Senior Developer](https://medium.com/zerotomastery/developers-edge-how-to-become-a-senior-developer-f1ec1738cf45): Technical, Team, Client/User, Growth, Community
+* [The Joys of Maintenance Programming](http://typicalprogrammer.com/the-joys-of-maintenance-programming): "Maintenance programmers get to work with real users."
 
 ## Wisdom
 
