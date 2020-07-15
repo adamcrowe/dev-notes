@@ -1,26 +1,12 @@
-# Online Editors
-
-* <https://codesandbox.io> (login with Github account)
-* <https://codepen.io/damcro>
-
-# API + Data
-
-* Postman: API Development Platform <https://www.postman.com>
-* Insomnia: API/REST/HTTP/GraphQL Client <https://insomnia.rest>
-* The Star Wars API <https://swapi.co>
-
-# CS + Security
-
-* Binary Representation of Base 10 Numbers <http://bartaz.github.io/ieee754-visualization>
-* How to Store User Passwords and Overcome Security Threats in 2017 <https://rangle.io/blog/how-to-store-user-passwords-and-overcome-security-threats-in-2017>
+# ONLINE EDITORS
+* CodePen <https://codepen.io>
+* Code Sandbox <https://codesandbox.io>
 
 # HTML
-
 * How to manage HTML DOM with vanilla JS only <https://htmldom.dev>
 * Custom Elements Everywhere <https://custom-elements-everywhere.com>
 
-# CSS UI Kits + Testing
-
+# CSS UI KITS + UI TESTING
 * Bootstrap UI Framework <https://getbootstrap.com>
 * Tachyons CSS Framework<https://tachyons.io/>
 * Tailwind CSS Framework <https://tailwindcss.com>
@@ -40,8 +26,7 @@
 * Grid By Example <https://gridbyexample.com>
 * Figma Mirror (View Figma prototypes on iOS devices) <https://apps.apple.com/us/app/figma-mirror/id1152747299>
 
-# Design Systems
-
+# DESIGN SYSTEMS
 * Introduction to Design Systems <https://fem-design-systems.netlify.app/building-a-design-system>
 * Primer (GitHub Design System) <https://primer.style>
 * Clarity Design System <https://clarity.design>
@@ -49,19 +34,14 @@
 * Lexicon <https://liferay.design/lexicon>
   * <https://liferay.design/resources/figma>
 
-# Documentation
-
-* Storybook <https://storybook.js.org>
-
-# Databases
-
+# DATABASES
 * PostgreSQL GUI tool for macOS <http://www.psequel.com>
 
-# Debugging
+# DEBUGGING
 * ShellCheck: Finds bugs in your shell scripts <https://www.shellcheck.net>
 * Quokka.js: Run code in editor <https://quokkajs.com>
 
-# Testing
+# TESTING
 * Jest: JavaScript testing framework <https://jestjs.io>
 * Sinon: Standalone test spies, stubs and mocks <https://sinonjs.org>
 * Proxyrequire: Easily stub module references in node.js <https://www.npmjs.com/package/proxyrequire>
@@ -70,27 +50,26 @@
 * Wallaby.js: Run tests in your editor <https://wallabyjs.com>
   * Demo <https://www.youtube.com/watch?v=P4UQ-jTTJJ4>
 
-# Build + Bundle
-
+# BUILD + BUNDLE
 * Parcel: Blazing fast, zero configuration web application bundler <https://parceljs.org>
 
-# Deployment
-
+# DEPLOYMENT
 * Jamstack Fns <https://jamstackfns.com/f/sendgrid>
 * Netlify <https://www.netlify.com/>
 * Vercel <https://vercel.com>
 * StackBlitz: Create, edit & deploy fullstack apps — in just one click <https://stackblitz.com>
 
-# Documentation + Linting
-
+# LINTING
 * EditorConfig: Maintain consistent coding styles between different editors and IDEs <http://editorconfig.org>
 * ESLint: Find and fix problems in your JavaScript code <https://eslint.org>
+
+# DOCUMENTATION
+* Carbon: Publish Beautiful Code Snippets <https://carbon.now.sh>
+* Highlight JS: Code snippets <https://highlightjs.org>
 * JSDoc: Code Documentation Guidelines <http://usejsdoc.org>
 * Popular Coding Conventions by Language <http://sideeffect.kr/popularconvention>
 * Writing System Software: Code Comments <http://antirez.com/news/124>
-* Publish Beautiful Code Snippets <https://carbon.now.sh>
-* Highlight JS: Code snippets <https://highlightjs.org>
-* Storybook is an open source tool for developing UI components in isolation <https://storybook.js.org>
+* Storybook: Open source tool for developing UI components in isolation <https://storybook.js.org>
   * Angular: <https://stackoverflow.com/questions/56868391/storybook-with-using-injection-in-angular-module>
   ```json
   {
@@ -101,8 +80,7 @@
   }
   ```
 
-# Image Manipulation
-
+# IMAGE MANIPULATION
 * SVG OMG: <https://jakearchibald.github.io/svgomg>
 * Image Enlarger <https://imglarger.com>
 * Remove Background from image <https://www.remove.bg>
@@ -111,8 +89,14 @@
 * ImageOptim makes images load faster <https://imageoptim.com>
 * XnConvert Bulk Image Converter <https://www.xnview.com/en/xnconvert>
 
-# JavaScript
+# CS + ALGORITHMS
+* Big-O Cheat Sheet <https://www.bigocheatsheet.com>
+* Binary Representation of Base 10 Numbers <http://bartaz.github.io/ieee754-visualization>
 
+# SECURITY
+* How to Store User Passwords and Overcome Security Threats in 2017 <https://rangle.io/blog/how-to-store-user-passwords-and-overcome-security-threats-in-2017>
+
+# JAVASCRIPT
 * JS Equality Table <http://dorey.github.io/JavaScript-Equality-Table>
 * Webpack Guide <https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70>
 * RequireJS <http://requirejs.org/docs/download.html#text>
@@ -120,17 +104,15 @@
 * You Might Not Need jQuery <http://youmightnotneedjquery.com/>
 * Loupe (Visualizing the JS Runtime at Runtime): <https://github.com/latentflip/loupe>
 
-# TypeScript
-
+# TYPESCRIPT
 * [class-validator: Validation made easy using TypeScript decorators](https://github.com/typestack/class-validator)
 
-# Project Management
-
+# PROJECT MANAGEMENT
+* Trello (Kanban Project Manager) <https://trello.com>
 * ClickUp (Kanban Project Manager) <https://clickup.com>
 * Airtable (Kanban Project Manager) <https://airtable.com>
 
-# Site Optimization
-
+# SITE OPTIMIZATION
 * Google Search Console <https://search.google.com/search-console/about>
 * Google Page Speed Insights <https://developers.google.com/speed/pagespeed/insights/>
 * Lighthouse PWA Analysis Tool <https://developers.google.com/web/ilt/pwa/lighthouse-pwa-analysis-tool>
@@ -138,8 +120,7 @@
 * Webpage Test <https://www.webpagetest.org>
 * Minify JS or CSS code <https://www.minifier.org>
 
-# Stock Media
-
+# STOCK MEDIA
 * Photos <https://unsplash.com>
 * Photos <https://web.shotzr.com>
 * Photos and Videos <https://www.pexels.com>
@@ -160,8 +141,7 @@
 * Various Resources <https://www.designvalley.club>
 * Various Resources <https://nodesign.dev>
 
-# Typography
-
+# TYPOGRAPHY
 * Google Fonts <https://fonts.google.com>
 * IBM Plex (Sans, Serif, Mono, Condensed) <https://fonts.google.com/?query=plex#standard-styles>
 * Inter Typeface <https://rsms.me/inter> Samples: <https://www.figma.com/file/WmU5NWr52bnUcqv5os0V4sWi>
@@ -175,17 +155,14 @@
 * Type Scale <https://type-scale.com>
 * Widow Adjust: Automatically fix typographic widows on your web pages <https://github.com/nathanford/widowadjust>
 
-# Colour
-
+# COLOUR
 * Colour Scheme Generator <https://coolors.co>
 
-# Animation
-
+# ANIMATION
 * cubic-bezier <https://cubic-bezier.com>
 * easings <https://easings.net>
 
-# Jamstack / Serverless
-
+# JAMSTACK / SERVERLESS
 <https://www.crowdform.co.uk/blog/deploying-a-gatsby-site-to-firebase-with-google-cloud-build>
 <https://medium.com/datafire-io/simple-backends-four-ways-to-implement-a-contact-us-form-on-a-static-website-10fc430984a4> **_
 <https://cobwwweb.com/zero-to-functioning-netlify-function>
@@ -202,3 +179,8 @@
 <https://www.raymondcamden.com/2019/01/15/customized-form-handling-on-netlify-with-serverless-functions>
 <https://luetkemj.github.io/180505/netlify-lambdas-as-simple-as-possible>
 <https://www.codespot.org/how-to-build-a-blog-with-gatsby-and>
+
+# APIs
+* Postman: API Development Platform <https://www.postman.com>
+* Insomnia: API/REST/HTTP/GraphQL Client <https://insomnia.rest>
+* The Star Wars API <https://swapi.co>
