@@ -57,12 +57,18 @@
 
 * PostgreSQL GUI tool for macOS <http://www.psequel.com>
 
-# Debugging + Testing
-
+# Debugging
 * ShellCheck: Finds bugs in your shell scripts <https://www.shellcheck.net>
-* Wallaby.js: Run tests in editor <https://wallabyjs.com>
-  * Demo <https://www.youtube.com/watch?v=P4UQ-jTTJJ4>
 * Quokka.js: Run code in editor <https://quokkajs.com>
+
+# Testing
+* Jest: JavaScript testing framework <https://jestjs.io>
+* Sinon: Standalone test spies, stubs and mocks <https://sinonjs.org>
+* Proxyrequire: Easily stub module references in node.js <https://www.npmjs.com/package/proxyrequire>
+* Jasmine: Behaviour-Driven testing framework <https://jasmine.github.io>
+* Mocha: Feature-rich JavaScript test framework <https://mochajs.org>
+* Wallaby.js: Run tests in your editor <https://wallabyjs.com>
+  * Demo <https://www.youtube.com/watch?v=P4UQ-jTTJJ4>
 
 # Build + Bundle
 

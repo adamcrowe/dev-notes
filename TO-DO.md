@@ -345,6 +345,7 @@
 * [/] [WORKPLACE Q&A](https://www.youtube.com/playlist?list=PLA8lYuzFlBqCxq-uEZYot-_O1lWNcCeYY)
 * [-] [THE PRAGMATIC PROGRAMMER](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
 * [-] [PRACTICES OF AN AGILE DEVELOPER](https://pragprog.com/book/pad/practices-of-an-agile-developer)
+* [-] [THE 14 HABITS OF HIGHLY PRODUCTIVE DEVELOPERS](https://14habits.com)
 * [-] [THE SENIOR SOFTWARE ENGINEER: 11 PRACTICES OF AN EFFECTIVE TECHNICAL LEADER](https://theseniorsoftwareengineer.com)
 * [-] [97 THINGS EVERY PROGRAMMER SHOULD KNOW](https://www.oreilly.com/library/view/97-things-every/9780596809515)
 * [-] CODERS AT WORK
