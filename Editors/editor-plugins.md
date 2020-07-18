@@ -12,8 +12,10 @@
 * [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
   * Setup: <https://btholt.github.io/project-fox-game-site/editor-setup>
   * Config: <https://editorconfig.org>
+  * Ignore: <https://prettier.io/docs/en/ignore.html>
 * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   * Setup: <https://btholt.github.io/project-fox-game-site/code-formatting>
+  * Config: <https://prettier.io/docs/en/options.html>
 * [VSCODE PDF](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
 
 # OTHER

@@ -6,3 +6,6 @@
 
 > A framework inverts the control of the program. It tells the developer what they need. A library doesn’t. The programmer calls the library where and when they need it. The degree of freedom a library or framework gives the developer will dictate how “opinionated” it is.
 * [The Difference Between a Framework and a Library](https://medium.freecodecamp.org/the-difference-between-a-framework-and-a-library-bd133054023f)
+
+# React vs Angular
+* Angular provides two-way binding whereas React is one-way only which forces the developer to be more explicit, in code, about what's happening
