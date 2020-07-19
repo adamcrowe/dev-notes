@@ -16,9 +16,10 @@
 * [/] [MOTION DESIGN WITH CSS](https://frontendmasters.com/courses/motion-design-css)
 * [/] [SVG ESSENTIALS & ANIMATION](https://frontendmasters.com/courses/svg-essentials-animation/)
 * [/] [RESPONSIVE WEB TYPOGRAPHY](https://frontendmasters.com/courses/responsive-typography-v2)
-* [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
-* [.] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass)
-* [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass)
+* [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3) */*
+* [-] [WEB DESIGN FOR WEB DEVELOPERS](https://www.udemy.com/course/web-design-secrets) */*
+* [.] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass) */*
+* [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) */*
 * [-] [STYLE YOUR REACT APPS WITH TAILWIND CSS AND STYLED COMPONENTS](https://www.freecodecamp.org/news/how-to-style-your-react-apps-with-less-code-using-tailwind-css-and-styled-components)
 * [-] [DESIGNING WITH TAILWIND CSS (WORKCATION)](https://tailwindcss.com/screencasts) <https://www.youtube.com/watch?v=0aTRN9CSCY0&list=PL7CcGwsqRpSO3J4YU6BkWqjU0XcVSaPXl>
 * [-] [BUILDING INTERFACES WITH TAILWIND CSS](https://www.youtube.com/watch?v=_JhTaENzfZQ&list=PL7CcGwsqRpSMgVc5NxXUpqmGOS9s1YrWF)
@@ -41,9 +42,10 @@
 # JAVASCRIPT/TYPESCRIPT
 * [-] [FREECODECAMP: JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION](https://www.freecodecamp.org/learn)
 * [-] [FREECODECAMP JAVASCRIPT CERTIFICATION PROJECTS (TALK ALOUDS)](https://www.youtube.com/watch?v=XV5OCibNpLI&list=PLehRZjGCVhQLTWPN8mTo3rlRDQff9fCmT)
-* [.] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course)
-* [/] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
-* [/] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns)
+* [.] [JAVASCRIPT - THE COMPLETE GUIDE 2020](https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced) */*
+* [.] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course) */*
+* [/] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript) */*
+* [/] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns) */*
 * [-] [DESIGN PATTERNS IN TYPESCRIPT](https://refactoring.guru/design-patterns/typescript)
 * [-] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
 * [-] [DO MORE WITH REDUCE](https://jrsinclair.com/articles/2019/functional-js-do-more-with-reduce)
@@ -91,10 +93,10 @@
 * [-] [HANDLING DATA WITH WEB COMPONENTS](https://itnext.io/handling-data-with-web-components-9e7e4a452e6e)
 
 # FRONTEND (ANGULAR)
-* [-] [ANGULAR 8 - THE COMPLETE GUIDE 2019+ EDITION](https://www.udemy.com/the-complete-guide-to-angular-2)
-* [-] [ANGULAR (FULL APP) WITH ANGULAR MATERIAL, ANGULARFIRE & NGRX](https://www.udemy.com/angular-full-app-with-angular-material-angularfire-ngrx)
-* [-] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide)
-* [-] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security)
+* [-] [ANGULAR 8 - THE COMPLETE GUIDE](https://www.udemy.com/the-complete-guide-to-angular-2) */*
+* [-] [ANGULAR (FULL APP) WITH ANGULAR MATERIAL, ANGULARFIRE & NGRX](https://www.udemy.com/angular-full-app-with-angular-material-angularfire-ngrx) */*
+* [-] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide) */*
+* [-] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security) */*
 * [-] [BUILD A REAL WORLD BEAUTIFUL WEB APP WITH ANGULAR 7 )](https://bit.ly/2sEvsvM)
 * [-] [THE MODERN ANGULAR BOOTCAMP 2020](https://www.udemy.com/course/the-modern-angular-bootcamp/)
 * [-] [ANGULAR AND REDUX: INTRODUCTION TO STATE MANAGEMENT](https://medium.com/codingthesmartway-com-blog/angular-and-redux-ecd22ea53492)
@@ -111,7 +113,7 @@
 # FRONTEND (REACT)
 * [/] [REACT DOCS: MAIN CONCEPTS + THINKING IN REACT](https://reactjs.org/docs)
 * [.] [REACT DOCS: ADVANCED GUIDES + HOOKS + TESTING](https://reactjs.org/docs) Forwarding Refs
-* [-] [REACT DOCS: TUTORIAL: TIC-TAC-TOE GAME](https://reactjs.org/tutorial/tutorial.html)
+* [-] [REACT DOCS: TUTORIAL: TIC-TAC-TOE GAME](https://reactjs.org/tutorial/tutorial.html) */*
 * [-] [COMPLETE REACT DEVELOPER IN 2020 (REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery)
 * [-] [REACT THE COMPLETE GUIDE (HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
 * [-] [LEARN REACT - FULL COURSE FOR BEGINNERS](https://www.freecodecamp.org/news/learn-react-course)
@@ -199,8 +201,8 @@
 * [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 
 # BACKEND (NODE)
-* [-] [NODEJS - THE COMPLETE GUIDE (MVC, REST API, GRAPHQL, NEXTJS)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
-* [-] [NODE.JS, EXPRESS, MONGODB & MORE: THE COMPLETE BOOTCAMP 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp)
+* [-] [NODEJS - THE COMPLETE GUIDE (MVC, REST API, GRAPHQL, NEXTJS)](https://www.udemy.com/course/react-the-complete-guide-incl-redux) */*
+* [-] [NODE.JS, EXPRESS, MONGODB & MORE: THE COMPLETE BOOTCAMP 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp) */*
 * [-] [NODE WITH REACT: FULLSTACK WEB DEVELOPMENT](https://www.udemy.com/course/node-with-react-fullstack-web-development)
 * [-] [MERN STACK - REACT NODE FROM SCRATCH BUILDING SOCIAL NETWORK](https://www.udemy.com/course/node-react)
 * [-] [MERN STACK REACT NODE ECOMMERCE FROM SCRATCH TO DEPLOYMENT](https://www.udemy.com/course/react-node-ecommerce)
@@ -230,6 +232,10 @@
 # BACKEND (PHP/LARAVEL)
 * [-] [REFACTORING TO COLLECTIONS](https://adamwathan.me/refactoring-to-collections)
 * [-] [TEST-DRIVEN LARAVEL](https://course.testdrivenlaravel.com)
+
+# WORDPRESS
+* [-] [THE COMPLETE GUIDE TO BUILDING PREMIUM WORDPRESS THEMES](https://www.udemy.com/course/the-complete-guide-to-building-premium-wordpress-themes) */*
+* [-] [GUTENBERG BLOCKS FOR WORDPRESS AND REACT DEVELOPERS](https://www.udemy.com/course/gutenberg) */*
 
 # DEBUGGING
 * [-] [CHROME DEVTOOLS](https://developers.google.com/web/tools/chrome-devtools)
@@ -394,8 +400,8 @@
 # DATA SCIENCE
 * [-] [HEAD FIRST DATA ANALYSIS](http://shop.oreilly.com/product/9780596153946.do)
 * [-] [HEAD FIRST STATISTICS](http://shop.oreilly.com/product/9780596527587.do)
-* [-] [COMPLETE MACHINE LEARNING AND DATA SCIENCE: ZERO TO MASTERY](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery)
-* [-] [COMPLETE PYTHON DEVELOPER IN 2020: ZERO TO MASTERY](https://www.udemy.com/course/complete-python-developer-zero-to-mastery)
+* [-] [COMPLETE MACHINE LEARNING AND DATA SCIENCE: ZERO TO MASTERY](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery) */*
+* [-] [COMPLETE PYTHON DEVELOPER IN 2020: ZERO TO MASTERY](https://www.udemy.com/course/complete-python-developer-zero-to-mastery) */*
 * [-] [PYTHON MACHINE LEARNING WITH TENSORFLOW](https://www.freecodecamp.org/news/massive-tensorflow-2-0-free-course)
 * [-] [THINK PYTHON 2E](https://greenteapress.com/wp/think-python-2e)
 * [-] [THINK STATS 2E](https://greenteapress.com/wp/think-stats-2e)
@@ -405,7 +411,7 @@
 # UX DESIGN
 * [-] [BECOME A PRODUCT MANAGER](https://www.udemy.com/course/become-a-product-manager-learn-the-skills-get-a-job)
 * [-] [UX DESIGN PROCESS SIMPLIFIED FROM USER RESEARCH TO USABILITY](https://www.udemy.com/course/ux-design-process-for-beginners-from-user-research-to-usability)
-* [-] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign)
+* [-] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign) */*
 
 # UI DESIGN
 * [-] [ATOMIC DESIGN](https://atomicdesign.bradfrost.com)
@@ -416,7 +422,7 @@
 * [-] [UI DESIGN FUNDAMENTALS](https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course)
 * [/] [DESIGN SYSTEMS WITH REACT & STORYBOOK](https://frontendmasters.com/courses/design-systems)
 * [-] [STORYBOOK: LEARN TO DEVELOP UIS WITH COMPONENTS AND DESIGN SYSTEMS](https://www.learnstorybook.com)
-* [.] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma)
+* [.] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma) */*
 * [-] [COMPLETE WEB DESIGN: FROM FIGMA TO WEBFLOW TO FREELANCING](https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money)
 * [-] [WEBFLOW UNIVERSITY](https://university.webflow.com/courses)
 * [-] [WEBFLOW TUTORIALS](https://www.youtube.com/c/Webflow/videos)
