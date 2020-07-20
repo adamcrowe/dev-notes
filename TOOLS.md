@@ -125,13 +125,14 @@
 * Photos <https://unsplash.com>
 * Photos <https://web.shotzr.com>
 * Photos and Videos <https://www.pexels.com>
-* Photos, Videos and Vectors <https://depositphotos.com>
+* Photos Videos and Vectors <https://depositphotos.com>
 * Photos and Videos <https://deathtothestockphoto.com>
 * Videos <https://coverr.co>
 * Vectors <https://undraw.co/illustrations>
 * Vectors <https://www.openpeeps.com>
 * Vectors <https://isometric.online>
-* Raster Illustrations <https://www.oldbookillustrations.com>
+* Vectors <https://blush.design>
+* Rasters <https://www.oldbookillustrations.com>
 * Hero Patterns <http://www.heropatterns.com>
 * Hero Icons (Complete) <https://www.heroicons.com>
   * Hero Icons (Subset) <https://github.com/refactoringui/heroicons>

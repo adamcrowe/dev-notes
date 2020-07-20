@@ -108,16 +108,14 @@
 * [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2)
 * [/] [ANGULAR TUTORIAL](https://angular.io/tutorial)
 * [/] [ANGULAR DOCS](https://angular.io/guide)
-* [-] [NATIVESCRIPT + ANGULAR: BUILD NATIVE IOS, ANDROID & WEB APPS](https://www.udemy.com/nativescript-angular-build-native-ios-android-web-apps)
 
 # FRONTEND (REACT)
-* [/] [REACT DOCS: MAIN CONCEPTS + THINKING IN REACT](https://reactjs.org/docs)
-* [.] [REACT DOCS: ADVANCED GUIDES + HOOKS + TESTING](https://reactjs.org/docs) Forwarding Refs
-* [-] [REACT DOCS: TUTORIAL: TIC-TAC-TOE GAME](https://reactjs.org/tutorial/tutorial.html) */*
-* [-] [COMPLETE REACT DEVELOPER IN 2020 (REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery)
+* [-] [COMPLETE REACT DEVELOPER IN 2020 (REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery) */*
 * [-] [REACT THE COMPLETE GUIDE (HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
-* [-] [LEARN REACT - FULL COURSE FOR BEGINNERS](https://www.freecodecamp.org/news/learn-react-course)
-* [-] [REACT FOR DESIGNERS (REACT + FIGMA)](https://designcode.io/react)
+* [-] [LEARN REACT FOR BEGINNERS](https://www.freecodecamp.org/news/learn-react-course)
+* [-] [DESIGN+CODE: REACT FOR DESIGNERS](https://designcode.io/react)
+* [-] [DESIGN+CODE: REACT NATIVE FOR DESIGNERS](https://designcode.io/react-native)
+* [-] [DESIGN+CODE: REACT NATIVE FOR DESIGNERS PART 2](https://designcode.io/react-native-2)
 * [-] [LEARN HOW TO USE APIS WITH REACT BY BUILDING A HACKER NEWS API APPLICATION](https://www.freecodecamp.org/news/learn-how-to-use-apis-with-react-by-building-a-hacker-news-api-application)
 * [-] [LEARN TO USE APIS IN REACT BY CREATING A RECIPE APP](https://www.freecodecamp.org/news/apis-in-react)
 * [-] [TAKE YOUR REACT SKILLS TO THE NEXT LEVEL BY BUILDING A TODOIST CLONE](https://www.freecodecamp.org/news/react-firebase-todoist-clone)
@@ -131,10 +129,13 @@
 * [-] [REACT NATIVE COURSE: HOW TO BUILD ONE AN IPHONE APP, ANDROID APP, AND WEBSITE - ALL WITH THE SAME CODEBASE](https://www.youtube.com/watch?v=_CBYbEGvxYY)
 * [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 * [-] [THE NEXT.JS HANDBOOK](https://www.freecodecamp.org/news/the-next-js-handbook)
+* [/] [REACT DOCS: MAIN CONCEPTS + THINKING IN REACT](https://reactjs.org/docs)
+* [.] [REACT DOCS: ADVANCED GUIDES + HOOKS + TESTING](https://reactjs.org/docs) Forwarding Refs
+* [-] [REACT DOCS: TUTORIAL: TIC-TAC-TOE GAME](https://reactjs.org/tutorial/tutorial.html)
 
 # FRONTEND (VUE)
 * [-] [THE VUE HANDBOOK](https://www.freecodecamp.org/news/the-vue-handbook-a-thorough-introduction-to-vue-js-1e86835d8446)
-* [-] [VUE JS 2 - THE COMPLETE GUIDE (INCL. VUE ROUTER & VUEX)](https://www.udemy.com/course/vuejs-2-the-complete-guide)
+* [-] [VUE JS 2 THE COMPLETE GUIDE (INCL. VUE ROUTER & VUEX)](https://www.udemy.com/course/vuejs-2-the-complete-guide)
 * [-] [VUE JS: INTRODUCTION](https://vuejs.org/v2/guide)
 * [-] [VUE MASTERY (NUXT)](https://www.vuemastery.com/courses)
 * [-] [ADVANCED VUE COMPONENT DESIGN](https://adamwathan.me/advanced-vue-component-design)
@@ -201,10 +202,10 @@
 * [-] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 
 # BACKEND (NODE)
-* [-] [NODEJS - THE COMPLETE GUIDE (MVC, REST API, GRAPHQL, NEXTJS)](https://www.udemy.com/course/react-the-complete-guide-incl-redux) */*
+* [-] [NODE.JS THE COMPLETE GUIDE (MVC, REST API, GRAPHQL, NEXTJS)](https://www.udemy.com/course/react-the-complete-guide-incl-redux) */*
 * [-] [NODE.JS, EXPRESS, MONGODB & MORE: THE COMPLETE BOOTCAMP 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp) */*
 * [-] [NODE WITH REACT: FULLSTACK WEB DEVELOPMENT](https://www.udemy.com/course/node-with-react-fullstack-web-development)
-* [-] [MERN STACK - REACT NODE FROM SCRATCH BUILDING SOCIAL NETWORK](https://www.udemy.com/course/node-react)
+* [-] [MERN STACK REACT NODE FROM SCRATCH BUILDING SOCIAL NETWORK](https://www.udemy.com/course/node-react)
 * [-] [MERN STACK REACT NODE ECOMMERCE FROM SCRATCH TO DEPLOYMENT](https://www.udemy.com/course/react-node-ecommerce)
 * [-] [REACT & FIREBASE COMPLETE COURSE (CHAT APPLICATION)](https://www.udemy.com/course/react-js-firebase-complete-course-incl-chat-application)
 * [-] [REACT, ANGULAR, NODE IN-DEPTH GUIDE: BEGINNER TO PRO (2020)](https://www.udemy.com/course/react-angular-node-in-depth-guide-beginner-to-pro-2020)
@@ -243,7 +244,7 @@
 * [-] [DEBUGGING JAVASCRIPT IN GOOGLE CHROME AND VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-studio-code)
 * [-] [DEBUGGING ANGULAR CLI APPLICATIONS IN VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-angular-cli-applications-in-visual-studio-code)
 * [-] [DEBUGGING NODE CODE IN VS CODE](https://scotch.io/tutorials/debugging-node-code-in-vs-code)
-* [-] [A MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
+* [-] [MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 
 # TESTING
 * [/] [AN INTRODUCTION TO TEST-DRIVEN DEVELOPMENT](https://medium.freecodecamp.org/an-introduction-to-test-driven-development-c4de6dce5c)
@@ -390,7 +391,7 @@
 * [-] [THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION](https://www.amazon.co.uk/Visual-Display-Quantitative-Information/dp/1930824130)
 * [-] [DATA VISUALISATION: A HANDBOOK FOR DATA DRIVEN DESIGN](https://www.amazon.co.uk/Data-Visualisation-Handbook-Driven-Design/dp/1526468921)
 * [-] [INTERACTIVE DATA VISUALIZATION FOR THE WEB (2ND ED)](https://alignedleft.com/work/d3-book-2e)
-* [.] [MASTERING DATA VISUALIZATION IN D3.JS](https://www.udemy.com/course/masteringd3js)
+* [.] [MASTERING DATA VISUALIZATION IN D3.JS](https://www.udemy.com/course/masteringd3js) */*
 * [-] [INTERACTIVE DATA VISUALIZATION WITH MODERN JAVASCRIPT AND D3](https://www.sitepoint.com/interactive-data-visualization-javascript-d3)
 * [-] [FULLSTACK D3 AND DATA VISUALIZATION](https://www.newline.co/fullstack-d3)
 * [-] [D3 TUTORIALS](https://github.com/d3/d3/wiki/Tutorials)
@@ -407,6 +408,15 @@
 * [-] [THINK STATS 2E](https://greenteapress.com/wp/think-stats-2e)
 * [-] [PROGRAMMING MACHINE LEARNING](https://pragprog.com/book/pplearn/programming-machine-learning)
 * [-] [COMPLEX NETWORK ANALYSIS IN PYTHON](https://pragprog.com/book/dzcnapy/complex-network-analysis-in-python)
+
+# IOS
+* [-] [DESIGN+CODE: LEARN IOS 11 DESIGN](https://designcode.io/ios11)
+* [-] [DESIGN+CODE: LEARN SWIFT 4](https://designcode.io/swift4)
+* [-] [DESIGN+CODE: ADVANCED SWIFT](https://designcode.io/swift4-tab-bar)
+* [-] [DESIGN+CODE: BUILD AN APP WITH SWIFT UI PART 1](https://designcode.io/swiftui)
+* [-] [DESIGN+CODE: BUILD AN APP WITH SWIFT UI PART 2](https://designcode.io/swiftui2)
+* [-] [DESIGN+CODE: BUILD AN APP WITH SWIFT UI PART 3](https://designcode.io/swiftui3-neumorphic-buttons)
+* [-] [DESIGN+CODE: SWIFT UI: PROTOTYPING FROM FIGMA](https://designcode.io/swiftui-livestreams-prototyping-from-figma)
 
 # UX DESIGN
 * [-] [BECOME A PRODUCT MANAGER](https://www.udemy.com/course/become-a-product-manager-learn-the-skills-get-a-job)
@@ -431,8 +441,10 @@
 * [-] [FIGMA: LEARN DESIGN PILOT](https://www.figma.com/resources/learn-design)
 * [-] [FIGMA: LEARN DESIGN](https://www.figma.com/resources/learn-design/getting-started)
 * [-] [FIGMA: TUTORIALS](https://www.youtube.com/channel/UCQsVmhSa4X-G3lHlUtejzLA/videos?view=0&sort=da&flow=grid)
-* [-] [DESIGNCODE: DESIGN SYSTEM IN FIGMA](https://designcode.io/design-system-in-figma)
-* [-] [DESIGNCODE: BUILD A FULL SITE IN WEBFLOW](https://designcode.io/webflow-course)
+* [-] [DESIGN+CODE: DESIGN SYSTEM IN FIGMA](https://designcode.io/design-system-in-figma)
+* [-] [DESIGN+CODE: BUILD A FULL SITE IN WEBFLOW](https://designcode.io/webflow-course)
+* [-] [DESIGN+CODE: UI DESIGN FOR DEVELOPERS](https://designcode.io/ui-design-for-developers)
+* [-] [DESIGN+CODE: UI DESIGN LIVESTREAMS](https://designcode.io/ui-design-livestreams-my-design-process)
 * [-] [BUILD UX: HOW TO BUILD AN INBOX UI](https://www.youtube.com/playlist?list=PLKFUh46KjXES8mh_heA1WxQd98Wpekfuh)
 * [-] [BUILD UX: HOW TO BUILD A NUTRITION WEBSITE](https://www.youtube.com/playlist?list=PLKFUh46KjXESnnC7TZwd_qc-GwdPRiOnl)
 * [-] [BUILD UX: VARIOUS FIGMA TUTORIALS](https://www.youtube.com/playlist?list=PLKFUh46KjXERWsJTTGT5rdqtD6XWmd726)
