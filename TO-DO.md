@@ -18,8 +18,8 @@
 * [/] [RESPONSIVE WEB TYPOGRAPHY](https://frontendmasters.com/courses/responsive-typography-v2)
 * [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3) */*
 * [-] [WEB DESIGN FOR WEB DEVELOPERS](https://www.udemy.com/course/web-design-secrets) */*
-* [.] [CSS THE COMPLETE GUIDE (INCLUDES FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass) */*
-* [.] [ADVANCED CSS AND SASS: FLEXBOX, GRID, ANIMATIONS AND MORE!](https://www.udemy.com/course/advanced-css-and-sass) */*
+* [.] [CSS THE COMPLETE GUIDE (FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass) */*
+* [.] [ADVANCED CSS AND SASS (FLEXBOX, GRID, ANIMATIONS)](https://www.udemy.com/course/advanced-css-and-sass) */*
 * [-] [STYLE YOUR REACT APPS WITH TAILWIND CSS AND STYLED COMPONENTS](https://www.freecodecamp.org/news/how-to-style-your-react-apps-with-less-code-using-tailwind-css-and-styled-components)
 * [-] [DESIGNING WITH TAILWIND CSS (WORKCATION)](https://tailwindcss.com/screencasts) <https://www.youtube.com/watch?v=0aTRN9CSCY0&list=PL7CcGwsqRpSO3J4YU6BkWqjU0XcVSaPXl>
 * [-] [BUILDING INTERFACES WITH TAILWIND CSS](https://www.youtube.com/watch?v=_JhTaENzfZQ&list=PL7CcGwsqRpSMgVc5NxXUpqmGOS9s1YrWF)
@@ -97,12 +97,12 @@
 * [-] [ANGULAR (FULL APP) WITH ANGULAR MATERIAL, ANGULARFIRE & NGRX](https://www.udemy.com/angular-full-app-with-angular-material-angularfire-ngrx) */*
 * [-] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide) */*
 * [-] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security) */*
+* [-] [REACTIVE ANGULAR COURSE WITH RXJS - ANGULAR UNIVERSITY](https://www.udemy.com/course/rxjs-reactive-angular-course)
 * [-] [BUILD A REAL WORLD BEAUTIFUL WEB APP WITH ANGULAR 7 )](https://bit.ly/2sEvsvM)
 * [-] [THE MODERN ANGULAR BOOTCAMP 2020](https://www.udemy.com/course/the-modern-angular-bootcamp/)
 * [-] [ANGULAR AND REDUX: INTRODUCTION TO STATE MANAGEMENT](https://medium.com/codingthesmartway-com-blog/angular-and-redux-ecd22ea53492)
 * [-] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
 * [-] [BUILD PERFORMANT AND PROGRESSIVE ANGULAR APPLICATIONS](https://web.dev/angular)
-* [-] [ANGULAR UNIVERSITY](https://angular-university.io)
 * [-] [ANGULAR COURSE](https://codecraft.tv/courses/angular/quickstart/overview)
 * [/] [ANGULAR COMPONENT DESIGN](https://blog.angular-university.io/angular-component-design-how-to-avoid-custom-event-bubbling-and-extraneous-properties-in-the-local-component-tree)
 * [/] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2)
@@ -183,9 +183,8 @@
 * [-] [BUILD A REACT APPLICATION USING RXJS](https://auth0.com/blog/build-a-react-application-using-rxjs)
 * [-] [NETFLIX JAVASCRIPT TALKS: RXJS](https://www.youtube.com/results?search_query=netflix+rxjs&search_type=&aq=f&oq=)
 * [-] [ASYNCHRONOUS PROGRAMMING IN JAVASCRIPT WITH RXJS OBSERVABLES](https://frontendmasters.com/courses/asynchronous-javascript)
-* [-] [ADVANCED ASYNCHRONOUS JAVASCRIPt](https://frontendmasters.com/courses/advanced-async-js)
-* [-] [RXJS IN PRACTICE COURSE](https://angular-university.io/course/rxjs-course)
-* [-] [RXJS AND REACTIVE PATTERNS ANGULAR ARCHITECTURE COURSE](https://angular-university.io/course/reactive-angular-architecture-course)
+* [-] [ADVANCED ASYNCHRONOUS JAVASCRIPT](https://frontendmasters.com/courses/advanced-async-js)
+* [-] [REACTIVE ANGULAR COURSE WITH RXJS - ANGULAR UNIVERSITY](https://www.udemy.com/course/rxjs-reactive-angular-course)
 * [-] [THE INTRODUCTION TO REACTIVE PROGRAMMING YOU'VE BEEN MISSING](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 * [-] [ASYNCHRONOUS PROGRAMMING: THE END OF THE LOOP](https://egghead.io/courses/asynchronous-programming-the-end-of-the-loop)
 * [-] [INTRODUCTION TO REACTIVE PROGRAMMING](https://egghead.io/courses/introduction-to-reactive-programming)
@@ -410,6 +409,7 @@
 * [-] [COMPLEX NETWORK ANALYSIS IN PYTHON](https://pragprog.com/book/dzcnapy/complex-network-analysis-in-python)
 
 # IOS
+* [-] [IOS 12 & SWIFT 5 APP DESIGN - UI/UX FIGMA](https://www.udemy.com/course/app-design-uiux-plus-ios-development)
 * [-] [DESIGN+CODE: LEARN IOS 11 DESIGN](https://designcode.io/ios11)
 * [-] [DESIGN+CODE: LEARN SWIFT 4](https://designcode.io/swift4)
 * [-] [DESIGN+CODE: ADVANCED SWIFT](https://designcode.io/swift4-tab-bar)
