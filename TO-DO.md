@@ -1,8 +1,3 @@
-# KEYS
-* [-] = TO-DO
-* [.] = IN PROGRESS
-* [/] = DONE
-
 # WATCH AND CODE
 * [/] [WATCH AND CODE - PRACTICAL JAVASCRIPT](https://watchandcode.com)
 * [-] [WATCH AND CODE - PREMIUM MEMBERSHIP](https://watchandcode.com)
@@ -14,11 +9,11 @@
 * [/] [ADVANCED CSS LAYOUTS](https://frontendmasters.com/courses/advanced-css-layouts)
 * [-] [RESPONSIVE DESIGNS AND CSS CUSTOM PROPERTIES: BUILDING A FLEXIBLE GRID SYSTEM](https://css-tricks.com/responsive-designs-and-css-custom-properties-building-a-flexible-grid-system)
 * [/] [MOTION DESIGN WITH CSS](https://frontendmasters.com/courses/motion-design-css)
-* [/] [SVG ESSENTIALS & ANIMATION](https://frontendmasters.com/courses/svg-essentials-animation/)
+* [/] [SVG ESSENTIALS & ANIMATION](https://frontendmasters.com/courses/svg-essentials-animation)
 * [/] [RESPONSIVE WEB TYPOGRAPHY](https://frontendmasters.com/courses/responsive-typography-v2)
 * [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3) */*
 * [-] [WEB DESIGN FOR WEB DEVELOPERS](https://www.udemy.com/course/web-design-secrets) */*
-* [.] [CSS THE COMPLETE GUIDE (FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass) */*
+* [-] [CSS THE COMPLETE GUIDE (FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass) */*
 * [.] [ADVANCED CSS AND SASS (FLEXBOX, GRID, ANIMATIONS)](https://www.udemy.com/course/advanced-css-and-sass) */*
 * [-] [STYLE YOUR REACT APPS WITH TAILWIND CSS AND STYLED COMPONENTS](https://www.freecodecamp.org/news/how-to-style-your-react-apps-with-less-code-using-tailwind-css-and-styled-components)
 * [-] [DESIGNING WITH TAILWIND CSS (WORKCATION)](https://tailwindcss.com/screencasts) <https://www.youtube.com/watch?v=0aTRN9CSCY0&list=PL7CcGwsqRpSO3J4YU6BkWqjU0XcVSaPXl>
@@ -42,8 +37,8 @@
 # JAVASCRIPT/TYPESCRIPT
 * [-] [FREECODECAMP: JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION](https://www.freecodecamp.org/learn)
 * [-] [FREECODECAMP JAVASCRIPT CERTIFICATION PROJECTS (TALK ALOUDS)](https://www.youtube.com/watch?v=XV5OCibNpLI&list=PLehRZjGCVhQLTWPN8mTo3rlRDQff9fCmT)
-* [.] [JAVASCRIPT - THE COMPLETE GUIDE 2020](https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced) */*
-* [.] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course) */*
+* [-] [JAVASCRIPT - THE COMPLETE GUIDE 2020](https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced) */*
+* [-] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course) */*
 * [/] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript) */*
 * [/] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns) */*
 * [-] [DESIGN PATTERNS IN TYPESCRIPT](https://refactoring.guru/design-patterns/typescript)
@@ -78,7 +73,7 @@
 * [-] [JAVASCRIPT PROJECTS 50+](https://www.udemy.com/course/javascript-course-projects)
 
 # FRONTEND (COMPONENTS)
-* [.] [THE COMPLETE JAVASCRIPT COURSE 2020 - WEB COMPONENTS SECTION](https://www.udemy.com/course/the-complete-javascript-course)
+* [-] [THE COMPLETE JAVASCRIPT COURSE 2020 - WEB COMPONENTS SECTION](https://www.udemy.com/course/the-complete-javascript-course)
 * [-] [GOOGLE DEV: WEB COMPONENTS](https://developers.google.com/web/fundamentals/web-components)
 * [-] [LITELEMENT](https://lit-element.polymer-project.org/)
 * [-] [THE ANATOMY OF WEB COMPONENTS](https://itnext.io/the-anatomy-of-web-components-d6afedb81b37)
@@ -89,7 +84,7 @@
 * [-] [WEB COMPONENTS USING POLYMER](https://itnext.io/web-components-using-polymer-cd7e2ea8d06e)
 * [-] [BUILDING A PRACTICAL WEB COMPONENT](https://itnext.io/building-a-practical-web-component-9e84f5e4d63a)
 * [-] [REACT AND WEB COMPONENTS](https://itnext.io/react-and-web-components-3e0fca98a593)
-* [-] [#MICROFRONTENDS](https://itnext.io/a-deep-analysis-into-isomorphic-autonomous-cross-framework-usage-microfrontends-364271dc5fa9)
+* [-] [MICROFRONTENDS](https://itnext.io/a-deep-analysis-into-isomorphic-autonomous-cross-framework-usage-microfrontends-364271dc5fa9)
 * [-] [HANDLING DATA WITH WEB COMPONENTS](https://itnext.io/handling-data-with-web-components-9e7e4a452e6e)
 
 # FRONTEND (ANGULAR)
@@ -110,11 +105,14 @@
 * [/] [ANGULAR DOCS](https://angular.io/guide)
 
 # FRONTEND (REACT)
-* [-] [COMPLETE REACT DEVELOPER IN 2020 (REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery) */*
-* [-] [REACT THE COMPLETE GUIDE (HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
-* [-] [LEARN REACT FOR BEGINNERS](https://www.freecodecamp.org/news/learn-react-course)
+* [.] [COMPLETE REACT DEVELOPER IN 2020 (REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery) */*
+* [-] [REACT THE COMPLETE GUIDE (HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux) */*
+* [-] [REACT NATIVE - THE PRACTICAL GUIDE 2020](https://www.udemy.com/course/react-native-the-practical-guide)
+* [/] [COMPLETE INTRO TO REACT V5](https://frontendmasters.com/courses/complete-react-v5)
+* [/] [INTERMEDIATE REACT V2](https://frontendmasters.com/courses/intermediate-react-v2)
+* [-] [REACT NATIVE V2](https://frontendmasters.com/courses/react-native-v2)
 * [-] [DESIGN+CODE: REACT FOR DESIGNERS](https://designcode.io/react)
-* [-] [DESIGN+CODE: REACT NATIVE FOR DESIGNERS](https://designcode.io/react-native)
+* [-] [DESIGN+CODE: REACT NATIVE FOR DESIGNERS PART 1](https://designcode.io/react-native)
 * [-] [DESIGN+CODE: REACT NATIVE FOR DESIGNERS PART 2](https://designcode.io/react-native-2)
 * [-] [LEARN HOW TO USE APIS WITH REACT BY BUILDING A HACKER NEWS API APPLICATION](https://www.freecodecamp.org/news/learn-how-to-use-apis-with-react-by-building-a-hacker-news-api-application)
 * [-] [LEARN TO USE APIS IN REACT BY CREATING A RECIPE APP](https://www.freecodecamp.org/news/apis-in-react)
@@ -124,13 +122,12 @@
 * [-] [LEARN HOW TO USE REACT, CONTENTFUL, AND NETLIFY BY BUILDING A BEACH RESORT WEBSITE](https://www.freecodecamp.org/news/learn-react-contentful-and-netlify-by-building-a-beach-resort-website)
 * [-] [HOW TO BUILD A SIMPLE POKÉMON WEB APP WITH REACT HOOKS AND THE CONTEXT API](https://www.freecodecamp.org/news/building-a-simple-pokemon-web-app-with-react-hooks-and-context-api/)
 * [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react)
-* [-] [REACT NATIVE - THE PRACTICAL GUIDE 2020](https://www.udemy.com/course/react-native-the-practical-guide)
 * [-] [INTRO TO REACT NATIVE COURSE](https://www.freecodecamp.org/news/react-native-course-for-beginners)
 * [-] [REACT NATIVE COURSE: HOW TO BUILD ONE AN IPHONE APP, ANDROID APP, AND WEBSITE - ALL WITH THE SAME CODEBASE](https://www.youtube.com/watch?v=_CBYbEGvxYY)
 * [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 * [-] [THE NEXT.JS HANDBOOK](https://www.freecodecamp.org/news/the-next-js-handbook)
 * [/] [REACT DOCS: MAIN CONCEPTS + THINKING IN REACT](https://reactjs.org/docs)
-* [.] [REACT DOCS: ADVANCED GUIDES + HOOKS + TESTING](https://reactjs.org/docs) Forwarding Refs
+* [-] [REACT DOCS: ADVANCED GUIDES + HOOKS + TESTING](https://reactjs.org/docs) Forwarding Refs
 * [-] [REACT DOCS: TUTORIAL: TIC-TAC-TOE GAME](https://reactjs.org/tutorial/tutorial.html)
 
 # FRONTEND (VUE)
@@ -238,6 +235,7 @@
 * [-] [GUTENBERG BLOCKS FOR WORDPRESS AND REACT DEVELOPERS](https://www.udemy.com/course/gutenberg) */*
 
 # DEBUGGING
+* [-] [DEBUGGING AND FIXING COMMON JAVASCRIPT ERRORS](https://frontendmasters.com/courses/debugging-javascript)
 * [-] [CHROME DEVTOOLS](https://developers.google.com/web/tools/chrome-devtools)
 * [-] [MASTERING THE DEVELOPER TOOLS CONSOLE](https://blog.teamtreehouse.com/mastering-developer-tools-console)
 * [-] [DEBUGGING JAVASCRIPT IN GOOGLE CHROME AND VISUAL STUDIO CODE](https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-studio-code)
@@ -283,7 +281,7 @@
 * [-] [SQL: FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=HXV3zeQKqGY)
 
 # TOOLS (EDITORS/UNIX/BASH/GIT/DOCKER/DEPLOYMENT)
-* [-] [FULL STACK FOR FRONT-END ENGINEERS V2 - CLI SSH, NGINX, DOCKER CONTAINERS, SERVER SECURITY, HTTP/2, HTTP](https://frontendmasters.com/courses/fullstack-v2)
+* [-] [FULL STACK FOR FRONT-END ENGINEERS V2 - CLI, SSH, NGINX, DOCKER, SECURITY, HTTP](https://frontendmasters.com/courses/fullstack-v2)
 * [-] [MAC OS X UNIX 101 BYTE-SIZED PROJECTS](http://www.peachpit.com/store/mac-os-x-unix-101-byte-sized-projects-9780321374110)
 * [-] [SMALL, SHARP, SOFTWARE TOOLS](https://pragprog.com/book/bhcldev/small-sharp-software-tools)
 * [-] [UNIX POWER TOOLS](http://shop.oreilly.com/product/9780596003302.do)
@@ -291,7 +289,6 @@
 * [-] [BASH SHELL SCRIPTING](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)
 * [-] [AUTOMATE THE BORING STUFF WITH PYTHON](https://automatetheboringstuff.com)
 * [/] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
-* [-] [VISUAL STUDIO CODE CAN DO THAT?](https://frontendmasters.com/courses/customize-vs-code/)
 * [-] [GIT IN-DEPTH](https://frontendmasters.com/courses/git-in-depth)
 * [-] [LEARN GIT CONCEPTS, NOT COMMANDS](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git)
@@ -417,61 +414,3 @@
 * [-] [DESIGN+CODE: BUILD AN APP WITH SWIFT UI PART 2](https://designcode.io/swiftui2)
 * [-] [DESIGN+CODE: BUILD AN APP WITH SWIFT UI PART 3](https://designcode.io/swiftui3-neumorphic-buttons)
 * [-] [DESIGN+CODE: SWIFT UI: PROTOTYPING FROM FIGMA](https://designcode.io/swiftui-livestreams-prototyping-from-figma)
-
-# UX DESIGN
-* [-] [BECOME A PRODUCT MANAGER](https://www.udemy.com/course/become-a-product-manager-learn-the-skills-get-a-job)
-* [-] [UX DESIGN PROCESS SIMPLIFIED FROM USER RESEARCH TO USABILITY](https://www.udemy.com/course/ux-design-process-for-beginners-from-user-research-to-usability)
-* [-] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign) */*
-
-# UI DESIGN
-* [-] [ATOMIC DESIGN](https://atomicdesign.bradfrost.com)
-* [-] [THE ATOMIC WORKFLOW — PEOPLE, PROCESS, AND MAKING DESIGN SYSTEMS HAPPEN](https://www.smashingmagazine.com/atomic-design-workflow)
-* [-] [CREATING ATOMIC COMPONENTS THAT WILL BLOW YOUR MIND](https://liferay.design/articles/2019/creating-atomic-components-in-figma)
-* [/] [THINKING IN REACT (UI COMPONENT ARCHITECTURE + UI STATE)](https://reactjs.org/docs/thinking-in-react.html)
-* [/] [EVERYTHING I KNOW ABOUT STYLE GUIDES, DESIGN SYSTEMS, AND COMPONENT LIBRARIES](https://leerob.io/blog/style-guides-component-libraries-design-systems)
-* [-] [UI DESIGN FUNDAMENTALS](https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course)
-* [/] [DESIGN SYSTEMS WITH REACT & STORYBOOK](https://frontendmasters.com/courses/design-systems)
-* [-] [STORYBOOK: LEARN TO DEVELOP UIS WITH COMPONENTS AND DESIGN SYSTEMS](https://www.learnstorybook.com)
-* [.] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma) */*
-* [-] [COMPLETE WEB DESIGN: FROM FIGMA TO WEBFLOW TO FREELANCING](https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money)
-* [-] [WEBFLOW UNIVERSITY](https://university.webflow.com/courses)
-* [-] [WEBFLOW TUTORIALS](https://www.youtube.com/c/Webflow/videos)
-* [-] [LEARN UX: FIGMA COURSE](https://learnux.io/course/figma)
-* [-] [LEARN UX: FIGMA TIPS & TRICKS](https://www.youtube.com/watch?v=Vo0sEPqArRQ)
-* [-] [FIGMA: LEARN DESIGN PILOT](https://www.figma.com/resources/learn-design)
-* [-] [FIGMA: LEARN DESIGN](https://www.figma.com/resources/learn-design/getting-started)
-* [-] [FIGMA: TUTORIALS](https://www.youtube.com/channel/UCQsVmhSa4X-G3lHlUtejzLA/videos?view=0&sort=da&flow=grid)
-* [-] [DESIGN+CODE: DESIGN SYSTEM IN FIGMA](https://designcode.io/design-system-in-figma)
-* [-] [DESIGN+CODE: BUILD A FULL SITE IN WEBFLOW](https://designcode.io/webflow-course)
-* [-] [DESIGN+CODE: UI DESIGN FOR DEVELOPERS](https://designcode.io/ui-design-for-developers)
-* [-] [DESIGN+CODE: UI DESIGN LIVESTREAMS](https://designcode.io/ui-design-livestreams-my-design-process)
-* [-] [BUILD UX: HOW TO BUILD AN INBOX UI](https://www.youtube.com/playlist?list=PLKFUh46KjXES8mh_heA1WxQd98Wpekfuh)
-* [-] [BUILD UX: HOW TO BUILD A NUTRITION WEBSITE](https://www.youtube.com/playlist?list=PLKFUh46KjXESnnC7TZwd_qc-GwdPRiOnl)
-* [-] [BUILD UX: VARIOUS FIGMA TUTORIALS](https://www.youtube.com/playlist?list=PLKFUh46KjXERWsJTTGT5rdqtD6XWmd726)
-* [/] [DESIGNCOURSE: WEBFLOW CRASH COURSE](https://www.youtube.com/watch?v=S67X-sfW0IA)
-* [-] [DESIGNCOURSE: FIGMA TUTORIAL](https://www.youtube.com/watch?v=3q3FV65ZrUs)
-* [-] [DESIGNCOURSE: FIGMA PARALLAX EFFECT ](https://www.youtube.com/watch?v=RT5h-lLH0QA)
-* [-] [DESIGNCOURSE: FIGMA PLUGINS! UI DESIGN](https://www.youtube.com/watch?v=7RPbpu0HvEs)
-* [-] [DEV ED: DESIGN A WEBSITE IN UNDER 1 HOUR WITH FIGMA](https://www.youtube.com/watch?v=FK4YusHIIj0)
-* [-] [ARTTUTOR: UI/UX DESIGN/HUMAN INTERFACE DESIGN CRASH COURSE](https://www.youtube.com/watch?v=L92qH4X8paE)
-* [-] [ARTTUTOR: FIGMA TUTORIAL: CRASH COURSE](https://www.youtube.com/watch?v=bOc6ynPO8Qw)
-* [-] [ARTTUTOR: FIGMA TUTORIAL: DATING APP UI DESIGN](https://www.youtube.com/watch?v=j2aBHOkYQpg)
-* [-] [ARTTUTOR: FIGMA TUTORIAL: INSTAGRAM UI/UX REDESIGN](https://www.youtube.com/watch?v=z0G0Z38IE1M)
-* [-] [ARTTUTOR: FIGMA TUTORIAL: DESIGN ON BOARDING SCREENS FOR MOBILE APPS](https://www.youtube.com/watch?v=yvKRf4vpMPA)
-* [-] [ARTTUTOR: FIGMA TUTORIAL: WEBSITE DESIGN](https://www.youtube.com/watch?v=YtCI-6tuzds)
-* [-] [ARTTUTOR: FIGMA TUTORIAL: DESIGN MODERN WEB TEMPLATES](https://www.youtube.com/watch?v=5Le0j1zWNFc)
-* [-] [ARTTUTOR: FIGMA TUTORIAL: DESIGN A WEB TEMPLATE](https://www.youtube.com/watch?v=HpIf7pw3TW8)
-* [-] [ARTTUTOR: FIGMA TUTORIAL: CREATE EYE CATCHING WEB DESIGNS](https://www.youtube.com/watch?v=OiMM2dQWCmE)
-* [-] [ARTTUTOR: FIGMA TUTORIAL: CREATE 2D PLATFORMER GAME](https://www.youtube.com/watch?v=ZT6T9Mx7RmU)
-* [-] [ARTTUTOR: FIGMA TUTORIAL: ABSTRACT BACKGROUND NEON LIGHT DESIGN](https://www.youtube.com/watch?v=pdYcO-Qwz3M)
-* [-] [ARTTUTOR: FIGMA TUTORIAL: CREATE STYLISED ICONS](https://www.youtube.com/watch?v=UdbC-Yz8tVU)
-* [-] [ARTTUTOR: FIGMA TUTORIAL: CREATE FLAT DESIGN ICONS](https://www.youtube.com/watch?v=FT-vgjLTty4)
-* [-] [ARTTUTOR: FIGMA TUTORIAL: CREATE LINE ICONS](https://www.youtube.com/watch?v=10fSci2vXtE)
-* [-] [REFACTORING UI: COURSE](https://refactoringui.com/book)
-* [-] [REFACTORING UI: VIDEOS](https://www.youtube.com/channel/UCxqiDtkXtOCNJdckODHk9YA)
-* [-] [REFACTORING UI: DESIGN TIPS](https://twitter.com/i/moments/994601867987619840)
-* [/] [REFACTORING UI: 7 PRACTICAL TIPS FOR CHEATING AT DESIGN](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
-* [/] [REFACTORING UI: REDESIGNING LARAVEL.IO](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
-* [/] [HIGH RESOLUTION - UI DESIGNER INTERVIEWS](https://www.youtube.com/channel/UCzBkNPSxw15qrW_Y8p-oCUw/videos)
-* [/] [HOW STRIPE DESIGNS BEAUTIFUL WEBSITES](https://leerob.io/blog/how-stripe-designs-beautiful-websites)
-* [/] [DESIGN AT SCALE: ONE YEAR WITH FIGMA](https://www.smashingmagazine.com/2019/04/design-scale-figma)

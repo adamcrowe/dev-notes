@@ -28,12 +28,13 @@
 * Figma Mirror (View Figma prototypes on iOS devices) <https://apps.apple.com/us/app/figma-mirror/id1152747299>
 
 # DESIGN SYSTEMS
-* Introduction to Design Systems <https://fem-design-systems.netlify.app/building-a-design-system>
-* Primer (GitHub Design System) <https://primer.style>
-* Clarity Design System <https://clarity.design>
-* Designs Systems Collection <https://designsystemsrepo.com>
-* Lexicon <https://liferay.design/lexicon>
+* Primer (GitHub) <https://primer.style>
+* Spectrum (Adobe) <https://react-spectrum.adobe.com>
+* Clarity (VMware) <https://clarity.design>
+* Lexicon (Liferay) <https://liferay.design/lexicon>
   * <https://liferay.design/resources/figma>
+* Designs Systems Collection <https://designsystemsrepo.com>
+* Introduction to Design Systems <https://fem-design-systems.netlify.app/building-a-design-system>
 
 # DATABASES
 * PostgreSQL GUI tool for macOS <http://www.psequel.com>
