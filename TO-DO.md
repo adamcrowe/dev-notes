@@ -244,18 +244,17 @@
 * [-] [MODERN FRONT-END WORKFLOW WITH DEVTOOLS](https://www.youtube.com/watch?v=wz1Sy5C039M)
 
 # TESTING
-* [/] [AN INTRODUCTION TO TEST-DRIVEN DEVELOPMENT](https://medium.freecodecamp.org/an-introduction-to-test-driven-development-c4de6dce5c)
-* [/] [JAVASCRIPT TESTING WITH JASMINE](http://shop.oreilly.com/product/0636920028277.do)
-* [-] [JAVASCRIPT TESTING PRACTICES AND PRINCIPLES](https://frontendmasters.com/courses/testing-practices-principles)
 * [-] [TESTING JAVASCRIPT (JEST, REACT TESTING LIBRARY, CYPRESS)](https://testingjavascript.com)
-* [-] [TESTING REACT APPLICATIONS (JEST + ENZYME)](https://frontendmasters.com/courses/testing-react)
-* [-] [HOW TO TEST REACT WITH JEST & ENZYME](https://www.robinwieruch.de/react-testing-jest-enzyme)
+* [/] [JAVASCRIPT TESTING PRACTICES AND PRINCIPLES](https://frontendmasters.com/courses/testing-practices-principles)
+* [/] [TESTING REACT APPLICATIONS (JEST + REACT TESTING LIBRARY)](https://frontendmasters.com/courses/testing-react)
+* [-] [HOW TO TEST REACT WITH JEST](https://www.robinwieruch.de/react-testing-jest)
 * [-] [HOW TO USE REACT TESTING LIBRARY](https://www.robinwieruch.de/react-testing-library)
-* [-] [REACT TESTING WITH JEST AND ENZYME](https://www.udemy.com/course/react-testing-with-jest-and-enzyme)
-* [-] [REACT, REDUX & ENZYME - INTRODUCING APPS & TESTS](https://www.udemy.com/course/react-testing)
+* [-] [HOW TO TEST REACT-REDUX CONNECTED COMPONENTS](https://www.robinwieruch.de/react-connected-component-test)
+* [/] [CREATE REACT APP: RUNNING TESTS](https://create-react-app.dev/docs/running-tests)
 * [-] [TEST-DRIVEN JAVASCRIPT DEVELOPMENT](https://www.tddjs.com)
 * [-] [END-TO-END API TESTING WITH DOCKER](https://www.freecodecamp.org/news/end-to-end-api-testing-with-docker)
-* [-] [THE ULTIMATE GUIDE TO END-TO-END TESTS WITH SELENIUM AND DOCKER](https://www.freecodecamp.org/news/end-to-end-tests-with-selenium-and-docker-the-ultimate-guide)
+* [/] [AN INTRODUCTION TO TEST-DRIVEN DEVELOPMENT](https://medium.freecodecamp.org/an-introduction-to-test-driven-development-c4de6dce5c)
+* [/] [JAVASCRIPT TESTING WITH JASMINE](http://shop.oreilly.com/product/0636920028277.do)
 
 # SECURITY
 * [-] [WEB SECURITY](https://frontendmasters.com/courses/web-security)
@@ -404,13 +403,3 @@
 * [-] [THINK STATS 2E](https://greenteapress.com/wp/think-stats-2e)
 * [-] [PROGRAMMING MACHINE LEARNING](https://pragprog.com/book/pplearn/programming-machine-learning)
 * [-] [COMPLEX NETWORK ANALYSIS IN PYTHON](https://pragprog.com/book/dzcnapy/complex-network-analysis-in-python)
-
-# IOS
-* [-] [IOS 12 & SWIFT 5 APP DESIGN - UI/UX FIGMA](https://www.udemy.com/course/app-design-uiux-plus-ios-development)
-* [-] [DESIGN+CODE: LEARN IOS 11 DESIGN](https://designcode.io/ios11)
-* [-] [DESIGN+CODE: LEARN SWIFT 4](https://designcode.io/swift4)
-* [-] [DESIGN+CODE: ADVANCED SWIFT](https://designcode.io/swift4-tab-bar)
-* [-] [DESIGN+CODE: BUILD AN APP WITH SWIFT UI PART 1](https://designcode.io/swiftui)
-* [-] [DESIGN+CODE: BUILD AN APP WITH SWIFT UI PART 2](https://designcode.io/swiftui2)
-* [-] [DESIGN+CODE: BUILD AN APP WITH SWIFT UI PART 3](https://designcode.io/swiftui3-neumorphic-buttons)
-* [-] [DESIGN+CODE: SWIFT UI: PROTOTYPING FROM FIGMA](https://designcode.io/swiftui-livestreams-prototyping-from-figma)
