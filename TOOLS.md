@@ -141,6 +141,8 @@
 * Feather Icons <https://feathericons.com>
 * Noun Project Icons <https://thenounproject.com>
 * Material Icons <https://material.io/resources/icons>
+* Bootstrap Icons <https://github.com/twbs/icons>
+  * Figma <https://www.figma.com/file/hTJtQ2MrMTeNVmYrVBqNZZ/Bootstrap-Icons-v1.0.0-alpha5?node-id=0%3A1>
 * Various Resources <https://www.designvalley.club>
 * Various Resources <https://nodesign.dev>
 

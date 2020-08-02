@@ -15,6 +15,7 @@
 * [-] [WEB DESIGN FOR WEB DEVELOPERS](https://www.udemy.com/course/web-design-secrets) */*
 * [-] [CSS THE COMPLETE GUIDE (FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass) */*
 * [.] [ADVANCED CSS AND SASS (FLEXBOX, GRID, ANIMATIONS)](https://www.udemy.com/course/advanced-css-and-sass) */*
+* [-] [WHAT IS TAILWIND CSS AND HOW CAN I ADD IT TO MY WEBSITE OR REACT APP?](https://www.freecodecamp.org/news/what-is-tailwind-css-and-how-can-i-add-it-to-my-website-or-react-app)
 * [-] [STYLE YOUR REACT APPS WITH TAILWIND CSS AND STYLED COMPONENTS](https://www.freecodecamp.org/news/how-to-style-your-react-apps-with-less-code-using-tailwind-css-and-styled-components)
 * [-] [DESIGNING WITH TAILWIND CSS (WORKCATION)](https://tailwindcss.com/screencasts) <https://www.youtube.com/watch?v=0aTRN9CSCY0&list=PL7CcGwsqRpSO3J4YU6BkWqjU0XcVSaPXl>
 * [-] [BUILDING INTERFACES WITH TAILWIND CSS](https://www.youtube.com/watch?v=_JhTaENzfZQ&list=PL7CcGwsqRpSMgVc5NxXUpqmGOS9s1YrWF)
@@ -110,22 +111,22 @@
 * [-] [REACT NATIVE - THE PRACTICAL GUIDE 2020](https://www.udemy.com/course/react-native-the-practical-guide)
 * [/] [COMPLETE INTRO TO REACT V5](https://frontendmasters.com/courses/complete-react-v5)
 * [/] [INTERMEDIATE REACT V2](https://frontendmasters.com/courses/intermediate-react-v2)
-* [-] [REACT NATIVE V2](https://frontendmasters.com/courses/react-native-v2)
 * [-] [DESIGN+CODE: REACT FOR DESIGNERS](https://designcode.io/react)
 * [-] [DESIGN+CODE: REACT NATIVE FOR DESIGNERS PART 1](https://designcode.io/react-native)
 * [-] [DESIGN+CODE: REACT NATIVE FOR DESIGNERS PART 2](https://designcode.io/react-native-2)
+* [-] [HOW TO MAKE AN ONLINE STORE IN ONE DAY USING AWS, REACT, AND STRIPE](https://www.freecodecamp.org/news/how-to-make-a-store-in-one-day-aws-react-stripe)
 * [-] [LEARN HOW TO USE APIS WITH REACT BY BUILDING A HACKER NEWS API APPLICATION](https://www.freecodecamp.org/news/learn-how-to-use-apis-with-react-by-building-a-hacker-news-api-application)
 * [-] [LEARN TO USE APIS IN REACT BY CREATING A RECIPE APP](https://www.freecodecamp.org/news/apis-in-react)
 * [-] [TAKE YOUR REACT SKILLS TO THE NEXT LEVEL BY BUILDING A TODOIST CLONE](https://www.freecodecamp.org/news/react-firebase-todoist-clone)
 * [-] [LEARN HOW TO CREATE A SOCIAL MEDIA APP FROM SCRATCH USING REACT, FIREBASE, REDUX, AND EXPRESS](https://www.freecodecamp.org/news/react-firebase-social-media-app-course)
 * [-] [CREATE A FULL-STACK WEBSITE WITH STRAPI AND GATSBYJS](https://www.freecodecamp.org/news/create-a-full-stack-website-with-strapi-and-gatsbyjs)
 * [-] [LEARN HOW TO USE REACT, CONTENTFUL, AND NETLIFY BY BUILDING A BEACH RESORT WEBSITE](https://www.freecodecamp.org/news/learn-react-contentful-and-netlify-by-building-a-beach-resort-website)
-* [-] [HOW TO BUILD A SIMPLE POKÉMON WEB APP WITH REACT HOOKS AND THE CONTEXT API](https://www.freecodecamp.org/news/building-a-simple-pokemon-web-app-with-react-hooks-and-context-api/)
-* [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react)
+* [-] [HOW TO BUILD A SIMPLE POKÉMON WEB APP WITH REACT HOOKS AND THE CONTEXT API](https://www.freecodecamp.org/news/building-a-simple-pokemon-web-app-with-react-hooks-and-context-api)
 * [-] [INTRO TO REACT NATIVE COURSE](https://www.freecodecamp.org/news/react-native-course-for-beginners)
 * [-] [REACT NATIVE COURSE: HOW TO BUILD ONE AN IPHONE APP, ANDROID APP, AND WEBSITE - ALL WITH THE SAME CODEBASE](https://www.youtube.com/watch?v=_CBYbEGvxYY)
 * [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 * [-] [THE NEXT.JS HANDBOOK](https://www.freecodecamp.org/news/the-next-js-handbook)
+* [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react)
 * [/] [REACT DOCS: MAIN CONCEPTS + THINKING IN REACT](https://reactjs.org/docs)
 * [-] [REACT DOCS: ADVANCED GUIDES + HOOKS + TESTING](https://reactjs.org/docs) Forwarding Refs
 * [-] [REACT DOCS: TUTORIAL: TIC-TAC-TOE GAME](https://reactjs.org/tutorial/tutorial.html)
@@ -161,6 +162,13 @@
 * [/] [HOW THE WEB WORKS PART III: HTTP & REST](https://www.freecodecamp.org/news/how-the-web-works-part-iii-http-rest-e61bc50fa0a)
 * [/] [HOW I EXPLAINED REST TO MY WIFE](https://web.archive.org/web/20130116005443/http://tomayko.com/writings/rest-to-my-wife)
 * [-] [HOW BROWSERS WORK: BEHIND THE SCENES OF MODERN WEB BROWSERS](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork)
+
+# MOBILE/CROSS-PLATFORM
+* [-] [FLUTTER & DART - THE COMPLETE GUIDE [2020 EDITION]](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps)
+* [-] [THE COMPLETE 2020 FLUTTER DEVELOPMENT BOOTCAMP WITH DART](https://www.udemy.com/course/flutter-bootcamp-with-dart)
+* [-] [DART AND FLUTTER: THE COMPLETE DEVELOPER'S GUIDE](https://www.udemy.com/course/dart-and-flutter-the-complete-developers-guide)
+* [-] [BUILD A SOCIAL NETWORK WITH FLUTTER AND FIREBASE](https://www.udemy.com/course/build-a-social-network-with-flutter-and-firebase)
+* [-] [MOBILE E-COMMERCE WITH FLUTTER, REDUX, AND STRIPE](https://www.udemy.com/course/mobile-e-commerce-with-flutter-redux-and-stripe)
 
 # STATE MANAGEMENT
 * [-] [HOW TO IMPLEMENT REDUX IN 24 LINES OF JAVASCRIPT](https://yazeedb.com/posts/redux-in-24-lines-of-code)
@@ -288,7 +296,8 @@
 * [-] [BASH SHELL SCRIPTING](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)
 * [-] [AUTOMATE THE BORING STUFF WITH PYTHON](https://automatetheboringstuff.com)
 * [/] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
-* [-] [GIT IN-DEPTH](https://frontendmasters.com/courses/git-in-depth)
+* [.] [GIT IN-DEPTH](https://frontendmasters.com/courses/git-in-depth)
+* [-] [ADVANCED MERGING](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging#_advanced_merging)
 * [-] [LEARN GIT CONCEPTS, NOT COMMANDS](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git)
 * [-] [GIT TUTORIAL](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQHO1PfyscjIPkNJjgHsLyH)
@@ -298,7 +307,8 @@
 * [-] [BASH SHORTCUTS TO ENHANCE YOUR GIT WORKFLOW](https://medium.freecodecamp.org/bash-shortcuts-to-enhance-your-git-workflow-5107d64ea0ff)
 * [-] [HOW TO UNDO (ALMOST) ANYTHING WITH GIT](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git)
 * [-] [HOW TO WRITE A GIT COMMIT MESSAGE](https://chris.beams.io/posts/git-commit)
-* [-] [PRO GIT](https://www.apress.com/gp/book/9781484200773)
+* [-] [OH SH*T, GIT!?!](https://ohshitgit.com)
+* [-] [PRO GIT](https://git-scm.com/book/en/v2)
 * [-] [COMMAND LINE TRICKS FOR MANAGING YOUR MESSY OPEN SOURCE REPOSITORY](https://www.freecodecamp.org/news/command-line-tricks-for-managing-your-messy-open-source-repository)
 * [-] [LEARN DEVOPS BASICS WITH THIS FREE 2-HOUR DOCKER COURSE](https://www.freecodecamp.org/news/docker-devops-course)
 * [/] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac)
@@ -331,6 +341,7 @@
 * [-] [CODE REFACTORING](https://www.youtube.com/playlist?list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV)
 * [-] [DIVE INTO REFACTORING](https://refactoring.guru/refactoring/course)
 * [-] [DIVE INTO DESIGN PATTERNS](https://refactoring.guru/design-patterns/book)
+* [-] [DESIGN PATTERNS IN JAVASCRIPT](https://www.udemy.com/course/design-patterns-javascript)
 * [-] [THE 3 TYPES OF DESIGN PATTERNS ALL DEVELOPERS SHOULD KNOW](https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know)
 * [-] [BEYOND LEGACY CODE: NINE PRACTICES TO EXTEND THE LIFE (AND VALUE) OF YOUR SOFTWARE](https://pragprog.com/book/dblegacy/beyond-legacy-code)
 * [-] [YOUR CODE AS A CRIME SCENE](https://pragprog.com/book/atcrime/your-code-as-a-crime-scene)
