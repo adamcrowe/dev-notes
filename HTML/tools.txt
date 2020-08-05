@@ -1,3 +1,0 @@
-* Character Entities <https://dev.w3.org/html5/html-author/charref>
-* Placeholder Images: https://placehold.it/800x400?text=IMAGE
-* HTML Color Values: <https://www.w3schools.com/colors/colors_hex.asp>

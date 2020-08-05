@@ -6,6 +6,9 @@
 # HTML
 * How to manage HTML DOM with vanilla JS only <https://htmldom.dev>
 * Custom Elements Everywhere <https://custom-elements-everywhere.com>
+* Character Entities <https://dev.w3.org/html5/html-author/charref>
+* Placeholder Images <https://placehold.it/800x400?text=IMAGE>
+* HTML Color Values <https://www.w3schools.com/colors/colors_hex.asp>
 
 # CSS UI KITS + UI TESTING
 * Bootstrap UI Framework <https://getbootstrap.com>
@@ -143,8 +146,10 @@
 * Material Icons <https://material.io/resources/icons>
 * Bootstrap Icons <https://github.com/twbs/icons>
   * Figma <https://www.figma.com/file/hTJtQ2MrMTeNVmYrVBqNZZ/Bootstrap-Icons-v1.0.0-alpha5?node-id=0%3A1>
+* SVG Icons <https://tablericons.com>
 * Various Resources <https://www.designvalley.club>
 * Various Resources <https://nodesign.dev>
+* Brand Logos <https://brandfetch.io>
 
 # TYPOGRAPHY
 * Google Fonts <https://fonts.google.com>

@@ -108,12 +108,9 @@
 # FRONTEND (REACT)
 * [.] [COMPLETE REACT DEVELOPER IN 2020 (REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery) */*
 * [-] [REACT THE COMPLETE GUIDE (HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux) */*
-* [-] [REACT NATIVE - THE PRACTICAL GUIDE 2020](https://www.udemy.com/course/react-native-the-practical-guide)
 * [/] [COMPLETE INTRO TO REACT V5](https://frontendmasters.com/courses/complete-react-v5)
 * [/] [INTERMEDIATE REACT V2](https://frontendmasters.com/courses/intermediate-react-v2)
 * [-] [DESIGN+CODE: REACT FOR DESIGNERS](https://designcode.io/react)
-* [-] [DESIGN+CODE: REACT NATIVE FOR DESIGNERS PART 1](https://designcode.io/react-native)
-* [-] [DESIGN+CODE: REACT NATIVE FOR DESIGNERS PART 2](https://designcode.io/react-native-2)
 * [-] [HOW TO MAKE AN ONLINE STORE IN ONE DAY USING AWS, REACT, AND STRIPE](https://www.freecodecamp.org/news/how-to-make-a-store-in-one-day-aws-react-stripe)
 * [-] [LEARN HOW TO USE APIS WITH REACT BY BUILDING A HACKER NEWS API APPLICATION](https://www.freecodecamp.org/news/learn-how-to-use-apis-with-react-by-building-a-hacker-news-api-application)
 * [-] [LEARN TO USE APIS IN REACT BY CREATING A RECIPE APP](https://www.freecodecamp.org/news/apis-in-react)
@@ -122,9 +119,6 @@
 * [-] [CREATE A FULL-STACK WEBSITE WITH STRAPI AND GATSBYJS](https://www.freecodecamp.org/news/create-a-full-stack-website-with-strapi-and-gatsbyjs)
 * [-] [LEARN HOW TO USE REACT, CONTENTFUL, AND NETLIFY BY BUILDING A BEACH RESORT WEBSITE](https://www.freecodecamp.org/news/learn-react-contentful-and-netlify-by-building-a-beach-resort-website)
 * [-] [HOW TO BUILD A SIMPLE POKÉMON WEB APP WITH REACT HOOKS AND THE CONTEXT API](https://www.freecodecamp.org/news/building-a-simple-pokemon-web-app-with-react-hooks-and-context-api)
-* [-] [INTRO TO REACT NATIVE COURSE](https://www.freecodecamp.org/news/react-native-course-for-beginners)
-* [-] [REACT NATIVE COURSE: HOW TO BUILD ONE AN IPHONE APP, ANDROID APP, AND WEBSITE - ALL WITH THE SAME CODEBASE](https://www.youtube.com/watch?v=_CBYbEGvxYY)
-* [-] [CS50 MOBILE APP DEVELOPMENT WITH REACT NATIVE](https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR)
 * [-] [THE NEXT.JS HANDBOOK](https://www.freecodecamp.org/news/the-next-js-handbook)
 * [-] [BUILD PERFORMANT AND PROGRESSIVE REACT APPLICATIONS](https://web.dev/react)
 * [/] [REACT DOCS: MAIN CONCEPTS + THINKING IN REACT](https://reactjs.org/docs)
@@ -162,13 +156,6 @@
 * [/] [HOW THE WEB WORKS PART III: HTTP & REST](https://www.freecodecamp.org/news/how-the-web-works-part-iii-http-rest-e61bc50fa0a)
 * [/] [HOW I EXPLAINED REST TO MY WIFE](https://web.archive.org/web/20130116005443/http://tomayko.com/writings/rest-to-my-wife)
 * [-] [HOW BROWSERS WORK: BEHIND THE SCENES OF MODERN WEB BROWSERS](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork)
-
-# MOBILE/CROSS-PLATFORM
-* [-] [FLUTTER & DART - THE COMPLETE GUIDE [2020 EDITION]](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps)
-* [-] [THE COMPLETE 2020 FLUTTER DEVELOPMENT BOOTCAMP WITH DART](https://www.udemy.com/course/flutter-bootcamp-with-dart)
-* [-] [DART AND FLUTTER: THE COMPLETE DEVELOPER'S GUIDE](https://www.udemy.com/course/dart-and-flutter-the-complete-developers-guide)
-* [-] [BUILD A SOCIAL NETWORK WITH FLUTTER AND FIREBASE](https://www.udemy.com/course/build-a-social-network-with-flutter-and-firebase)
-* [-] [MOBILE E-COMMERCE WITH FLUTTER, REDUX, AND STRIPE](https://www.udemy.com/course/mobile-e-commerce-with-flutter-redux-and-stripe)
 
 # STATE MANAGEMENT
 * [-] [HOW TO IMPLEMENT REDUX IN 24 LINES OF JAVASCRIPT](https://yazeedb.com/posts/redux-in-24-lines-of-code)
@@ -239,8 +226,13 @@
 * [-] [TEST-DRIVEN LARAVEL](https://course.testdrivenlaravel.com)
 
 # WORDPRESS
+* [-] [BECOME A WORDPRESS DEVELOPER: UNLOCKING POWER WITH CODE](https://www.udemy.com/course/become-a-wordpress-developer-php-javascript/)
 * [-] [THE COMPLETE GUIDE TO BUILDING PREMIUM WORDPRESS THEMES](https://www.udemy.com/course/the-complete-guide-to-building-premium-wordpress-themes) */*
 * [-] [GUTENBERG BLOCKS FOR WORDPRESS AND REACT DEVELOPERS](https://www.udemy.com/course/gutenberg) */*
+* [-] [ULTIMATE WORDPRESS PLUGIN COURSE](https://www.udemy.com/course/wordpress-plugin-course)
+* [-] [GATSBY JS: GATSBY WITH WORDPRESS AS A HEADLESS CMS](https://www.udemy.com/course/gatsby-with-wordpress)
+* [-] [GATSBY JS: BUILD STATIC SITES WITH REACT WORDPRESS & GRAPHQL](https://www.udemy.com/course/gatsby-js-react-wordpress-graphql)
+* [-] [GATSBY JS: BUILD PWA BLOG WITH GRAPHQL AND REACT + WORDPRESS](https://www.udemy.com/course/gatsby-js-build-pwa-blog-with-graphql-and-react-wordpress)
 
 # DEBUGGING
 * [-] [DEBUGGING AND FIXING COMMON JAVASCRIPT ERRORS](https://frontendmasters.com/courses/debugging-javascript)
@@ -297,6 +289,7 @@
 * [-] [AUTOMATE THE BORING STUFF WITH PYTHON](https://automatetheboringstuff.com)
 * [/] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
 * [.] [GIT IN-DEPTH](https://frontendmasters.com/courses/git-in-depth)
+* [-] [THE COMPLETE GITHUB ACTIONS & WORKFLOWS GUIDE](https://www.udemy.com/course/github-actions)
 * [-] [ADVANCED MERGING](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging#_advanced_merging)
 * [-] [LEARN GIT CONCEPTS, NOT COMMANDS](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git)
