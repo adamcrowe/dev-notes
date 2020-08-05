@@ -38,7 +38,7 @@
 # JAVASCRIPT/TYPESCRIPT
 * [-] [FREECODECAMP: JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION](https://www.freecodecamp.org/learn)
 * [-] [FREECODECAMP JAVASCRIPT CERTIFICATION PROJECTS (TALK ALOUDS)](https://www.youtube.com/watch?v=XV5OCibNpLI&list=PLehRZjGCVhQLTWPN8mTo3rlRDQff9fCmT)
-* [-] [JAVASCRIPT - THE COMPLETE GUIDE 2020](https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced) */*
+* [.] [JAVASCRIPT - THE COMPLETE GUIDE 2020](https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced) */*
 * [-] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course) */*
 * [/] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript) */*
 * [/] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns) */*
@@ -106,7 +106,7 @@
 * [/] [ANGULAR DOCS](https://angular.io/guide)
 
 # FRONTEND (REACT)
-* [.] [COMPLETE REACT DEVELOPER IN 2020 (REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery) */*
+* [-] [COMPLETE REACT DEVELOPER IN 2020 (REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery) */*
 * [-] [REACT THE COMPLETE GUIDE (HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux) */*
 * [/] [COMPLETE INTRO TO REACT V5](https://frontendmasters.com/courses/complete-react-v5)
 * [/] [INTERMEDIATE REACT V2](https://frontendmasters.com/courses/intermediate-react-v2)
@@ -226,9 +226,9 @@
 * [-] [TEST-DRIVEN LARAVEL](https://course.testdrivenlaravel.com)
 
 # WORDPRESS
-* [-] [BECOME A WORDPRESS DEVELOPER: UNLOCKING POWER WITH CODE](https://www.udemy.com/course/become-a-wordpress-developer-php-javascript/)
-* [-] [THE COMPLETE GUIDE TO BUILDING PREMIUM WORDPRESS THEMES](https://www.udemy.com/course/the-complete-guide-to-building-premium-wordpress-themes) */*
+* [.] [THE COMPLETE GUIDE TO BUILDING PREMIUM WORDPRESS THEMES](https://www.udemy.com/course/the-complete-guide-to-building-premium-wordpress-themes) */*
 * [-] [GUTENBERG BLOCKS FOR WORDPRESS AND REACT DEVELOPERS](https://www.udemy.com/course/gutenberg) */*
+* [-] [BECOME A WORDPRESS DEVELOPER: UNLOCKING POWER WITH CODE](https://www.udemy.com/course/become-a-wordpress-developer-php-javascript)
 * [-] [ULTIMATE WORDPRESS PLUGIN COURSE](https://www.udemy.com/course/wordpress-plugin-course)
 * [-] [GATSBY JS: GATSBY WITH WORDPRESS AS A HEADLESS CMS](https://www.udemy.com/course/gatsby-with-wordpress)
 * [-] [GATSBY JS: BUILD STATIC SITES WITH REACT WORDPRESS & GRAPHQL](https://www.udemy.com/course/gatsby-js-react-wordpress-graphql)
@@ -288,8 +288,9 @@
 * [-] [BASH SHELL SCRIPTING](https://en.wikibooks.org/wiki/Bash_Shell_Scripting)
 * [-] [AUTOMATE THE BORING STUFF WITH PYTHON](https://automatetheboringstuff.com)
 * [/] [EVERYTHING CURL BOOK](https://ec.haxx.se/protocols-curl.html)
-* [.] [GIT IN-DEPTH](https://frontendmasters.com/courses/git-in-depth)
+* [/] [GIT IN-DEPTH](https://frontendmasters.com/courses/git-in-depth)
 * [-] [THE COMPLETE GITHUB ACTIONS & WORKFLOWS GUIDE](https://www.udemy.com/course/github-actions)
+* [-] [GITHUB ACTIONS AUTOMATE TESTS AND SLACK NOTIFICATIONS](https://www.freecodecamp.org/news/what-are-github-actions-and-how-can-you-automate-tests-and-slack-notifications)
 * [-] [ADVANCED MERGING](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging#_advanced_merging)
 * [-] [LEARN GIT CONCEPTS, NOT COMMANDS](https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc)
 * [-] [OLIVER: GIT BASIC COMMANDS](http://oliverelliott.org/article/computing/wik_git)
