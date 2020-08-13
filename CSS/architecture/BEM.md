@@ -1,4 +1,4 @@
-! [BEM](https://en.bem.info)
+# BEM (Block Element Modifier)
 > The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS. ~ [BEM 101](https://css-tricks.com/bem-101)
 
 ```css
@@ -64,7 +64,7 @@
 
 > We can see that we have a block called .site-search which has an element which lives inside it called .site-search__field. We can also see that there is a variation of the .site-search called .site-search--full. ~ [Getting your head around BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax)
 
-!! References
+# References
 * [BEM: Methodology](https://en.bem.info/methodology)
 * [Getting your head around BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax)
 * [More Transparent UI Code with Namespaces](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces)
