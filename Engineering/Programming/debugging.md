@@ -43,3 +43,4 @@
 # References
 [Gordon Zhu: How to be great at asking coding questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603)
 [Communicate really really really really really really well](https://www.freecodecamp.org/news/how-to-become-an-astounding-junior-developer)
+[My Guide for Rubber Duck Debugging: A Better Process (with No Rubber Ducks)](https://triplebyte.com/blog/my-guide-for-rubber-duck-debugging-a-better-process-with-no-rubber-ducks)
