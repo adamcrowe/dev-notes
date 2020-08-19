@@ -222,7 +222,11 @@
 * [-] [DENO: THE COMPLETE GUIDE ZERO TO MASTERY](https://www.udemy.com/course/deno-the-complete-guide-zero-to-mastery)
 
 # BACKEND (PHP/LARAVEL)
+* [-] [OOP OBJECT ORIENTED PROGRAMMING IN PHP 7](https://www.udemy.com/course/oop-object-oriented-programming-in-php-7)
 * [-] [REFACTORING TO COLLECTIONS](https://adamwathan.me/refactoring-to-collections)
+* [-] [MASTER LARAVEL WITH VUE.JS FULLSTACK DEVELOPMENT](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development)
+* [-] [FACEBOOK CLONE WITH LARAVEL, TDD, VUE & TAILWIND CSS](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development)
+* [-] [REACT FROM SCRATCH WITH LARAVEL - BUILD TWITTER LIKE WEB APP](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development)
 * [-] [TEST-DRIVEN LARAVEL](https://course.testdrivenlaravel.com)
 
 # WORDPRESS

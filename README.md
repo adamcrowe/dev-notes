@@ -1,6 +1,6 @@
 # dev-notes
 
-[A Developer's Notebook](http://alexkrupp.typepad.com/sensemaking/2012/09/program-above-and-beyond-your-actual-ability-by-using-freemind.html)
+[A Developer's notebook](http://alexkrupp.typepad.com/sensemaking/2012/09/program-above-and-beyond-your-actual-ability-by-using-freemind.html)
 
 ## Engineering
 
