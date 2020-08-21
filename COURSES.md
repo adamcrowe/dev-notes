@@ -234,6 +234,8 @@
 * [-] [GUTENBERG BLOCKS FOR WORDPRESS AND REACT DEVELOPERS](https://www.udemy.com/course/gutenberg)
 * [-] [BECOME A WORDPRESS DEVELOPER: UNLOCKING POWER WITH CODE](https://www.udemy.com/course/become-a-wordpress-developer-php-javascript)
 * [-] [ULTIMATE WORDPRESS PLUGIN COURSE](https://www.udemy.com/course/wordpress-plugin-course)
+* [-] [WORDPRESS REST API COMPLETE BEGINNERS GUIDE](https://www.udemy.com/course/wordpress-rest-api-course)
+* [-] [HEADLESS WORDPRESS REST API AUTHENTICATION](https://www.udemy.com/course/headless-wordpress-rest-api-authentication-course)
 * [-] [GATSBY JS: GATSBY WITH WORDPRESS AS A HEADLESS CMS](https://www.udemy.com/course/gatsby-with-wordpress)
 * [-] [GATSBY JS: BUILD STATIC SITES WITH REACT WORDPRESS & GRAPHQL](https://www.udemy.com/course/gatsby-js-react-wordpress-graphql)
 * [-] [GATSBY JS: BUILD PWA BLOG WITH GRAPHQL AND REACT + WORDPRESS](https://www.udemy.com/course/gatsby-js-build-pwa-blog-with-graphql-and-react-wordpress)
