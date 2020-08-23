@@ -479,9 +479,17 @@ git blame <filename> -w -M -C # show changes to <filename> ignore whitespace, de
 echo 'Hello, World!' | git hash-object --stdin # 8ab686eafeb1f44702738c8b0f24f2567c36da6d
 ```
 
+## Ignoring a previously committed file
+```bash
+echo **/node_modules/ >> .gitignore
+git rm -r --cached node_modules
+git commit -am "Start ignoring node_modules"
+```
+
 # References
 * [Nina Zakharenko: Frontend Masters: Git In-depth: Repository: Slides](https://github.com/nnja/advanced-git)
 * [Syncing: git remote, git fetch, git push, git pull](https://www.atlassian.com/git/tutorials/syncing)
 * [What's a "detached HEAD" in Git?](https://www.git-tower.com/learn/git/faq/detached-head-when-checkout-commit)
 * [Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 * [Making a Pull Request](https://www.atlassian.com/git/tutorials/making-a-pull-request)
+* [Ignoring a previously committed file](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
