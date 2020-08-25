@@ -1,14 +1,29 @@
 > SSH uses a pair of keys to initiate a secure handshake between remote parties. The key pair contains a public and private key. The private vs public nomenclature can be confusing as they are both called keys. It is more helpful to think of the public key as a "lock" and the private key as the "key". You give the public 'lock' to remote parties to encrypt or 'lock' data. This data is then opened with the 'private' key which you hold in a secure place. -- <https://www.atlassian.com/git/tutorials/git-ssh>
 
-# Commands
-
-`cd ~/.ssh && ls -al` - location of SSH directory
-`eval "$(ssh-agent -s)"` - check ssh-agent is running
-`ssh-add -l` - list keys added to shh-agent
-`ssh-add -K ~/.ssh/id_rsa` - add key to ssh-agent
-`ssh {user}@{host}` - request login to machine
+---
+Skip to...
+* [General use](#general)
+* [Git use](#git)
 
 ---
+# Commands
+
+* `cd ~/.ssh && ls -al` - location of SSH directory
+* `eval "$(ssh-agent -s)"` - check ssh-agent is running
+* `ssh-add -l` - list keys added to ssh-agent
+* `ssh-add -K ~/.ssh/id_rsa` - add key to ssh-agent and keychain
+* `nano ~/.ssh/config` - config ssh to use keychain:
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+* `ssh {user}@{host}` - request login to machine
+
+---
+
+<a name="general"></a>
+
+General SSH use...
 
 # Generate a unique SSH key
 ## 1. Execute the following to begin the key creation
@@ -36,9 +51,21 @@ Before adding the new SSH key to the ssh-agent first ensure the ssh-agent is run
 
 `eval "$(ssh-agent -s)"`
 > Agent pid 59566
-Once the ssh-agent is running the following command will add the new SSH key to the local SSH agent.
+Once the ssh-agent is running the following command will add the new SSH key to the local SSH agent:
 
-`ssh-add -K /Users/you/.ssh/id_rsa`
+`ssh-add -K ~/.ssh/id_rsa`
+
+Note: The -K option is Apple's standard version of ssh-add, which stores the passphrase in your keychain for you when you add an ssh key to the ssh-agent.
+
+* So that your computer remembers your password each time it restarts, open (or create) the `~/.ssh/config` file and add these lines to the file:
+
+```
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+```
+
 The new SSH key is now registered and ready to use!
 
 # Identity management of multiple keys
@@ -57,15 +84,13 @@ Copy the public key into the repo or service front-end, or ssh into the service 
 
 ---
 
-# Setting Remote to use SSH without password
+<a name="demo"></a>
 
-* Requires password: https://github.com/{username}/{repo}.git/
-* Does not require password: git://github.com/{username}/{repo}.git
-* Set: cd {repo} && git remote set-url origin git://github.com/{username}/{repo}.git
+Using SSH with git repos...
 
----
+See: [Git/ssh-https-keychain.md](../Git/ssh-https-keychain.md)
 
-# Connect with Bitbucket using SSH
+# Connect with Bitbucket (or Github) using SSH
 
 ## Step 1. Set up your default identity
 * 1. From the terminal, enter ssh-keygen at the command line. The command prompts you for a file to save the key in:
@@ -117,8 +142,7 @@ The key's randomart image is:
 
 The command displays two files, one for the public key (for example id_rsa.pub) and one for the private key (for example, id_rsa).
 
-## Step 2. Add the key to the ssh-agent
-If you don't want to type your password each time you use the key, you'll need to add it to the ssh-agent.
+## Step 2. Add your SSH private key to the ssh-agent and store your passphrase in the keychain
 
 * 1. To start the agent, run the following:
 
@@ -127,6 +151,8 @@ If you don't want to type your password each time you use the key, you'll need t
 * 2. Enter `ssh-add` followed by the path to the private key file:
 
 `ssh-add -K ~/.ssh/id_rsa`
+
+Note: The -K option is Apple's standard version of ssh-add, which stores the passphrase in your keychain for you when you add an ssh key to the ssh-agent.
 
 * 3. So that your computer remembers your password each time it restarts, open (or create) the `~/.ssh/config` file and add these lines to the file:
 
@@ -171,9 +197,9 @@ You can use git or hg to connect to Bitbucket. Shell access is disabled.
 If you get an error message with Permission denied (publickey), check the [Troubleshoot SSH issues](https://confluence.atlassian.com/bitbucket/troubleshoot-ssh-issues-271943403.html) page for help.
 
 # References
-[Generate an SSH Key on Mac and Linux](https://www.atlassian.com/git/tutorials/git-ssh)
-[Set up an SSH key](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html)
-[Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-[Connecting to GitHub with SSH](https://help.github.com/articles/connecting-to-github-with-ssh/)
-[How Secure Shell Works (SSH) - Computerphile](https://www.youtube.com/watch?v=ORcvSkgdA58)
-[ssh-keygen - Generate a New SSH Key](https://www.ssh.com/ssh/keygen)
+* [Generate an SSH Key on Mac and Linux](https://www.atlassian.com/git/tutorials/git-ssh)
+* [Set up an SSH key](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html)
+* [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+* [Connecting to GitHub with SSH](https://help.github.com/articles/connecting-to-github-with-ssh/)
+* [How Secure Shell Works (SSH) - Computerphile](https://www.youtube.com/watch?v=ORcvSkgdA58)
+* [ssh-keygen - Generate a New SSH Key](https://www.ssh.com/ssh/keygen)
