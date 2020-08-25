@@ -163,7 +163,7 @@ Host *
 
 The command message tells you which of your Bitbucket accounts can log in with that key.
 
-```
+```bash
 conq: logged in as user1.
 You can use git or hg to connect to Bitbucket. Shell access is disabled.
 ```
