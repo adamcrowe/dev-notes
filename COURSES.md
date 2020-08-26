@@ -14,7 +14,7 @@
 - [ ] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
 - [ ] [WEB DESIGN FOR WEB DEVELOPERS](https://www.udemy.com/course/web-design-secrets)
 - [ ] [CSS THE COMPLETE GUIDE (FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass)
-- [.] [ADVANCED CSS AND SASS (FLEXBOX, GRID, ANIMATIONS)](https://www.udemy.com/course/advanced-css-and-sass)
+- [ ] [ADVANCED CSS AND SASS (FLEXBOX, GRID, ANIMATIONS)](https://www.udemy.com/course/advanced-css-and-sass)
 - [ ] [WHAT IS TAILWIND CSS AND HOW CAN I ADD IT TO MY WEBSITE OR REACT APP?](https://www.freecodecamp.org/news/what-is-tailwind-css-and-how-can-i-add-it-to-my-website-or-react-app)
 - [ ] [STYLE YOUR REACT APPS WITH TAILWIND CSS AND STYLED COMPONENTS](https://www.freecodecamp.org/news/how-to-style-your-react-apps-with-less-code-using-tailwind-css-and-styled-components)
 - [ ] [DESIGNING WITH TAILWIND CSS (WORKCATION)](https://tailwindcss.com/screencasts) <https://www.youtube.com/watch?v=0aTRN9CSCY0&list=PL7CcGwsqRpSO3J4YU6BkWqjU0XcVSaPXl>
@@ -38,7 +38,7 @@
 # JAVASCRIPT/TYPESCRIPT
 - [ ] [FREECODECAMP: JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION](https://www.freecodecamp.org/learn)
 - [ ] [FREECODECAMP JAVASCRIPT CERTIFICATION PROJECTS (TALK ALOUDS)](https://www.youtube.com/watch?v=XV5OCibNpLI&list=PLehRZjGCVhQLTWPN8mTo3rlRDQff9fCmT)
-- [.] [JAVASCRIPT - THE COMPLETE GUIDE 2020](https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced)
+- [ ] [JAVASCRIPT - THE COMPLETE GUIDE 2020](https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced)
 - [ ] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course)
 - [x] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
 - [x] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns)
@@ -232,7 +232,7 @@
 
 # WORDPRESS
 - [ ] [BECOME A WORDPRESS DEVELOPER: UNLOCKING POWER WITH CODE](https://www.udemy.com/course/become-a-wordpress-developer-php-javascript)
-- [.] [THE COMPLETE GUIDE TO BUILDING PREMIUM WORDPRESS THEMES](https://www.udemy.com/course/the-complete-guide-to-building-premium-wordpress-themes)
+- [ ] [THE COMPLETE GUIDE TO BUILDING PREMIUM WORDPRESS THEMES](https://www.udemy.com/course/the-complete-guide-to-building-premium-wordpress-themes)
 - [ ] [GUTENBERG BLOCKS FOR WORDPRESS AND REACT DEVELOPERS](https://www.udemy.com/course/gutenberg)
 - [ ] [ULTIMATE WORDPRESS PLUGIN COURSE](https://www.udemy.com/course/wordpress-plugin-course)
 - [ ] [WORDPRESS REST API COMPLETE BEGINNERS GUIDE](https://www.udemy.com/course/wordpress-rest-api-course)
@@ -396,7 +396,7 @@
 - [ ] [THE VISUAL DISPLAY OF QUANTITATIVE INFORMATION](https://www.amazon.co.uk/Visual-Display-Quantitative-Information/dp/1930824130)
 - [ ] [DATA VISUALISATION: A HANDBOOK FOR DATA DRIVEN DESIGN](https://www.amazon.co.uk/Data-Visualisation-Handbook-Driven-Design/dp/1526468921)
 - [ ] [INTERACTIVE DATA VISUALIZATION FOR THE WEB (2ND ED)](https://alignedleft.com/work/d3-book-2e)
-- [.] [MASTERING DATA VISUALIZATION IN D3.JS](https://www.udemy.com/course/masteringd3js)
+- [ ] [MASTERING DATA VISUALIZATION IN D3.JS](https://www.udemy.com/course/masteringd3js)
 - [ ] [INTERACTIVE DATA VISUALIZATION WITH MODERN JAVASCRIPT AND D3](https://www.sitepoint.com/interactive-data-visualization-javascript-d3)
 - [ ] [FULLSTACK D3 AND DATA VISUALIZATION](https://www.newline.co/fullstack-d3)
 - [ ] [D3 TUTORIALS](https://github.com/d3/d3/wiki/Tutorials)
