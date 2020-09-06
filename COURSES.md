@@ -43,6 +43,7 @@
 - [x] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
 - [x] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns)
 - [ ] [DESIGN PATTERNS IN TYPESCRIPT](https://refactoring.guru/design-patterns/typescript)
+- [ ] [BUILDING AN API WITH TYPESCRIPT AND AWS](https://www.freecodecamp.org/news/build-an-api-with-typescript-and-aws)
 - [ ] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
 - [ ] [DO MORE WITH REDUCE](https://jrsinclair.com/articles/2019/functional-js-do-more-with-reduce)
 - [ ] [YOU DON'T KNOW JAVASCRIPT](https://github.com/getify/You-Dont-Know-JS)
@@ -155,6 +156,7 @@
 - [x] [HTTP: EVERYTHING YOU NEED TO KNOW](https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it)
 - [x] [HOW THE WEB WORKS PART III: HTTP & REST](https://www.freecodecamp.org/news/how-the-web-works-part-iii-http-rest-e61bc50fa0a)
 - [x] [HOW I EXPLAINED REST TO MY WIFE](https://web.archive.org/web/20130116005443/http://tomayko.com/writings/rest-to-my-wife)
+- [x] [WEB FUNDAMENTALS (HTTP + WEBSERVERS)](https://www.youtube.com/playlist?list=PL_kr51suci7XVVw4SJLZ0QQBAsL2K8Opy)
 - [ ] [HOW BROWSERS WORK: BEHIND THE SCENES OF MODERN WEB BROWSERS](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork)
 
 # STATE MANAGEMENT
