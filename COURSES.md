@@ -158,6 +158,7 @@
 - [x] [HOW I EXPLAINED REST TO MY WIFE](https://web.archive.org/web/20130116005443/http://tomayko.com/writings/rest-to-my-wife)
 - [x] [WEB FUNDAMENTALS (HTTP + WEBSERVERS)](https://www.youtube.com/playlist?list=PL_kr51suci7XVVw4SJLZ0QQBAsL2K8Opy)
 - [ ] [HOW BROWSERS WORK: BEHIND THE SCENES OF MODERN WEB BROWSERS](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork)
+- [ ] [MDN: HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 
 # STATE MANAGEMENT
 - [ ] [HOW TO IMPLEMENT REDUX IN 24 LINES OF JAVASCRIPT](https://yazeedb.com/posts/redux-in-24-lines-of-code)
