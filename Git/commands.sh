@@ -17,6 +17,16 @@ echo .DS_Store >> .gitignore                            # create a .gitignore fi
 nano ./.git/config                                      # display git configuration (remotes, branches, etc)
 git config --global --edit                              # open the global configuration file in a text editor for manual editing
 git config --global branch.autosetuprebase always       # always use rebase rather than git pull (git fetch && git merge)
+git config --global                                     # apply global config to current repo
+
+git config --global user.name "John Doe"                # change author/committer name globally
+git config --global user.email "john@doe.org"           # change author/committer email globally
+
+git config user.name "John Doe"                         # change author/committer name on current repo
+git config user.email "john@doe.org"                    # change author/committer email on current repo
+
+git commit --amend --author="John Doe <john@doe.org>"   # amend author/committer for very latest commit
+
 
 # LOGS
 git log									                # show commit history for current branch
