@@ -27,7 +27,6 @@ git config user.email "john@doe.org"                    # change author/committe
 
 git commit --amend --author="John Doe <john@doe.org>"   # amend author/committer for very latest commit
 
-
 # LOGS
 git log									                # show commit history for current branch
 git log --graph                                         # view log as tree

@@ -1,3 +1,23 @@
+# PROJECT MANAGEMENT
+* Notion <https://www.notion.so>
+  * Forms for Notion <https://chilipepper.io>
+* Trello (Kanban) <https://trello.com>
+* Toggl (Kanban) <https://toggl.com>
+* ClickUp (Kanban) <https://clickup.com>
+* Airtable (Kanban) <https://airtable.com>
+
+# UX/UI/UXR TOOLS
+* Whimsical <https://whimsical.com>
+  * [Whimsical Wireframes Tutorial](https://www.youtube.com/watch?v=Oi9nST5Skog)
+  * [Whimsical Flowcharts Tutorial](https://www.youtube.com/watch?v=ARbjNYc_lKA)
+  * [Whimsical Sticky Notes Tutorial](https://www.youtube.com/watch?v=D6ScmHUHza4)
+  * [Whimsical Mind Maps Tutorial](https://www.youtube.com/watch?v=Feybn2V7obk)
+* Miro <https://miro.com>
+* Figma <http://figma.com>
+* Wireflow <https://wireflow.co>
+* Bootstrap Studio <https://bootstrapstudio.io>
+* UserBit <https://userbitapp.com>
+
 # ONLINE EDITORS
 * StackBlitz <https://stackblitz.com>
 * CodePen <https://codepen.io>
@@ -111,11 +131,6 @@
 
 # TYPESCRIPT
 * [class-validator: Validation made easy using TypeScript decorators](https://github.com/typestack/class-validator)
-
-# PROJECT MANAGEMENT
-* Trello (Kanban Project Manager) <https://trello.com>
-* ClickUp (Kanban Project Manager) <https://clickup.com>
-* Airtable (Kanban Project Manager) <https://airtable.com>
 
 # SITE OPTIMIZATION
 * Google Search Console <https://search.google.com/search-console/about>
