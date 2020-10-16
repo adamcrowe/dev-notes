@@ -234,7 +234,7 @@
 - [ ] [REACT FROM SCRATCH WITH LARAVEL - BUILD TWITTER LIKE WEB APP](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development)
 
 # WORDPRESS
-- [ ] [5-HOUR WORDPRESS AND PHP COURSE](https://www.freecodecamp.org/news/build-a-website-from-start-to-finish-using-wordpress-and-php)
+- [x] [5-HOUR WORDPRESS AND PHP COURSE](https://www.freecodecamp.org/news/build-a-website-from-start-to-finish-using-wordpress-and-php)
 - [ ] [BECOME A WORDPRESS DEVELOPER: UNLOCKING POWER WITH CODE](https://www.udemy.com/course/become-a-wordpress-developer-php-javascript)
 - [.] [THE COMPLETE GUIDE TO BUILDING PREMIUM WORDPRESS THEMES](https://www.udemy.com/course/the-complete-guide-to-building-premium-wordpress-themes)
 - [ ] [GUTENBERG BLOCKS FOR WORDPRESS AND REACT DEVELOPERS](https://www.udemy.com/course/gutenberg)

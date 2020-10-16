@@ -128,8 +128,9 @@ git blame <filename> -w -M -C                           # show changes to file
                                                         # ignore whitespace, detect moved or copied lines within a file, detect code moved or copied from other files modified in the same commit
 
 # BRANCHES + COMMITS
-git fetch                                               # download changes on origin without changing local repository
-git fetch origin master					                # download changes on origin without changing local repository
+git branch -r                                           # list remote branches
+git fetch --all                                         # download branches on origin without changing local repository
+git fetch origin master					                # download master on origin without changing local repository
 git fetch upstream master					            # download changes on upstream without changing local repository
 git pull                                                # (git pull = git fetch && git merge): download latest changes from origin and merges with current branch
 git pull origin master					                # (git pull = git fetch && git merge): download latest changes from origin and merges with current branch
