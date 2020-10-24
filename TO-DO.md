@@ -109,6 +109,7 @@
 # FRONTEND (REACT)
 - [ ] [COMPLETE REACT DEVELOPER IN 2020 (REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery)
 - [ ] [REACT THE COMPLETE GUIDE (HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
+- [ ] [USE REACT AND GRAPHQL TO MAKE A FULL STACK SOCIAL NETWORK](https://www.freecodecamp.org/news/learn-how-to-use-react-and-graphql-to-make-a-full-stack-social-network)
 - [x] [COMPLETE INTRO TO REACT V5](https://frontendmasters.com/courses/complete-react-v5)
 - [x] [INTERMEDIATE REACT V2](https://frontendmasters.com/courses/intermediate-react-v2)
 - [ ] [DESIGN+CODE: REACT FOR DESIGNERS](https://designcode.io/react)
@@ -225,8 +226,9 @@
 - [ ] [DENO: THE COMPLETE GUIDE ZERO TO MASTERY](https://www.udemy.com/course/deno-the-complete-guide-zero-to-mastery)
 
 # BACKEND (PHP/LARAVEL)
-- [ ] [LARAVEL PAYMENT PROCESSING USING THE BEST PAYMENT PLATFORMS](https://www.udemy.com/course/laravel-payment-processing-integrating-the-best-gateways-paypal-stripe)
+- [ ] [BUILD YOUR OWN MVC FRAMEWORK FROM SCRATCH WITH PHP](https://www.freecodecamp.org/news/create-an-mvc-framework-from-scratch-with-php)
 - [ ] [OOP OBJECT ORIENTED PROGRAMMING IN PHP 7](https://www.udemy.com/course/oop-object-oriented-programming-in-php-7)
+- [ ] [LARAVEL PAYMENT PROCESSING USING THE BEST PAYMENT PLATFORMS](https://www.udemy.com/course/laravel-payment-processing-integrating-the-best-gateways-paypal-stripe)
 - [ ] [REFACTORING TO COLLECTIONS](https://adamwathan.me/refactoring-to-collections)
 - [ ] [TEST-DRIVEN LARAVEL](https://course.testdrivenlaravel.com)
 - [ ] [MASTER LARAVEL WITH VUE.JS FULLSTACK DEVELOPMENT](https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development)
