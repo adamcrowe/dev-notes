@@ -434,6 +434,7 @@
 - [-] [UI DESIGN FUNDAMENTALS](https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course)
 - [.] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma)
 - [-] [COMPLETE WEB DESIGN: FROM FIGMA TO WEBFLOW TO FREELANCING](https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money)
+- [-] [COMPLETE WEB & MOBILE DESIGNER IN 2021: UI/UX, FIGMA](https://www.udemy.com/course/complete-web-designer-mobile-designer-zero-to-mastery)
 - [-] [WEBFLOW UNIVERSITY](https://university.webflow.com/courses)
 - [-] [WEBFLOW TUTORIALS](https://www.youtube.com/c/Webflow/videos)
 - [-] [LEARN UX: FIGMA COURSE](https://learnux.io/course/figma)
