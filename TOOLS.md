@@ -17,6 +17,7 @@
 * Wireflow <https://wireflow.co>
 * Bootstrap Studio <https://bootstrapstudio.io>
 * UserBit <https://userbitapp.com>
+* StoriesOnBoard: User story mapping <https://storiesonboard.com>
 
 # ONLINE EDITORS
 * StackBlitz <https://stackblitz.com>

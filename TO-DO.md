@@ -113,6 +113,7 @@
 - [x] [COMPLETE INTRO TO REACT V5](https://frontendmasters.com/courses/complete-react-v5)
 - [x] [INTERMEDIATE REACT V2](https://frontendmasters.com/courses/intermediate-react-v2)
 - [ ] [DESIGN+CODE: REACT FOR DESIGNERS](https://designcode.io/react)
+- [ ] [15 REACT PROJECTS](https://www.freecodecamp.org/news/solidify-your-react-skills-by-building-15-projects)
 - [ ] [HOW TO MAKE AN ONLINE STORE IN ONE DAY USING AWS, REACT, AND STRIPE](https://www.freecodecamp.org/news/how-to-make-a-store-in-one-day-aws-react-stripe)
 - [ ] [LEARN HOW TO USE APIS WITH REACT BY BUILDING A HACKER NEWS API APPLICATION](https://www.freecodecamp.org/news/learn-how-to-use-apis-with-react-by-building-a-hacker-news-api-application)
 - [ ] [LEARN TO USE APIS IN REACT BY CREATING A RECIPE APP](https://www.freecodecamp.org/news/apis-in-react)
