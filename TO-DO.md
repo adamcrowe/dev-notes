@@ -12,9 +12,10 @@
 - [x] [SVG ESSENTIALS & ANIMATION](https://frontendmasters.com/courses/svg-essentials-animation)
 - [x] [RESPONSIVE WEB TYPOGRAPHY](https://frontendmasters.com/courses/responsive-typography-v2)
 - [ ] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
+- [ ] [THE MODERN FLEXBOX, GRID, SASS & ANIMATIONS DEVELOPER COURSE](https://www.udemy.com/course/the-modern-flexbox-grid-sass-animations-developer-course)
 - [ ] [WEB DESIGN FOR WEB DEVELOPERS](https://www.udemy.com/course/web-design-secrets)
 - [ ] [CSS THE COMPLETE GUIDE (FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass)
-- [ ] [ADVANCED CSS AND SASS (FLEXBOX, GRID, ANIMATIONS)](https://www.udemy.com/course/advanced-css-and-sass)
+- [.] [ADVANCED CSS AND SASS (FLEXBOX, GRID, ANIMATIONS)](https://www.udemy.com/course/advanced-css-and-sass)
 - [ ] [WHAT IS TAILWIND CSS AND HOW CAN I ADD IT TO MY WEBSITE OR REACT APP?](https://www.freecodecamp.org/news/what-is-tailwind-css-and-how-can-i-add-it-to-my-website-or-react-app)
 - [ ] [STYLE YOUR REACT APPS WITH TAILWIND CSS AND STYLED COMPONENTS](https://www.freecodecamp.org/news/how-to-style-your-react-apps-with-less-code-using-tailwind-css-and-styled-components)
 - [ ] [DESIGNING WITH TAILWIND CSS (WORKCATION)](https://tailwindcss.com/screencasts) <https://www.youtube.com/watch?v=0aTRN9CSCY0&list=PL7CcGwsqRpSO3J4YU6BkWqjU0XcVSaPXl>
@@ -205,8 +206,11 @@
 - [ ] [MERN STACK REACT NODE ECOMMERCE FROM SCRATCH TO DEPLOYMENT](https://www.udemy.com/course/react-node-ecommerce)
 - [ ] [REACT & FIREBASE COMPLETE COURSE (CHAT APPLICATION)](https://www.udemy.com/course/react-js-firebase-complete-course-incl-chat-application)
 - [ ] [REACT, ANGULAR, NODE IN-DEPTH GUIDE: BEGINNER TO PRO (2020)](https://www.udemy.com/course/react-angular-node-in-depth-guide-beginner-to-pro-2020)
+- [x] [NEXT.JS WITH SANITY CMS - SERVERLESS BLOG APP (W/ VERCEL)](https://www.udemy.com/course/nextjs-with-sanity-cms-serverless-blog-app-w-vercel)
 - [ ] [COMPLETE NEXT.JS WITH REACT & NODE - BEAUTIFUL PORTFOLIO APP](https://www.udemy.com/course/awesome-nextjs-with-react-and-node-amazing-portfolio-app)
 - [ ] [NEXT.JS AND APOLLO - PORTFOLIO APP (REACT, GRAPHQL, NODE)](https://www.udemy.com/course/nextjs-and-apollo-portfolio-app-w-react-graphql-node)
+- [ ] [REACT NEXT.JS NODE API AWS - BUILD SCALING MERN STACK APP](https://www.udemy.com/course/mern-react-node-aws)
+- [ ] [STRONGLY TYPED NEXT.JS](https://www.udemy.com/course/strongly-typed-next-js)
 - [ ] [GRAPHQL WITH REACT: THE COMPLETE DEVELOPERS GUIDE](https://www.udemy.com/course/graphql-with-react-course)
 - [ ] [NODE JS: ADVANCED CONCEPTS](https://www.udemy.com/course/advanced-node-for-developers)
 - [ ] [NESTJS ZERO TO HERO - MODERN TYPESCRIPT BACK-END DEVELOPMENT](https://www.udemy.com/course/nestjs-zero-to-hero)
@@ -430,6 +434,10 @@
 # UX DESIGN
 - [-] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign)
 - [-] [MASTER DIGITAL PRODUCT DESIGN: UX RESEARCH & UI DESIGN](https://www.udemy.com/course/master-digital-product-design-ux-research-ui-design)
+- [ ] [LEAN UX](https://www.oreilly.com/library/view/lean-ux/9781449366834)
+- [ ] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign)
+- [ ] [UX DESIGN PROCESS SIMPLIFIED FROM USER RESEARCH TO USABILITY](https://www.udemy.com/course/ux-design-process-for-beginners-from-user-research-to-usability)
+- [ ] [MASTER DIGITAL PRODUCT DESIGN: UX RESEARCH & UI DESIGN](https://www.udemy.com/course/master-digital-product-design-ux-research-ui-design)
 
 # UI DESIGN
 - [-] [UI DESIGN FUNDAMENTALS](https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course)
@@ -532,6 +540,47 @@
 # TYPOGRAPHY
 - [-] [RECURSIVE TYPEFACE](https://www.recursive.design)
 - [-] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack)
+
+# SEO
+- [-] [SEO MINI COURSE FOR BEGINNERS 2020 - LEARN THE BASICS](https://www.udemy.com/course/seo-training-for-beginners)
+- [-] [THE ULTIMATE SEO TRAINING 2020 + SEO FOR WORDPRESS WEBSITES](https://www.udemy.com/course/ultimate-seo-training-course)
+- [-] [START YOUR OWN SEO AGENCY FROM HOME - THE COMPLETE BLUEPRINT](https://www.udemy.com/course/how-to-start-your-own-home-seo-business)
+
+# PRODUCT MANAGMENT
+- [x] [BECOME A PRODUCT MANAGER: LEARN THE SKILLS & GET THE JOB](https://www.udemy.com/course/become-a-product-manager-learn-the-skills-get-a-job)
+- [ ] [ADVANCED PRODUCT MANAGEMENT: VISION, STRATEGY & METRICS](https://www.udemy.com/course/advanced-product-management-vision-strategy-metrics)
+- [ ] [ADVANCED PRODUCT MANAGEMENT: LEADERSHIP & COMMUNICATION](https://www.udemy.com/course/advanced-product-management-2-leadership-communication)
+- [ ] [PRODUCT MANAGEMENT IN PRACTICE](https://www.oreilly.com/library/view/product-management-in/9781491982266)
+- [ ] [PRODUCT ROADMAPS RELAUNCHED](https://www.oreilly.com/library/view/product-roadmaps-relaunched/9781491971710)
+- [ ] [THE INFLUENTIAL PRODUCT MANAGER](https://www.oreilly.com/library/view/the-influential-product/9781523087488)
+- [ ] [PRODUCT LEADERSHIP](https://www.oreilly.com/library/view/product-leadership/9781491960592)
+- [ ] [PRODUCT RESEARCH RULES](https://www.oreilly.com/library/view/product-research-rules/9781492049463)
+* [ ] [INSPIRED: HOW TO CREATE TECH PRODUCTS CUSTOMERS LOVE](https://svpg.com/inspired-how-to-create-products-customers-love)
+* [x] [PRODUCT MANAGEMENT GUIDE FROM INTERCOM](assets/Product-Management-Guide-From-Intercom.pdf)
+
+# ANALYTICS
+- [ ] [LEAN ANALYTICS](https://www.oreilly.com/library/view/lean-analytics/9781449335687)
+- [ ] [MEASURESCHOOL](https://measureschool.com)
+- [ ] [MEASURESCHOOL YOUTUBE CHANNEL](https://www.youtube.com/channel/UClgihdkPzNDtuoQy4xDw5mA):
+- [x] [GTM FOR BEGINNERS 2019](https://www.youtube.com/watch?v=WPEdkc_feNM&list=PLgr_8Hk8l4ZHGni1H-mz2P7lbZ7PmAn1B)
+- [x] [TRACK YOUTUBE VIDEOS WITH GOOGLE TAG MANAGER](https://www.youtube.com/watch?v=-_sbCHBVjzA)
+- [x] [HOW TO TRACK VIDEO VIEWS IN GOOGLE ANALYTICS USING GOOGLE TAG MANAGER IN 4 STEPS](https://www.youtube.com/watch?v=RAhZQ1-rPEg)
+* [x] [THE YOUTUBE VIDEO TRIGGER IN GOOGLE TAG MANAGER](https://www.simoahava.com/analytics/the-youtube-video-trigger-in-google-tag-manager)
+- [ ] [GOOGLE ANALYTICS ACADEMY](https://analytics.google.com/analytics/academy):
+- [ ] [GOOGLE TAG MANAGER FUNDAMENTALS](https://analytics.google.com/analytics/academy/course/5)
+- [ ] [GOOGLE ANALYTICS FOR BEGINNERS](https://analytics.google.com/analytics/academy/course/6)
+- [ ] [ADVANCED GOOGLE ANALYTICS](https://analytics.google.com/analytics/academy/course/7)
+- [ ] [GOOGLE ANALYTICS FOR POWER USERS](https://analytics.google.com/analytics/academy/course/9)
+- [ ] [GETTING STARTED WITH GOOGLE ANALYTICS 360](https://analytics.google.com/analytics/academy/course/8)
+- [ ] [INTRODUCTION TO DATA STUDIO](https://analytics.google.com/analytics/academy/course/10)
+- [ ] [GOOGLE ANALYTICS YOUTUBE CHANNEL](https://www.youtube.com/user/googleanalytics):
+- [x] [GOOGLE ANALYTICS: GETTING STARTED WITH GOOGLE TAG MANAGER](https://www.youtube.com/playlist?list=PLI5YfMzCfRtYLtw_djEwG0nR-F9r6B5JT)
+
+# STRATEGY
+- [ ] [RUNNING LEAN](https://www.oreilly.com/library/view/running-lean-2nd/9781449321529)
+- [x] [LEAN CANVAS COURSE: ASH MAURYA](http://www.udemy.com/lean-canvas-course)
+- [x] [BUILD. MEASURE. LEARN. LEAN STARTUP SXSW 2012.](https://www.udemy.com/course/lean-startup-sxsw-2012-videos-and-presentations)
+- [x] [THE GOAL BY ELIYAHU GOLDRATT](https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951)
 
 # BUSINESS
 - [-] [COMPLETE WEB DESIGN: FROM FIGMA TO WEBFLOW TO FREELANCING](https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money)

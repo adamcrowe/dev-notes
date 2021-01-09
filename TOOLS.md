@@ -1,10 +1,26 @@
-# PROJECT MANAGEMENT
-* Notion <https://www.notion.so>
+# KANBAN + PROJECT MANAGEMENT
+* [Toggl](https://toggl.com)
+* [Trello](https://trello.com) - Integrations: Miro + Figma
+* [Miro](https://miro.com)
+* [ClickUp](https://clickup.com)
+* [Airtable](https://airtable.com)
+* [Jira](https://www.atlassian.com/software/jira)
+* [Notion](https://www.notion.so)
   * Forms for Notion <https://chilipepper.io>
-* Trello (Kanban) <https://trello.com>
-* Toggl (Kanban) <https://toggl.com>
-* ClickUp (Kanban) <https://clickup.com>
-* Airtable (Kanban) <https://airtable.com>
+
+# WHITEBOARDING
+* [Miro](https://miro.com)
+
+# WIREFRAMING
+* [Miro](https://miro.com)
+* [Figma](https://figma.com)
+
+# ROADMAPPING
+* [Airfocus](https://airfocus.com)
+
+# TAG MANAGER
+* [MeasureSchool: Tag Plan Spreadsheet](https://docs.google.com/spreadsheets/d/1ns8u4OqLXc2UPc7FXOC3PKhUSVxd11VF0JrzO5IZJ94)
+* [Simo Ahava: google-tag-manager](https://www.simoahava.com/tags/#google-tag-manager-list)
 
 # UX/UI/UXR TOOLS
 * Whimsical <https://whimsical.com>
@@ -210,3 +226,6 @@
 * Postman: API Development Platform <https://www.postman.com>
 * Insomnia: API/REST/HTTP/GraphQL Client <https://insomnia.rest>
 * The Star Wars API <https://swapi.co>
+
+# WORDPRESS
+* https://connekthq.com/plugins/ajax-load-more/

@@ -146,7 +146,7 @@ git branch --no-merged master                           # show which branches ha
 git branch --contains <commit-hash>			            # get branch containing commit
 git checkout -                                          # checkout the previous checked-out branch
 git checkout <branch-name>                              # checkout the branch
-git checkout <new-branch-name> origin/<branch-name>     # creare new  branch based on a remote branch
+git checkout <new-branch-name> origin/<branch-name>     # creare new branch based on a remote branch
 git checkout -- <file-name>                             # checkout the file from the latest commit (overwrites/restores file in working area)
 git checkout origin/master <file-name>	                # restore the most recent merged committed version of the file
 git checkout HEAD <file-name> 				            # restore the most recent committed version of file
