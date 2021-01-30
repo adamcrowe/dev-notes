@@ -18,6 +18,8 @@
   * Setup: <https://btholt.github.io/project-fox-game-site/code-formatting>
   * Config: <https://prettier.io/docs/en/options.html>
 * [VSCODE PDF](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
+* [Color Highlight: Highlight colors in CSS](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+* [Paste and Indent](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)
 
 # OTHER
 

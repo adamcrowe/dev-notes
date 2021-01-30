@@ -22,10 +22,11 @@ git config --global                                     # apply global config to
 git config --global user.name "John Doe"                # change author/committer name globally
 git config --global user.email "john@doe.org"           # change author/committer email globally
 
-git config user.name "John Doe"                         # change author/committer name on current repo
-git config user.email "john@doe.org"                    # change author/committer email on current repo
+git config user.name "Adam Crowe"                       # change author/committer name on current repo
+git config user.email "adamc@medicalpublishing.co.uk"   # change author/committer email on current repo
 
-git commit --amend --author="John Doe <john@doe.org>"   # amend author/committer for very latest commit
+git commit --amend --author="Adam Crowe <adamc@medicalpublishing.co.uk>"
+                                                        # amend author/committer for very latest commit
 
 # LOGS
 git log									                # show commit history for current branch

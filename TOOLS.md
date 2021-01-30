@@ -66,6 +66,8 @@
 * Grid Calculator <http://gridcalculator.dk>
 * Grid By Example <https://gridbyexample.com>
 * Figma Mirror (View Figma prototypes on iOS devices) <https://apps.apple.com/us/app/figma-mirror/id1152747299>
+* a11y Accordion Tabs <https://github.com/matthiasott/a11y-accordion-tabs>
+* CSS Clipping Paths <https://bennettfeely.com/clippy/>
 
 # DESIGN SYSTEMS
 * Primer (GitHub) <https://primer.style>
@@ -145,6 +147,7 @@
 * BadJS.org is a repository of malicious JavaScript <https://badjs.org>
 * You Might Not Need jQuery <http://youmightnotneedjquery.com/>
 * Loupe (Visualizing the JS Runtime at Runtime): <https://github.com/latentflip/loupe>
+* Resource Conditional JavaScript <https://umaar.com/dev-tips/242-considerate-javascript>
 
 # TYPESCRIPT
 * [class-validator: Validation made easy using TypeScript decorators](https://github.com/typestack/class-validator)
