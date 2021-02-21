@@ -68,6 +68,8 @@
 * Figma Mirror (View Figma prototypes on iOS devices) <https://apps.apple.com/us/app/figma-mirror/id1152747299>
 * a11y Accordion Tabs <https://github.com/matthiasott/a11y-accordion-tabs>
 * CSS Clipping Paths <https://bennettfeely.com/clippy/>
+* AdminLite (Bootstrap Admin Dashboard Template) <https://adminlte.io>
+* Minimal Rating Control With CSS And Radio Buttons <http://cssscript.com/rating-control-radio>
 
 # DESIGN SYSTEMS
 * Primer (GitHub) <https://primer.style>
@@ -231,4 +233,7 @@
 * The Star Wars API <https://swapi.co>
 
 # WORDPRESS
-* https://connekthq.com/plugins/ajax-load-more/
+* <https://connekthq.com/plugins/ajax-load-more/>
+
+# RESOURCE COLLECTIONS
+* <http://codingheroes.io/resources/>

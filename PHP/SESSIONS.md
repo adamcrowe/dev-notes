@@ -1,0 +1,1 @@
+<https://www.ironistic.com/using-php-sessions-in-wordpress/>

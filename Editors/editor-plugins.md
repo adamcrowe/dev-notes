@@ -20,6 +20,8 @@
 * [VSCODE PDF](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
 * [Color Highlight: Highlight colors in CSS](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 * [Paste and Indent](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)
+  * Setup: Keybindings: <https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent>
+  * VSCode Keybindings: <https://code.visualstudio.com/docs/getstarted/keybindings#_advanced-customization>
 
 # OTHER
 
