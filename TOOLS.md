@@ -71,6 +71,10 @@
 * AdminLite (Bootstrap Admin Dashboard Template) <https://adminlte.io>
 * Minimal Rating Control With CSS And Radio Buttons <http://cssscript.com/rating-control-radio>
 
+# HTML EMAIL
+* Postdrop: Inline, send and test HTML email templates <https://app.postdrop.io/editor>
+  * (Outlook Windows Desktop won't respect padding on <div>s only <td>s)
+
 # DESIGN SYSTEMS
 * Primer (GitHub) <https://primer.style>
 * Spectrum (Adobe) <https://react-spectrum.adobe.com>
@@ -127,6 +131,7 @@
   ```
 
 # IMAGE MANIPULATION
+* SVG Converter: <https://yoksel.github.io/url-encoder>
 * SVG OMG: <https://jakearchibald.github.io/svgomg>
 * Image Enlarger <https://imglarger.com>
 * Remove Background from image <https://www.remove.bg>
@@ -201,6 +206,8 @@
 * Variable Font Playground <https://www.axis-praxis.org>
 * Type Scale <https://type-scale.com>
 * Widow Adjust: Automatically fix typographic widows on your web pages <https://github.com/nathanford/widowadjust>
+* TCPDF/tools/tcpdf_addfont.php <https://github.com/tecnickcom/TCPDF/blob/main/tools/tcpdf_addfont.php>
+  * `php tcpdf_addfont.php -f 32 -i OpenSans-Bold.ttf,OpenSans-BoldItalic.ttf,OpenSans-ExtraBold.ttf,OpenSans-ExtraBoldItalic.ttf,OpenSans-Italic.ttf,OpenSans-Light.ttf,OpenSans-LightItalic.ttf,OpenSans-Regular.ttf,OpenSans-SemiBold.ttf,OpenSans-SemiBoldItalic.ttf`
 
 # COLOUR
 * Colour Scheme Generator <https://coolors.co>

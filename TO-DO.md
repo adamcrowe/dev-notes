@@ -11,6 +11,8 @@
 - [x] [MOTION DESIGN WITH CSS](https://frontendmasters.com/courses/motion-design-css)
 - [x] [SVG ESSENTIALS & ANIMATION](https://frontendmasters.com/courses/svg-essentials-animation)
 - [x] [RESPONSIVE WEB TYPOGRAPHY](https://frontendmasters.com/courses/responsive-typography-v2)
+- [ ] [MASTER BOOTSTRAP 5 AND CODE 6 PROJECTS](https://www.udemy.com/course/bootstrap-5-responsive-web-design-and-development)
+- [ ] [RESPONSIVE WEB DESIGN ESSENTIALS - HTML5 CSS3 BOOTSTRAP](https://www.udemy.com/course/responsive-web-design-tutorial-course-html5-css3-bootstrap)
 - [ ] [HOW TO MAKE A LANDING PAGE USING HTML, SCSS, AND JAVASCRIPT](https://www.youtube.com/watch?v=aoQ6S1a32j8)
 - [ ] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
 - [ ] [THE MODERN FLEXBOX, GRID, SASS & ANIMATIONS DEVELOPER COURSE](https://www.udemy.com/course/the-modern-flexbox-grid-sass-animations-developer-course)
