@@ -11,13 +11,11 @@
 - [x] [MOTION DESIGN WITH CSS](https://frontendmasters.com/courses/motion-design-css)
 - [x] [SVG ESSENTIALS & ANIMATION](https://frontendmasters.com/courses/svg-essentials-animation)
 - [x] [RESPONSIVE WEB TYPOGRAPHY](https://frontendmasters.com/courses/responsive-typography-v2)
-- [ ] [MASTER BOOTSTRAP 5 AND CODE 6 PROJECTS](https://www.udemy.com/course/bootstrap-5-responsive-web-design-and-development)
-- [ ] [RESPONSIVE WEB DESIGN ESSENTIALS - HTML5 CSS3 BOOTSTRAP](https://www.udemy.com/course/responsive-web-design-tutorial-course-html5-css3-bootstrap)
-- [ ] [HOW TO MAKE A LANDING PAGE USING HTML, SCSS, AND JAVASCRIPT](https://www.youtube.com/watch?v=aoQ6S1a32j8)
-- [ ] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
 - [ ] [THE MODERN FLEXBOX, GRID, SASS & ANIMATIONS DEVELOPER COURSE](https://www.udemy.com/course/the-modern-flexbox-grid-sass-animations-developer-course)
-- [ ] [WEB DESIGN FOR WEB DEVELOPERS](https://www.udemy.com/course/web-design-secrets)
-- [ ] [CSS THE COMPLETE GUIDE (FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass)
+- [ ] [HOW TO MAKE A LANDING PAGE USING HTML, SCSS, AND JAVASCRIPT](https://www.youtube.com/watch?v=aoQ6S1a32j8)
+- [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
+- [-] [WEB DESIGN FOR WEB DEVELOPERS](https://www.udemy.com/course/web-design-secrets)
+- [-] [CSS THE COMPLETE GUIDE (FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass)
 - [.] [ADVANCED CSS AND SASS (FLEXBOX, GRID, ANIMATIONS)](https://www.udemy.com/course/advanced-css-and-sass)
 - [ ] [WHAT IS TAILWIND CSS AND HOW CAN I ADD IT TO MY WEBSITE OR REACT APP?](https://www.freecodecamp.org/news/what-is-tailwind-css-and-how-can-i-add-it-to-my-website-or-react-app)
 - [ ] [STYLE YOUR REACT APPS WITH TAILWIND CSS AND STYLED COMPONENTS](https://www.freecodecamp.org/news/how-to-style-your-react-apps-with-less-code-using-tailwind-css-and-styled-components)
@@ -31,7 +29,7 @@
 - [ ] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
 - [ ] [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [ ] [HEAD FIRST HTML5 PROGRAMMING](http://shop.oreilly.com/product/0636920010906.do)
-- [x] [BOOTSTRAP 3/4](https://getbootstrap.com)
+- [x] [BOOTSTRAP 3/4/5](https://getbootstrap.com)
 - [x] [HTML5 AND CSS3 (2ND EDITION)](http://shop.oreilly.com/product/9780980846904.do)
 - [x] [MDN: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [ ] [CENTERING IN CSS](https://web.dev/centering-in-css)
@@ -44,8 +42,8 @@
 # JAVASCRIPT/TYPESCRIPT
 - [ ] [FREECODECAMP: JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION](https://www.freecodecamp.org/learn)
 - [ ] [FREECODECAMP JAVASCRIPT CERTIFICATION PROJECTS (TALK ALOUDS)](https://www.youtube.com/watch?v=XV5OCibNpLI&list=PLehRZjGCVhQLTWPN8mTo3rlRDQff9fCmT)
-- [ ] [JAVASCRIPT - THE COMPLETE GUIDE 2020](https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced)
-- [ ] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course)
+- [-] [JAVASCRIPT - THE COMPLETE GUIDE 2020](https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced)
+- [-] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course)
 - [x] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
 - [x] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns)
 - [ ] [DESIGN PATTERNS IN TYPESCRIPT](https://refactoring.guru/design-patterns/typescript)
@@ -69,6 +67,7 @@
 - [x] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
 - [x] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
 - [x] CORE JAVASCRIPT CONCEPTS
+- [-] [LEARN AJAX WITH JQUERY](https://www.udemy.com/course/jquery-ajax/)
 
 # FRONTEND (DOM MANIPULATION)
 - [ ] [BUILD A QUIZ APP USING REACT AND TYPESCRIPT](https://www.freecodecamp.org/news/how-to-build-a-quiz-app-using-react-and-typescript)
@@ -96,10 +95,10 @@
 - [ ] [HANDLING DATA WITH WEB COMPONENTS](https://itnext.io/handling-data-with-web-components-9e7e4a452e6e)
 
 # FRONTEND (ANGULAR)
-- [ ] [ANGULAR 8 - THE COMPLETE GUIDE](https://www.udemy.com/the-complete-guide-to-angular-2)
-- [ ] [ANGULAR (FULL APP) WITH ANGULAR MATERIAL, ANGULARFIRE & NGRX](https://www.udemy.com/angular-full-app-with-angular-material-angularfire-ngrx)
-- [ ] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide)
-- [ ] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security)
+- [-] [ANGULAR 8 - THE COMPLETE GUIDE](https://www.udemy.com/the-complete-guide-to-angular-2)
+- [-] [ANGULAR (FULL APP) WITH ANGULAR MATERIAL, ANGULARFIRE & NGRX](https://www.udemy.com/angular-full-app-with-angular-material-angularfire-ngrx)
+- [-] [ANGULAR & NODEJS - THE MEAN STACK GUIDE](https://www.udemy.com/angular-2-and-nodejs-the-practical-guide)
+- [-] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security)
 - [ ] [REACTIVE ANGULAR COURSE WITH RXJS - ANGULAR UNIVERSITY](https://www.udemy.com/course/rxjs-reactive-angular-course)
 - [ ] [BUILD A REAL WORLD BEAUTIFUL WEB APP WITH ANGULAR 7 )](https://bit.ly/2sEvsvM)
 - [ ] [THE MODERN ANGULAR BOOTCAMP 2020](https://www.udemy.com/course/the-modern-angular-bootcamp/)
@@ -113,8 +112,8 @@
 - [x] [ANGULAR DOCS](https://angular.io/guide)
 
 # FRONTEND (REACT)
-- [ ] [COMPLETE REACT DEVELOPER IN 2020 (REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery)
-- [ ] [REACT THE COMPLETE GUIDE (HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
+- [-] [COMPLETE REACT DEVELOPER IN 2020 (REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery)
+- [-] [REACT THE COMPLETE GUIDE (HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
 - [ ] [USE REACT AND GRAPHQL TO MAKE A FULL STACK SOCIAL NETWORK](https://www.freecodecamp.org/news/learn-how-to-use-react-and-graphql-to-make-a-full-stack-social-network)
 - [x] [COMPLETE INTRO TO REACT V5](https://frontendmasters.com/courses/complete-react-v5)
 - [x] [INTERMEDIATE REACT V2](https://frontendmasters.com/courses/intermediate-react-v2)
@@ -205,8 +204,8 @@
 - [ ] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 
 # BACKEND (NODE)
-- [ ] [NODE.JS THE COMPLETE GUIDE (MVC, REST API, GRAPHQL, NEXTJS)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
-- [ ] [NODE.JS, EXPRESS, MONGODB & MORE: THE COMPLETE BOOTCAMP 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp)
+- [-] [NODE.JS THE COMPLETE GUIDE (MVC, REST API, GRAPHQL, NEXTJS)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
+- [-] [NODE.JS, EXPRESS, MONGODB & MORE: THE COMPLETE BOOTCAMP 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp)
 - [ ] [NODE WITH REACT: FULLSTACK WEB DEVELOPMENT](https://www.udemy.com/course/node-with-react-fullstack-web-development)
 - [ ] [MERN STACK REACT NODE FROM SCRATCH BUILDING SOCIAL NETWORK](https://www.udemy.com/course/node-react)
 - [ ] [MERN STACK REACT NODE ECOMMERCE FROM SCRATCH TO DEPLOYMENT](https://www.udemy.com/course/react-node-ecommerce)
@@ -250,7 +249,7 @@
 - [x] [5-HOUR WORDPRESS AND PHP COURSE](https://www.freecodecamp.org/news/build-a-website-from-start-to-finish-using-wordpress-and-php)
 - [ ] [BECOME A WORDPRESS DEVELOPER: UNLOCKING POWER WITH CODE](https://www.udemy.com/course/become-a-wordpress-developer-php-javascript)
 - [.] [THE COMPLETE GUIDE TO BUILDING PREMIUM WORDPRESS THEMES](https://www.udemy.com/course/the-complete-guide-to-building-premium-wordpress-themes)
-- [ ] [GUTENBERG BLOCKS FOR WORDPRESS AND REACT DEVELOPERS](https://www.udemy.com/course/gutenberg)
+- [-] [GUTENBERG BLOCKS FOR WORDPRESS AND REACT DEVELOPERS](https://www.udemy.com/course/gutenberg)
 - [ ] [WP ENGINE - ULTIMATE GUIDE TO WP OOP PHP](https://wpengine.co.uk/resources/ultimate-guide-object-oriented-php-wordpress-developer)
 - [ ] [PROFESSIONAL WORDPRESS PLUGIN DEVELOPMENT](https://www.amazon.co.uk/Professional-WordPress-Plugin-Development-Programmer/dp/0470916222)
 - [ ] [BUILDING WEB APPS WITH WORDPRESS: WORDPRESS AS AN APPLICATION FRAMEWORK](https://www.amazon.co.uk/Building-Web-Apps-WordPress-2e/dp/1491990082)
@@ -295,6 +294,7 @@
 - [ ] [FREECODECAMP: INFORMATION SECURITY AND QUALITY ASSURANCE CERTIFICATION](https://www.freecodecamp.org/learn)
 
 # SQL
+- [-] [COMPLETE SQL AND DATABASES BOOTCAMP: ZERO TO MASTERY 2021](https://www.udemy.com/course/complete-sql-databases-bootcamp-zero-to-mastery)
 - [ ] [LEARN THE PERN STACK BY BUILDING A WEB APP](https://www.freecodecamp.org/news/learn-the-pern-stack-full-course)
 - [ ] [LEARN SQL WITH THIS FREE 4-HOUR COURSE ON THE POPULAR POSTGRESQL DATABASE](https://www.freecodecamp.org/news/postgresql-full-course)
 - [ ] [LEARN SQL USING POSTGRESQL: FROM ZERO TO HERO](https://www.udemy.com/course/postgresql-from-zero-to-hero)
@@ -305,6 +305,7 @@
 - [x] [HEAD FIRST SQL](http://shop.oreilly.com/product/9780596526849.do)
 - [ ] [MYSQL TUTORIAL](http://www.mysqltutorial.org)
 - [ ] [SQL: FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=HXV3zeQKqGY)
+- [ ] [CORNELL UNIVERSITY DATABASE COURSE](https://www.freecodecamp.org/news/watch-a-cornell-university-database-course-for-free)
 
 # TOOLS (EDITORS/UNIX/BASH/GIT/DOCKER/DEPLOYMENT)
 - [ ] [MAC OS X UNIX 101 BYTE-SIZED PROJECTS](http://www.peachpit.com/store/mac-os-x-unix-101-byte-sized-projects-9780321374110)
@@ -392,9 +393,9 @@
 - [ ] CLEAN ARCHITECTURE: A CRAFTSMAN'S GUIDE TO SOFTWARE STRUCTURE AND DESIGN
 - [ ] JOEL ON SOFTWARE
 - [ ] MORE JOEL ON SOFTWARE
-- [ ] [HEAD FIRST SOFTWARE DEVELOPMENT](http://shop.oreilly.com/product/9780596527358.do)
-- [ ] [HEAD FIRST OBJECT-ORIENTED ANALYSIS AND DESIGN](http://shop.oreilly.com/product/9780596008673.do)
-- [ ] [HEAD FIRST DESIGN PATTERNS](http://shop.oreilly.com/product/9780596007126.do)
+- [-] [HEAD FIRST SOFTWARE DEVELOPMENT](http://shop.oreilly.com/product/9780596527358.do)
+- [-] [HEAD FIRST OBJECT-ORIENTED ANALYSIS AND DESIGN](http://shop.oreilly.com/product/9780596008673.do)
+- [-] [HEAD FIRST DESIGN PATTERNS](http://shop.oreilly.com/product/9780596007126.do)
 - [x] [THE COMPLETE JUNIOR TO SENIOR WEB DEVELOPER ROADMAP 2020](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap)
 - [x] [HOW TO JOIN A TEAM AND LEARN A CODEBASE](https://www.samueltaylor.org/articles/how-to-learn-a-codebase.html)
 
@@ -414,7 +415,8 @@
 - [ ] [THE SAAS HANDBOOK – HOW TO BUILD YOUR FIRST SOFTWARE-AS-A-SERVICE PRODUCT STEP-BY-STEP](https://www.freecodecamp.org/news/how-to-build-your-first-saas)
 - [ ] [SYSTEM DESIGN](https://www.freecodecamp.org/news/systems-design-for-interviews)
 
-# TECHNICAL WRITING
+# WRITING
+- [ ] [COPYWRITER BRAIN](https://courses.copywriterbrain.com)
 - [ ] [TECHNICAL WRITING COURSES FOR ENGINEERS](https://developers.google.com/tech-writing)
 
 # DATA VISUALIZATION
@@ -426,13 +428,14 @@
 - [ ] [FULLSTACK D3 AND DATA VISUALIZATION](https://www.newline.co/fullstack-d3)
 - [ ] [D3 TUTORIALS](https://github.com/d3/d3/wiki/Tutorials)
 - [x] [DASHING D3JS: Tutorial](https://www.dashingd3js.com/table-of-contents)
+- [ ] [LEARN DATA VISUALIZATION 17-HOUR COURSE](https://www.freecodecamp.org/news/learn-data-visualization-in-this-free-17-hour-course)
 - [ ] [FREECODECAMP: DATA VISUALIZATION CERTIFICATION](https://www.freecodecamp.org/learn)
 
 # DATA SCIENCE
-- [ ] [HEAD FIRST DATA ANALYSIS](http://shop.oreilly.com/product/9780596153946.do)
-- [ ] [HEAD FIRST STATISTICS](http://shop.oreilly.com/product/9780596527587.do)
-- [ ] [COMPLETE MACHINE LEARNING AND DATA SCIENCE: ZERO TO MASTERY](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery)
-- [ ] [COMPLETE PYTHON DEVELOPER IN 2020: ZERO TO MASTERY](https://www.udemy.com/course/complete-python-developer-zero-to-mastery)
+- [-] [HEAD FIRST DATA ANALYSIS](http://shop.oreilly.com/product/9780596153946.do)
+- [-] [HEAD FIRST STATISTICS](http://shop.oreilly.com/product/9780596527587.do)
+- [-] [COMPLETE MACHINE LEARNING AND DATA SCIENCE: ZERO TO MASTERY](https://www.udemy.com/course/complete-machine-learning-and-data-science-zero-to-mastery)
+- [-] [COMPLETE PYTHON DEVELOPER IN 2020: ZERO TO MASTERY](https://www.udemy.com/course/complete-python-developer-zero-to-mastery)
 - [ ] [PYTHON MACHINE LEARNING WITH TENSORFLOW](https://www.freecodecamp.org/news/massive-tensorflow-2-0-free-course)
 - [ ] [THINK PYTHON 2E](https://greenteapress.com/wp/think-python-2e)
 - [ ] [THINK STATS 2E](https://greenteapress.com/wp/think-stats-2e)
@@ -440,18 +443,18 @@
 - [ ] [COMPLEX NETWORK ANALYSIS IN PYTHON](https://pragprog.com/book/dzcnapy/complex-network-analysis-in-python)
 
 # UX DESIGN
-- [ ] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign)
+- [ ] [GOOGLE UX DESIGN CERTIFICATE](https://www.coursera.org/professional-certificates/google-ux-design)
+- [-] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign)
 - [ ] [MASTER DIGITAL PRODUCT DESIGN: UX RESEARCH & UI DESIGN](https://www.udemy.com/course/master-digital-product-design-ux-research-ui-design)
-- [ ] [LEAN UX](https://www.oreilly.com/library/view/lean-ux/9781449366834)
-- [ ] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign)
 - [ ] [UX DESIGN PROCESS SIMPLIFIED FROM USER RESEARCH TO USABILITY](https://www.udemy.com/course/ux-design-process-for-beginners-from-user-research-to-usability)
-- [ ] [MASTER DIGITAL PRODUCT DESIGN: UX RESEARCH & UI DESIGN](https://www.udemy.com/course/master-digital-product-design-ux-research-ui-design)
+- [ ] [LEAN UX](https://www.oreilly.com/library/view/lean-ux/9781449366834)
 
 # UI DESIGN
+- [ ] [UI/UX FROM ZERO TO HERO WITH WIREFRAME + PROTOTYPE + DESIGN IN FIGMA](https://www.freecodecamp.org/news/ui-ux-design-tutorial-from-zero-to-hero-with-wireframe-prototype-figma/)
 - [ ] [UI DESIGN FUNDAMENTALS](https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course)
 - [.] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma)
-- [ ] [COMPLETE WEB DESIGN: FROM FIGMA TO WEBFLOW TO FREELANCING](https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money)
-- [ ] [COMPLETE WEB & MOBILE DESIGNER IN 2021: UI/UX, FIGMA](https://www.udemy.com/course/complete-web-designer-mobile-designer-zero-to-mastery)
+- [-] [COMPLETE WEB DESIGN: FROM FIGMA TO WEBFLOW TO FREELANCING](https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money)
+- [-] [COMPLETE WEB & MOBILE DESIGNER IN 2021: UI/UX, FIGMA](https://www.udemy.com/course/complete-web-designer-mobile-designer-zero-to-mastery)
 - [ ] [WEBFLOW UNIVERSITY](https://university.webflow.com/courses)
 - [ ] [WEBFLOW TUTORIALS](https://www.youtube.com/c/Webflow/videos)
 - [ ] [LEARN UX: FIGMA COURSE](https://learnux.io/course/figma)
@@ -567,22 +570,9 @@
 * [x] [PRODUCT MANAGEMENT GUIDE FROM INTERCOM](assets/Product-Management-Guide-From-Intercom.pdf)
 
 # ANALYTICS
+- [-] [MASTER GOOGLE ANALYTICS REPORTS, TAG MANAGER AND DATA STUDIO](https://www.udemy.com/course/master-google-analytics-with-gtm-data-studio)
+- [-] [MASTER THE NEW GOOGLE ANALYTICS 4 WITH TAG MANAGER IN 2021](https://www.udemy.com/course/google-analytics-4-with-tag-manager)
 - [ ] [LEAN ANALYTICS](https://www.oreilly.com/library/view/lean-analytics/9781449335687)
-- [ ] [MEASURESCHOOL](https://measureschool.com)
-- [ ] [MEASURESCHOOL YOUTUBE CHANNEL](https://www.youtube.com/channel/UClgihdkPzNDtuoQy4xDw5mA):
-- [x] [GTM FOR BEGINNERS 2019](https://www.youtube.com/watch?v=WPEdkc_feNM&list=PLgr_8Hk8l4ZHGni1H-mz2P7lbZ7PmAn1B)
-- [x] [TRACK YOUTUBE VIDEOS WITH GOOGLE TAG MANAGER](https://www.youtube.com/watch?v=-_sbCHBVjzA)
-- [x] [HOW TO TRACK VIDEO VIEWS IN GOOGLE ANALYTICS USING GOOGLE TAG MANAGER IN 4 STEPS](https://www.youtube.com/watch?v=RAhZQ1-rPEg)
-* [x] [THE YOUTUBE VIDEO TRIGGER IN GOOGLE TAG MANAGER](https://www.simoahava.com/analytics/the-youtube-video-trigger-in-google-tag-manager)
-- [ ] [GOOGLE ANALYTICS ACADEMY](https://analytics.google.com/analytics/academy):
-- [ ] [GOOGLE TAG MANAGER FUNDAMENTALS](https://analytics.google.com/analytics/academy/course/5)
-- [ ] [GOOGLE ANALYTICS FOR BEGINNERS](https://analytics.google.com/analytics/academy/course/6)
-- [ ] [ADVANCED GOOGLE ANALYTICS](https://analytics.google.com/analytics/academy/course/7)
-- [ ] [GOOGLE ANALYTICS FOR POWER USERS](https://analytics.google.com/analytics/academy/course/9)
-- [ ] [GETTING STARTED WITH GOOGLE ANALYTICS 360](https://analytics.google.com/analytics/academy/course/8)
-- [ ] [INTRODUCTION TO DATA STUDIO](https://analytics.google.com/analytics/academy/course/10)
-- [ ] [GOOGLE ANALYTICS YOUTUBE CHANNEL](https://www.youtube.com/user/googleanalytics):
-- [x] [GOOGLE ANALYTICS: GETTING STARTED WITH GOOGLE TAG MANAGER](https://www.youtube.com/playlist?list=PLI5YfMzCfRtYLtw_djEwG0nR-F9r6B5JT)
 
 # STRATEGY
 - [ ] [RUNNING LEAN](https://www.oreilly.com/library/view/running-lean-2nd/9781449321529)
@@ -592,5 +582,5 @@
 
 # BUSINESS
 - [-] [COMPLETE WEB DESIGN: FROM FIGMA TO WEBFLOW TO FREELANCING](https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money)
-- [-] [PASSIVE INCOME COURSE FOR GRAPHIC DESIGNERS](https://www.udemy.com/course/passive-income-course-for-graphic-designers)
-- [-] [THE FREELANCE MASTERCLASS: FOR CREATIVES](https://www.udemy.com/course/the-freelance-masterclass-for-creatives)
+- [ ] [PASSIVE INCOME COURSE FOR GRAPHIC DESIGNERS](https://www.udemy.com/course/passive-income-course-for-graphic-designers)
+- [ ] [THE FREELANCE MASTERCLASS: FOR CREATIVES](https://www.udemy.com/course/the-freelance-masterclass-for-creatives)

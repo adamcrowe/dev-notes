@@ -1,3 +1,20 @@
+-- Multi-Rating
+
+SELECT p.ID AS 'Post ID', p.post_title AS 'Title', rating.description AS 'Rating', value.value AS 'Stars', entry.entry_date AS 'Rated On', u.user_email AS 'User'
+FROM `jv_wp_haem_mr_rating_item_entry` AS entry
+INNER JOIN `jv_wp_haem_posts` AS p ON p.ID = entry.post_id
+INNER JOIN `jv_wp_haem_mr_rating_item_entry_value` AS value ON value.rating_item_entry_id = entry.rating_item_entry_id
+INNER JOIN `jv_wp_haem_mr_rating_item` AS rating on rating.rating_item_id = value.rating_item_id
+LEFT JOIN `jv_wp_haem_users` AS u ON u.ID = entry.user_id WHERE 1 ORDER BY p.ID DESC, entry.entry_date DESC;
+
+SELECT p.ID AS 'Post ID', p.post_title AS 'Title', rating.description AS 'Rating', value.value AS 'Stars', entry.entry_date AS 'Rated On', u.user_email AS 'User'
+FROM `o_vj_mr_rating_item_entry` AS entry
+INNER JOIN `o_vj_posts` AS p ON p.ID = entry.post_id
+INNER JOIN `o_vj_mr_rating_item_entry_value` AS value ON value.rating_item_entry_id = entry.rating_item_entry_id
+INNER JOIN `o_vj_mr_rating_item` AS rating on rating.rating_item_id = value.rating_item_id
+LEFT JOIN `o_vj_users` AS u ON u.ID = entry.user_id WHERE 1 ORDER BY p.ID DESC, entry.entry_date DESC;
+
+
 -- https://wordpress.stackexchange.com/questions/169863/custom-sql-query-get-all-posts-with-category-id-and-a-concated-list-of-tags-on/263221
 
 -- # AML Videos
