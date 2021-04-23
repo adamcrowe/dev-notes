@@ -186,6 +186,7 @@
 * Feather Icons <https://feathericons.com>
 * Noun Project Icons <https://thenounproject.com>
 * Material Icons <https://material.io/resources/icons>
+* Google Icons <https://fonts.google.com/icons>
 * Bootstrap Icons <https://github.com/twbs/icons>
   * Figma <https://www.figma.com/file/hTJtQ2MrMTeNVmYrVBqNZZ/Bootstrap-Icons-v1.0.0-alpha5?node-id=0%3A1>
 * SVG Icons <https://tablericons.com>
@@ -238,6 +239,13 @@
 * Postman: API Development Platform <https://www.postman.com>
 * Insomnia: API/REST/HTTP/GraphQL Client <https://insomnia.rest>
 * The Star Wars API <https://swapi.co>
+
+# SCREEN RECORDING
+* ScreenFlow <http://www.telestream.net/screenflow/overview.htm>
+
+# SEO
+* Detailed SEO Extension <https://detailed.com/extension>
+* ScreamingFrog (technical SEO) <http://www.screamingfrog.co.uk>
 
 # WORDPRESS
 * <https://connekthq.com/plugins/ajax-load-more/>

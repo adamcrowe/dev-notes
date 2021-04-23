@@ -8,7 +8,7 @@
 
 ```css
 html, body {
-	font-size: 16px; /* root font-size */
+	font-size: 16px; /* root font-size (defines what 1rem is) */
 	width: 80vw; /* 80% of viewport width */
 }
 
