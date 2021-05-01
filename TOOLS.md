@@ -30,6 +30,11 @@
   * [Whimsical Mind Maps Tutorial](https://www.youtube.com/watch?v=Feybn2V7obk)
 * Miro <https://miro.com>
 * Figma <http://figma.com>
+  * Plugin: GraphQL Data Fill <https://www.figma.com/community/plugin/778614812931099944/GraphQL-Data-Fill>
+    * Demo: <https://crystallize.com/blog/populating-figma-with-product-information-from-graphql>
+  * Plugin: Superpowers for design systems: Use your design system code components within Figma <https://interplayapp.com>
+  * Plugin: Marka Email Generator <https://www.figma.com/community/plugin/751436700152214815/Marka-Email-Generator>
+  * Plugin: Emailify: Design and export responsive HTML emails from Figma <https://www.figmatic.com/emailify>
 * Wireflow <https://wireflow.co>
 * Bootstrap Studio <https://bootstrapstudio.io>
 * UserBit <https://userbitapp.com>
@@ -76,13 +81,7 @@
   * (Outlook Windows Desktop won't respect padding on <div>s only <td>s)
 
 # DESIGN SYSTEMS
-* Primer (GitHub) <https://primer.style>
-* Spectrum (Adobe) <https://react-spectrum.adobe.com>
-* Clarity (VMware) <https://clarity.design>
-* Lexicon (Liferay) <https://liferay.design/lexicon>
-  * <https://liferay.design/resources/figma>
-* Designs Systems Collection <https://designsystemsrepo.com>
-* Introduction to Design Systems <https://fem-design-systems.netlify.app/building-a-design-system>
+* See [design-systems](UX/design-systems.md)
 
 # DATABASES
 * PostgreSQL GUI tool for macOS <http://www.psequel.com>

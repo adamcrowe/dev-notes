@@ -120,6 +120,7 @@
 - [x] [INTERMEDIATE REACT V2](https://frontendmasters.com/courses/intermediate-react-v2)
 - [ ] [DESIGN+CODE: REACT FOR DESIGNERS](https://designcode.io/react)
 - [ ] [15 REACT PROJECTS](https://www.freecodecamp.org/news/solidify-your-react-skills-by-building-15-projects)
+- [ ] [CREATE AN INSTAGRAM CLONE USING REACT](https://www.freecodecamp.org/news/learn-how-to-create-an-instagram-clone-using-react)
 * [ ] [BUILD A SHOPPING CART WITH REACT AND TYPESCRIPT](https://www.youtube.com/watch?v=sfmL6bGbiN8)
 - [ ] [HOW TO MAKE AN ONLINE STORE IN ONE DAY USING AWS, REACT, AND STRIPE](https://www.freecodecamp.org/news/how-to-make-a-store-in-one-day-aws-react-stripe)
 - [ ] [LEARN HOW TO USE APIS WITH REACT BY BUILDING A HACKER NEWS API APPLICATION](https://www.freecodecamp.org/news/learn-how-to-use-apis-with-react-by-building-a-hacker-news-api-application)
@@ -208,6 +209,7 @@
 - [-] [NODE.JS THE COMPLETE GUIDE (MVC, REST API, GRAPHQL, NEXTJS)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
 - [-] [NODE.JS, EXPRESS, MONGODB & MORE: THE COMPLETE BOOTCAMP 2020](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp)
 - [ ] [NODE WITH REACT: FULLSTACK WEB DEVELOPMENT](https://www.udemy.com/course/node-with-react-fullstack-web-development)
+- [ ] [CREATE A MERN STACK APP WITH A SERVERLESS BACKEND](https://www.freecodecamp.org/news/create-a-mern-stack-app-with-a-serverless-backend/)
 - [ ] [MERN STACK REACT NODE FROM SCRATCH BUILDING SOCIAL NETWORK](https://www.udemy.com/course/node-react)
 - [ ] [MERN STACK REACT NODE ECOMMERCE FROM SCRATCH TO DEPLOYMENT](https://www.udemy.com/course/react-node-ecommerce)
 - [ ] [REACT & FIREBASE COMPLETE COURSE (CHAT APPLICATION)](https://www.udemy.com/course/react-js-firebase-complete-course-incl-chat-application)
@@ -451,6 +453,7 @@
 - [ ] [MASTER DIGITAL PRODUCT DESIGN: UX RESEARCH & UI DESIGN](https://www.udemy.com/course/master-digital-product-design-ux-research-ui-design)
 - [ ] [UX DESIGN PROCESS SIMPLIFIED FROM USER RESEARCH TO USABILITY](https://www.udemy.com/course/ux-design-process-for-beginners-from-user-research-to-usability)
 - [ ] [LEAN UX](https://www.oreilly.com/library/view/lean-ux/9781449366834)
+- [ ] [UX DESIGN CHALLENGES](https://uxtools.co/challenges)
 
 # UI DESIGN
 - [ ] [UI/UX FROM ZERO TO HERO WITH WIREFRAME + PROTOTYPE + DESIGN IN FIGMA](https://www.freecodecamp.org/news/ui-ux-design-tutorial-from-zero-to-hero-with-wireframe-prototype-figma/)
@@ -513,6 +516,11 @@
 - [ ] [FEMKE DESIGN CHANNEL](https://www.youtube.com/c/femkesvs/videos)
 
 # DESIGN SYSTEMS
+- [x] [INTRODUCTION TO DESIGN SYSTEMS](https://fem-design-systems.netlify.app/building-a-design-system)
+- [x] [AUDITING AS A FIRST STEP TO DESIGN SYSTEMS PLANNING](https://sparkbox.com/foundry/design_audit_for_design_system_planning)
+- [x] [THE FULL STACK DESIGN SYSTEM](https://www.intercom.com/blog/the-full-stack-design-system/)
+- [ ] [DESIGN SYSTEMS: STEP-BY-STEP GUIDE TO CREATING YOUR OWN](https://www.uxpin.com/create-design-system-guide/)
+- [ ] [CREATING A DESIGN SYSTEM: RECOMMENDED RESOURCES](https://www.uxpin.com/create-design-system-guide/recommended-resources) *reading list*
 - [ ] [ATOMIC DESIGN](https://atomicdesign.bradfrost.com)
 - [ ] [THE ATOMIC WORKFLOW — PEOPLE, PROCESS, AND MAKING DESIGN SYSTEMS HAPPEN](https://www.smashingmagazine.com/atomic-design-workflow)
 - [ ] [CREATING ATOMIC COMPONENTS THAT WILL BLOW YOUR MIND](https://liferay.design/articles/2019/creating-atomic-components-in-figma)
