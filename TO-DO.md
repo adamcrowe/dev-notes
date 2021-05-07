@@ -335,6 +335,7 @@
 - [ ] [FULL STACK FOR FRONT-END ENGINEERS V2 - CLI, SSH, NGINX, DOCKER, SECURITY, HTTP](https://frontendmasters.com/courses/fullstack-v2)
 - [ ] [DEVOPS FUNDAMENTALS: CI/CD WITH AWS + DOCKER + ANSIBLE + JENKINS](https://www.udemy.com/course/devops-fundamentals-aws)
 - [ ] [LEARN DEVOPS BASICS WITH THIS FREE 2-HOUR DOCKER COURSE](https://www.freecodecamp.org/news/docker-devops-course)
+- [ ] [AZURE ADMINISTRATION](https://www.freecodecamp.org/news/azure-administrator-certification-az-104-pass-the-exam-with-this-free-11-hour-course/)
 - [x] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac)
 - [x] [OLIVER: INTRODUCTION TO UNIX](http://oliverelliott.org/article/computing/tut_unix)
 - [x] [OLIVER: SET UP YOUR .BASH_PROFILE, .BASHRC, AND OTHER DOTFILES](http://oliverelliott.org/article/computing/tips_mac/9)
@@ -448,17 +449,19 @@
 - [ ] [COMPLEX NETWORK ANALYSIS IN PYTHON](https://pragprog.com/book/dzcnapy/complex-network-analysis-in-python)
 
 # UX DESIGN
+- [ ] [USER EXPERIENCE & INTERFACE DESIGN](https://experiencehaus.com/ux-ui-online-course)
 - [ ] [GOOGLE UX DESIGN CERTIFICATE](https://www.coursera.org/professional-certificates/google-ux-design)
-- [-] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign)
+- [.] [UX DESIGN COLLEGE CLASS: INTRODUCTION TO UX DESIGN](https://www.udemy.com/course/userexperiencedesign)
 - [ ] [MASTER DIGITAL PRODUCT DESIGN: UX RESEARCH & UI DESIGN](https://www.udemy.com/course/master-digital-product-design-ux-research-ui-design)
 - [ ] [UX DESIGN PROCESS SIMPLIFIED FROM USER RESEARCH TO USABILITY](https://www.udemy.com/course/ux-design-process-for-beginners-from-user-research-to-usability)
 - [ ] [LEAN UX](https://www.oreilly.com/library/view/lean-ux/9781449366834)
 - [ ] [UX DESIGN CHALLENGES](https://uxtools.co/challenges)
 
 # UI DESIGN
+- [ ] [USER EXPERIENCE & INTERFACE DESIGN](https://experiencehaus.com/ux-ui-online-course)
 - [ ] [UI/UX FROM ZERO TO HERO WITH WIREFRAME + PROTOTYPE + DESIGN IN FIGMA](https://www.freecodecamp.org/news/ui-ux-design-tutorial-from-zero-to-hero-with-wireframe-prototype-figma/)
 - [ ] [UI DESIGN FUNDAMENTALS](https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course)
-- [.] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma)
+- [x] [DESIGN & PROTOTYPE A MOBILE UI/UX EXPERIENCE - LEARN FIGMA](https://www.udemy.com/course/design-prototype-a-mobile-uiux-experience-learn-figma)
 - [-] [COMPLETE WEB DESIGN: FROM FIGMA TO WEBFLOW TO FREELANCING](https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money)
 - [-] [COMPLETE WEB & MOBILE DESIGNER IN 2021: UI/UX, FIGMA](https://www.udemy.com/course/complete-web-designer-mobile-designer-zero-to-mastery)
 - [ ] [WEBFLOW UNIVERSITY](https://university.webflow.com/courses)
