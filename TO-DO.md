@@ -5,6 +5,11 @@
 
 # HTML/CSS
 - [ ] [FREECODECAMP: RESPONSIVE WEB DESIGN CERTIFICATION](https://www.freecodecamp.org/learn)
+- [-] [CSS THE COMPLETE GUIDE (FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass)
+- [.] [ADVANCED CSS AND SASS (FLEXBOX, GRID, ANIMATIONS)](https://www.udemy.com/course/advanced-css-and-sass)
+- [ ] [WHAT THE FLEXBOX](https://flexbox.io)
+- [ ] [WHAT THE GRID](https://cssgrid.io)
+- [ ] [GRID BY EXAMPLE](https://gridbyexample.com/video)
 - [x] [CSS GRIDS AND FLEXBOX FOR RESPONSIVE WEB DESIGN](https://frontendmasters.com/courses/css-grids-flexbox)
 - [x] [ADVANCED CSS LAYOUTS](https://frontendmasters.com/courses/advanced-css-layouts)
 - [ ] [RESPONSIVE DESIGNS AND CSS CUSTOM PROPERTIES: BUILDING A FLEXIBLE GRID SYSTEM](https://css-tricks.com/responsive-designs-and-css-custom-properties-building-a-flexible-grid-system)
@@ -15,8 +20,6 @@
 - [ ] [HOW TO MAKE A LANDING PAGE USING HTML, SCSS, AND JAVASCRIPT](https://www.youtube.com/watch?v=aoQ6S1a32j8)
 - [-] [BUILD RESPONSIVE REAL WORLD WEBSITES WITH HTML5 AND CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)
 - [-] [WEB DESIGN FOR WEB DEVELOPERS](https://www.udemy.com/course/web-design-secrets)
-- [-] [CSS THE COMPLETE GUIDE (FLEXBOX, GRID & SASS)](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass)
-- [.] [ADVANCED CSS AND SASS (FLEXBOX, GRID, ANIMATIONS)](https://www.udemy.com/course/advanced-css-and-sass)
 - [ ] [WHAT IS TAILWIND CSS AND HOW CAN I ADD IT TO MY WEBSITE OR REACT APP?](https://www.freecodecamp.org/news/what-is-tailwind-css-and-how-can-i-add-it-to-my-website-or-react-app)
 - [ ] [STYLE YOUR REACT APPS WITH TAILWIND CSS AND STYLED COMPONENTS](https://www.freecodecamp.org/news/how-to-style-your-react-apps-with-less-code-using-tailwind-css-and-styled-components)
 - [ ] [DESIGNING WITH TAILWIND CSS (WORKCATION)](https://tailwindcss.com/screencasts) <https://www.youtube.com/watch?v=0aTRN9CSCY0&list=PL7CcGwsqRpSO3J4YU6BkWqjU0XcVSaPXl>

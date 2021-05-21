@@ -22,21 +22,24 @@
 * [MeasureSchool: Tag Plan Spreadsheet](https://docs.google.com/spreadsheets/d/1ns8u4OqLXc2UPc7FXOC3PKhUSVxd11VF0JrzO5IZJ94)
 * [Simo Ahava: google-tag-manager](https://www.simoahava.com/tags/#google-tag-manager-list)
 
-# UX/UI/UXR TOOLS
-* Whimsical <https://whimsical.com>
-  * [Whimsical Wireframes Tutorial](https://www.youtube.com/watch?v=Oi9nST5Skog)
-  * [Whimsical Flowcharts Tutorial](https://www.youtube.com/watch?v=ARbjNYc_lKA)
-  * [Whimsical Sticky Notes Tutorial](https://www.youtube.com/watch?v=D6ScmHUHza4)
-  * [Whimsical Mind Maps Tutorial](https://www.youtube.com/watch?v=Feybn2V7obk)
-* Miro <https://miro.com>
+# UI/UX
+* Figma/XD/Sketch/XD File Conversion <https://xd2sketch.com/>
 * Figma <http://figma.com>
   * Plugin: GraphQL Data Fill <https://www.figma.com/community/plugin/778614812931099944/GraphQL-Data-Fill>
     * Demo: <https://crystallize.com/blog/populating-figma-with-product-information-from-graphql>
   * Plugin: Superpowers for design systems: Use your design system code components within Figma <https://interplayapp.com>
   * Plugin: Marka Email Generator <https://www.figma.com/community/plugin/751436700152214815/Marka-Email-Generator>
   * Plugin: Emailify: Design and export responsive HTML emails from Figma <https://www.figmatic.com/emailify>
+* Whimsical <https://whimsical.com>
+  * [Whimsical Wireframes Tutorial](https://www.youtube.com/watch?v=Oi9nST5Skog)
+  * [Whimsical Flowcharts Tutorial](https://www.youtube.com/watch?v=ARbjNYc_lKA)
+  * [Whimsical Sticky Notes Tutorial](https://www.youtube.com/watch?v=D6ScmHUHza4)
+  * [Whimsical Mind Maps Tutorial](https://www.youtube.com/watch?v=Feybn2V7obk)
+* Miro <https://miro.com>
 * Wireflow <https://wireflow.co>
 * Bootstrap Studio <https://bootstrapstudio.io>
+
+# UXR
 * UserBit <https://userbitapp.com>
 * StoriesOnBoard: User story mapping <https://storiesonboard.com>
 
@@ -158,13 +161,14 @@
 # TYPESCRIPT
 * [class-validator: Validation made easy using TypeScript decorators](https://github.com/typestack/class-validator)
 
-# SITE OPTIMIZATION
+# SEO + SITE OPTIMIZATION
 * Google Search Console <https://search.google.com/search-console/about>
 * Google Page Speed Insights <https://developers.google.com/speed/pagespeed/insights/>
 * Lighthouse PWA Analysis Tool <https://developers.google.com/web/ilt/pwa/lighthouse-pwa-analysis-tool>
 * Third-party Tools <https://progressivetooling.com>
 * Webpage Test <https://www.webpagetest.org>
 * Minify JS or CSS code <https://www.minifier.org>
+* Broken Link Checker <https://www.brokenlinkcheck.com>
 
 # STOCK MEDIA
 * Photos <https://unsplash.com>
