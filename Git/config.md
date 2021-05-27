@@ -6,7 +6,7 @@
 * `git config --global alias.lg "log --graph --pretty=format:'%C(auto)%h -%d %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"` -- pretty log
 
 ## COMMITTER
-> Committer: Adam <adam@Mac.local>
+> Committer: Alice <alicem@bob.local>
 > Your name and email address were configured automatically based
 > on your username and hostname. Please check that they are accurate.
 > You can suppress this message by setting them explicitly. Run the

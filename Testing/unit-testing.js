@@ -1,4 +1,4 @@
-// ! Given-When-Then Format
+// Given-When-Then Format
 // <https://stackoverflow.com/questions/33984182/why-jasmine-is-called-a-bdd-testing-framework-even-if-no-given-when-then-sup/38752262#38752262>
 
 // Use the given-when-then format for precision about what is being tested

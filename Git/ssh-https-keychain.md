@@ -4,8 +4,8 @@ See: [CLI/ssh.md](../CLI/ssh.md)
 ```bash
 git config -l # check credential setting
 credential.helper=osxkeychain # using osxkeychain for repos cloned using HTTPs
-user.name=Adam
-user.email=adam@adamcrowe.com
+user.name=Alice
+user.email=alice@bob.com
 core.editor=code --wait
 ```
 

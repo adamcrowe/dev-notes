@@ -32,11 +32,11 @@
 * Explain what you expect to see and what you actually see
 * Explain your assumptions and the tests you ran to confirm the problem
 * Proofread your question and code extract; edit for brevity and clarity
-* If 30 mins have passed...
+* If 30 mins have passed and you haven't solved the problem using the above process, then...
 
 ## 4. Send a help request
 
-* Ask for help, then...
+* Ask for help, and...
 * If the problem is solved before anyone responds, tell everyone you've asked
 * Thank each person that helped you to investigate and fix the problem
 

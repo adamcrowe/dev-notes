@@ -346,6 +346,7 @@
 - [ ] [KARL ROMBAUTS: DOT FILES (MAC INSTALL)](https://github.com/KarlRombauts/dotfiles)
 - [ ] [VISUAL STUDIO CODE – HOW TO INCREASE YOUR PRODUCTIVITY IN VS CODE](https://www.freecodecamp.org/news/learn-visual-studio-code-to-increase-productivity)
 - [ ] [VISUAL STUDIO CODE – THE DEFINITIVE VS CODE SNIPPET GUIDE FOR BEGINNERS](https://www.freecodecamp.org/news/definitive-guide-to-snippets-visual-studio-code)
+- [.] [.HTACCESS MADE EASY](https://perishablepress.com/new-book)
 
 # CS
 - [ ] CODE: THE HIDDEN LANGUAGE OF COMPUTER HARDWARE AND SOFTWARE
@@ -570,6 +571,7 @@
 - [ ] [SACRED GEOMETRY: COMPREHENSIVE COURSE](https://www.udemy.com/course/sacred-geometry-foundation)
 
 # TYPOGRAPHY
+- [ ] [TYPOGRAPHY FOR DEVELOPERS](https://youtu.be/agbh1wbfJt8)
 - [ ] [RECURSIVE TYPEFACE](https://www.recursive.design)
 - [ ] [SYSTEM FONT STACK](https://css-tricks.com/snippets/css/system-font-stack)
 

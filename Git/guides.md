@@ -1,7 +1,7 @@
 # GIT
 * Git is like a key value store
-    * Key = Hash of the data
-    * Value = The data
+	* Key = Hash of the data
+	* Value = The data
 * The key is used to retrieve the data
 
 ## .git
@@ -10,48 +10,48 @@
 ## REMOTES
 * A remote name as a convenient bookmark or shortcut alias for a git repository url
 * When you clone a repository with `git clone`, it automatically creates a remote connection called `origin` pointing back to the cloned repository
-    * This provides an easy way to pull changes or publish local commits and is also why most git projects call their central repository `origin`
+	* This provides an easy way to pull changes or publish local commits and is also why most git projects call their central repository `origin`
 * In addition to `origin`, it's often convenient to have a connection to your teammates' repositories (`git remote add john http://dev.example.com/john.git`)
-    * Having access to individual developers’ repos makes it possible to collaborate outside of the central repository e.g., small team working on a large project
+	* Having access to individual developers’ repos makes it possible to collaborate outside of the central repository e.g., small team working on a large project
 * Once configured, the remote name can be passed as an argument to other Git commands to communicate with the remote repo (`git push <remote-name> <branch-name>`)
 * In forked workflows, the `upstream` repository is the base repository you created a fork from (this isn’t set up by default so you need to set it up manually)
-    * By adding an `upstream` remote, you can pull down changes that have been added to the original repository after you forked it
-    * `git remote add upstream https://github.com/ORIG_OWNER/REPO.git`
+	* By adding an `upstream` remote, you can pull down changes that have been added to the original repository after you forked it
+	* `git remote add upstream https://github.com/ORIG_OWNER/REPO.git`
 
 ## REFS/REFERENCES
 * See: <https://www.atlassian.com/git/tutorials/refs-and-the-reflog>
 * Refs
-    * A ref is an a user-friendly alias for a commit hash; refs are stored as normal text files in the .git/refs directory
-        * `tree .git/refs`
-        * `cat .git/refs/heads/master`
-            * The heads directory lists all local branches; each branch is a branch-named text file; inside each file is the commit hash that points to the tip of the branch
-            * To change the location of the master branch, git changes the contents of the refs/heads/master file; to create a new branch, git writes a commit hash to a new file
-            * The remotes directory lists all remote repositories that you created with git remote as separate subdirectories; the files inside contain text files of commit hashes
-            * The tags directory works the exact same way
-    * `git show feature_branch` resolves to `git show refs/heads/feature_branch`
+	* A ref is an a user-friendly alias for a commit hash; refs are stored as normal text files in the .git/refs directory
+		* `tree .git/refs`
+		* `cat .git/refs/heads/master`
+			* The heads directory lists all local branches; each branch is a branch-named text file; inside each file is the commit hash that points to the tip of the branch
+			* To change the location of the master branch, git changes the contents of the refs/heads/master file; to create a new branch, git writes a commit hash to a new file
+			* The remotes directory lists all remote repositories that you created with git remote as separate subdirectories; the files inside contain text files of commit hashes
+			* The tags directory works the exact same way
+	* `git show feature_branch` resolves to `git show refs/heads/feature_branch`
 * Commit
-    * Points to a commit via its unique ID (SHA-1 hash)
-        * `git show <commit-hash>`
-        * `git rev-parse master` - show hash of commit pointed to by master
+	* Points to a commit via its unique ID (SHA-1 hash)
+		* `git show <commit-hash>`
+		* `git rev-parse master` - show hash of commit pointed to by master
 * HEAD
-    * Point to the current branch
-        * Can also point to a commit (detached HEAD state)
-    * Moves to latest commit whenever a new commit is made in the active branch
-    * Moves to latest commit in the branch whenever a branch is checked out
-    * HEAD is detached after having checked out a commit or tag (instead of a branch)
-        * Always create a new branch before adding commits in a detached HEAD state
-            * `git checkout -b <temp-branch-name> <existing-commit-hash>`
-        * To recover a dangling commit saved when in detached state:
-            * `git branch <temp-branch-name> <dangling-commit-hash>`
-            * Dangling commits (those not pointing to a branch) will be garbage collected
+	* Point to the current branch
+		* Can also point to a commit (detached HEAD state)
+	* Moves to latest commit whenever a new commit is made in the active branch
+	* Moves to latest commit in the branch whenever a branch is checked out
+	* HEAD is detached after having checked out a commit or tag (instead of a branch)
+		* Always create a new branch before adding commits in a detached HEAD state
+			* `git checkout -b <temp-branch-name> <existing-commit-hash>`
+		* To recover a dangling commit saved when in detached state:
+			* `git branch <temp-branch-name> <dangling-commit-hash>`
+			* Dangling commits (those not pointing to a branch) will be garbage collected
 * Branches
-    * Points to the current/active branch
-    * Moves with every commit to the repository
+	* Points to the current/active branch
+	* Moves with every commit to the repository
 * Tags and Annotated Tags
-    * Point to a commit
-        * Tag: `git tag my-first-commit`
-        * Annotated Tag: `git tag -a v1.0 -m 'Version 1.0'`
-    * A tag is never decoupled from the commit it points to
+	* Point to a commit
+		* Tag: `git tag my-first-commit`
+		* Annotated Tag: `git tag -a v1.0 -m 'Version 1.0'`
+	* A tag is never decoupled from the commit it points to
 
 ### REFLOG
 * The `git reflog` is a chronological history of everything you’ve done in your local repo; you can use the reflog to retrieve dangling commits
@@ -61,18 +61,18 @@ See: <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
 
 ### FAST-FORWARD MERGE
 * Fast-forward happens when there are no commits on the base/master branch that occurred after the feature branch was created from master
-    * In this case, when merging the feature branch, the HEAD of master is moved (fast-forwarded) to the HEAD of (the merged) feature
-    * The problem with fast-forward merges is that the unique history of the feature branch is lost when it is merged into master
-    * `git merge --no-ff` will prevent fast-forwarding and force a merge commit (and thus preserve the feature branch history)
+	* In this case, when merging the feature branch, the HEAD of master is moved (fast-forwarded) to the HEAD of (the merged) feature
+	* The problem with fast-forward merges is that the unique history of the feature branch is lost when it is merged into master
+	* `git merge --no-ff` will prevent fast-forwarding and force a merge commit (and thus preserve the feature branch history)
 * When master and branch have diverged, a fast-forward merge can be achieved using an interactive rebase: `git rebase -i origin master`
 
 ### 3-WAY MERGE COMMIT
 * Scenario: You're merging a feature branch into the master branch but master has been updated with new commits in the meantime...
-    * Visualization: <https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging>
-    * Because the latest commit on master isn't a direct ancestor of the feature branch, Git must a create a 3-way merge:
-        * Git uses the latest commits of both branches as two snapshots and the one common ancestor commit of the both...
-        * Git then creates a new snapshot resulting from this 3-way merge and creates a new commit that points to it
-        * This 3-way merge commit is referred to as a 'merge commit' and is special because it has more than one parent
+	* Visualization: <https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging>
+	* Because the latest commit on master isn't a direct ancestor of the feature branch, Git must a create a 3-way merge:
+		* Git uses the latest commits of both branches as two snapshots and the one common ancestor commit of the both...
+		* Git then creates a new snapshot resulting from this 3-way merge and creates a new commit that points to it
+		* This 3-way merge commit is referred to as a 'merge commit' and is special because it has more than one parent
 
 ### FAST-FORWARD OR MERGE COMMIT
 * Use fast-forward merges (facilitated through rebasing) for small features or bug fixes
@@ -95,23 +95,23 @@ See: <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
 
 ### CHECKOUT
 * `git checkout <file-name|branch-name>` restores working tree files or switches branches
-    * (if no arguments are passed to `git checkout` it assumed you meant to use `HEAD`)
-    * When checking out a branch (`git checkout <branch-name>`)...
-        * HEAD points to the checked out branch
-        * Commit snapshot is copied to the staging area
-        * Branch contents (staged and unstaged changes) are copied to the working area
-    * When checking out a file (`git checkout -- <file-name>`)...
-        * The working area copy of the file is overwritten by the staging area (last committed) copy of the file
-        * Git overwrites without warning
-    * When checking out a commit (`git checkout <commit-hash>`)...
-        * The staging area is updated to match the commit
-        * The working area is updated to match the staging area
-        * Git overwrites without warning
-    * When checking out a file from a commit (`git checkout <commit-hash> <file-name>`)...
-        * The file is copied to both the working area and staging area
-        * Git overwrites without warning
+	* (if no arguments are passed to `git checkout` it assumed you meant to use `HEAD`)
+	* When checking out a branch (`git checkout <branch-name>`)...
+		* HEAD points to the checked out branch
+		* Commit snapshot is copied to the staging area
+		* Branch contents (staged and unstaged changes) are copied to the working area
+	* When checking out a file (`git checkout -- <file-name>`)...
+		* The working area copy of the file is overwritten by the staging area (last committed) copy of the file
+		* Git overwrites without warning
+	* When checking out a commit (`git checkout <commit-hash>`)...
+		* The staging area is updated to match the commit
+		* The working area is updated to match the staging area
+		* Git overwrites without warning
+	* When checking out a file from a commit (`git checkout <commit-hash> <file-name>`)...
+		* The file is copied to both the working area and staging area
+		* Git overwrites without warning
 * Restore a deleted file: `git checkout <deleting-commit>^ <file-name>`
-    * Checkout the file from the parent of the deleting-commit
+	* Checkout the file from the parent of the deleting-commit
 
 ### CLEAN
 * `git clean` will clear untracked files from the working area (cannot be undone)
@@ -127,110 +127,110 @@ See: <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
 * Reset should be reserved for undoing changes on a __private__ branch
 * Reset is a simple way to undo changes that __have not__ been shared with anyone else
 * Reset changes history so use with caution (never push changed history to a shared repository)
-    * Always use revert when changes you want to undo have already been pushed to origin
+	* Always use revert when changes you want to undo have already been pushed to origin
 * For commits (`git reset --<option-flag> HEAD~` or `git reset --mixed <commit-hash> -- <file-name>`)
-    * Moves the HEAD pointer and optionally modifies files (only --soft option prevents modification)
+	* Moves the HEAD pointer and optionally modifies files (only --soft option prevents modification)
 * For files (`git reset <file-name>`):
-    * Does not move the HEAD pointer and will overwrite the file in staging area with the file from HEAD
-        * `git reset` does not allow optional flags but does default to `--mixed`
+	* Does not move the HEAD pointer and will overwrite the file in staging area with the file from HEAD
+		* `git reset` does not allow optional flags but does default to `--mixed`
 
 * Options (3): `--soft`, `--mixed` (default), and `--hard`
-    * `git reset --soft HEAD~`: moves HEAD to the previous commit (no files are changed in working or staging area)
-    * `git reset --mixed HEAD~` or `git reset HEAD~`: moves HEAD to the previous commit and copies files at that commit into staging area
-        * Use this command to unstage files in the staging area
-     * `git reset --hard HEAD~`: moves HEAD to the previous commit and copies files at that commit into staging and into the working areas
-        * This cannot be undone. Use this command to delete all changes.
+	* `git reset --soft HEAD~`: moves HEAD to the previous commit (no files are changed in working or staging area)
+	* `git reset --mixed HEAD~` or `git reset HEAD~`: moves HEAD to the previous commit and copies files at that commit into staging area
+		* Use this command to unstage files in the staging area
+	 * `git reset --hard HEAD~`: moves HEAD to the previous commit and copies files at that commit into staging and into the working areas
+		* This cannot be undone. Use this command to delete all changes.
 
 * Undoing a reset...
-    * Git keeps the previous value of HEAD in a variable called `ORIG_HEAD`
-    * To undo a reset: `git reset ORIG_HEAD`
+	* Git keeps the previous value of HEAD in a variable called `ORIG_HEAD`
+	* To undo a reset: `git reset ORIG_HEAD`
 
 * The difference between reset and checkout is:
-    * `git checkout` moves the HEAD pointer but the branch will remain in place
-    * `git reset` moves both the HEAD pointer and the branch reference
+	* `git checkout` moves the HEAD pointer but the branch will remain in place
+	* `git reset` moves both the HEAD pointer and the branch reference
 
 ### REVERT
 * Reverting undoes a commit by creating a inverse commit
 * Revert is the safe reset because it does not rewrite history
 * Revert should be used to undo changes on a __public__ branch
-    * `git revert <commit-hash>` creates an undo commit to reverse all changes to the previous commit
-    * `git revert HEAD~2` reverts the second-to-last commit and creates a new inverted commit at HEAD
+	* `git revert <commit-hash>` creates an undo commit to reverse all changes to the previous commit
+	* `git revert HEAD~2` reverts the second-to-last commit and creates a new inverted commit at HEAD
 
 ### CHERRY PICK
 * See: <https://www.atlassian.com/git/tutorials/cherry-pick>
 * Cherry picking is the act of picking (copying) a commit (by reference) from one branch and applying it to another
-    * For example, you've accidently made a commit to the wrong branch; you can switch to the correct branch and cherry-pick the commit to copy it there
-        * `git checkout <incorrect-branch> && git log` - find hash of commit in the incorrect branch
-        * `git checkout <correct-branch>` - switch to branch to apply cherry-picked commit to
-        * `git cherry-pick <commit-hash> --no-commit` - apply cherry-picked commit to branch working area (don't commit yet)
+	* For example, you've accidently made a commit to the wrong branch; you can switch to the correct branch and cherry-pick the commit to copy it there
+		* `git checkout <incorrect-branch> && git log` - find hash of commit in the incorrect branch
+		* `git checkout <correct-branch>` - switch to branch to apply cherry-picked commit to
+		* `git cherry-pick <commit-hash> --no-commit` - apply cherry-picked commit to branch working area (don't commit yet)
 
 ### BLAME AND BISECT
 * Use `git blame` to find out who the last persons to touch the file
-    * `git blame <filename> -w -M -C` -- ignore whitespace, detect moved or copied lines within a file, detect code moved or copied from other files modified in the commit
+	* `git blame <filename> -w -M -C` -- ignore whitespace, detect moved or copied lines within a file, detect code moved or copied from other files modified in the commit
 * Use `git bisect` to search through a commit history to find which commit introduced a bug
-    * start the bisect: `git bisect start <bad-commit-hash> <good-commit-hash>`
-    * git will step backward from the <bad-commit-hash>
-    * test: open or cat the relevant file...
-    * if the file contains the bad change mark the commit with `git bisect bad`
-    * if the file does not contain the bad change mark the commit with `git bisect good`
-    * when the commit is marked with `git bisect good`, bisect will stop and report the first bad commit
+	* start the bisect: `git bisect start <bad-commit-hash> <good-commit-hash>`
+	* git will step backward from the <bad-commit-hash>
+	* test: open or cat the relevant file...
+	* if the file contains the bad change mark the commit with `git bisect bad`
+	* if the file does not contain the bad change mark the commit with `git bisect good`
+	* when the commit is marked with `git bisect good`, bisect will stop and report the first bad commit
 
 ## AMEND AND REBASE
 
 ### AMEND
 * Amend makes minor changes to the last commit (e.g., forgetting to include a file)
-    * The original commit is replaced by the amended commit and will be garbage collected
-    * `git commit -m "Add blog post about python` -- but forgot to include file!
-    * `git add posts/python.txt` -- add file to staging
-    * `git commit --amend` -- amend the last commit
+	* The original commit is replaced by the amended commit and will be garbage collected
+	* `git commit -m "Add blog post about python` -- but forgot to include file!
+	* `git add posts/python.txt` -- add file to staging
+	* `git commit --amend` -- amend the last commit
 
 ### REBASE
 * See: <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
 * Rebase = “Add my changes on top of the work the team has already done.”
 * The Golden Rule of Rebasing: Never rebase on public branches. Only rebase private feature branches.
-    * If you’re collaborating with other developers via the same feature branch, that branch is public, and you’re not allowed to re-write its history.
+	* If you’re collaborating with other developers via the same feature branch, that branch is public, and you’re not allowed to re-write its history.
 * It's usually better to rebase instead of generating a superfluous merge commit; rebasing works by transferring each local commit to the updated master branch one at a time
 * This means that you catch merge conflicts on a commit-by-commit basis rather than resolving all of them in one massive merge commit; this makes for a clean project history
 * Tecnically, to rebase is to give a commit a new parent commit i.e., a new base commit. Rebasing is used to clean up history before pushing to a remote.
-    * `git checkout feature_branch && git rebase master`: the parent of the feature branch commit is updated to be the last commit on master
-        * (this resembles a fast-forward merge but rebasing requires the feature branch commit is updated which doesn't happen with a ff)
-    * otherwise: `git checkout feature_branch && git merge master`: a (3-way) merge commit is created which clutters up the history
+	* `git checkout feature_branch && git rebase master`: the parent of the feature branch commit is updated to be the last commit on master
+		* (this resembles a fast-forward merge but rebasing requires the feature branch commit is updated which doesn't happen with a ff)
+	* otherwise: `git checkout feature_branch && git merge master`: a (3-way) merge commit is created which clutters up the history
 * The power of rebasing is that we can edit/remove/combine/re-order/insert commits before they are 'replayed' on top of the new HEAD
-    * Interactive rebase: `git rebase -i <commit-to-fix>^`: start interactive rebase from the parent of the target commit
-    * Rebase options:
-        * `pick`: keep this commit
-        * `reword`: keep this commit, but change the commit message
-        * `edit`: keep this commit, but stop to edit more than the message
-        * `squash`: combine this commit with the previous one and stop to edit the message
-        * `fixup`: combine this commit with the previous one and keep the previous message
-        * `exec`: run a command (e.g., 'test') on this line after picking the previous commit
-        * `drop`: remove the commit
-    * Rebase can be used to run a command after every commit is applied:
-        * `git rebase -i -exec "run-tests" <commit-hash>`
-        * rebase will stop if the command fails providing an opportunity to fix the current commit
-    * Rebase can be used to split commits into multiple commits:
-        * Start an interactive rebase
-        * Mark the commit with an `edit`
-        * `git reset HEAD^`
-        * `git add` (add to logical grouping)
-        * `git commit -m '...'`
-        * repeat until working area is clean
-        * `git rebase --continue`
+	* Interactive rebase: `git rebase -i <commit-to-fix>^`: start interactive rebase from the parent of the target commit
+	* Rebase options:
+		* `pick`: keep this commit
+		* `reword`: keep this commit, but change the commit message
+		* `edit`: keep this commit, but stop to edit more than the message
+		* `squash`: combine this commit with the previous one and stop to edit the message
+		* `fixup`: combine this commit with the previous one and keep the previous message
+		* `exec`: run a command (e.g., 'test') on this line after picking the previous commit
+		* `drop`: remove the commit
+	* Rebase can be used to run a command after every commit is applied:
+		* `git rebase -i -exec "run-tests" <commit-hash>`
+		* rebase will stop if the command fails providing an opportunity to fix the current commit
+	* Rebase can be used to split commits into multiple commits:
+		* Start an interactive rebase
+		* Mark the commit with an `edit`
+		* `git reset HEAD^`
+		* `git add` (add to logical grouping)
+		* `git commit -m '...'`
+		* repeat until working area is clean
+		* `git rebase --continue`
 * Before you rebase...
-    * Make a backup copy of the current branch that you can return to
-    * `git checkout feature-branch`
-    * `git checkout -b temporary-branch`
-    * `git rebase -i master`
-    *  * Clean up the history...
-    * `git checkout master`
-    * `git merge temporary-branch`
+	* Make a backup copy of the current branch that you can return to
+	* `git checkout feature-branch`
+	* `git checkout -b temporary-branch`
+	* `git rebase -i master`
+	*  * Clean up the history...
+	* `git checkout master`
+	* `git merge temporary-branch`
 
 ### FIXUP AND AUTO-SQUASH
 * To amend an arbitary commit:
-    * `git add`
-    * `git commit --fixup <commit-hash>` -- create a new commit with a message that starts with 'fixup'
-    * `git rebase -i --autosquash <commit-hash>^` -- autosquash any child commits starting with 'fixup'
-    * git will generate the rebase options and rewrite history
+	* `git add`
+	* `git commit --fixup <commit-hash>` -- create a new commit with a message that starts with 'fixup'
+	* `git rebase -i --autosquash <commit-hash>^` -- autosquash any child commits starting with 'fixup'
+	* git will generate the rebase options and rewrite history
 
 ## HOOKS
 * See: <https://www.atlassian.com/git/tutorials/git-hooks>
@@ -245,30 +245,30 @@ See: <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
 
 ### HISTORY
 * Before pushing to a shared repo, rebase your branch to clean up commit history
-    * `git checkout feature_branch`
-    * `git rebase -i master`
+	* `git checkout feature_branch`
+	* `git rebase -i master`
 * Never rewrite shared history; don't reset or rebase shared commits
 * Rebase from master often and fix merge conflicts as they come up:
-    * `git checkout master`
-    * `git fetch origin master`
-    * `git rebase -i origin/master`
-    * squash commits, fix up commit messages, etc
-    * `git push origin master`
-    * this should result in a fast-forward merge
+	* `git checkout master`
+	* `git fetch origin master`
+	* `git rebase -i origin/master`
+	* squash commits, fix up commit messages, etc
+	* `git push origin master`
+	* this should result in a fast-forward merge
 
 ### PULL REQUESTS
 * You should think of your pull request as a request for a code review
 * Before opening a PR:
-    * Rebase to keep your commit history clean
-        * `git checkout feature_branch`
-        * `git rebase -i master`
-    * Run tests
-    * Pull upstream changes using rebase (`git pull upstream master --rebase`)
-    * Look for a CONTRIBUTING.md in the project root
+	* Rebase to keep your commit history clean
+		* `git checkout feature_branch`
+		* `git rebase -i master`
+	* Run tests
+	* Pull upstream changes using rebase (`git pull upstream master --rebase`)
+	* Look for a CONTRIBUTING.md in the project root
 * After opening a PR:
-    * Explain your changes throughly in the pull request
-    * Link to any open issues your pull request might fix
-    * Check back for comments from maintainers
+	* Explain your changes throughly in the pull request
+	* Link to any open issues your pull request might fix
+	* Check back for comments from maintainers
 
 #### FEATURE BRANCH WORKFLOW
 * See: <https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow>
@@ -277,17 +277,17 @@ See: <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
 * It also means the master branch will never contain broken code, which is a huge advantage for continuous integration environments.
 * Encapsulating feature development also makes it possible to leverage pull requests, which are a way to initiate discussions around a branch.
 * The overall flow of the Gitflow workflow is:
-    * The central repo (origin) is cloned to a local system
-        * `git clone <central-git-repo-url>`
-    * Changes to origin are fetched or pulled into the local clone
-        * `git fetch origin master`
-        * `git pull origin master`
-    * A local feature branch is created
-        * `git checkout -b feature_branch`
-    * Once the feature is completed, the feature branch it is pushed to origin
-        * `git push -u origin feature_branch`
-    * A pull request to merge the feature branch into master is opened
-    * Teammates review code, comment and eventually approve the pushed commits
+	* The central repo (origin) is cloned to a local system
+		* `git clone <central-git-repo-url>`
+	* Changes to origin are fetched or pulled into the local clone
+		* `git fetch origin master`
+		* `git pull origin master`
+	* A local feature branch is created
+		* `git checkout -b feature_branch`
+	* Once the feature is completed, the feature branch it is pushed to origin
+		* `git push -u origin feature_branch`
+	* A pull request to merge the feature branch into master is opened
+	* Teammates review code, comment and eventually approve the pushed commits
 
 #### GITFLOW WORKFLOW
 * See: <https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow>
@@ -300,27 +300,27 @@ See: <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
 * Using a branch to prepare releases makes it possible for one team to polish the current release while another team continues working on features for the next release.
 * It also creates well-defined phases of development (e.g., "This week we're preparing for version 4.0," which is actually demonstrated in the structure of the repository").
 * Like feature branches, `release` branches are based on the `develop` branch. Once the release is ready to ship, it will get merged it into `master` and `develop`, and then deleted.
-* `hotfix` branches are used to quickly patch production releases. Hotfix branches are like release and feature branches except they're based on `master` instead of `develop`.
+* `hotfix` branches are used to quickly patch production releases. Hotfix branches are like `release` and `feature` branches except they're based on `master` instead of `develop`.
 * The `hotfix` should be the only branch that forks directly off of `master`. You can think of `hotfix` branches as ad hoc release branches that work directly with `master`.
 * As soon as the fix is complete, `hotfix` should be merged into both `master` and `develop` (or the current `release` branch), and `master` should be tagged with an updated version number.
 * Having a dedicated line of development for bug fixes lets your team address issues without interrupting the rest of the workflow or waiting for the next release cycle.
 * The overall flow of the Gitflow workflow is:
-    * A develop branch is created from master
-        * `git clone <official-git-repo-url>`
-        * `git checkout -b develop`
-    * A release branch is created from develop
-        * `git branch release`
-    * Feature branches are created from develop
-        * `git checkout -b feature_branch`
-    * When a feature is complete it is merged into the develop branch
-        * `git checkout develop`
-        * `git merge feature_branch`
-    * When the release branch is done it is merged into develop and master
-    * If an issue in master is detected a hotfix branch is created from master
-        * `git checkout master && git checkout -b hotfix`
-    * Once the hotfix is complete it is merged to both develop and master
-        * `git checkout develop && git merge hotfix`
-        * `git checkout master && git merge hotfix`
+	* A develop branch is created from master
+		* `git clone <official-git-repo-url>`
+		* `git checkout -b develop`
+	* A release branch is created from develop
+		* `git branch release`
+	* Feature branches are created from develop
+		* `git checkout -b feature_branch`
+	* When a feature is complete it is merged into the develop branch
+		* `git checkout develop`
+		* `git merge feature_branch`
+	* When the release branch is done it is merged into develop and master
+	* If an issue in master is detected a hotfix branch is created from master
+		* `git checkout master && git checkout -b hotfix`
+	* Once the hotfix is complete it is merged to both develop and master
+		* `git checkout develop && git merge hotfix`
+		* `git checkout master && git merge hotfix`
 
 #### FORKING WORKFLOW
 * See <https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow>
@@ -329,20 +329,20 @@ See: <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
 * Developers push to their own server-side repositories, and only the project maintainer can push to the official repository.
 * This allows the maintainer to accept commits from any developer without giving them write access to the official codebase.
 * The overall flow of the Forked workflow is:
-    * The new server-side copy of the official repo is cloned to a local system
-        * `git clone <official-git-repo-url>`
-    * A remote path for the 'official' repository is added to the local clone
-        * `git remote add upstream <official-git-repo-url>`
-        * `git fetch upstream master`
-        * `git pull upstream master`
-    * A new local feature branch is created
-        `git checkout -b feature_branch`
-    * The developer makes changes on the new branch
-    * New commits are created for the changes
-    * The branch gets pushed to the developer's own server-side copy
-        * `git push origin feature_branch`
-    * The developer opens a pull request from the feature branch to the 'official' repository
-    * The pull request gets approved for merge and is merged into the 'official' server-side repository
+	* The new server-side copy of the official repo is cloned to a local system
+		* `git clone <official-git-repo-url>`
+	* A remote path for the 'official' repository is added to the local clone
+		* `git remote add upstream <official-git-repo-url>`
+		* `git fetch upstream master`
+		* `git pull upstream master`
+	* A new local feature branch is created
+		`git checkout -b feature_branch`
+	* The developer makes changes on the new branch
+	* New commits are created for the changes
+	* The branch gets pushed to the developer's own server-side copy
+		* `git push origin feature_branch`
+	* The developer opens a pull request from the feature branch to the 'official' repository
+	* The pull request gets approved for merge and is merged into the 'official' server-side repository
 
 ## COMMANDS
 ```bash

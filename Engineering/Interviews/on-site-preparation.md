@@ -1,4 +1,3 @@
-
 # ON-SITE TEST PREPARATION
 * Practice solving sample problems on a whiteboard or paper
 * Use an online technical interviewing practice service

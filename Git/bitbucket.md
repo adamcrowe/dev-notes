@@ -1,7 +1,6 @@
 # Workspace Settings
-* <https://bitbucket.org/adamcro/workspace/settings>
-* git clone <https://adamcro@bitbucket.org/adamcro/{repo}.git>
-
+* <https://bitbucket.org/{username}/workspace/settings>
+* git clone <https://{username}@bitbucket.org/{username}/{repo}.git>
 
 # Remove Username from Remote
 * Don't add the remote URL that BitBuckets suggests:
@@ -14,4 +13,3 @@
 * <https://support.atlassian.com/bitbucket-cloud/docs/update-your-username/>
 * <https://support.atlassian.com/bitbucket-cloud/docs/change-a-workspace-id/>
 * <https://stackoverflow.com/questions/15166722/use-own-username-password-with-git-and-bitbucket>
-

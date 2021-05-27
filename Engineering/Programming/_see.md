@@ -1,0 +1,1 @@
+* Coursework: [Frontend Masters: Four Semesters of Computer Science in 5 Hours - Part 1](https://github.com/adamcrowe/course-computer-science-01)

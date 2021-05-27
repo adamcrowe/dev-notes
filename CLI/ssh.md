@@ -1,6 +1,7 @@
 > SSH uses a pair of keys to initiate a secure handshake between remote parties. The key pair contains a public and private key. The private vs public nomenclature can be confusing as they are both called keys. It is more helpful to think of the public key as a "lock" and the private key as the "key". You give the public 'lock' to remote parties to encrypt or 'lock' data. This data is then opened with the 'private' key which you hold in a secure place. -- <https://www.atlassian.com/git/tutorials/git-ssh>
 
 ---
+
 Skip to...
 * [General use](#general)
 * [Git use](#git)
@@ -45,7 +46,7 @@ A passphrase will add an additional layer of security to the SSH and will be req
 At this point, a new SSH key will have been generated at the previously specified file path.
 
 ## 4. Add the new SSH key to the ssh-agent
-The ssh-agent is another program that is part of the SSH toolsuite. The ssh-agent is responsible for holding private keys. Think of it like a keychain. In addition to holding private keys it also brokers requests to sign SSH requests with the private keys so that private keys are never passed around unsecurly.
+The ssh-agent is another program that is part of the SSH toolsuite. The ssh-agent is responsible for holding private keys. Think of it like a keychain. In addition to holding private keys it also brokers requests to sign SSH requests with the private keys so that private keys are never passed around unsecurely.
 
 Before adding the new SSH key to the ssh-agent first ensure the ssh-agent is running by executing:
 

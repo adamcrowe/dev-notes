@@ -11,3 +11,4 @@
 > HTTP is much simpler to implement, while WebSockets require a bit more overhead.
 
 [Introduction to Web Sockets](https://flaviocopes.com/websockets/)
+[The Future of Web Software Is HTML-over-WebSocket](https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/)

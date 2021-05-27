@@ -327,4 +327,3 @@ const userInput = ''; // '' is falsey so: userInput || 'DEFAULT' would return 'D
 const storedData = userInput ?? 'DEFAULT'; // use ?? to preserve non-null/undefined falsey values such as '' or 0
 console.log('+++ storedData: ', storedData); // returns ''
 console.log('+++ typeof storedData: ', typeof storedData); // returns: string
-

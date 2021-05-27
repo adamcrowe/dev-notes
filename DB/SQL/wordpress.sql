@@ -1,11 +1,83 @@
 -- Multi-Rating
 
+SELECT
+(
+  SELECT group_concat(t.name SEPARATOR ', ')
+  FROM wp_table_prefix_terms t
+  LEFT JOIN wp_table_prefix_term_taxonomy tt ON t.term_id = tt.term_id
+  LEFT JOIN wp_table_prefix_term_relationships tr ON tr.term_taxonomy_id = tt.term_taxonomy_id
+  WHERE tt.taxonomy = 'subject' AND p.ID = tr.object_id
+) AS 'Disease',
+p.post_title AS 'Video Post', CONCAT('https://www.example.com/video/', p.post_name) AS 'URL',
+rating.description AS 'Rating', COUNT(*) 'Responded', SUM(value.value) AS 'Total Stars', ROUND(AVG(value.value),2) AS 'Average Stars'
+FROM `wp_table_prefix_mr_rating_item_entry` AS entry
+INNER JOIN `wp_table_prefix_posts` AS p ON p.ID = entry.post_id
+INNER JOIN `wp_table_prefix_mr_rating_item_entry_value` AS value ON value.rating_item_entry_id = entry.rating_item_entry_id
+INNER JOIN `wp_table_prefix_mr_rating_item` AS rating on rating.rating_item_id = value.rating_item_id
+LEFT JOIN `wp_table_prefix_users` AS u ON u.ID = entry.user_id
+WHERE
+p.post_type = 'youtube_video' AND
+p.post_status = 'publish'
+GROUP BY rating.description, p.post_title
+ORDER BY Disease ASC, entry.entry_date DESC;
+
+SELECT
+(
+  SELECT group_concat(t.name SEPARATOR ', ')
+  FROM wp_table_prefix_terms t
+  LEFT JOIN wp_table_prefix_term_taxonomy tt ON t.term_id = tt.term_id
+  LEFT JOIN wp_table_prefix_term_relationships tr ON tr.term_taxonomy_id = tt.term_taxonomy_id
+  WHERE tt.taxonomy = 'subject' AND p.ID = tr.object_id
+) AS 'Disease',
+p.post_title AS 'Video Post', CONCAT('https://www.example.com/video/', p.post_name) AS 'URL',
+rating.description AS 'Rating Question', COUNT(*) 'Rated Count', SUM(value.value) AS 'Total Stars', ROUND(AVG(value.value),2) AS 'Average Stars', entry.entry_date AS 'Rated On', u.user_email AS 'User'
+FROM `wp_table_prefix_mr_rating_item_entry` AS entry
+INNER JOIN `wp_table_prefix_posts` AS p ON p.ID = entry.post_id
+INNER JOIN `wp_table_prefix_mr_rating_item_entry_value` AS value ON value.rating_item_entry_id = entry.rating_item_entry_id
+INNER JOIN `wp_table_prefix_mr_rating_item` AS rating on rating.rating_item_id = value.rating_item_id
+LEFT JOIN `wp_table_prefix_users` AS u ON u.ID = entry.user_id
+WHERE
+p.post_type = 'youtube_video' AND
+p.post_status = 'publish'
+GROUP BY rating.description, p.post_title
+ORDER BY Disease ASC, entry.entry_date DESC;
+
+SELECT p.post_title AS 'Post', CONCAT('https://www.example.com/video/', p.post_name) AS 'URL',
+(
+  SELECT group_concat(t.name SEPARATOR ', ')
+  FROM wp_table_prefix_terms t
+  LEFT JOIN wp_table_prefix_term_taxonomy tt ON t.term_id = tt.term_id
+  LEFT JOIN wp_table_prefix_term_relationships tr ON tr.term_taxonomy_id = tt.term_taxonomy_id
+  WHERE tt.taxonomy = 'subject' AND p.ID = tr.object_id
+) AS 'Disease',
+rating.description AS 'Rating', value.value AS 'Stars', entry.entry_date AS 'Rated On', u.user_email AS 'User'
+FROM `wp_table_prefix_mr_rating_item_entry` AS entry
+INNER JOIN `wp_table_prefix_posts` AS p ON p.ID = entry.post_id
+INNER JOIN `wp_table_prefix_mr_rating_item_entry_value` AS value ON value.rating_item_entry_id = entry.rating_item_entry_id
+INNER JOIN `wp_table_prefix_mr_rating_item` AS rating on rating.rating_item_id = value.rating_item_id
+LEFT JOIN `wp_table_prefix_users` AS u ON u.ID = entry.user_id
+WHERE
+p.post_type = 'youtube_video' AND
+p.post_status = 'publish'
+ORDER BY Disease ASC, entry.entry_date DESC;
+-- With Post Slug --
+SELECT p.ID AS 'Post ID', p.post_title AS 'Title', p.post_name AS 'Slug', rating.description AS 'Rating', value.value AS 'Stars', entry.entry_date AS 'Rated On', u.user_email AS 'User'
+FROM `wp_table_prefix_mr_rating_item_entry` AS entry
+INNER JOIN `wp_table_prefix_posts` AS p ON p.ID = entry.post_id
+INNER JOIN `wp_table_prefix_mr_rating_item_entry_value` AS value ON value.rating_item_entry_id = entry.rating_item_entry_id
+INNER JOIN `wp_table_prefix_mr_rating_item` AS rating on rating.rating_item_id = value.rating_item_id
+LEFT JOIN `wp_table_prefix_users` AS u ON u.ID = entry.user_id
+WHERE
+p.post_type = 'youtube_video' AND
+p.post_status = 'publish'
+ORDER BY p.ID DESC, entry.entry_date DESC;
+
 SELECT p.ID AS 'Post ID', p.post_title AS 'Title', rating.description AS 'Rating', value.value AS 'Stars', entry.entry_date AS 'Rated On', u.user_email AS 'User'
-FROM `jv_wp_haem_mr_rating_item_entry` AS entry
-INNER JOIN `jv_wp_haem_posts` AS p ON p.ID = entry.post_id
-INNER JOIN `jv_wp_haem_mr_rating_item_entry_value` AS value ON value.rating_item_entry_id = entry.rating_item_entry_id
-INNER JOIN `jv_wp_haem_mr_rating_item` AS rating on rating.rating_item_id = value.rating_item_id
-LEFT JOIN `jv_wp_haem_users` AS u ON u.ID = entry.user_id WHERE 1 ORDER BY p.ID DESC, entry.entry_date DESC;
+FROM `wp_table_prefix_mr_rating_item_entry` AS entry
+INNER JOIN `wp_table_prefix_posts` AS p ON p.ID = entry.post_id
+INNER JOIN `wp_table_prefix_mr_rating_item_entry_value` AS value ON value.rating_item_entry_id = entry.rating_item_entry_id
+INNER JOIN `wp_table_prefix_mr_rating_item` AS rating on rating.rating_item_id = value.rating_item_id
+LEFT JOIN `wp_table_prefix_users` AS u ON u.ID = entry.user_id WHERE 1 ORDER BY p.ID DESC, entry.entry_date DESC;
 
 SELECT p.ID AS 'Post ID', p.post_title AS 'Title', rating.description AS 'Rating', value.value AS 'Stars', entry.entry_date AS 'Rated On', u.user_email AS 'User'
 FROM `o_vj_mr_rating_item_entry` AS entry
@@ -13,7 +85,6 @@ INNER JOIN `o_vj_posts` AS p ON p.ID = entry.post_id
 INNER JOIN `o_vj_mr_rating_item_entry_value` AS value ON value.rating_item_entry_id = entry.rating_item_entry_id
 INNER JOIN `o_vj_mr_rating_item` AS rating on rating.rating_item_id = value.rating_item_id
 LEFT JOIN `o_vj_users` AS u ON u.ID = entry.user_id WHERE 1 ORDER BY p.ID DESC, entry.entry_date DESC;
-
 
 -- https://wordpress.stackexchange.com/questions/169863/custom-sql-query-get-all-posts-with-category-id-and-a-concated-list-of-tags-on/263221
 

@@ -1,0 +1,1 @@
+* Coursework: [Understanding TypeScript - 2020 Edition](https://github.com/adamcrowe/course-typescript)

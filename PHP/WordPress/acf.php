@@ -1,6 +1,4 @@
-<?php
-    the_field(); // = echo get_field();
-?>
+<?php the_field(); // = echo get_field(); ?>
 
 <?php
 // Prefilter Uploads https://www.advancedcustomfields.com/resources/acf-upload_prefilter/
@@ -13,7 +11,6 @@
     // acf/upload_prefilter/key={$key} Applies to all fields of a specific key.
 
 // Example
-
 // This example demonstrates how to restrict all uploads from ACF fields (Image, File, Gallery) to admin users only.
 // functions.php
 

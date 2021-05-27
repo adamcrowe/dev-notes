@@ -2,6 +2,10 @@
 
 [A Developer's notebook](http://alexkrupp.typepad.com/sensemaking/2012/09/program-above-and-beyond-your-actual-ability-by-using-freemind.html)
 
+## Deep Work
+
+* [Deep Work](Career/deep-work.md)
+
 ## Engineering
 
 * [Debugging & Asking Questions](Engineering/debugging.md)
@@ -43,6 +47,10 @@
 > Code that's easier to read gets read more and therefore gets more scrutiny. Because of that, if there are bugs, they're more likely to be found.
 >
 > &mdash; [Gordon Zhu](https://watchandcode.com/courses/77710/lectures/2001287)
+
+> Consistent code formatting is worth fighting for.
+>
+> &mdash;[Death to the Space Infidels!](https://blog.codinghorror.com/death-to-the-space-infidels)
 
 > Deleted code is debugged code.
 >

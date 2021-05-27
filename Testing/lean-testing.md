@@ -1,3 +1,1 @@
-> The Return on investment (ROI) of an end-to-end test is higher than that of a unit test. This is because an end-to-end test covers a much greater area of the code base. Even taking into account higher costs, it provides disproportionally more confidence.
->
-> &mdash; -- [Lean Testing or Why Unit Tests are Worse than You Think](https://blog.usejournal.com/lean-testing-or-why-unit-tests-are-worse-than-you-think-b6500139a009)
+> The Return on investment (ROI) of an end-to-end test is higher than that of a unit test. This is because an end-to-end test covers a much greater area of the code base. Even taking into account higher costs, it provides disproportionally more confidence. -- [Lean Testing or Why Unit Tests are Worse than You Think](https://blog.usejournal.com/lean-testing-or-why-unit-tests-are-worse-than-you-think-b6500139a009)
