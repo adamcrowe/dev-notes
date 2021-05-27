@@ -1,1 +1,2 @@
 * Coursework: [Frontend Masters: Four Semesters of Computer Science in 5 Hours - Part 1](https://github.com/adamcrowe/course-computer-science-01)
+* Coursework: [Course: Watch and Code by Gordon Zhu](https://github.com/adamcrowe/course-watch-and-code)
