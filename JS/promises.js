@@ -1,11 +1,11 @@
-// ! Promises
+// # Promises
 // The Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
 // Essentially, a promise is a returned object to which you attach callbacks, instead of passing callbacks into a function.
 
 const promise = createAudioFileAsync(audioSettings);
 promise.then(successCallback, failureCallback);
 
-// ! Chaining
+// # Chaining
 const promise = doSomething();
 const promise2 = promise.then(successCallback, failureCallback);
 // The then() function returns a new promise, different from the original. This second promise (promise2) represents the completion not
@@ -23,7 +23,7 @@ doSomething()
     .catch(failureCallback);
 // .catch(failureCallback) is short for then(null, failureCallback)
 
-// !! Chaining after a catch
+// ## Chaining after a catch
 // It's possible to chain after a failure, i.e. a catch, which is useful to accomplish new actions even after an action failed in the chain:
 new Promise((resolve, reject) => {
     console.log('Initial');
@@ -45,7 +45,7 @@ new Promise((resolve, reject) => {
 // Do that
 // Do this, no matter what happened before
 
-// ! Error propagation
+// # Error propagation
 // In the old days, doing several asynchronous operations in a row would lead to the classic callback pyramid of doom:
 doSomething(function (result) {
     doSomethingElse(result, function (newResult) {
@@ -98,7 +98,7 @@ async function foo() {
     }
 }
 
-// !! Simple error handling
+// ## Simple error handling
 // The promise constructor takes one argument, a callback with two parameters, resolve and reject.
 // Do something within the callback, then call resolve if everything worked, otherwise call reject.
 var promise = new Promise((resolve, reject) => {
@@ -133,7 +133,7 @@ async function foo() {
     }
 }
 
-// ! Composition
+// # Composition
 // Promise.resolve() and Promise.reject() are shortcuts to manually create an already resolved or rejected promise respectively. This can be useful at times.
 // Promise.all() and Promise.race() are two composition tools for running asynchronous operations in parallel.
 // We can start operations in parallel and wait for them all to finish like this:
@@ -142,14 +142,14 @@ Promise.all([func1(), func2(), func3()])
         /* use result1, result2 and result3 */
     });
 
-// !! Sequential composition with async/await:
+// ## Sequential composition with async/await:
 let result;
 for (const f of [func1, func2, func3]) {
     result = await f(result);
 }
 /* use last result (i.e. result3) */
 
-// ! Nesting
+// # Nesting
 // Nesting is a control structure to limit the scope of catch statements. Specifically, a nested catch only catches failures in its scope and below, not errors higher up in the chain outside the nested scope. When used correctly, this gives greater precision in error recovery:
 doSomethingCritical()
     .then(result => doSomethingOptional()
@@ -164,7 +164,7 @@ doSomethingCritical()
 // Note that the optional steps here are nested, not from the indentation, but from the precarious placement of the outer(and) around them.
 // The inner neutralizing catch statement only catches failures from doSomethingOptional() and doSomethingExtraNice(), after which the code resumes with moreCriticalStuff().Importantly, if doSomethingCritical() fails, its error is caught by the final(outer) catch only.
 
-// ! Async/Await
+// # Async/Await
 // ES7 gives us a new kind of function, the async function. Inside of an async function, we have a new keyword, await, which we use to "wait for" a promise:
 
 async function myFunction() {
@@ -247,7 +247,7 @@ const jsonPromises = urls.map(async url => {
 // array.map(func) doesn't care that it has been given an async function, it just sees it as a function that returns a promise
 // (it won't wait for the first function to complete before calling the second).
 
-// !!! Object methods
+// ### Object methods
 const storage = {
     async getAvatar(name) {
         const cache = await caches.open('avatars');
@@ -257,7 +257,7 @@ const storage = {
 
 storage.getAvatar('jaffathecake').then(/* do more stuff */);
 
-// !!! Class methods
+// ### Class methods
 class Storage {
     constructor() {
         this.cachePromise = caches.open('avatars');
@@ -273,7 +273,7 @@ const storage = new Storage();
 storage.getAvatar('jaffathecake').then(/* do more stuff */);
 // Note: Class constructors and getters / settings cannot be async.
 
-// !!! Promisifying XMLHttpRequest
+// ### Promisifying XMLHttpRequest
 function get(url) {
     // Return a new promise.
     return new Promise(function (resolve, reject) {
@@ -314,7 +314,7 @@ get('story.json').then(
     },
 );
 
-// !! Chaining
+// ## Chaining
 // You can transform values simply by returning the new value:
 
 var promise = new Promise(function (resolve, reject) {
@@ -333,7 +333,7 @@ promise
         }
     );
 
-// !! Queuing asynchronous actions
+// ## Queuing asynchronous actions
 // You can also chain thens to run async actions in sequence. When you return something from a then()
 // callback, it's a bit magic. If you return a value, the next then() is called with that value.
 // However, if you return something promise-like, the next then() waits on it, and is only called when
@@ -370,7 +370,7 @@ getChapter(0).then(function (chapter) {
 // We don't download story.json until getChapter is called, but the next time(s) getChapter is called we reuse
 // the story promise, so story.json is only fetched once.
 
-// !! Loops
+// ## Loops
 // Cannot use forEach, instead:
 // 1. Read files in sequence (for/of):
 async function printFiles() {
@@ -391,6 +391,7 @@ async function printFiles() {
     }));
 }
 
+// # Referencees
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
 // https://developers.google.com/web/fundamentals/primers/promises
 // https://developers.google.com/web/fundamentals/primers/async-functions

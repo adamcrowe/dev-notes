@@ -42,15 +42,12 @@
 - [x] [CHROME DEVELOPER TOOLS TUTORIAL: INSPECT AND TEST CSS 2019](https://www.youtube.com/watch?v=s0RI4IXKE_o)
 - [x] [BUILDING YOUR OWN DESIGN SYSTEM WITH CSS VARIABLES - TALK BY SCOTT TOLINSKI](https://www.youtube.com/watch?v=LwYZTKxj-do)
 
-# JAVASCRIPT/TYPESCRIPT
+# JAVASCRIPT
+- [ ] [JAVASCRIPT: UNDERSTANDING THE WEIRD PARTS](https://www.udemy.com/course/understand-javascript)
 - [ ] [FREECODECAMP: JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION](https://www.freecodecamp.org/learn)
 - [ ] [FREECODECAMP JAVASCRIPT CERTIFICATION PROJECTS (TALK ALOUDS)](https://www.youtube.com/watch?v=XV5OCibNpLI&list=PLehRZjGCVhQLTWPN8mTo3rlRDQff9fCmT)
 - [-] [JAVASCRIPT - THE COMPLETE GUIDE 2020](https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced)
 - [-] [THE COMPLETE JAVASCRIPT COURSE 2020](https://www.udemy.com/course/the-complete-javascript-course)
-- [x] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
-- [x] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns)
-- [ ] [DESIGN PATTERNS IN TYPESCRIPT](https://refactoring.guru/design-patterns/typescript)
-- [ ] [BUILDING AN API WITH TYPESCRIPT AND AWS](https://www.freecodecamp.org/news/build-an-api-with-typescript-and-aws)
 - [ ] [MDN: JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
 - [ ] [DO MORE WITH REDUCE](https://jrsinclair.com/articles/2019/functional-js-do-more-with-reduce)
 - [ ] [YOU DON'T KNOW JAVASCRIPT](https://github.com/getify/You-Dont-Know-JS)
@@ -66,11 +63,18 @@
 - [ ] [HOW TO CREATE AND PUBLISH A CHROME EXTENSION IN 20 MINUTES](https://medium.freecodecamp.org/how-to-create-and-publish-a-chrome-extension-in-20-minutes-6dc8395d7153)
 - [ ] [FRONTEND GUIDELINES (JS, HTML, CSS)](https://github.com/bendc/frontend-guidelines)
 - [ ] [WARRIORJS](https://warrior.js.org)
-- [ ] [THE COMPLETE TYPESCRIPT COURSE](https://angular-university.io/course/typescript-2-tutorial)
-- [x] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
 - [x] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
 - [x] CORE JAVASCRIPT CONCEPTS
 - [-] [LEARN AJAX WITH JQUERY](https://www.udemy.com/course/jquery-ajax/)
+
+# TYPESCRIPT
+- [ ] [TYPESCRIPT: THE COMPLETE DEVELOPER'S GUIDE](https://www.udemy.com/course/typescript-the-complete-developers-guide)
+- [x] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
+- [x] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns)
+- [ ] [DESIGN PATTERNS IN TYPESCRIPT](https://refactoring.guru/design-patterns/typescript)
+- [ ] [BUILDING AN API WITH TYPESCRIPT AND AWS](https://www.freecodecamp.org/news/build-an-api-with-typescript-and-aws)
+- [ ] [THE COMPLETE TYPESCRIPT COURSE](https://angular-university.io/course/typescript-2-tutorial)
+- [x] [TYPESCRIPT GENERICS EXPLAINED](https://medium.com/@rossbulat/typescript-generics-explained-15c6493b510f)
 
 # FRONTEND (DOM MANIPULATION)
 - [ ] [BUILD A QUIZ APP USING REACT AND TYPESCRIPT](https://www.freecodecamp.org/news/how-to-build-a-quiz-app-using-react-and-typescript)
@@ -108,7 +112,7 @@
 - [ ] [ANGULAR AND REDUX: INTRODUCTION TO STATE MANAGEMENT](https://medium.com/codingthesmartway-com-blog/angular-and-redux-ecd22ea53492)
 - [ ] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
 - [ ] [BUILD PERFORMANT AND PROGRESSIVE ANGULAR APPLICATIONS](https://web.dev/angular)
-- [ ] [ANGULAR COURSE](https://codecraft.tv/courses/angular/quickstart/overview)
+- [ ] [ANGULAR COURSE](https://codecraft.tv/courses//quickstart/overview)
 - [x] [ANGULAR COMPONENT DESIGN](https://blog.angular-university.io/angular-component-design-how-to-avoid-custom-event-bubbling-and-extraneous-properties-in-the-local-component-tree)
 - [x] [NG-BOOK (ANGULAR 5)](https://www.ng-book.com/2)
 - [x] [ANGULAR TUTORIAL](https://angular.io/tutorial)
@@ -355,7 +359,7 @@
 - [ ] [ELEMENTS OF AI (PYTHON)](https://www.elementsofai.com)
 - [ ] [MATHS FOR PROGRAMMERS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
 - [ ] [A COMMON-SENSE GUIDE TO DATA STRUCTURES AND ALGORITHMS](https://pragprog.com/book/jwdsal/a-common-sense-guide-to-data-structures-and-algorithms)
-- [ ] [STRUCTURE AND INTERPRETATION OF COMPUTER PROGRAMS — JAVASCRIPT ADAPTATION](https://sicp.comp.nus.edu.sg)
+- [ ] [STRUCTURE AND INTERPRETATION OF COMPUTER PROGRAMS — JAVASCRIPT ADAPTATION](https://github.com/source-academy/sicp)
 - [ ] [DATA STRUCTURES AND ALGORITHMS WITH JAVASCRIPT](http://shop.oreilly.com/product/0636920029557.do)
 - [ ] [DATA STRUCTURES AND ALGORITHMS IN JAVASCRIPT - FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=t2CEgPsws3U)
 - [ ] [LEARNING ALGORITHMS APP](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
@@ -368,6 +372,9 @@
 - [ ] [INTRODUCTION TO DATA STRUCTURES FOR INTERVIEWS](https://frontendmasters.com/courses/data-structures-interviews)
 - [ ] [TREE AND GRAPH DATA STRUCTURES](https://frontendmasters.com/courses/trees-and-graphs)
 - [x] [OBJECT ORIENTED PROGRAMMING IS NOT WHAT I THOUGHT - TALK BY ANJANA VAKIL](https://www.youtube.com/watch?v=TbP2B1ijWr8)
+
+# ML
+- [ ] [MACHINE LEARNING WITH JAVASCRIPT](https://www.udemy.com/course/machine-learning-with-javascript)
 
 # CRAFTMANSHIP
 - [ ] [REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE](https://www.informit.com/store/refactoring-improving-the-design-of-existing-code-9780134757599)

@@ -1,7 +1,7 @@
-// ! Array-like Objects
+// # Array - like Objects
 // Have various numbered elements and a `.length` property but do not have array methods
 
-// !! Array-like Objects
+// # Array-like Objects
 // * String
 // * HTML DOM NodeList (returned by document.getElementsByTagName(), document.forms(), etc.)
 // * The `arguments` object accessible within the body of a function

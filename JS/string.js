@@ -1,6 +1,6 @@
-// ! String
+// # String
 
-// !! Multi-lines
+// ## Multi-lines
 
 // new line character
 console.log('string text line 1\n\
@@ -14,7 +14,7 @@ string text line 2`);
 // "string text line 1
 // string text line 2"
 
-// !! Embedded expressions
+// ## Embedded expressions
 
 // concatenation
 var a = 5;
@@ -30,7 +30,7 @@ console.log(`Fifteen is ${a + b} and\nnot ${2 * a + b}.`);
 // "Fifteen is 15 and
 // not 20."
 
-// !! Tagged templates
+// ## Tagged templates
 var person = 'Mike';
 var age = 28;
 

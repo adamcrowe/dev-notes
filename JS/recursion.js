@@ -36,6 +36,8 @@ function factorial(n) {
 	}
 }
 
+console.log(factorial(4));
+
 // ## Use case: Flatten a nested array (without using Array.flatten)
 function flattenArray(arr) {
 	return arr.reduce((acc, item) => {
@@ -61,7 +63,7 @@ function formatMoney(numbers) {
 		return numbers.map(function mapper(element) { // named `mapper` for ease of call stack debugging
 			// 1. map seeks to duplicate array structure of numbers but with transformed elements
 			// 2. keep sending element through the function until the element is *not* an array
-			// 3. add to transformed element into the duplicated array structure of numbers
+			// 3. add transformed element into the duplicated array structure of numbers
 			return formatMoney(element);
 		});
 	// Base case: numbers/(element) is not an array, so transform it and add to mapped array

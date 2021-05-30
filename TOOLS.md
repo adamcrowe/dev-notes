@@ -111,9 +111,14 @@
 * Vercel <https://vercel.com>
 * StackBlitz: Create, edit & deploy fullstack apps — in just one click <https://stackblitz.com>
 
-# LINTING
-* EditorConfig: Maintain consistent coding styles between different editors and IDEs <http://editorconfig.org>
+# LINTING / STYLE GUIDES
+* [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+* [Prettier: Code Formatter](https://prettier.io)
+  * [Options](https://prettier.io/docs/en/options.html)
+* [EditorConfig](http://editorconfig.org)
+  * [Example](https://github.com/twbs/bootstrap/blob/master/.editorconfig)
 * ESLint: Find and fix problems in your JavaScript code <https://eslint.org>
+
 
 # DOCUMENTATION
 * Carbon: Publish Beautiful Code Snippets <https://carbon.now.sh>

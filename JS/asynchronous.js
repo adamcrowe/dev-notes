@@ -1,4 +1,4 @@
-// ! Asynchronous (see: RxJS, Promises)
+// # Asynchronous (see: RxJS, Promises)
 
 // There are generally three approaches to dealing with async code:
 // * Callbacks
@@ -12,44 +12,44 @@
 
 // The asynchronous process begins with an asynchronous callback functions placed into a Heap or region of memory. You can think of the Heap as an Event Manager. The Call Stack asks the Event Manager to execute a specific function only when a certain event happens. Once that event happens, the Event Manager moves the function to the Callback Queue. Note: When the Event Manager handles a function, the code after that is not blocked and JavaScript continues its execution. The Event Loop handles the execution of multiple pieces of your code over time. The Event Loop monitors the Call Stack and the Callback Queue. The Call Stack is constantly checked whether it is empty or not. When it is empty, the Callback Queue is checked if there is a function waiting to be invoked. When there is a function waiting, the first function in the queue is pushed into the Call Stack, which will run it. This checking process is called a 'tick' in the Event Loop. Let's break down the execution of the following code to understand how this process works:
 
-const first = function() { 
-	console.log("First message"); 
-}; 
+const first = function() {
+	console.log("First message");
+};
 
-const second = function() { 
-	console.log("Second message"); 
-}; 
+const second = function() {
+	console.log("Second message");
+};
 
-const third = function() { 	
-	console.log("Third message"); 
-}; 
+const third = function() {
+	console.log("Third message");
+};
 
-first(); 
-setTimeout(second, 0); 
-third(); 
+first();
+setTimeout(second, 0);
+third();
 
-// First message 
-// Third message 
+// First message
+// Third message
 // Second message
 
-// 1. Initially the Browser console is clear and the Call Stack and Event Manager are empty. 
-// 2. first() is added to the Call Stack. 
-// 3. console.log("First message") is added to the Call Stack. 
-// 4. console.log("First message") is executed and the Browser console displays "First message". 
-// 5. console.log("First message") is removed from the Call Stack. 
-// 6. first() is removed from the Call Stack. 
-// 7. setTimeout(second, 0) is added to the Call Stack. 
-// 8. setTimeout(second, 0) is executed and handled by the Event Manager. And after 0ms the Event Manager moves second() to the Callback Queue. 
-// 9. setTimeout(second, 0) is now completed and removed from the Call Stack. 
-// 10. third() is added to the Call Stack. 
-// 11. console.log("Third message") is added to the Call Stack. 
+// 1. Initially the Browser console is clear and the Call Stack and Event Manager are empty.
+// 2. first() is added to the Call Stack.
+// 3. console.log("First message") is added to the Call Stack.
+// 4. console.log("First message") is executed and the Browser console displays "First message".
+// 5. console.log("First message") is removed from the Call Stack.
+// 6. first() is removed from the Call Stack.
+// 7. setTimeout(second, 0) is added to the Call Stack.
+// 8. setTimeout(second, 0) is executed and handled by the Event Manager. And after 0ms the Event Manager moves second() to the Callback Queue.
+// 9. setTimeout(second, 0) is now completed and removed from the Call Stack.
+// 10. third() is added to the Call Stack.
+// 11. console.log("Third message") is added to the Call Stack.
 // 12. console.log("Third message") is executed and the Browser console displays "Third message".
-// 13. console.log("Third message") is removed from the Call Stack. 
-// 14. Call Stack is now empty and the second() function is waiting to be invoked in the Callback Queue. 
-// 15. The Event Loop moves second() from the Callback Queue to the Call Stack. 
-// 16. console.log("Second message") is added to the Call Stack. 
-// 17. console.log("Second message") is executed and the Browser console displays "Second message". 
-// 18. console.log("Second message") is removed from the Call Stack. 
+// 13. console.log("Third message") is removed from the Call Stack.
+// 14. Call Stack is now empty and the second() function is waiting to be invoked in the Callback Queue.
+// 15. The Event Loop moves second() from the Callback Queue to the Call Stack.
+// 16. console.log("Second message") is added to the Call Stack.
+// 17. console.log("Second message") is executed and the Browser console displays "Second message".
+// 18. console.log("Second message") is removed from the Call Stack.
 // 19. second() is removed from the Call Stack.
-	
-// Note: The second() function is not executed after 0ms. The time you pass in to setTimeout function does not relate to the delay of its execution. The Event Manager will wait the given time before moving that function into the Callback Queue. 
+
+// Note: The second() function is not executed after 0ms. The time you pass in to setTimeout function does not relate to the delay of its execution. The Event Manager will wait the given time before moving that function into the Callback Queue.

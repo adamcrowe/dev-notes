@@ -1,0 +1,1 @@
+* [Simplified JavaScript Jargon](http://jargon.js.org/)

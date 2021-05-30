@@ -84,7 +84,7 @@ function removeDuplicateStrings(str) {
     return [...set].join(' '); // create string of words (with spaces)
     // return [...new Set(str.split(' '))].join(' ');
 }
-console.log(removeDuplicateStrings('This is is  a test test string')); // This is a test string
+console.log(removeDuplicateStrings('This is is a test test string')); // This is a test string
 ```
 
 ## How do you flatten an array without using .flat()?

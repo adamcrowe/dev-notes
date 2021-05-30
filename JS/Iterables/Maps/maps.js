@@ -1,4 +1,4 @@
-// ! Maps
+// # Maps
 // * Used for storing additional information about an object *outside* of that object
 // * Store key - value data of any kind and length
 // * Can take any value for the key(unlike objects)
@@ -37,7 +37,7 @@ for (const value of personData.values()) {
     console.log(value);
 }
 
-// !! WeakMap
+// ## WeakMap
 // * The WeakMap object is a collection of key/value pairs in which the keys are weakly referenced.
 // * WeakMaps hold "weak" references to key objects, which means that they do not prevent garbage collection in case there would be no other reference to the key object.
 
@@ -47,6 +47,6 @@ personData.set(person, 'Extra info');
 
 person = null; // person will be garbage collected (unlike with Map)
 
-/// !!! References
+/// ### References
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap
