@@ -1,5 +1,5 @@
-// ! Type Coercion
-// !! Truthy & Falsy Values
+// # Type Coercion
+// ## Truthy & Falsy Values
 
 // * Falsy values are values that will be coerced to false when forced into a boolean.
 false, 0, "", undefined, null, NaN
@@ -7,7 +7,7 @@ false, 0, "", undefined, null, NaN
 // * Anything not explicitly on the falsy list is truthy when coerced into a boolean.
 'hello', '0', ' ', [], {}, function(){}
 
-// !! Implicit
+// ## Implicit
 var name = "Joey";
 // coerce name string into truthy boolean
 if (name) {
@@ -27,7 +27,7 @@ if (name) {
 null + 1 = 1;         // additions coerces null
 undefined + 1 = NaN;  // no compatible coercion
 
-// !! Explicit
+// ## Explicit
 var a = "21";
 // implicit coercion
 var b = a * 2;

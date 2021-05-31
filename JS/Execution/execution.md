@@ -5,15 +5,15 @@
 
 ### Global Execution Context
 * The global execution context is the default or base execution context. The code that is not inside any function is in the global execution context.
-* The global execution context performs two things: it creates a global object (the window object for browsers) and sets the value of `this` to equal to the global object.
+* The global execution context performs two things: it creates a global object (the window object for browsers) and sets the value of `this` to the global object.
 * There can only be one global execution context in a program.
 
 ### Functional Execution Context
-* Every time a function is invoked, a brand new execution context is created for that function. Each function has its own execution context that is created when the function is invoked or called.
+* Every time a function is invoked, a brand new execution context is created. Each function has its own execution context that is created when the function is invoked or called.
 * There can be any number of function execution contexts. Whenever a new execution context is created, it goes through a series of steps in a defined order (explained below).
 
 ### Eval Function Execution Context
-* Code executed inside an `eval` function also gets its own execution context. `eval` isn’t often used by JS developers.
+* Code executed inside an `eval` function also gets its own execution context. (`eval` isn't often used by JS developers.)
 
 # Execution Stack (Call Stack)
 * The Execution Stack is a stack with a LIFO (Last in, First out) structure, which is used to store all the execution context created during the code execution.
@@ -137,7 +137,7 @@ foo(2, 3); // Arguments: {0: 2, 1: 3, length: 2}
 * This is where the value of `this` is determined or set.
 * In the global execution context, the value of `this` refers to the global object (in browsers, this refers to the Window Object).
 * In the function execution context, the value of `this` depends on how the function is called:
-	* If called by an object reference, then the value of `this` is set to that object, otherwise, the value of `this` is set to the global object or undefined(in strict mode). For example:
+	* If called by an object reference, then the value of `this` is set to that object, otherwise, the value of `this` is set to the global object or undefined (in strict mode). For example:
 
 ```javascript
 const person = {

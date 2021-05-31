@@ -1,4 +1,4 @@
-// ! Value vs. Reference:
+// € Value vs. Reference:
 var a = 2;             // 'a' holds a copy of the value 2.
 var b = a;             // 'b' is always a copy of the value in 'a'
 b++;
@@ -15,7 +15,7 @@ var e = [1, 2, 3, 4];
 console.log(c === d);  // true
 console.log(c === e);  // false - c and e exist in different locations in memory
 
-// !! Copying an object, array or function:
+// ## Copying an object, array or function:
 // To copy a compound (object, array, function) value by value, you need to make a copy of it.
 var c = [1, 2, 3, 4];
 const copy = c.slice();  // 'copy' references a new value created by slice (which returns a new array)

@@ -1,3 +1,5 @@
+// TODO: Review the following for accuracy and clarity with reference to execution.md
+
 // # Hoisting
 
 // * Hoisitng is the behavior of moving `var` and function declarations to the top of their respective scopes during the compilation phase.

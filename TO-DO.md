@@ -187,11 +187,16 @@
 - [ ] [REDUX: LEARNING RESOURCES](https://redux.js.org/introduction/learning-resources)
 - [x] [THINKING IN REACT (UI COMPONENT ARCHITECTURE + UI STATE)](https://reactjs.org/docs/thinking-in-react.html)
 
-# FUNCTIONAL REACTIVE
+# FUNCTIONAL
+- [ ] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
+- [ ] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
+- [ ] [UNDERSCOREJS ANNOTATED CODE](https://underscorejs.org/docs/underscore-esm.html)
 - [ ] [LEARN REDUCE IN 10 MINUTES](https://yazeedb.com/posts/learn-reduce-in-10-minutes)
 - [ ] [10 JAVASCRIPT UTILITY FUNCTIONS MADE WITH REDUCE](https://yazeedb.com/posts/10-js-util-functions-in-reduce)
 - [ ] [10 MORE UTILITY FUNCTIONS MADE WITH REDUCE](https://yazeedb.com/posts/10-more-js-utils-using-reduce)
 - [ ] [YET ANOTHER 10 UTILITY FUNCTIONS MADE WITH REDUCE](https://yazeedb.com/posts/yet-another-10-utils-using-reduce)
+
+# REACTIVE
 - [ ] [BUILD A REACT APPLICATION USING RXJS](https://auth0.com/blog/build-a-react-application-using-rxjs)
 - [ ] [NETFLIX JAVASCRIPT TALKS: RXJS](https://www.youtube.com/results?search_query=netflix+rxjs&search_type=&aq=f&oq=)
 - [ ] [ASYNCHRONOUS PROGRAMMING IN JAVASCRIPT WITH RXJS OBSERVABLES](https://frontendmasters.com/courses/asynchronous-javascript)
@@ -209,8 +214,6 @@
 - [ ] [BUILD REACTIVE WEBSITES WITH RXJS](https://pragprog.com/book/rkrxjs/build-reactive-websites-with-rxjs)
 - [ ] [DECLARATIVE VS. IMPERATIVE PROGRAMMING FOR THE WEB](http://codenugget.co/2015/03/05/declarative-vs-imperative-programming-web.html)
 - [ ] [HELLO, DECLARATIVE WORLD](http://codon.com/hello-declarative-world)
-- [ ] [FUNCTIONAL-LIGHT JAVASCRIPT](https://leanpub.com/fljs)
-- [ ] [JAVASCRIPT ALLONGE](https://leanpub.com/javascriptallongesix)
 
 # BACKEND (NODE)
 - [-] [NODE.JS THE COMPLETE GUIDE (MVC, REST API, GRAPHQL, NEXTJS)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
@@ -368,7 +371,7 @@
 - [x] [DATA STRUCTURES & ALGORITHMS I ACTUALLY USED WORKING AT TECH COMPANIES](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day)
 - [x] [FOUR SEMESTERS OF COMPUTER SCIENCE IN 5 HOURS - PART 1](https://frontendmasters.com/courses/computer-science)
 - [ ] [FOUR SEMESTERS OF COMPUTER SCIENCE IN 5 HOURS - PART 2](https://frontendmasters.com/courses/computer-science-2)
-- [x] [A PRACTICAL GUIDE TO ALGORITHMS WITH JAVASCRIPT](https://frontendmasters.com/courses/practical-algorithms)
+- [ ] [A PRACTICAL GUIDE TO ALGORITHMS WITH JAVASCRIPT](https://frontendmasters.com/courses/practical-algorithms)
 - [ ] [INTRODUCTION TO DATA STRUCTURES FOR INTERVIEWS](https://frontendmasters.com/courses/data-structures-interviews)
 - [ ] [TREE AND GRAPH DATA STRUCTURES](https://frontendmasters.com/courses/trees-and-graphs)
 - [x] [OBJECT ORIENTED PROGRAMMING IS NOT WHAT I THOUGHT - TALK BY ANJANA VAKIL](https://www.youtube.com/watch?v=TbP2B1ijWr8)
