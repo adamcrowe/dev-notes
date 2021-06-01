@@ -1,4 +1,4 @@
-// TODO: Review the following for accuracy and clarity with reference to execution.md
+// TODO: Review the following for accuracy and clarity with reference to execution.md and notes from JAVASCRIPT: UNDERSTANDING THE WEIRD PARTS
 
 // # Hoisting
 

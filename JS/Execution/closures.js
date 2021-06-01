@@ -3,27 +3,28 @@
 
 // Functions can always remember the variables that they could see at creation. Every nested function is a closure: the nested function "inherits" the arguments and variables of its containing function. In other words, the inner function contains or "encloses" the scope ("lexical environment") of the outer function. The inner function forms a closure: the inner function can use the arguments and variables of the outer function, while the outer function cannot use the arguments and variables of the inner function.
 
+// Example 1
 function init() {
-	var name = 'Mozilla';		// name is a local variable created by init
-	function displayName() {	// displayName() is the inner function, a closure
-		alert(name);			// use enclosed variable declared in the parent function   
+	var name = 'Mozilla'; // `name` is scoped to the `init` function execution context
+	function displayName() { // `displayName()` is the inner function which encloses any variables and arguments within `init`
+		alert(name);
 	}
 	displayName();
 }
-
 init();
 
+// Example 2
 function makeFunc() {
 	var name = 'Mozilla';
 	function displayName() {
 		alert(name);
 	}
-	return displayName;		// returns the function and lexical environment
+	return displayName;	// returns a function that encloses the lexical environment of its parent `makeFunc`
 }
-
 var myFunc = makeFunc();
-myFunc(); 					// run displayName() using its lexical environment makeFunc()
+myFunc(); // runs `displayName()` which find `name` within an enclosed lexical environment of `makeFunc`
 
+// Example 3
 function outside(x) {
 	function inside(y) {
 		return x + y;
@@ -31,28 +32,28 @@ function outside(x) {
 	return inside;
 }
 
-fn_inside = outside(3);		// give me a function that adds 3 to whatever you give it
-// fn_inside is a closure: it encloses outside's scope/"lexical environment" var x
+fn_inside = outside(3);	// returns a function that adds 3 to whatever you give it
+// fn_inside is a closure: it encloses `x` from the lexical environment of `outside`
 
-result = fn_inside(5); 		// returns 8
-result1 = outside(3)(5); 	// returns 8
+result = fn_inside(5); // returns 8
+result1 = outside(3)(5); // returns 8
 
+// Example 4
 function makeAdder(x) {
 	return function(y) {
 		return x + y;
 	};
 }
 
-var add5 = makeAdder(5); 	// add5 is a reference to fn(y) and x = 5
-var add10 = makeAdder(10); 	// add5 is a reference to fn(y) and x = 10
+var add5 = makeAdder(5); // add5 is a reference to fn(y) and x = 5
+var add10 = makeAdder(10); // add5 is a reference to fn(y) and x = 10
 
-console.log(add5(2));		// 7 = fn(2) // 2 + 5
-console.log(add10(2));		// 12 = fn(2) // 2 + 10
+console.log(add5(2)); // 7 = fn(2) // 2 + 5
+console.log(add10(2)); // 12 = fn(2) // 2 + 10
 
-// In essence, makeAdder is a function factory – it creates functions which can add a specific value to their argument. In the above example we use our function factory to create two new functions – one that adds 5 to its argument, and one that adds 10. add5 and add10 are both closures. They share the same function body definition, but store different lexical environments. In add5's lexical environment, x is 5, while in the lexical environment for add10, x is 10.
+// In essence, `makeAdder` is a function factory – it creates functions which can add a specific value to their argument. In the above example we use our function factory to create two new functions – one that adds 5 to its argument, and one that adds 10. add5 and add10 are both closures. They share the same function body definition, but store different lexical environments. In  lexical environment of `add5`, x is 5, while in the lexical environment of `add10`, x is 10.
 
 // # Scope Chaining (Closure Chains)
-
 function A(x) {
 	function B(y) {
 		function C(z) {

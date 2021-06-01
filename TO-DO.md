@@ -361,8 +361,9 @@
 - [ ] [PRACTICAL PROGRAMMING: AN INTRODUCTION TO COMPUTER SCIENCE USING PYTHON 3](https://pragprog.com/book/gwpy3/practical-programming-third-edition)
 - [ ] [ELEMENTS OF AI (PYTHON)](https://www.elementsofai.com)
 - [ ] [MATHS FOR PROGRAMMERS](https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1)
-- [ ] [A COMMON-SENSE GUIDE TO DATA STRUCTURES AND ALGORITHMS](https://pragprog.com/book/jwdsal/a-common-sense-guide-to-data-structures-and-algorithms)
 - [ ] [STRUCTURE AND INTERPRETATION OF COMPUTER PROGRAMS — JAVASCRIPT ADAPTATION](https://github.com/source-academy/sicp)
+- [ ] [A COMMON-SENSE GUIDE TO DATA STRUCTURES AND ALGORITHMS](https://pragprog.com/book/jwdsal/a-common-sense-guide-to-data-structures-and-algorithms)
+- [ ] [FREECODECAMP: JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION](https://www.freecodecamp.org/learn)
 - [ ] [DATA STRUCTURES AND ALGORITHMS WITH JAVASCRIPT](http://shop.oreilly.com/product/0636920029557.do)
 - [ ] [DATA STRUCTURES AND ALGORITHMS IN JAVASCRIPT - FULL COURSE FOR BEGINNERS](https://www.youtube.com/watch?v=t2CEgPsws3U)
 - [ ] [LEARNING ALGORITHMS APP](https://medium.freecodecamp.org/i-built-an-app-that-makes-learning-algorithms-and-data-structures-way-more-fun-46fbb8afacaf)
@@ -421,6 +422,7 @@
 # CAREER
 - [ ] [FRONT-END JOB INTERVIEW QUESTIONS](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 - [x] [INTERVIEWING FOR FRONT-END ENGINEERS](https://frontendmasters.com/courses/interviewing-frontend)
+- [ ] [CODING INTERVIEW PREP](https://www.freecodecamp.org/learn/coding-interview-prep)
 - [ ] [GROKKING ALGORITHMS](https://www.manning.com/books/grokking-algorithms)
 - [ ] [MASTER THE CODING INTERVIEW: DATA STRUCTURES + ALGORITHMS](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms)
 - [ ] [CRACKING THE CODING INTERVIEW](http://www.crackingthecodinginterview.com)

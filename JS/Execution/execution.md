@@ -3,12 +3,12 @@
 
 ## 3 Types of Execution Context
 
-### Global Execution Context
-* The global execution context is the default or base execution context. The code that is not inside any function is in the global execution context.
-* The global execution context performs two things: it creates a global object (the window object for browsers) and sets the value of `this` to the global object.
-* There can only be one global execution context in a program.
+### Global Execution Context (GEC)
+* The GEC is the default or base execution context. The code that is not inside any function is in the GEC.
+* The GEC performs two things: it creates a global object (the window object for browsers) and sets the value of `this` to the global object.
+* There can only be one GEC in a program.
 
-### Functional Execution Context
+### Functional Execution Context (FEC)
 * Every time a function is invoked, a brand new execution context is created. Each function has its own execution context that is created when the function is invoked or called.
 * There can be any number of function execution contexts. Whenever a new execution context is created, it goes through a series of steps in a defined order (explained below).
 
