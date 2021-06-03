@@ -66,6 +66,7 @@
 - [x] [A BEGINNER’S GUIDE TO NPM — THE NODE PACKAGE MANAGER](https://www.sitepoint.com/beginners-guide-node-package-manager)
 - [x] CORE JAVASCRIPT CONCEPTS
 - [-] [LEARN AJAX WITH JQUERY](https://www.udemy.com/course/jquery-ajax/)
+- [ ] [BUILD YOUR OWN ANGULAR](https://github.com/teropa/build-your-own-angularjs)[DEPENDENCY INJECTION](https://youtu.be/3ju-32Bcx1Q)
 
 # TYPESCRIPT
 - [ ] [TYPESCRIPT: THE COMPLETE DEVELOPER'S GUIDE](https://www.udemy.com/course/typescript-the-complete-developers-guide)

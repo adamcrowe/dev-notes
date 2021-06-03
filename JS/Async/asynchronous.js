@@ -1,12 +1,10 @@
-// # Asynchronous (see: RxJS, Promises)
+// # Asynchronous
+// * see: JS/RxJS.js and JS/Promises.js
 
 // There are generally three approaches to dealing with async code:
 // * Callbacks
 // * Promises
 // * Observables (RxJS)
-
-// Video: What the heck is the event loop anyway? <https://www.youtube.com/watch?v=8aGhZQkoFbQ>
-// Tool: Loupe: Visualizing the JS Runtime at Runtime <http://latentflip.com/loupe>
 
 // JavaScript is a single-threaded programming language. This means that the JavaScript engine can only process a piece of code at a time. One of its main consequences is that when JavaScript encounters a piece of code that takes a long time to process, it will block all code after that from running. JavaScript uses a data structure that stores information about active functions named Call Stack. A Call Stack is like a pile of books. Every book that goes into that pile sits on top of the previous book. The last book to go into the pile will be the first one removed from it, and the first book added to the pile will be the last one removed. The solution to executing heavy pieces of code without blocking anything is asynchronous callback functions. These functions are executed later – asynchronously.
 
@@ -53,3 +51,7 @@ third();
 // 19. second() is removed from the Call Stack.
 
 // Note: The second() function is not executed after 0ms. The time you pass in to setTimeout function does not relate to the delay of its execution. The Event Manager will wait the given time before moving that function into the Callback Queue.
+
+// # References
+// [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+// [Loupe: Visualizing the JS Runtime at Runtime](http://latentflip.com/loupe)
