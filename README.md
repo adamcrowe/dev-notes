@@ -64,6 +64,10 @@
 >
 > &mdash; [Rubber Duck Debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging)
 
+> Duplication is far cheaper than the wrong abstraction.
+>
+> &mdash; [Sandi Metz](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
+
 > Gall's Law: A complex system that works is invariably found to have evolved from a simple system that worked.
 >
 > &mdash; [Gall's Law](<https://en.wikipedia.org/wiki/John_Gall_(author)#Gall.27s_law>)

@@ -43,7 +43,7 @@
 - [x] [BUILDING YOUR OWN DESIGN SYSTEM WITH CSS VARIABLES - TALK BY SCOTT TOLINSKI](https://www.youtube.com/watch?v=LwYZTKxj-do)
 
 # JAVASCRIPT
-- [ ] [JAVASCRIPT: UNDERSTANDING THE WEIRD PARTS](https://www.udemy.com/course/understand-javascript)
+- [x] [JAVASCRIPT: UNDERSTANDING THE WEIRD PARTS](https://www.udemy.com/course/understand-javascript)
 - [ ] [FREECODECAMP: JAVASCRIPT ALGORITHMS AND DATA STRUCTURES CERTIFICATION](https://www.freecodecamp.org/learn)
 - [ ] [FREECODECAMP JAVASCRIPT CERTIFICATION PROJECTS (TALK ALOUDS)](https://www.youtube.com/watch?v=XV5OCibNpLI&list=PLehRZjGCVhQLTWPN8mTo3rlRDQff9fCmT)
 - [-] [JAVASCRIPT - THE COMPLETE GUIDE 2020](https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced)

@@ -1,5 +1,5 @@
 # Execution Context
-* An execution context is an environment where the JS code is evaluated and executed
+* An execution context is an environment where the JS code is evaluated and executed.
 
 ## 3 Types of Execution Context
 
@@ -312,17 +312,17 @@ FunctionExectionContext = {
 * After the function completes, the returned value is stored inside `c`.
 * The global lexical environment is updated. After that, the global code completes and the program finishes.
 
+## Hoisting
+* See [Hoisting](hoisting.md)
+
 * Note: The `let` and `const` defined variables do not have any value associated with them during the creation phase, but `var` defined variables are set to `undefined`.
 	* This is because, during the creation phase, the code is scanned for variable and function declarations; while the function declaration is stored in its entirety in the environment...
 	* ...the variables are initially set to `undefined` (in case of `var`) or remain uninitialized (in case of `let` and `const`).
-	* This is the reason why you can access `var` defined variables before they are declared (though `undefined`) but get a reference error when accessing let and const variables before they are declared.
-	* This is, what we call "hoisting".
-
+	* This is the reason why you can access `var` defined variables before they are declared (though `undefined`) but get a reference error when accessing `let` and `const` variables before they are declared.
+	* This is, commonly called "hoisting" (though hoisting has been used to explain `var` as moving to the top of the scope, when, in fact, it hasn't moved but has simply been given the value of `undefined` ).
 * Note: During the execution phase, if the JS engine couldn't find the value of `let` variable at the actual place it was declared in the source code, then it will assign it the value of `undefined`.
-
 
 # References
 * [Understanding Execution Context and Execution Stack in Javascript](https://blog.bitsrc.io/understanding-execution-context-and-execution-stack-in-javascript-1c9ea8642dd0)
 * [What the heck is the event loop anyway? | Philip Roberts | JSConf EU](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
-* TODO: [JAVASCRIPT: UNDERSTANDING THE WEIRD PARTS](https://www.udemy.com/course/understand-javascript)
-
+* [JAVASCRIPT: UNDERSTANDING THE WEIRD PARTS](https://www.udemy.com/course/understand-javascript)

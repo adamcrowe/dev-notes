@@ -119,7 +119,6 @@
   * [Example](https://github.com/twbs/bootstrap/blob/master/.editorconfig)
 * ESLint: Find and fix problems in your JavaScript code <https://eslint.org>
 
-
 # DOCUMENTATION
 * Carbon: Publish Beautiful Code Snippets <https://carbon.now.sh>
 * Highlight JS: Code snippets <https://highlightjs.org>
