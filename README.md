@@ -4,7 +4,7 @@
 
 ## Deep Work
 
-* [Deep Work](Career/deep-work.md)
+* [Deep Work](deep-work.md): Priortize deep work over shallow work
 
 ## Engineering
 
@@ -17,13 +17,8 @@
 
 ## Professional Development
 
-* [Things You Should Never Do](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/): "It's harder to read code than to write it. This is why code reuse is so hard."
-* [Why Don't Software Development Methodologies Work?](http://typicalprogrammer.com/why-dont-software-development-methodologies-work): "'Life is pain...Anyone who says differently is selling something.'"
-* [How to be a Programmer: Community Version](https://github.com/braydie/HowToBeAProgrammer): "To communicate well, you have to recognize how hard it is. It is a skill unto itself."
-* [What Makes a Great Software Engineer?](https://faculty.washington.edu/ajko/papers/Li2015GreatEngineers.pdf), Personal Characteristics, Decision Making, Team Work, Product Design
+* [What Makes a Great Software Engineer?](https://faculty.washington.edu/ajko/papers/Li2015GreatEngineers.pdf), Character, Decision Making, Team Work, Product Design
 * [What Makes a Good Programmer?](https://henrikwarne.com/2014/06/30/what-makes-a-good-programmer/): Problem Decomposition, Testing, Naming, Consistency, Learning
-* [Programmer Competency Matrix](http://sijinjoseph.com/programmer-competency-matrix/): Computer Science, Software Engineering, Programming, Experience, Knowledge
-* [The 6 Core Skills You Need to be Considered a Senior Developer](https://medium.com/zerotomastery/developers-edge-how-to-become-a-senior-developer-f1ec1738cf45): Technical, Team, Client/User, Growth, Community
 * [The Joys of Maintenance Programming](http://typicalprogrammer.com/the-joys-of-maintenance-programming): "Maintenance programmers get to work with real users."
 
 ## Wisdom
@@ -40,9 +35,9 @@
 >
 > &mdash; [Donald Knuth](http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-9-pdf/k-9-u2769-1-Baker-What-Programmer-Does.pdf)
 
-> Write self-explanatory code...the code and the documentation cannot be inconsistent if there is no documentation.
+> It's harder to read code than to write it. This is why code reuse is so hard.
 >
-> &mdash; [Robert L. Read](https://github.com/braydie/HowToBeAProgrammer)
+> &mdash; [Joel Spolsky](https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i)
 
 > Code that's easier to read gets read more and therefore gets more scrutiny. Because of that, if there are bugs, they're more likely to be found.
 >
@@ -50,7 +45,7 @@
 
 > Consistent code formatting is worth fighting for.
 >
-> &mdash;[Death to the Space Infidels!](https://blog.codinghorror.com/death-to-the-space-infidels)
+> &mdash;[Jeff Atwood](https://blog.codinghorror.com/death-to-the-space-infidels)
 
 > Deleted code is debugged code.
 >

@@ -3,7 +3,6 @@
 ### PRINCIPLES
 * Priortize deep work over shallow work
 * Meet deadlines and honor commitments
-    * Reliability and indispensability
 
 ## OBJECTIVES (QUARTERLY REVIEW)
 > When you're not measuring the hard truth about how valuable your work is, **you're going to default to measuring the things you want to matter**, you're going to default to measuring activities that you want to be important, and then you're just rolling the dice as to whether or not you're going to make progress. -- [Cal Newport, Taming Writer's Block, the Exaggerated Importance of a Digital Presence, and the Miseries of Digital Living - DEEP QUESTIONS](https://www.calnewport.com/podcast)
