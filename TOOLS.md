@@ -78,6 +78,8 @@
 * CSS Clipping Paths <https://bennettfeely.com/clippy/>
 * AdminLite (Bootstrap Admin Dashboard Template) <https://adminlte.io>
 * Minimal Rating Control With CSS And Radio Buttons <http://cssscript.com/rating-control-radio>
+* Pipe-Separated List (Responsive) <https://codepen.io/vithun/pen/yDsjf/>
+* Border Collapse on Divs (Responsive) <https://codepen.io/savehansson/pen/rsIEp>
 
 # HTML EMAIL
 * Postdrop: Inline, send and test HTML email templates <https://app.postdrop.io/editor>
