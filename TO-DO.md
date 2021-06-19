@@ -345,6 +345,8 @@
 - [ ] [COMMAND LINE TRICKS FOR MANAGING YOUR MESSY OPEN SOURCE REPOSITORY](https://www.freecodecamp.org/news/command-line-tricks-for-managing-your-messy-open-source-repository)
 - [ ] [FULL STACK FOR FRONT-END ENGINEERS V2 - CLI, SSH, NGINX, DOCKER, SECURITY, HTTP](https://frontendmasters.com/courses/fullstack-v2)
 - [ ] [DEVOPS FUNDAMENTALS: CI/CD WITH AWS + DOCKER + ANSIBLE + JENKINS](https://www.udemy.com/course/devops-fundamentals-aws)
+- [ ] [DEVOPS ENGINEERING COURSE FOR BEGINNERS](https://www.freecodecamp.org/news/devops-engineering-course-for-beginners)
+- [ ] [HOW TO DEPLOY YOUR FREECODECAMP PROJECT ON AWS – A BEGINNER'S GUIDE TO THE CLOUD)](https://www.freecodecamp.org/news/how-to-deploy-your-freecodecamp-project-on-aws)
 - [ ] [LEARN DEVOPS BASICS WITH THIS FREE 2-HOUR DOCKER COURSE](https://www.freecodecamp.org/news/docker-devops-course)
 - [ ] [AZURE ADMINISTRATION](https://www.freecodecamp.org/news/azure-administrator-certification-az-104-pass-the-exam-with-this-free-11-hour-course/)
 - [x] [OLIVER: MAC TIPS](http://oliverelliott.org/article/computing/tips_mac)

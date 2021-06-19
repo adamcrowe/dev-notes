@@ -1,52 +1,44 @@
-# KANBAN + PROJECT MANAGEMENT
-* [Toggl](https://toggl.com)
-* [Trello](https://trello.com) - Integrations: Miro + Figma
-* [Miro](https://miro.com)
-* [ClickUp](https://clickup.com)
-* [Airtable](https://airtable.com)
-* [Jira](https://www.atlassian.com/software/jira)
-* [Notion](https://www.notion.so)
-  * Forms for Notion <https://chilipepper.io>
+# KANBAN + PM + ROADMAPING
+* Trello <https://trello.com> - Integrations: Miro + Figma
+* Asana <https://asana.com/>
+* Jira <https://www.atlassian.com/software/jira>
+* Toggl <https://toggl.com>
+* ClickUp <https://clickup.com>
+* Airtable <https://airtable.com>
+* Airfocus <https://airfocus.com>
 
-# WHITEBOARDING
-* [Miro](https://miro.com)
+# KNOWLEDGE MANAGEMENT
+* TiddlyWiki <https://tiddlywiki.com>
+* Obsidian <https://obsidian.md>
+* Roam Research <https://roamresearch.com>
+* Notion <https://www.notion.so> Forms for Notion <https://chilipepper.io>
 
-# WIREFRAMING
-* [Miro](https://miro.com)
-* [Figma](https://figma.com)
+# ONLINE EDITORS
+* CodePen <https://codepen.io>
+* JSFiddle <https://jsfiddle.net>
+* StackBlitz <https://stackblitz.com>
+* Code Sandbox <https://codesandbox.io>
 
-# ROADMAPPING
-* [Airfocus](https://airfocus.com)
-
-# TAG MANAGER
-* [MeasureSchool: Tag Plan Spreadsheet](https://docs.google.com/spreadsheets/d/1ns8u4OqLXc2UPc7FXOC3PKhUSVxd11VF0JrzO5IZJ94)
-* [Simo Ahava: google-tag-manager](https://www.simoahava.com/tags/#google-tag-manager-list)
+# WHITEBOARDING + WIREFRAMING
+* Figma <https://www.figma.com/figjam/>
+* Whimsical <https://whimsical.com>
+* Miro <https://miro.com>
+* Wireflow <https://wireflow.co>
 
 # UI/UX
-* Figma/XD/Sketch/XD File Conversion <https://xd2sketch.com/>
 * Figma <http://figma.com>
+  * Figma/XD/Sketch/XD File Conversion <https://xd2sketch.com/>
   * Plugin: GraphQL Data Fill <https://www.figma.com/community/plugin/778614812931099944/GraphQL-Data-Fill>
     * Demo: <https://crystallize.com/blog/populating-figma-with-product-information-from-graphql>
   * Plugin: Superpowers for design systems: Use your design system code components within Figma <https://interplayapp.com>
   * Plugin: Marka Email Generator <https://www.figma.com/community/plugin/751436700152214815/Marka-Email-Generator>
   * Plugin: Emailify: Design and export responsive HTML emails from Figma <https://www.figmatic.com/emailify>
-* Whimsical <https://whimsical.com>
-  * [Whimsical Wireframes Tutorial](https://www.youtube.com/watch?v=Oi9nST5Skog)
-  * [Whimsical Flowcharts Tutorial](https://www.youtube.com/watch?v=ARbjNYc_lKA)
-  * [Whimsical Sticky Notes Tutorial](https://www.youtube.com/watch?v=D6ScmHUHza4)
-  * [Whimsical Mind Maps Tutorial](https://www.youtube.com/watch?v=Feybn2V7obk)
-* Miro <https://miro.com>
-* Wireflow <https://wireflow.co>
 * Bootstrap Studio <https://bootstrapstudio.io>
+* Webflow <https://webflow.com>
 
 # UXR
 * UserBit <https://userbitapp.com>
 * StoriesOnBoard: User story mapping <https://storiesonboard.com>
-
-# ONLINE EDITORS
-* StackBlitz <https://stackblitz.com>
-* CodePen <https://codepen.io>
-* Code Sandbox <https://codesandbox.io>
 
 # HTML
 * How to manage HTML DOM with vanilla JS only <https://htmldom.dev>
@@ -81,15 +73,16 @@
 * Pipe-Separated List (Responsive) <https://codepen.io/vithun/pen/yDsjf/>
 * Border Collapse on Divs (Responsive) <https://codepen.io/savehansson/pen/rsIEp>
 
-# HTML EMAIL
+# EMAIL
 * Postdrop: Inline, send and test HTML email templates <https://app.postdrop.io/editor>
-  * (Outlook Windows Desktop won't respect padding on <div>s only <td>s)
+  * (Outlook on Windows Desktop won't respect padding on <div>s only <td>s)
 
 # DESIGN SYSTEMS
 * See [design-systems](UX/design-systems.md)
 
 # DATABASES
-* PostgreSQL GUI tool for macOS <http://www.psequel.com>
+* Flyway: Database version control <https://flywaydb.org>
+* PSequel: PostgreSQL GUI for macOS <http://www.psequel.com>
 
 # DEBUGGING
 * ShellCheck: Finds bugs in your shell scripts <https://www.shellcheck.net>
@@ -102,26 +95,41 @@
 * Jasmine: Behaviour-Driven testing framework <https://jasmine.github.io>
 * Mocha: Feature-rich JavaScript test framework <https://mochajs.org>
 * Wallaby.js: Run tests in your editor <https://wallabyjs.com>
-  * Demo <https://www.youtube.com/watch?v=P4UQ-jTTJJ4>
+* Codecov <https://about.codecov.io>
 
 # BUILD + BUNDLE
-* Parcel: Blazing fast, zero configuration web application bundler <https://parceljs.org>
+* Parcel <https://parceljs.org>
 
 # DEPLOYMENT
-* Jamstack Fns <https://jamstackfns.com/f/sendgrid>
 * Netlify <https://www.netlify.com/>
 * Vercel <https://vercel.com>
-* StackBlitz: Create, edit & deploy fullstack apps — in just one click <https://stackblitz.com>
+* DeployHQ <https://www.deployhq.com>
+* LaunchDarkly (Canary deployments) <https://launchdarkly.com>
+* Jamstack Fns <https://jamstackfns.com/f/sendgrid>
+* StackBlitz <https://stackblitz.com>
+
+# CI/CD
+* GitLab <https://about.gitlab.com>
+* Jenkins <https://www.jenkins.io>
+* LayerCI <https://layerci.com>
+* CircleCI <https://circleci.com>
+* Bitrise <https://www.bitrise.io>
+* Terraform <https://www.terraform.io>
+
+# APPLICATION PERFORMANCE MANAGEMENT
+* Metrics: New Relic <https://newrelic.com>, Prometheus <https://prometheus.io/>
+* Logging: Sentry <https://sentry.io>, ELK <https://www.elastic.co/what-is/elk-stack>
+* Monitoring: Pingdom <https://www.pingdom.com>
+* Alerting: PagerDuty <https://www.pagerduty.com>
 
 # LINTING / STYLE GUIDES
-* [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
-* [Prettier: Code Formatter](https://prettier.io)
-  * [Options](https://prettier.io/docs/en/options.html)
-* [EditorConfig](http://editorconfig.org)
-  * [Example](https://github.com/twbs/bootstrap/blob/master/.editorconfig)
+* Airbnb JavaScript Style Guide <https://github.com/airbnb/javascript>
+* Prettier: Code Formatter <https://prettier.io> [Options](https://prettier.io/docs/en/options.html)
+* EditorConfig <http://editorconfig.org> [Example](https://github.com/twbs/bootstrap/blob/master/.editorconfig)
 * ESLint: Find and fix problems in your JavaScript code <https://eslint.org>
 
 # DOCUMENTATION
+* Compodoc (for Angular) <https://compodoc.app>
 * Carbon: Publish Beautiful Code Snippets <https://carbon.now.sh>
 * Highlight JS: Code snippets <https://highlightjs.org>
 * JSDoc: Code Documentation Guidelines <http://usejsdoc.org>
@@ -166,6 +174,10 @@
 
 # TYPESCRIPT
 * [class-validator: Validation made easy using TypeScript decorators](https://github.com/typestack/class-validator)
+
+# ANALYTICS
+* [MeasureSchool: Tag Plan Spreadsheet](https://docs.google.com/spreadsheets/d/1ns8u4OqLXc2UPc7FXOC3PKhUSVxd11VF0JrzO5IZJ94)
+* [Simo Ahava: google-tag-manager](https://www.simoahava.com/tags/#google-tag-manager-list)
 
 # SEO + SITE OPTIMIZATION
 * Google Search Console <https://search.google.com/search-console/about>
