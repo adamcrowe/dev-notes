@@ -1,13 +1,14 @@
-// ! .sort([compareFunction])
+// # .sort([compareFunction])
 
-// sorts the elements of an array in place (no copy is made), and returns a reference to the array. If a compareFunction is not supplied, elements are sorted by converting them to strings and comparing strings in Unicode code point order.
+// sorts the elements of an array in place (no copy is made), and returns a reference to the array.
+// If a compareFunction is not supplied, elements are sorted by converting them to strings and comparing strings in Unicode code point order.
 
 var months = ['March', 'Jan', 'Feb', 'Dec'];
 months.sort();
 console.log(months); // ["Dec", "Feb", "Jan", "March"]
 
 var array1 = [1, 30, 4, 21];
-array1.sort();
+array1.sort(); // array will be sorted as strings
 console.log(array1); // [1, 21, 30, 4]
 
 var myArray = new Array('Wind', 'Rain', 'Fire');
@@ -25,18 +26,16 @@ var sortFn = function(a, b) {
 }
 
 myArray.sort(sortFn);
-console.log(myArray); // ["Wind","Fire","Rain"]
+console.log(myArray); // ["Wind","Fire","Rain"] // d, e, n
 
-// !! compareFunction
-// * if compareFunction is supplied, the array elements are sorted according to the return value of the compare function. If a and b are two elements being compared, then:
-
-// ** If compareFunction(a, b) is less than 0, sort a to an index lower than b, i.e. a comes first.
-
-// ** If compareFunction(a, b) returns 0, leave a and b unchanged with respect to each other, but sorted with respect to all different elements.
-
-// ** If compareFunction(a, b) is greater than 0, sort b to an index lower than a, i.e. b comes first.
-
-// ** compareFunction(a, b) must always return the same value when given a specific pair of elements a and b as its two arguments. If inconsistent results are returned then the sort order is undefined.
+// ## compareFunction
+// If a compareFunction is supplied, the array elements are sorted according to the return value of the compare function:
+// If `a` and `b` are two elements being compared, then:
+// If compareFunction(a, b) returns less than 0, sort `a` to an index lower than `b`, i.e. `a` comes before `b` in the sorted array
+// If compareFunction(a, b) returns 0, leave `a` and `b` unchanged with respect to each other, but sorted with respect to all different elements.
+// If compareFunction(a, b) returns greater than 0, sort `b` to an index lower than `a`, i.e. `b` comes before `a`.
+// The compareFunction(a, b) must always return the same value when given a specific pair of elements `a` and `b` as its two arguments.
+// If inconsistent results are returned then the sort order is undefined.
 
 function compare(a, b) {
     if (a < b) {
@@ -45,7 +44,7 @@ function compare(a, b) {
     if (a > b) {
         return 1;
     }
-    // else a is equal to b
+    // else `a` is equal to `b`
     return 0;
 }
 
@@ -54,7 +53,7 @@ var numbers = [4, 2, 5, 1, 3];
 
 numbers.sort(function(a, b) {
     debugger;
-    return a - b;
+    return a - b; // returns either: < 0, 0, > 0
 });
 
 console.log(numbers); // [1, 2, 3, 4, 5]
@@ -125,3 +124,6 @@ mapped.sort(function(a, b) {
 var result = mapped.map(function(el) {
     return list[el.index];
 });
+
+// # References
+// MDN: Array.prototype.sort() <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort>

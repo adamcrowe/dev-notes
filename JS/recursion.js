@@ -3,24 +3,51 @@
 
 // ## Use case: To replace loops
 
-// before:
-var x = 0;
+// ### Example: For or while loop
 
-while (x < 10) { 	// exit condition
-	// do stuff
-	x++;
+// Before:
+function countDownFrom(number) {
+	for (let i = number; i > 0; i--) { // exit case: i === 0 / continue case: i > 0
+		console.log(i);
+	}
 }
 
-// after:
-function loop(x) {
-	if (x >= 10) { 	// exit condition
+countDownFrom(5);
+// 5
+// 4
+// 3
+// 2
+// 1
+
+// Before:
+var number = 5;
+
+while (number > 0) { // exit condition: number === 0
+	console.log(number);
+	number--;
+}
+// 5
+// 4
+// 3
+// 2
+// 1
+
+// After (using recursion)
+function countDownFrom(number) {
+	if (number === 0) { // exit case: number === 0
 		return;
 	}
-	// do stuff
-	loop(x + 1); 	// recursive call
+
+	console.log(number);
+	countDownFrom(number - 1); // recursive case
 }
 
-loop(0);
+countDownFrom(5);
+// 5
+// 4
+// 3
+// 2
+// 1
 
 // ## Use case: Factorials
 
@@ -56,7 +83,7 @@ console.log(flattenArray(exampleArray)); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // ## Use case: Flatten a nested array (e.g. nestedArrays = [[1, 2, 3], [4, 5, 6], [7, 8, 9, [10, 11, 12]]]);
 
-// From accounting.js
+// From accounting.js <https://github.com/openexchangerates/accounting.js/blob/master/accounting.js>
 function formatMoney(numbers) {
 	// Recursive case: numbers is an array
 	if (Array.isArray(numbers)) {
@@ -130,3 +157,14 @@ console.log(
 		}
 	}
 }
+
+// Note: Remember to return the function to the calling function
+function myRecursiveFunction(arg1, arg2) {
+	// base case or exit recursive case
+	// ...
+	// recursive case
+	return myRecursiveFunction(arg1, arg2Adjusted);
+}
+
+// References
+// A Quick Intro to Recursion in Javascript <https://yazeedb.com/posts/quick-intro-to-recursion>

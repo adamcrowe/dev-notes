@@ -1,4 +1,5 @@
 # ABSTRACTION
+
 > Violations of DRY (Don't Repeat Yourself) are typically referred to as WET solutions, which is commonly taken to stand for "write every time",  "write everything twice", "we enjoy typing" or "waste everyone's time".
 >
 > &mdash; [Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
@@ -17,9 +18,10 @@
 
 1. Identify different chunks of code that are all essentially doing the same thing
 2. Create a method/class with a narrow interface that can be substituted in for all those chunks of code
-3. Wwap out the chunks of code with a call to the method/class
+3. Replace the chunks of code with a call to the method/class
 
 ### The Rule of Three
+
 > Rule of three ("Three strikes and you refactor") is a code refactoring rule of thumb to decide when similar pieces of code should be refactored to avoid duplication. It states that two instances of similar code don't require refactoring, but when similar code is used three times, it should be extracted into a new procedure.
 
 ## Rationale
@@ -30,7 +32,7 @@
 
 ### Abstraction is Always a Gamble
 
-> In the world of software engineering, when requirements are always changing, every abstraction is a gamble. When you make an abstraction over some concrete things, you're making a bet that the concrete things are more similar than they are different, and that their similarities are not mere coincidences: that there is a common purpose shared by the concrete things which would lead them to evolve in lockstep as requirements evolve. If you win the bet, your codebase will be easier to work in and adding new use cases via your abstraction will be trivially easy. If you lose, you'll see a flash of fear in your colleague's eyes whenever they're assigned a ticket to make yet another extension to the misfigured monster that the once-innocent abstraction has now become
+> In the world of software engineering, when requirements are always changing, every abstraction is a gamble. When you make an abstraction over some concrete things, you're making a bet that the concrete things are more similar than they are different, and that their similarities are not mere coincidences: that there is a common purpose shared by the concrete things which would lead them to evolve in lockstep as requirements evolve. If you win the bet, your codebase will be easier to work in and adding new use cases via your abstraction will be trivially easy. If you lose, you'll see a flash of fear in your colleague's eyes whenever they're assigned a ticket to make yet another extension to the misfigured monster that the once-innocent abstraction has now become.
 
 > But risk abounds everywhere, and leaving duplicated code unabstracted is its own gamble. You're betting that the chunks of code will evolve in separate directions as requirements change and that their current similarities are more coincidence than a reflection of their common purpose. Win the bet and your colleague gets to sleep soundly at night knowing they won't be facing the abstraction monster at work the next day. Lose, and code that should have evolved in lockstep is now implemented in completely different ways across different files, where a developer fixes a bug identified in one place, only for the same bug to be reported days later in a completely different file.
 

@@ -1,4 +1,4 @@
-// ! .toString()
+// # .toString()
 
 // returns a string representing the specified array and its elements
 
