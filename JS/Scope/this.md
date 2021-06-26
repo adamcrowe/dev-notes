@@ -1,4 +1,5 @@
 # `this`
+* `this` is the current lexical scope, else it's the window object
 
 * Defintion 1: `this` is the context we're currently operating within (the context is defined as what is available to us)
 * Defintion 2: Context refers to the value of `this` in a particular part of your code. Use `this` to refer to the current object. In general, `this` refers to the calling object in a method.
@@ -164,3 +165,22 @@ Usage:
 * [call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 * [apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
 * [bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+
+// TODO: incorporate
+
+## How do we change the lexical scope of a function? (How do you implement Function.prototype.bind()?)
+* Unlike `call()` and `apply()`, `bind()` can change the scope of a function without automatically executing the function.
+
+```javascript
+/**
+ * Returns the function with an updated context (lexical scope)
+ * @params context - the new lexical scope
+ */
+Function.prototype.bind = function(context) {
+    const fn = this; // `this` is the function itself
+
+    return function() {
+        fn.call(context);
+    }
+}
+```

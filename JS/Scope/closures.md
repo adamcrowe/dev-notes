@@ -1,8 +1,10 @@
 # Closures
 * See Closures section of [course-javascript-weird-parts](https://github.com/adamcrowe/course-javascript-weird-parts)
 
-* Functions can always remember the variables they could see at creation. Every nested function is a closure: The inner function "encloses" the scope ("lexical environment") of the outer function.
-* The inner function (closure) can use the arguments and variables of the outer function but the outer function cannot use the arguments and variables of the inner function - they are out of scope.
+# Definition
+* Functions can return other functions: a function that returns another function is called a 'higher-order function'
+* A closure is a 'stateful' function where a returned inner function has "enclosed" the external function's variables (or 'state')
+* Because functions remember the variables they could see at creation, every nested function is a closure: The inner function "encloses" the scope ("lexical environment") of the outer function
 
 ```javascript
 // Example 1
@@ -26,7 +28,7 @@ function makeFunc() {
 var myFunc = makeFunc();
 myFunc(); // runs `displayName()` which finds `name` within an enclosed lexical environment of `makeFunc`
 
-// Example 3
+// Example 3: Currying
 function outside(x) {
 	function inside(y) {
 		return x + y;
@@ -40,7 +42,7 @@ fn_inside = outside(3);	// `fn_inside` returns a function that adds 3 to whateve
 result = fn_inside(5); // returns 8
 result1 = outside(3)(5); // returns 8
 
-// Example 4
+// Example 4: Custom adders
 function makeAdder(x) {
 	return function(y) {
 		return x + y;
@@ -96,6 +98,39 @@ console.log(A(1)); // 6 (1 + 2 + 3)
 * Consequently, you can use a closure anywhere that you might normally use an object with only a single method.
 
 ```javascript
+// Example 1: Bank Account Manager
+const manageBankAccount = function(initialBalance) {
+ 	let accountBalance = initialBalance;
+
+  	return {
+		getBalance: function() {
+			return accountBalance;
+		},
+		deposit: function(amount) {
+			accountBalance += amount;
+		},
+		withdraw: function(amount) {
+			if (amount > accountBalance) {
+				return 'You cannot draw that much!';
+			}
+
+			accountBalance -= amount;
+		}
+  	};
+};
+
+const accountManager = manageBankAccount(0); // sets the initial balance and returns a closure
+
+accountManager.deposit(1000);
+accountManager.withdraw(500);
+accountManager.getBalance();
+```
+
+* Notice the `accountBalance` cannot be directly accessed anymore; it can only be viewed via through `getBalance()`, and changed via `deposit()` and `withdraw()`
+* Even though `manageBankAccount` created the `accountBalance` variable, the three methods of the returned object all have access to `accountBalance` via the closure
+
+```javascript
+// Example 2: Pet Names
 var createPet = function(name) {
 	var sex;
 
@@ -130,7 +165,7 @@ pet.getName(); // Oliver
 * The functions do not even have to be assigned to a variable, or have a name:
 
 ```javascript
-// Example 1: Encapsulation
+// Example 3: Private key
 var getAPICode = (function() {
 	var apiCode = '0]Eal(eh&2';	// API code we do not want outsiders to be able to modify
 
@@ -141,7 +176,19 @@ var getAPICode = (function() {
 
 getAPICode(); // '0]Eal(eh&2'
 
-// Example 2: Encapsulation
+// Example 4: Private ID
+function sendRequest() {
+	var requestID = '123';
+
+	$.ajax({
+		url: '/myUrl',
+		success: function(response) {
+			alert('Request ' + requestID  + ' returned');
+		}
+	});
+}
+
+// Example 5: Counter (single)
 var counter = (function() {
 	var privateCounter = 0;
 
@@ -168,18 +215,6 @@ counter.increment();
 console.log(counter.value()); // logs 2
 counter.decrement();
 console.log(counter.value()); // logs 1
-
-// Example 3: Encapsulation
-function sendRequest() {
-	var requestID = '123';
-
-	$.ajax({
-		url: '/myUrl',
-		success: function(response) {
-			alert('Request ' + requestID  + ' returned');
-		}
-	});
-}
 ```
 
 * Here we create a single lexical environment that is shared by three functions: `counter.increment`, `counter.decrement`, and `counter.value`.
@@ -192,6 +227,7 @@ function sendRequest() {
 * We could store this function in a separate variable `makeCounter` and use it to create several counters:
 
 ```javascript
+// Example 6: Counter (multiple)
 var makeCounter = function() {
 	var privateCounter = 0;
 
@@ -234,6 +270,7 @@ alert(counter2.value()); // Alerts 0
 * In JavaScript, any exposed method defined within the closure scope is privileged.
 
 ```javascript
+// Example 7: Greeter
 function sayHi(name) {
 	var message = "Hi ${name}!";
 
@@ -252,10 +289,11 @@ console.log(sayHiToJon()); // 'Hi Jon!' - sayHiToJon retains access to enclosed 
 ```
 
 * A closure can access variables in the outer scope. The returned function can access the message variable from the enclosing scope.
-* A closure access outer scope variables even after the outer function has returned. `sayHiToJon` is a reference to `greeting` created when `sayHi` was run.
+* A closure can access outer scope variables even after the outer function has returned. `sayHiToJon` is a reference to `greeting` created when `sayHi` was run.
 * The `greeting` function maintains a reference to its outer scope  (its lexical environment) in which `message` exists.
 
 ```javascript
+// Example 8: Registry
 function SpringfieldSchool() {
 	let staff = ["Seymour Skinner", "Edna Krabappel"];
 
@@ -353,7 +391,7 @@ setupHelp();
 * This works as expected. Rather than the callbacks all sharing a single lexical environment...
 * ...the `makeHelpCallback` function creates a new lexical environment for each callback, in which help refers to the corresponding string from the `helpText` array.
 
-* Another way to write the above using anonymous closures is:
+* Another way to write the above is using anonymous closures:
 
 ```javascript
 function showHelp(help) {
@@ -523,3 +561,4 @@ MyObject.prototype.getMessage = function() {
 
 # References
 * [MDN: Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+* [Learn JavaScript Closures in 6 Minutes](https://yazeedb.com/posts/learn-closures-in-6-minutes)

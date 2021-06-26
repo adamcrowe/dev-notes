@@ -14,6 +14,11 @@ From: Coursework: [Frontend Masters: JavaScript Testing Practices and Principles
 * End to End (E2E) Testing with [Cypress](https://www.cypress.io)
 	* Replacement for [Selenium](https://www.selenium.dev)
 
+## TESTING TYPES
+* What is the difference between black box and white box testing?
+	* Black box testing is only used for establishing a correct output given an input.
+	* In contrast, white box testing also covers the implementation of that particular function — it tests whether its implementation is correct or not.
+
 ## TESTING TIPS
 > The more your tests resemble the way your software is used, the more confidence they can give you. -- [React Testing Library](https://testing-library.com)
 * Write test cases that simulate, as closely as possible, how an actual user (or manual tester) would use the system

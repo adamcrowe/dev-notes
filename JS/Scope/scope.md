@@ -88,3 +88,8 @@ let g2 = "global 2";
 console.log(g1); // 'new global 1' - `var` was created in global scope
 console.log(g2); // 'global 2' - g2 was re-assigned but only within block scope
 ```
+
+## Variables
+* Reassignment: `var` and `let` can be reassigned; `const` cannot be reassigned (though its properties can be)
+* Block Scope: `let` and `const` are block-scoped (not accessible from outside curly braced block); `var` is globally-scoped (accessible outside block)
+* Hoisted: `let` and `const` are not hoisted (throw reference error if referred before assigned value); `var` is hoisted (throw undefined error if referenced before assigned value)

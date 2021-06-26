@@ -1,8 +1,7 @@
-// ! Prototypes and Inheritance
-// Details of the object model
-// <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model>
+// # Prototypes and Inheritance
+// Details of the object model <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model>
 
-// !! Prototypes:
+// # Prototypes
 // * A prototype is a blueprint or model of an object stored as an object.
 // * Every object has a prototype (object), from which it inherits all of the prototype's properties.
 // * Retrieve the prototype of an object using `Object.getPrototypeOf(myObject)`.
@@ -34,7 +33,7 @@ console.log(rusty.__proto__);	// { describe: ƒ , constructor: ƒ }
 // .constructor property points to the constructor of the object:
 console.log(rusty.constructor);	// ƒ Dog(breed, name) { ... }
 
-// !! Prototype Chain: The prototype chain is a series of links between objects that reference one another. When looking for a property in an object, the JavaScript engine will first try to access that property on the object itself. If it is not found, the JavaScript engine will look for that property on the object from which it inherited its properties: the object's prototype. The engine will traverse up the chain looking for that property and return the first one it finds. The last object in the chain is the built-in `Object.prototype`, which has null as its prototype. Once the engine reaches this object, it returns `undefined`.
+// # Prototype Chain: The prototype chain is a series of links between objects that reference one another. When looking for a property in an object, the JavaScript engine will first try to access that property on the object itself. If it is not found, the JavaScript engine will look for that property on the object from which it inherited its properties: the object's prototype. The engine will traverse up the chain looking for that property and return the first one it finds. The last object in the chain is the built-in `Object.prototype`, which has null as its prototype. Once the engine reaches this object, it returns `undefined`.
 
 // !! Own vs Inherited Properties: Objects have own properties and inherited properties. Own properties are properties that were defined on the object. Inherited properties were inherited through the prototype chain.
 

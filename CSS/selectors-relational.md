@@ -80,9 +80,9 @@ li:first-of-type + li {
 
 ```HTML
 <ul>
-	<li>One</li>
-	<li>Two!</li>
-	<li>Three</li>
+	<li>One</li> <!-- first of type li -->
+	<li>Two!</li> <!-- red -->
+	<li>Three</li> <!-- not red -->
 </ul>
 ```
 
@@ -110,3 +110,7 @@ p ~ span {
 <code>More code...</code>
 <span>And this is a red span!</span>
 ```
+
+# References
+* [Descendant combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator)
+* [Adjacent sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)

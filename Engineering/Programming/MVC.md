@@ -1,4 +1,6 @@
 # MVC
+* MVC separates data from the user interface. The MVC architecture is mostly used for GUI applications.
+* The model layer contains the data, the view layer sends the data to the user, and the controller is the one that makes changes to the model based on user input.
 
 ## Model
 
