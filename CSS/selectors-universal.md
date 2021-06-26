@@ -1,5 +1,5 @@
 # Universal selector
-> `universal selector` (*) matches elements of any type.
+* `universal selector` (*) matches elements of any type.
 
 ```CSS
 /* Selects all elements */
@@ -8,13 +8,13 @@
 }
 ```
 
-> Beginning with CSS3, the asterisk may be used in combination with namespaces:
-> `ns|*` - matches all elements in namespace `ns`
-> `*|*` - matches all elements
-> `|*` - matches all elements without any declared namespace
+* Beginning with CSS3, the asterisk may be used in combination with namespaces:
+* `ns|*` - matches all elements in namespace `ns`
+* `*|*` - matches all elements
+* `|*` - matches all elements without any declared namespace
 
 ```CSS
-* [lang^=en] {
+* [lang^=en] { /* starts with "en" */
     color: green;
 }
 
@@ -38,9 +38,9 @@
 
 ```HTML
 <p class="warning">
-  <span lang="en-us">A green span</span> in a red paragraph.
+  	<span lang="en-us">A green span</span> in a red paragraph.
 </p>
 <p id="maincontent" lang="en-gb">
-  <span class="warning">A red span</span> in a green paragraph.
+ 	<span class="warning">A red span</span> in a green paragraph.
 </p>
 ```

@@ -1,7 +1,7 @@
 # Values
 
 * % (font) relative to parent's computed font-size
-* % (length) relative to parent's computed width
+* % (length) relative to parent's computed height or width
 * em (font) relative to parent's computed font-size
 * em (length) relative to element's computed font-size
 * rem (font and length) relative to root font-size

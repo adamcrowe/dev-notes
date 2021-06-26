@@ -53,6 +53,7 @@
 - [ ] [YOU DON'T KNOW JAVASCRIPT](https://github.com/getify/You-Dont-Know-JS)
 - [ ] [SPEAKING JAVASCRIPT](http://speakingjs.com/es5/index.html)
 - [ ] [SIMPLIFYING JAVASCRIPT: WRITING MODERN JAVASCRIPT WITH ES5, ES6, AND BEYOND](https://pragprog.com/book/es6tips/simplifying-javascript)
+- [-] [DESIGN PATTERNS IN JAVASCRIPT](https://www.udemy.com/course/design-patterns-javascript)
 - [ ] [JAVASCRIPT PATTERNS: BUILD BETTER APPLICATIONS WITH CODING AND DESIGN PATTERNS](http://shop.oreilly.com/product/9780596806767.do)
 - [ ] [LEARNING JAVASCRIPT DESIGN PATTERNS](https://addyosmani.com/resources/essentialjsdesignpatterns/book)
 - [ ] [33 CONCEPTS EVERY JAVASCRIPT DEVELOPER SHOULD KNOW](https://github.com/leonardomso/33-js-concepts)
@@ -69,7 +70,7 @@
 - [ ] [BUILD YOUR OWN ANGULAR](https://github.com/teropa/build-your-own-angularjs)[DEPENDENCY INJECTION](https://youtu.be/3ju-32Bcx1Q)
 
 # TYPESCRIPT
-- [ ] [TYPESCRIPT: THE COMPLETE DEVELOPER'S GUIDE](https://www.udemy.com/course/typescript-the-complete-developers-guide)
+- [-] [TYPESCRIPT: THE COMPLETE DEVELOPER'S GUIDE](https://www.udemy.com/course/typescript-the-complete-developers-guide)
 - [x] [UNDERSTANDING TYPESCRIPT 2020 EDITION](https://www.udemy.com/course/understanding-typescript)
 - [x] [TYPESCRIPT DESIGN PATTERNS](https://www.udemy.com/course/typescript-design-patterns)
 - [ ] [DESIGN PATTERNS IN TYPESCRIPT](https://refactoring.guru/design-patterns/typescript)
@@ -109,7 +110,7 @@
 - [-] [ANGULAR 7 SECURITY MASTERCLASS](https://www.udemy.com/angular-security)
 - [ ] [REACTIVE ANGULAR COURSE WITH RXJS - ANGULAR UNIVERSITY](https://www.udemy.com/course/rxjs-reactive-angular-course)
 - [ ] [BUILD A REAL WORLD BEAUTIFUL WEB APP WITH ANGULAR 7 )](https://bit.ly/2sEvsvM)
-- [ ] [THE MODERN ANGULAR BOOTCAMP 2020](https://www.udemy.com/course/the-modern-angular-bootcamp/)
+- [-] [THE MODERN ANGULAR BOOTCAMP 2020](https://www.udemy.com/course/the-modern-angular-bootcamp/)
 - [ ] [ANGULAR AND REDUX: INTRODUCTION TO STATE MANAGEMENT](https://medium.com/codingthesmartway-com-blog/angular-and-redux-ecd22ea53492)
 - [ ] [ARCHITECTING ANGULAR APPLICATIONS WITH REDUX, RXJS, AND NGRX](https://github.com/PacktPublishing/Architecting-Angular-Applications-with-Redux-RxJS-and-NgRx)
 - [ ] [BUILD PERFORMANT AND PROGRESSIVE ANGULAR APPLICATIONS](https://web.dev/angular)
@@ -123,8 +124,8 @@
 - [-] [COMPLETE REACT DEVELOPER IN 2020 (REDUX, HOOKS, GRAPHQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery)
 - [-] [REACT THE COMPLETE GUIDE (HOOKS, REACT ROUTER, REDUX)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
 - [ ] [USE REACT AND GRAPHQL TO MAKE A FULL STACK SOCIAL NETWORK](https://www.freecodecamp.org/news/learn-how-to-use-react-and-graphql-to-make-a-full-stack-social-network)
-- [ ] [MICROFRONTENDS WITH REACT: A COMPLETE DEVELOPER'S GUIDE](HTTPS://WWW.UDEMY.COM/COURSE/MICROFRONTEND-COURSE)
-- [X] [COMPLETE INTRO TO REACT V5](HTTPS://FRONTENDMASTERS.COM/courses/complete-react-v5)
+- [ ] [MICROFRONTENDS WITH REACT: A COMPLETE DEVELOPER'S GUIDE](https://www.udemy.com/course/microfrontend-course)
+- [x] [COMPLETE INTRO TO REACT V5](https://frontendmasters.com/courses/complete-react-v5)
 - [x] [INTERMEDIATE REACT V2](https://frontendmasters.com/courses/intermediate-react-v2)
 - [ ] [DESIGN+CODE: REACT FOR DESIGNERS](https://designcode.io/react)
 - [ ] [15 REACT PROJECTS](https://www.freecodecamp.org/news/solidify-your-react-skills-by-building-15-projects)
@@ -381,7 +382,7 @@
 - [x] [OBJECT ORIENTED PROGRAMMING IS NOT WHAT I THOUGHT - TALK BY ANJANA VAKIL](https://www.youtube.com/watch?v=TbP2B1ijWr8)
 
 # ML
-- [ ] [MACHINE LEARNING WITH JAVASCRIPT](https://www.udemy.com/course/machine-learning-with-javascript)
+- [-] [MACHINE LEARNING WITH JAVASCRIPT](https://www.udemy.com/course/machine-learning-with-javascript)
 
 # CRAFTMANSHIP
 - [ ] [REFACTORING: IMPROVING THE DESIGN OF EXISTING CODE](https://www.informit.com/store/refactoring-improving-the-design-of-existing-code-9780134757599)

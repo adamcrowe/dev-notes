@@ -23,4 +23,3 @@
 
 # References
 * [Interviewing for Front-End Engineers](https://frontendmasters.com/courses/interviewing-frontend/preparing-interview-questions)
-* [25 Most Common Web Developer Interview Questions And Answers 2020](https://blog.codegiant.io/25-web-developer-interview-questions-and-answers-3030b21ae016)

@@ -1,9 +1,9 @@
 # id
-> `id` selector matches an element based on the value of its `id` attribute.
+* An `id` selector matches an element based on the value of its `id` attribute.
 
 ```CSS
 #identified {
-  background-color: skyblue;
+	background-color: skyblue;
 }
 ```
 

@@ -1,11 +1,13 @@
-# KANBAN + PM + ROADMAPING
+# KANBAN + PM + ROADMAPING + TIME
 * Trello <https://trello.com> - Integrations: Miro + Figma
 * Asana <https://asana.com/>
-* Jira <https://www.atlassian.com/software/jira>
+* Jira <https://atlassian.com/software/jira>
 * Toggl <https://toggl.com>
 * ClickUp <https://clickup.com>
 * Airtable <https://airtable.com>
 * Airfocus <https://airfocus.com>
+* Timetastic <https://timetastic.co.uk>
+* Bonsai <https://hellobonsai.com>
 
 # KNOWLEDGE MANAGEMENT
 * TiddlyWiki <https://tiddlywiki.com>
@@ -20,7 +22,7 @@
 * Code Sandbox <https://codesandbox.io>
 
 # WHITEBOARDING + WIREFRAMING
-* Figma <https://www.figma.com/figjam/>
+* FigJam <https://www.figma.com/figjam/>
 * Whimsical <https://whimsical.com>
 * Miro <https://miro.com>
 * Wireflow <https://wireflow.co>
@@ -72,6 +74,7 @@
 * Minimal Rating Control With CSS And Radio Buttons <http://cssscript.com/rating-control-radio>
 * Pipe-Separated List (Responsive) <https://codepen.io/vithun/pen/yDsjf/>
 * Border Collapse on Divs (Responsive) <https://codepen.io/savehansson/pen/rsIEp>
+* Title with middle-aligned horizontal border <https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle>
 
 # EMAIL
 * Postdrop: Inline, send and test HTML email templates <https://app.postdrop.io/editor>

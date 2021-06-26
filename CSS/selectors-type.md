@@ -1,9 +1,9 @@
 # Type selector
-> `type` selector matches elements by node name.
+* The `type` selector matches elements by node name
 
 ```CSS
 span {
-    background-color: skyblue;
+	background-color: skyblue;
 }
 ```
 

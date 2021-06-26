@@ -1,18 +1,18 @@
 # Class selector
-> `class` selector matches elements based on the contents of their class attribute.
+* A `class` selector matches elements based on the contents of their class attribute.
 
 ```CSS
 .red {
-    color: #f33;
+	color: #f33;
 }
 
 .yellow-bg {
-    background: #ffa;
+	background: #ffa;
 }
 
 .fancy {
-    font-weight: bold;
-    text-shadow: 4px 4px 3px #77f;
+	font-weight: bold;
+	text-shadow: 4px 4px 3px #77f;
 }
 ```
 

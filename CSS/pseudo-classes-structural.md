@@ -1,8 +1,8 @@
 # Structural Pseudo-Classes
-> A structural pseudo-class targets an element(s) based on its location in the markup.
+* A structural pseudo-class targets an element(s) based on its location in the markup.
 
 ## :empty
-> `:empty` represents any element that has no children.
+* `:empty` represents any element that has no children.
 
 ```CSS
 .box {
@@ -25,7 +25,7 @@
 ```
 
 ## :first-child
-> `:first-child` represents the first element among a group of sibling elements.
+* `:first-child` represents the first element among a group of sibling elements.
 
 ```CSS
 p:first-child {
@@ -73,7 +73,7 @@ ul li:first-child {
 ```
 
 ## :first-of-type
-> `:first-of-type` represents the first element of its type among a group of sibling elements.
+* `:first-of-type` represents the first element of its type among a group of sibling elements.
 
 ```CSS
 p:first-of-type {
@@ -89,10 +89,10 @@ p:first-of-type {
 ```
 
 ## :lang(en)
-> `:lang()` matches elements based on the language they are determined to be in.
+* `:lang()` matches elements based on the language they are determined to be in.
 
 ```CSS
-:lang(en) > q { quotes: '\201C' '\201D' '\2018' '\2019'; }
+:lang(en) > q { quotes: '\201C' '\201D' '\2018' '\2019'; } /* `>` is child selector) */
 :lang(fr) > q { quotes: '« ' ' »'; }
 :lang(de) > q { quotes: '»' '«' '\2039' '\203A'; }
 ```
@@ -104,7 +104,7 @@ p:first-of-type {
 ```
 
 ## :last-child
-> `:last-child` represents the last element among a group of sibling elements.
+* `:last-child` represents the last element among a group of sibling elements.
 
 ```CSS
 p:last-child {
@@ -127,7 +127,7 @@ p:last-child {
 ```
 
 ## :last-of-type
-> `:last-of-type` represents the last element of its type among a group of sibling elements.
+* `:last-of-type` represents the last element of its type among a group of sibling elements.
 
 ```CSS
 p:last-of-type {
@@ -143,7 +143,7 @@ p:last-of-type {
 ```
 
 ## :not(exception)
-> `:not()` represents elements that do not match a list of selectors. Since it prevents specific items from being selected, it is known as the negation pseudo-class.
+* `:not()` represents elements that do not match a list of selectors. Since it prevents specific items from being selected, it is known as the negation pseudo-class.
 
 ```CSS
 .fancy {
@@ -179,7 +179,7 @@ body :not(.crazy, .fancy) {
 ```
 
 ## :nth-child(n)
-> `:nth-child()` matches elements based on their position in a group of siblings.
+* `:nth-child()` matches elements based on their position in a group of siblings.
 
 ```CSS
 /* Selects every fourth element among any group of siblings */

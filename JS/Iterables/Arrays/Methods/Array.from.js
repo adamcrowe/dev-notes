@@ -22,3 +22,6 @@ function f() {
 }
 
 console.log(f(1, 2, 3)); // [1, 2, 3]
+
+// # References
+// MDN: Array.prototype.from() <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from>
